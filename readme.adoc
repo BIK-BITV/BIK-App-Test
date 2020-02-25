@@ -1,0 +1,6 @@
+= README
+Emanuel Helms
+2020-02-25
+:lang: de
+
+In diesem Projekt werden Prüfschritte für die Barrierefreiheit von mobilen Apps entwickelt. Unterstützt werden die Betriebssysteme Android, iOS und iPadOS. Die zugrunde liegenden Kriterien richten sich nach den W3C https://www.w3.org/TR/WCAG21/[Web Content Accessibility Guidelines (WCAG) 2.1] und der EU Norm 301 549.
