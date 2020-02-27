@@ -1,10 +1,10 @@
 require "asciidoctor"
 require "optparse"
 flags = {}
-source_dir = "adoc"
+source_dir = "adoc/de"
 theme_name = "theme"
 src_theme_dir = source_dir + "/" +theme_name
-output_dir = "html"
+output_dir = "html/de"
 out_theme_dir = output_dir + "/" + theme_name
 OptionParser.new do |opts|
     opts.on('-s', '--standalone')

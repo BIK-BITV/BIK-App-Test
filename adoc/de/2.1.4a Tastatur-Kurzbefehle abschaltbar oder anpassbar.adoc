@@ -1,0 +1,45 @@
+= Prüfschritt 2.1.4a Tastatur-Kurzbefehle abschaltbar oder anpassbar
+include::include/author.adoc[]
+include::include/config.adoc[]
+
+== Was wird geprüft?
+
+Wenn Webseiten oder Software Tastaturkurzbefehle über Einzeltasten (Buchstaben, Zahlen, Satzzeichen oder Symbole) implementieren, können diese entweder abgeschaltet oder auf eine Tastenkombination mit Modifikator-Tasten umgestellt werden, oder sie sind nur aktiv für bestimmte Schnittstellen-Elemente (Bedienelemente), wenn diese den Fokus haben.
+
+== Warum wird das geprüft?
+
+Tastaturkurzbefehle ohne Modifikatortaste sind für Menschen, die am Computer oder einem mobilen Gerät die Spracheingabe benutzen, häufig problematisch. Spracheingaben können unerwartet Befehle für Funktionen auslösen, der Nutzungskontext geht dadurch verloren.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== Prüfung
+
+Software neu laden. Wenn dies den Fokus auf ein Interface-Element setzt (z.B. auf ein Eingabefeld), auf einen leeren Bereich der Software tippen, um sicherzustellen, dass keine Interface-Elemente fokussiert sind.
+
+Mit Ausnahme der Modifikator- und Steuertasten wie STR, ALT, ENTER, Tab, Pfeiltasten und Funktionstasten F1-F12, nacheinander auf alle Tastaturtasten drücken, d.h. auf alle Nummern- Buchstaben-, Symbol- und Zeichensetzungs-Tasten.
+
+Die Umschalttaste halten und die gleichen Tasten erneut betätigen.
+
+Falls einzelne Tasten Funktionen auslösen, prüfen, ob die App Einstellungen bereithält, um diese Tastaturkurzbefehle über Einzeltasten abzuschalten oder auf Tastaturkurzbefehle mit einer Modifikator-Taste zu mappen.
+
+=== Hinweise
+
+Die Anforderung gilt nicht, wenn die Tastaturkurzbefehle nur aktiv sind, sobald bestimmte Interface-Elemente den Fokus haben, etwa ein Auswahllisten-Element bzw. select. Hier dient z.B. das Drücken einer Buchstabentaste zur schnellen Navigation innerhalb der Auswahllisten-Optionen.
+
+=== 4. Bewertung
+
+Prüfschritt erfüllt:
+
+Durch das Drücken der Tasten geschehen keinerlei Änderungen des Inhalts oder des Kontexts.
+
+Es gibt Tastatur-Kurzbefehle über Einzeltasten, aber diese sind über Einstellungen der App abschaltbar oder auf Tastenkombinationen mit Modifikator-Tasten umstellbar.
+
+== Quellen
+
+Bookmarklet "Tastatur-Kurzbefehle auslösen" von Prüfstelle T-Systems MMS kann ggf. zusätzlich eingesetzt werden, um der Reihe nach alle erforderlichen Tasten auszulösen. Dabei muss die Seite genau beobachtet werden, ob sich etwas ändert bzw. geändert hat. Die Konsole der Entwickler-Tools zeigt die simulierten Eingaben.
+
+Understanding Success Criterion 2.1.4: Character Key Shortcuts (zur Zeit nur auf Englisch verfügbar)

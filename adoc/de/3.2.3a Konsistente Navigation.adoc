@@ -1,0 +1,70 @@
+= Prüfschritt 3.2.3a Konsistente Navigation
+include::include/author.adoc[]
+include::include/config.adoc[]
+
+== Was wird geprüft?
+
+Navigationsmechanismen sollen innerhalb der Anwendungssoftware einheitlich sein.
+
+==  Warum wird das geprüft?
+
+Eine einheitliche Navigation innerhalb der App erleichtert das Verständnis, Gesuchtes wird leichter gefunden.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar
+
+=== Prüfung
+
+* Ausgehend von der Startansicht der App verschiedene Bereiche des Angebots aufsuchen, dabei wenn möglich unterschiedliche Navigationsmechanismen verwenden (Menüs, Direktlinks, Breadcrumb, Teaser oder Suche).
+* Prüfen, ob Navigationsmechanismen und Menüeinträge in verschiedenen Bereichen der Anwendung gleich angeordnet und gestaltet sind.
+
+=== Bewertung
+
+Bewertung als nicht oder teilweise erfüllt immer erläutern!
+
+== Einordnung des Prüfschritts
+
+=== Formulierung BITV 2.0
+
+3.2.3 Einheitliche Navigation
+
+Navigationsmechanismen, die innerhalb eines Webangebots wiederholt werden, treten bei jeder Wiederholung in der gleichen Reihenfolge auf, es sei denn, die Nutzerin oder der Nutzer veranlasst eine Änderung.
+
+=== Abgrenzung von anderen Prüfschritten
+
+Während es in diesem Prüfschritt darum geht, ob die eingesetzten Navigationsmechanismen einheitlich, d.h. gleich angeordnet und gestaltet sind, wird in Prüfschritt 2.4.8a "Position im Webauftritt klar" dagegen geprüft, ob die Position des Benutzers im Angebot klar erkennbar ist.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+Guideline
+
+■ Guideline 3.2 Make Web pages appear and operate in predictable ways.
+
+Success criteria
+
+■ 3.2.3 Consistent Navigation (Level AA)
+
+Techniques
+
+General Techniques
+
+■ G61: Presenting repeated components in the same relative order each time they appear
+
+Failures
+
+■ F66: Failure of Success Criterion 3.2.3 due to presenting navigation links in a different relative order on different pages
+
+==  Quellen
+
+Die WCAG 2.1 zur Bedeutung einheitlicher Navigation und der Berechtigung abweichender Bereichsnavigation
+
+Ensuring that repeated components occur in the same order on each page of a site helps users become comfortable that they will able to predict where they can find things on each page. This helps users with cognitive limitations, users with low vision, users with intellectual disabilities, and also those who are blind.
+
+(...) Individuals with low vision who use screen magnification to display a small portion of the screen at a time often use visual cues and page boundaries to quickly locate repeated content. Presenting repeated content in the same order is also important for visual users who use spatial memory or visual cues within the design to locate repeated content.
+
+It is important to note that the use of the phrase "same order" in this section is not meant to imply that subnavigation menus cannot be used or that blocks of secondary navigation or page structure cannot be used. (...)
+
+Quelle: Consistent Navigation: Understanding SC 3.2.3

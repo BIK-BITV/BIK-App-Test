@@ -1,0 +1,110 @@
+= Prüfschritt 1.4.5a Verzicht auf Schriftgrafiken
+include::include/author.adoc[]
+include::include/config.adoc[]
+
+== Was wird geprüft?
+
+Grafiken sollen nicht für die Darstellung von Schriften verwendet werden.
+
+== Warum wird das geprüft?
+
+Schriftgrafiken können nicht oder nur eingeschränkt an Benutzeranforderungen angepasst werden. Ihre Farben können nicht individuell eingestellt werden, auch die individuelle Anpassung der Schriftgröße wirkt nicht auf grafische Schriften.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== Prüfung
+
+Der Einsatz von Schriftgrafiken in Software kann meist nur mittels Blackbox-Test festgestellt werden. Mittels Screenreader kann in den meisten Fällen geprüft werden, ob es sich um reinen Text handelt, hierzu wird der entsprechende Bereich der Software mit Screenreader navigiert bzw. ggf. einfach angetippt und auf die Ausgabe des Screenreaders geachtet.
+
+[arabic]
+. Screenreader starten (siehe Handreichung).
+. Zu testende App starten und zu prüfende Ansicht aufrufen.
+. Bereiche mit vermeintlichen Schriftgrafiken antippen bzw. navigieren und prüfen, ob der Text vom Screenreader ausgegeben wird.
+
+Falls es sich um eine Schriftgrafik (also um keinen „echten“ Text) handelt, wird oft „Bild“ oder „Grafik“ beim antippen ausgegeben.
+
+=== Hinweise
+
+In der Regel nicht negativ bewertet werden grafische Schriften auf Logos oder in Fotos.
+
+=== Bewertung
+
+Nicht voll erfüllt:
+
+Für Schaltflächen, deren Bedeutung aus dem Kontext hervorgeht (einzelne Schaltfläche unter Eingabefeldern), werden Schriftgrafiken verwendet.
+
+Nicht erfüllt:
+
+Für wichtige Texte, zum Beispiel Überschriften, Menüoptionen oder für Schaltflächen, deren Beschriftung gelesen werden muss, werden Schriftgrafiken verwendet.
+
+== Einordnung des Prüfschritts
+
+=== Formulierung BITV 2.0
+
+Für die Vermittlung von Informationen sind keine Schriftgrafiken zu verwenden, es sei denn,
+
+diese lassen sich individuell an die visuellen Bedürfnisse der Nutzerin oder des Nutzers anpassen oder
+
+eine bestimmte Präsentation ist für die Vermittlung der Informationen des Textes wesentlich.
+
+=== Abgrenzung zu anderen Prüfkriterien
+
+Verwendung von Listen-Markup für die Darstellung von Listen: siehe Prüfschritt 1 "HTML-Strukturelemente für Listen"
+
+Verwendung von Tabellen-Markup für die Darstellung von Tabellen: siehe Prüfschritt 1 "Datentabellen richtig aufgebaut"
+
+Grenzen des Prüfschritts
+
+Checkpunkt 3.1 der WCAG fordert generell die Verwendung von Markup anstelle von Bildern, um Informationen darzustellen. Als Beispiel wird MathML genannt. Wesentlich wichtiger ist allerdings die (ebenfalls angesprochene) Vermeidung der Nutzung von Bildern für Texte. In diesem Prüfschritt wird nur die Verwendung von Grafiken für Überschriften, "normalen" Fließtext und die Beschriftung von Bedienelementen berücksichtigt.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+Guideline
+
+Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background
+
+Success criterion
+
+1.4.5 Images of Text (Level AA)
+
+Techniques
+
+General Techniques
+
+G140: Separating information and structure from presentation to enable different presentations
+
+CSS Techniques
+
+C22: Using CSS to control visual presentation of text
+
+C30: Using CSS to replace text with images of text and providing user interface controls to switch
+
+== Quellen
+
+Does SVG text pass WCAG 1.4.5 (Images of Text)? (Léonie Watson)
+
+== Fragen zu diesem Prüfschritt
+
+Wie ist es mit der Darstellung von Schriftzeichen, die nicht auf allen Computern zur Verfügung stehen? Also zum Beispiel arabische Schriftzeichen: sollten dafür nicht besser Grafiken verwendet werden?
+
+Moderne Betriebssysteme stellen die Schriftzeichen aller verbreiteten Sprachen zur Verfügung. In aller Regel sind Schriftzeichen, mit denen ein möglicher Nutzer etwas anfangen könnte, auch installiert. Die grafische Darstellung von Schriftzeichen ist daher nur als zusätzliches Angebot sinnvoll.
+
+Im BITV-Test wird nur geprüft, ob Text in Form von Text verfügbar ist. Zusätzliche grafische Angebote werden nicht berücksichtigt.
+
+Was ist mit auf Fotos abgebildeten Schriften?
+
+Schriftgrafiken sollen nicht verwendet werden, weil die Darstellung des Textes dann nicht mehr flexibel ist. Bei abgebildeten Schriften, also zum Beispiel bei Fotos mit Ladenschildern sind Inhalt und Darstellung zusammengehörig. Dieser Prüfschritt ist also nicht anwendbar.
+
+Davon ausgenommen sind allerdings Abbildungen, die wie Schriftgrafiken verwendet werden, also zum Beispiel als Überschriften dienen.
+
+Oft ist es nicht möglich, auf Schriftgrafiken zu verzichten. Denn das Corporate Design gilt auch für den Webauftritt, und die für Texte verfügbaren Schrifttypen passen nicht.
+
+Sicher gibt es gute Gründe für den Einsatz von Schriftgrafiken. Der Einsatz von Schriftgrafiken ist aber auf der anderen Seite aus Sicht der Barrierefreiheit problematisch. Es muss also entschieden werden, ob das einheitliche Corporate Design wichtiger ist, als die barrierefreie Zugänglichkeit des Webauftritts. Wenn die barrierefreie Zugänglichkeit der im Webauftritt bereitgestellten Inhalte Priorität haben soll, wird es erforderlich sein, das Corporate Design anzupassen oder auf seinen durchgängigen Einsatz zu verzichten.
+
+Wie wird Text in Firmenlogos bewertet?
+
+In diesem Prüfschritt geht es um die Verwendung von grafischen Schriften für Texte, Überschriften und Bedienelemente. Das Firmenlogo ist nicht relevant, so lange es nicht (oder nur zusätzlich) als Überschrift oder Bedienelement eingesetzt wird.

@@ -1,0 +1,79 @@
+= Prüfschritt 2.1.2a Keine Tastaturfalle
+include::include/author.adoc[]
+include::include/config.adoc[]
+
+== Was wird geprüft?
+
+Kann der Tastaturfokus auf ein Element der Ansicht bewegt werden, muss er auch von diesem Element wieder wegbewegt werden können. Der Inhalt darf keine Tastaturfalle erzeugen.
+
+Wenn mehr als Pfeil- oder Tabulatortasten oder andere Standard-Beendigungsmethoden erforderlich sind, wird Der Benutzer auf die benötigte Methode zum Wegbewegen des Fokus hingewiesen.
+
+Da jeder Teil einer Software, der dieses Erfolgskriterium nicht erfüllt, die Fähigkeit des Nnutzers beeinträchtigen kann, die gesamte Software zu verwenden, ist dies für alle Inhalte in der Software erforderlich um dieses Erfolgskriterium zu erfüllen.
+
+Die Standard-Exit-Methoden können je nach Plattform variieren. Beispielsweise ist auf vielen Desktop-Plattformen die Escape-Taste eine Standardmethode zum Beenden bzw. schließen von Dialogen.
+
+== Warum wird das geprüft?
+
+Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit Touch-Eingaben als auch mit der Tastatur möglich sein.
+
+Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder Blinde.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== 2. Prüfung
+
+[arabic]
+. Tastatur z. B. per Bluetooth anschließen.
+. App starten und zu prüfende Ansicht aufrufen.
+. Mit der Tabulatortaste die Links und Formularelemente durchgehen.
+. Prüfen, ob alle Links und Formularelemente erreicht und wieder verlassen werden können.
+
+=== Hinweise zu Tastaturfallen
+
+Wenn die Tastaturfalle verhindert, dass man Inhalte nach der Tastaturfalle erreicht, dann ist eventuell auch Prüfschritt 1 "Ohne Maus nutzbar" nicht erfüllt!
+
+=== Bewertung
+
+Erfüllt:
+
+Es gibt keine Tastaturfallen.
+
+Nicht erfüllt:
+
+Wesentliche Inhalte und Funktionen sind aufgrund einer Tastaturfalle mit der Tastatur nicht erreichbar oder nicht bedienbar.
+
+== Einordnung des Prüfschritts
+
+=== Formulierung BITV 2.0
+
+2.1.2 Keine Tastaturfalle
+
+Kann der Tastaturfokus durch Verwendung einer Tastaturschnittstelle auf ein Element der Seite bewegt werden, muss der Fokus über die Tastaturschnittstelle auch von diesem Element wegbewegt werden können. Sind hierfür mehr als die Standard-Pfeil- oder -Tab-Tasten erforderlich, sind die Nutzerinnen und Nutzer darüber zu informieren, mit welcher Methode der Fokus weg-bewegt werden kann.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+Guideline
+
+Guideline 2.1 Keyboard Accessible: Make all functionality available from a keyboard.
+
+Success criteria
+
+2.1.2 No Keyboard Trap (Level A)
+
+Techniques
+
+General Techniques
+
+G21: Ensuring that users are not trapped in content
+
+Flash Techniques
+
+FLASH17: Providing keyboard access to a Flash object and avoiding a keyboard trap
+
+Failures
+
+F10: Failure of Success Criterion 2.1.2 and Conformance Requirement 5 due to combining multiple content formats in a way that traps users inside one format type
