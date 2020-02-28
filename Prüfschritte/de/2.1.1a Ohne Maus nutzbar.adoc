@@ -1,0 +1,131 @@
+= Prüfschritt 2.1.1a Ohne Maus nutzbar
+include::include/author.adoc[]
+include::include/config.adoc[]
+
+== Was wird geprüft?
+
+Die Webseite bzw. Software soll auch ohne Maus- und Touch-Eingaben also ausschließlich mit der Tastatur zu benutzen sein.
+
+== Warum wird das geprüft?
+
+Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss mit der Tastatur möglich sein. Denn auch andere Spezialgeräte verhalten sich so wie eine Tastatur oder ein Zeiger.
+
+Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer von iOS / iPadOS und Android arbeitet mit Touch-Eingaben, daher wird oft nur an diese gedacht.
+
+Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder Blinde.
+
+=== Wie wird geprüft?
+
+Anwendbarkeit des Prüfschritts
+
+Wenn es sich um Nicht-Web-Software handelt, die eine Benutzeroberfläche bietet und den Zugriff auf Tastaturen oder ein Tastaturinterface unterstützt, muss sie diesen Prüfschritt erfüllen. Dies betrifft also die gängigen mobilen Plattformen wie Apples iOS / iPadOS und Android von Google.
+
+=== Prüfung
+
+[arabic]
+. Tastatur z. B. per Bluetooth anschließen.
+. App mit zu prüfender Ansicht öffnen.
+. Mit der Tabulatortaste die Links und Formularelemente durchgehen.
+. Prüfen, ob alle wesentlichen Links und Formularelemente erreicht und benutzt werden können.
+. Falls die Ansicht Elemente enthält, die wie Bedienelemente aussehen, jedoch nicht mit der Tabulatortaste angesteuert werden, prüfen, ob diese Elemente auf Touch-Eingaben reagieren (zum Beispiel mit Bewegung, Vergrößerung, Einblenden von weiteren Inhalten).
+. Falls die Ansicht scrollbare Bereiche enthält, sollen nicht sichtbare Inhalte dieser Bereiche auch über die Tastatur erreichbar sein.
+
+=== Hinweise
+
+*3.1 Allgemeine Hinweise*
+
+Unwesentlich können zum Beispiel Funktionen sein, die schon vom der Plattform (Betriebssystem) selbst angeboten werden (beispielsweise "Fenster schließen").
+
+Der Prüfer muss mit der Funktionsweise der eingesetzten Browser und Betriebssysteme vertraut sein, er muss wissen, welche Tasten und Tastenkombinationen für die Tastaturbedienung vorgesehen sind.
+
+Die Nutzung per Tastatur muss nicht genau der Nutzung per Touch-Eingabe entsprechen. Es ist beispielsweise kein Mangel, wenn per Maus über Ausklappmenüs in einem Schritt tiefe Links aufgerufen werden können, per Tastatur aber für den Aufruf der betreffenden Seiten/Ansichten mehrere Schritte erforderlich sind.
+
+Für diesen Prüfschritt spielt die Reihenfolge, in der Links und Formularelemente angesteuert werden, keine Rolle.
+
+*3.2 Hinweis zu Drag-and-Drop-Funktionen*
+
+Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind, müssen auch tastaturnutzbare Alternativen angeboten werden.
+
+=== 4. Bewertung
+
+Erfüllt:
+
+Alle wesentlichen Inhalte und Funktionen sind im Prinzip erreichbar und bedienbar.
+
+Nicht erfüllt:
+
+Wesentliche Inhalte und Funktionen sind mit der Tastatur nicht erreichbar oder nicht bedienbar.
+
+== Einordnung des Prüfschritts
+
+=== Formulierung BITV 2.0
+
+2.1.1 Tastaturbedienbarkeit
+
+Die gesamte Funktionalität des Inhalts muss über eine Tastaturschnittstelle bedient werden können, ohne dass bestimmte Zeitvorgaben für die einzelnen Tastenanschläge einzuhalten sind. Dies gilt nicht, wenn die zu Grunde liegende Funktion Eingaben verlangt, die nicht nur von den Endpunkten, sondern auch vom Verlauf der Benutzerbewegung abhängen.
+
+=== Abgrenzung zu anderen Prüfkriterien
+
+Dieser Prüfschritt betrifft die Auslösbarkeit von Funktionen und Links auch über die Tastatur.
+
+Tastaturfallen sind Gegenstand von Prüfschritt 1
+
+Bei skriptgenerierten oder über Skripts eingeblendeten Elementen (etwa ausklappenden Texten oder Lightboxen) ist die sinnvolle Reihenfolge im Quellcode Gegenstand von Prüfschritt 1.
+
+Die Fokushervorhebung ist Gegenstand von Prüfschritt 1 "Aktuelle Position des Fokus deutlich"
+
+Die Sinnvolle Fokusreihenfolge wird in 1 "Schlüssige Reihenfolge bei Tastaturbedienung" bewertet.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+Guideline
+
+Guideline 2.1 Keyboard Accessible: Make all functionality available from a keyboard.
+
+Success criteria
+
+2.1.1 Keyboard (Level A)
+
+Techniques
+
+General Techniques
+
+G90: Providing keyboard-triggered event handlers
+
+G202: Ensuring keyboard control for all functionality
+
+HTML Techniques
+
+H91: Using HTML form controls and links
+
+Scripting Techniques
+
+SCR2: Using redundant keyboard and mouse event handlers
+
+SCR20: Using both keyboard and other device-specific functions
+
+SCR27: Reordering page sections using the Document Object Model
+
+SCR29: Adding keyboard-accessible actions to static HTML elements
+
+SCR35: Making actions keyboard accessible by using the onclick event of anchors and buttons
+
+Failures
+
+F42: Failure of Success Criterion 1.3.1 and 2.1.1 due to using scripting events to emulate links in a way that is not programmatically determinable
+
+F54: Failure of Success Criterion 2.1.1 due to using only pointing-device-specific event handlers (including gesture) for a function
+
+F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received
+
+== Quellen
+
+Die WCAG 2.1 zur Tastaturbedienbarkeit
+
+If all functionality can be achieved using the keyboard, it can be accomplished by keyboard users, by speech input (which creates keyboard input), by mouse (using on-screen keyboards), and by a wide variety of assistive technologies that create simulated keystrokes as their output. No other input form has this flexibility or is universally supported and operable by people with different disabilities, as long as the keyboard input is not time-dependent.
+
+Note that providing universal keyboard input does not mean that other types of input should not be supported. Optimized speech input, optimized mouse/pointer input, etc., are also good. The key is to provide keyboard input and control as well.
+
+Some devices do not have native keyboards?for example, a PDA or cell phone. If these devices have a Web browsing capability, however, they will have some means of generating text or "keystrokes." This guideline uses the term "keyboard interface" to acknowledge that Web content should be controlled from keystrokes that may come from a keyboard, keyboard emulator, or other hardware or software that generates keyboard or text input.
+
+Quelle: Keyboard Accessible: Understanding Guideline 2.1

@@ -1,7 +1,7 @@
 require "asciidoctor"
 require "optparse"
 flags = {}
-source_dir = "adoc/de"
+source_dir = "Prüfschritte/de"
 theme_name = "theme"
 src_theme_dir = source_dir + "/" +theme_name
 output_dir = "html/de"

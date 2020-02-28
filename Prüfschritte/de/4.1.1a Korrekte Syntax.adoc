@@ -1,0 +1,131 @@
+= Prüfschritt 4.1.1a Korrekte Syntax
+include::include/author.adoc[]
+include::include/config.adoc[]
+
+== Was wird geprüft?
+
+Die verwendete Markup-Sprache, auf Webseiten bspw. HTML, muss korrekt eingesetzt werden. Dabei muss für jedes Element folgendes gewährleistet sein:
+
+Sie besitzen vollständige Start- und Endtags,
+
+sie sind gemäß Spezifikation korrekt verschachtelt
+
+sie enthalten keine doppelten Attribute
+
+alle ihre IDs sind eindeutig, außer dort wo die Spezifikationen etwas anderes erlauben
+
+== Warum wird das geprüft?
+
+Eine saubere Markup-Syntax hilft in Einzelfällen der Hilfstechnologie im Umgang mit der App.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts:
+
+Bei Anwendungssoftware muss die Software Markup-Sprachen so einsetzen, dass das Markup separat exponiert und für Hilfstechnologien und Zugänglichkeitsmerkmale der Software oder für einen vom Nutzer definierbaren User-Agent verfügbar ist. Andernfalls ist der Prüfschritt nicht anwendbar.
+
+=== Prüfung
+
+Ein genaues Prüfverfahren steht für diesen Prüfschritt noch nicht zur Verfügung. Je nach Markup-Sprache kann ggf. analog zur HTML-Prüfung ein Online-Validator für das entsprechende Format genutzt werden.
+
+=== Hinweise
+
+* Wenn die Prüfung aufgrund einer fehlenden doctype-Definition nicht ausgeführt werden kann, dann validiert die App nicht, der Prüfschritt ist dann nicht bestanden. Der doctype soll nicht manuell eingetragen werden!
+
+=== Bewertung
+
+*???*
+
+== Einordnung des Prüfschritts
+
+=== Formulierung BITV 2.0
+
+4.1.1 Syntaxanalyse
+
+Inhalte, die mit Markup-Sprachen erstellt werden, bestehen aus Elementen, für die folgende Eigenschaften gelten:
+
+Sie verfügen über vollständige Start- und End-Tags,
+
+sie werden entsprechend ihren Spezifikationen verschachtelt,
+
+sie enthalten keine doppelten Attribute und
+
+alle ihre IDs sind eindeutig,
+
+es sei denn, ihre Spezifikationen erlauben diese Besonderheit.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+Guideline
+
+Guideline 4.1 Compatible: Maximize compatibility with current and future user agents, including assistive technologies.
+
+Success criterion
+
+4.1.1 Parsing (Level A)
+
+Techniques
+
+General Techniques
+
+G134: Validating Web pages
+
+G192: Fully conforming to specifications
+
+HTML Techniques
+
+H74: Ensuring that opening and closing tags are used according to specification
+
+H75: Ensuring that Web pages are well-formed
+
+H88: Using HTML according to spec
+
+H93: Ensuring that id attributes are unique on a Web page
+
+Failures
+
+F70: Failure of Success Criterion 4.1.1 due to incorrect use of start and end tags or attribute markup
+
+F77: Failure of Success Criterion 4.1.1 due to duplicate values of type ID
+
+Quellen
+
+Bedeutung von validem HTML
+
+Ensuring that Web pages have complete start and end tags and are nested according to specification helps ensure that assistive technologies can parse the content accurately and without crashing.
+
+Quelle: Parsing: Understanding SC 4.1.1, Specific Benefits of Success Criterion 4.1.1
+
+Validation will usually eliminate ambiguities (and more) because an essential step in validation is to check for proper use of that technology's markup (in a markup language) or code (in other technologies). Validation does not necessarily check for full conformance with a specification but it is the best means for automatically checking content against its specification.
+
+Quelle: WCAG 2.1 Technik G134: Validating web pages
+
+Why should I care if my document is in correct HTML? It displays all right on my browser.
+
+All browsers know how to deal with correct HTML. However, if it is incorrect, the browser has to repair the document, and since not all browsers repair documents in the same way, this introduces differences, so that your document may look and work differently on different browsers. Since there are hundreds of different browsers, and more coming all the time (not only on PCs, but also on PDAs, mobile phones, televisions, printers, even refrigerators), it is impossible to test your document on every browser. If you use incorrect HTML and your document doesn't work on a particular browser, it is your fault; if you use correct HTML and it doesn't work, it is a bug in the browser.
+
+Quelle: http://www.w3.org/MarkUp/2004/xhtml-faq
+
+Prüfung von generiertem Quelltext
+
+Auf Stackoverflow.com gibt es eine ausführliche Diskussion der Schwierigkeiten, den generierten Quelltext auf verschiedenen Wegen zu extrahieren und zu validieren (auf Englisch)
+
+Quelle: Best way to view generated source of web page (stackoverflow.com)
+
+== Fragen zu diesem Prüfschritt
+
+Scripts, die beim Laden der Seite ausgeführt werden, verändern den ursprünglichen Quelltext. Auch AJAX-Anfragen können den Quelltext noch nach dem Laden der Seite erweitern und ändern. Warum wird nicht der geparste (also veränderte) HTML-Code validiert?
+
+Tatsächlich wäre es wünschenswert, die Validität des geparsten Quelltextes zu prüfen, einschließlich späterer Modifikationen des DOM durch AJAX-Anfragen. Es gibt zur Zeit aber keine handhabbare Möglichkeit, das zu tun: Browser verändern und reparieren den ursprünglichen Quelltext, und Werkzeuge, die den generierten Quelltext anzeigen, enthalten nicht die doctype-Deklaration des Quelltexts. Deshalb wird lediglich der ungeparste Quelltext validiert.
+
+Was ist, wenn die Seite aufgrund von Fremdinhalten, zum Beispiel wegen von einem fremden Server gelieferter Werbung nicht validiert?
+
+Die Zugänglichkeit von deutlich abgegrenzter Werbung wird im BITV-Test nicht geprüft. Geprüft wird aber, ob die Werbung die Nutzung der anderen Seiteninhalte einschränkt. Das ist der Fall, wenn sie blinkt oder sich bewegt (Prüfschritt 2.2.2a "Bewegte Inhalte anhaltbar") oder nicht valide ist.
+
+Was ist, wenn der HTML-Validator fehlerhaft arbeitet?
+
+"Anerkannte" Fehler bestehen nicht dauerhaft, sie werden vom W3C bearbeitet und behoben. Gegebenenfalls ist die Prüfung zu wiederholen, nachdem der Fehler gemeldet und behoben worden ist. Für die Bewertung des Prüfschritts ist allein das Ergebnis relevant. Auf welcher Basis es zustande kommt, spielt keine Rolle!
+
+Sollte der Prüfschritt nicht als teilweise erfüllt bewertet werden, wenn der W3C-Validator nur wenige Fehler anzeigt?
+
+Die Anzahl der vom W3C-Validator angezeigten Fehler ist nicht aussagekräftig. Denn im Unterschied zu gängigen Browsern versucht der W3C-Validator nicht, aus fehlerhaften Seiten irgendwie etwas Brauchbares heraus zu holen. Ein einzelner Fehler kann dazu führen, dass der Validator den Rest der Seite nicht mehr richtig liest und endlose Listen von vermeintlichen weiteren Fehlern erzeugt.

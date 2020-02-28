@@ -1,0 +1,161 @@
+= Prüfschritt 2.2.1a Zeitbegrenzungen anpassbar
+include::include/author.adoc[]
+include::include/config.adoc[]
+
+== Was wird geprüft?
+
+Inhalte werden ohne Zeitbegrenzung angezeigt, die Zeitbegrenzung ist abschaltbar, oder sie kann verlängert werden. Dies betrifft etwa:
+
+zeitbegrenzte Dialoge, welche Nutzer zu Entscheidungen auffordern
+
+Online-Transaktionen mit begrenzter Session-Dauer und automatischem Ausloggen bei längerer Inaktivität
+
+das automatische Neu-Laden von Inhalten oder die zeitverzögerte Weiterleitung zu einer anderen Ansicht.
+
+Für jedes von der Software festgelegte Zeitlimit gilt mindestens eine der folgenden Bedingungen:
+
+• Ausschalten: Der Benutzer darf das Zeitlimit ausschalten, bevor er darauf stößt. oder
+
+• Anpassen: Der Benutzer kann das Zeitlimit anpassen, bevor er es in einem langen Zeitraum feststellt, der mindestens zehnmal so lang ist wie die Standardeinstellung. oder
+
+• Verlängern: Der Benutzer wird vor Ablauf der Zeit gewarnt und erhält mindestens 20 Sekunden Zeit, um das Zeitlimit mit einer einfachen Aktion (z. B. "Drücken Sie die Leertaste") zu verlängern. Der Benutzer kann das Zeitlimit um mindestens zehn Sekunden verlängern mal; oder
+
+• Echtzeit-Ausnahme: Das Zeitlimit ist ein erforderlicher Bestandteil eines Echtzeitereignisses (z. B. einer Auktion), und es ist keine Alternative zum Zeitlimit möglich. oder
+
+• Wesentliche Ausnahme: Das Zeitlimit ist wesentlich und eine Verlängerung würde die Aktivität ungültig machen. oder
+
+• 20-Stunden-Ausnahme: Das Zeitlimit ist länger als 20 Stunden.
+
+Hinweis 1: Dieses Erfolgskriterium stellt sicher, dass Benutzer Aufgaben ohne unerwartete Änderungen des Inhalts oder des Kontexts ausführen können, die auf eine zeitliche Begrenzung zurückzuführen sind. Dieses Erfolgskriterium sollte in Verbindung mit dem WCAG 2.1-Erfolgskriterium 3.2.1 betrachtet werden, das Änderungen des Inhalts oder des Kontexts infolge von Benutzeraktionen einschränkt.
+
+== Warum wird das geprüft?
+
+Die Auto-Aktualisierung durch das Neu-Laden einer Seite/Ansicht kann bei Screenreader-Nutzern das Vorlesen der Seiteninhalte unterbrechen und unvermittelt von vorne beginnen.
+
+Bei zeitverzögerten Weiterleitungen sollen Nutzer etwas lesen, bevor sie auf eine andere Ansicht weitergeleitet werden. Die Zeitbegrenzung macht die zwischendurch angezeigte Ansicht für viele nicht zugänglich.
+
+Wenn Zeitbegrenzungen sich nicht abschalten oder verlängern lassen, können Nutzer, die mehr Zeit für Eingaben brauchen, Online-Transaktionen oft nicht rechtzeitig abschließen.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Die Prüfung auf Auto-Aktualisierung und Weiterleitung (Abschnitt 2.1.) ist immer anwendbar.
+
+Die Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen (Abschnitt 2.2.) ist nur anwendbar auf Ansichten mit Transaktionen, welche üblicherweise aus datenschutzrechtlichen oder sicherheitsrelevanten Gründen Zeitbegrenzungen unterliegen (etwa beim Online-Banking oder Online-Shops).
+
+=== Prüfung
+
+2.1. Prüfung auf Auto-Aktualisierung durch Neu-Laden der Seite / Ansicht und Weiterleitung auf andere Seite / Ansicht
+
+2.2. Prüfung auf Abschaltbarkeit oder Verlängerbarkeit von Zeitbegrenzungen
+
+2.2.1. Zeitbegrenzung wird angezeigt
+
+Software-Ansichten mit Transaktionen können Zeitbegrenzungen auf verschiedene Weise anzeigen:
+
+* Die verbleibende Zeitspanne (Session-Dauer) einer Transaktion wird angezeigt. Jede Interaktion setzt die Session-Dauer automatisch zurück.
+* Rechtzeitig vor Ablauf der Zeit erscheint ein Dialog zum Verlängern der Zeitbegrenzung.
+* Ein Kontrollelement erlaubt das Abschalten oder Verlängern der Zeitbegrenzung. Nutzer haben genügend Zeit, das Kontrollelement vor dem Ablauf der Zeit zu finden.
+
+2.2.2. Nicht unmittelbar sichtbare Zeitbegrenzungen
+
+Wenn zu erwarten ist, dass die auf der Ansicht angebotene Transaktion eine Zeitbegrenzung hat, aber weder eine laufende Anzeige der Session-Dauer noch ein Kontrollelement zum Abschalten oder Verlängern angeboten werden:
+
+Software-Ansicht mit Transaktionen, die üblicherweise eine begrenzte Session-Dauer haben (Online-Banking, Bezahlvorgänge von ShopsSoftware aufrufen und Daten eingeben.
+
+die Software für 20 Minuten nicht nutzen.
+
+Nach Ablauf der 20 Minuten prüfen, ob die Seite/Ansicht noch verfügbar ist und Daten erfolgreich abgeschickt werden können.
+
+Wenn die Ansicht nach 20 Minuten mitteilt, dass die Transaktionsdauer abgelaufen und die Session beendet worden ist, Software erneut laden und abwarten, ob auf der Ansicht ein Dialog erscheint, der rechtzeitig (mindestens 20 Sekunden vor Ablaufen der Zeit) eine Verlängerungsmöglichkeit der Zeitbegrenzung bietet.
+
+=== Hinweise
+
+Dieser Prüfschritt bezieht sich nur auf vom Inhalt hervorgerufene Zeitbegrenzungen (sowohl serverseitig als auch clientseitig). Externe Zeitbegrenzungen, etwa des Betriebssystems, sind in der Regel nicht im Einflussbereich des Autors und damit nicht Gegenstand der BITV.
+
+=== Bewertung
+
+Nicht erfüllt:
+
+Die Ansicht wird periodisch aktualisiert und veranlasst den Screenreader den Inhalt erneut vorzulesen oder dessen Fokus wird verschoben.
+
+Es gibt eine verzögerte Weiterleitung auf eine andere Seite / Ansicht.
+
+Der Ablauf einer Zeitbegrenzung wird nicht angezeigt. Erst mit dem Abschicken des Formulars wird darüber informiert, dass die Sessiondauer überschritten wurde.
+
+Nicht voll erfüllt:
+
+Die Zeitbefristung der Session wird angezeigt und Nutzer-Aktivitäten setzen die Frist zurück, es gibt jedoch spätestens 20 Sekunden vor Ablauf der Frist keinen Dialog, der darüber informiert und Möglichkeiten zur Verlängerung bietet.
+
+Für das Auffinden des Kontrollelements zum Abschalten der Zeitbegrenzung steht nicht genug Zeit zur Verfügung.
+
+== Einordnung des Prüfschritts
+
+=== Formulierung BITV 2.0
+
+2.2.1 Zeitbezogene Anforderungen
+
+Für jede Zeitbegrenzung, die durch Inhalte vorgegeben ist, muss mindestens eine der folgenden Möglichkeiten gegeben sein:
+
+Die Zeitbegrenzung muss ausschaltbar sein, bevor die Zeit abläuft.
+
+Die Zeitbegrenzung kann innerhalb eines Zeitrahmens, der mindestens das Zehnfache der Standardeinstellung beträgt, verändert werden.
+
+Die Nutzerin oder der Nutzer wird vorgewarnt, dass die Zeit abläuft, und hat dann mindestens 20 Sekunden Zeit, die Dauer durch eine einfache Aktion (z. B. durch Drücken der Leertaste) zu verlängern. Diese Möglichkeit erhält die Nutzerin oder der Nutzer mindestens zehnmal.
+
+Es ist nicht erforderlich, die Zeitbegrenzung anzupassen, wenn
+
+die Zeitbegrenzung ein notwendiger Bestandteil eines Echtzeit-Ereignisses (z. B. einer Auktion) ist und es keine Alternative zur vorgesehenen Zeitbegrenzung gibt,
+
+die Zeitbegrenzung notwendig ist und durch Verlängerung die Aktivität ungültig werden würde oder
+
+der zeitliche Rahmen mehr als 20 Stunden beträgt.
+
+=== Abgrenzung von anderen Prüfkriterien
+
+Dieser Prüfschritt 2.2.1a betrifft Zeitbegrenzungen, welche die ganze Ansicht betreffen, unabhängig davon, ob die zeitbegrenzten Inhalte bewegt sind (also ablenken) oder nicht. Geprüft wird, ob solche Zeitbegrenzungen abschaltbar oder verlängerbar sind.
+
+Der Prüfschritt 2.2.2a "Bewegte Inhalte abschaltbar" betrifft dagegen bewegte oder autoaktualisierte Inhalte, die Nutzer ablenken oder durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Nutzer schwierig wahrnehmbar sind. Hier wird geprüft, ob Nutzer die Möglichkeit haben, bewegte oder oder autoaktualisierte Inhalte anzuhalten oder auszublenden.
+
+Wenn es ein Kontrollelement oder einen dokumentierten Tastaturbefehl gibt, um Zeitbegrenzungen abzuschalten oder zu verlängern, wird in diesem Prüfschritt lediglich geprüft, ob Nutzer genügend Zeit haben, diesen Mechanismus zu finden und zu nutzen. In anderen Prüfkriterien wird geprüft, ob der Mechanismus selbst zugänglich und verständlich ist (etwa in 2.1.1a "Ohne Maus nutzbar" oder 1.3.1h "Beschriftung programmatisch ermittelbar").
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+Guideline
+
+Guideline 2.2 Enough Time: Provide users enough time to read and use content.
+
+Success criteria
+
+2.2.1 Timing Adjustable (Level A)
+
+Techniques
+
+General Techniques
+
+G133: Providing a checkbox on the first page of a multipart form that allows users to ask for longer session time limit or no session time limit
+
+G180: Providing the user with a means to set the time limit to 10 times the default time limit
+
+G198: Providing a way for the user to turn the time limit off
+
+Client-side Scripting Techniques
+
+SCR16: Providing a script that warns the user a time limit is about to expire AND SCR1: Allowing the user to extend the default time limit
+
+Failures
+
+F40: Failure of Success Criterion 2.2.1 and 2.2.4 due to using meta redirect with a time limit
+
+F41: Failure of Success Criterion 2.2.1, 2.2.4, and 3.2.5 due to using meta refresh with a time-out
+
+F58: Failure of Success Criterion 2.2.1 due to using server-side techniques to automatically redirect pages after a time-out
+
+== Fragen zu diesem Prüfschritt
+
+Wie kann durch ein Kontrollelement in der Ansicht sichergestellt werden, dass der Benutzer eine Zeitbegrenzung oder Autoaktualisierung auf Wunsch abschalten kann?
+
+Wichtig ist, dass die Autoaktualisierung oder das Ende der Zeitbegrenzung nicht erfolgt, bevor der Benutzer auf ein entsprechendes Kontrollelement zum Abschalten gestoßen ist. Daher sollte die Schaltfläche oder der Link zum Abschalten oder Verlängern am Beginn der Ansicht angezeigt werden, damit er von Menschen mit verschiedensten Behinderungen auch gefunden und aktiviert werden kann. (benötigt im Kontext von mobilen Apps ggf. eine Überarbeitung)
+
+Dennoch ist nicht sicher, dass Benutzer die Option zum Abschalten der Autoaktualisierung oder Zeitbegrenzung finden und verstehen.

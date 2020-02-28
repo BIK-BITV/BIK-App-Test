@@ -1,0 +1,113 @@
+= Prüfschritt 2.4.1a Bereiche überspringbar
+include::include/author.adoc[]
+include::include/config.adoc[]
+
+== Was wird geprüft?
+
+In Apps kann der Nutzer die verschiedenen Bereiche in der Ansicht anspringen bzw. überspringen. Dies gilt z. B. für Menüleisten, Werkzeugleisten, Navigationsleisten, Dokumentenbereiche usw. Unter iOS kann zwischen s. g. Containern hin und her gesprungen werden. In einem Container kann bspw. Der Navigationsbereich enthalten sein und in einem weiteren Container könnte eine Dokumentenansicht beinhaltet sein.
+
+== Warum wird das geprüft?
+
+Software wird oftmals visuell in verschiedene Bereiche aufgeteilt. Hier könnten z. B. Werkzeuge nach ihrer Verwendung in verschiedene Leisten gruppiert sein. Diese Bereiche müssen dann z. B. mittels Tastatur oder Touch-Gesten (ggf. mittels Screenreader) anspringbar sein, um eine effiziente und barrierearme Nutzung zu ermöglichen. Dies gilt insbesondere für komplexere Anwendungen.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn es in der App-Ansicht deutlich voneinander abgegrenzte Bereiche gibt, etwa Navigation und Inhalt. Das ist bei informationsorientierten Seiten und der Mehrzahl an Apps meist der Fall.
+
+=== Prüfung
+
+Die verschiedenen Bereiche der Software-Ansicht (Menü- und Werkzeugleisten, Seitenleisten, Dokumentenbereiche, …) sind mittels Tastatur oder Touchgesten anspringbar. Unter mobilen Systemen ist es möglich, Bereiche als solche programmatisch auszuzeichnen. Unter iOS/iPadOS kann z. B. mit dem Screenreader VoiceOver zwischen „Containern“ mittels VO-Rotor navigiert werden. Ggf. muss der Punkt „Container“ noch dem VoiceOver-Rotor hinzugefügt werden, dies geschieht in den iOS / iPadOS Einstellungen unter Allgemein -> Bedienungshilfen -> VoiceOver -> Rotor.
+
+Mit aktiviertem Screenreader muss dann getestet werden, ob sich die verschiedenen Bereiche der Software anspringen lassen. ggf. sollte im Handbuch der Software nachgesehen werden, ob für diese Aufgabe eine andere Taste bzw. Tastenkombination vorgesehen wird.
+
+Auf den Apple-Systemen inkl. MacOS kann mittels VO-Rotor zwischen den Containern gewechselt werden. Ist die VO-Schnellnavigation unter MacOS aktiv, kann auch mittels der Kombination Strg + Pfeil links bzw. Strg + Pfeil rechts zwischen den Containern gewechselt werden. Die Schnellnavigation lässt sich mit dem gleichzeitigen Betätigen der linken und rechten Pfeiltaste aktivieren und wieder deaktivieren.
+
+=== 3. Hinweise
+
+Eigenständige Bereiche
+
+Eigenständige Bereiche sind zum Beispiel:
+
+* Navigation und Inhalt
+* Spalten mit unterschiedlichen Inhalten
+* Bereiche, die durch Umrahmung als zusammengehörig gekennzeichnet sind
+
+=== Bewertung
+
+Erfüllt:
+
+Bei Anwendungen sind alle Bereiche wie Navigation, Werkzeugleiste, Dokumentenbereich usw. mittels Tastenkombination oder Touch-Gesten anspringbar.
+
+Nicht erfüllt:
+
+In der Software existieren klar abgegrenzte Bereiche wie z. B. Navigation und Dokumentenbereich, diese Lassen sich jedoch nicht einzeln anspringen.
+
+== Einordnung des Prüfschritts
+
+=== Formulierung BITV 2.0
+
+2.4.1 Umgehen von Elementgruppen
+
+Für Gruppen von Elementen, die auf mehreren Webseiten wiederholt werden, sind Mechanismen verfügbar, um diese zu umgehen.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+Guidelines
+
+Guideline 2.4 Navigable: Provide ways to help users navigate, find content, and determine where they are
+
+Success criteria
+
+2.4.1 Bypass Blocks (Level A)
+
+Techniques
+
+General Techniques
+
+G1: Adding a link at the top of each page that goes directly to the main content area
+
+G115: Using semantic elements to mark up structure
+
+G123: Adding a link at the beginning of a block of repeated content to go to the end of the block
+
+G124: Adding links at the top of the page to each area of the content
+
+G130: Providing descriptive headings
+
+G140: Separating information and structure from presentation to enable different presentations
+
+HTML Techniques
+
+H42: Using h1-h6 to identify headings
+
+H64: Using the title attribute of the frame and iframe elements
+
+H69: Providing heading elements at the beginning of each section of content
+
+H97: Grouping related links using the nav element
+
+ARIA Techniques
+
+ARIA11: Using ARIA landmarks to identify regions of a page
+
+ARIA13: Using aria-labelledby to name regions and landmarks
+
+== Quellen
+
+WCAG 2.1 Hinweis zum Unterschied von name und title
+
+The title attribute is not interchangeable with the name attribute. The title labels the frame for users; the name labels it for scripting and window targeting. The name is not presented to the user, only the title is.
+
+Quelle: H64: Using the title attribute of the frame and iframe elements
+
+WCAG 2.1 Verknüpfung von WAI ARIA document landmarks und Text
+
+The purpose of this technique is to provide names for regions of a page that can be read by assistive technology. The aria-labelledby attribute provides a way to associate an section of the page marked up as a region or landmarks with text that is on the page that labels it.
+
+Quelle: ARIA13: Using aria-labelledby to name regions and landmarks
+
+Ergänzung von HTML5 Elementen mit WAI ARIA
+
+Script, das bei HTML5 Elementen automatisch ARIA-Rollen ergänzt: Polyfill accessifyhtml5.js von Yatil

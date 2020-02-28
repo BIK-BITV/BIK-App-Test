@@ -1,0 +1,61 @@
+= Prüfschritt 3.1.1a Hauptsprache angegeben
+include::include/author.adoc[]
+include::include/config.adoc[]
+
+== Was wird geprüft?
+
+Die Hauptsprache der App soll angegeben werden.
+
+==  Warum wird das geprüft?
+
+Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt ist. Sie müssen wissen, in welcher Sprache ein Text verfasst ist, damit sie die richtige Wortliste verwenden und den Text korrekt aussprechen können.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== Prüfung
+
+Prüfen ob sich die Anwendung an die Systemsprache hält. Falls dies nicht der Fall ist, soll die Software ihre verwendete Sprache an das System melden. Ggf. ist dies mit einem Screenreader prüfbar, indem man prüft, ob der Screenreader eine zur Sprache der Anwendung passende Stimme beim Vorlesen der Bedienelemente wählt.
+
+Ggf. müssen hier noch bessere Prüfmethoden gefunden werden. Die meiste Software richtet sich jedoch nach der Systemsprache und ist somit konform.
+
+=== Bewertung
+
+*[.underline]#Erfüllt:#*
+
+* *Die Anwendung hält sich an die Systemsprache oder meldet ihre verwendete Sprache an das System.*
+
+*[.underline]#Nicht erfüllt:#*
+
+*Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z. B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit bspw. Englischer Text mit einer deutschen Stimme vorgelesen wird.*
+
+==  Einordnung des Prüfschritts
+
+=== Formulierung BITV
+
+3.1.1 Sprache
+
+Die vorherrschend verwendete natürliche Sprache jeder Webseite ist durch Programme erkennbar.
+
+=== Abgrenzung zu anderen Prüfkriterien
+
+■ Prüfschritt 3.1.2a "Anderssprachige Wörter und Abschnitte ausgezeichnet"
+
+Einordnung des Prüfschritts nach WCAG 2.1
+
+Guideline
+
+■ Guideline 3.1 Readable: Make text content readable and understandable
+
+Success criterion
+
+■ 3.1.1 Language of Page (Level A)
+
+Techniques
+
+HTML Techniques
+
+■ H57: Using language attributes on the html element

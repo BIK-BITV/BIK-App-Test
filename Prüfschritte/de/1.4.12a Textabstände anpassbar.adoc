@@ -1,0 +1,34 @@
+= Prüfschritt 1.4.12a Textabstände anpassbar
+include::include/author.adoc[]
+include::include/config.adoc[]
+
+== Was wird geprüft?
+
+Die Anpassung der Zeilenhöhe auf das 1,5-fache der Textgröße, des Abstands nach Absätzen auf das 2-fache der Textgröße, von Buchstabenabständen auf das 0,12-fache der Textgröße und von Wortabständen auf das 0,16-fache der Textgröße führt nicht zu einem Verlust an Inhalten oder Funktionalitäten, zum Beispiel durch das Abschneiden von Inhalten in Elementen, deren Größe sich bei Einstellung größerer Textabstände und dadurch erfolgender Textspreizungen oder Umbrüche nicht dynamisch anpasst.
+
+Anmerkung: Die Anforderung verlangt nicht von Autoren, die genannten Werte bei Ihren Inhalten umzusetzen, sondern lediglich, dass von Nutzern vorgenommene Anpassungen nicht zum Abschneiden von Text oder Verlust von Funktionalitäten führt.
+
+== Warum wird das geprüft?
+
+Menschen mit Sehbehinderungen können die Lesbarkeit von Texten verbessern, wenn sie über Werkzeuge die Abstände zwischen Zeilen, Absätzen, Zeichen und Worten anpassen können. Solche Anpassungen führen dazu, das Texte ggf. mehr Platz brauchen und Container dementsprechend dynamisch angelegt sein müssen, um den längeren Text ohne Verlust zu zeigen. Zur Zeit sind keine Werkzeuge / systemseitige Bedienungshilfen bekannt, die eine solche Funktionalität für die mobilen Plattformen iOS / iPadOS und Android zu Verfügung stellen.
+
+Der Prüfschritt wird von der EN 301 549 Version 2.1.2 gefordert. Für die Umsetzung der Prüfung gibt es leider wenig Hinweise durch die EN. Vom Nutzer anpassbare Textabstände sind bei Software zur Zeit kaum verbreitet. Da die mobilen Plattformen keine entsprechende Bedienungshilfe bereitstellen, ist dieser Prüfschritt zur Zeit nicht anwendbar.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Zur Zeit bieten die mobilen Systeme keine Bedienungshilfe zur Textspreizung in Apps an, daher ist dieser Prüfschritt noch nicht anzuwenden. Dies kann sich in Zukunft ändern, dann gelten die folgenden Bedingungen:
+
+* Der Prüfschritt ist anwendbar, wenn die Software echten Text enthält (also Text, der nicht über eine Grafik bereitgestellt wird).
+* Wenn die Software keinen Inhalts-Layout-Bereich mit fester Größe hat, der für die übermittelte Information von wesentlicher Bedeutung ist.
+
+=== Prüfung
+
+Bei Software kann lediglich geprüft werden, ob es Funktionen gibt, mit denen die geforderten Abstände eingestellt werden können.
+
+Es ist vorstellbar, dass die verschiedenen Betriebssysteme zukünftig entsprechende Funktionen zur Veränderung des Textabstands anbieten werden. Ist dies der Fall, muss die Software mit den systemseitig eingestellten Abständen funktionieren.
+
+== Quellen
+
+Understanding Success Criterion 1.4.12: Text Spacing (zur Zeit nur auf Englisch verfügbar)
