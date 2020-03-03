@@ -138,13 +138,13 @@ werden.
 
 .Beispiel
 ----
-* <<convert2html.adoc#_benötigte_werkzeuge,AsciiDoc Werkzeuge>> konvertieren>>
+* <<convert2html.adoc#_benötigte_werkzeuge,AsciiDoc Werkzeuge>>
 ----
 
 [%collapsible]
 .Ergebnis
 ====
-* <<convert2html.adoc#_benötigte_werkzeuge,AsciiDoc Werkzeuge>> konvertieren>>
+* <<convert2html.adoc#_benötigte_werkzeuge,AsciiDoc Werkzeuge>>
 ====
 
 == Listen
@@ -207,4 +207,9 @@ Ein Absatz ...
 Noch ein Absatz ...
 ====
 
+== Weitere Dokumentation
 
+* https://asciidoctor.org/docs/what-is-asciidoc[What is AsciiDoc?]
+* https://asciidoctor.org/docs/asciidoc-writers-guide[AsciiDoc Writer’s Guide]
+* https://asciidoctor.org/docs/asciidoc-syntax-quick-reference[AsciiDoc Quick Reference]
+* https://asciidoctor.org/docs/user-manual[Asciidoctor User Manual]
