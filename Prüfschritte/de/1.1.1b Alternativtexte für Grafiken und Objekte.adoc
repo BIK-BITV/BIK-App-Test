@@ -177,9 +177,9 @@ CAPTCHAs werden in Prüfschritt 1 "Alternativen für CAPTCHAs" geprüft.
 
 ==== Guideline
 
-* Guideline 1.1 Text Alternatives: Provide text alternatives for any non-text
+* http://www.w3.org/TR/WCAG21/#text-alternatives[Guideline 1.1 Text Alternatives: Provide text alternatives for any non-text
   content so that it can be changed into other forms people need, such as large
-  print, braille, speech, symbols or simpler language
+  print, braille, speech, symbols or simpler language]
 
 ==== Success Criterion
 
