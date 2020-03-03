@@ -1,9 +1,14 @@
 = README
-Emanuel Helms
-2020-02-25
+DIAS GmbH <info@dias.de>
+2020-03-03
 :lang: de
 
-In diesem Projekt werden Prüfschritte für die Barrierefreiheit von mobilen Apps entwickelt. Unterstützt werden die Betriebssysteme Android, iOS und iPadOS. Die zugrunde liegenden Kriterien richten sich nach den W3C https://www.w3.org/TR/WCAG21/[Web Content Accessibility Guidelines (WCAG) 2.1] und der EU Norm 301 549.
+In diesem Projekt werden Prüfschritte für die Barrierefreiheit von mobilen Apps
+entwickelt.
+Unterstützt werden die Betriebssysteme Android, iOS und iPadOS.
+Die zugrunde liegenden Kriterien richten sich nach den W3C
+https://www.w3.org/TR/WCAG21/[Web Content Accessibility Guidelines (WCAG) 2.1]
+und der EU Norm 301 549.
 
 * link:Prüfschritte/de/[Zu den Prüfschritten]
 
@@ -12,4 +17,10 @@ In diesem Projekt werden Prüfschritte für die Barrierefreiheit von mobilen App
 Die Prüfschritte sind in einzelnen AsciiDoc-Dateien aufgeteilt.
 Um die Prüfschritte umzuwandeln wird der Ruby-Interpreter und das GEM-Paket
 `Asciidoctor` benötigt.
-Im Ordner `"support"` stellen wir eine <<support/convert2html.adoc#_benötigte_werkzeuge,Anleitung>> für die Installation und Verwendung bereit.
+Im Ordner `"support"` stellen wir eine <<support/convert2html.adoc#,Anleitung>> für die Installation und Verwendung bereit.
+
+Die Prüfschritte sind in der Auszeichnungssprache AsciiDoc verfasst, um die
+Mitarbeit zu unterstützen, stellen wir ein Tutorial für den Schnelleinstieg
+bereit.
+
+* <<support/AsciiDoc Tutorial.adoc#, Zum AsciiDoc Tutorial>>
