@@ -4,7 +4,7 @@ DIAS GmbH <info@dias.de>
 
 In den Prüfschritten verwenden wir die Auszeichnungssprache AsciiDoc.
 In diesem Dokument stellen wir einen Schnelleinstieg zur Verfügung.
-Für detailiertere Informationen verweisen wir auf den 
+Für detailliertere Informationen verweisen wir auf den 
 https://asciidoctor.org/docs/asciidoc-writers-guide[Writers Guide] von
 Asciidoctor.
 
