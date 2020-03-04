@@ -65,36 +65,16 @@ Die Anzahl der Gleichheitszeichen bestimmt die Überschriftsebene.
 
 ----
 
-=== Ergebnis
-
-NOTE: Da nur ein Dokumententitel bzw. eine Überschriftsebene 1 im Dokument
-vergeben werden darf, kann es sein, dass die Ebene 1 hier im Ergebnis
-nicht gerendert wird.
-
-'''
-
-= Dokumententitel bzw. Überschriftsebene 1
-
-== Überschriftsebene 2
-
-=== Überschriftsebene 3
-
-==== Überschriftsebene 4
-
-===== Überschriftsebene 5
-
-====== Überschriftsebene 6
-
-'''
+* <<Headings.adoc#,Zum Ergebnis>>
 
 == Links
 
 === Einfache Links
 
-Links die mit "`http://`" oder "`https://`" beginnen, werden automatisch zu
+Links die mit "`\http://`" oder "`\https://`" beginnen, werden automatisch zu
 Links umgewandelt.
-Möchte man einen Linktext vergeben, wird dieser in eckigen Klammern ("`[, ]`")
-direkt hinter die Linkadresse gesetzt.
+Möchte man einen Text verlinken, setzt man den Text in eckige Klammern ("`[ ]`").
+Direkt davor wird die Linkadresse angegeben.
 
 .Beispiel
 ----
@@ -109,26 +89,29 @@ https://www.bitvtest.de/start.html[Startseite des BITV-Tests]
 
 === Relative Links
 
-Möchte man relative Links einsetzen, z. B. "Òrdner/Datei.html`", "`Datei.html`",
-muss der Präfix "`link:`" eingesetzt werden.
+Möchte man relative Links einsetzen, z. B. "`Ordner/Datei.html`",
+"`Datei.html`",
+muss das Präfix "`link:`" eingesetzt werden.
 
 .Beispiele
 ----
-* link:Ordner/Datei.html[Mein Link]
-* link:Datei.html[Mein zweiter Link]
+link:Ordner/Datei.html[Mein Link]
+
+link:Datei.html[Mein zweiter Link]
 ----
 
 [%collapsible]
 .Ergebnis
 ====
-* link:Ordner/Datei.html[Mein Link]
-* link:Datei.html[Mein zweiter Link]
+link:Ordner/Datei.html[Mein Link]
+
+link:Datei.html[Mein zweiter Link]
 ====
 
 === Verweise auf andere AsciiDoc-Dateien
 
-Um sichere Verweise auf andere AsciiDoc-Dateien zu setzen, die auch eine
-Umwandlung in HTML bestehen, sollten Inter-document cross references eingesetzt
+Um sichere Verweise auf andere AsciiDoc-Dateien zu setzen, die auch fehlerfrei
+in HTML umgewandelt werden, sollten Inter-document cross references eingesetzt
 werden.
 
 .Aufbau
@@ -138,13 +121,13 @@ werden.
 
 .Beispiel
 ----
-* <<convert2html.adoc#_benötigte_werkzeuge,AsciiDoc Werkzeuge>>
+<<convert2html.adoc#_benötigte_werkzeuge,AsciiDoc Werkzeuge>>
 ----
 
 [%collapsible]
 .Ergebnis
 ====
-* <<convert2html.adoc#_benötigte_werkzeuge,AsciiDoc Werkzeuge>>
+<<convert2html.adoc#_benötigte_werkzeuge,AsciiDoc Werkzeuge>>
 ====
 
 == Listen
@@ -152,8 +135,7 @@ werden.
 === Ungeordnete Listen
 
 Listen müssen in einem eigenen Absatz definiert werden.
-Jedes Listenelement beginnt mit einem "`*`" gefolgt von einem Leerzeichen auf
-einer eigenen Zeile.
+Jedes Listenelement beginnt mit einem "`*`" gefolgt von einem Leerzeichen.
 
 .Beispiel
 ----
@@ -180,7 +162,7 @@ Noch ein Absatz ...
 
 === Geordnete Listen
 
-Geordnete Listen werden ähnlich definiert, hier wird jedoch ein Punkt ("`.`"")
+Geordnete Listen werden ähnlich definiert, hier wird jedoch ein Punkt ("`.`")
 gefolgt von einem Leerzeichen vor jedes Listenelement gesetzt.
 Gezählt wird dann automatisch durch den Konverter.
 

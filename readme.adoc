@@ -23,4 +23,4 @@ Die Prüfschritte sind in der Auszeichnungssprache AsciiDoc verfasst, um die
 Mitarbeit zu unterstützen, stellen wir ein Tutorial für den Schnelleinstieg
 bereit.
 
-* <<support/AsciiDoc Tutorial.adoc#, Zum AsciiDoc Tutorial>>
+* <<support/AsciiDoc/AsciiDoc Tutorial.adoc#, Zum AsciiDoc Tutorial>>
