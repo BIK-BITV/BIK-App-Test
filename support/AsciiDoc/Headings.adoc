@@ -1,4 +1,6 @@
 = Dokumententitel bzw. Überschriftsebene 1
+DIAS GmbH <info@dias.de>
+:lang: de
 
 ----
 = Dokumententitel bzw. Überschriftsebene 1
