@@ -183,7 +183,8 @@ CAPTCHAs werden in Prüfschritt 1 "Alternativen für CAPTCHAs" geprüft.
 
 ==== Success Criterion
 
-* 1.1.1 Non-text Content (Level A)
+* http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[1.1.1 Non-text Content
+  (Level A)]
 
 ==== Techniques
 

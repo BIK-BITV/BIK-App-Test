@@ -62,13 +62,16 @@ Die anderen Teilbilder sollten dann vor dem Screenreader ausgeblendet werden.
 
 === Formulierung BITV 2.0
 
-* Siehe <<1.1.1a Alternativtexte für Bedienelemente#_formulierung_bitv_2_0,Prüfschritt 1 Alternativtexte für Bedienelemente>>
+* Siehe 
+  <<1.1.1a Alternativtexte für Bedienelemente.adoc#_formulierung_bitv_2_0,
+  Prüfschritt 1 Alternativtexte für Bedienelemente>>
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#text-alternatives[Guideline 1.1 Text Alternatives]:
+* https://www.w3.org/TR/WCAG21/#text-alternatives[Guideline 1.1 Text
+  Alternatives]:
   Provide text alternatives for any non-text content so that it can be changed
   into other forms people need, such as large print, braille, speech, symbols
   or simpler language
