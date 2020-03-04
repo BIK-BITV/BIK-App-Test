@@ -213,14 +213,18 @@ CAPTCHAs werden in Prüfschritt 1 "Alternativen für CAPTCHAs" geprüft.
 
 ==== Failures
 
-* F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text
-  alternatives when changes to non-text content occur
-* F30: Failure of Success Criterion 1.1.1 and 1.2.1 due to using text
-  alternatives that are not alternatives
-* F65: Failure of Success Criterion 1.1.1 due to omitting the alt attribute on
-  img elements, area elements, and input elements of type 'image'
-* F67: Failure of Success Criterion 1.1.1 and 1.2.1 due to providing long
-  description for non-text content that does not serve the same purpose or does not present the same information
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F20[F20: Failure of
+  Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when
+  changes to non-text content occur]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F30[F30: Failure of
+  Success Criterion 1.1.1 and 1.2.1 due to using text alternatives that are
+  not alternatives]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F65[F65: Failure of Success
+Criterion 1.1.1 due to omitting the alt attribute on img elements, area
+elements, and input elements of type 'image']
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F67[F67: Failure of Success
+  Criterion 1.1.1 and 1.2.1 due to providing long description for non-text content
+  that does not serve the same purpose or does not present the same information]
 
 == Quellen
 
@@ -253,9 +257,10 @@ text alternative should provide a brief overview of the information.
 A long text alternative would be used in addition to convey the full
 information.
 
-Quelle: WCAG 2.0 Technik G94: Providing short text alternative for non-text
-content that serves the same purpose and presents the same information as the
-non-text content
+Quelle: WCAG 2.0 Technik https://www.w3.org/TR/WCAG20-TECHS/G94.html[G94:
+        Providing short text alternative for non-text content that serves the
+        same purpose and presents the same information as the non-text
+        content]
 
 === Alternativtexte für Schrift in Grafiken
 
@@ -266,14 +271,16 @@ If the text in the image is more than can fit in a short text alternative then
 it should be described in the short text alternative and a long text
 alternative should be provided as well with the complete text.
 
-Quelle: WCAG 2.0 Technik G94: Providing short text alternative for non-text
-content that serves the same purpose and presents the same information as the
-non-text content
+Quelle: WCAG 2.0 Technik https://www.w3.org/TR/WCAG20-TECHS/G94.html[G94:
+        Providing short text alternative for non-text content that serves the
+        same purpose and presents the same information as the non-text
+        content]
 
 === Anleitungen zum Erstellen guter Alternativtexte
 
-* W3C Web Accessibility Tutorials: Images Concepts
-* WebAIM: Alternative Text
+* W3C Web Accessibility Tutorials:
+  https://www.w3.org/WAI/tutorials/images/[Images Concepts]
+* WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
 
 == Fragen zu diesem Prüfschritt
 
@@ -308,6 +315,7 @@ als hinreichend bewertet werden.
 === Alternativtexte für Firmenlogos
 
 Auf der Website ist das Firmenlogo abgebildet.
+
 Reicht es aus, wenn im Alternativtext steht, dass da das Firmenlogo abgebildet
 ist?
 Oder sollte es auch beschrieben werden?
