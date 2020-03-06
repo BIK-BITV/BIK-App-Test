@@ -4,38 +4,100 @@ include::include/config.adoc[]
 
 == Was wird geprüft?
 
-Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine semantisch eindeutige, sprachunabhängige Bestimmung ihres Zweckes ermöglichen.
+Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine semantisch
+eindeutige, sprachunabhängige Bestimmung ihres Zweckes ermöglichen.
 
-In iOS/iPadOS und Android können Eingabefelder teilweise für einen bestimmten Zweck ausgezeichnet werden. Z. B. für die Eingabe einer E-Mail-Adresse, hier kann dann das Betriebssystem u. a. eine optimierte Tastatur einblenden.
+In iOS/iPadOS und Android können Eingabefelder teilweise für einen
+bestimmten Zweck ausgezeichnet werden. Z. B. für die Eingabe einer
+E-Mail-Adresse, hier kann dann das Betriebssystem u. a. eine optimierte
+Tastatur einblenden.
 
 == Warum wird das geprüft?
 
-Die Festlegung des Eingabezwecks erlaubt es neuartigen Hilfsmitteln, bei Formularfeldern, welche sich auf Daten des Nutzers beziehen, zusätzliche Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten Beschriftung des Feldes und unabhängig von der natürlichen Sprache des Angebots.
+Die Festlegung des Eingabezwecks erlaubt es neuartigen Hilfsmitteln, bei
+Formularfeldern, welche sich auf Daten des Nutzers beziehen, zusätzliche
+Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten
+Beschriftung des Feldes und unabhängig von der natürlichen Sprache des
+Angebots.
 
-Zusätzliche Informationen können etwa Bilder bzw. Icons sein, die über eine externe assistive Technologie bereitgestellt werden und über bzw. vor dem jeweiligen Eingabefeld angezeigt werden, etwa wenn Nutzer eine bestimmte Tastenkombination drücken. Für Menschen, die Schwierigkeiten mit dem Lesen haben oder bevorzugt über Bilder kommunizieren, erleichtert dies eine Identifizierung von nutzerbezogenen Feldern in Formularen.
+Zusätzliche Informationen können etwa Bilder bzw. Icons sein, die über eine
+zukünftige assistive Technologie bereitgestellt werden köntte und über bzw.
+vor dem jeweiligen Eingabefeld angezeigt werden, etwa wenn Nutzer eine
+bestimmte Tastenkombination drücken.
+Für Menschen, die Schwierigkeiten mit dem Lesen haben oder bevorzugt über
+Bilder kommunizieren, erleichtert dies eine Identifizierung von
+nutzerbezogenen Feldern in Formularen.
 
-Darüber hinaus bietet die Auszeichnung des Zwecks Eingabevorschläge für das Feld, welche Nutzer einfach übernehmen können. Das erleichtert die Texteingabe.
+Darüber hinaus bietet die Auszeichnung des Zwecks Eingabevorschläge für das
+Feld, welche Nutzer einfach übernehmen können.
+Das erleichtert die Texteingabe.
 
 == Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Formular-Eingabefelder vorhanden sind, die sich auf Nutzerdaten beziehen (etwa Login / Anmeldung, Kontaktformulare, oder Ansichten zum Anlegen eines Nutzerprofils). Des Weiteren muss das Betriebssystem die Auszeichnung des Eingabezwecks unterstützen. In den Einstellungen zur Barrierefreiheit von Android und iOS müsste eine entsprechende Einstellung auftauchen, mit der die Anzeige des Eingabezwecks ein- und ausgeschaltet werden kann. Dies ist zur Zeit (September 2019) nicht der Fall.
+Der Prüfschritt ist anwendbar, wenn Formular-Eingabefelder vorhanden sind,
+die sich auf Nutzerdaten beziehen (etwa Login / Anmeldung, Kontaktformulare,
+oder Ansichten zum Anlegen eines Nutzerprofils).
+Des Weiteren muss das Betriebssystem die Auszeichnung des Eingabezwecks
+unterstützen.
+In den Einstellungen zur Barrierefreiheit von Android und iOS müsste eine
+entsprechende Einstellung auftauchen, mit der die Anzeige des Eingabezwecks
+ein- und ausgeschaltet werden kann.
+Dies ist zur Zeit (März 2020) nicht der Fall.
 
-=== 2. Prüfung
+=== Prüfung
 
-Bei Software ist die Prüfung eingeschränkt möglich. Hier kann über eine Sichtprüfung z. B. festgestellt werden, ob bei Eingabefeldern für E-Mail-Adressen auch die dafür optimierte Tastatur eingeblendet wird. Auf der dann erscheinenden Tastatur ist dann z. B. gleich das „@“-Zeichen und der Punkt verfügbar, ohne erst auf die Symboltastatur wechseln zu müssen. Dies ist ein starkes Indiz dafür, dass das Eingabefeld in der Software korrekt ausgezeichnet wurde. Da es strittig ist, ob eine solche Auszeichnung ausreicht, muss geprüft werden, ob es in den Android oder iOS / iPadOS Einstellungen eine Möglichkeit gibt, die Anzeige des Eingabezwecks systemweit zu aktivieren. Daraufhin muss geprüft werden, ob die zu testende Software die entsprechende Einstellung auch korrekt umsetzt.
+Bei Software ist die Prüfung eingeschränkt möglich.
+Hier kann über eine Sichtprüfung z. B. festgestellt werden, ob bei
+Eingabefeldern für E-Mail-Adressen auch die dafür optimierte Tastatur
+eingeblendet wird.
+Auf der dann erscheinenden Tastatur ist dann z. B. gleich das „`@`“-Zeichen
+und der Punkt verfügbar, ohne erst auf die Symboltastatur wechseln zu müssen.
+Dies ist ein starkes Indiz dafür, dass das Eingabefeld in der Software
+korrekt ausgezeichnet wurde.
+Da es strittig ist, ob eine solche Auszeichnung ausreicht, muss geprüft
+werden, ob es in den Android oder iOS / iPadOS Einstellungen eine Möglichkeit
+gibt, die Anzeige des Eingabezwecks systemweit zu aktivieren.
+Daraufhin muss geprüft werden, ob die zu testende Software die entsprechende
+Einstellung auch korrekt umsetzt.
 
-=== 3. Hinweis
+=== Hinweis
 
-Die Anforderung gilt nur für Felder, die sich auf den Nutzer selbst beziehen. Sie gilt nicht für Seiten bzw. Ansichten, auf denen die Eingabe von persönlichen Daten mehrerer Personen möglich ist und die Felder für den Nutzer selbst nicht besonders gekennzeichnet sind. Ein Beispiel dafür sind Ticketbuchungsseiten / -Apps von Fluglinien. Hier sind die Eingabefelder für den Nutzer nicht von den Feldern für Mitreisende unterscheidbar.
+Die Anforderung gilt nur für Felder, die sich auf den Nutzer selbst beziehen.
+Sie gilt nicht für Seiten bzw. Ansichten, auf denen die Eingabe von
+persönlichen Daten mehrerer Personen möglich ist und die Felder für den
+Nutzer selbst nicht besonders gekennzeichnet sind.
+Ein Beispiel dafür sind Ticketbuchungsseiten / -Apps von Fluglinien.
+Hier sind die Eingabefelder für den Nutzer nicht von den Feldern für
+Mitreisende unterscheidbar.
 
-=== 4. Bewertung
+=== Bewertung
 
-Prüfschritt erfüllt:
+*Prüfschritt erfüllt:*
 
-Alle Eingabefelder, die sich klar auf den Nutzer selbst beziehen vermitteln den Zweck des jeweiligen Feldes. Da dies zur Zeit ggf. technisch nicht für alle Felder möglich ist, ist dieser Prüfschritt dann nicht anwendbar.
+* Alle Eingabefelder, die sich klar auf den Nutzer selbst beziehen vermitteln
+  den Zweck des jeweiligen Feldes.
+  Da dies zur Zeit ggf. technisch nicht für alle Felder möglich ist, ist
+  dieser Prüfschritt dann nicht anwendbar.
+
+= Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#adaptable[Guideline 1.3 Adaptable: Create
+  content that can be presented in different ways (for example simpler layout)
+  without losing information or structure.]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#identify-input-purpose[1.3.5 Identify Input
+  Purpose (Level AA)]
 
 == Quellen
 
-Understanding Success Criterion 1.3.5: Identify Input Purpose (zur Zeit nur auf Englisch verfügbar)
+https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html[
+Understanding Success Criterion 1.3.5: Identify Input Purpose (zur Zeit nur auf
+Englisch verfügbar)]
