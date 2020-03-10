@@ -61,7 +61,7 @@ In diesem Prüfschritt geht es nicht um die Bewertung der Tastaturbedienbarkeit 
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
 * https://www.w3.org/TR/WCAG21/#compatible[Guideline 4.1 Compatible]:
 +
@@ -71,17 +71,16 @@ Maximize compatibility with current and future user agents, including assistive 
 
 * https://www.w3.org/TR/WCAG21/#name-role-value[4.1.2 Name, Role, Value (Level A)]
 
-Techniques
+==== Techniques
 
-General Techniques
-
+.General Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G10.html[G10: Creating components using a technology that supports the accessibility API features of the platforms on which the user agents will be run to expose the names and roles, allow user-settable properties to be directly set, and provide notification of changes]
 
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html[G108: Using markup features to expose the name and role, allow user-settable properties to be directly set, and provide notification of changes]
 
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G135.html[G135: Using the accessibility API features of a technology to expose names and roles, to allow user-settable properties to be directly set, and to provide notification of changes]
 
-Failures
+==== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F15.html[F15: Failure of Success Criterion 4.1.2 due to implementing custom controls that do not use an accessibility API for the technology, or do so incompletely]
 
