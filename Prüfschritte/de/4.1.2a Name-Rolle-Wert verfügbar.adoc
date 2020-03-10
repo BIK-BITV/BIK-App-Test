@@ -63,58 +63,44 @@ In diesem Prüfschritt geht es nicht um die Bewertung der Tastaturbedienbarkeit 
 
 Guideline
 
-Guideline 4.1 Compatible: Maximize compatibility with current and future user agents, including assistive technologies.
+* https://www.w3.org/TR/WCAG21/#compatible[Guideline 4.1 Compatible]:
++
+Maximize compatibility with current and future user agents, including assistive technologies.
 
-Success criterion
+==== Success criterion
 
-4.1.2 Name, Role, Value (Level A)
+* https://www.w3.org/TR/WCAG21/#name-role-value[4.1.2 Name, Role, Value (Level A)]
 
 Techniques
 
 General Techniques
 
-G10: Creating components using a technology that supports the accessibility API features of the platforms on which the user agents will be run to expose the names and roles, allow user-settable properties to be directly set, and provide notification of changes
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G10.html[G10: Creating components using a technology that supports the accessibility API features of the platforms on which the user agents will be run to expose the names and roles, allow user-settable properties to be directly set, and provide notification of changes]
 
-G108: Using markup features to expose the name and role, allow user-settable properties to be directly set, and provide notification of changes
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html[G108: Using markup features to expose the name and role, allow user-settable properties to be directly set, and provide notification of changes]
 
-G135: Using the accessibility API features of a technology to expose names and roles, to allow user-settable properties to be directly set, and to provide notification of changes
-
-HTML Techniques
-
-H64: Using the title attribute of the frame and iframe elements
-
-H91: Using HTML form controls and links
-
-ARIA Techniques
-
-ARIA4: Using a WAI-ARIA role to expose the role of a user interface component
-
-ARIA5: Using WAI-ARIA state and property attributes to expose the state of a user interface component
-
-ARIA14: Using aria-label to provide an invisible label where a visible label cannot be used
-
-ARIA16: Using aria-labelledby to provide a name for user interface controls
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G135.html[G135: Using the accessibility API features of a technology to expose names and roles, to allow user-settable properties to be directly set, and to provide notification of changes]
 
 Failures
 
-F15: Failure of Success Criterion 4.1.2 due to implementing custom controls that do not use an accessibility API for the technology, or do so incompletely
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F15.html[F15: Failure of Success Criterion 4.1.2 due to implementing custom controls that do not use an accessibility API for the technology, or do so incompletely]
 
-F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F20.html[F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur]
 
-F59: Failure of Success Criterion 4.1.2 due to using script to make div or span a user interface control in HTML
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F59.html[F59: Failure of Success Criterion 4.1.2 due to using script to make div or span a user interface control in HTML]
 
-F79: Failure of Success Criterion 4.1.2 due to the focus state of a user interface component not being programmatically determinable or no notification of change of focus state available
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F79.html[F79: Failure of Success Criterion 4.1.2 due to the focus state of a user interface component not being programmatically determinable or no notification of change of focus state available]
 
-Quellen
+== Quellen
 
-WAI-ARIA Spezifikation
+=== WAI-ARIA Spezifikation
 
-Accessible Rich Internet Applications (WAI-ARIA) 1.1 (zur Zeit Candidate Recommendation)
+* https://www.w3.org/TR/wai-aria-1.1/[Accessible Rich Internet Applications (WAI-ARIA) 1.1 (zur Zeit Candidate Recommendation)]
 
-ARIA in HTML
+=== ARIA in HTML
 
-ARIA in HTML
+* https://www.w3.org/TR/html-aria/[ARIA in HTML]
 
-ARIA-Widgets
+=== ARIA-Widgets
 
-WAI-ARIA Authoring Practices 1.1
+* https://www.w3.org/TR/wai-aria-practices-1.1/[WAI-ARIA Authoring Practices 1.1]
