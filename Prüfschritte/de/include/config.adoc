@@ -1,6 +1,6 @@
 :lang: de
 :stylesheet!:
-// :toc:
-// :docinfo: shared-head
-// :toc-title: Inhalt
+//:toc:
+:docinfo: shared-head
+//:toc-title: Inhalt
 :note-caption: Hinweis

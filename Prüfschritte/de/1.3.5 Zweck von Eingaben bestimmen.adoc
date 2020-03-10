@@ -81,7 +81,7 @@ Mitreisende unterscheidbar.
   Da dies zur Zeit ggf. technisch nicht für alle Felder möglich ist, ist
   dieser Prüfschritt dann nicht anwendbar.
 
-= Einordnung des Prüfschritts
+== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
