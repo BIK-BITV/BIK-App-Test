@@ -57,6 +57,27 @@ Prüfschritt erfüllt:
 
 Für alle in der Anwendungssoftware implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den Umgebungen, die in die Prüfung gemäß Accessibility Baseline einbezogen sind.
 
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#input-modalities[Guideline 2.5 Input Modalities: Make it easier for users to operate functionality through various inputs beyond keyboard]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#pointer-gestures[2.5.1 Pointer Gestures (Level A)]
+
+==== Sufficient Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G215[G215: Providing controls to achieve the same result as path based or multipoint gestures]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G216[G216: Providing single point activation for a control slider]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F105[F105: Failure of Success Criterion 2.5.1 due to providing functionality via a path-based gesture without simple pointer alternative]
+
 == Quellen
 
-Understanding Success Criterion 2.5.1: Pointer Gestures (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[Understanding Success Criterion 2.5.1: Pointer Gestures (zur Zeit nur auf Englisch verfügbar)]
