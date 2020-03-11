@@ -46,14 +46,35 @@ Prüfschritt erfüllt:
 
 ■ Funktionen, die beim Down-Event ausgelöst werden, können abgebrochen, zurückgenommen oder beim Up-Event in den alten Zustand zurückversetzt werden. Zu beachten ist, dass nachgebildete Keypads eine ausnahme darstellen. Hier und bei ähnlich gelagerten Fällen, bei denen es essentiell ist, auf das Key-Down-Event zu reagieren, kann von der generellen Regelung abgewichen werden.
 
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#input-modalities[Guideline 2.5 Input Modalities: Make it easier for users to operate functionality through various inputs beyond keyboard]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#pointer-cancellation[2.5.2 Pointer Cancellation (Level A)]
+
+==== Sufficient Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G210[G210: Ensuring that drag-and-drop actions can be cancelled]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G212[G212: Using native controls to ensure functionality is triggered on the up-event]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F101[F101: Failure of Success Criterion 2.5.2 due to activating a control on the down-event]
+
 ==  Quellen
 
-■ Das Bookmarklet Down-Events auslösen von Prüfstelle T-Systems MMS kann ggf. zusätzlich eingesetzt werden, um der Reihe nach auf allen Elementen down-events auszulösen. Dabei muss die Seite genau beobachtet werden, ob sich etwas ändert bzw. geändert hat. Die Geschwindigkeit (Intervall in Millisekunden) kann am Beginn eingestellt werden.
+* https://testen.bitv-test.de/bookmarklets.html#downevent[Das Bookmarklet Down-Events auslösen von Prüfstelle T-Systems MMS kann ggf. zusätzlich eingesetzt werden, um der Reihe nach auf allen Elementen down-events auszulösen.] Dabei muss die Seite genau beobachtet werden, ob sich etwas ändert bzw. geändert hat. Die Geschwindigkeit (Intervall in Millisekunden) kann am Beginn eingestellt werden.
 
-■ Understanding Success Criterion 2.5.2: Pointer Cancellation (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation[Understanding Success Criterion 2.5.2: Pointer Cancellation (zur Zeit nur auf Englisch verfügbar)]
 
-■ Spezifikation PointerEvents (https://www.w3.org/TR/pointerevents/)
+* https://www.w3.org/TR/pointerevents/[Spezifikation PointerEvents]
 
-■ Spezifikation TouchEvents (https://www.w3.org/TR/touch-events/)
+* https://www.w3.org/TR/touch-events/[Spezifikation TouchEvents]
 
-■ Spezifikation UIEvents (https://www.w3.org/TR/uievents/)
+* https://www.w3.org/TR/uievents/[Spezifikation UIEvents]
