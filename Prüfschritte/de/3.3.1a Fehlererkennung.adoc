@@ -61,45 +61,20 @@ Wird ein Eingabefehler automatisch festgestellt, wird das fehlerhafte Element au
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-■ Guideline 3.3 Input Assistance: Help users avoid and correct mistakes.
+* https://www.w3.org/TR/WCAG21/#input-assistance[Guideline 3.3 Input Assistance: Help users avoid and correct mistakes]
 
-Success criteria
+==== Success criterion
 
-■ 3.3.1 Error Identification (Level A)
+* https://www.w3.org/TR/WCAG21/#error-identification[3.3.1 Error Identification (Level A)]
 
-Techniques
+==== Techniques
 
-General Techniques
-
-■ G83: Providing text descriptions to identify required fields that were not completed
-
-■ G84: Providing a text description when the user provides information that is not in the list of allowed values
-
-■ G85: Providing a text description when user input falls outside the required format or values
-
-Scripting Techniques
-
-■ SCR18: Providing client-side validation and alert
-
-■ SCR32: Providing client-side validation and adding error text via the DOM
-
-ARIATechniques
-
-■ ARIA18: Using aria-alertdialog to Identify Errors
-
-■ ARIA19: Using ARIA role=alert or Live Regions to Identify Errors
-
-■ ARIA21: Using Aria-Invalid to Indicate An Error Field
-
-==  Quellen
-
-DOM Scripting und WAI ARIA zur Erzeugung von Fehlermeldungen während der Formular-Eingabe
-
-Marco's accessibility blog:
-
-Easy ARIA tip #3: aria-invalid and role "alert" (Juli 2008, englischer Text)
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G83.html[G83: Providing text descriptions to identify required fields that were not completed]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G84.html[G84: Providing a text description when the user provides information that is not in the list of allowed values]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G85.html[G85: Providing a text description when user input falls outside the required format or values]
 
 == Fragen zu diesem Prüfschritt
 
