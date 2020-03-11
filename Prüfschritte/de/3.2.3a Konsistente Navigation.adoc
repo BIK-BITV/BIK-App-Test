@@ -66,4 +66,4 @@ Ensuring that repeated components occur in the same order on each page of a site
 
 It is important to note that the use of the phrase "same order" in this section is not meant to imply that subnavigation menus cannot be used or that blocks of secondary navigation or page structure cannot be used. (...)
 
-Quelle: * https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html[Consistent Navigation: Understanding SC 3.2.3]
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html[Consistent Navigation: Understanding SC 3.2.3]
