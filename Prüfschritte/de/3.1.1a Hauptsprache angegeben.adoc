@@ -42,20 +42,14 @@ Die vorherrschend verwendete natürliche Sprache jeder Webseite ist durch Progra
 
 === Abgrenzung zu anderen Prüfkriterien
 
-■ Prüfschritt 3.1.2a "Anderssprachige Wörter und Abschnitte ausgezeichnet"
+* https://testen.bitv-test.de/index.php?a=di&iid=93&s=n[Prüfschritt 3.1.2a "Anderssprachige Wörter und Abschnitte ausgezeichnet"]
 
-Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-■ Guideline 3.1 Readable: Make text content readable and understandable
+* https://www.w3.org/TR/WCAG21/#readable[Guideline 3.1 Readable: Make text content readable and understandable]
 
-Success criterion
+==== Success criterion
 
-■ 3.1.1 Language of Page (Level A)
-
-Techniques
-
-HTML Techniques
-
-■ H57: Using language attributes on the html element
+* https://www.w3.org/TR/WCAG21/#language-of-page[3.1.1 Language of Page (Level A)]
