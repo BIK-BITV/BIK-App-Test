@@ -1,6 +1,6 @@
 = Prüfschritt 2.5.4a Alternativen für Bewegungsaktivierung
 include::include/author.adoc[]
-include::include/attributes.adoc[]
+include::include/config.adoc[]
 
 == Was wird geprüft?
 
@@ -38,4 +38,4 @@ Von der Software definierte Bewegungseingaben haben eine alternative Eingabemög
 
 ==  Quellen
 
-Understanding Success Criterion 2.5.4: Motion Actuation (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F106[Understanding Success Criterion 2.5.4: Motion Actuation (zur Zeit nur auf Englisch verfügbar)]
