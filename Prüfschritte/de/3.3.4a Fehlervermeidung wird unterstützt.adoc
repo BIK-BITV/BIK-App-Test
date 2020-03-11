@@ -61,26 +61,21 @@ Die Informationen können durchgesehen, korrigiert und bestätigt werden, bevor 
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-Guideline 3.3 Input Assistance: Help users avoid and correct mistakes.
+* https://www.w3.org/TR/WCAG21/#input-assistance[Guideline 3.3 Input Assistance: Help users avoid and correct mistakes]
 
-Success criterion
+==== Success criterion
 
-3.3.4 Error prevention (Legal, Financial, Data) (Level AA)
+* https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data[3.3.4 Error prevention (Legal, Financial, Data) (Level AA)]
 
-Techniques
+==== Techniques
 
-General techniques
+.General techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G98.html[G98: Providing the ability for the user to review and correct answers before submitting]
 
-G98: Providing the ability for the user to review and correct answers before submitting
-
-G99: Providing the ability to recover deleted information
-
-G155: Providing a checkbox in addition to a submit button
-
-G164: Providing a stated time within which an online request (or transaction) may be amended or canceled by the user after making the request
-
-G168: Requesting confirmation to continue with selected action
-
-G199: Providing success feedback when data is submitted successfully
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G99[G99: Providing the ability to recover deleted information]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G155[G155: Providing a checkbox in addition to a submit button]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G164[G164: Providing a stated time within which an online request (or transaction) may be amended or canceled by the user after making the request]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G168[G168: Requesting confirmation to continue with selected action]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G199[G199: Providing success feedback when data is submitted successfully]
