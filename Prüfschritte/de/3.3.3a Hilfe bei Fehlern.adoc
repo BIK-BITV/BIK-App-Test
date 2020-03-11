@@ -57,32 +57,18 @@ Die Identifizierung und Benennung des Fehlers, ist Gegenstand des Prüfschritts 
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-Guideline 3.3 Input Assistance: Help users avoid and correct mistakes.
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=334#input-assistance[Guideline 3.3 Input Assistance: Help users avoid and correct mistakes]
 
-Success criteria
+==== Success criterion
 
-3.3.3 Error Suggestion (Level AA)
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=334#error-suggestion[3.3.3 Error Suggestion (Level AA)]
 
-General Techniques
+==== Techniques
 
-G83: Providing text descriptions to identify required fields that were not completed
-
-G84: Providing a text description when the user provides information that is not in the list of allowed values
-
-G85: Providing a text description when user input falls outside the required format or values
-
-G177: Providing suggested correction text
-
-Scripting Techniques
-
-SCR18: Providing client-side validation and alert
-
-SCR32: Providing client-side validation and adding error text via the DOM
-
-ARIATechniques
-
-ARIA2: Identifying a required field with the aria-required property
-
-ARIA18: Using aria-alertdialog to Identify Errors
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G83.html[G83: Providing text descriptions to identify required fields that were not completed]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G84.html[G84: Providing a text description when the user provides information that is not in the list of allowed values]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G85.html[G85: Providing a text description when user input falls outside the required format or values]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G177.html[G177: Providing suggested correction text]

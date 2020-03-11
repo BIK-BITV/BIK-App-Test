@@ -56,61 +56,36 @@ es sei denn, ihre Spezifikationen erlauben diese Besonderheit.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-Guideline 4.1 Compatible: Maximize compatibility with current and future user agents, including assistive technologies.
+* https://www.w3.org/TR/WCAG21/#compatible[Guideline 4.1 Compatible: Maximize compatibility with current and future user agents, including assistive technologies]
 
-Success criterion
+==== Success criterion
 
-4.1.1 Parsing (Level A)
+* https://www.w3.org/TR/WCAG21/#parsing[4.1.1 Parsing (Level A)]
 
-Techniques
+==== Techniques
 
-General Techniques
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G134.html[G134: Validating Web pages]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G192.html[G192: Fully conforming to specifications]
 
-G134: Validating Web pages
+==== Failures
 
-G192: Fully conforming to specifications
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F70.html[F70: Failure of Success Criterion 4.1.1 due to incorrect use of start and end tags or attribute markup]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F77.html[F77: Failure of Success Criterion 4.1.1 due to duplicate values of type ID]
 
-HTML Techniques
-
-H74: Ensuring that opening and closing tags are used according to specification
-
-H75: Ensuring that Web pages are well-formed
-
-H88: Using HTML according to spec
-
-H93: Ensuring that id attributes are unique on a Web page
-
-Failures
-
-F70: Failure of Success Criterion 4.1.1 due to incorrect use of start and end tags or attribute markup
-
-F77: Failure of Success Criterion 4.1.1 due to duplicate values of type ID
-
-Quellen
-
-Bedeutung von validem HTML
-
-Ensuring that Web pages have complete start and end tags and are nested according to specification helps ensure that assistive technologies can parse the content accurately and without crashing.
-
-Quelle: Parsing: Understanding SC 4.1.1, Specific Benefits of Success Criterion 4.1.1
+== Quellen
 
 Validation will usually eliminate ambiguities (and more) because an essential step in validation is to check for proper use of that technology's markup (in a markup language) or code (in other technologies). Validation does not necessarily check for full conformance with a specification but it is the best means for automatically checking content against its specification.
 
-Quelle: WCAG 2.1 Technik G134: Validating web pages
+Quelle: * https://www.w3.org/WAI/WCAG21/Techniques/general/G134[WCAG 2.1 Technik G134: Validating web pages]
 
-Why should I care if my document is in correct HTML? It displays all right on my browser.
-
-All browsers know how to deal with correct HTML. However, if it is incorrect, the browser has to repair the document, and since not all browsers repair documents in the same way, this introduces differences, so that your document may look and work differently on different browsers. Since there are hundreds of different browsers, and more coming all the time (not only on PCs, but also on PDAs, mobile phones, televisions, printers, even refrigerators), it is impossible to test your document on every browser. If you use incorrect HTML and your document doesn't work on a particular browser, it is your fault; if you use correct HTML and it doesn't work, it is a bug in the browser.
-
-Quelle: http://www.w3.org/MarkUp/2004/xhtml-faq
-
-Prüfung von generiertem Quelltext
+=== Prüfung von generiertem Quelltext
 
 Auf Stackoverflow.com gibt es eine ausführliche Diskussion der Schwierigkeiten, den generierten Quelltext auf verschiedenen Wegen zu extrahieren und zu validieren (auf Englisch)
 
-Quelle: Best way to view generated source of web page (stackoverflow.com)
+Quelle: * https://stackoverflow.com/questions/1750865/best-way-to-view-generated-source-of-webpage[Best way to view generated source of web page (stackoverflow.com)]
 
 == Fragen zu diesem Prüfschritt
 
