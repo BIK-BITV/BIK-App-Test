@@ -38,8 +38,28 @@ Zu beachten ist, dass bei den meisten mobilen Apps nur ein Test mittels Screenre
 
 Der Prüfschritt ist erfüllt, wenn der Beschriftungstext in der gleichen Form im zugänglichen Namen vorkommt.
 
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#input-modalities[Guideline 2.5 Input Modalities: Make it easier for users to operate functionality through various inputs beyond keyboard]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#label-in-name[2.5.3 Label in Name (Level A)]
+
+==== Sufficient Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G208[G208: Including the text of the visible label as part of the accessible name]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G211[G211: Matching the accessible name to the visible label]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F96[F96: Failure due to the accessible name not containing the visible label text]
+
 == Quellen
 
-Understanding Success Criterion 2.5.3: Label in Name (zur Zeit nur auf Englisch verfügbar)
-
-Accessible Name and Description Computation: https://www.w3.org/TR/accname/#mapping_additional_nd_te (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Understanding/label-in-name[Understanding Success Criterion 2.5.3: Label in Name (zur Zeit nur auf Englisch verfügbar)]
+* https://www.w3.org/TR/accname/#mapping_additional_nd_te[Accessible Name and Description Computation: https://www.w3.org/TR/accname/#mapping_additional_nd_te (zur Zeit nur auf Englisch verfügbar)]
