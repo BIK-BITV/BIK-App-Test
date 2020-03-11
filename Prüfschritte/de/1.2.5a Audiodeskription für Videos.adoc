@@ -1,6 +1,6 @@
 = Prüfschritt 1.2.5a Audiodeskription für Videos
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

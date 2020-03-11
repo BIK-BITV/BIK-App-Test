@@ -1,6 +1,6 @@
 = Prüfschritt 2.5.1a Alternativen für komplexe Zeiger-Gesten
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

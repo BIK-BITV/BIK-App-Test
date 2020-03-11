@@ -1,6 +1,6 @@
 = Prüfschritt 2.4.3a Schlüssige Reihenfolge bei der Tastaturbedienung
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

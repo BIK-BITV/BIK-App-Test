@@ -1,6 +1,6 @@
 = Prüfschritt 2.4.7a Aktuelle Position des Fokus deutlich
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

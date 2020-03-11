@@ -1,6 +1,6 @@
 = Prüfschritt 4.1.2a Name, Rolle, Wert verfügbar
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

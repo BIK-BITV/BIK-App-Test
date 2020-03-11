@@ -1,6 +1,6 @@
 = 1.1.1b Alternativtexte für Grafiken und Objekte
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

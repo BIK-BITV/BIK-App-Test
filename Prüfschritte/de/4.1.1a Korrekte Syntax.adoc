@@ -1,6 +1,6 @@
 = Prüfschritt 4.1.1a Korrekte Syntax
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

@@ -1,6 +1,6 @@
 = 1.2.1a Alternativen für Audiodateien und stumme Videos
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

@@ -1,6 +1,6 @@
 :lang: de
 :stylesheet!:
-:env-embedded!:
+:env_embedded!:
 //:toc:
 :docinfo: shared-head
 //:toc-title: Inhalt

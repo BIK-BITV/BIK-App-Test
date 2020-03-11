@@ -1,6 +1,6 @@
 = Prüfschritt 3.3.1a Fehlererkennung
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

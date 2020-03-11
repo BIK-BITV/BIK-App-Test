@@ -1,6 +1,6 @@
 = Prüfschritt 1.4.10a Inhalte brechen um
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
@@ -91,13 +91,13 @@ Benutzerschnittstellen mit Werkzeugleisten.
 Im Prüfschritt wird nicht geprüft, ob die Zoomvergrößerung auf 400%
 Textinhalte tatsächlich auf 400% oder einen geringeren Wert vergrößert.
 Dies ist Gegenstand von Prüfschritt
-ifdef::env-embedded[]
+ifdef::env_embedded[]
 1.4.4a "Text auf 200% vergrößerbar".
-endif::env-embedded[]
-ifndef::env-embedded[]
+endif::env_embedded[]
+ifndef::env_embedded[]
 <<1.4.4a Text auf 200% vergrößerbar.adoc#,1.4.4a Text auf 200%
 vergrößerbar>>.
-endif::env-embedded[]
+endif::env_embedded[]
 
 // === 4. Bewertung
 

@@ -1,6 +1,6 @@
 = 1.1.1c Leere alt-Attribute für Layout-Grafiken
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

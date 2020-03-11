@@ -1,6 +1,6 @@
 = Prüfschritt 3.2.1a Keine unerwartete Kontextänderung bei Fokus
 include::include/author.adoc[]
-include::include/config.adoc[]
+include::include/attributes.adoc[]
 
 == Was wird geprüft?
 

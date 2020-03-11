@@ -1,6 +1,7 @@
 require "asciidoctor"
 require "optparse"
 flags = {}
+adoc_attributes = {}
 source_dir = "Prüfschritte/de"
 theme_name = "theme"
 src_theme_dir = source_dir + "/" +theme_name
@@ -11,9 +12,14 @@ OptionParser.new do |opts|
 end.parse!(into: flags)
 if File.directory?(source_dir) then
     Dir[source_dir + "/*.adoc"].each { |adoc_fn|
-        Asciidoctor.convert_file(
+    if flags[:standalone] then
+        adoc_attributes["env_embedded"] = false
+    else
+        adoc_attributes["env_embedded"] = true
+    end
+    Asciidoctor.convert_file(
                 adoc_fn, to_dir:output_dir, safe:"safe", mkdirs:true,
-                header_footer:flags[:standalone]
+                header_footer:flags[:standalone], attributes:adoc_attributes
             )
     }
     if flags[:standalone] && File.directory?(src_theme_dir) then
