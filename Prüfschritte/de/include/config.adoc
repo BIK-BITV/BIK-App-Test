@@ -1,7 +1,8 @@
 :lang: de
 :stylesheet!:
-:env-embedded:
+:env-embedded!:
 //:toc:
 :docinfo: shared-head
 //:toc-title: Inhalt
 :note-caption: Hinweis
+:app-issue-url: https://github.com/BIK-BITV/BIK-App-Test/issues
