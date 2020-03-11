@@ -79,13 +79,13 @@ es sei denn, ihre Spezifikationen erlauben diese Besonderheit.
 
 Validation will usually eliminate ambiguities (and more) because an essential step in validation is to check for proper use of that technology's markup (in a markup language) or code (in other technologies). Validation does not necessarily check for full conformance with a specification but it is the best means for automatically checking content against its specification.
 
-Quelle: * https://www.w3.org/WAI/WCAG21/Techniques/general/G134[WCAG 2.1 Technik G134: Validating web pages]
+Quelle: https://www.w3.org/WAI/WCAG21/Techniques/general/G134[WCAG 2.1 Technik G134: Validating web pages]
 
 === Prüfung von generiertem Quelltext
 
 Auf Stackoverflow.com gibt es eine ausführliche Diskussion der Schwierigkeiten, den generierten Quelltext auf verschiedenen Wegen zu extrahieren und zu validieren (auf Englisch)
 
-Quelle: * https://stackoverflow.com/questions/1750865/best-way-to-view-generated-source-of-webpage[Best way to view generated source of web page (stackoverflow.com)]
+Quelle: https://stackoverflow.com/questions/1750865/best-way-to-view-generated-source-of-webpage[Best way to view generated source of web page (stackoverflow.com)]
 
 == Fragen zu diesem Prüfschritt
 
