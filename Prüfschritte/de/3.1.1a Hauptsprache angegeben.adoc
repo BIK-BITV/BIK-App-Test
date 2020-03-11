@@ -18,7 +18,7 @@ Der Prüfschritt ist immer anwendbar.
 
 === Prüfung
 
-Prüfen ob sich die Anwendung an die Systemsprache hält. Falls dies nicht der Fall ist, soll die Software ihre verwendete Sprache an das System melden. Ggf. ist dies mit einem Screenreader prüfbar, indem man prüft, ob der Screenreader eine zur Sprache der Anwendung passende Stimme beim Vorlesen der Bedienelemente wählt.
+Prüfen ob sich die Anwendung an die Systemsprache hält. Falls dies nicht der Fall ist, soll die Software ihre verwendete Sprache an das System melden. Gegebenenfalls ist dies mit einem Screenreader prüfbar, indem man prüft, ob der Screenreader eine zur Sprache der Anwendung passende Stimme beim Vorlesen der Bedienelemente wählt.
 
 Ggf. müssen hier noch bessere Prüfmethoden gefunden werden. Die meiste Software richtet sich jedoch nach der Systemsprache und ist somit konform.
 
@@ -26,11 +26,11 @@ Ggf. müssen hier noch bessere Prüfmethoden gefunden werden. Die meiste Softwar
 
 *[.underline]#Erfüllt:#*
 
-* *Die Anwendung hält sich an die Systemsprache oder meldet ihre verwendete Sprache an das System.*
+* Die Anwendung hält sich an die Systemsprache oder meldet ihre verwendete Sprache an das System.
 
 *[.underline]#Nicht erfüllt:#*
 
-*Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z. B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit bspw. Englischer Text mit einer deutschen Stimme vorgelesen wird.*
+* Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z. B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit beispielsweise englischer Text mit einer deutschen Stimme vorgelesen wird.
 
 ==  Einordnung des Prüfschritts
 
