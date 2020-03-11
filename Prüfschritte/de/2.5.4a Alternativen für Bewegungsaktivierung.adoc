@@ -46,8 +46,9 @@ Von der Software definierte Bewegungseingaben haben eine alternative Eingabemög
 
 * https://www.w3.org/TR/WCAG21/#motion-actuation[2.5.4 Motion Actuation (Level A)]
 
-==== Sufficient Techniques
+==== Techniques
 
+.Sufficient Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G213[G213: Provide conventional controls and an application setting for motion activated input]
 
 ==== Failures
