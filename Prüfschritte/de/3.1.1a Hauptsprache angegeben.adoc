@@ -18,7 +18,7 @@ Der Prüfschritt ist immer anwendbar.
 
 === Prüfung
 
-Prüfen ob sich die Anwendung an die Systemsprache hält. Falls dies nicht der Fall ist, soll die Software ihre verwendete Sprache an das System melden. Ggf. ist dies mit einem Screenreader prüfbar, indem man prüft, ob der Screenreader eine zur Sprache der Anwendung passende Stimme beim Vorlesen der Bedienelemente wählt.
+Prüfen ob sich die Anwendung an die Systemsprache hält. Falls dies nicht der Fall ist, soll die Software ihre verwendete Sprache an das System melden. Gegebenenfalls ist dies mit einem Screenreader prüfbar, indem man prüft, ob der Screenreader eine zur Sprache der Anwendung passende Stimme beim Vorlesen der Bedienelemente wählt.
 
 Ggf. müssen hier noch bessere Prüfmethoden gefunden werden. Die meiste Software richtet sich jedoch nach der Systemsprache und ist somit konform.
 
@@ -26,11 +26,11 @@ Ggf. müssen hier noch bessere Prüfmethoden gefunden werden. Die meiste Softwar
 
 *[.underline]#Erfüllt:#*
 
-* *Die Anwendung hält sich an die Systemsprache oder meldet ihre verwendete Sprache an das System.*
+* Die Anwendung hält sich an die Systemsprache oder meldet ihre verwendete Sprache an das System.
 
 *[.underline]#Nicht erfüllt:#*
 
-*Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z. B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit bspw. Englischer Text mit einer deutschen Stimme vorgelesen wird.*
+* Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z. B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit beispielsweise englischer Text mit einer deutschen Stimme vorgelesen wird.
 
 ==  Einordnung des Prüfschritts
 
@@ -42,20 +42,14 @@ Die vorherrschend verwendete natürliche Sprache jeder Webseite ist durch Progra
 
 === Abgrenzung zu anderen Prüfkriterien
 
-■ Prüfschritt 3.1.2a "Anderssprachige Wörter und Abschnitte ausgezeichnet"
+* https://testen.bitv-test.de/index.php?a=di&iid=93&s=n[Prüfschritt 3.1.2a "Anderssprachige Wörter und Abschnitte ausgezeichnet"]
 
-Einordnung des Prüfschritts nach WCAG 2.1
+=== Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-■ Guideline 3.1 Readable: Make text content readable and understandable
+* https://www.w3.org/TR/WCAG21/#readable[Guideline 3.1 Readable: Make text content readable and understandable]
 
-Success criterion
+==== Success criterion
 
-■ 3.1.1 Language of Page (Level A)
-
-Techniques
-
-HTML Techniques
-
-■ H57: Using language attributes on the html element
+* https://www.w3.org/TR/WCAG21/#language-of-page[3.1.1 Language of Page (Level A)]

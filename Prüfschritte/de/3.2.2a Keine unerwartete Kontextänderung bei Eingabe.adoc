@@ -72,34 +72,22 @@ Die Verwendung von Submit-Buttons, die in den Techniken G80 und H32 dem Success 
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-■ Guideline 3.2 Predictable: Make Web pages appear and operate in predictable ways
+* https://www.w3.org/TR/WCAG21/#predictable[Guideline 3.2 Predictable: Make Web pages appear and operate in predictable ways]
 
-Success criterion
+==== Success criterion
 
-■ 3.2.2 On Input (Level A)
+* https://www.w3.org/TR/WCAG21/#on-input[3.2.2 On Input (Level A)]
 
-Techniques
+==== Techniques
 
-General Techniques
-
-■ G80: Providing a submit button to initiate a change of context using a technology-specific technique listed below
-
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G80.html[G80: Providing a submit button to initiate a change of context using a technology-specific technique listed below]
 Hinweis: Die Technik G80 ist SC 3.2.2 zugeordnet, wird aber nur indirekt geprüft.
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G13.html[G13: Describing what will happen before a change to a form control that causes a change of context to occur is made]
 
-■ G13: Describing what will happen before a change to a form control that causes a change of context to occur is made
+==== Failures
 
-HTML Techniques
-
-■ H32: Providing submit buttons.
-
-Hinweis: Die Technik H32 ist SC 3.2.2 zugeordnet, wird aber nur indirekt geprüft.
-
-■ H84: Using a button with a select element to perform an action
-
-Failures
-
-■ F36: Failure of Success Criterion 3.2.2 due to automatically submitting a form and presenting new content without prior warning when the last field in the form is given a value
-
-■ F37: Failure of Success Criterion 3.2.2 due to launching a new window without prior warning when the status of a radio button, check box or select list is changed
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F36.html[F36: Failure of Success Criterion 3.2.2 due to automatically submitting a form and presenting new content without prior warning when the last field in the form is given a value]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F37.html[F37: Failure of Success Criterion 3.2.2 due to launching a new window without prior warning when the status of a radio button, check box or select list is changed]

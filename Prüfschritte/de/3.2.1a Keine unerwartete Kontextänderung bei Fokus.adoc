@@ -50,26 +50,23 @@ Erhält eine Komponente den Fokus, wird dadurch keine Änderung des Kontextes au
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-■ Guideline 3.2 Predictable: Make Web pages appear and operate in predictable ways.
+* https://www.w3.org/TR/WCAG21/#predictable[Guideline 3.2 Predictable: Make Web pages appear and operate in predictable ways]
 
-Success criterion
+==== Success criterion
 
-■ 3.2.1 On Focus (Level A)
+* https://www.w3.org/TR/WCAG21/#on-focus[3.2.1 on Focus (Level A)]
 
-Techniques
+==== Techniques
 
-General Techniques
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G107.html[G107: Using "activate" rather than "focus" as a trigger for changes of context]
 
-■ G107: Using "activate" rather than "focus" as a trigger for changes of context
+.Advisory Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G200.html[G200: Opening new windows and tabs from a link only when necessary]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G201.html[G201: Giving users advanced warning when opening a new window]
 
-Advisory Techniques
+==== Failures
 
-■ G200: Opening new windows and tabs from a link only when necessary
-
-■ G201: Giving users advanced warning when opening a new window
-
-Failures
-
-■ F52: Failure of Success Criterion 3.2.1 due to opening a new window as soon as a new page is loaded
+* [F52: Failure of Success Criterion 3.2.1 due to opening a new window as soon as a new page is loaded]

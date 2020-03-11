@@ -39,23 +39,22 @@ Während es in diesem Prüfschritt darum geht, ob die eingesetzten Navigationsme
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-■ Guideline 3.2 Make Web pages appear and operate in predictable ways.
+* https://www.w3.org/TR/WCAG21/#predictable[Guideline 3.2 Make Web pages appear and operate in predictable ways]
 
-Success criteria
+==== Success criterion
 
-■ 3.2.3 Consistent Navigation (Level AA)
+* https://www.w3.org/TR/WCAG21/#consistent-navigation[3.2.3 Consistent Navigation (Level AA)]
 
-Techniques
+==== Techniques
 
-General Techniques
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G61.html[G61: Presenting repeated components in the same relative order each time they appear]
 
-■ G61: Presenting repeated components in the same relative order each time they appear
+==== Failures
 
-Failures
-
-■ F66: Failure of Success Criterion 3.2.3 due to presenting navigation links in a different relative order on different pages
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F66.html[F66: Failure of Success Criterion 3.2.3 due to presenting navigation links in a different relative order on different pages]
 
 ==  Quellen
 
@@ -67,4 +66,4 @@ Ensuring that repeated components occur in the same order on each page of a site
 
 It is important to note that the use of the phrase "same order" in this section is not meant to imply that subnavigation menus cannot be used or that blocks of secondary navigation or page structure cannot be used. (...)
 
-Quelle: Consistent Navigation: Understanding SC 3.2.3
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/consistent-navigation.html[Consistent Navigation: Understanding SC 3.2.3]
