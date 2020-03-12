@@ -4,137 +4,185 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Ablenkung durch blinkende oder sich bewegende Elemente soll vermieden werden, auf 5 Sekunden begrenzt sein oder abschaltbar sein.
+Ablenkung durch blinkende oder sich bewegende Elemente soll vermieden werden,
+auf 5 Sekunden begrenzt sein oder abschaltbar sein.
 
-Bewegte oder automatisch aktualisierte Inhalte, z.B. periodisch wechselnde Nachrichten-Aufmacher (Teaser) sollen zum Lesen anhaltbar sein.
+Bewegte oder automatisch aktualisierte Inhalte, z.B. periodisch wechselnde
+Nachrichten-Aufmacher (Teaser) sollen zum Lesen anhaltbar sein.
 
 == Warum wird das geprüft?
 
-Viele Benutzer haben Schwierigkeiten, Software zu nutzen, die mit blinkenden oder sich bewegenden Elementen (zum Beispiel Werbung) ausgestattet sind. Solche Elemente lenken ab. Der Benutzer kann sich möglicherweise nicht auf andere Inhalte konzentrieren.
+Benutzer haben Schwierigkeiten, Software zu nutzen, die mit blinkenden
+oder sich bewegenden Elementen (zum Beispiel Werbung) ausgestattet sind.
+Solche Elemente lenken ab.
+Der Benutzer kann sich möglicherweise nicht auf
+andere Inhalte konzentrieren.
 
-Viele Benutzer haben außerdem Schwierigkeiten, blinkende oder bewegte Inhalte zu lesen, etwa bei Newstickern.
+Viele Benutzer haben außerdem Schwierigkeiten, blinkende oder bewegte Inhalte
+zu lesen, etwa bei Newstickern.
 
-Interaktive bewegte Inhalte können für Benutzer mit motorischen Einschränkungen problematisch sein.
+Interaktive bewegte Inhalte können für Benutzer mit motorischen
+Einschränkungen problematisch sein.
 
-Automatisch aktualisierte Nachrichten-Aufmacher (Teaser) ändern unangekündigt die angezeigten Inhalte und stören dadurch die Wahrnehmung und Orientierung. Das beeinträchtigt besonders Nutzer von Bildschirmvergrößerungssoftware und solche, die mehr Zeit zum Lesen brauchen. Bei Screenreader-Nutzern kann es zu unvermittelten Fokus-Verschiebungen kommen.
+Automatisch aktualisierte Nachrichten-Aufmacher (Teaser) ändern
+unangekündigt die angezeigten Inhalte und stören dadurch die Wahrnehmung und
+Orientierung.
+Das beeinträchtigt besonders Nutzer von Bildschirmvergrößerungssoftware und
+solche, die mehr Zeit zum Lesen brauchen.
+Bei Screenreader-Nutzern kann es zu unvermittelten Fokus-Verschiebungen kommen.
 
-Schaltflächen zum Beenden der Bewegung sind problematisch. Sie müssen erst einmal gefunden werden, bevor Benutzer mit ihnen die Bewegung stoppen können. Da sie zur Zeit sehr selten eingesetzt werden, erwarten und erkennen Benutzer sie häufig nicht.
+Schaltflächen zum Beenden der Bewegung sind problematisch.
+Sie müssen erst einmal gefunden werden, bevor Benutzer mit ihnen die Bewegung
+stoppen können.
+Da sie zur Zeit sehr selten eingesetzt werden, erwarten und erkennen Benutzer
+sie häufig nicht.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar wenn blinkende, bewegte oder automatisch aktualisierte Inhalte automatisch starten, länger als fünf Sekunden aktiv sind und parallel zu anderen Inhalten dargestellt werden.
+Der Prüfschritt ist anwendbar wenn blinkende, bewegte oder automatisch
+aktualisierte Inhalte automatisch starten, länger als fünf Sekunden aktiv
+sind und parallel zu anderen Inhalten dargestellt werden.
 
 === Prüfung
 
-Falls die zu testende Ansicht in der Software blinkende, bewegte oder automatisch aktualisierte Inhalte enthält, die parallel zu anderen Inhalten dargestellt wird, zum Beispiel Nachrichten-Aufmacher (Teaser), laufende Texte, oder animierte Werbung:
+Falls die zu testende Ansicht in der Software blinkende, bewegte oder
+automatisch aktualisierte Inhalte enthält, die parallel zu anderen
+Inhalten dargestellt wird, zum Beispiel Nachrichten-Aufmacher (Teaser),
+laufende Texte, oder animierte Werbung:
 
-* Prüfen, ob die Bewegung innerhalb von 5 Sekunden nach Anzeige der Ansicht von selbst aufhört.
-* Falls das nicht der Fall ist: Feststellen, ob sich auf der Ansicht eine Schaltfläche befindet, mit der man die Bewegung stoppen kann, eine gleichwertige nicht-animierte Version der Ansicht laden kann, oder ob es eine klare Anweisung gibt, wie die Bewegung mit der Tastatur angehalten werden kann.
-* Prüfen, ob das Aktivieren der Schaltfläche oder des Tastatur-Shortcuts die Bewegung tatsächlich anhält und sie auch nicht wieder von allein erneut beginnt.
-* Prüfen, ob das erneute Aktivieren der Schaltfläche die Bewegung wieder in Gang setzt, und zwar von dem Punkt aus, der beim letztem Anhalten erreicht war.
+* Prüfen, ob die Bewegung innerhalb von 5 Sekunden nach Anzeige der Ansicht
+  von selbst aufhört.
+* Falls das nicht der Fall ist: Feststellen, ob sich auf der Ansicht eine
+  Schaltfläche befindet, mit der man die Bewegung stoppen kann, eine
+  gleichwertige nicht-animierte Version der Ansicht laden kann, oder ob es eine
+  klare Anweisung gibt, wie die Bewegung mit der Tastatur angehalten werden
+  kann.
+* Prüfen, ob das Aktivieren der Schaltfläche oder des Tastatur-Shortcuts die
+  Bewegung tatsächlich anhält und sie auch nicht wieder von allein erneut
+  beginnt.
+* Prüfen, ob das erneute Aktivieren der Schaltfläche die Bewegung wieder in
+  Gang setzt, und zwar von dem Punkt aus, der beim letztem Anhalten erreicht
+  war.
 
 === Hinweise
 
-Die Schaltfläche oder die Anweisung, mit der man die Bewegung anhalten kann, muss eindeutig sein und deutlich sichtbar am Beginn der Ansicht oder direkt oberhalb des bewegten Inhalts platziert sein.
+Die Schaltfläche oder die Anweisung, mit der man die Bewegung anhalten kann,
+muss eindeutig sein und deutlich sichtbar am Beginn der Ansicht oder direkt
+oberhalb des bewegten Inhalts platziert sein.
 
 Alle Inhalte müssen nach dem Anhalten der Bewegung verfügbar bleiben.
 
-Es spielt keine Rolle, ob es sich bei den blinkenden oder sich bewegenden Inhalten um Werbung oder um redaktionelle Inhalte handelt.
+Es spielt keine Rolle, ob es sich bei den blinkenden oder sich bewegenden
+Inhalten um Werbung oder um redaktionelle Inhalte handelt.
 
 === Bewertung
 
-Nicht voll erfüllt:
+*Nicht voll erfüllt:*
 
-Bewegung endet nicht von allein, bewegte und automatisch aktualisierte Inhalte können nicht angehalten, ausgeblendet oder in ihrer Aktualisierungsfrequenz angepasst werden.
+* Bewegung endet nicht von allein, bewegte und automatisch aktualisierte
+  Inhalte können nicht angehalten, ausgeblendet oder in ihrer
+  Aktualisierungsfrequenz angepasst werden.
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-2.2.2 Anhalten, beenden, ausblenden
-
-Informationen, die sich bewegen, blinken oder scrollen und die
-
-automatisch einsetzen,
-
-länger als fünf Sekunden andauern und
-
-gleichzeitig mit anderen Inhalten präsentiert werden,
-
-müssen angehalten, beendet oder ausgeblendet werden können, es sei denn, diese Bewegung ist wesentlich für eine Aktivität.
-
-Informationen, die sich automatisch aktualisieren und die
-
-automatisch einsetzen und
-
-gleichzeitig mit anderen Inhalten präsentiert werden,
-
-müssen angehalten, beendet, ausgeblendet oder in ihrer Aktualisierungsfrequenz kontrolliert werden können, es sei denn, diese automatische Aktualisierung ist wesentlich für eine Aktivität.
-
 === Abgrenzung der Prüfschritte 2.2.1a und 2.2.2a
 
-Dieser Prüfschritt 2.2.2a betrifft bewegte Inhalte, die Benutzer ablenken oder durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Benutzer schwierig wahrnehmbar sind. Hier wird geprüft, ob Benutzer die Möglichkeit haben, bewegte Inhalte anzuhalten oder auszublenden.
+Dieser Prüfschritt 2.2.2a betrifft bewegte Inhalte, die Benutzer ablenken
+oder durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Benutzer
+schwierig wahrnehmbar sind.
+Hier wird geprüft, ob Benutzer die Möglichkeit haben, bewegte Inhalte
+anzuhalten oder auszublenden.
 
-Der Prüfschritt 2.2.1a "Zeitbegrenzungen anpassbar" betrifft Zeitbegrenzungen, welche die ganze Seite betreffen, unabhängig davon, ob die zeitbegrenzten Inhalte bewegt sind (also ablenken) oder nicht. Geprüft wird, ob solche Zeitbegrenzungen abschaltbar oder verlängerbar sind.
+* Der Prüfschritt
+ifdef::env_embedded[2.2.1a "Zeitbegrenzungen anpassbar"]
+ifndef::env_embedded[]
+<<2.2.1a Zeitbegrenzungen anpassbar.adoc#,2.2.1a Zeitbegrenzungen anpassbar>>
+endif::env_embedded[]
+betrifft Zeitbegrenzungen, welche die ganze Seite betreffen, unabhängig
+davon, ob die zeitbegrenzten Inhalte bewegt sind (also ablenken) oder nicht.
+Geprüft wird, ob solche Zeitbegrenzungen abschaltbar oder verlängerbar sind.
 
-Zur Abgrenzung von Blinken und Flackern siehe Abschnitt "Quellen" bei Prüfschritt 2.3.1a "Verzicht auf Flackern".
+* Zur Abgrenzung von Blinken und Flackern siehe Abschnitt "Quellen" bei
+  Prüfschritt
+ifdef::env_embedded[2.3.1a "Verzicht auf Flackern".]
+ifndef::env_embedded[]
+  <<2.3.1a Verzicht auf Flackern.adoc#_quellen,2.3.1a Verzicht auf Flackern>>.
+endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-Guideline 2.2 Enough Time: Provide users enough time to read and use content.
+* https://www.w3.org/TR/WCAG21/#enough-time[Guideline 2.2 Enough Time: Provide
+  users enough time to read and use content.]
 
-Success criterion
+==== Success criterion
 
-2.2.2 Pause, Stop, Hide (Level A)
+* https://www.w3.org/TR/WCAG21/#pause-stop-hide[2.2.2 Pause, Stop, Hide
+  (Level A)]
 
-Techniques
+==== Techniques
 
-General Techniques
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G4[G4: Allowing the content
+  to be paused and restarted from where it was paused]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G11.html[G11: Creating
+  content that blinks for less than 5 seconds]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G152.html[G152: Setting
+  animated gif images to stop blinking after n cycles (within 5 seconds)]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G186.html[G186: Using a
+  control in the Web page that stops moving, blinking, or auto-updating content]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G191.html[G191: Providing a
+  link, button, or other mechanism that reloads the page without any blinking
+  content]
 
-G4: Allowing the content to be paused and restarted from where it was paused
+==== Failures
 
-G11: Creating content that blinks for less than 5 seconds
-
-G152: Setting animated gif images to stop blinking after n cycles (within 5 seconds)
-
-G186: Using a control in the Web page that stops moving, blinking, or auto-updating content
-
-G191: Providing a link, button, or other mechanism that reloads the page without any blinking content
-
-Scripting Techniques
-
-SCR22: Using scripts to control blinking and stop it in five seconds or less
-
-SCR33: Using script to scroll content, and providing a mechanism to pause it
-
-Failures
-
-F4: Failure of Success Criterion 2.2.2 due to using text-decoration:blink without a mechanism to stop it in less than five seconds
-
-F7: Failure of Success Criterion 2.2.2 due to an object or applet, such as Java or Flash, that has blinking content without a mechanism to pause the content that blinks for more than five seconds
-
-F16: Failure of Success Criterion 2.2.2 due to including scrolling content where movement is not essential to the activity without also including a mechanism to pause and restart the content
-
-F47: Failure of Success Criterion 2.2.2 due to using the blink element
-
-F50: Failure of Success Criterion 2.2.2 due to a script that causes a blink effect without a mechanism to stop the blinking at 5 seconds or less
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F4.html[F4: Failure of
+  Success Criterion 2.2.2 due to using text-decoration:blink without a
+  mechanism to stop it in less than five seconds]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F7.html[F7: Failure of
+  Success Criterion 2.2.2 due to an object or applet, such as Java or Flash,
+  that has blinking content without a mechanism to pause the content that
+  blinks for more than five seconds]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F16.html[F16: Failure of
+  Success Criterion 2.2.2 due to including scrolling content where movement is
+  not essential to the activity without also including a mechanism to pause
+  and restart the content]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F47.html[F47: Failure of
+  Success Criterion 2.2.2 due to using the blink element]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F50.html[F50: Failure of
+  Success Criterion 2.2.2 due to a script that causes a blink effect without a mechanism to stop the blinking at 5 seconds or less]
 
 == Quellen
 
-Die WCAG 2.1 zum Anhalten und Fortsetzen bei aufgezeichneten Inhalten und Echtzeit-Inhalten
+Die WCAG 2.1  zu  aufgezeichneten  und Echtzeit-Inhalten
 
-Content that is paused can either resume in real-time or continue playing from the point in the presentation where the user left off.
+[.BLOCK_LANG_EN]
+--
+Content that is paused can either resume in real-time or continue playing from
+the point in the presentation where the user left off.
 
-Pausing and resuming where the user left off is best for users who want to pause to read content and works best when the content is not associated with a real-time event or status.
+Pausing and resuming where the user left off is best for users who want to
+pause to read content and works best when the content is not associated with a
+real-time event or status.
 
-Note: See Understanding Success Criterion 2.2.1 Timing Adjustable for additional requirements related to time-limits for reading.
+Note: See
+https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html[
+Understanding Success Criterion 2.2.1 Timing Adjustable] for additional
+requirements related to time-limits for reading.
 
-Pausing and jumping to current display (when pause is released) is better for information that is real-time or "status" in nature. For example, weather radar, a stock ticker, a traffic camera, or an auction timer, would present misleading information if a pause caused it to display old information when the content was restarted.
+Pausing and jumping to current display (when pause is released) is better for
+information that is real-time or "status" in nature.
+For example, weather radar, a stock ticker, a traffic camera, or an auction
+timer, would present misleading information if a pause caused it to display
+old information when the content was restarted.
 
-Note: Hiding content would have the same result as pausing and jumping to current display (when pause is released).
+Note: Hiding content would have the same result as pausing and jumping to
+current display (when pause is released).
+--
 
-Quelle: Pause, Stop, Hide: Understanding SC 2.2.2
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html[Pause,
+        Stop, Hide: Understanding SC 2.2.2]
