@@ -90,91 +90,60 @@ Alternativer Text für blinde Besucher: Prüfschritt 1.1.1a "Alternativtexte fü
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
-Guideline
+==== Guideline
 
-Guideline 2.4 Navigable: Provide ways to help users navigate, find content, and determine where they are
+* https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide ways to help users navigate, find content, and determine where they are]
 
-Success criteria
+Success criterion
 
-2.4.4 Link Purpose (In Context) (Level A)
+* https://www.w3.org/TR/WCAG21/#link-purpose-in-context[2.4.4 Link Purpose (In Context) (Level A)]
 
-Techniques
+==== Techniques
 
-General Techniques
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G53.html[G53: Identifying the purpose of a link using link text combined with the text of the enclosing sentence]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G91.html[G91: Providing link text that describes the purpose of a link]
 
-G53: Identifying the purpose of a link using link text combined with the text of the enclosing sentence
+==== Failures
 
-G91: Providing link text that describes the purpose of a link
-
-HTML Techniques
-
-H24: Providing text alternatives for the area elements of image maps
-
-H30: Providing link text that describes the purpose of a link for anchor elements
-
-H33: Supplementing link text with the title attribute
-
-H77: Identifying the purpose of a link using link text combined with its enclosing list item
-
-H78: Identifying the purpose of a link using link text combined with its enclosing paragraph
-
-H79: Identifying the purpose of a link using link text combined with its enclosing table cell and associated table headings
-
-H80: Identifying the purpose of a link using link text combined with the preceding heading element
-
-H81: Identifying the purpose of a link in a nested list using link text combined with the parent list item under which the list is nested
-
-CSS Techniques
-
-C7: Using CSS to hide a portion of the link text (CSS)
-
-ARIA Techniques
-
-ARIA7: Using aria-labelledby for link purpose
-
-ARIA8: Using aria-label for link purpose
-
-Failures
-
-F63: Failure of Success Criterion 2.4.4 due to providing link context only in content that is not related to the link
-
-F89: Failure of 2.4.4, 2.4.9 and 4.1.2 due to using null alt on an image where the image is the only content in a link
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F63.html[F63: Failure of Success Criterion 2.4.4 due to providing link context only in content that is not related to the link]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F89.html[F89: Failure of 2.4.4, 2.4.9 and 4.1.2 due to using null alt on an image where the image is the only content in a link]
 
 == Quellen
 
-Zweck der Kontextunabhängigkeit
+=== Zweck der Kontextunabhängigkeit
 
 Assistive technology has the ability to provide users with a list of links that are on the Web page. Link text that is as meaningful as possible will aid users who want to choose from this list of links. Meaningful link text also helps those who wish to tab from link to link. Meaningful links help users choose which links to follow without requiring complicated strategies to understand the page.
 
-Quelle: Link Purpose (In Context): Understanding SC 2.4.4
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[Link Purpose (In Context): Understanding SC 2.4.4]
 
-Gruppen zusammengehöriger Links
+=== Gruppen zusammengehöriger Links
 
 Bei einer Gruppe zusammengehöriger Links kann im ersten Link Ziel oder Zweck genannt werden und in den folgenden Links unterscheidende Informationen. Die WCAG 2.1 geben folgendes Beispiel:
 
 A list of books is available in three formats: HTML, PDF, and mp3 (a recording of a person reading the book). To avoid hearing the title of each book three times (once for each format), the first link for each book is the title of the book, the second link says "PDF" and the third says, "mp3."
 
-Quelle: Link Purpose (In Context): Understanding SC 2.4.4: Examples of Success Criterion 2.4.4
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[Link Purpose (In Context): Understanding SC 2.4.4: Examples of Success Criterion 2.4.4]
 
-Aussagekraft über den Kontext
+=== Aussagekraft über den Kontext
 
 Whenever possible, provide link text that identifies the purpose of the link without needing additional context.
 
 In some situations, authors may want to provide part of the description of the link in logically related text that provides the context for the link. In this case the user should be able to identify the purpose of the link without moving focus from the link. In other words, they can arrive on a link and find out more about it without losing their place. This can be achieved by putting the description of the link in the same sentence, paragraph, list item, the heading immediately preceding the link, or table cell as the link, or in the table header cell for a link in a data table, because these are directly associated with the link itself.
 
-Quelle: Link Purpose (In Context): Understanding SC 2.4.4
+Quelle: https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[Link Purpose (In Context): Understanding SC 2.4.4]
 
-Grenzen des title-Attributs (Technik H33: Supplementing link text with the title attribute)
+=== Grenzen des title-Attributs (Technik H33: Supplementing link text with the title attribute)
 
 The title attribute is used to provide additional information to help clarify or further describe the purpose of a link. If the supplementary information provided through the title attribute is something the user should know before following the link, such as a warning, then it should be provided in the link text rather than in the title attribute.
 
-Because of the extensive user agent limitations in supporting access to the title attribute, authors should use caution in applying this technique. For this reason, it is preferred that the author use technique C7: Using CSS to hide a portion of the link text (CSS) or H30: Providing link text that describes the purpose of a link for anchor elements (HTML).
+Because of the extensive user agent limitations in supporting access to the title attribute, authors should use caution in applying this technique. For this reason, it is preferred that the author use technique C7: https://www.w3.org/WAI/WCAG21/Techniques/css/C7.html[Using CSS to hide a portion of the link text (CSS)] or H30: https://www.w3.org/WAI/WCAG21/Techniques/html/H30.html[Providing link text that describes the purpose of a link for anchor elements (HTML).]
 
-Quelle: WCAG 2.1 Technik H33: Supplementing link text with the title attribute
+Quelle: https://www.w3.org/WAI/WCAG21/Techniques/html/H33.html[WCAG 2.1 Technik H33: Supplementing link text with the title attribute]
 
 == Fragen zu diesem Prüfschritt
 
-Oft wird über Bilder, Überschriften und "mehr"-Links mehrfach auf die selbe Seite verlinkt. Das beeinträchtigt die Brauchbarkeit der von Screenreadern generierten Linklisten. Wie wird das bewertet?
+=== Oft wird über Bilder, Überschriften und "mehr"-Links mehrfach auf die selbe Seite verlinkt. Das beeinträchtigt die Brauchbarkeit der von Screenreadern generierten Linklisten. Wie wird das bewertet?
 
 Mehrfache Links auf ein und dieselbe Seite sind für Nutzer der Linkliste unpraktisch, sie machen die Liste länger und unübersichtlicher. Unbrauchbar wird die Linkliste aber nicht, solange durch die Linktexte deutlich wird, dass es sich mehrfache Links auf dasselbe Ziel handelt.
 
