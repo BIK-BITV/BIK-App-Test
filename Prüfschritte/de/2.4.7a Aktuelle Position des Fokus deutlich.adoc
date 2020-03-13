@@ -4,88 +4,140 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Bei fokussierten Bedienelementen soll der Tastaturfokus sich deutlich von der ausgewählten Hintergrundfarbe abheben.
+Bei fokussierten Bedienelementen soll der Tastaturfokus sich deutlich von der
+ausgewählten Hintergrundfarbe abheben.
 
 Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 
 == Warum wird das geprüft?
 
-Für den Tastaturbenutzer ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, welches Bedienelement also ausgelöst wird, wenn er die Enter-Taste drückt.
+Für den Tastaturbenutzer ist es wichtig, zu sehen, wo sich der Tastaturfokus
+gerade befindet, welches Bedienelement also ausgelöst wird, wenn er die
+Enter-Taste drückt.
 
-Wenn Apps allein durch die Tastatur bedient werden, muss das fokussierte Bedienelement für den Nutzer deutlich hervorgehoben sein, da eine sichere Bedienung der Anwendung andernfalls für visuelle Nutzer kaum möglich ist.
+Wenn Apps allein durch die Tastatur bedient werden, muss das fokussierte
+Bedienelement für den Nutzer deutlich hervorgehoben sein, da eine sichere
+Bedienung der Anwendung andernfalls für visuelle Nutzer kaum möglich ist.
 
-Die vom Betriebssystem vorgesehene Kennzeichnung des Tastaturfokus hebt sich von dunklen Seitenhintergründen meist nicht so gut ab, wie in der "normalen" Ansicht des Betriebssystems oder des Benutzers. Das muss dann ausgeglichen werden, zum Beispiel durch farbige Hinterlegung des angesteuerten Bedienelements. ???
+Die vom Betriebssystem vorgesehene Kennzeichnung des Tastaturfokus hebt sich
+von dunklen Seitenhintergründen meist nicht so gut ab, wie in der "normalen"
+Ansicht des Betriebssystems oder des Benutzers.
+Das muss dann ausgeglichen werden, zum Beispiel durch farbige Hinterlegung des
+angesteuerten Bedienelements. ???
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App-Ansicht interaktive Elemente enthält.
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht interaktive Elemente
+enthält.
 
 === Prüfung
 
-[arabic]
 . Zu prüfende Ansicht in der Software öffnen.
-. Alle Bedienelemente mit Tabulator durchlaufen und prüfen, ob sie mit grafischen Veränderungen auf den Fokus reagieren (zum Beispiel mit Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
-. Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht, prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt.
-. Bei Bedienelementen, die sich im Fokus nicht verändern, prüfen, ob der Tastaturfokus (Systemkranz) an dieser Stelle vor hellem Hintergrund dargestellt ist, also gut zu erkennen ist. In Zweifelsfällen gemäß Prüfschritt 1.4.3a "Kontraste von Texten ausreichend" ermitteln, ob die Farbe Schwarz vor dem gewählten Hintergrund ausreichend kontrastiert.
+. Alle Bedienelemente mit Tabulator durchlaufen und prüfen, ob sie mit
+  grafischen Veränderungen auf den Fokus reagieren (zum Beispiel mit
+  Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). Versteckte
+  Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
+. Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht,
+  prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem
+  Zustand mindestens 3:1 beträgt.
+. Bei Bedienelementen, die sich im Fokus nicht verändern, prüfen, ob der
+  Tastaturfokus (Systemkranz) an dieser Stelle vor hellem Hintergrund
+  dargestellt ist, also gut zu erkennen ist.
+  In Zweifelsfällen gemäß Prüfschritt
+ifdef::env_embedded[1.4.3a "Kontraste von Texten ausreichend"]
+ifndef::env_embedded[]
+  <<1.4.3a Kontraste von Texten ausreichend.adoc#,1.4.3a Kontraste von Texten
+  ausreichend>>
+endif::env_embedded[]
+  ermitteln, ob die Farbe Schwarz vor dem gewählten Hintergrund ausreichend
+  kontrastiert.
 
-*[.underline]#Hinweise#*
+=== Hinweise
 
-* Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturcursor sichtbar ist. Dann ist eventuell auch Prüfschritt 2.1.1a "Ohne Maus nutzbar" nicht erfüllt! (Ohne Touch-Gesten bedienbar?)
-* Bei mobilen Systemen muss ggf. eine Bluetooth-Tastatur zum Einsatz kommen.
+* Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturcursor
+sichtbar ist.
+Dann ist eventuell auch Prüfschritt
+ifdef::env_embedded[2.1.1a "Ohne Maus nutzbar"]
+ifndef::env_embedded[]
+  <<2.1.1a Ohne Maus nutzbar.adoc#,2.1.1a Ohne Maus nutzbar>>
+endif::env_embedded[]
+nicht erfüllt! (Ohne Touch-Gesten bedienbar?)
+
+Bei mobilen Systemen muss ggf. eine Bluetooth-Tastatur zum Einsatz kommen.
 
 === Bewertung
 
-Erfüllt:
+*Erfüllt:*
 
-Die Hervorhebung des Fokusses ist nicht schlechter als ein ausreichend kontrastierender Systemkranz.
+* Die Hervorhebung des Fokusses ist nicht schlechter als ein ausreichend
+  kontrastierender Systemkranz.
+* Bei Bedienelementen, die sich bei Fokuserhalt nicht verändern, jedoch einen
+  Systemkranz zur Hervorhebung erhalten, erfüllt der Helligkeitskontrast der
+  Farbe Schwarz vor dem gewählten Hintergrund die Anforderungen von Prüfschritt
+ifdef::env_embedded[1.4.3a "Kontraste von Texten ausreichend".]
+ifndef::env_embedded[]
+  <<1.4.3a Kontraste von Texten ausreichend.adoc#,1.4.3a Kontraste von Texten
+  ausreichend>>.
+endif::env_embedded[]
 
-Bei Bedienelementen, die sich bei Fokuserhalt nicht verändern, jedoch einen Systemkranz zur Hervorhebung erhalten, erfüllt der Helligkeitskontrast der Farbe Schwarz vor dem gewählten Hintergrund die Anforderungen von Prüfschritt 1.4.3a "Kontraste von Texten ausreichend".
+*Nicht voll erfüllt:*
 
-Nicht voll erfüllt:
+* Sprunglinks bleiben bei Fokuserhalt versteckt.
 
-Sprunglinks bleiben bei Fokuserhalt versteckt.
+*Nicht erfüllt:*
 
-Nicht erfüllt:
-
-Der System-Fokus wird unterdrückt, bei Tastaturnutzung wird kein Fokus angezeigt. Hier muss eine Abwertung auf "schlecht zugänglich" erwogen werden.
+* Der System-Fokus wird unterdrückt, bei Tastaturnutzung wird kein Fokus
+  angezeigt.
+  Hier muss eine Abwertung auf "schlecht zugänglich" erwogen werden.
 
 == Einordnung des Prüfschritts
-
-=== Formulierung BITV 2.0
-
-2.4.7 Sichtbarer Fokus
-
-Bei Tastaturbedienung ist immer ein Tastaturfokus sichtbar.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide ways to help users navigate, find content, and determine where they are]
+* https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide
+  ways to help users navigate, find content, and determine where they are]
 
-Success criteria
+==== Success criteria
 
 * https://www.w3.org/TR/WCAG21/#focus-visible[2.4.7 Focus Visible (Level AA)]
-* https://www.w3.org/TR/WCAG21/#non-text-contrast[1.4.11 Non-Text Contrast (Level AA)]
+* https://www.w3.org/TR/WCAG21/#non-text-contrast[1.4.11 Non-Text Contrast
+  (Level AA)]
 
 ==== Techniques
 
 .General Techniques
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G149.html[G149: Using user interface components that are highlighted by the user agent when they receive focus]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G165.html[G165: Using the default focus indicator for the platform so that high visibility default focus indicators will carry over]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G195.html[G195: Using an author-supplied, highly visible focus indicator]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G149.html[G149: Using user
+  interface components that are highlighted by the user agent when they
+  receive focus]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G165.html[G165: Using the
+  default focus indicator for the platform so that high visibility default
+  focus indicators will carry over]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G195.html[G195: Using an
+  author-supplied, highly visible focus indicator]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F55.html[F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F78.html[F78: Failure of Success Criterion 2.4.7 due to styling element outlines and borders in a way that removes or renders non-visible the visual focus indicator]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F55.html[F55: Failure of
+  Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus
+  when focus is received]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F78.html[F78: Failure of
+  Success Criterion 2.4.7 due to styling element outlines and borders in a way
+  that removes or renders non-visible the visual focus indicator]
 
 == Fragen zu diesem Prüfschritt
 
-==== Ist die Anzeige des Fokus nicht Sache des Betriebssystems?
+=== Ist die Anzeige des Fokus nicht Sache des Betriebssystems?
 
-Alle Betriebssysteme zeigen dem Tastaturnutzer in irgendeiner Weise, wo der Fokus ist, wenn diese Anzeige nicht aktiv unterdrückt wird. ???
+Alle Betriebssysteme zeigen dem Tastaturnutzer in irgendeiner Weise, wo der
+Fokus ist, wenn diese Anzeige nicht aktiv unterdrückt wird.
 
-Dennoch ist die Anzeige des Fokus nicht allein Sache des Betriebssystems. Die App legt fest, wie sie aussehen soll. Sie ändert etwa die Farben fokussierter Bedienelemente und Hintergründe von Bedienelementen oder setzt andere Gestaltungselemente ein. In dieser von der App festgelegten Umgebung muss der Fokus für Tastaturnutzer gut sichtbar sein.
+Dennoch ist die Anzeige des Fokus nicht allein Sache des Betriebssystems.
+Die App legt fest, wie sie aussehen soll.
+Sie ändert etwa die Farben fokussierter Bedienelemente und Hintergründe von
+Bedienelementen oder setzt andere Gestaltungselemente ein.
+In dieser von der App festgelegten Umgebung muss der Fokus für Tastaturnutzer
+gut sichtbar sein.
