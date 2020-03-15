@@ -1,0 +1,37 @@
+= x01 1.3.1sa Textinhalte und –Attribute zugänglich
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
+11.5.2.10 Text.
+
+== Was wird geprüft?
+
+Textinhalte in der Software sind generell für den Screenreader zugänglich.
+Textattribute sind Verfügbar, wenn dies generell von der Software
+vorgesehen ist.
+Beispiel für Textattribute sind fett, kursiv und Unterstreichung.
+In einer Textverarbeitung müssen diese Attribute z. B. auch für den
+Screenreader-Nutzer ausgegeben werden können.
+
+== Wie wird geprüft?
+
+Mit dem Screenreader die Software navigieren und prüfen, ob alle sichtbaren
+Texte auch von der Hilfsmittel-Software erkannt werden.
+Prüfen ob es auch Möglichkeiten gibt, Textattribute mittels Screenreader
+anzuzeigen, wenn dies von der Software generell angeboten wird.
+
+== Quellen
+
+=== Auszug EN 301 549
+
+[.BLOCK_LANG_EN]
+==== 11.5.2.10 Text 
+
+[.BLOCK_LANG_EN]
+Where the software provides a user interface it shall, by using the services
+as described in clause 11.5.2.3, make the text contents, text attributes, and
+the boundary of text rendered to the screen programmatically determinable by
+assistive technologies.

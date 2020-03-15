@@ -1,0 +1,32 @@
+= x02 1.3.1sb Eltern-Kind-Beziehungen programmatisch ermittelbar
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Grundlage des Prüfschritts
+
+Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
+11.5.2.9 Parent-child relationships.
+
+== Was wird geprüft?
+
+Visuell dargestellte Hierarchien sollen grundsätzlich auch für den
+Screenreader-Nutzer erfahrbar sein.
+Beispiel für eine solche Hierarchie kann eine Baum- bzw. Strukturansicht sein.
+
+== Wie wird geprüft?
+
+Mittels Screenreader prüfen, ob die verschiedenen Hierarchien bzw. Ebenen vom
+Screenreader ausgegeben werden.
+
+== Quellen
+
+=== Auszug EN 301 549
+
+[.BLOCK_LANG_EN]
+==== 11.5.2.9 Parent-child relationships 
+
+[.BLOCK_LANG_EN]
+Where the software provides a user interface it shall, by using the services as
+described in clause 11.5.2.3, make the relationship between a user interface
+element and any parent or children elements programmatically determinable by
+assistive technologies.
