@@ -4,60 +4,111 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Alle selbst gestalteten Komponenten einer Software (also Elemente oder Widgets, keine Standard Bedienelemente des Betriebssystems) sind so umgesetzt, dass die semantischen Informationen (Name, Rolle, Eigenschaften) vorhanden sind.
+Alle selbst gestalteten Komponenten einer Software (also Elemente oder Widgets,
+keine Standard Bedienelemente des Betriebssystems) sind so umgesetzt, dass die
+semantischen Informationen (Name, Rolle, Eigenschaften) vorhanden sind.
 
-Die wechselnden Zustände der selbsterstellten Bedienelemente von Apps werden nicht nur visuell abgebildet, sondern auch über programmatische Änderung der Zustandswerte an das System weitergegeben, damit die Semantik auch bei nicht-visueller Nutzung verfügbar ist, z. B. über einen Screenreader.
+Die wechselnden Zustände der selbsterstellten Bedienelemente von Apps werden
+nicht nur visuell abgebildet, sondern auch über programmatische Änderung der
+Zustandswerte an das System weitergegeben, damit die Semantik auch bei
+nicht-visueller Nutzung verfügbar ist, z. B. über einen Screenreader.
 
-Bei Software werden dazu die Accessibility-Schnittstellen des jeweiligen Betriebssystems genutzt.
+Bei Software werden dazu die Accessibility-Schnittstellen des jeweiligen
+Betriebssystems genutzt.
 
 == Warum wird das geprüft?
 
-Standard- Bedienelemente wie Formularelemente (Eingabefelder, Buttons, Checkboxen etc.) haben Namen, Rollen, Wert und Zustände, sofern sie gemäß Spezifikation umgesetzt sind und sind für Hilfsmittel wie Screenreader generell erkennbar. So bekommen etwa blinde Nutzer mit, wenn sie auf einen Button tabben und können diesen dann auslösen. Auch Zustände, beispielsweise einer Checkbox (ausgewählt oder nicht ausgewählt) werden vermittelt. Interaktive Schaltflächen sollten deshalb mit Hilfe von geeigneten Elementen umgesetzt werden, damit ihre Bedeutung klar wird.
+Standard- Bedienelemente wie Formularelemente (Eingabefelder, Buttons,
+Checkboxen etc.) haben Namen, Rollen, Wert und Zustände, sofern sie gemäß
+Spezifikation umgesetzt sind und sind für Hilfsmittel wie Screenreader
+generell erkennbar.
+So bekommen etwa blinde Nutzer mit, wenn sie auf einen Button tabben und
+können diesen dann auslösen.
+Auch Zustände, beispielsweise einer Checkbox (ausgewählt oder nicht
+ausgewählt) werden vermittelt.
+Interaktive Schaltflächen sollten deshalb mit Hilfe von geeigneten Elementen
+umgesetzt werden, damit ihre Bedeutung klar wird.
 
-Bei vom Entwickler der App selbsterstellte Bedienelementen müssen dann Plattformspezifische Methoden (meist im Quelltext) angewandt werden, um den Namen, die Rolle und den Wert des Bedienelements an das Betriebssystem weiterzugeben. Dadurch kann das Betriebssystem diese Werte an Hilfstechnologien wie Screenreader weiterreichen.
+Bei vom Entwickler der App selbsterstellte Bedienelementen müssen dann
+Plattformspezifische Methoden (meist im Quelltext) angewandt werden, um den
+Namen, die Rolle und den Wert des Bedienelements an das Betriebssystem
+weiterzugeben.
+Dadurch kann das Betriebssystem diese Werte an Hilfstechnologien wie
+Screenreader weiterreichen.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn in der Software-Ansicht Bedienelemente eingesetzt werden, die *nicht* vom Betriebssystem bereitgestellt werden (Custom controls, vom Programmhersteller definierte Bedienelemente). Eine Sichtprüfung reicht dabei *[.underline]#nicht#* aus, da rein visuell nicht mit Sicherheit festgestellt werden kann, ob es sich um ein Custom Control handelt.
+Der Prüfschritt ist anwendbar, wenn in der Software-Ansicht Bedienelemente
+eingesetzt werden, die *nicht* vom Betriebssystem bereitgestellt werden
+(Custom controls, vom Programmhersteller definierte Bedienelemente).
+Eine Sichtprüfung reicht dabei *nicht* aus, da rein visuell nicht mit
+Sicherheit festgestellt werden kann, ob es sich um ein Custom Control handelt.
 
 === Prüfung
 
-[arabic]
-. Screenreader starten (iOS / iPadOS: Einstellungen -> Allgemein -> Bedienungshilfen -> VoiceOver).
-. Software mit zu prüfender Ansicht starten.
-. Möglichst alle Bedienelemente mit dem Screenreader untersuchen: Wird der Name, die Rolle und der Wert des Bedienelements vom Screenreader korrekt ausgegeben?
-
-Der Name ist dabei der Name des Bedienelements und ist meist gleichlautend mit dem Label des Bedienelements. Z. B. „Nachname“ für ein Eingabefeld.
-
-Zu den Rollen gehören u. a. „Eingabefeld“, „Ausklappliste“, „Checkbox“ und „Button“
-
-Der Wert beschreibt z. B. den Inhalt des Bedienelements z. B. „Müller“ bei einem Eingabefeld für Nachnamen. Zu den Werten des Bedienelements gehört auch der aktuelle Status, z. B. „ausgewählt“ für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
+. Screenreader starten (iOS / iPadOS: Einstellungen -> Allgemein ->
+  Bedienungshilfen -> VoiceOver)
+. Software mit zu prüfender Ansicht starten
+. Möglichst alle Bedienelemente mit dem Screenreader untersuchen: Wird der
+  Name, die Rolle und der Wert des Bedienelements vom Screenreader korrekt
+  ausgegeben?
++
+Der Name ist dabei der Name des Bedienelements und ist meist gleichlautend mit
+dem Label des Bedienelements. Z. B. „Nachname“ für ein Eingabefeld.
++
+Zu den Rollen gehören u. a. „Eingabefeld“, „Ausklappliste“,
+„Checkbox“ und „Button“.
++
+Der Wert beschreibt z. B. den Inhalt des Bedienelements z. B. „Müller“
+bei einem Eingabefeld für Nachnamen.
+Zu den Werten des Bedienelements gehört auch der aktuelle Status, z. B.
+„ausgewählt“ für ein ausgewählten Listeneintrag oder eine angekreuzte
+Checkbox.
 
 === Hinweise
 
-Dieses Erfolgskriterium richtet sich in erster Linie an Softwareentwickler, die benutzerdefinierte bzw. selbstgestaltete Komponenten für die Benutzeroberfläche entwickeln oder einsetzen. Standard-Benutzeroberflächenkomponenten auf den meisten barrierefrei gestalteten Plattformen erfüllen dieses Erfolgskriterium bereits bei bestimmungsgemäßer Verwendung.
+Dieses Erfolgskriterium richtet sich in erster Linie an Softwareentwickler,
+die benutzerdefinierte bzw. selbstgestaltete Komponenten für die
+Benutzeroberfläche entwickeln oder einsetzen.
+Standard-Benutzeroberflächenkomponenten auf den meisten barrierefrei
+gestalteten Plattformen erfüllen dieses Erfolgskriterium bereits bei
+bestimmungsgemäßer Verwendung.
 
-Um diesem Erfolgskriterium gerecht zu werden, ist es in der Regel empfehlenswert, dass Software-Benutzeroberflächen die Barrierefreiheitsdienste der Plattformsoftware nutzen. Diese Zugänglichkeitsdienste ermöglichen die Interoperabilität zwischen Software-Benutzeroberflächen und sowohl unterstützenden Technologien als auch Zugänglichkeitsfunktionen von Software auf standardisierte Weise. Die meisten Dienste zur Zugänglichkeit der Plattform gehen über die programmatische Offenlegung von Namen und Rolle und die programmatische Einstellung von Zuständen, Eigenschaften und Werten (und deren Benachrichtigung) hinaus und spezifizieren zusätzliche Informationen, die offengelegt werden könnten oder sollten (z.B. eine Liste der verfügbaren Aktionen für eine bestimmte Komponente der Benutzeroberfläche und ein Mittel zur programmatischen Ausführung einer der aufgeführten Aktionen).
+Um diesem Erfolgskriterium gerecht zu werden, ist es in der Regel
+empfehlenswert, dass Software-Benutzeroberflächen die
+Barrierefreiheitsdienste der Plattformsoftware nutzen.
+Diese Zugänglichkeitsdienste ermöglichen die Interoperabilität zwischen
+Software-Benutzeroberflächen und sowohl unterstützenden Technologien als
+auch Zugänglichkeitsfunktionen von Software auf standardisierte Weise.
+Die meisten Dienste zur Zugänglichkeit der Plattform gehen über die
+programmatische Offenlegung von Namen und Rolle und die programmatische
+Einstellung von Zuständen, Eigenschaften und Werten (und deren
+Benachrichtigung) hinaus und spezifizieren zusätzliche Informationen, die
+offengelegt werden könnten oder sollten (z.B. eine Liste der verfügbaren
+Aktionen für eine bestimmte Komponente der Benutzeroberfläche und ein Mittel
+zur programmatischen Ausführung einer der aufgeführten Aktionen).
 
 === Bewertung
 
-Nicht erfüllt:
+*Nicht erfüllt:*
 
-Wichtige Bedienelemente sind mit Custom Controls umgesetzt, auf eine Nachbildung der Semantik für die Barrierefreiheitsschnittstellen des Systems, wurde verzichtet.
+* wichtige Bedienelemente sind mit Custom Controls umgesetzt, auf eine
+  Nachbildung der Semantik für die Barrierefreiheitsschnittstellen des
+  Systems, wurde verzichtet
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-4.1.2 Name, Rolle, Wert
-
-Für alle Komponenten der Benutzerschnittstelle sind Name und Rolle durch Programme erkennbar. Zustände, Eigenschaften und Werte, die von Nutzerinnen und Nutzern eingestellt werden können, können auch durch ein Programm gesetzt werden. Bei Änderungen dieser Zustände, Eigenschaften und Werte erhalten Benutzeragenten, einschließlich assistiver Technologien, eine Mitteilung.
-
 === Abgrenzung von anderen Prüfkriterien
 
-In diesem Prüfschritt geht es nicht um die Bewertung der Tastaturbedienbarkeit geskripteter Bedienelemente. Dies ist Gegenstand von Prüfschritt 2.1.1a "Ohne Maus nutzbar".
+* In diesem Prüfschritt geht es nicht um die Bewertung der
+  Tastaturbedienbarkeit  von selbsterstellten Bedienelementen.
+  Dies ist Gegenstand von Prüfschritt
+ifdef::env_embedded[2.1.1a "Ohne Maus nutzbar".]
+ifndef::env_embedded[]
+  <<2.1.1a Ohne Maus nutzbar.adoc#,2.1.1a Ohne Maus nutzbar>>.
+endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
