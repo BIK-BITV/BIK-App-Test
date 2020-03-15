@@ -93,9 +93,10 @@ Bei verlinkten Abbildungen gibt es folgende Möglichkeiten:
 * Beschreibung des abgebildeten Gegenstandes und Ziel des Links in den
   Alternativtext (wenn beides wichtig ist).
 
-Generell gilt: Alternativtexte sollen kurz sein. Ausführliche Beschreibungen
-               von Abbildungen sollen nicht im Alternativtext, sondern im
-               Kontext der Abbildung zur Verfügung gestellt werden.
+Generell gilt:
+Alternativtexte sollen kurz sein.
+Ausführliche Beschreibungen von Abbildungen sollen nicht im
+Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
 === Hinweise
 
@@ -110,8 +111,18 @@ Alternativtext der Abbildung nicht den Text des Links wiederholen.
 Je nach Inhalt der Abbildung kann der Alternativtext dann leer bleiben
 oder den abgebildeten Inhalt beschreiben, während der Linktext Zweck oder Ziel
 des Links beschreibt.
-Dies ist Gegenstand der Prüfkriterien 1 "Alternativtexte für Grafiken und
-Objekte" und 1 "Leere alt-Attribute für Layoutgrafiken".
+Dies ist Gegenstand der Prüfkriterien
+ifdef::env_embedded[1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifndef::env_embedded[]
+  <<1.1.1b Alternativtexte für Grafiken und Objekte.adoc,1.1.1b
+  Alternativtexte für Grafiken und Objekte>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[1.1.1c "Leere alt-Attribute für Layoutgrafiken".]
+ifndef::env_embedded[]
+  <<1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,1.1.1c Leere
+  alt-Attribute für Layout-Grafiken>>.
+endif::env_embedded[]
 
 === Bewertung
 
@@ -128,36 +139,6 @@ Objekte" und 1 "Leere alt-Attribute für Layoutgrafiken".
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-==== 1.1.1 Nicht-Text-Inhalte
-
-Für jeden Nicht-Text-Inhalt, der dem Nutzer oder der Nutzerin präsentiert wird,
-ist eine Text-Alternative bereitzustellen, die den Zweck dieses Inhalts erfüllt.
-
-Text-Alternativen müssen in den folgenden Fällen nicht bereitgestellt werden:
-
-* Es handelt sich um ein Kontrollelement oder um ein Element, das Eingaben
-  der Nutzerin oder des Nutzers akzeptiert, und es ist ein Bezeichner vorhanden,
-  der seinen Zweck beschreibt.
-* Es handelt sich um zeitgesteuerte Medien und Text-Alternativen, die bereits
-  mindestens eine beschreibende Erklärung des Nicht-Text-Inhalts enthalten.
-* Es handelt sich um Tests oder Übungen, die im Nicht-Text-Format präsentiert
-  werden müssen, und Text-Alternativen, die bereits mindestens eine
-  beschreibende Erklärung des Nicht-Text-Inhalts enthalten.
-* Es sollen bestimmte sensorische Erfahrungen bewirkt werden und
-  Text-Alternativen, die bereits mindestens eine beschreibende Erklärung des
-  Nicht-Text-Inhalts enthalten.
-* Es soll erreicht werden, dass kein Computer, sondern eine Person auf den
-  Inhalt zugreift und der Nicht-Text-Inhalt durch Text-Alternativen
-  erklärt und beschrieben wird und alternative CAPTCHAs mit unterschiedlichem
-  Ausgabemodus für verschiedene Arten der sensorischen Wahrnehmung
-  bereitgestellt wird.
-* Es handelt sich um rein dekorative Elemente oder um Elemente, die nur der
-  visuellen Gestaltung dienen, oder der Nicht-Text-Inhalt ist für die Nutzerin
-  oder den Nutzer nicht sichtbar und diese Elemente sind so eingerichtet, dass
-  sie von assistiven Technologien ignoriert werden können.
-
 === Abgrenzung zu anderen Prüfkriterien
 
 Verlinkte Grafiken sind stets in diesem Prüfschritt zu bewerten.
@@ -165,53 +146,82 @@ Das gilt auch dann, wenn die Grafiken neben der Information über das Linkziel
 auch noch eine andere Information vermitteln sollen, wie zum Beispiel auf
 die Startseite verlinkte Logos.
 
-Einzige Ausnahme: Grafik und danebenstehender Text sind ein zusammengehöriger
-        Link.
-        Der Alternativtext bezieht sich dann nur auf die Grafik, die
-        Prüfkriterien 1 "Alternativtexte für Grafiken und Objekte" oder 1
-        "Leere alt-Attribute für Layoutgrafiken" sind anzuwenden.
+* Einzige Ausnahme:
+  Grafik und danebenstehender Text sind ein zusammengehöriger Link.
+  Der Alternativtext bezieht sich dann nur auf die Grafik, die Prüfkriterien
+ifdef::env_embedded[1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifndef::env_embedded[]
+  <<1.1.1b Alternativtexte für Grafiken und Objekte.adoc,1.1.1b
+  Alternativtexte für Grafiken und Objekte>>
+endif::env_embedded[]
+  oder
+ifdef::env_embedded[1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
+ifndef::env_embedded[]
+  <<1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,1.1.1c Leere
+  alt-Attribute für Layout-Grafiken>>
+endif::env_embedded[]
+  sind anzuwenden.
 
-Alternativtexte für grafische Überschriften:
-    siehe Prüfschritt 1 "Alternativtexte für Grafiken und Objekte"
+* Alternativtexte für grafische Überschriften:
+  siehe Prüfschritt
+ifdef::env_embedded[1.1.1b "Alternativtexte für Grafiken und Objekte".]
+ifndef::env_embedded[]
+  <<1.1.1b Alternativtexte für Grafiken und Objekte.adoc,1.1.1b
+  Alternativtexte für Grafiken und Objekte>>.
+endif::env_embedded[]
 
-CAPTCHAs werden im Prüfschritt 1 "Alternativen für CAPTCHAs" geprüft.
+* CAPTCHAs werden im Prüfschritt
+ifdef::env_embedded[1.1.1c "Alternativen für CAPTCHAs"]
+ifndef::env_embedded[]
+  <<1.1.1d Alternativen für CAPTCHAs.adoc#,1.1.1d Alternativen für CAPTCHAs>>
+endif::env_embedded[]
+  geprüft.
 
-Textäquivalent (title-Attribut) für Frames:
-    siehe Prüfschritt 1 "Inhaltsbereiche strukturiert".
-
-Linktexte sind auch in Prüfschritt 1 "Aussagekräftige Linktexte" Thema.
-Dort geht es um die allgemeine Aussagekraft, in diesem Prüfschritt 1.1.1a
-geht es dagegen nur um die Gleichwertigkeit von Alternativtext und grafischem
-Link.
+* Linktexte sind auch in Prüfschritt
+ifdef::env_embedded[2.4.4a "Aussagekräftige Linktexte"]
+ifndef::env_embedded[]
+  <<2.4.4a Aussagekräftige Linktexte.adoc#,2.4.4a Aussagekräftige Linktexte>>
+endif::env_embedded[]
+  Thema.
+  Dort geht es um die allgemeine Aussagekraft, in diesem Prüfschritt 1.1.1a
+  geht es dagegen nur um die Gleichwertigkeit von Alternativtext und grafischem
+  Link.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#text-alternatives[Guideline 1.1 Text Alternatives]:
-+
-Provide text alternatives for any non-text content so that it can be changed
-into other forms people need, such as large print, braille, speech, symbols
-or simpler language.
+* https://www.w3.org/TR/WCAG21/#text-alternatives[Guideline 1.1 Text
+  Alternatives:
+  Provide text alternatives for any non-text content so that it can be changed
+  into other forms people need, such as large print, braille, speech, symbols
+  or simpler language.]
 
 ==== Success criterion
 
-* http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[1.1.1 Non-text Content (Level A)]
+* http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[1.1.1 Non-text Content]
+  (Level A)
 
 ==== Techniques
 
 .General Techniques
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G94[G94: Providing short text alternative for non-text content that serves the same purpose and presents the same information as the non-text content]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G94[G94: Providing short
+  text alternative for non-text content that serves the same purpose and
+  presents the same information as the non-text content]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F20[F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F30[F30: Failure of Success Criterion 1.1.1 and 1.2.1 due to using text alternatives that are not alternatives]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F20[F20: Failure of
+  Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when
+  changes to non-text content occur]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F30[F30: Failure of
+  Success Criterion 1.1.1 and 1.2.1 due to using text alternatives that are
+  not alternatives]
 
 == Quellen
 
 === Anleitungen zum Erstellen guter Alternativtexte
 
-* W3C Web Accessibility Tutorials: https://www.w3.org/WAI/tutorials/images/[Images Concepts]
+* W3C Web Accessibility Tutorials:
+  https://www.w3.org/WAI/tutorials/images/[Images Concepts]
 * WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
-* HTML 5.1 Spezifikation: https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text[Requirements for providing text to act as an alternative for images]
