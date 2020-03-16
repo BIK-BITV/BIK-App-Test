@@ -1,0 +1,10 @@
+﻿Rolle;iOS / iPadOS;Android;Hinweis iOS / iPadOS;Hinweis Android
+Button;Taste;Schaltfläche;;
+Link;Hyperlink;Link;;
+Tab Panel;Tabulator;siehe Hinweis;;"Nur der Status ""ausgewählt"" wird angesagt, sonst nur der Name."
+Checkbox;Markierungsfeld;Kästchen;;"Zuerst wird der Status ausgegeben: ""nicht aktiviert"", ""aktiviert""."
+Eingabefeld;Textfeld;Bearbeitungsfeld;"Zusätzl. Ausgabe von ""Zum bearbeiten doppeltippen""";
+Mehrzeiliges Eingabefeld;Mehrzeiliges Textfeld;Bearbeitungsfeld;;
+Radio Buttons;Auswahltaste;Optionsfeld;;"Zuerst wird der Status ausgegeben: ""nicht aktiviert"", ""aktiviert""."
+Auswahlliste (Dropdown / Select Menü);Einblendmenü;Popup Schaltfläche;;
+;toggle button;;;
