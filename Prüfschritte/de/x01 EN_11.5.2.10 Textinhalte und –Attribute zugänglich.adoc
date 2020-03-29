@@ -1,4 +1,4 @@
-= x01 1.3.1sa Textinhalte und –Attribute zugänglich
+= x01 Textinhalte und –Attribute zugänglich
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

@@ -1,4 +1,4 @@
-= x02 1.3.1sb Eltern-Kind-Beziehungen programmatisch ermittelbar
+= x02 Eltern-Kind-Beziehungen programmatisch ermittelbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

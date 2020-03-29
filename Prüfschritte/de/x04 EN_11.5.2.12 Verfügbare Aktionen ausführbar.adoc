@@ -1,4 +1,4 @@
-= x04 1.3.1sd Verfügbare Aktionen ausführbar
+= x04 Verfügbare Aktionen ausführbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

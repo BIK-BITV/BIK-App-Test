@@ -1,4 +1,4 @@
-= x03 1.3.1sc Aktionen programmatisch ermittelbar
+= x03 Aktionen programmatisch ermittelbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
