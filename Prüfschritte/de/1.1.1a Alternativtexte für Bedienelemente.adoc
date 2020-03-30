@@ -53,7 +53,7 @@ sein und insbesondere das Ziel angeben.
 
 . App mit zu prüfender Ansicht öffnen.
 . Bedienelemente feststellen.
-. Prüfen ob Grafiken oder Font-Icons bzw. Symbol-Grafiken als Bedienelement
+. Prüfen, ob Grafiken oder Font-Icons bzw. Symbol-Grafiken als Bedienelement
   eingesetzt werden.
 . Screenreader VoiceOver starten und prüfen ob für die entsprechenden
   Bedienelemente Alternativtexte ausgegeben werden und diese (auch) das Ziel
