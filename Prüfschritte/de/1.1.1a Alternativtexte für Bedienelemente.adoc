@@ -55,9 +55,9 @@ sein und insbesondere das Ziel angeben.
 . Bedienelemente feststellen.
 . Prüfen, ob Grafiken oder Font-Icons bzw. Symbol-Grafiken als Bedienelement
   eingesetzt werden.
-. Screenreader VoiceOver starten und prüfen ob für die entsprechenden
+. Screenreader VoiceOver starten und prüfen, ob für die entsprechenden
   Bedienelemente Alternativtexte ausgegeben werden und diese (auch) das Ziel
-  beschreiben.
+  bzw. die Funktion des Bedienelements beschreiben.
 . Falls die Symbol-Grafik oder das Icon zusammen mit aussagekräftigem Text als
   Bedienelement auftaucht, prüfen ob die Symbol-Grafik oder das Icon vor dem
   Screenreader versteckt wird.
