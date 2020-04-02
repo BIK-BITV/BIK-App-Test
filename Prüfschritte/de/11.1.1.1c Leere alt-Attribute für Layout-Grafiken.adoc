@@ -1,4 +1,4 @@
-= 1.1.1c Leere alt-Attribute für Layout-Grafiken
+= Prüfschritt 11.1.1.1c Leere alt-Attribute für Layout-Grafiken
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -63,8 +63,11 @@ Die anderen Teilbilder sollten dann vor dem Screenreader ausgeblendet werden.
 === Formulierung BITV 2.0
 
 * Siehe 
-  <<1.1.1a Alternativtexte für Bedienelemente.adoc#_formulierung_bitv_2_0,
-  Prüfschritt 1 Alternativtexte für Bedienelemente>>
+ifdef::env_embedded[Prüfschritt 11.1.1a "Alternativtexte für Bedienelemente"]
+ifndef::env_embedded[]
+  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#_formulierung_bitv_2_0,
+  Prüfschritt 11.1.1a Alternativtexte für Bedienelemente>>
+endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
