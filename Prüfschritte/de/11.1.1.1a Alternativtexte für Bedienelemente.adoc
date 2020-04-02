@@ -112,15 +112,15 @@ Je nach Inhalt der Abbildung kann der Alternativtext dann leer bleiben
 oder den abgebildeten Inhalt beschreiben, während der Linktext Zweck oder Ziel
 des Links beschreibt.
 Dies ist Gegenstand der Prüfkriterien
-ifdef::env_embedded[1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
-  <<1.1.1b Alternativtexte für Grafiken und Objekte.adoc,1.1.1b
+  <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
   Alternativtexte für Grafiken und Objekte>>
 endif::env_embedded[]
 und
-ifdef::env_embedded[1.1.1c "Leere alt-Attribute für Layoutgrafiken".]
+ifdef::env_embedded[11.1.1.1c "Leere alt-Attribute für Layoutgrafiken".]
 ifndef::env_embedded[]
-  <<1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,1.1.1c Leere
+  <<11.1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,11.1.1.1c Leere
   alt-Attribute für Layout-Grafiken>>.
 endif::env_embedded[]
 
@@ -149,41 +149,43 @@ die Startseite verlinkte Logos.
 * Einzige Ausnahme:
   Grafik und danebenstehender Text sind ein zusammengehöriger Link.
   Der Alternativtext bezieht sich dann nur auf die Grafik, die Prüfkriterien
-ifdef::env_embedded[1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
-  <<1.1.1b Alternativtexte für Grafiken und Objekte.adoc,1.1.1b
+  <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
   Alternativtexte für Grafiken und Objekte>>
 endif::env_embedded[]
   oder
-ifdef::env_embedded[1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
+ifdef::env_embedded[11.1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
 ifndef::env_embedded[]
-  <<1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,1.1.1c Leere
+  <<11.1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,11.1.1.1c Leere
   alt-Attribute für Layout-Grafiken>>
 endif::env_embedded[]
   sind anzuwenden.
 
 * Alternativtexte für grafische Überschriften:
   siehe Prüfschritt
-ifdef::env_embedded[1.1.1b "Alternativtexte für Grafiken und Objekte".]
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte".]
 ifndef::env_embedded[]
-  <<1.1.1b Alternativtexte für Grafiken und Objekte.adoc,1.1.1b
+  <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
   Alternativtexte für Grafiken und Objekte>>.
 endif::env_embedded[]
 
 * CAPTCHAs werden im Prüfschritt
-ifdef::env_embedded[1.1.1c "Alternativen für CAPTCHAs"]
+ifdef::env_embedded[11.1.1.1c "Alternativen für CAPTCHAs"]
 ifndef::env_embedded[]
-  <<1.1.1d Alternativen für CAPTCHAs.adoc#,1.1.1d Alternativen für CAPTCHAs>>
+  <<11.1.1.1d Alternativen für CAPTCHAs.adoc#,11.1.1.1d Alternativen für
+  CAPTCHAs>>
 endif::env_embedded[]
   geprüft.
 
 * Linktexte sind auch in Prüfschritt
-ifdef::env_embedded[2.4.4a "Aussagekräftige Linktexte"]
+ifdef::env_embedded[11.2.4.4 "Aussagekräftige Linktexte"]
 ifndef::env_embedded[]
-  <<2.4.4a Aussagekräftige Linktexte.adoc#,2.4.4a Aussagekräftige Linktexte>>
+  <<11.2.4.4 Aussagekräftige Linktexte.adoc#,11.2.4.4 Aussagekräftige
+  Linktexte>>
 endif::env_embedded[]
   Thema.
-  Dort geht es um die allgemeine Aussagekraft, in diesem Prüfschritt 1.1.1a
+  Dort geht es um die allgemeine Aussagekraft, in diesem Prüfschritt 11.1.1.1a
   geht es dagegen nur um die Gleichwertigkeit von Alternativtext und grafischem
   Link.
 
