@@ -1,4 +1,4 @@
-= 1.1.1b Alternativtexte für Grafiken und Objekte
+= Prüfschritt 11.1.1.1b Alternativtexte für Grafiken und Objekte
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -160,35 +160,36 @@ zugehörigem Alternativtext.
 * Alternativtexte für verlinkte Grafiken (z.B. Bedienelemente oder
   Teaser-Bilder)
   werden in Prüfschritt
-ifdef::env_embedded[1.1.1a "Alternativtexte für Bedienelemente"]
+ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
 ifndef::env_embedded[]
-  <<1.1.1a Alternativtexte für Bedienelemente.adoc#,1.1.1a Alternativtexte
+  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Alternativtexte
   für Bedienelemente>>
 endif::env_embedded[]
   geprüft.
 
 * Einfache Animationen oder Videos ohne synchronisierungsbedürftige Tonspur
   werden in Prüfschritt
-ifdef::env_embedded[1.2.1a "Alternativen für Audiodateien und stumme Videos"]
+ifdef::env_embedded[11.1.2.1a "Alternativen für Audiodateien und stumme Videos"]
 ifndef::env_embedded[]
-  <<1.2.1a Alternativen für Audiodateien und stumme Videos.adoc#,1.2.1a
+  <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,11.1.2.1
   Alternativen für Audiodateien und stumme Videos>>
 endif::env_embedded[]
   geprüft.
 
 * Layout-Grafiken oder dekorative Grafiken mit leeren alt-Attributen werden in
   Prüfschritt
-ifdef::env_embedded[1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
+ifdef::env_embedded[11.1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
 ifndef::env_embedded[]
-  <<1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,1.1.1c Leere
+  <<11.1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,11.1.1.1c Leere
   alt-Attribute für Layout-Grafiken>>
 endif::env_embedded[]
   geprüft.
 
 * CAPTCHAs werden in Prüfschritt
-ifdef::env_embedded[1.1.1d "Alternativen für CAPTCHAs"]
+ifdef::env_embedded[11.1.1.1d "Alternativen für CAPTCHAs"]
 ifndef::env_embedded[]
-  <<1.1.1d Alternativen für CAPTCHAs.adoc#,1.1.1d Alternativen für CAPTCHAs>>
+  <<11.1.1.1d Alternativen für CAPTCHAs.adoc#,11.1.1.1d Alternativen für
+  CAPTCHAs>>
 endif::env_embedded[]
   geprüft.
 
