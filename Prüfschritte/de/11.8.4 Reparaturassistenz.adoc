@@ -1,4 +1,4 @@
-= x32 Reparaturassistenz
+= Prüfschritt 11.8.4 Reparaturassistenz
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

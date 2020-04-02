@@ -1,4 +1,4 @@
-= x21 Bildrate bei Videotelefonie
+= Prüfschritt 6.5.3 Bildrate bei Videotelefonie
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

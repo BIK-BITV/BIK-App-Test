@@ -1,4 +1,4 @@
-= x19 Alternativen zu sprachbasierten Diensten
+= Prüfschritt 6.4 Alternativen zu sprachbasierten Diensten
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

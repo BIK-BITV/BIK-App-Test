@@ -1,4 +1,4 @@
-= x37 Effektive Kommunikation
+= Prüfschritt 12.2.3 Effektive Kommunikation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

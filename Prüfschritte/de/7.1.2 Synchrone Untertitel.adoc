@@ -1,4 +1,4 @@
-= x24 Synchrone Untertitel
+= Prüfschritt 7.1.2 Synchrone Untertitel
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

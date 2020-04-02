@@ -1,4 +1,4 @@
-= x35 Barrierefreie Dokumentation
+= Prüfschritt 12.1.2 Barrierefreie Dokumentation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

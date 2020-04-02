@@ -1,4 +1,4 @@
-= x06 Minimale und maximale Werte programmatisch ermittelbar
+= Prüfschritt 11.5.2.7 Minimale und maximale Werte programmatisch ermittelbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

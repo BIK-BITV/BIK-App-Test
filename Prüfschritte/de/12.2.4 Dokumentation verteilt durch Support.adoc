@@ -1,4 +1,4 @@
-= x38Dokumentation verteilt durch Support
+= Prüfschritt 12.2.4 Dokumentation verteilt durch Support
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

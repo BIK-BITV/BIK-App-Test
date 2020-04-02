@@ -1,4 +1,4 @@
-= x29 Bedienelemente für Untertitel und Audiodeskription
+= Prüfschritt 7.3 Bedienelemente für Untertitel und Audiodeskription
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

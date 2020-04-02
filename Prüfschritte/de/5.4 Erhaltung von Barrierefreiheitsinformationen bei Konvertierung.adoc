@@ -1,4 +1,4 @@
-= x10 Erhaltung von Barrierefreiheitsinformationen bei Konvertierung
+= Prüfschritt 5.4 Erhaltung von Barrierefreiheitsinformationen bei Konvertierung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

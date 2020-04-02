@@ -1,4 +1,4 @@
-= x16 Interopabilität von Echtzeit-Kommunikation
+= Prüfschritt 6.2.3 Interopabilität von Echtzeit-Kommunikation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

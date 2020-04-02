@@ -1,4 +1,4 @@
-= x09 Biometrie
+= Prüfschritt 5.3 Biometrie
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

@@ -1,4 +1,4 @@
-= x11 Audiobandbreite für Sprache
+= Prüfschritt 6.1 Audiobandbreite für Sprache
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

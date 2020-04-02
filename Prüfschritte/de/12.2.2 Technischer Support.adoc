@@ -1,4 +1,4 @@
-= x36 Technischer Support
+= Prüfschritt 12.2.2 Technischer Support
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

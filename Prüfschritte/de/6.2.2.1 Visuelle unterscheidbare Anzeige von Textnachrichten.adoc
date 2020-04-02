@@ -1,4 +1,4 @@
-= x14 Visuell unterscheidbare Anzeige von Textnachrichten
+= Prüfschritt 6.2.2.1 Visuell unterscheidbare Anzeige von Textnachrichten
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

@@ -1,4 +1,4 @@
-= x15 Programmatische Ermittelbarkeit bei Textnachrichten
+= Prüfschritt 6.2.2.2 Programmatische Ermittelbarkeit bei Textnachrichten
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

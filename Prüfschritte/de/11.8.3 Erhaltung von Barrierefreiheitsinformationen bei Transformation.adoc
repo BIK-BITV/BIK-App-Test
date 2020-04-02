@@ -1,4 +1,4 @@
-= x31 Erhaltung von Barrierefreiheitsinformationen bei Transformation
+= Prüfschritt 11.8.3 Erhaltung von Barrierefreiheitsinformationen bei Transformation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

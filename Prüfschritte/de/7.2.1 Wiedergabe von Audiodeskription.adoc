@@ -1,4 +1,4 @@
-= x26 Wiedergabe von Audiodeskription
+= Prüfschritt 7.2.1 Wiedergabe von Audiodeskription
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

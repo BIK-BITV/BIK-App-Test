@@ -1,4 +1,4 @@
-= x17 Reaktionsgeschwindigkeit der Echtzeit-Textkommunikation
+= Prüfschritt 6.2.4 Reaktionsgeschwindigkeit der Echtzeit-Textkommunikation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

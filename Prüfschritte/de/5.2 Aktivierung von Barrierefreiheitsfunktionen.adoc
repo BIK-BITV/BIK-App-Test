@@ -1,4 +1,4 @@
-= x08 Aktivierung von Barrierefreiheitsfunktionen
+= Prüfschritt 5.2 Aktivierung von Barrierefreiheitsfunktionen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 

@@ -1,4 +1,4 @@
-= x07 Inhalte vom aktuellen Bildschirmausschnitt programmatisch ermittelbar
+= Prüfschritt 11.5.2.10b Inhalte vom aktuellen Bildschirmausschnitt programmatisch ermittelbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
