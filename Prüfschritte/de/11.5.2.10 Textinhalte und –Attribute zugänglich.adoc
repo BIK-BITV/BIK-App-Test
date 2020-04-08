@@ -1,4 +1,4 @@
-= Prüfschritt 11.5.2.10b Inhalte vom aktuellen Bildschirmausschnitt programmatisch ermittelbar
+= Prüfschritt 11.5.2.10a Textinhalte und –Attribute zugänglich
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -9,17 +9,29 @@ Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
 
 == Was wird geprüft?
 
-Der Screenreader-Nutzer muss herausfinden können, welche Informationen gerade
+Textinhalte in der Software sind generell für den Screenreader zugänglich.
+Textattribute sind Verfügbar, wenn dies generell von der Software
+vorgesehen ist.
+Beispiel für Textattribute sind fett, kursiv und Unterstreichung.
+In einer Textverarbeitung müssen diese Attribute z. B. auch für den
+Screenreader-Nutzer ausgegeben werden können.
+
+Außerdem muss Der Screenreader-Nutzer herausfinden können, welche Informationen gerade
 auf dem Display angezeigt werden (Viewport).
 
 == Wie wird geprüft?
 
-In der Software werden verschiedene Ansichten geprüft.
+Mit dem Screenreader die Software navigieren und prüfen, ob alle sichtbaren
+Texte auch von der Hilfsmittel-Software erkannt werden.
+
 Dabei wird mit eingeschaltetem SR überprüft, ob die Sichtbaren Elemente auch
 vom Screenreader ausgegeben werden.
 Auf Geräten mit Touch-Display können die Sichtbaren Elemente angetippt
 werden, die Ausgabe vom SR sollte dann mit dem zu sehenden Element
 übereinstimmen.
+
+Prüfen ob es auch Möglichkeiten gibt, Textattribute mittels Screenreader
+anzuzeigen, wenn dies von der Software generell angeboten wird.
 
 == Quellen
 
