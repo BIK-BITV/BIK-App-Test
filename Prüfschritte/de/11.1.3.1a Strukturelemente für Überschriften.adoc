@@ -156,7 +156,7 @@ element to create a horizontal dividing line), but visual presentation is not
 sufficient to identify document sections.
 --
 
-Quelle: http://www.w3.org/TR/WCAG10-HTML-TECHS/#document-headers
+(http://www.w3.org/TR/WCAG10-HTML-TECHS/#document-headers)
 
 === Überschriften richtig schachteln
 
@@ -165,7 +165,7 @@ To facilitate navigation and understanding of overall document structure,
 authors should use headings that are properly nested (e.g., h1 followed by h2,
 h2 followed by h2 or h3, h3 followed by h3 or h4, etc.)..
 
-Quelle: WCAG 2.0 Technik G141: Organizing a page using headings
+(WCAG 2.0 Technik G141: Organizing a page using headings)
 
 === Überschriften-Elemente und CSS-Auszeichnungen nicht missbrauchen
 
@@ -177,8 +177,14 @@ Conversely, while applying bold format, or even class="heading", can result in
 the visual display of a heading, assistive technologies will not recognize
 such text as headings.
 
-Quelle: http://www.w3.org/TR/WCAG20-TECHS/H42.html[WCAG 2.0 Technik H42: Using
-h1-h6 to identify headings]
+(http://www.w3.org/TR/WCAG20-TECHS/H42.html[WCAG 2.0 Technik H42: Using
+h1-h6 to identify headings])
+
+=== UI-Elemente als Überschrift auszeichnen
+
+* Apple Developer Documentation:
+  https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
+  UI Accessibility Traits / Header]
 
 == Fragen zu diesem Prüfschritt
 
