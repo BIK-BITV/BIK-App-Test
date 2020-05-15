@@ -23,6 +23,12 @@ Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist.
 Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die
 Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht
 anwendbar.
+Des Weiteren muss die Ausgabe innerhalb der App dargestellt werden, es können
+lediglich integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden.
+Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können mit dem
+App-Test-Verfahren derzeit nicht geprüft werden, da hier dann auch die
+Barrierefreiheit der durch das Tool generierten Dateien geprüft werden
+müsste.
 
 === Prüfung
 
@@ -30,16 +36,11 @@ Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
 Sie auf GitHub
 {app-issue-url}[ein Issue zu diesem Prüfschritt erstellen].
 
-Im Autorenwerkzeug muss ein Beispieldokument erstellt werden.
-Dabei sollen möglichst viele aber vor allem zentrale Funktionalitäten des
-Zieldokumententyps eingesetzt werden.
-Wenn es sich z. B. um ein Autorenwerkzeug zur Erstellung von HTML-Dokumenten
-handelt, müssen z. B. Überschriften, Links, Tabellen etc. im Beispieldokument
-eingesetzt werden.
-
-Das erstellte Dokument muss dann die Kriterien der EN 301 549 Kapitel 9 (für
-Web-Dokumente) oder Kapitel 10 (für Nicht-Web-Dokumente) erfüllen, je nach
-Anwendbarkeit.
+In der App wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine
+Ausgabe generiert.
+Die Ansicht der App, in der die Ausgabe angezeigt wird, muss dann bei der
+Prüfung berücksichtigt werden.
+Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden.
 
 ==== Hinweise
 
