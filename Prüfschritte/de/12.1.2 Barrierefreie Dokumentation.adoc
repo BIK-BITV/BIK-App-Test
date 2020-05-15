@@ -25,23 +25,22 @@ bewertet.
 === Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
+Im App-Test-Verfahren kann jedoch lediglich das Vorhandensein der Dokumentation
+in den geforderten Formaten geprüft werden.
+Um die Barrierefreiheit der Dokumentation zu prüfen, ist ein separater Auftrag
+zu erteilen.
 
 === Prüfung
 
 Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub
 {app-issue-url}[ein Issue eröffnen].
 
-. in der App bzw. in deren Hersteller-Webseite wird die zugehörige Dokumentation
-  gesucht
-. prüfen, in welchen Formaten die Dokumentation zur Verfügung gestellt wird
-. falls mehrere Varianten zur Verfügung stehen, sollte Web-Dokumenten den
-  Vorrang gegeben werden, da diese eher barrierearm sind und mit dem
-  https://www.bitvtest.de[BITV-Test] getestet werden können
-. prüfung der Dokumentation auf Barrierefreiheit
-+
-Kriterien sind dazu aus Kapitel 9 und 10 der EN 301 549 zu entnehmen.
-Handelt es sich um Web-Dokumente, kann die Konformität mit dem
-https://www.bitvtest.de[BITV-Test] überprüft werden.
+Im App-Test-Verfahren werden keine Dokumente geprüft.
+Hier kann derzeit nur der Hinweis gegeben werden, dass die Dokumentation
+mindestens in eines der o. g. Formate barrierefrei zur Verfügung gestellt
+werden muss.
+Wenn es sich um eine Dokumentation auf HTML-Basis handelt, kann der Hinweis auf
+das https://bitvtest.de/start.html[BIK-BITV-Test-Verfahren] gegeben werden.
 
 ==== Hinweise
 
