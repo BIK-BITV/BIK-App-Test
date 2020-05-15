@@ -11,7 +11,7 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Die Dokumentation, die durch den (technischen) Support verteilt wird, soll
+Die Dokumentation, *die durch den (technischen) Support* verteilt wird, soll
 mindestens in eines der folgenden Formate barrierefrei zur Verfügung gestellt
 werden:
 
@@ -26,15 +26,11 @@ bewertet.
 === Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
-
-Wenn dem Support der App lediglich die gleichen Dokumente wie dem Nutzer, für
-dieVerteilung, zur Verfügung stehen, kann die Bewertung aus Prüfschritt
-ifdef::env_embedded[x35 "Barrierefreie Dokumentation"]
-ifndef::env_embedded[]
-  <<x35 EN_12.1.2 Barrierefreie Dokumentation.adoc#,x35 Barrierefreie
-  Dokumentation>>
-endif::env_embedded[]
-übernommen werden.
+Da das App-Test-Verfahren keine Dokumente prüft, die außerhalb der zu
+testenden App verteilt und angezeigt wird, muss ggf. ein Hinweis gegeben
+werden, dass die durch den Support verteilten Dokumente in einem separaten
+Auftrag auf Barrierefreiheit geprüft
+werden müssen.
 
 === Prüfung
 
@@ -42,23 +38,6 @@ Wie dieser Prüfschritt in der Praxis berücksichtigt werdenkann, ist noch
 nicht vollständig geklärt.
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
 {app-issue-url}[ein Issue eröffnen].
-
-. den Support der App kontaktieren
-+
-* Unterscheidet sich die Dokumentation von der herkömmlichen App-Dokumentation?
-* Wenn ja, muss für die Prüfung die durch den Support verteilte
-  Dokumentation angefordert werden.
-  Dies umfasst alle Varianten der Dokumentation (HTML, PDF, ...).
-
-. prüfen, in welchen Formaten die Dokumentation zur Verfügung gestellt wird
-. falls mehrere Varianten zur Verfügung stehen, sollte Web-Dokumenten den
-  Vorrang gegeben werden, da diese eher barrierearm sind und mit dem
-  https://www.bitvtest.de[BITV-Test] getestet werden können
-. prüfung der Dokumentation auf Barrierefreiheit
-+
-Kriterien sind dazu aus Kapitel 9 und 10 der EN 301 549 zu entnehmen.
-Handelt es sich um Web-Dokumente, kann die Konformität mit dem
-https://www.bitvtest.de[BITV-Test] überprüft werden.
 
 ==== Hinweise
 
