@@ -166,5 +166,12 @@ keyboard, keyboard emulator, or other hardware or software that generates
 keyboard or text input.
 --
 
-Quelle: https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html[Keyboard
+https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html[Keyboard
 Accessible: Understanding Guideline 2.1]
+
+=== Weitere Ressourcen
+
+[BLOCK_LANG_EN]
+* Android Developer:
+  https://developer.android.com/training/keyboard-input/navigation[Support
+  keyboard navigation]
