@@ -15,7 +15,7 @@ Wenn die Software Echtzeit Textkommunikation senden und empfangen kann,
 soll die Anzeige von empfangenen und gesendeten Nachrichten visuell
 unterscheidbar sein und somit voneinander separiert werden.
 
-Wie wird geprüft?
+== Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
