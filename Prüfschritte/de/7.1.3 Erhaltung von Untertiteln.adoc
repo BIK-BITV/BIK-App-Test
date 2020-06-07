@@ -13,15 +13,15 @@ In dieser Tabelle wird auf Abschnitt
 
 Wenn die Software Videos mit Untertiteln überträgt, konvertiert oder
 aufnimmt, sollen die Untertitel so erhalten bleiben, dass die Prüfschritte
-ifdef::env_embedded[x23 "Wiedergabe von Untertiteln"]
+ifdef::env_embedded[7.1.1 "Wiedergabe von Untertiteln"]
 ifndef::env_embedded[]
-  <<x23 EN_7.1.1 Wiedergabe von Untertiteln.adoc#,x23 Wiedergabe von
+  <<7.1.1 Wiedergabe von Untertiteln.adoc#,7.1.1 Wiedergabe von
   Untertiteln>>
 endif::env_embedded[]
 und
-ifdef::env_embedded[x24 "Synchrone Untertitel"]
+ifdef::env_embedded[7.1.2 "Synchrone Untertitel"]
 ifndef::env_embedded[]
-  <<x24 EN_7.1.2 Synchrone Untertitel.adoc#,x24 Synchrone Untertitel>>
+  <<7.1.2 Synchrone Untertitel.adoc#,7.1.2 Synchrone Untertitel>>
 endif::env_embedded[]
 erfüllt werden.
 
