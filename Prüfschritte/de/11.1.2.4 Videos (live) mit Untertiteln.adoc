@@ -1,4 +1,4 @@
-= Prüfschritt 1.2.4a Videos (live) mit Untertiteln
+= Prüfschritt 11.1.2.4 Videos (live) mit Untertiteln
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -27,8 +27,11 @@ und Tonspur vorhanden sind.
 Live-Videos ohne Tonspur brauchen keine Untertitel, der Prüfschritt ist für
 sie nicht anwendbar.
 Alternativen für Videos ohne Tonspur werden in Prüfschritt
-<<1.2.1a Alternativen für Audiodateien und stumme Videos.adoc#,1.2.1a
-Alternativen für Audiodateien und stumme Videos>>
+ifdef::env_embedded[11.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
+ifndef::env_embedded[]
+  <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,11.1.2.1
+  Alternativen für Audiodateien und stumme Videos>>
+endif::env_embedded[]
 geprüft.
 
 === Prüfung auf Untertitel
@@ -60,20 +63,16 @@ Inhalts wichtig sind.
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-==== Bedingung 1.2.4 Live-Untertitel
-
-Bei Live-Übertragungen synchronisierter Medien sind alle Audio-Inhalte als
-erweiterte Untertitel (Captions) bereitzustellen.
-
 === Abgrenzung zu anderen Prüfkriterien
 
 ==== Aufgezeichnete Videos
 
 Die Untertitelung von aufgezeichneten Videos wird in Prüfschritt
-<<1.2.2a Aufgezeichnete Videos mit Untertiteln.adoc#,1.2.2a Aufgezeichnete
-Videos mit Untertiteln>>
+ifdef::env_embedded[11.1.2.2 "Aufgezeichnete Videos mit Untertiteln"]
+ifndef::env_embedded[]
+  <<11.1.2.2 Aufgezeichnete Videos mit Untertiteln.adoc#,11.1.2.2 Aufgezeichnete
+  Videos mit Untertiteln>>
+endif::env_embedded[]
 geprüft.
 
 ==== Stumme Videodateien
@@ -85,16 +84,22 @@ parallele Wahrnehmung von Bild und Ton erforderlich ist.
 Ein einfacher Alternativtext oder eine zusammenfassende Beschreibung ist dann
 nicht (mehr) ausreichend.
 Stumme Video-Dateien werden im Prüfschritt
-<<1.2.1a Alternativen für Audiodateien und stumme Videos.adoc#,1.2.1a
-Alternativen für Audiodateien und stumme Videos>>
+ifdef::env_embedded[11.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
+ifndef::env_embedded[]
+  <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,11.1.2.1
+  Alternativen für Audiodateien und stumme Videos>>
+endif::env_embedded[]
 geprüft.
 
 ==== Alternativtexte für Objekte
 
 Alternativtexte für Multimedia-Objekte, etwa Video- oder Audio-Dateien oder
 Applets, werden in Prüfschritt
-<<1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,1.1.1b
-Alternativtexte für Grafiken und Objekte>>
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifndef::env_embedded[]
+  <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>
+endif::env_embedded[]
 geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
