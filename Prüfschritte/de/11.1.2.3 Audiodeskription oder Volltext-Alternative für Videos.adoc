@@ -1,4 +1,4 @@
-= Prüfschritt 1.2.3a Audiodeskription oder Volltext-Alternative für Videos
+= Prüfschritt 11.1.2.3 Audiodeskription oder Volltext-Alternative für Videos
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -101,15 +101,6 @@ vorsehen, um dieselbe Funktionalität zu gewährleisten.
   eine Volltextalternative.
 
 == Einordnung des Prüfschritts
-
-=== Formulierung BITV 2.0
-
-==== Bedingung 1.2.3 Audio-Deskription oder Volltext-Alternative
-
-Für aufgezeichnete synchronisierte Medien ist eine Volltext-Alternative
-einschließlich aller Interaktionen oder eine Audiodeskription bereitzustellen.
-Dies gilt nicht für Medienalternativen für Text, die klar als solche
-gekennzeichnet sind.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
