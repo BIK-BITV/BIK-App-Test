@@ -1,4 +1,4 @@
-= Prüfschritt 1.2.5a Audiodeskription für Videos
+= Prüfschritt 11.1.2.5 Audiodeskription für Videos
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -33,9 +33,11 @@ Der Prüfschritt ist dann nicht anwendbar.
 Verzichtbar ist die Audiodeskription, wenn die synchrone Wahrnehmung von Bild
 und Ton für das Verständnis des Videos nicht erforderlich ist oder wenn das
 Video keine Tonspur hat (siehe Prüfschritt
-<<1.2.1a Alternativen für Audiodateien und stumme Videos.adoc#,1.2.1a
-Alternativen für Audiodateien und stumme Videos>>.
-
+ifdef::env_embedded[11.1.2.1 "Alternativen für Audiodateien und stumme Videos".]
+ifndef::env_embedded[]
+  <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,11.1.2.1
+  Alternativen für Audiodateien und stumme Videos>>.
+endif::env_embedded[]
 Verzichtbar ist die Audiodeskription auch für Videos, die lediglich als
 Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend
 zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer Form
@@ -78,22 +80,16 @@ Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-==== Bedingung 1.2.5 Audio-Deskription
-
-Für alle vorab aufgezeichneten Video-Inhalte synchronisierter Medien ist eine
-Audio-Deskription bereitzustellen.
-Dies gilt nicht für Medien-Alternativen für Text, die klar als solche
-gekennzeichnet sind.
-
 === Abgrenzung zu anderen Prüfschritten
 
 In diesem Prüfschritt wird nur geprüft, ob das Video eine Audiodeskription
 hat.
 Eine Volltextalternative wird im Prüfschritt
-<<1.2.3a Audiodeskription oder Volltext-Alternative für Videos.adoc#,1.2.3a
-Audiodeskription oder Volltext-Alternative für Videos>>
+ifdef::env_embedded[11.1.2.3 "Audiodeskription oder Volltext-Alternative für Videos"]
+ifndef::env_embedded[]
+  <<11.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,11.1.2.3
+  Audiodeskription oder Volltext-Alternative für Videos>>
+endif::env_embedded[]
 bewertet.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
