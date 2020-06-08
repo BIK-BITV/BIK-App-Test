@@ -72,19 +72,18 @@ Nutzer mit Behinderungen unzugänglich ist (siehe die WCAG 2.0 Note on CAPTCHA).
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-* Siehe 
-  <<1.1.1a Alternativtexte für Bedienelemente.adoc#_formulierung_bitv_2_0,
-  Prüfschritt 1 Alternativtexte für Bedienelemente>>
-
 === Abgrenzung zu anderen Prüfkriterien
 
 Auch die Texteingabe des Captchas muss zugänglich gestaltet sein, damit es
 insgesamt zugänglich ist.
 
-Die Zugänglichkeit der CAPTCHA-Texteingabe wird im Prüfschritt 1 
-"Formularfelder richtig beschriftet" geprüft.
+Die Zugänglichkeit der CAPTCHA-Texteingabe wird im Prüfschritt
+ifdef::env_embedded[11.3.3.2 "Beschriftungen von Formularelementen vorhanden"]
+ifndef::env_embedded[]
+  <<11.3.3.2 Beschriftungen von Formularelementen vorhanden.adoc#,11.3.3.2
+  Beschriftungen von Formularelementen vorhanden>>
+endif::env_embedded[]
+geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
