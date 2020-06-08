@@ -29,7 +29,7 @@ Unicode-Äquivalent, was bei dekorativen Icons störend ist.
 
 == Wie wird geprüft?
 
-=== 1. Anwendbarkeit des Prüfschritts
+=== Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn eingebundene Grafiken oder Font Icons
 für Layout-Zwecke verwendet werden.
@@ -60,15 +60,6 @@ Die anderen Teilbilder sollten dann vor dem Screenreader ausgeblendet werden.
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-* Siehe 
-ifdef::env_embedded[Prüfschritt 11.1.1a "Alternativtexte für Bedienelemente"]
-ifndef::env_embedded[]
-  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#_formulierung_bitv_2_0,
-  Prüfschritt 11.1.1a Alternativtexte für Bedienelemente>>
-endif::env_embedded[]
-
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
@@ -81,17 +72,22 @@ endif::env_embedded[]
 
 ==== Success Criterion
 
-* http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[1.1.1 Non-text Content (Level A)]
+* http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[1.1.1 Non-text Content
+  (Level A)]
 
 ==== Techniques
 
 .HTML Techniques
-* https://www.w3.org/WAI/WCAG21/Techniques/html/H67[H67: Using null alt text and no title attribute on img elements for images that AT should ignore]
+* https://www.w3.org/WAI/WCAG21/Techniques/html/H67[H67: Using null alt text
+  and no title attribute on img elements for images that AT should ignore]
 
 ==== Failures
 
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F38[F38: Failure of Success Criterion 1.1.1 due to omitting the alt-attribute for non-text content used for decorative purposes only in HTML]
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F39[F39: Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null. (e.g. alt='spacer' or alt='image') for images that should be ignored by assistive technology]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F38[F38: Failure of Success
+  Criterion 1.1.1 due to omitting the alt-attribute for non-text content used
+  for decorative purposes only in HTML]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F39[
+  F39: Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null. (e.g. `alt='spacer'` or ``alt='image'``) for images that should be ignored by assistive technology]
 
 == Fragen zu diesem Prüfschritt
 
