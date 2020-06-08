@@ -1,4 +1,4 @@
-= 1.2.1a Alternativen für Audiodateien und stumme Videos
+= 11.1.2.1 Alternativen für Audiodateien und stumme Videos
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -21,8 +21,8 @@ Sie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Audiodateien oder stumme Videodateien auf
-der Seite eingebunden sind.
+Der Prüfschritt ist anwendbar, wenn Audiodateien oder stumme Videodateien in
+der App-Ansicht eingebunden sind.
 
 === Prüfung
 
@@ -46,7 +46,6 @@ der Seite eingebunden sind.
   Tonspur oder eine zusätzliche Audiodatei sein.
 . Medienalternative aufrufen und prüfen, ob sie die gleichen Inhalte wie die
   stumme Film- oder Bildsequenz vermittelt.
-
 
 ==== Prüfung der Erreichbarkeit der Transkription bzw. Medienalternative
 
@@ -95,19 +94,6 @@ angeboten wird, die die Anforderungen erfüllt.
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-==== Bedingung 1.2.1 Aufgezeichnete Audio- und Video-Dateien:
-
-Für aufgezeichnete reine Audio- und reine Video-Dateien, die nicht bereits
-selbst eine Medien-Alternative für Text sind und als solche klar
-gekennzeichnet sind, muss Folgendes bereitgestellt werden:
-
-* Für Inhalte der aufgezeichneten Audio-Dateien: Text-Alternativen mit
-  gleichwertigen Informationen.
-* für Inhalte der aufgezeichneten Video-Dateien: Text-Alternativen oder eine
-  Tonspur mit gleichwertigen Informationen.
-
 === Abgrenzung zu anderen Prüfkriterien
 
 Nach der BITV 2 geht es in der Bedingung 1.1.1 "Nicht-Text-Inhalte" im Fall
@@ -115,17 +101,24 @@ von zeitbasierten Medien um die Bereitstellung von kurzen beschreibenden
 Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt
 werden können, diese kurz identifizieren.
 Dies ist Gegenstand des Prüfschritts
-<<1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,1.1.1b Alternativtexte
-für Grafiken und Objekte>>.
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifndef::env_embedded[]
+  <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>.
+endif::env_embedded[]
 
 In diesem Prüfschritt 1.2.1a geht es dagegen um die Bereitstellung von
 gleichwertigen Alternativen für reine Audio- oder Videoinhalte.
 
 Im Prüfschritt
-<<1.2.3a Audiodeskription oder Volltext-Alternative für Videos.adoc#,1.2.3a
-Audiodeskription oder Volltext-Alternative für Videos>> geht es schließlich
-um die Bereitstellung von zusätzlichen Audiodeskriptionen für
-synchronisierte Videos (also Videos mit Bild- und Tonspur).
+ifdef::env_embedded[11.1.2.3 "Audiodeskription oder Volltext-Alternative für Videos"]
+ifndef::env_embedded[]
+  <<11.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,
+  11.1.2.3 Audiodeskription oder Volltext-Alternative für Videos>>
+endif::env_embedded[]
+geht es schließlich um die Bereitstellung von zusätzlichen
+Audiodeskriptionen für synchronisierte Videos (also Videos mit Bild- und
+Tonspur).
 Dort geht es also um zusätzliche akustische Informationen über
 Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
 
