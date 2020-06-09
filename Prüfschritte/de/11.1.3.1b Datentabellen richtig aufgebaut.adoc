@@ -1,4 +1,4 @@
-= Prüfschritt 1.3.1e Datentabellen richtig aufgebaut
+= Prüfschritt 11.1.3.1e Datentabellen richtig aufgebaut
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -255,15 +255,16 @@ ausgeben.
 * Für tabellarische Daten wird keine Tabellensemantik verwendet.
   Tabellen werden z. B. mittels Tabstops umgesetzt.
 
+== Informationen für Entwickler
+
+=== iOS / iPadOS
+
+Entwickler von nativen Apps können das Protokoll
+`"link:https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
+UIAccessibilityContainerDataTable]"`
+zur Auszeichnung von barrierefreien Datentabellen nutzen.
+
 == Einordnung des Prüfschritts
-
-=== Formulierung BITV 2.0
-
-==== 1.3.1 Informationen und Beziehungen
-
-Alle Informationen, Strukturen und Beziehungen, die durch Layout und
-Präsentation vermittelt werden, sind durch Programme erkennbar oder im Text
-verfügbar.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -308,6 +309,12 @@ verfügbar.
 === W3C - Web Accessibility Tutorials
 
 * https://www.w3.org/WAI/tutorials/tables/[Tables Tutorial]
+
+=== Entwicklerressourcen
+
+* Apple Developer:
+  https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
+  UIAccessibilityContainerDataTable]
 
 == Fragen zu diesem Prüfschritt
 
