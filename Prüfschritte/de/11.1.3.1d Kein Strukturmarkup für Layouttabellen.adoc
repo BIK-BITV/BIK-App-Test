@@ -1,4 +1,4 @@
-= Prüfschritt 1.3.1g Kein Strukturmarkup für Layouttabellen
+= Prüfschritt 11.1.3.1d Kein Strukturmarkup für Layouttabellen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -37,14 +37,6 @@ Tabelle handelt (ein Zusatz wie „Tabelle“ wird ausgegeben).
   Tabellendetails aus.
 
 == Einordnung des Prüfschritts
-
-=== Formulierung BITV 2.0
-
-==== 1.3.2 Aussagekräftige Reihenfolge
-
-Wenn die Reihenfolge, in der der Inhalt präsentiert wird, Auswirkungen auf
-dessen Bedeutung hat, ist die richtige Lese-Reihenfolge durch Programme
-erkennbar.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
