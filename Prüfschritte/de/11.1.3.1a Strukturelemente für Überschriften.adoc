@@ -1,13 +1,20 @@
-= Prüfschritt 1.3.1a Strukturelemente für Überschriften
+= Prüfschritt 11.1.3.1a Strukturelemente für Überschriften
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Überschriften müssen als solche ausgezeichnet sein und die Inhalte der Seite
-erschließen.
+Überschriften müssen als solche ausgezeichnet sein und die Inhalte der
+App-Ansicht erschließen.
 Falls verschiedene Überschriftsebenen ausgezeichnet werden, wird eine
 nachvollziehbare und sinnvolle Ebenenstruktur verwendet.
+
+Zu berücksichtigen ist dabei, dass aktuell meist nicht zwischen
+verschiedenen Überschriftsebenen unterschieden werden kann.
+Dies hat technische Gründe und betrifft native iOS / iPadOS und Android Apps.
+Sobald die Frameworks für native Apps von Apple und Google verschiedene
+Überschriftsebenen unterstützen, müssen Apps, die davon gebrauch machen, eine
+sinnvolle Überschriftenstruktur aufweisen.
 
 == Warum wird das geprüft?
 
@@ -25,7 +32,7 @@ Voraussetzung.
 
 So können Benutzer die Überschriften-Elemente anwenden:
 
-* Von Überschrift zu Überschrift springen (blinde Nutzer)
+* Von Überschrift zu Überschrift springen (Screenreader-Nutzer)
 * Überschriften anders hervorheben, wenn die vom Anbieter vorgesehene
   Hervorhebung nicht geeignet ist (zum Beispiel andere Farbe oder Stimme)
 
@@ -40,7 +47,7 @@ Das ist bei informationsorientierten Apps in der Regel der Fall.
 === Prüfung
 
 . App mit zu prüfender Ansicht starten
-. Screenreader starten (siehe Handreichung)
+. Screenreader starten
 . Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind auch als
   Überschriften ausgezeichnet sind.
   Die Hierarchie der ggf. eingesetzten Überschriftsebenen soll der Gliederung
@@ -48,7 +55,7 @@ Das ist bei informationsorientierten Apps in der Regel der Fall.
   Die zu prüfenden Elemente werden angetippt dabei wird auf die Ausgabe des
   Screenreaders geachtet.
   Falls es sich um eine korrekt ausgezeichnete Überschrift handelt, gibt der
-  Screenreader dies z. B. mit dem Wort „Überschrift“ aus.
+  Screenreader dies z. B. mit dem Wort "Überschrift" aus.
   Falls zwischen Überschriftsebenen unterschieden wird, wird die entsprechende
   Ebene ebenfalls ausgegeben.
 . Prüfen, ob die Überschriftsauszeichnung lediglich zur Erzeugung
@@ -64,6 +71,7 @@ der Überschriften den jeweiligen Inhalten angemessen sind.
 h3, und so weiter), um die Gliederung der Text-Inhalte abzubilden.
 Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies
 durch die Gliederung der Inhalte gerechtfertigt ist.
+
 App-Entwickler haben evtl. derzeit keine Möglichkeit unterschiedliche
 Überschriftsebenen mit dem Systemframework auszuzeichnen, bzw. konnte eine
 solche Gliederung in mobilen Apps noch nicht festgestellt werden.
@@ -88,26 +96,24 @@ solche Gliederung in mobilen Apps noch nicht festgestellt werden.
 * In der App-Ansicht werden mehrere klar abgrenzbare Inhalte behandelt, es
   wurde aber nur pro forma eine Hauptüberschrift ausgezeichnet.
 
+== Informationen für Entwickler
+
+=== iOS / iPadOS
+
+Entwickler von nativen iOS / iPadOS Apps können das 
+https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
+``"header"``-Property] der
+https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits[
+`UIAccessibilityTraits`] für die Auszeichnung von Überschriften verwenden.
+
+=== Android
+
+Entwickler von nativen Android Apps können das Attribut
+https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[
+`"android:accessibilityHeading"`] für UI-Elemente auf `true` setzen, um ein
+Element als Überschrift auszuzeichnen.
+
 == Einordnung des Prüfschritts
-
-=== Formulierung BITV 2.0
-
-==== 1.3.1 Informationen und Beziehungen
-
-Alle Informationen, Strukturen und Beziehungen, die durch Layout und
-Präsentation vermittelt werden, sind durch Programme erkennbar oder im Text
-verfügbar.
-
-=== Abgrenzung zu anderen Prüfkriterien
-
-In diesem Prüfschritt geht es um den Einsatz von Überschriften zur
-Gliederung der App-Inhalte , damit diese leicht zu erfassen und mit
-Hilfsmitteln wie Screenreadern zu überspringen sind.
-
-Im Prüfschritt
-<<2.4.1a Bereiche überspringbar.adoc#,2.4.1a Bereiche überspringbar>>
-geht es dagegen vorrangig um die *Strukturierung* der Ansichten durch
-Überschriften.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -185,6 +191,8 @@ h1-h6 to identify headings])
 * Apple Developer Documentation:
   https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
   UI Accessibility Traits / Header]
+* https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[
+  Headings within text]
 
 == Fragen zu diesem Prüfschritt
 
