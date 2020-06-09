@@ -191,7 +191,8 @@ h1-h6 to identify headings])
 * Apple Developer Documentation:
   https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
   UI Accessibility Traits / Header]
-* https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[
+* Android Developer:
+  https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[
   Headings within text]
 
 == Fragen zu diesem Prüfschritt
