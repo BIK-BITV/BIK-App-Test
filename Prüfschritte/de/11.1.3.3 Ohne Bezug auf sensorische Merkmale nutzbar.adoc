@@ -1,4 +1,4 @@
-= Prüfschritt 1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar
+= Prüfschritt 11.1.3.3 Ohne Bezug auf sensorische Merkmale nutzbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -46,14 +46,6 @@ sie sollen alle für das Verständnis relevanten Informationen nicht allein
 durch Bezug auf sensorische Merkmale vermitteln (vergleiche Failure F13).
 
 == Einordnung des Prüfschritts
-
-=== Formulierung BITV 2.0
-
-==== 1.3.3 Sensorische Merkmale
-
-Anweisungen zum Verständnis und zur Nutzung des Inhalts stützen sich nicht
-ausschließlich auf sensorische Merkmale der Elemente wie z. B. Form, Größe,
-visuelle Platzierung, Orientierung oder Ton.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
