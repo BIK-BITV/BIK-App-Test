@@ -1,4 +1,4 @@
-= Prüfschritt 1.3.4a Keine Beschränkung der Bildschirmausrichtung
+= Prüfschritt 11.1.3.4 Keine Beschränkung der Bildschirmausrichtung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -78,7 +78,6 @@ Der Inhalt muss also in beiden Ausrichtungen jeweils neu gestartet werden.
 * Wenn nur eine Ausrichtung angeboten wird, ist sie für den Inhalt
   unerlässlich.
 
-
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
@@ -88,9 +87,16 @@ Bildschirm-Ausrichtung, nicht jedoch Änderungen hinsichtlich der
 Verfügbarkeit von Inhalten oder Funktionalität, die durch den Wechsel
 hervorgerufen werden.
 Dies ist Gegenstand von Prüfschritt
-<<1.4.4a Text auf 200% vergrößerbar.adoc#,1.4.4a Text auf 200%
-vergrößerbar>> und
-<<1.4.10a Inhalte brechen um.adoc#,1.4.10a Inhalte brechen um>>.
+ifdef::env_embedded[11.1.4.4 "Text auf 200% vergrößerbar"]
+ifndef::env_embedded[]
+  <<11.1.4.4 Text auf 200% vergrößerbar.adoc#,11.1.4.4 Text auf 200%
+  vergrößerbar>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[11.1.4.10 "Inhalte brechen um".]
+ifndef::env_embedded[]
+  <<11.1.4.10 Inhalte brechen um.adoc#,11.1.4.10 Inhalte brechen um>>.
+endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
