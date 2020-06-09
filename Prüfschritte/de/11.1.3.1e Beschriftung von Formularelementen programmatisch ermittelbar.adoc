@@ -1,4 +1,4 @@
-= Prüfschritt 1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar
+= Prüfschritt 11.1.3.1e Beschriftung von Formularelementen programmatisch ermittelbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -23,7 +23,8 @@ Präsentation festgelegt und zugänglich ist:
 * Der Screenreader liest die Beschriftungen vor, wenn der Benutzer durch die
   Formularelemente wandert.
 * Das jeweils aktive Label kann deutlich hervorgehoben werden ggf. kann eine
-  Hilfstechnologie beim Antippen / Anklicken des Labels den Fokus auf das zugehörige Formularelement setzen.
+  Hilfstechnologie beim Antippen / Anklicken des Labels den Fokus auf das
+  zugehörige Formularelement setzen.
 
 Auch wenn die Beschriftungen der Formularelemente korrekt ausgezeichnet sind so
 kann es sein, dass diese nicht ausreichen und z. B. eine gemeinsame
@@ -46,10 +47,10 @@ Zu beachten ist, das hier auch gruppierte Bedienelemente ggf. eine
 Gruppenbeschriftung benötigen und diese muss auch vom Screenreader ausgegeben
 werden können.
 
-. Screenreader starten (siehe Handreichung)
+. Screenreader starten
 . Zu testende App starten
 . Über Formularelemente navigieren bzw. diese direkt antippen und prüfen, ob
-  dessen Beschriftungen [.underline]#und# Gruppenbeschriftungen korrekt
+  dessen Beschriftungen *und* Gruppenbeschriftungen korrekt
   ausgegeben werden.
 
 === Hinweise
@@ -107,8 +108,11 @@ vergleichbare Ansätze].
 Ob bei Nutzung von gruppierenden Überschriften der Text zusammen mit
 verknüpften Beschriftungen der Formularfelder (label) Sinn ergibt, wird in
 Prüfschritt
-<<2.4.6a Aussagekräftige Überschriften und Beschriftungen.adoc#,2.4.6a
-Aussagekräftige Überschriften und Beschriftungen>>
+ifdef::env_embedded[11.2.4.6 "Aussagekräftige Überschriften und Beschriftungen"]
+ifndef::env_embedded[]
+  <<11.2.4.6 Aussagekräftige Überschriften und Beschriftungen.adoc#,11.2.4.6
+  Aussagekräftige Überschriften und Beschriftungen>>
+endif::env_embedded[]
 geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
