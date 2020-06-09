@@ -1,4 +1,4 @@
-= Prüfschritt 1.3.5a Eingabefelder zu Nutzerdaten vermitteln den Zweck
+= Prüfschritt 11.1.3.5 Eingabefelder zu Nutzerdaten vermitteln den Zweck
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -11,6 +11,11 @@ In iOS/iPadOS und Android können Eingabefelder teilweise für einen
 bestimmten Zweck ausgezeichnet werden. Z. B. für die Eingabe einer
 E-Mail-Adresse, hier kann dann das Betriebssystem u. a. eine optimierte
 Tastatur einblenden.
+Ob dies jedoch für die Konformität ausreicht ist derzeit noch unklar.
+
+Auf GitHub können Sie zu diesem Prüfschritt ein
+{app-issue-url}[Issue eröffnen], falls Sie
+Hinweise zu diesem Prüfschritt haben.
 
 == Warum wird das geprüft?
 
@@ -44,7 +49,7 @@ unterstützen.
 In den Einstellungen zur Barrierefreiheit von Android und iOS müsste eine
 entsprechende Einstellung auftauchen, mit der die Anzeige des Eingabezwecks
 ein- und ausgeschaltet werden kann.
-Dies ist zur Zeit (März 2020) nicht der Fall.
+Dies ist zur Zeit (Juni 2020) nicht der Fall.
 
 === Prüfung
 
@@ -52,7 +57,7 @@ Bei Software ist die Prüfung eingeschränkt möglich.
 Hier kann über eine Sichtprüfung z. B. festgestellt werden, ob bei
 Eingabefeldern für E-Mail-Adressen auch die dafür optimierte Tastatur
 eingeblendet wird.
-Auf der dann erscheinenden Tastatur ist dann z. B. gleich das „`@`“-Zeichen
+Auf der dann erscheinenden Tastatur ist dann z. B. gleich das „``@``“-Zeichen
 und der Punkt verfügbar, ohne erst auf die Symboltastatur wechseln zu müssen.
 Dies ist ein starkes Indiz dafür, dass das Eingabefeld in der Software
 korrekt ausgezeichnet wurde.
