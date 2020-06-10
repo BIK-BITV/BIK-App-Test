@@ -1,4 +1,4 @@
-= Prüfschritt 1.4.10a Inhalte brechen um
+= Prüfschritt 11.1.4.10 Inhalte brechen um
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -54,7 +54,7 @@ Anwendung korrekt umbrechen.
 
 === Anwendbarkeit des Prüfschritts
 
-Laut EN 301 549 Version 2.1.2 ist dieser Prüfschritt auf Software anwendbar.
+Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software anwendbar.
 Wie dies jedoch umgesetzt werden soll, ist unklar.
 Ggf. gibt es in zukünftigen Versionen der mobilen Betriebssysteme eine
 entsprechende Bedienungshilfe zum umbrechen von Text, die ein- und
@@ -92,14 +92,14 @@ Im Prüfschritt wird nicht geprüft, ob die Zoomvergrößerung auf 400%
 Textinhalte tatsächlich auf 400% oder einen geringeren Wert vergrößert.
 Dies ist Gegenstand von Prüfschritt
 ifdef::env_embedded[]
-1.4.4a "Text auf 200% vergrößerbar".
+11.1.4.4 "Text auf 200% vergrößerbar".
 endif::env_embedded[]
 ifndef::env_embedded[]
-<<1.4.4a Text auf 200% vergrößerbar.adoc#,1.4.4a Text auf 200%
+<<11.1.4.4 Text auf 200% vergrößerbar.adoc#,11.1.4.4 Text auf 200%
 vergrößerbar>>.
 endif::env_embedded[]
 
-// === 4. Bewertung
+// === Bewertung
 
 == Quellen
 
