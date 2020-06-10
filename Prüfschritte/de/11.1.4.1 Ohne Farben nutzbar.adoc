@@ -1,4 +1,4 @@
-= Prüfschritt 1.4.1a Ohne Farben nutzbar
+= Prüfschritt 11.1.4.1 Ohne Farben nutzbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -77,39 +77,42 @@ Ebenfalls nicht als einfache Farbunterschiede gelten:
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-==== 1.4.1 Farbe
-
-Farbe ist nicht als einziges Mittel zu verwenden, um Informationen zu
-übermitteln, eine Aktion anzuzeigen, eine Reaktion zu veranlassen oder ein
-visuelles Element zu kennzeichnen.
-
 === Abgrenzung zu anderen Prüfkriterien
 
 . Abgrenzung zur Prüfung der Kontraste
 +
 In diesem Prüfschritt geht es nicht um die Prüfung der Kontraste.
 Dies ist Aufgabe der Prüfkriterien
-<<1.4.3a Kontraste von Texten ausreichend.adoc#,1.4.3a Kontraste von Texten
-ausreichend>> und
-<<1.4.11a Kontraste von Grafiken und Bedienelementen ausreichend.adoc#,1.4.11a
-Kontraste von Grafiken und Bedienelementen ausreichend>>.
+ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend"]
+ifndef::env_embedded[]
+  <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
+  ausreichend>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[11.1.4.11 "Kontraste von Grafiken und Bedienelementen ausreichend".]
+ifndef::env_embedded[]
+  <<11.1.4.11 Kontraste von Grafiken und Bedienelementen ausreichend.adoc#,11.1.4.11
+  Kontraste von Grafiken und Bedienelementen ausreichend>>.
+endif::env_embedded[]
 
-. Abgrenzung zum Prüfschritt 1.3.3.a Ohne Bezug auf sensoriesche Merkmale nutzbar
+. Abgrenzung zum Prüfschritt 11.1.3.3 "Ohne Bezug auf sensoriesche Merkmale
+  nutzbar"
 +
 In diesem Prüfschritt geht es nicht um die Prüfung von Verweisen auf
 Seiteninhalte mit Hilfe der Angabe von Farben.
 Die sinnesunabhängige Bereitstellung von Verweisen auf Inhalte wird im
 Prüfschritt
-<<1.3.3a Ohne Bezug auf sensorische Merkmale nutzbar.adoc#,1.3.3a Ohne Bezug
-auf sensorische Merkmale nutzbar>>
+ifdef::env_embedded[11.1.3.3 "Ohne Bezug auf sensorische Merkmale nutzbar"]
+ifndef::env_embedded[]
+  <<11.1.3.3 Ohne Bezug auf sensorische Merkmale nutzbar.adoc#,11.1.3.3 Ohne Bezug
+  auf sensorische Merkmale nutzbar>>
+endif::env_embedded[]
 geprüft.
 
 . Abgrenzung zu fehlenden Hervorhebungen
 +
 In diesem Prüfschritt 1.4.1a geht es um die Farbunabhängigkeit vorhandener
-Seitenelemente.
+UI-Elemente.
 +
 Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Text
 nur durch die Farbe (und nicht zusätzlich durch Unterstreichung, Fettung oder
@@ -117,13 +120,15 @@ vorangestellte Markierung) gekennzeichnet sind.
 Wenn Links im Text überhaupt nicht gekennzeichnet sind, ist der Prüfschritt
 dagegen nicht anwendbar.
 Das ist dann vielmehr ein Verstoß gegen Prüfschritt
-<<3.2.3a Konsistente Navigation.adoc#,3.2.3a Konsistente Navigation>> bzw.
-<<2.4.7a Aktuelle Position des Fokus deutlich.adoc#,2.4.7a Aktuelle Position
+ifdef::env_embedded[11.2.4.7 "Aktuelle Position des Fokus deutlich".]
+ifndef::env_embedded[]
+  <<11.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,11.2.4.7 Aktuelle Position
 des Fokus deutlich>>.
+endif::env_embedded[]
 +
 Entsprechend bei der Kennzeichnung der aktuellen Menüposition:
 Ein App-Inhalt, der die aktuelle Position überhaupt nicht anzeigt, verstößt
-somit noch nicht gegen diesen Prüfschritt 1.4.1a.
+somit noch nicht gegen diesen Prüfschritt 11.1.4.1.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
