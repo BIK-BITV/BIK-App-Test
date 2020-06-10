@@ -1,4 +1,4 @@
-= Prüfschritt 1.4.11a Kontraste von Grafiken und Bedienelementen ausreichend
+= Prüfschritt 11.1.4.11 Kontraste von Grafiken und Bedienelementen ausreichend
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -61,7 +61,7 @@ Falls es schwierig ist, Einzelheiten mit der Contrast-Analyzer-Pipette zu
 erfassen, kann vor der Erstellung des Screenshots die entsprechende Ansicht in
 der Software mit der Zoomfunktion des Systems vergrößert werden.
 
-. Screenshots erstellen (ggf. vorher Zoomfunktion nutzen, siehe Handreichung)
+. Screenshots erstellen (ggf. vorher Zoomfunktion nutzen)
 . Screenshots an den PC übertragen.
 . Screenshots am PC öffnen und mit dem Contrast-Analyzer untersuchen.
 
@@ -147,10 +147,10 @@ Wechsel von beigestelltem Text, Umrandung oder ähnlich) dann sollte der
 Kontrast der einen Farbe zur anderen mindestens 3:1 betragen.
 Dies ist Gegenstand der Prüfung in Prüfschritt
 ifdef::env_embedded[]
-2.4.7 "Aktuelle Position des Fokus sichtbar".
+11.2.4.7 "Aktuelle Position des Fokus sichtbar".
 endif::env_embedded[]
 ifndef::env_embedded[]
-<<2.4.7a Aktuelle Position des Fokus deutlich.adoc#,2.4.7a Aktuelle Position
+<<11.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,11.2.4.7 Aktuelle Position
 des Fokus deutlich>>.
 endif::env_embedded[]
 
@@ -166,11 +166,11 @@ Attributen wie Umrisslinien.
 Der Kontrast von Schrift, einschließlich der von Schriftgrafiken, wird in
 Prüfschritt
 ifdef::env_embedded[]
-1.4.3a "Kontraste von Texten ausreichend"
+  11.1.4.3 "Kontraste von Texten ausreichend"
 endif::env_embedded[]
 ifndef::env_embedded[]
-<<1.4.3a Kontraste von Texten ausreichend.adoc#,1.4.3a Kontraste von Texten
-ausreichend>>
+  <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
+  ausreichend>>
 endif::env_embedded[]
 bewertet.
 
@@ -207,6 +207,6 @@ bewertet.
 
 == Quellen
 
-https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[
-Understanding Success Criterion 1.4.11: Non-text Contrast]
+* https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[
+  Understanding Success Criterion 1.4.11: Non-text Contrast]
 (zur Zeit nur auf Englisch verfügbar)
