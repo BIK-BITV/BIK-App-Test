@@ -1,4 +1,4 @@
-= Prüfschritt 1.4.12a Textabstände anpassbar
+= Prüfschritt 11.1.4.12 Textabstände anpassbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -30,7 +30,7 @@ Zur Zeit sind keine Werkzeuge / systemseitige Bedienungshilfen bekannt, die
 eine solche Funktionalität für die mobilen Plattformen iOS / iPadOS und
 Android zu Verfügung stellen.
 
-Der Prüfschritt wird von der EN 301 549 Version 2.1.2 gefordert.
+Der Prüfschritt wird von der EN 301 549 Version 3.1.1 gefordert.
 Für die Umsetzung der Prüfung gibt es leider wenig Hinweise durch die EN.
 Vom Nutzer anpassbare Textabstände sind bei Software zur Zeit kaum verbreitet.
 Da die mobilen Plattformen keine entsprechende Bedienungshilfe bereitstellen,
@@ -61,5 +61,5 @@ Abständen funktionieren.
 
 == Quellen
 
-https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html[Understanding
-Success Criterion 1.4.12: Text Spacing] (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html[Understanding
+  Success Criterion 1.4.12: Text Spacing] (zur Zeit nur auf Englisch verfügbar)
