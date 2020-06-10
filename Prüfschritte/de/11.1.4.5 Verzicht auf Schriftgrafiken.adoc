@@ -1,4 +1,4 @@
-= Prüfschritt 1.4.5a Verzicht auf Schriftgrafiken
+= Prüfschritt 11.1.4.5 Verzicht auf Schriftgrafiken
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -56,21 +56,15 @@ in Fotos.
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-Für die Vermittlung von Informationen sind keine Schriftgrafiken zu verwenden,
-es sei denn,
-
-diese lassen sich individuell an die visuellen Bedürfnisse der Nutzerin oder
-des Nutzers anpassen oder eine bestimmte Präsentation ist für die
-Vermittlung der Informationen des Textes wesentlich.
-
 === Abgrenzung zu anderen Prüfkriterien
 
 Verwendung von Tabellen-Markup für die Darstellung von Tabellen:
 siehe Prüfschritt
-<<1.3.1e Datentabellen richtig aufgebaut.adoc#,1.3.1e Datentabellen richtig
-aufgebaut>>.
+ifdef::env_embedded[11.1.3.1b "Datentabellen richtig aufgebaut".]
+ifndef::env_embedded[]
+  <<11.1.3.1b Datentabellen richtig aufgebaut.adoc#,11.1.3.1b Datentabellen
+  richtig aufgebaut>>.
+endif::env_embedded[]
 
 === Grenzen des Prüfschritts
 
