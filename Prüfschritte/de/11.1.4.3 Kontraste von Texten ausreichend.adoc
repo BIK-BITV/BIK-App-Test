@@ -1,4 +1,4 @@
-= Prüfschritt 1.4.3a Kontraste von Texten ausreichend
+= Prüfschritt 11.1.4.3 Kontraste von Texten ausreichend
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -137,8 +137,7 @@ Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender
 Werkzeuge nicht möglich.
 Prüfer müssen an dieser Stelle anhand ihrer Erfahrung urteilen.
 Falls Ihnen geeignete Werkzeuge und Methoden bekannt sind, weisen Sie uns gerne
-darauf in einem https://github.com/BIK-BITV/BIK-App-Test/issues[GitHub Issue]
-hin.
+darauf in einem {app-issue-url}[GitHub Issue] hin.
 
 Für die Bewertung zählt das Kontrastverhältnis (relative luminosity) nach
 einer in den WCAG 2.1 definierten Formel.
@@ -180,27 +179,6 @@ Bildschirmauflösung, für den die Entsprechung auf jeden Fall gilt.
   Anforderungen an Barrierefreiheit.
 
 == Einordnung des Prüfschritts
-
-=== Formulierung BITV 2.0
-
-==== 1.4.3 Kontrast
-
-Bei der visuellen Präsentation von Text und Schriftgrafiken ist das
-Kontrastverhältnis zwischen Vordergrund- und Hintergrundfarbe mindestens
-4,5 : 1.
-Für Großschrift und Schriftgrafiken mit Großschrift gilt ein
-Kontrastverhältnis von mindestens 3 : 1.
-
-Kein Mindestkontrast ist erforderlich für nebensächliche Texte und
-Schriftgrafiken,
-
-* die Teil einer inaktiven Komponente der Benutzerschnittstelle sind,
-* die rein dekorativ sind,
-* bei denen es sich um nebensächlichen Text in einem Bild handelt oder
-* die für den Nutzer oder die Nutzerin nicht sichtbar sind.
-
-Für Text, der Bestandteil eines Logos oder eines Markennamens ist, gelten
-ebenfalls keine Anforderungen an den Mindestkontrast.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -244,7 +222,7 @@ ebenfalls keine Anforderungen an den Mindestkontrast.
 
 === W3C zum Zusammenhang zwischen px und pt:
 
-https://www.w3.org/TR/css3-values/#absolute-lengths[CSS Values and Units Module Level 3: 5.2 Absolute Lengths]
+* https://www.w3.org/TR/css3-values/#absolute-lengths[CSS Values and Units Module Level 3: 5.2 Absolute Lengths]
 
 == Fragen zu diesem Prüfschritt
 
