@@ -1,4 +1,4 @@
-= Prüfschritt 1.4.4a Text auf 200% vergrößerbar
+= Prüfschritt 11.1.4.4 Text auf 200% vergrößerbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -8,7 +8,7 @@ Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei
 Inhalt oder Funktionalität verloren geht.
 Eine der folgenden Voraussetzung soll erfüllt sein:
 
-* * Mit der Zoom-Funktion des Betriebssystems kann das gesamte Layout
+* Mit der Zoom-Funktion des Betriebssystems kann das gesamte Layout
   proportional zur Schriftgröße vergrößert werden.
 * Mit der Nur-Text-Vergrößerung des Betriebssystems kann der Text
   vergrößert werden.
@@ -36,8 +36,7 @@ Der Prüfschritt ist anwendbar, wenn die Software-Ansicht Text enthält.
 === Prüfung
 
 . Zoom-Funktionalität in den Bedienungshilfen von iOS / iPadOS bzw. Android
-  aktivieren (siehe
-  Handreichung)
+  aktivieren
 . App mit zu prüfender Ansicht starten
 . Ansicht mittels der Zoomfunktion des Betriebssystems um 200% vergrößern
   und dabei prüfen, ob dies Probleme bei der zu prüfenden Ansicht hervorruft.
@@ -89,19 +88,15 @@ testenden Software-Ansicht erfolgt nur unter folgenden Bedingungen:
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-==== 1.4.4 Veränderbare Textgröße
-
-Der Text lässt sich ohne assistive Technologie bis auf 200 % vergrößern,
-ohne dass es zu einem Verlust von Inhalt oder Funktionalität kommt.
-
 === Abgrenzung zu anderen Prüfkriterien
 
 Mangelnde Vergrößerbarkeit von Schriftgrafiken:
 siehe Prüfschritt
-<<1.4.5a Verzicht auf Schriftgrafiken.adoc#,1.4.5a Verzicht auf
-Schriftgrafiken>>.
+ifdef::env_embedded[11.1.4.5 "Verzicht auf Schriftgrafiken".]
+ifndef::env_embedded[]
+  <<11.1.4.5 Verzicht auf Schriftgrafiken.adoc#,11.1.4.5 Verzicht auf
+  Schriftgrafiken>>.
+endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -152,7 +147,8 @@ layout.
 An example of direct support might be via server-side script that can be used
 to assign different style sheets.
 
-Quelle: https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html[Resize text: Understanding SC 1.4.4]
+(https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html[Resize text:
+Understanding SC 1.4.4])
 
 === Die WCAG 2.1 zur Nutzung absoluter und relativer Maßeinheiten für Text
 
@@ -173,5 +169,5 @@ style element (...). When using inline style with the style attribute, the
 text size change is not supported.
 --
 
-Quelle: WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/css/C14.html[
-C14: Using em units for font sizes]
+(WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/css/C14.html[C14:
+Using em units for font sizes])
