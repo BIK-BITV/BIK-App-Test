@@ -1,4 +1,4 @@
-= Prüfschritt 1.4.2a Ton abschaltbar
+= Prüfschritt 11.1.4.2 Ton abschaltbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -98,17 +98,6 @@ nicht erst gesucht werden muss.
 
 == Einordnung des Prüfschritts
 
-=== Formulierung BITV 2.0
-
-==== 1.4.2 Audio-Kontrolle
-
-Bei Tonelementen, die auf einer Webseite automatisch länger als drei Sekunden
-abgespielt werden, gibt es:
-
-* entweder einen Mechanismus zum Unterbrechen oder Beenden des Tons
-* einen Mechanismus zur Regelung der Lautstärke unabhängig von der
-  Systemlautstärke
-
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
@@ -168,5 +157,5 @@ zero.
   after they land on the page.
 --
 
-Quelle: https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html[Audio
-Control: Understanding SC 1.4.2]
+(https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html[Audio
+Control: Understanding SC 1.4.2])
