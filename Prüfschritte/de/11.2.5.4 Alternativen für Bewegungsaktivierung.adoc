@@ -1,4 +1,4 @@
-= Prüfschritt 2.5.4a Alternativen für Bewegungsaktivierung
+= Prüfschritt 11.2.5.4 Alternativen für Bewegungsaktivierung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
