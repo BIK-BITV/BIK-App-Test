@@ -1,4 +1,4 @@
-= Prüfschritt 4.1.1a Korrekte Syntax
+= Prüfschritt 11.4.1.1a Korrekte Syntax
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -88,5 +88,5 @@ Validation does not necessarily check for full conformance with a
 specification but it is the best means for automatically checking content
 against its specification.
 
-* Quelle: https://www.w3.org/WAI/WCAG21/Techniques/general/G134[WCAG 2.1
-  Technik G134: Validating web pages]
+(https://www.w3.org/WAI/WCAG21/Techniques/general/G134[WCAG 2.1
+  Technik G134: Validating web pages])
