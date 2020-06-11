@@ -16,8 +16,8 @@ Beispiel für Textattribute sind fett, kursiv und Unterstreichung.
 In einer Textverarbeitung müssen diese Attribute z. B. auch für den
 Screenreader-Nutzer ausgegeben werden können.
 
-Außerdem muss Der Screenreader-Nutzer herausfinden können, welche Informationen gerade
-auf dem Display angezeigt werden (Viewport).
+Außerdem muss Der Screenreader-Nutzer herausfinden können, welche
+Informationen gerade auf dem Display angezeigt werden (Viewport).
 
 == Wie wird geprüft?
 
