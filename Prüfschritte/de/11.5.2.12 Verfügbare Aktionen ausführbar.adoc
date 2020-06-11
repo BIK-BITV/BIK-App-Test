@@ -9,9 +9,9 @@ Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
 
 == Was wird geprüft?
 Die im Prüfschritt
-ifdef::env_embedded[x03 1.3.1sc "Aktionen programmatisch ermittelbar"]
+ifdef::env_embedded[11.5.2.11 "Aktionen programmatisch ermittelbar"]
 ifndef::env_embedded[]
-  <<x03 1.3.1sc Aktionen programmatisch ermittelbar.adoc#,x03 1.3.1sc Aktionen
+  <<11.5.2.11 Aktionen programmatisch ermittelbar.adoc#,11.5.2.11 Aktionen
   programmatisch ermittelbar>>
 endif::env_embedded[]
 genannten Aktionen müssen auch mittels Hilfstechnologie ausführbar sein.
