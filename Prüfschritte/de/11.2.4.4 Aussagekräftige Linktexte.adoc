@@ -1,4 +1,4 @@
-= Prüfschritt 2.4.4a Aussagekräftige Linktexte
+= Prüfschritt 11.2.4.4 Aussagekräftige Linktexte
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -112,10 +112,10 @@ verlinkten Grafiken ausgibt.
 Die Aussaagekraft der Alternativtexte für Grafiken wird geprüft in:
 
 * Prüfschritt
-ifdef::env_embedded[1.1.1a "Alternativtexte für Bedienelemente"]
+ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
 ifndef::env_embedded[]
-<<1.1.1a Alternativtexte für Bedienelemente.adoc#,1.1.1a Alternativtexte für
-Bedienelemente>>
+  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Alternativtexte
+  für Bedienelemente>>
 endif::env_embedded[]
 
 In diesem Prüfschritt wird nur geprüft, ob die Information über das
@@ -130,8 +130,11 @@ diese Information auch als Text verfügbar ist.
 
 * Alternativer Text für blinde Nutzer:
   Prüfschritt
-  <<1.1.1a Alternativtexte für Bedienelemente.adoc#,1.1.1a Alternativtexte für
-  Bedienelemente>>
+ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
+ifndef::env_embedded[]
+  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a
+  Alternativtexte für Bedienelemente>>
+endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -178,9 +181,8 @@ Meaningful links help users choose which links to follow without requiring
 complicated strategies to understand the page.
 --
 
-Quelle:
-https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
-Link Purpose (In Context): Understanding SC 2.4.4]
+(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
+Link Purpose (In Context): Understanding SC 2.4.4])
 
 === Gruppen zusammengehöriger Links
 
@@ -195,10 +197,9 @@ To avoid hearing the title of each book three times (once for each format),
 the first link for each book is the title of the book, the second link says
 "PDF" and the third says, "mp3."
 
-Quelle:
-https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[
+(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[
 Link Purpose (In Context): Understanding SC 2.4.4: Examples of Success
-Criterion 2.4.4]
+Criterion 2.4.4])
 
 === Aussagekraft über den Kontext
 
@@ -219,6 +220,5 @@ table cell as the link, or in the table header cell for a link in a data
 table, because these are directly associated with the link itself.
 --
 
-Quelle:
-https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
-Link Purpose (In Context): Understanding SC 2.4.4]
+(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
+Link Purpose (In Context): Understanding SC 2.4.4])
