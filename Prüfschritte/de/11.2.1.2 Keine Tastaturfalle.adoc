@@ -1,4 +1,4 @@
-= Prüfschritt 2.1.2a Keine Tastaturfalle
+= Prüfschritt 11.2.1.2 Keine Tastaturfalle
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -48,11 +48,11 @@ Der Prüfschritt ist immer anwendbar.
 
 Wenn die Tastaturfalle verhindert, dass man Inhalte nach der Tastaturfalle
 erreicht, dann ist eventuell auch Prüfschritt
-ifdef::env_embedded[2.1.1a "Ohne Maus nutzbar"]
+ifdef::env_embedded[11.2.1.1 "Tastaturbedienung"]
 ifndef::env_embedded[]
-<<2.1.1a Ohne Maus nutzbar.adoc#,2.1.1a Ohne Maus nutzbar>>
+  <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
 endif::env_embedded[]
-nicht erfüllt!
+nicht erfüllt.
 
 === Bewertung
 
