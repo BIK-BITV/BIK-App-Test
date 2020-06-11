@@ -1,4 +1,4 @@
-= Prüfschritt 2.4.3a Schlüssige Reihenfolge bei der Tastaturbedienung
+= Prüfschritt 11.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -25,7 +25,12 @@ eingeschränkte Menschen oder blinde Nutzer.
 Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die
 Tastaturbedienbarkeit erheblich beeinträchtigt werden.
 
-Manche Apps präsentieren dynamische Inhalte, etwa Rückmeldungen bei fehlerhaften Formular-Eingaben oder Nachrichten-Teaser, die im Wechsel angezeigt werden. Während dynamische Änderungen der Seite für sehende Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzern gar nicht oder erst mit Verzögerung wahrgenommen.
+Manche Apps präsentieren dynamische Inhalte, etwa Rückmeldungen bei
+fehlerhaften Formular-Eingaben oder Nachrichten-Teaser, die im Wechsel
+angezeigt werden.
+Während dynamische Änderungen der Seite für sehende Nutzer unmittelbar
+wahrnehmbar sind, werden sie oft von Screenreader-Nutzern gar nicht oder erst
+mit Verzögerung wahrgenommen.
 
 Wenn nach dem starten einer App weitere Elemente in die Ansicht eingefügt
 werden, soll diese Einfügung unterhalb des auslösenden Elements geschehen,
@@ -100,31 +105,31 @@ unsichtbare ausführbare Elemente geht.
 === Abgrenzung zu anderen Prüfkriterien
 
 * In diesem Prüfschritt wird die Tabreihenfolge geprüft, die grundsätzliche
-  Erreichbarkeit und Auslösbarkeit von interaktiven Elementen ist Gegenstand von
-  Prüfschritt
-ifdef::env_embedded[2.1.1a "Ohne Maus nutzbar".]
+Erreichbarkeit und Auslösbarkeit von interaktiven Elementen ist Gegenstand von
+Prüfschritt
+ifdef::env_embedded[11.2.1.1 "Tastaturbedienung".]
 ifndef::env_embedded[]
-  <<2.1.1a Ohne Maus nutzbar.adoc#,2.1.1a Ohne Maus nutzbar>>.
+  <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>.
 endif::env_embedded[]
 
 * Die Sichtbarkeit des Fokus ist Gegenstand von Prüfschritt
-ifdef::env_embedded[2.4.7a "Aktuelle Position des Fokus deutlich".]
+ifdef::env_embedded[11.2.4.7 "Aktuelle Position des Fokus deutlich".]
 ifndef::env_embedded[]
-  <<2.4.7a Aktuelle Position des Fokus deutlich.adoc#,2.4.7a Aktuelle Position
+  <<11.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,11.2.4.7 Aktuelle Position
   des Fokus deutlich>>.
 endif::env_embedded[]
 
 * Geprüft wird hier die richtige Position eingeblendeter oder eingefügter
   Inhalte.
   Ob diese Inhalte selbst sinnvoll sind, wird in anderen Prüfkriterien wie
-ifdef::env_embedded[3.3.3a "Hilfe bei Fehlern""]
+ifdef::env_embedded[11.3.3.3 "Hilfe bei Fehlern""]
 ifndef::env_embedded[]
-  <<3.3.3a Hilfe bei Fehlern.adoc#,3.3.3a Hilfe bei Fehlern>>
+  <<11.3.3.3 Hilfe bei Fehlern.adoc#,11.3.3.3 Hilfe bei Fehlern>>
 endif::env_embedded[]
   oder
-ifdef::env_embedded[2.4.4a "Aussagekräftige Linktexte"]
+ifdef::env_embedded[11.2.4.4 "Aussagekräftige Linktexte"]
 ifndef::env_embedded[]
-  <<2.4.4a Aussagekräftige Linktexte.adoc#,2.4.4a Aussagekräftige Linktexte>>
+  <<11.2.4.4 Aussagekräftige Linktexte.adoc#,11.2.4.4 Aussagekräftige Linktexte>>
 endif::env_embedded[]
   geprüft.
 
