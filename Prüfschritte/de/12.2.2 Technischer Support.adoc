@@ -16,13 +16,11 @@ Barrierefreiheit und Kompatibilität zu assistiven Technologien bereitstellen
 können, die die Software betrifft.
 Dies soll mindestens die Informationen umfassen, die dazu in der
 Software-Dokumentation erwähnt werden (siehe auch Prüfschritt
-ifdef::env_embedded[x34 "Dokumentation von Kompatibilität und Barrierefreiheit"]
+ifdef::env_embedded[12.1.1 "Dokumentation von Kompatibilität und Barrierefreiheit").]
 ifndef::env_embedded[]
-  <<x34 EN_12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
-  x34 Dokumentation von Kompatibilität und Barrierefreiheit>>
+  <<12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit.adoc#,
+  12.1.1 Dokumentation von Kompatibilität und Barrierefreiheit>>).
 endif::env_embedded[]
-
-).
 
 == Wie wird geprüft?
 
@@ -45,8 +43,8 @@ Verfügung stehen, stichprobenartig geprüft werden.
 
 Verbreitet sollten jedoch Assistenzsysteme sein, die den Support-Mitarbeiter
 durch die Problemlösung führt.
-Es ist sehr fraglich, ob ein Prüfer zu diesen Systemen Zugang für eine Prüfung
-bekommen würde.
+Es ist sehr fraglich, ob ein Prüfer zu diesen Systemen Zugang für eine
+Prüfung bekommen würde.
 
 == Quellen
 
