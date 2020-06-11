@@ -1,4 +1,4 @@
-= Prüfschritt 2.1.4a Tastatur-Kurzbefehle abschaltbar oder anpassbar
+= Prüfschritt 11.2.1.4 Tastatur-Kurzbefehle abschaltbar oder anpassbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -83,6 +83,6 @@ innerhalb der Auswahllisten-Optionen.
 
 == Quellen
 
-https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[
-Understanding Success Criterion 2.1.4: Character Key Shortcuts]
-(zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[
+  Understanding Success Criterion 2.1.4: Character Key Shortcuts]
+  (zur Zeit nur auf Englisch verfügbar)
