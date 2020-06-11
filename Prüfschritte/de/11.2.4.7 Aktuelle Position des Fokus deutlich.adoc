@@ -1,4 +1,4 @@
-= Prüfschritt 2.4.7a Aktuelle Position des Fokus deutlich
+= Prüfschritt 11.2.4.7 Aktuelle Position des Fokus deutlich
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -46,9 +46,9 @@ enthält.
   Tastaturfokus (Systemkranz) an dieser Stelle vor hellem Hintergrund
   dargestellt ist, also gut zu erkennen ist.
   In Zweifelsfällen gemäß Prüfschritt
-ifdef::env_embedded[1.4.3a "Kontraste von Texten ausreichend"]
+ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend"]
 ifndef::env_embedded[]
-  <<1.4.3a Kontraste von Texten ausreichend.adoc#,1.4.3a Kontraste von Texten
+  <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
   ausreichend>>
 endif::env_embedded[]
   ermitteln, ob die Farbe Schwarz vor dem gewählten Hintergrund ausreichend
@@ -59,9 +59,9 @@ endif::env_embedded[]
 * Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturcursor
 sichtbar ist.
 Dann ist eventuell auch Prüfschritt
-ifdef::env_embedded[2.1.1a "Ohne Maus nutzbar"]
+ifdef::env_embedded[11.2.1.1 "Tastaturbedienung"]
 ifndef::env_embedded[]
-  <<2.1.1a Ohne Maus nutzbar.adoc#,2.1.1a Ohne Maus nutzbar>>
+  <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
 endif::env_embedded[]
 nicht erfüllt! (Ohne Touch-Gesten bedienbar?)
 
@@ -76,9 +76,9 @@ Bei mobilen Systemen muss ggf. eine Bluetooth-Tastatur zum Einsatz kommen.
 * Bei Bedienelementen, die sich bei Fokuserhalt nicht verändern, jedoch einen
   Systemkranz zur Hervorhebung erhalten, erfüllt der Helligkeitskontrast der
   Farbe Schwarz vor dem gewählten Hintergrund die Anforderungen von Prüfschritt
-ifdef::env_embedded[1.4.3a "Kontraste von Texten ausreichend".]
+ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend".]
 ifndef::env_embedded[]
-  <<1.4.3a Kontraste von Texten ausreichend.adoc#,1.4.3a Kontraste von Texten
+  <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
   ausreichend>>.
 endif::env_embedded[]
 
