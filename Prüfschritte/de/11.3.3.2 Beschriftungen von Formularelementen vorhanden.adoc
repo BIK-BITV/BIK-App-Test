@@ -1,4 +1,4 @@
-= Prüfschritt 3.3.2a Beschriftungen von Formularelementen vorhanden
+= Prüfschritt 11.3.3.2 Beschriftungen von Formularelementen vorhanden
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
