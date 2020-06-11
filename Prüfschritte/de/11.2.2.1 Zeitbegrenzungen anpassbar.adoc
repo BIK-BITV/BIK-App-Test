@@ -1,4 +1,4 @@
-= Prüfschritt 2.2.1a Zeitbegrenzungen anpassbar
+= Prüfschritt 11.2.2.1 Zeitbegrenzungen anpassbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -147,16 +147,16 @@ Einflussbereich des Autors und damit nicht Gegenstand der Prüfung.
 
 === Abgrenzung von anderen Prüfkriterien
 
-Dieser Prüfschritt 2.2.1a betrifft Zeitbegrenzungen, welche die ganze Ansicht
+Dieser Prüfschritt 11.2.2.1 betrifft Zeitbegrenzungen, welche die ganze Ansicht
 betreffen,
 unabhängig davon, ob die zeitbegrenzten Inhalte bewegt sind (also
 ablenken) oder nicht.
 Geprüft wird, ob solche Zeitbegrenzungen abschaltbar oder verlängerbar sind.
 
 * Der Prüfschritt
-ifdef::env_embedded[2.2.2a "Bewegte Inhalte abschaltbar"]
+ifdef::env_embedded[11.2.2.2 "Bewegte Inhalte abschaltbar"]
 ifndef::env_embedded[]
-  <<2.2.2a Bewegte Inhalte abschaltbar.adoc#,2.2.2a Bewegte Inhalte
+  <<11.2.2.2 Bewegte Inhalte abschaltbar.adoc#,11.2.2.2 Bewegte Inhalte
   abschaltbar>>
 endif::env_embedded[]
   betrifft dagegen bewegte
@@ -172,15 +172,15 @@ endif::env_embedded[]
   Mechanismus zu finden und zu nutzen.
   In anderen Prüfkriterien wird geprüft, ob der Mechanismus selbst
   zugänglich und verständlich ist (etwa in
-ifdef::env_embedded[2.1.1a "Ohne Maus nutzbar"]
+ifdef::env_embedded[11.2.1.1 "Tastaturbedienung"]
 ifndef::env_embedded[]
-  <<2.1.1a Ohne Maus nutzbar.adoc#,2.1.1a Ohne Maus nutzbar>>
+  <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
 endif::env_embedded[]
   oder
-ifdef::env_embedded[1.3.1h "Beschriftung programmatisch ermittelbar").]
+ifdef::env_embedded[11.1.3.1e "Beschriftung von Formularelementen programmatisch ermittelbar").]
 ifndef::env_embedded[]
-  <<1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar.adoc#,
-  1.3.1h Beschriftung von Formularelementen programmatisch ermittelbar>>).
+  <<11.1.3.1e Beschriftung von Formularelementen programmatisch ermittelbar.adoc#,
+  11.1.3.1e Beschriftung von Formularelementen programmatisch ermittelbar>>).
 endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
