@@ -1,4 +1,4 @@
-= Prüfschritt 3.2.2a Keine unerwartete Kontextänderung bei Eingabe
+= Prüfschritt 11.3.2.2 Keine unerwartete Kontextänderung bei Eingabe
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -104,9 +104,9 @@ context]
   Success Criterion
   link:++https://www.w3.org/TR/WCAG21/#on-input++[On input]
   zugeordnet ist, wird nur indirekt im Prüfschritt
-ifdef::env_embedded[2.1.1a "Ohne Maus nutzbar" geprüft]
+ifdef::env_embedded[11.2.1.1 "Tastaturbedienung"]
 ifndef::env_embedded[]
-  <<2.1.1a Ohne Maus nutzbar.adoc#,2.1.1a Ohne Maus nutzbar>>
+  <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
 endif::env_embedded[]
   geprüft.
 
