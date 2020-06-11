@@ -1,4 +1,4 @@
-= Prüfschritt 4.1.2a Name, Rolle, Wert verfügbar
+= Prüfschritt 11.4.1.2 Name, Rolle, Wert verfügbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -116,9 +116,9 @@ zur programmatischen Ausführung einer der aufgeführten Aktionen).
 * In diesem Prüfschritt geht es nicht um die Bewertung der
   Tastaturbedienbarkeit  von selbsterstellten Bedienelementen.
   Dies ist Gegenstand von Prüfschritt
-ifdef::env_embedded[2.1.1a "Ohne Maus nutzbar".]
+ifdef::env_embedded[11.2.1.1 "Tastaturbedienung".]
 ifndef::env_embedded[]
-  <<2.1.1a Ohne Maus nutzbar.adoc#,2.1.1a Ohne Maus nutzbar>>.
+  <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>.
 endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -167,4 +167,3 @@ endif::env_embedded[]
   focus state available]
 
 // == Quellen
-
