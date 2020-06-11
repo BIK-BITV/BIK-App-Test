@@ -1,11 +1,11 @@
-= Prüfschritt 2.3.1a Verzicht auf Flackern
+= Prüfschritt 11.2.3.1 Verzicht auf Flackern
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Software-Ansicht enthält keine Elemente, die in einem Zeitraum von einer Sekunde
-häufiger als dreimal aufblitzen.
+Die Software-Ansicht enthält keine Elemente, die in einem Zeitraum von einer
+Sekunde häufiger als dreimal aufblitzen.
 
 == Warum wird das geprüft?
 
@@ -73,9 +73,8 @@ where:
   saturated red.
 --
 
-Quelle:
-https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html[
-Three Flashes or Below Threshold: Understanding SC 2.3.1]
+(https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html[
+Three Flashes or Below Threshold: Understanding SC 2.3.1])
 
 === Die WCAG 2.1 zur Abgrenzung von Blinken und Flackern
 
@@ -98,5 +97,5 @@ If blinking occurs faster than 3 per second, it would also be considered a
 flash.
 --
 
-Quelle: https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html[
-        Pause, Stop, Hide: Understanding SC 2.2.2]
+(https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html[
+Pause, Stop, Hide: Understanding SC 2.2.2])
