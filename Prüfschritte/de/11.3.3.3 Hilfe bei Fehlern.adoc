@@ -1,4 +1,4 @@
-= Prüfschritt 3.3.3a Hilfe bei Fehlern
+= Prüfschritt 11.3.3.3 Hilfe bei Fehlern
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -64,9 +64,9 @@ bewerten.
 === Abgrenzung von anderen Prüfkriterien
 
 * Die Identifizierung und Benennung des Fehlers, ist Gegenstand des Prüfschritts
-ifdef::env_embedded[3.3.1a "Fehlererkennung".]
+ifdef::env_embedded[11.3.3.1 "Fehlererkennung".]
 ifndef::env_embedded[]
-  <<3.3.1a Fehlererkennung.adoc#,3.3.1a Fehlererkennung>>.
+  <<11.3.3.1 Fehlererkennung.adoc#,11.3.3.1 Fehlererkennung>>.
 endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
