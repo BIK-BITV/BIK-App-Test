@@ -1,4 +1,4 @@
-= Prüfschritt 11.4.1.1a Korrekte Syntax
+= Prüfschritt 11.4.1.1 Korrekte Syntax
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
