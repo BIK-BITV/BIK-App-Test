@@ -1,4 +1,4 @@
-= Prüfschritt 2.2.2a Bewegte Inhalte abschaltbar
+= Prüfschritt 11.2.2.2 Bewegte Inhalte abschaltbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 Ablenkung durch blinkende oder sich bewegende Elemente soll vermieden werden,
 auf 5 Sekunden begrenzt sein oder abschaltbar sein.
 
-Bewegte oder automatisch aktualisierte Inhalte, z.B. periodisch wechselnde
+Bewegte oder automatisch aktualisierte Inhalte, z. B. periodisch wechselnde
 Nachrichten-Aufmacher (Teaser) sollen zum Lesen anhaltbar sein.
 
 == Warum wird das geprüft?
@@ -87,18 +87,18 @@ Inhalten um Werbung oder um redaktionelle Inhalte handelt.
 
 == Einordnung des Prüfschritts
 
-=== Abgrenzung der Prüfschritte 2.2.1a und 2.2.2a
+=== Abgrenzung der Prüfschritte 11.2.2.1 und 11.2.2.2
 
-Dieser Prüfschritt 2.2.2a betrifft bewegte Inhalte, die Benutzer ablenken
+Dieser Prüfschritt 11.2.2.2 betrifft bewegte Inhalte, die Benutzer ablenken
 oder durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Benutzer
 schwierig wahrnehmbar sind.
 Hier wird geprüft, ob Benutzer die Möglichkeit haben, bewegte Inhalte
 anzuhalten oder auszublenden.
 
 * Der Prüfschritt
-ifdef::env_embedded[2.2.1a "Zeitbegrenzungen anpassbar"]
+ifdef::env_embedded[11.2.2.1 "Zeitbegrenzungen anpassbar"]
 ifndef::env_embedded[]
-<<2.2.1a Zeitbegrenzungen anpassbar.adoc#,2.2.1a Zeitbegrenzungen anpassbar>>
+  <<11.2.2.1 Zeitbegrenzungen anpassbar.adoc#,11.2.2.1 Zeitbegrenzungen anpassbar>>
 endif::env_embedded[]
 betrifft Zeitbegrenzungen, welche die ganze Seite betreffen, unabhängig
 davon, ob die zeitbegrenzten Inhalte bewegt sind (also ablenken) oder nicht.
@@ -106,9 +106,10 @@ Geprüft wird, ob solche Zeitbegrenzungen abschaltbar oder verlängerbar sind.
 
 * Zur Abgrenzung von Blinken und Flackern siehe Abschnitt "Quellen" bei
   Prüfschritt
-ifdef::env_embedded[2.3.1a "Verzicht auf Flackern".]
+ifdef::env_embedded[11.2.3.1 "Verzicht auf Flackern".]
 ifndef::env_embedded[]
-  <<2.3.1a Verzicht auf Flackern.adoc#_quellen,2.3.1a Verzicht auf Flackern>>.
+  <<11.2.3.1 Verzicht auf Flackern.adoc#_quellen,11.2.3.1 Verzicht auf
+  Flackern>>.
 endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -158,7 +159,7 @@ endif::env_embedded[]
 
 == Quellen
 
-Die WCAG 2.1  zu  aufgezeichneten  und Echtzeit-Inhalten
+=== Die WCAG 2.1  zu  aufgezeichneten  und Echtzeit-Inhalten
 
 [.BLOCK_LANG_EN]
 --
@@ -184,5 +185,5 @@ Note: Hiding content would have the same result as pausing and jumping to
 current display (when pause is released).
 --
 
-Quelle: https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html[Pause,
-        Stop, Hide: Understanding SC 2.2.2]
+(https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html[Pause,
+Stop, Hide: Understanding SC 2.2.2])
