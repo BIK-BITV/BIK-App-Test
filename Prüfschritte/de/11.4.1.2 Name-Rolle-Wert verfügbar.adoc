@@ -101,6 +101,13 @@ offengelegt werden könnten oder sollten (z.B. eine Liste der verfügbaren
 Aktionen für eine bestimmte Komponente der Benutzeroberfläche und ein Mittel
 zur programmatischen Ausführung einer der aufgeführten Aktionen).
 
+Bei selbsgestalteten Bedienelementen (custom controls) müssen Entwickler
+plattformspezifische Methoden und Schnittstellen verwenden, um diese Elemente
+barrierefrei umzusetzen.
+Unter iOS / iPadOS sind dazu u. a.
+https://developer.apple.com/documentation/objectivec/nsobject/uiaccessibility/accessibility_traits[
+Accessibility Traits] zu verwenden.
+
 === Bewertung
 
 *Nicht erfüllt:*
@@ -166,4 +173,10 @@ endif::env_embedded[]
   not being programmatically determinable or no notification of change of
   focus state available]
 
-// == Quellen
+== Quellen
+
+=== Ressourcen für Entwickler
+
+* Apple Developer:
+  https://developer.apple.com/documentation/objectivec/nsobject/uiaccessibility/accessibility_traits[
+  Accessibility Traits]
