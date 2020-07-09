@@ -111,4 +111,5 @@ Englisch verfügbar)]
 Englisch verfügbar)]
 
 * Apple Developer Resources: https://developer.apple.com/documentation/security/password_autofill/[Password AutoFill (zur Zeit nur auf
+Englisch verfügbar)] Die unterstützten Arten von Autofill-Daten sind seht begrenzt und dienen zur Zeit hauptsdächlich dazu, die Tastatur dynamisch anzupassen https://developer.apple.com/documentation/uikit/uitextinputtraits/1649656-textcontenttype[textContentType (zur Zeit nur auf
 Englisch verfügbar)]
