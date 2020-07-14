@@ -22,5 +22,7 @@ Im Ordner `"support"` stellen wir eine <<support/convert2html.adoc#,Anleitung>> 
 Die Prüfschritte sind in der Auszeichnungssprache AsciiDoc verfasst, um die
 Mitarbeit zu unterstützen, stellen wir ein Tutorial für den Schnelleinstieg
 bereit.
+Orientieren Sie sich bei der Gestaltung des Quelltextes (Einrückungen etc.)
+an der Art und Weise, die Sie vorfinden.
 
 * <<support/AsciiDoc/AsciiDoc Tutorial.adoc#, Zum AsciiDoc Tutorial>>
