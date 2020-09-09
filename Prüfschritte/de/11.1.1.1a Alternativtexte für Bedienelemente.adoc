@@ -41,7 +41,7 @@ geeigneten Technik für Screenreader zu verstecken.
 Handelt es sich dabei um eine Grafik ohne visuell sichtbaren Text
 (Stand-alone-Icon), so sollte eine Textalternative vorhanden sein, die das Ziel
 bzw. die Aktion, die ausgeführt wird, beschreibt.
-In der Praxis ist dies Text der über ein Accessibility-Label bereitgestellt
+In der Praxis ist dies Text, der über ein Accessibility-Label bereitgestellt
 wird.
 
 Handelt es sich um eine informationstragende Grafik, sollte diese beschrieben
@@ -49,8 +49,7 @@ sein und insbesondere das Ziel angeben.
 
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus auf jedes grafische Bedienelement setzen.
-. Prüfen, ob für die 
-  Bedienelemente Alternativtexte ausgegeben werden und diese (auch) das Ziel
+. Prüfen, ob für die Bedienelemente Alternativtexte ausgegeben werden und diese (auch) das Ziel
   bzw. die Funktion des Bedienelements beschreiben.
 . Falls die Grafik zusammen mit aussagekräftigem Text als
   Bedienelement auftaucht, prüfen ob die Grafik vor dem
@@ -126,7 +125,7 @@ endif::env_embedded[]
 *Nicht voll erfüllt:*
 
 * Der Alternativtext fehlt beim Link zum Seitenanfang oder bei einem anderen
-  für die Benutzung der Web-App weniger wichtigen Bedienelement.
+  für die Benutzung der App weniger wichtigen Bedienelement.
 * Alternativtexte sind missverständlich, undeutlich oder extrem lang.
 
 *Nicht erfüllt:*
