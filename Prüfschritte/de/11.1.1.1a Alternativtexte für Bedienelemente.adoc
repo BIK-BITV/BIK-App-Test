@@ -10,8 +10,6 @@ das Ziel des Links bezeichnen.
 Alternativtexte für grafische Schaltflächen (Buttons) sollen die Aktion
 bezeichnen, die der Button auslöst
 
-Thema dieses Prüfschritts sind auch Textalternativen für Icon Fonts.
-
 == Warum wird das geprüft?
 
 Für blinde Benutzer oder für Benutzer, die für schnellere Zugriffszeiten
@@ -20,47 +18,43 @@ Die Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik
 ersetzen, diese beschreiben und insbesondere das Ziel bzw. die Aktion
 bezeichnen.
 
-Icon Fonts sind Schriftarten, die Symbole statt Buchstaben beinhalten und werden
-entweder von assistiven Technologien nicht ausgegeben oder es wird ein
-Unicode-Äquivalent wiedergegeben, was die Bedeutung im Kontext nicht vermittelt.
-
 Entwickler müssen Grafiken mit passenden Text ergänzen, damit
 Hilfsmittelsoftware den Text anstelle der Grafik z. B. in Braille und Sprache
 ausgeben kann.
+Das UI-Element wird dabei um ein Accessibility-Label ergänzt.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Grafiken oder Icon Fonts als
+Der Prüfschritt ist anwendbar, wenn Grafiken als
 Bedienelemente (Menüs, Logos, Teaserbilder oder Schaltflächen) eingesetzt
 werden.
 
 === Prüfung
 
-Falls ein Bedienelement aus einer Symbol-Grafik oder einem Font-Icon sowie
+Falls ein Bedienelement aus einer (Symbol-)Grafik sowie
 einem Text besteht, der den Zweck des Bedienelements wiedergibt, dann gilt
-dieser Text als Alternative für die Grafik bzw. das Icon.
-Es ist dann ggf. sinnvoll, die Symbol-Grafik oder das Icon selbst mit einer
+dieser Text als Alternative für die Grafik.
+Es ist dann ggf. sinnvoll, die Grafik selbst mit einer
 geeigneten Technik für Screenreader zu verstecken.
-Handelt es sich dabei um eine Symbol-Grafik / Icon ohne visuell sichtbaren Text
+Handelt es sich dabei um eine Grafik ohne visuell sichtbaren Text
 (Stand-alone-Icon), so sollte eine Textalternative vorhanden sein, die das Ziel
 bzw. die Aktion, die ausgeführt wird, beschreibt.
-Dies kann beispielsweise Text sein, der mit einem geeigneten Verfahren versteckt
-ist.
+In der Praxis ist dies Text, der über ein Accessibility-Label bereitgestellt
+wird.
+
 Handelt es sich um eine informationstragende Grafik, sollte diese beschrieben
 sein und insbesondere das Ziel angeben.
 
 . App mit zu prüfender Ansicht öffnen.
-. Bedienelemente feststellen.
-. Prüfen, ob Grafiken oder Font-Icons bzw. Symbol-Grafiken als Bedienelement
-  eingesetzt werden.
-. Screenreader VoiceOver starten und prüfen, ob für die entsprechenden
-  Bedienelemente Alternativtexte ausgegeben werden und diese (auch) das Ziel
+. Screenreader starten und Fokus auf jedes grafische Bedienelement setzen.
+. Prüfen, ob für die Bedienelemente Alternativtexte ausgegeben werden und diese (auch) das Ziel
   bzw. die Funktion des Bedienelements beschreiben.
-. Falls die Symbol-Grafik oder das Icon zusammen mit aussagekräftigem Text als
-  Bedienelement auftaucht, prüfen ob die Symbol-Grafik oder das Icon vor dem
-  Screenreader versteckt wird.
+. Falls die Grafik zusammen mit aussagekräftigem Text als
+  Bedienelement auftaucht, prüfen ob die Grafik vor dem
+  Screenreader versteckt wird (keine unnötigen und redundanten Ausgaben durch
+  den Screenreader aufgrund der Grafik).
   Bei Informationstragenden Grafiken wird ein Alternativtext ausgegeben.
 
 Gleichwertige (äquivalente) Alternativtexte:
@@ -77,8 +71,8 @@ In der Regel bedeutet das:
   ersetzen. Also zum Beispiel der Alternativtext "Suchen" für eine Lupen-Symbol,
   das einen Dialog mit Sucheingabefeld öffnet.
 * Bei Objekten, die nicht angezeigt werden können, sollen der Alternativtext
-  (ganz gleich ob Fallback-Text des Objekts oder skriptgeneriert) eine kurze
-  Beschreibung oder Identifizierung bieten. Sinnvoll ist es, dass eine
+  eine kurze Beschreibung oder Identifizierung bieten.
+  Sinnvoll ist es, dass eine
   Begründung für das Nicht-Laden des Objekts ausgegeben wird.
   In diesem Fall ist es auch ausreichend, wenn das Objekt etwa durch eine
   Überschrift im unmittelbaren Kontext identifiziert wird.
@@ -100,14 +94,16 @@ Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
 === Hinweise
 
-Alternativtexte für redundant verlinkte Abbildungen
+==== Alternativtexte für redundant verlinkte Abbildungen
 
 Wenn eine Abbildung und ein danebenstehender Textlink auf dasselbe Ziel
-verweisen, muss geprüft werden, ob Abbildung und Text in den selben Link
-eingeschlossen sind.
+verweisen, muss geprüft werden, ob es sich um ein zusammengesetztes
+Bedienelement handelt (d. h. der Screenreader liest Grafik und Text nicht
+separat vor).
 
-Wenn Abbildung und Text innerhalb des selben Links stehen, soll der
-Alternativtext der Abbildung nicht den Text des Links wiederholen.
+Wenn es sich nicht um ein zusammengesetztes Bedienelement handelt, soll der
+Alternativtext der Grafik nicht einfachdie nebenstehende Beschriftung (Linktext)
+wiederholen.
 Je nach Inhalt der Abbildung kann der Alternativtext dann leer bleiben
 oder den abgebildeten Inhalt beschreiben, während der Linktext Zweck oder Ziel
 des Links beschreibt.
@@ -129,7 +125,7 @@ endif::env_embedded[]
 *Nicht voll erfüllt:*
 
 * Der Alternativtext fehlt beim Link zum Seitenanfang oder bei einem anderen
-  für die Benutzung der Web-App weniger wichtigen Bedienelement.
+  für die Benutzung der App weniger wichtigen Bedienelement.
 * Alternativtexte sind missverständlich, undeutlich oder extrem lang.
 
 *Nicht erfüllt:*
@@ -141,13 +137,13 @@ endif::env_embedded[]
 
 === Abgrenzung zu anderen Prüfkriterien
 
-Verlinkte Grafiken sind stets in diesem Prüfschritt zu bewerten.
+Grafische Bedienelemente sind stets in diesem Prüfschritt zu bewerten.
 Das gilt auch dann, wenn die Grafiken neben der Information über das Linkziel
-auch noch eine andere Information vermitteln sollen, wie zum Beispiel auf
-die Startseite verlinkte Logos.
+auch noch eine andere Information vermitteln sollen.
 
 * Einzige Ausnahme:
-  Grafik und danebenstehender Text sind ein zusammengehöriger Link.
+  Grafik und danebenstehender Text sind ein zusammengehöriger Link
+  (zusammengesetztes Bedienelement).
   Der Alternativtext bezieht sich dann nur auf die Grafik, die Prüfkriterien
 ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]

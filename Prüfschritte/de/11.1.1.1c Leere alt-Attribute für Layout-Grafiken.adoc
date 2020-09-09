@@ -10,39 +10,34 @@ Grafiken ohne informative Funktion sind zum Beispiel Abstandshalter,
 Farbflächen, Muster, oder rein dekorative Fotos.
 Solche Grafiken sollen für Screenreader ausgeblendet werden.
 
-Thema des Prüfschritts sind auch Icons, die mittels Icon Font eingebunden sind.
-
 == Warum wird das geprüft?
 
 Der Screenreader kann Layoutgrafiken nicht von Informationstragenden Grafiken
 unterscheiden und gibt daher beide Grafikarten an den Nutzer aus.
-Wenn in einer Ansicht mehrere Layoutgrafiken auftauchen, kann dies schnell zu
-vielen unbrauchbaren Ausgaben durch den Screenreader führen.
+Wenn in einer Ansicht mehrere Layout- oder Schmuckgrafiken auftauchen, kann
+dies schnell zu vielen unbrauchbaren Ausgaben durch den Screenreader führen.
 Diese unnützen Ausgaben unterbrechen den Informationsfluss und sind für den
 Screenreader-Nutzer sehr störend.
 Entwickler können Layoutgrafiken mit plattformspezifischen Mitteln vor dem
 Screenreader verbergen, um diese Störung zu vermeiden.
 
-Icon Fonts sind Schriftarten, die Symbole statt Buchstaben beinhalten.
-Manche moderne Plattformen übergeben an den Screenreader ein
-Unicode-Äquivalent, was bei dekorativen Icons störend ist.
-
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn eingebundene Grafiken oder Font Icons
-für Layout-Zwecke verwendet werden.
+Der Prüfschritt ist anwendbar, wenn eingebundene Grafiken für Layout-Zwecke
+verwendet werden.
 
 === Prüfung
 
 . App mit zu prüfender Ansicht starten
-. Prüfen ob Layoutgrafiken bzw. Icon-Fonts eingesetzt werden
-. Screenreader starten (siehe Handreichung) und prüfen ob beim Antippen der
-  Layoutgrafiken bzw. der Icon-Fonts eine Ausgabe durch den Screenreader
-  stattfindet.
+. Prüfen ob Layoutgrafiken oder dekorative Grafiken eingesetzt werden
+. Screenreader starten und Fokus auf die ensprechende Grafik setzen
+. Prüfen, ob beim Antippen der Layoutgrafiken eine Ausgabe durch den
+  Screenreader stattfindet.
 
-Der Screenreader sollte bei Layout-Grafiken nichts ausgeben.
+Der Screenreader sollte bei Layoutgrafiken oder dekorativen Grafiken nichts
+ausgeben.
 
 === Hinweise
 
@@ -99,9 +94,9 @@ also zum Beispiel "Abstandhalter" in den Alternativtext schreiben?
 Wofür sollte das gut sein?
 Den Abstand herstellen, also die Aufgabe des Bildes übernehmen kann der
 Alternativtext nicht.
-Die Information, dass da irgendwo Abstände zwischen Elementen der Seite sind,
-ist nutzlos.
-Wie die Elemente auf der Seite angeordnet sind, lässt sich der Tatsache, dass
+Die Information, dass da irgendwo Abstände zwischen Elementen in der Ansicht
+sind, ist nutzlos.
+Wie die Elemente auf der Ansicht angeordnet sind, lässt sich der Tatsache, dass
 an irgend welchen Stellen Abstandhalter sind, auch nicht entnehmen.
 
 Solche Alternativtexte haben also keinen Nutzen.

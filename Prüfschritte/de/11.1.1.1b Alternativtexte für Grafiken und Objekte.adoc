@@ -8,11 +8,9 @@ Informative Grafiken und Bilder müssen mit Alternativtexten versehen werden.
 Die Alternativtexte ersetzen das Bild, sie sollen also (wenn möglich) dieselbe
 Aufgabe erfüllen wie das Bild.
 
-Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien oder
-Applets soll der Alternativtext zumindest eine beschreibende Identifizierung des
+Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien
+soll der Alternativtext zumindest eine beschreibende Identifizierung des
 Inhalts ermöglichen.
-
-Thema dieses Prüfschritts sind auch Textalternativen für Icon Fonts.
 
 == Warum wird das geprüft?
 
@@ -20,15 +18,10 @@ Für blinde Benutzer sind Grafiken und Bilder nicht zugänglich.
 Die Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik
 inhaltlich ersetzen können.
 
-Wenn Objekte (etwa Video-Dateien, Audio-Dateien oder Applets) nicht angezeigt
+Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt
 werden können, weil sie z. B. nicht geladen werden können, sollen kurze
 beschreibende Alternativtexte dem Nutzer eine Identifikation der Inhalte
 ermöglichen.
-
-Icon Fonts sind Schriftarten, die Symbole statt Buchstaben beinhalten und werden
-entweder von assistiven Technologien nicht ausgegeben oder es wird ein
-Unicode-Äquivalent wiedergegeben, was die Bedeutung im Kontext nicht
-vermittelt.
 
 == Wie wird geprüft?
 
@@ -47,8 +40,8 @@ Als informative Grafiken gelten:
 
 Dekorative Grafiken und Bilder sind Grenzfälle. Sie stellen (im Unterschied zu
 Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen
-Bezug zum Thema der Seite.
-Ihr Informationsgehalt und ihr Nutzen für das Verständnis der Seite ist aber
+Bezug zum Thema der App-Ansicht.
+Ihr Informationsgehalt und ihr Nutzen für das Verständnis ist aber
 nicht klar.
 Dekorative Grafiken können daher mit leerem Alternativtext versehen werden,
 der Prüfschritt ist dann nicht anwendbar.
@@ -67,26 +60,14 @@ vorhanden sind.
 
 === Prüfung
 
-. App mit zu prüfender Ansicht starten
+. App mit zu prüfender Ansicht starten.
 . Prüfen ob unverlinkte informationstragende Grafiken oder Multimedia-Inhalte
-  vorhanden sind
-. Den Screenreader VoiceOver starten (siehe Handreichung) und prüfen ob dieser
-  bei den entsprechenden Elementen auf dem Bildschirm passende Alternativtexte
-  ausgibt
+  vorhanden sind.
+. Screenreader starten und Fokus auf jede informationstragende Grafik setzen.
+. Prüfen, ob dieser bei den entsprechenden Elementen auf dem Bildschirm aussagekräftige Alternativtexte
+  ausgibt.
 
 === Hinweise
-
-==== Textalternativen für Icon Fonts
-
-Beim Einsatz vonIcon Fonts ist es ggf. für den Entwickler nicht möglich,
-eine Textalternative zu hinterlegen.
-
-Handelt es sich dabei um ein informationstragendes Icon ohne visuell sichtbaren
-Text (Stand-alone-Icon), so sollte eine Textalternative vorhanden sein.
-Dies kann beispielsweise Text sein, der mit einem geeigneten Verfahren
-versteckt ist.
-Es ist sinnvoll, das Icon selbst mit einer geeigneten Technik für Screenreader
-zu verstecken.
 
 ==== Angemessene Alternativtexte
 
@@ -120,7 +101,7 @@ In der Regel bedeutet das:
 
 Generell gilt: Alternativtexte sollen kurz sein.
 Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext,
-sondern im Kontext der Abbildung zur Verfügung gestellt werden .
+sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
 ==== Angemessenheit von Textalternativen im Kontext
 
@@ -135,10 +116,8 @@ Das betrifft zum Beispiel
 * Anfahrtspläne
 
 Zum Kontext einer Grafik oder eines Bildes gehört: der dazugehörige
-(vorangehende, folgende) Text und
-
-Eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar
-benannteTextalternative.
+(vorangehende, folgende) Text und eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar
+benannte Textalternative.
 
 Ein kurzer Alternativtext mit Bezeichnung des Bildes ist auch bei Nutzung von
 Textalternativen im Kontext erforderlich.
@@ -176,7 +155,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
   geprüft.
 
-* Layout-Grafiken oder dekorative Grafiken mit leeren alt-Attributen werden in
+* Layout-Grafiken oder dekorative Grafiken werden in
   Prüfschritt
 ifdef::env_embedded[11.1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
 ifndef::env_embedded[]
