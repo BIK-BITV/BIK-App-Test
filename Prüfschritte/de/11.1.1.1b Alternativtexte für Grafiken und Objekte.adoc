@@ -60,12 +60,12 @@ vorhanden sind.
 
 === Prüfung
 
-. App mit zu prüfender Ansicht starten
+. App mit zu prüfender Ansicht starten.
 . Prüfen ob unverlinkte informationstragende Grafiken oder Multimedia-Inhalte
-  vorhanden sind
-. Den Screenreader starten und prüfen ob dieser
-  bei den entsprechenden Elementen auf dem Bildschirm passende Alternativtexte
-  ausgibt
+  vorhanden sind.
+. Screenreader starten und Fokus auf jede informationstragende Grafik setzen.
+. Prüfen, ob dieser bei den entsprechenden Elementen auf dem Bildschirm aussagekräftige Alternativtexte
+  ausgibt.
 
 === Hinweise
 
@@ -101,7 +101,7 @@ In der Regel bedeutet das:
 
 Generell gilt: Alternativtexte sollen kurz sein.
 Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext,
-sondern im Kontext der Abbildung zur Verfügung gestellt werden .
+sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
 ==== Angemessenheit von Textalternativen im Kontext
 
@@ -116,10 +116,8 @@ Das betrifft zum Beispiel
 * Anfahrtspläne
 
 Zum Kontext einer Grafik oder eines Bildes gehört: der dazugehörige
-(vorangehende, folgende) Text und
-
-Eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar
-benannteTextalternative.
+(vorangehende, folgende) Text und eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar
+benannte Textalternative.
 
 Ein kurzer Alternativtext mit Bezeichnung des Bildes ist auch bei Nutzung von
 Textalternativen im Kontext erforderlich.
