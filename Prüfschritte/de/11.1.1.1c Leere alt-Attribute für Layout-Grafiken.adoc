@@ -10,8 +10,6 @@ Grafiken ohne informative Funktion sind zum Beispiel Abstandshalter,
 Farbflächen, Muster, oder rein dekorative Fotos.
 Solche Grafiken sollen für Screenreader ausgeblendet werden.
 
-Thema des Prüfschritts sind auch Icons, die mittels Icon Font eingebunden sind.
-
 == Warum wird das geprüft?
 
 Der Screenreader kann Layoutgrafiken nicht von Informationstragenden Grafiken
@@ -23,23 +21,19 @@ Screenreader-Nutzer sehr störend.
 Entwickler können Layoutgrafiken mit plattformspezifischen Mitteln vor dem
 Screenreader verbergen, um diese Störung zu vermeiden.
 
-Icon Fonts sind Schriftarten, die Symbole statt Buchstaben beinhalten.
-Manche moderne Plattformen übergeben an den Screenreader ein
-Unicode-Äquivalent, was bei dekorativen Icons störend ist.
-
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn eingebundene Grafiken oder Font Icons
-für Layout-Zwecke verwendet werden.
+Der Prüfschritt ist anwendbar, wenn eingebundene Grafiken für Layout-Zwecke
+verwendet werden.
 
 === Prüfung
 
 . App mit zu prüfender Ansicht starten
-. Prüfen ob Layoutgrafiken bzw. Icon-Fonts eingesetzt werden
-. Screenreader starten (siehe Handreichung) und prüfen ob beim Antippen der
-  Layoutgrafiken bzw. der Icon-Fonts eine Ausgabe durch den Screenreader
+. Prüfen ob Layoutgrafiken eingesetzt werden
+. Screenreader starten ud prüfen ob beim Antippen der
+  Layoutgrafiken eine Ausgabe durch den Screenreader
   stattfindet.
 
 Der Screenreader sollte bei Layout-Grafiken nichts ausgeben.
