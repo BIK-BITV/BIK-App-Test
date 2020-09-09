@@ -14,7 +14,7 @@ Solche Grafiken sollen für Screenreader ausgeblendet werden.
 
 Der Screenreader kann Layoutgrafiken nicht von Informationstragenden Grafiken
 unterscheiden und gibt daher beide Grafikarten an den Nutzer aus.
-Wenn in einer Ansicht mehrere Layoutgrafiken auftauchen, kann dies schnell zu
+Wenn in einer Ansicht mehrere Layout- oder Schmuckgrafiken auftauchen, kann dies schnell zu
 vielen unbrauchbaren Ausgaben durch den Screenreader führen.
 Diese unnützen Ausgaben unterbrechen den Informationsfluss und sind für den
 Screenreader-Nutzer sehr störend.
@@ -31,12 +31,12 @@ verwendet werden.
 === Prüfung
 
 . App mit zu prüfender Ansicht starten
-. Prüfen ob Layoutgrafiken eingesetzt werden
-. Screenreader starten ud prüfen ob beim Antippen der
-  Layoutgrafiken eine Ausgabe durch den Screenreader
+. Prüfen ob Layoutgrafiken oder dokorative Grafiken eingesetzt werden
+. Screenreader starten und Fokus auf die ensprechende Grafik setzen
+. Prüfen, ob beim Antippen der Layoutgrafiken eine Ausgabe durch den Screenreader
   stattfindet.
 
-Der Screenreader sollte bei Layout-Grafiken nichts ausgeben.
+Der Screenreader sollte bei Layoutgrafiken oder dokorativen Grafiken nichts ausgeben.
 
 === Hinweise
 
@@ -93,9 +93,9 @@ also zum Beispiel "Abstandhalter" in den Alternativtext schreiben?
 Wofür sollte das gut sein?
 Den Abstand herstellen, also die Aufgabe des Bildes übernehmen kann der
 Alternativtext nicht.
-Die Information, dass da irgendwo Abstände zwischen Elementen der Seite sind,
+Die Information, dass da irgendwo Abstände zwischen Elementen in der Ansicht sind,
 ist nutzlos.
-Wie die Elemente auf der Seite angeordnet sind, lässt sich der Tatsache, dass
+Wie die Elemente auf der Ansicht angeordnet sind, lässt sich der Tatsache, dass
 an irgend welchen Stellen Abstandhalter sind, auch nicht entnehmen.
 
 Solche Alternativtexte haben also keinen Nutzen.
