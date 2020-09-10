@@ -42,6 +42,17 @@ Sehbehinderte Nutzer brauchen ggf. mehr Zeit, Inhalte zu lesen. Eingeblendete In
 
 === Anwendbarkeit des Prüfschritts
 
+Der Prüfschritt ist derzeit nicht anwendbar, da bisher keine derartigen
+Einblendungen in Apps für iOS / iPadOS und Android vorgefunden wurden.
+Dies liegt daran, dass die primäre Eingabemethode auf den mobilen Geräten
+auf Berührungsgesten basiert und dabei keine Zustände existieren, die
+entsprechende Einblendungen ermöglichen würden.
+Sobald Maus- und Tastaturnutzung an Touch-Devices zunehmen und Einblendungen im
+Sinne dieses Prüfschritts Verbreitung finden, ist
+dieser Prüfschritt anzuwenden.
+
+Des Weiteren gilt:
+
 Der Prüfschritt ist anwendbar, wenn die Software zusätzliche
 Inhalte enthält, die bei Fokussierung mittels Tastatur oder Zeiger
 eingeblendet werden, etwa Custom-Tooltips oder Ausklapp-Menüs, die bereits
