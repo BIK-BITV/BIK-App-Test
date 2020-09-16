@@ -14,7 +14,7 @@ Tastatur einblenden.
 Ob dies jedoch für die Konformität ausreicht ist derzeit noch unklar.
 
 Auf GitHub können Sie zu diesem Prüfschritt ein
-{app-issue-url}[Issue eröffnen], falls Sie
+https://github.com/BIK-BITV/BIK-App-Test/issues[Issue eröffnen], falls Sie
 Hinweise zu diesem Prüfschritt haben.
 
 == Warum wird das geprüft?

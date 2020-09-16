@@ -33,7 +33,7 @@ Ggf. müssen hier noch bessere Prüfmethoden gefunden werden.
 Die meiste Software richtet sich jedoch nach der Systemsprache und ist somit
 konform.
 
-Für Hinweise zur Prüfpraxis erstellen Sie gerne ein {app-issue-url}[Issue
+Für Hinweise zur Prüfpraxis erstellen Sie gerne ein https://github.com/BIK-BITV/BIK-App-Test/issues[Issue
 auf GitHub].
 
 === Bewertung

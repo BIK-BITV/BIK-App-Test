@@ -15,8 +15,8 @@ Wenn die App Dokumente in andere Formate konvertiert, sollen vorhandene
 Barrirefreiheitsinformationen im Zielformat übernommen werden, wenn das
 Zielformat diese Informationen grundsätzlich unterstützt.
 
-Zum Beispiel könnte eine App HTML-Dateien in PDF konvertieren. Nach der
-Konvertierung soll die PDF-Datei sämtliche Überschriftsebenen,
+Zum Beispiel könnte eine App HTML-Dateien in PDF konvertieren.
+Nach der Konvertierung soll die PDF-Datei sämtliche Überschriftsebenen,
 Alternativtexte und Tabelleninformationen enthalten, die auch in der
 HTML-Quelle vorhanden sind.
 
@@ -46,7 +46,7 @@ berücksichtigt werden.
 Beispiele und weitere Hinweise sollen zukünftig zu diesem Prüfschritt
 ergänzt werden.
 
-Für Hinweise zur Prüfpraxis, eröffnen Sie gerne {app-issue-url}[ein Issue
+Für Hinweise zur Prüfpraxis, eröffnen Sie gerne https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue
 auf GitHub].
 
 == Quellen

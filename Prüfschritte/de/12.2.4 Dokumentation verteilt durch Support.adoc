@@ -37,7 +37,7 @@ werden müssen.
 Wie dieser Prüfschritt in der Praxis berücksichtigt werdenkann, ist noch
 nicht vollständig geklärt.
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
-{app-issue-url}[ein Issue eröffnen].
+https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue eröffnen].
 
 ==== Hinweise
 

@@ -71,7 +71,7 @@ umgehen bzw. zugehörige Methoden implementieren, um diese
 systemseitige Funktion zu unterstützen.
 
 Für Hinweise zur Prüfpraxis können Sie auf GitHub
-{app-issue-url}[ein Issue] zur diesem
+https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zur diesem
 Prüfschritt erstellen.
 
 === Hinweise

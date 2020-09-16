@@ -137,7 +137,7 @@ Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender
 Werkzeuge nicht möglich.
 Prüfer müssen an dieser Stelle anhand ihrer Erfahrung urteilen.
 Falls Ihnen geeignete Werkzeuge und Methoden bekannt sind, weisen Sie uns gerne
-darauf in einem {app-issue-url}[GitHub Issue] hin.
+darauf in einem https://github.com/BIK-BITV/BIK-App-Test/issues[GitHub Issue] hin.
 
 Für die Bewertung zählt das Kontrastverhältnis (relative luminosity) nach
 einer in den WCAG 2.1 definierten Formel.
