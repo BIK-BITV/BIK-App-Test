@@ -4,42 +4,44 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-in Software-Ansichten sollen korrekte Reihenfolgen vorherrschen z. B. folgt ein
-Informationstext nach dessen Überschrift
-Hier muss meist mangels Quelltextzugriff ein Blackbox-Test z. B. mittels
+in den einzelnen Ansichten von Apps sollen korrekte Reihenfolgen vorherrschen
+z. B. folgt ein Informationstext nach dessen Überschrift.
+Hier muss mangels Quelltextzugriff ein Test mittels
 Screenreader durchgeführt werden.
 
 == Warum wird das geprüft?
 
 Screenreader lesen die Elemente, die auf dem Bildschirm in der Fläche
 angeordnet sind, nacheinander vor - und zwar in der Reihenfolge, in der sie im
-Quellcode stehen.
-Die Reihenfolge der Elemente muss also gut verständlich und nutzbar sein.
+Quellcode stehen (programmatische Reihenfolge).
+Die Reihenfolge der dargestellten UI-Elemente muss also gut verständlich und
+nutzbar sein.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Bei Software ist dieser Prüfschritt immer anwendbar.
+Bei mobilen Apps ist dieser Prüfschritt immer anwendbar.
 
 === Prüfung
 
-Bei Software soll die Element-Reihenfolge im Wesentlichen die visuelle
-Reihenfolge der Elemente abbilden.
-Häufig kann dies mittels (Bluetooth-) Tastatur und aktiviertem Screenreader
-getestet werden.
-Da dieser Prüfschritt alle Elemente auf einer Ansicht prüft, betrifft dies
-auch Nicht-Steuerelemente.
-Mit dem Screenreader wandert man dazu auf das erste Element der Ansicht und
-navigiert ab dort nach rechts die Elemente durch.
-Hierbei wird beurteilt ob die Reihenfolge der Elemente sinnvoll und im
-Wesentlichen der visuellen Reihenfolge entspricht.
+Bei Apps soll die programmatische und durch den Screenreader ausgegebene
+Element-Reihenfolge auf der Ansicht im Wesentlichen die visuelle Reihenfolge
+abbilden.
+
+. Die Prüfung erfolgt mit aktiviertem Screenreader.
+. Mit der entsprechenden Wischgeste (Wischen nach links oder rechts) durch
+  alle Elemente der Ansicht navigieren, dabei werden auch Nicht-Steuerelemente
+  navigiert.
+. Prüfen, ob die Reihenfolge, in der die Elemente fokussiert und durch den
+  Screenreader ausgegeben werden, sinnvoll und im Wesentlichen der visuellen
+  Reihenfolge entspricht.
 
 === Bewertung
 
 *Nicht voll erfüllt:*
 
-* Die Reihenfolge der Elemente ist nicht sinnvoll oder entspricht nicht der
+* Die Reihenfolge der UI-Elemente ist nicht sinnvoll oder entspricht nicht der
 Wesentlichen visuellen Folge.
 
 == Einordnung des Prüfschritts
@@ -60,8 +62,7 @@ ifndef::env_embedded[]
   verfügbar>>.
 endif::env_embedded[]
 
-Die korrekte Reihenfolge im Quelltext bei dynamisch generierten oder
-eingeblendeten Elementen ist Gegenstand von Prüfschritt
+Die korrekte Reihenfolge im Quelltext bei eingeblendeten Elementen ist Gegenstand von Prüfschritt
 ifdef::env_embedded[11.2.4.3 "Schlüssige Reihenfolge bei der Tastaturbedienung".]
 ifndef::env_embedded[]
   <<11.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung.adoc#,11.2.4.3
