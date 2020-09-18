@@ -6,21 +6,21 @@ include::include/attributes.adoc[]
 
 Überschriften müssen als solche ausgezeichnet sein und die Inhalte der
 App-Ansicht erschließen.
-Falls verschiedene Überschriftsebenen ausgezeichnet werden, wird eine
-nachvollziehbare und sinnvolle Ebenenstruktur verwendet.
+Falls verschiedene Überschriftsebenen existieren, besteht grundsätzlich die
+Anforderung, dass die Strukturierung sinnvoll und nachvollziehbar ist.
 
-Zu berücksichtigen ist dabei, dass aktuell meist nicht zwischen
-verschiedenen Überschriftsebenen unterschieden werden kann.
-Dies hat technische Gründe und betrifft native iOS / iPadOS und Android Apps.
-Sobald die Frameworks für native Apps von Apple und Google verschiedene
-Überschriftsebenen unterstützen, müssen Apps, die davon gebrauch machen, eine
-sinnvolle Überschriftenstruktur aufweisen.
+Aktuell können verschiedene Überschriftsebenen lediglich in Web-Views von Apps
+unter iOS / iPadOS und Android realisiert werden.
+In Nativen Ansichten können derzeit Überschriften nicht programmatisch in
+Ebenen unterteilt werden.
+Aufgrund technischer Begrenzungen können Entwickler hier nur ein UI-Element als
+einfache Überschrift auszeichnen.
 
 == Warum wird das geprüft?
 
 Visuell können App-Inhalte durch Überschriften strukturiert werden.
 Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die
-Inhalte der Webseite leicht überblicken und gezielt auf Inhalte zugreifen,
+Inhalte der Ansicht leicht überblicken und gezielt auf Inhalte zugreifen,
 die ihn interessieren.
 
 Benutzer, die diese visuelle Ordnung nicht nutzen können, zum Beispiel, weil
@@ -32,9 +32,12 @@ Voraussetzung.
 
 So können Benutzer die Überschriften-Elemente anwenden:
 
+* Orientierung in umfangreicheren Ansichten
 * Von Überschrift zu Überschrift springen (Screenreader-Nutzer)
-* Überschriften anders hervorheben, wenn die vom Anbieter vorgesehene
-  Hervorhebung nicht geeignet ist (zum Beispiel andere Farbe oder Stimme)
+
+Weitere Anpassungen sind denkbar, z. B. könnten Screenreader zukünftig
+Überschriften mit einer anderen Stimme vorlesen, um diese als solche
+hervorzuheben.
 
 == Wie wird geprüft?
 
@@ -50,14 +53,17 @@ Das ist bei informationsorientierten Apps in der Regel der Fall.
 . Screenreader starten
 . Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind auch als
   Überschriften ausgezeichnet sind.
-  Die Hierarchie der ggf. eingesetzten Überschriftsebenen soll der Gliederung
-  der Inhalte entsprechen.
-  Die zu prüfenden Elemente werden angetippt dabei wird auf die Ausgabe des
-  Screenreaders geachtet.
+  Die Navigationseinstellung des Screenreaders wird auf "Überschriften"
+  gesetzt.
+  Anschließend navigiert man durch alle Überschriften der Ansicht und prüft
+  die Ausgabe des Screenreaders.
   Falls es sich um eine korrekt ausgezeichnete Überschrift handelt, gibt der
-  Screenreader dies z. B. mit dem Wort "Überschrift" aus.
+  Screenreader dies mit dem Wort "Überschrift" o. ä. aus.
   Falls zwischen Überschriftsebenen unterschieden wird, wird die entsprechende
   Ebene ebenfalls ausgegeben.
+  Es handelt sich dann um ein Web-View.
+  Die Hierarchie der eingesetzten Überschriftsebenen soll dann der Gliederung
+  der Inhalte entsprechen.
 . Prüfen, ob die Überschriftsauszeichnung lediglich zur Erzeugung
   unterschiedlicher Schriftgrößen eingesetzt wird bzw.
   die Auszeichnung missbräuchlich eingesetzt wird.
@@ -67,14 +73,18 @@ Das ist bei informationsorientierten Apps in der Regel der Fall.
 Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil
 der Überschriften den jeweiligen Inhalten angemessen sind.
 
-Überschriften sollten korrekt geschachtelt sein (h1 gefolgt von h2 gefolgt von
-h3, und so weiter), um die Gliederung der Text-Inhalte abzubilden.
+App-Entwickler haben derzeit keine Möglichkeit unterschiedliche
+Überschriftsebenen in nativen Ansichten auszuzeichnen.
+Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht*
+negativ bewertet.
+
+Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die
+Überschriftenebene ausgegeben, handelt es sich um ein Web-View, die auf HTML
+basiert.
+Überschriften sollten dann korrekt geschachtelt sein (h1 gefolgt von h2
+gefolgt von h3, und so weiter), um die Gliederung der Inhalte abzubilden.
 Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies
 durch die Gliederung der Inhalte gerechtfertigt ist.
-
-App-Entwickler haben evtl. derzeit keine Möglichkeit unterschiedliche
-Überschriftsebenen mit dem Systemframework auszuzeichnen, bzw. konnte eine
-solche Gliederung in mobilen Apps noch nicht festgestellt werden.
 
 === Bewertung
 
@@ -86,12 +96,9 @@ solche Gliederung in mobilen Apps noch nicht festgestellt werden.
 
 * Es werden Auszeichnungen für Überschriften eingesetzt, die Verschachtelung
   der Hierarchie-Ebenen ist aber irreführend, entspricht nicht der
-  inhaltlichen Gliederung.
+  inhaltlichen Gliederung (Nur bei Web-Views, siehe <<Hinweise>>).
 
 *Nicht erfüllt:*
-
-* Es gibt auf der App-Ansicht gegliederte Inhalte, die Überschriften werden
-  jedoch nicht als solche ausgezeichnet.
 
 * In der App-Ansicht werden mehrere klar abgrenzbare Inhalte behandelt, es
   wurde aber nur pro forma eine Hauptüberschrift ausgezeichnet.
