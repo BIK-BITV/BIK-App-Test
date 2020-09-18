@@ -4,15 +4,14 @@ include::include/attributes.adoc[]
 
 == Grundlage des Prüfschritts
 
-Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
-11.5.2.10 Text.
+Dieser Prüfschritt basiert auf dem Kriterium 11.5.2.10 Text der EN 301 549.
 
 == Was wird geprüft?
 
 Textinhalte in der Software sind generell für den Screenreader zugänglich.
-Textattribute sind Verfügbar, wenn dies generell von der Software
+Textattribute sind verfügbar, wenn dies generell von der Software
 vorgesehen ist.
-Beispiel für Textattribute sind fett, kursiv und Unterstreichung.
+Beispiele für Textattribute sind fett, kursiv oder unterstrichen.
 In einer Textverarbeitung müssen diese Attribute z. B. auch für den
 Screenreader-Nutzer ausgegeben werden können.
 
@@ -30,7 +29,7 @@ Auf Geräten mit Touch-Display können die Sichtbaren Elemente angetippt
 werden, die Ausgabe vom SR sollte dann mit dem zu sehenden Element
 übereinstimmen.
 
-Prüfen ob es auch Möglichkeiten gibt, Textattribute mittels Screenreader
+Prüfen, ob es auch Möglichkeiten gibt, Textattribute mittels Screenreader
 anzuzeigen, wenn dies von der Software generell angeboten wird.
 
 == Quellen
