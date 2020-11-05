@@ -24,7 +24,7 @@ und zusätzlich Textkommunikation in Echtzeit ermöglicht.
 
 Zwei-Wege-Kommunikation umfasst u. a. Sprach- und Videotelefonie.
 
-Echtzeit bedeutet hier, dass schon die Eingabbe einzelner Zeichen übertragen
+Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen
 wird und der Nutzer den eingegebenen Text nicht erst aktiv abschicken muss.
 
 === Prüfung
