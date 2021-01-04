@@ -11,17 +11,26 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Wenn die Software Funktionen für die Barrierefreiheit bereithält, die
+Wenn die App Funktionen für die Barrierefreiheit bereithält, die
 spezielle Bedürfnisse von Nutzernerfüllt, soll die Aktivierung dieser
 Funktionen für diese Nutzergruppe barrierefrei möglich sein.
 Das bedeutet, dass die Barrierefreiheitsfunktion für die Nutzergruppe, die
 sie unterstützen soll, selbstständig  aktivierbar sein soll.
 
+Beispiele für Barrierefreiheitsfunktionen:
+
+* Vorlesefunktion
+* Kontrasterhöhung, Farbschemata
+* Schriftgröße, Schriftformatierungen (z. B. Zeilenabstand, Schriftart usw.)
+* Leichte Sprache
+* Deutsche Gebärdensprache
+* Animationen / automatische Audios pausieren
+
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die zu prüfende Software Funktionen für die
+Der Prüfschritt ist anwendbar, wenn die zu prüfende App Funktionen für die
 Barrierefreiheit bereithält.
 Dieser Prüfschritt ist explizit nicht auf Systemseitige Bedienungshilfen
 anzuwenden.
@@ -35,8 +44,22 @@ anzuwenden.
   Funktionen suchen
 . falls Barrierefreiheitsfunktionen angeboten werden:
 +
-  * Ist die Funktion für die Zielgruppe deutlich identifizierbar?
+  * Ist die Funktion für die Zielgruppe deutlich identifizierbar? Siehe
+    <<Hinweis zur Identifizierbarkeit>>.
   * Ist die Funktion für die Zielgruppe selbstständig aktivierbar?
+
+==== Hinweis zur Identifizierbarkeit
+
+Die Barrierefreiheitsfunktionen müssen insbesondere für deren Zielgruppen
+identifizierbar sein.
+Dazu erfüllen die Barrierefreiheitsfunktionen bzw. die zugehörigen
+Bedienelemente alle auf sie anwendbaren Prüfschritte, z. B.:
+
+* Alternativtexte
+* Tastaturbedienbarkeit, sichtbarer Fokus
+* Kontrast
+* Vergrößerung
+* Name, Rolle, Wert
 
 == Quellen
 
