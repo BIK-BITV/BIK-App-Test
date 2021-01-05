@@ -16,6 +16,20 @@ Untertitel in den Quell-Video-Dateien synchron zum Video abgespielt werden
 können.
 Für diese Anforderung kann die Software einen separaten Modus bereitstellen.
 
+== Warum wird das geprüft?
+Filme sind in der Regel ohne den Ton nicht zu verstehen.
+Daher muss für Menschen mit Höreinschränkung der Inhalt der Tonspur durch
+Untertitel bereitgestellt werden.
+Untertitel können auf unterschiedliche Arten eingebunden werden:
+Manche Player unterstützen nur die dauerhaft sichtbaren „open captions“,
+die meisten jedoch sogenannte textbasierte „closed captions“, die über
+ein Bedienelement am Player flexibel zuschaltbar sind.
+Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden
+wahrgenommen werden können, ist es erforderlich, dass der Videoplayer die
+Möglichkeit bietet, diese ein- und auszublenden.
+Bei Open captions handelt es sich hingegen um immer sichtbare Untertitel, d. h.
+der Videoplayer wird hier nicht geprüft.
+
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
