@@ -138,7 +138,6 @@ geprüft.
 
 * https://developer.apple.com/documentation/uikit/accessibility/delivering_an_exceptional_accessibility_experience#3542986[
   Apple Developer Documentation: Group Labels]
-* https://developer.android.com/guide/topics/ui/accessibility/principles[
-  Android Developers: Principles for improving app accessibility]
 * https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[iOS accessibilityLabel] 
+* https://developer.android.com/guide/topics/ui/accessibility/principles[Android Developers: Principles for improving app accessibility]
 * https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/labelling-form-controls/[Allgemeine Informationen der BBC Mobile Accessibility Guidelines: Labeling form controls] (sehr gut lesbare Beschreibung)
