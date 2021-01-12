@@ -4,8 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Tabellenstruktur-Auszeichnungen sollen nicht für Layouttabellen verwendet
-werden.
+Tabellenstruktur-Auszeichnungen wie z. B. Überschriftszellen dürfen nicht für Layouttabellen verwendet werden.
 
 == Wie wird geprüft?
 
@@ -27,14 +26,12 @@ Tabelle handelt (ein Zusatz wie „Tabelle“ wird ausgegeben).
 . Zu testende App starten
 . Den Bereich navigieren bzw. antippen, der für eine semantische Tabelle
   gehalten wird.
-  Prüfen ob der Screenreader den Zusatz „Tabelle“ ausgibt.
-
+. Prüfen ob der Screenreader den Zusatz „Tabelle“ ausgibt. In diesem Fall darf z. B. bei einer Überschriftenzelle nicht der Zusatz "Überschrift" oder ähnlich ausgegeben werden.
 === Bewertung
 
 *Nicht erfüllt:*
 
-* Es werden Layouttabellen eingesetzt, der Screenreader gibt unnötige weitere
-  Tabellendetails aus.
+* Bei Layouttabellen gibt der Screenreader unnötige weitere Tabellenstrukturen aus, wie z. B. eine Überschriftenzelle.
 
 == Einordnung des Prüfschritts
 
