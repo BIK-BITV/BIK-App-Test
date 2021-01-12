@@ -27,6 +27,7 @@ Tabelle handelt (ein Zusatz wie „Tabelle“ wird ausgegeben).
 . Den Bereich navigieren bzw. antippen, der für eine semantische Tabelle
   gehalten wird.
 . Prüfen ob der Screenreader den Zusatz „Tabelle“ ausgibt. In diesem Fall darf z. B. bei einer Überschriftenzelle nicht der Zusatz "Überschrift" oder ähnlich ausgegeben werden.
+
 === Bewertung
 
 *Nicht erfüllt:*
