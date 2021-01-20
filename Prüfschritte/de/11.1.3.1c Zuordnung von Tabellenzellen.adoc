@@ -1,4 +1,4 @@
-= Prüfschritt 1.3.1f Zuordnung von Tabellenzellen
+= Prüfschritt 1.3.1c Zuordnung von Tabellenzellen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
