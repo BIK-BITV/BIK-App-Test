@@ -6,21 +6,12 @@ include::include/attributes.adoc[]
 
 Alle Texte der Software-Ansicht sollen ausreichende Helligkeitskontraste haben.
 Sie sollen auch für farbfehlsichtige Benutzer wahrnehmbar sein.
-Bei Ansichten, die eine ausreichend kontrastreiche Version über einen
-Styleswitcher anbieten, wird auch geprüft, ob der Ausgangszustand
-Mindestanforderungen an Schriftkontraste erfüllt.
 
 == Warum wird das geprüft?
 
 Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben
 sie unter Umständen zu wenig Kontrast, wenn sie mit Schwarzweiß-Monitoren
 oder von Menschen mit verschiedenen Arten von Farbenschwäche betrachtet werden.
-
-Die Ausgabe einer kontrastreicheren Ansicht durch einen Styleswitcher darf
-nicht dazu führen, dass die Standardansicht sich nicht mehr um nutzbare
-Kontraste kümmert.
-Denn viele Nutzer nehmen das Schaltelement Styleswitcher nicht wahr, verstehen
-die Funktion nicht, oder möchten die Software lieber im Ausgangszustand nutzen.
 
 == Wie wird geprüft?
 
@@ -52,12 +43,9 @@ Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
 . Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter Schrift)
   prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt.
   Zur Zeit ist die Bestimmung der genauen Schriftgröße auf mobilen Geräten
-  zum Teil nicht möglich bzw. nicht praktikabel.
+  zum Teil nur bedingt möglich bzw. nicht praktikabel.
 . Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder
   größer liegt.
-. Bei andersfarbigen Fließtextlinks ohne sonstige Unterschiede in der
-  Auszeichnung, wie etwa Unterstreichung, prüfen, ob das Kontrastverhältnis
-  zum Standardfließtext mindestens 3:1 beträgt.
 
 ==== Styleswitcher-Prüfung
 
