@@ -111,7 +111,7 @@ Ansicht erfolgt nur unter folgenden Bedingungen:
 
 ===== Hinweise zur Messung des Kontrastverhältnisses
 
-NOTE: Für Apps z. Z. nur bedingt anwendbar.
+NOTE: Für Apps ist die Schriftgrößen-Unterscheidung z. Z. nur bedingt anwendbar.
 Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender
 Werkzeuge nicht oder nur ungenau möglich.
 Prüfer müssen an dieser Stelle anhand ihrer Erfahrung urteilen.
