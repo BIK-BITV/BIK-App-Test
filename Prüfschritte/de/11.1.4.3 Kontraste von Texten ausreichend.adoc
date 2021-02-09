@@ -72,15 +72,6 @@ Also zum Beispiel: auch die farblich hervorgehobene, aktuell ausgewählte
 Menüoption; auch in einer anderen Farbe dargestellte, besuchte Links.
 Für die Bewertung entscheidend ist der jeweils schlechtere Helligkeitskontrast.
 
-Die einzige Ausnahme, weil hier der gezielte Wechsel zwischen den beiden
-Zuständen verhältnismäßig einfach ist:
-die Hervorhebung des Maus- und Tastaturfokus.
-Hier soll zunächst geprüft werden, in welchem Zustand (im Fokus/nicht im
-Fokus) der Helligkeitskontrast besser ist.
-Dieser in Hinblick auf den Helligkeitskontrast bessere Zustand muss den
-allgemeinen Grenzwert von 4,5:1 erfüllen.
-Das Kontrastverhältnis des zweiten Zustandes muss über 3:1 liegen.
-
 Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit einer
 App erleichtern.
 Ein Beispiel dafür:
@@ -120,9 +111,9 @@ Ansicht erfolgt nur unter folgenden Bedingungen:
 
 ===== Hinweise zur Messung des Kontrastverhältnisses
 
-NOTE: Für Apps z. Z. nicht anwendbar.
+NOTE: Für Apps z. Z. nur bedingt anwendbar.
 Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender
-Werkzeuge nicht möglich.
+Werkzeuge nicht oder nur ungenau möglich.
 Prüfer müssen an dieser Stelle anhand ihrer Erfahrung urteilen.
 Falls Ihnen geeignete Werkzeuge und Methoden bekannt sind, weisen Sie uns gerne
 darauf in einem https://github.com/BIK-BITV/BIK-App-Test/issues[GitHub Issue] hin.
@@ -135,8 +126,8 @@ an den gemessenen Werten der Schriftgröße in Pixel (Web Developer Toolbar,
 Funktion Elementinformationen einblenden), denn eine Messung der tatsächlich
 dargestellten Punktgröße auf dem Bildschirm mit einem Typometer ist nicht
 praktikabel.
-Bei einer Bildschirmauflösung von 96 dpi entsprechen 18 Punkt etwa 24 Pixeln,
-14 Punkt entsprechen etwa 18,7 Pixeln.
+Bei einer Bildschirmauflösung von 96 dpi entsprechen 18 Punkt etwa 24 Pixeln bzw. 6,35 mm,
+14 Punkt entsprechen etwa 18,7 Pixeln bzw. 4,94 mm.
 
 Die Messung des Pixel-Äquivalents ist dadurch gerechtfertigt, dass die bisher
 getesteten User Agents die Auszeichnung in Pixel und Punkt analog behandeln
@@ -159,8 +150,6 @@ Bildschirmauflösung, für den die Entsprechung auf jeden Fall gilt.
 * Das Kontrastverhältnis (contrast ratio) zwischen Vorder- und
   Hintergrundfarbe liegt bei Texten in großer Schriftgröße (18 Punkt und
   größer, 14 Punkt und größer bei fetter Schrift) bei mindestens 3:1.
-  Das Kontrastverhältnis des schlechteren Zustands des Maus- und
-  Tastaturfokus liegt über 3:1.
 
 * Wenn die Anforderung nur über eine alternative Ansicht erfüllt wird,
   erfüllt der Styleswicher selbst die Kontrastforderung von 4,5:1 und andere
