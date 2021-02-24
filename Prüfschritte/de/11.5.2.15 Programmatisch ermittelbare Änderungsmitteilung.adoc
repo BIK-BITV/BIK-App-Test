@@ -1,0 +1,39 @@
+= 11.5.2.15 Programmatisch ermittelbare Änderungsmitteilung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+== Warum wird das geprüft?
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+=== 2. Prüfung
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+11.5.2.15 Change notification
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 11.5.2.15 Change notification
+
+____
+[.BLOCK_LANG_EN]
+--
+Where software provides a user interface it shall, by using the services as described in clause 11.5.2.3, notify assistive technologies about changes in those programmatically determinable attributes of user interface elements that are referenced in requirements 11.5.2.5 to 11.5.2.11 and 11.5.2.13.
+--
+____
+
+(Aus EN 301 549 V3.1.1 Abschnitt 11.5.2.15 "Change notification")
