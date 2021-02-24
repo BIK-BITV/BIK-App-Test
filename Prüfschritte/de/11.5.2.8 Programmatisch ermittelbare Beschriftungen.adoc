@@ -1,0 +1,39 @@
+= 11.5.2.8 Programmatisch ermittelbare Beschriftungen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+== Warum wird das geprüft?
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+=== 2. Prüfung
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+11.5.2.8 Label relationships
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 11.5.2.8 Label relationships
+
+____
+[.BLOCK_LANG_EN]
+--
+Where the software provides a user interface it shall expose the relationship that a user interface element has as a label for another element, or of being labelled by another element, using the services as described in clause 11.5.2.3, so that this information is programmatically determinable by assistive technologies.
+--
+____
+
+(Aus EN 301 549 V3.1.1 Abschnitt 11.5.2.8 "Label relationships")
