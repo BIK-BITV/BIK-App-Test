@@ -1,0 +1,39 @@
+= 11.5.2.6 Programmatisch ermittelbare Tabellen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+== Warum wird das geprüft?
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+=== 2. Prüfung
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+11.5.2.6 Row, column, and headers
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 11.5.2.6 Row, column, and headers
+
+____
+[.BLOCK_LANG_EN]
+--
+Where the software provides a user interface it shall, by using the services as described in clause 11.5.2.3, make the row and column of each cell in a data table, including headers of the row and column if present, programmatically determinable by assistive technologies.
+--
+____
+
+(Aus EN 301 549 V3.1.1 Abschnitt 11.5.2.6 "Row, column, and headers")
