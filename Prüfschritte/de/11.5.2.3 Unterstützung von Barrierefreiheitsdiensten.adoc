@@ -4,13 +4,34 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
+Die App soll für die Erfüllung der Barrierefreiheitsanforderungen die vom Betriebssystem dazu bereitgestellten Dienste und -Schnittstellen nutzen.
+Nur wenn die App die Barrierefreiheitsanforderungen durch die vom Betriebssystem bereitgestellten Barrierefreiheitsdienste- und -Schnittstellen nicht erfüllen kann, nutzt sie andere Dienste oder Schnittstellen, um die Anforderungen zu erfüllen.
+
 == Warum wird das geprüft?
+
+Damit die Bedienung von Apps mittels assistiver Software möglichst konsistent und in ihrer Funktionalität robust ist, sollten Apps Barrierefreiheitsdienste- und Schnittstellen vom System nutzen.
+
+Die Unterstützung der Barrierefreiheitsdienste und -Schnittstellen des Systems stellt  beispielsweise sicher, das die Bedienung eines bestimmten Steuerelements, z. B. eines Aufklappmenüs, überall im System und den Apps gleichartig funktioniert.
+Nutzer müssen sich nicht unterschiedliche Bedienarten für dieses Element merken.
+Wenn Nutzer auf ein Steuerelement in einer App treffen, wissen diese Anwender höchstwahrscheinlich aus anderen Apps, wie dieses  UI-Control zu bedienen ist.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
+Der Prüfschritt ist immer anwendbar.
+
 === 2. Prüfung
+
+Ob Barrierefreiheitsdienste und -Schnittstellen des Betriebssystems genutzt werden, scheint derzeit nur anhand von Indizien feststellbar zu sein.
+So können bspw. Screenreader-Ausgaben der App mit denen von System-Apps verglichen werden.
+Stichprobenartig sollten dabei verschiedene Steuerelemente verglichen werden.
+Wenn zum Beispiel "echte" System-Buttons eingesetzt werden, sagt iOS mit VoiceOver zusätzlich zur Beschriftung "Taste" an, also bspw. "Schließen Taste".
+Unter Android wäre es statt "Taste" dann "Schaltfläche".
+
+"Barrierefreiheitsdienste- und Schnittstellen" beziehen sich jedoch nicht nur auf die Umsetzung von Steuerelementen.
+Auch  eingebaute Sprachausgaben oder Vergrößerungsfunktionen sind  solche Dienste.
+Eine App, die z. B. ohne besonderem Grund selbstsprechend ist (eingebaute Sprachausgabe), ohne dass diese App auch mit der System-Sprachausgabe-Software (z. B. VoiceOver und TalkBack) funktioniert, würde diesen Prüfschritt nicht bestehen.
 
 === 3. Hinweise
 
