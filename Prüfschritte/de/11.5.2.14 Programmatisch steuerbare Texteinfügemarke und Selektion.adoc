@@ -4,19 +4,35 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
+Wenn die App das Versetzen von Fokus bzw. Texteinfügemarke oder das Markieren von Text erlaubt, sollen diese Aktionen auch programmatisch durchführbar sein.
+
+Programmatisch durchführbar sind die Aktionen zum Beispiel dann, wenn diese auch mit aktiviertem Screenreader ausführbar sind.
+
 == Warum wird das geprüft?
+
+Wenn die App das Versetzen von Fokus bzw. Einfügemarke oder das Markieren von Text unterstützt, sollen diese Aktionen auch mit aktivierter Hilfsmittelsoftware durchgeführt werden können.
+Hierzu ist es erforderlich, dass diese Aktionen auch programmatisch, also z. B. durch Hilfsmittelsoftware, gesteuert werden können.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
+Der Prüfschritt ist anwendbar, wenn in der App-Ansicht die Texteinfügemarke (Fokus) versetzt werden kann, zum Beispiel in einem Eingabefeld.
+Weiterhin ist der Prüfschritt anwendbar, wenn Text markiert werden kann.
+
 === 2. Prüfung
 
-=== 3. Hinweise
+
+. prüfen, ob es Bedienelemente gibt, bei denen sich die Texteinfügemarke bzw. der Fokus versetzen lässt
+. prüfen, ob sich Text auf der Ansicht markieren lässt
+. Screenreader starten
+. prüfen, ob die Aktionen auch mit aktiviertem Screenreader ausführbar sind
 
 === 4. Bewertung
 
 ==== Erfüllt:
+
+* Eingabefeld vorhanden, der Fokus lässt sich mit aktiviertem Screenreader versetzen, auch Text lässt sich markieren
 
 == Einordnung des Prüfschritts
 
