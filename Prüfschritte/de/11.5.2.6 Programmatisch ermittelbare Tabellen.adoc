@@ -4,19 +4,56 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
+Werden Datentabellen in der App eingesetzt, sollen dessen Zeilen- und Spalten programmatisch ermittelbar sein.
+Zur programmatischen Ermittelbarkeit zählen dabei auch ggf. vorhandene Zeilen- und Spaltenüberschriften, für jede Zelle sollen dessen Überschriften zugeordnet werden können.
+
+Die programmatische Ermittelbarkeit ist zum Beispiel dann gegeben, wenn die Zellen der Datentabelle von einem Screenreader ausgegeben werden.
+Werden Zeilen- und / oder Spaltenüberschriften eingesetzt, gibt der Screenreader zusätzlich zum Zelleninhalt die zugeordneten Überschriften aus.
+
 == Warum wird das geprüft?
+
+Visuell orientierte Personen nutzen für die Orientierung in einer Datentabelle neben den Überschriften wenn nötig auch den Wertebereich.
+Es ist für sie daher relativ leicht möglich, strukturelle Mängel, zum Beispiel Wechsel in der Bedeutung von Zeilen oder Spalten zu erkennen und mit ihnen umzugehen.
+
+Sehbehinderte und blinde Benutzer erschließen sich das Angebot von Datentabellen dagegen eher analytisch.
+Sie entwickeln ausgehend von den Überschriften und anderen im Kontext verfügbaren Informationen eine Vorstellung vom Aufbau der Tabelle.
+Diese Vorstellung ist die Grundlage für den Zugriff auf die angebotenen Daten.
+
+Damit das möglich ist und funktioniert, müssen zwei Bedingungen erfüllt sein:
+
+* Die Tabelle muss eine klare Struktur haben, die Bedeutung der Zeilen und Spalten muss fassbar sein und sie muss möglichst gut den Überschriften oder unterstützenden Kontextinformationen zu entnehmen sein.
+* Die Überschriften müssen auffindbar sein und es muss klar sein, auf welche Daten sie sich beziehen, sie müssen also korrekt ausgezeichnet sein.
+
+Die klare Struktur ist die Grundlage der Barrierefreiheit von Datentabellen.
+Es ist nicht möglich, eine mangelhaft strukturierte Datentabelle durch spezielle Auszeichnung barrierefrei zugänglich zu machen.
+Auf Grundlage einer klaren, nachvollziehbaren Struktur ist die korrekte Auszeichnung aber nützlich und wichtig.
+
+Mögliche Anwendungen der Auszeichnung von Tabellenüberschriften:
+
+* Der Screenreader informiert über die Position und Anzahl der Überschriftenreihen.
+* Der Screenreader liest die (neue) Zeilen- oder Spaltenüberschrift vor, wenn der Benutzer die Tabellenzeile oder die Tabellenspalte wechselt.
+* Überschriften werden in einer für den Benutzer besser geeigneten Form hervorgehoben.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
+Der Prüfschritt ist anwendbar, wenn Datentabellen auf der App-Ansicht eingesetzt werden.
+
 === 2. Prüfung
 
-=== 3. Hinweise
-
-=== 4. Bewertung
-
-==== Erfüllt:
+Diese Anforderung wird durch die Prüfschritte
+ifdef::env_embedded[11.1.3.1b "Datentabellen richtig aufgebaut"]
+ifndef::env_embedded[]
+<<11.1.3.1b Datentabellen richtig aufgebaut.adoc#,11.1.3.1b Datentabellen richtig aufgebaut>>
+endif::env_embedded[]
+und
+ifdef::env_embedded[11.1.3.1c "Zuordnung von Tabellenzellen"]
+ifndef::env_embedded[]
+<<11.1.3.1c Zuordnung von Tabellenzellen.adoc#,11.1.3.1c Zuordnung von Tabellenzellen>>
+endif::env_embedded[]
+abgedeckt.
+Sind die genannten Prüfschritte erfüllt, ist dieser Prüfschritt ebenfalls  erfüllt.
 
 == Einordnung des Prüfschritts
 
