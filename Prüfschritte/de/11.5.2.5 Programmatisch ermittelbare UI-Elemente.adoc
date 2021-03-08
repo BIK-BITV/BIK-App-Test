@@ -4,19 +4,40 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
+Die Eigenschaften von Bedienelementen der App sollen programmatisch ermittelbar sein.
+Die Elemente sollen also beispielsweise durch einen Screenreader ausgegeben werden können.
+
+Im Einzelnen sollen die folgenden Eigenschaften programmatisch ermittelbar sein:
+
+* *Name* bzw. Bezeichnung des Elements, z. B. "absenden"
+* *Description* bzw. Beschreibung des Elements, z. B. "Das Formular wird abgeschickt."
+* *Role* bzw. die Rolle oder der Typ des Bedienelements, z. B. "Button"
+* *State* bzw. der Status des Bedienelements, z. B. "deaktiviert"
+* *Boundarys* bzw. die Grenzen eines Bedienelements, z. B. ein Wertebereich von 1 bis 50
+
+Insbesondere der Status und die Bedienelement-Grenzen (Boundarys) sollten nur dann vermittelt werden, wenn diese auch visuell durch das Bedienelement vermittelt werden
+
 == Warum wird das geprüft?
+
+Von UI-Elementen visuell vermittelte Informationen sollen auch programmatisch verfügbar sein, damit Hilfsmittelsoftware, wie Screenreader, die Informationen aufbereiten und ausgeben können.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
+Der Prüfschritt ist anwendbar, wenn in der App-Ansicht Bedienelemente eingesetzt werden, die nicht vom Betriebssystem bereitgestellt werden (Custom controls, vom Programmhersteller definierte Bedienelemente).
+Eine Sichtprüfung reicht dabei nicht aus, da rein visuell nicht mit Sicherheit festgestellt werden kann, ob es sich um ein Custom Control handelt.
+
 === 2. Prüfung
 
-=== 3. Hinweise
-
-=== 4. Bewertung
-
-==== Erfüllt:
+Die Anforderung wird durch den Prüfschritt
+ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert verfügbar"]
+ifndef::env_embedded[]
+<<11.4.1.2 Name-Rolle-Wert verfügbar.adoc#,11.4.1.2 Name, Rolle, Wert verfügbar>>
+endif::env_embedded[]
+abgedeckt.
+Dabei müssen Grenzen von Bedienelementen berücksichtigt werden (z. B. Wertebereich eines Eingabefelds).
+Diese Begrenzungen müssen ebenfalls programmatisch verfügbar sein und dementsprechend vom Screenreader vorgelesen werden.
 
 == Einordnung des Prüfschritts
 
