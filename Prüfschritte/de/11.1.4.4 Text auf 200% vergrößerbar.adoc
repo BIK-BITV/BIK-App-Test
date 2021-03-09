@@ -4,16 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei
-Inhalt oder Funktionalität verloren geht.
-Eine der folgenden Voraussetzung soll erfüllt sein:
+Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt oder Funktionalität verloren geht. Eine der folgenden Voraussetzungen soll erfüllt sein:
 
-* Mit der Zoom-Funktion des Betriebssystems kann das gesamte Layout
-  proportional zur Schriftgröße vergrößert werden.
-* Mit der Nur-Text-Vergrößerung des Betriebssystems kann der Text
-  vergrößert werden.
-* Über ein Bedienelement der Software-Ansicht kann die Schriftgröße
-  vergrößert werden.
+* Mit der Zoom-Funktion des Betriebssystems kann das gesamte Layout proportional zur Schriftgröße vergrößert werden.
+* Mit der Nur-Text-Vergrößerung des Betriebssystems kann der Text vergrößert werden.
+* Über ein Bedienelement der Software-Ansicht kann die Schriftgröße vergrößert werden.
 
 Da die gängigen mobilen Plattformen wie iOS / iPadOS und Android
 Bedienungshilfen mit Vergrößerungsfunktionalitäten anbieten, ist dieser
