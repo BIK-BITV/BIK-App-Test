@@ -4,68 +4,42 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Software mit der Tastatur bedient wird, soll die Reihenfolge, in der
-Links, Formularelemente und Objekte angesteuert werden, schlüssig und
-nachvollziehbar sein.
+Wenn die Software mit der Tastatur bedient wird, soll die Reihenfolge, in der Links, Formularelemente und Objekte angesteuert werden, schlüssig und nachvollziehbar sein.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich sein.
-Das bedeutet:
-Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur
-möglich sein.
-Denn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie ein
-Zeiger.
+Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur möglich sein. Denn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie ein Zeiger.
 
-Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der
-Nutzer arbeitet mit Touch-Gesten, daher wird oft nur an die gedacht.
-Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch
-eingeschränkte Menschen oder blinde Nutzer.
+Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Gesten, daher wird oft nur an die gedacht.
+Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder blinde Nutzer.
 
-Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die
-Tastaturbedienbarkeit erheblich beeinträchtigt werden.
+Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
 
-Manche Apps präsentieren dynamische Inhalte, etwa Rückmeldungen bei
-fehlerhaften Formular-Eingaben oder Nachrichten-Teaser, die im Wechsel
-angezeigt werden.
-Während dynamische Änderungen der Seite für sehende Nutzer unmittelbar
-wahrnehmbar sind, werden sie oft von Screenreader-Nutzern gar nicht oder erst
-mit Verzögerung wahrgenommen.
+Manche Apps präsentieren dynamische Inhalte, etwa Rückmeldungen bei fehlerhaften Formular-Eingaben oder Nachrichten-Teaser, die im Wechsel angezeigt werden.
+Während dynamische Änderungen der Seite für sehende Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzern gar nicht oder erst mit Verzögerung wahrgenommen.
 
-Wenn nach dem starten einer App weitere Elemente in die Ansicht eingefügt
-werden, soll diese Einfügung unterhalb des auslösenden Elements geschehen,
+Wenn nach dem starten einer App weitere Elemente in die Ansicht eingefügt werden, soll diese Einfügung unterhalb des auslösenden Elements geschehen,
 damit Screenreader hinzugefügte Elemente bemerken und vorlesen.
 
-In manchen Fällen können sie, wenn dies im Kontext verständlich ist, auch
-weiter unten in der App eingefügt oder verändert werden (also nicht direkt
-nach dem auslösenden Element).
+In manchen Fällen können sie, wenn dies im Kontext verständlich ist, auch weiter unten in der App eingefügt oder verändert werden (also nicht direkt nach dem auslösenden Element).
 
-Werden Elemente an anderer Stelle, z. B. am unteren Rand der App-Ansicht,
-eingefügt (das ist oft bei Modalen Dialogen der Fall), muss die App dafür
-sorgen, dass eine sinnvolle Fokusreihenfolge geschaffen wird und auch blinde
-Nutzer die Änderung mitbekommen.
+Werden Elemente an anderer Stelle, z. B. am unteren Rand der App-Ansicht, eingefügt (das ist oft bei Modalen Dialogen der Fall), muss die App dafür
+sorgen, dass eine sinnvolle Fokusreihenfolge geschaffen wird und auch blinde Nutzer die Änderung mitbekommen.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente
-oder Objekte enthält.
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente oder Objekte enthält.
 
 === Prüfung
 
-Bei Apps soll die Tab-Reihenfolge im Wesentlichen die visuelle Reihenfolge der
-Steuerelemente abbilden.
-Bei den meisten mobilen Systemen kann dies mittels (Bluetooth-) Tastatur
-getestet werden.
-Der Tastatur-Fokus wird dazu auf das erste Steuerelement gesetzt.
-Zur Prüfung springt man dann mittels Tab-Taste von Steuerelement zu
-Steuerelement.
-Hierbei wird beurteilt ob die Tab-Reihenfolge der Elemente sinnvoll und im
-Wesentlichen der visuellen Reihenfolge entspricht.
+Bei Apps soll die Tab-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Steuerelemente abbilden.
+Bei den meisten mobilen Systemen kann dies mittels (Bluetooth-) Tastatur getestet werden.
+Der Tastatur-Fokus wird dazu auf das erste Steuerelement gesetzt. Zur Prüfung springt man dann mittels Tab-Taste von Steuerelement zu Steuerelement.
+Hierbei wird beurteilt ob die Tab-Reihenfolge der Elemente sinnvoll und im Wesentlichen der visuellen Reihenfolge entspricht.
 
-Falls dynamische Inhalte eingefügt werden können, wird geprüft, ob die
-Reihenfolge nach der Einfügung noch immer sinnvoll ist. Dies ist bei eingeblendeten Dialogen der Fall
+Falls dynamische Inhalte eingefügt werden können, wird geprüft, ob die Reihenfolge nach der Einfügung noch immer sinnvoll ist. Dies ist bei eingeblendeten Dialogen der Fall
 
 * wenn sich der Fokus bei Aufruf am Beginn des Dialogs befindet
 * wenn der Fokus sich nur innerhalb des Dialogs bewegt, solange der Dialog sichtbar ist
