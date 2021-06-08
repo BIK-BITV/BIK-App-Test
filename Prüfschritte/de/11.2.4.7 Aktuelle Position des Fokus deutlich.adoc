@@ -90,7 +90,6 @@ endif::env_embedded[]
 
 * Der System-Fokus wird unterdrückt, bei Tastaturnutzung wird kein Fokus
   angezeigt.
-  Hier muss eine Abwertung auf "schlecht zugänglich" erwogen werden.
 
 == Einordnung des Prüfschritts
 
