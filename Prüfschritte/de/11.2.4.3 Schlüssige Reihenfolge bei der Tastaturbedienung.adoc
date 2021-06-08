@@ -63,10 +63,15 @@ Zur Prüfung springt man dann mittels Tab-Taste von Steuerelement zu
 Steuerelement.
 Hierbei wird beurteilt ob die Tab-Reihenfolge der Elemente sinnvoll und im
 Wesentlichen der visuellen Reihenfolge entspricht.
-Falls dynamische Inhalte eingefügt werden können, wird geprüft, ob die
-Reihenfolge nach der Einfügung noch immer sinnvoll ist.
 
-Auf Touch-Geräten muss ggf. eine Bluetooth-Tastatur zum Einsatz kommen.
+Falls dynamische Inhalte eingefügt werden können, wird geprüft, ob die
+Reihenfolge nach der Einfügung noch immer sinnvoll ist. Dies ist bei eingeblendeten Dialogen der Fall
+
+* wenn sich der Fokus bei Aufruf am Beginn des Dialogs befindet
+* wenn der Fokus sich nur innerhalb des Dialogs bewegt, solange der Dialog sichtbar ist
+* wenn der Fokus sich nach dem Schließen des Dialogs wieder an der aufrufenden Stelle befindet.
+
+Auf Touch-Geräten muss ggf. eine angedockte oder Bluetooth-Tastatur zum Einsatz kommen.
 
 === Hinweise
 
