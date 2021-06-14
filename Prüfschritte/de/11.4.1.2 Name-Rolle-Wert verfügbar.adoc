@@ -177,6 +177,10 @@ endif::env_embedded[]
 
 === Ressourcen für Entwickler
 
-* Apple Developer:
-  https://developer.apple.com/documentation/objectivec/nsobject/uiaccessibility/accessibility_traits[
-  Accessibility Traits]
+==== iOS Developer: ====
+
+* https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits[UIAccessibilityTraits]
+* https://developer.apple.com/documentation/swiftui/accessibilitytraits[AccessibilityTraits]
+
+==== Android Developer: ====
+*  https://developer.android.com/reference/android/accessibilityservice/package-summary[android.accessibilityservice]
