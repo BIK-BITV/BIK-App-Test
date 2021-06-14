@@ -45,6 +45,8 @@ Bei den meisten mobilen Systemen kann die Fokusreihenfolge mittels angedockter o
 
 Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf dem Bildschirm folgen. Kleinere Abweichungen sind kein Problem, manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend abzuleiten.
 
+Ggf. müssen erst Bereiche mit Tabulator oder Pfeiltasten erreicht bzw. geöffnet und dann zwischen Tabulator- und Pfeiltasten-Navigation gewechselt werden. Bei einer nicht linearen (zweidimensionalen) Navigation wie in einer Gitterstruktur kann man dagegen i.d.R. nicht von einer schlüssigen Reihenfolge sprechen, da hier der Weg zur Fokussierung nur visuell vermittelt wird und  linear kaum nachvollziehbar ist.
+
 Die Tabulatorreihenfolge ist schwer nachzuvollziehen, wenn sie über unsichtbare ausführbare Elemente geht. 
 
 Werden interaktive Elemente gar nicht erreicht, ist unter Umständen auch 11.2.1.1 Tastatur negativ zu bewerten.
