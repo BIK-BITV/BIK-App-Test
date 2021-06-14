@@ -4,13 +4,13 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Software mit der Tastatur oder bei eingeschaltetem Screenreader mittels Wischgesten bedient wird, soll die Reihenfolge, in der Links, Formularelemente und Objekte angesteuert werden, schlüssig und nachvollziehbar sein.
+Wenn die App mit der Tastatur bedient wird, soll die Reihenfolge, in der Links, Formularelemente und Objekte angesteuert werden, schlüssig und nachvollziehbar sein.
 
 == Warum wird das geprüft?
 
 Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur möglich sein. Auch adere Eingabeformen, etwa die Spracheingabe oder Schaltersteuerung, sind auf eine gute Tastaturbedienbarkeit und eine sinnvolle Fokusreihenfolge angewiesen.
 
-Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Gesten, daher wird oft nur an die gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen. Probleme gibt es häufig auch bei der Bedienung über Wischgesten, wenn der Screenreader eingeschaltet ist. Auch blinde Nutzer bauchen eine schlüssige Reihenfolge, wenn der Fokus mittels Wischgesten durch die App bewegt wird. Hierbei werden nicht nur interaktive Elemente, sondern auch statische Elemente (Texte, Überschriften) fokussiert.
+Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Gesten, daher wird oft nur an die gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen.
 
 Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
 
@@ -20,7 +20,7 @@ Wenn nach dem Starten einer App weitere Elemente in die Ansicht eingefügt werde
 
 In manchen Fällen können sie, wenn dies im Kontext verständlich ist, auch weiter unten in der App eingefügt oder verändert werden (also nicht direkt nach dem auslösenden Element).
 
-Werden Elemente an anderer Stelle, z. B. am unteren Rand der App-Ansicht, eingefügt (das ist oft bei Modalen Dialogen der Fall), muss die App dafür sorgen, dass auch blinde Nutzer die Änderung mitbekommen, z.B. durch Fokusversetzung in den eingefügten oder eingeblendeten Bereich.
+Werden Elemente an anderer Stelle, z. B. am unteren Rand der App-Ansicht, eingefügt (das ist oft bei modalen Dialogen der Fall), muss die App dafür sorgen, dass auch blinde Nutzer die Änderung mitbekommen, z.B. durch Fokusversetzung in den eingefügten oder eingeblendeten Bereich.
 
 == Wie wird geprüft?
 
@@ -33,8 +33,6 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente ode
 Bei Apps soll die Tab-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Steuerelemente abbilden.
 Bei den meisten mobilen Systemen kann dies mittels (Bluetooth-) Tastatur getestet werden. Der Tastatur-Fokus wird dazu auf das erste Steuerelement gesetzt. Zur Prüfung springt man dann mittels Tab-Taste von Steuerelement zu Steuerelement. Hierbei wird beurteilt, ob die Tab-Reihenfolge der Elemente sinnvoll und im Wesentlichen der visuellen Reihenfolge entspricht.
 
-Parallel dazu werden bei angeschaltetem Screenreader die Elemente der Ansicht mittels horizontalen Wischgesten durchlaufen. Die Reihenfolge sollte sinnvoll sein. Bei der Wischgsten-Navigation sollten sollten mehrfache Fokuspunkte auf interaktiven Elementen negativ angemerkt werden.
-
 Falls dynamische Inhalte eingefügt werden können, wird geprüft, ob die Reihenfolge nach der Einfügung noch immer sinnvoll ist. Dies ist bei eingeblendeten Dialogen der Fall,
 
 * wenn sich der Fokus bei Aufruf am Beginn des Dialogs befindet
@@ -45,7 +43,7 @@ Auf Touch-Geräten muss ggf. eine angedockte oder Bluetooth-Tastatur zum Einsatz
 
 === Hinweise
 
-Die Tabulatorreihenfolge und die Reihenfolge der Fokuspunkte bei der Wischgesten-Navigation sollte im Wesentlichen der visuellen Anordnung auf dem Bildschirm folgen. Kleinere Abweichungen sind kein Problem, manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend abzuleiten.
+Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf dem Bildschirm folgen. Kleinere Abweichungen sind kein Problem, manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend abzuleiten.
 
 Die Tabulatorreihenfolge ist schwer nachzuvollziehen, wenn sie über unsichtbare ausführbare Elemente geht. 
 
@@ -55,11 +53,11 @@ Werden interaktive Elemente gar nicht erreicht, ist unter Umständen auch 11.2.1
 
 *Erfüllt:*
 
-* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste und bei eingeschaltetem Screenreader mittels Wischgesten angesteuert werden, ist im Wesentlichen nachvollziehbar und schlüssig.
+* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste angesteuert werden, ist im Wesentlichen nachvollziehbar und schlüssig.
 
 *Nicht voll erfüllt:*
 
-* Die Tabulatorreihenfolge bzw. Fokusreihenfolge bei Wischgesten-Navigation ist nicht schlüssig, sie weicht ohne nachvollziehbaren Grund von der visuellen Anordnung ab oder der Tastaturfokus ist über mehr als drei aufeinanderfolgende Stationen in der App-Ansicht nicht sichtbar.
+* Die Tabulatorreihenfolge ist nicht schlüssig, sie weicht ohne nachvollziehbaren Grund von der visuellen Anordnung ab oder der Tastaturfokus ist über mehr als drei aufeinanderfolgende Stationen in der App-Ansicht nicht sichtbar.
 
 *Nicht erfüllt:*
 
