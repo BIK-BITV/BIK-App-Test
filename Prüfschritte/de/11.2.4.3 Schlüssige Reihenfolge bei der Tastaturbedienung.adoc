@@ -30,16 +30,16 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente ode
 
 === Prüfung
 
-Bei Apps soll die Tab-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Steuerelemente abbilden.
-Bei den meisten mobilen Systemen kann dies mittels (Bluetooth-) Tastatur getestet werden. Der Tastatur-Fokus wird dazu auf das erste Steuerelement gesetzt. Zur Prüfung springt man dann mittels Tab-Taste von Steuerelement zu Steuerelement. Hierbei wird beurteilt, ob die Tab-Reihenfolge der Elemente sinnvoll und im Wesentlichen der visuellen Reihenfolge entspricht.
+Bei den meisten mobilen Systemen kann die Fokusreihenfolge mittels angedockter oder über Bluetooth gekoppelter Tastatur getestet werden.
 
-Falls dynamische Inhalte eingefügt werden können, wird geprüft, ob die Reihenfolge nach der Einfügung noch immer sinnvoll ist. Dies ist bei eingeblendeten Dialogen der Fall,
+. Der Tastatur-Fokus wird  auf das erste Steuerelement gesetzt.
+. Die interaktiven Elemente der Ansicht wird mit der Tabulatortaste bzw. auch mit den Pfeiltasten durchlaufen. Rückwärts-Tabben oder die Aktivierung der entgegengesetzten Pfeiltaste sollen die Elemente in der Regel in der gleichen Reihenfolge rückwärts durchlaufen.
+. Prüfen, ob die Fokus-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Steuerelemente abbildet.
+. Falls dynamische Inhalte eingeblendet oder eingefügt werden können, wird geprüft, ob die Reihenfolge nach der Einfügung noch immer sinnvoll ist. Dies ist bei eingeblendeten Dialogen der Fall,
 
 * wenn sich der Fokus bei Aufruf am Beginn des Dialogs befindet
 * wenn der Fokus sich nur innerhalb des Dialogs bewegt, solange der Dialog sichtbar ist
 * wenn der Fokus sich nach dem Schließen des Dialogs wieder an der aufrufenden Stelle befindet.
-
-Auf Touch-Geräten muss ggf. eine angedockte oder Bluetooth-Tastatur zum Einsatz kommen.
 
 === Hinweise
 
@@ -53,15 +53,15 @@ Werden interaktive Elemente gar nicht erreicht, ist unter Umständen auch 11.2.1
 
 *Erfüllt:*
 
-* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste angesteuert werden, ist im Wesentlichen nachvollziehbar und schlüssig.
+* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tastatur angesteuert werden, ist im Wesentlichen nachvollziehbar und schlüssig, alle interaktiven Elemente sind erreichbar.
 
 *Nicht voll erfüllt:*
 
-* Die Tabulatorreihenfolge ist nicht schlüssig, sie weicht ohne nachvollziehbaren Grund von der visuellen Anordnung ab oder der Tastaturfokus ist über mehr als drei aufeinanderfolgende Stationen in der App-Ansicht nicht sichtbar.
+* Die Fokusreihenfolge ist nicht schlüssig, sie weicht ohne nachvollziehbaren Grund von der visuellen Anordnung ab oder der Tastaturfokus ist über mehr als drei aufeinanderfolgende Stationen in der App-Ansicht nicht sichtbar.
 
 *Nicht erfüllt:*
 
-* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste angesteuert werden, ist nicht nachvollziehbar und erschwert die Bedienung mit der Tastatur erheblich.
+* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tastatur angesteuert werden, ist nicht nachvollziehbar und erschwert die Bedienung mit der Tastatur erheblich.
 
 == Einordnung des Prüfschritts
 
