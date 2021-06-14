@@ -48,9 +48,7 @@ Formularelemente enthält.
 
 === Hinweise
 
-Auftretende modale Dialoge müssen dabei barrierefrei sein.
-
-Dynamische Änderungen etwa die automatische Einblendung von Vorschlägen
+Dynamische Änderungen, etwa die automatische Einblendung von Vorschlägen
 unterhalb des Texteingabefelds einer Such-Funktion, sollen nicht den aktuellen
 Fokus versetzen.
 
