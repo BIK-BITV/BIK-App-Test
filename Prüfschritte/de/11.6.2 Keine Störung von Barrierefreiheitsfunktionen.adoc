@@ -1,0 +1,39 @@
+= 11.6.2 Keine Störung von Barrierefreiheitsfunktionen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+== Warum wird das geprüft?
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+=== 2. Prüfung
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+11.6.2 No disruption of accessibility features
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 11.6.2 No disruption of accessibility features
+
+____
+[.BLOCK_LANG_EN]
+--
+Where software provides a user interface it shall not disrupt those documented accessibility features that are defined in platform documentation except when requested to do so by the user during the operation of the software.
+--
+____
+
+(Aus EN 301 549 V3.1.1 Abschnitt 11.6.2 "No disruption of accessibility features")

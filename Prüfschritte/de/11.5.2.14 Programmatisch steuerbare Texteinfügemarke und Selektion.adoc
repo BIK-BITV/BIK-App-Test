@@ -1,0 +1,62 @@
+= 11.5.2.14 Programmatisch steuerbare Texteinfügemarke und Selektion
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn die App das Versetzen von Fokus bzw. Texteinfügemarke oder das Markieren von Text erlaubt, sollen diese Aktionen auch programmatisch durchführbar sein.
+
+Programmatisch durchführbar sind die Aktionen zum Beispiel dann, wenn diese auch mit aktiviertem Screenreader ausführbar sind.
+
+== Warum wird das geprüft?
+
+Wenn die App das Versetzen von Fokus bzw. Einfügemarke oder das Markieren von Text unterstützt, sollen diese Aktionen auch mit aktivierter Hilfsmittelsoftware durchgeführt werden können.
+Hierzu ist es erforderlich, dass diese Aktionen auch programmatisch, also z. B. durch Hilfsmittelsoftware, gesteuert werden können.
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn in der App-Ansicht die Texteinfügemarke (Fokus) versetzt werden kann, zum Beispiel in einem Eingabefeld.
+Weiterhin ist der Prüfschritt anwendbar, wenn Text markiert werden kann.
+
+=== 2. Prüfung
+
+
+. prüfen, ob es Bedienelemente gibt, bei denen sich die Texteinfügemarke bzw. der Fokus versetzen lässt
+. prüfen, ob sich Text auf der Ansicht markieren lässt
+. Screenreader starten
+. prüfen, ob die Aktionen auch mit aktiviertem Screenreader ausführbar sind
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+* Eingabefeld vorhanden, der Fokus lässt sich mit aktiviertem Screenreader versetzen, auch Text lässt sich markieren
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+11.5.2.14 Modification of focus and selection attributes
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 11.5.2.14 Modification of focus and selection attributes
+
+____
+[.BLOCK_LANG_EN]
+--
+Where permitted by security requirements, software that provides a user interface shall, by using the services as described in clause 11.5.2.3, allow assistive technologies to programmatically modify focus, text insertion point, and selection attributes of user interface elements where the user can modify these items.
+
+NOTE 1:
+In some cases the security requirements imposed on a software product may forbid external software from interfering with the ICT product and so this requirement would not apply.
+Examples of systems under strict security requirements are systems dealing with intelligence activities, cryptologic activities related to national security, command and control of military forces.
+
+NOTE 2:
+Assistive technologies may be required to maintain the same level of security as the standard input mechanisms supported by the platform.
+--
+____
+
+(Aus EN 301 549 V3.1.1 Abschnitt 11.5.2.14 "Modification of focus and selection attributes")

@@ -1,0 +1,60 @@
+= 11.5.2.8 Programmatisch ermittelbare Beschriftungen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+UI-Elemente, die durch andere UI-Elemente beschriftet werden, sollen diese Beschriftung programmatisch ermittelbar zur Verfügung stellen.
+Ein Eingabefeld, das lediglich durch einen nebenstehenden Button beschriftet wird, soll zum Beispiel  selbst die Beschriftung, die es durch den Button erhält, programmatisch zur Verfügung stellen.
+Diese Art der Beschriftung taucht bspw. häufig bei Suchfunktionen auf, ein Button folgt auf ein Eingabefeld, nur der Button ist mit "suchen" beschriftet.
+Programmatisch ermittelbar ist die Beschriftung des Eingabefelds in diesem Fall, wenn die Beschriftung "suchen" beim Antippen des Eingabefelds mit aktiviertem Screenreader vorgelesen wird.
+
+== Warum wird das geprüft?
+
+Screenreader geben die Elemente auf dem Bildschirm nacheinander aus,  eine visuell vermittelte Verbindung von Bedien- und anderen UI-elementen zueinander können Nutzer dieser assistiven Software  nicht immer  in vergleichbarer Weise herstellen.
+Bedienelemente müssen daher auch, wenn sie im Verbund eingesetzt werden, jeweils einzeln eine programmatisch ermittelbare Beschriftung erhalten, um eine effiziente und leicht zu verstehende Bedienung zu ermöglichen.
+
+Damit die Beschriftungsinformation nicht doppelt durch den Entwickler gepflegt werden muss (sichtbare Beschriftung und Accessibility-Label), soll das Bedienelement ohne Beschriftung programmatisch auf die Beschriftung des beschriftenden Bedienelements verweisen.
+Sobald sich die Beschriftung ändert, erhält das Bedienelement ohne sichtbare Beschriftung ebenfalls den neuen Text und kann diesen als Accessibility-Label an das System melden.
+Der Screenreader kann somit beim antippen des Bedienelements ohne sichtbare Beschriftung ein passendes Label ausgeben.
+Diese Art, ein Accessibility-Label bereitzustellen ist robuster als die separate Pflege von sichtbarer Beschriftung und einem Accessibility-Label.
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn Bedienelemente eingesetzt werden, die lediglich durch andere Bedienelemente auf der Ansicht beschriftet werden.
+
+=== 2. Prüfung
+
+. Screenreader starten
+. auf Bedienelement ohne Beschriftung tippen, es sollte die Beschriftung des beschrifteten Bedienelements ausgegeben werden
+
+=== 3. Hinweise
+
+Ob das vom Screenreader ausgegebene Accessibility-Label wirklich vom beschriftenden UI-Element stammt, kannnicht mit letzter Gewissheit festgestellt werden.
+Hier kann nur geprüft werden, ob das Accessibility-Label, für das Bedienelement ohne sichtbare Beschriftung, gleichlautend zur Beschriftung des beschriftenden Elements ist.
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+11.5.2.8 Label relationships
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 11.5.2.8 Label relationships
+
+____
+[.BLOCK_LANG_EN]
+--
+Where the software provides a user interface it shall expose the relationship that a user interface element has as a label for another element, or of being labelled by another element, using the services as described in clause 11.5.2.3, so that this information is programmatically determinable by assistive technologies.
+--
+____
+
+(Aus EN 301 549 V3.1.1 Abschnitt 11.5.2.8 "Label relationships")

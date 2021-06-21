@@ -1,0 +1,126 @@
+= 11.5.2.3 Unterstützung von Barrierefreiheitsdiensten
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Die App soll für die Erfüllung der Barrierefreiheitsanforderungen die vom Betriebssystem dazu bereitgestellten Dienste und -Schnittstellen nutzen.
+Nur wenn die App die Barrierefreiheitsanforderungen durch die vom Betriebssystem bereitgestellten Barrierefreiheitsdienste- und -Schnittstellen nicht erfüllen kann, nutzt sie andere Dienste oder Schnittstellen, um die Anforderungen zu erfüllen.
+
+== Warum wird das geprüft?
+
+Damit die Bedienung von Apps mittels assistiver Software möglichst konsistent und in ihrer Funktionalität robust ist, sollten Apps Barrierefreiheitsdienste- und Schnittstellen vom System nutzen.
+
+Die Unterstützung der Barrierefreiheitsdienste und -Schnittstellen des Systems stellt  beispielsweise sicher, das die Bedienung eines bestimmten Steuerelements, z. B. eines Aufklappmenüs, überall im System und den Apps gleichartig funktioniert.
+Nutzer müssen sich nicht unterschiedliche Bedienarten für dieses Element merken.
+Wenn Nutzer auf ein Steuerelement in einer App treffen, wissen diese Anwender höchstwahrscheinlich aus anderen Apps, wie dieses  UI-Control zu bedienen ist.
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== 2. Prüfung
+
+Ob Barrierefreiheitsdienste und -Schnittstellen des Betriebssystems genutzt werden, scheint derzeit nur anhand von Indizien feststellbar zu sein.
+So können bspw. Screenreader-Ausgaben der App mit denen von System-Apps verglichen werden.
+Stichprobenartig sollten dabei verschiedene Steuerelemente verglichen werden.
+Wenn zum Beispiel "echte" System-Buttons eingesetzt werden, sagt iOS mit VoiceOver zusätzlich zur Beschriftung "Taste" an, also bspw. "Schließen Taste".
+Unter Android wäre es statt "Taste" dann "Schaltfläche".
+
+"Barrierefreiheitsdienste- und Schnittstellen" beziehen sich jedoch nicht nur auf die Umsetzung von Steuerelementen.
+Auch  eingebaute Sprachausgaben oder Vergrößerungsfunktionen sind  solche Dienste.
+Eine App, die z. B. ohne besonderem Grund selbstsprechend ist (eingebaute Sprachausgabe), ohne dass diese App auch mit der System-Sprachausgabe-Software (z. B. VoiceOver und TalkBack) funktioniert, würde diesen Prüfschritt nicht bestehen.
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+11.5.2.3 Use of accessibility services
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 11.5.2.3 Use of accessibility services
+
+____
+[.BLOCK_LANG_EN]
+--
+Where the software provides a user interface it shall use the applicable documented platform accessibility services.
+If the documented platform accessibility services do not allow the software to meet the applicable requirements of clauses 11.5.2.5 to 11.5.2.17, then software that provides a user interface shall use other documented services to interoperate with assistive technology.
+
+NOTE:
+The term "documented platform accessibility services" refers to the set of services provided by the platform according to clauses 11.5.2.1 and 11.5.2.2.
+It is best practice to develop software using toolkits that automatically implement the underlying platform accessibility services.
+--
+____
+
+[.BLOCK_LANG_EN]
+==== Documented platform accessibility services
+
+[.BLOCK_LANG_EN]
+===== 11.5.2.1 Platform accessibility service support for software that provides a user interface
+
+____
+[.BLOCK_LANG_EN]
+--
+Platform software shall provide a set of documented platform services that enable software that provides a user interface running on the platform software to interoperate with assistive technology.
+
+Where a user interface concept corresponding to one of the clauses 11.5.2.5 to 11.5.2.17 is supported within the software environment, the platform software should support that requirement.
+For example, selection attributes from 11.5.2.14 (Modification of focus and selection attributes) may not exist in environments that do not allow selection, which is most commonly associated with copy and paste.
+
+NOTE 1:
+These define the minimum functionality of software providing user interfaces when using platform services.
+
+NOTE 2:
+In some platforms these services may be called accessibility services, but in some other platforms these services may be provided as part of the user interface services.
+
+NOTE 3:
+User interface services that provide accessibility support by default are considered to be part of the 
+services provided to conform to this clause (e.g. the service for creating a new user interface element 
+provides role, state, boundary, name and description).
+
+NOTE 4:
+To comply with this requirement the platform software can provide its own set of services or expose the services provided by its underlying platform layers, if those services conform to this requirement.
+
+NOTE 5: Within specific programming environments, the technical attributes associated with the user interface properties described in clauses 11.5.2.5 to 11.5.2.17 might have different names than those used within the clauses.
+--
+____
+
+[.BLOCK_LANG_EN]
+===== 11.5.2.2 Platform accessibility service support for assistive technologies
+
+____
+[.BLOCK_LANG_EN]
+--
+Platform software shall provide a set of documented platform accessibility services that enable assistive technology to interoperate with software that provides a user interface running on the platform software.
+Where a user interface concept corresponding to one of the clauses 11.5.2.5 to 11.5.2.17 is supported within the software environment, the platform software should support that requirement.
+For example, selection attributes from 11.5.2.14 (Modification of focus and selection attributes) may not exist in environments that do not allow selection, 
+which is most commonly associated with copy and paste.
+
+NOTE 1:
+These define the minimum functionality available to assistive technologies when using platform services.
+
+NOTE 2:
+The definition of platform in clause 3.1 applies to software that provides services to other software, including but not limited to, operating systems, web browsers, virtual machines.
+
+NOTE 3:
+In some platforms these services may be called accessibility services, but in some other platforms these 
+services may be provided as part of the user interface services.
+
+NOTE 4:
+Typically these services belong to the same set of services that are described in clause 11.5.2.1.
+
+NOTE 5:
+To comply with this requirement the platform software can provide its own set of services or expose the services provided by its underlying platform layers, if those services conform to this requirement.
+--
+____
+
+(Aus EN 301 549 V3.1.1)
