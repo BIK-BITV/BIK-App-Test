@@ -4,7 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
+Apps sollen sich auch bei Nutzung von Hilfsmitteln vollumfänglich nutzen lassen. Dazu gehört die Änderung von Zuständen und Werten von Bedienelementen.
+
 == Warum wird das geprüft?
+
+Wenn Bedienelemente von Apps ihre Werte und Zustände nicht über die Barrierefreiheitsschnittstelle an Hilfsmittel übergeben und Änderungen von Werten und Zuständen sich nicht von Hilfsmittelnutzenden vornehmen lassen, sind diese Apps nicht oder nur eingeschränkt von diesen Menschen nutzbar. 
 
 == Wie wird das geprüft?
 
