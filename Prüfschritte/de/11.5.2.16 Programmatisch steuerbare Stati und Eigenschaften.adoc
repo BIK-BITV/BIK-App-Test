@@ -22,7 +22,7 @@ Der Prüfschritt ist anwendbar, wenn die zu prüfende Ansicht Bedienelemente hat
 . Prüfen, ob sich Werte und Eigenschaften ändern lassen und der geänderte Wert vom Screenreader auch ausgelesen werden kann. 
 
 === 3. Hinweise
-Im wesentlichen spiegelt dieser Prüfschritt die Bewertung von 11.4.1.2 Name, Rolle, Wert wider. In den meisten Fällen kann hier auf die Bewertung in diesem Prüfschritt verwiesen werden.
+Im Wesentlichen spiegelt dieser Prüfschritt die Bewertung im Prüfschritt 11.4.1.2 Name, Rolle, Wert wider. In den meisten Fällen kann hier auf die Bewertung in diesem Prüfschritt verwiesen werden.
 
 Die Erreichbarkeit von Bedienelementen mit der Tastatur ist nicht Gegenstand dieses Prüfschritts. Bei nativen Apps wird Wischgesten-Navigation eingesetzt, um Beldienelemente zu kokussieren und deren Wert zu ändern. Hierbei sind auch Navigationsmodi einzusetzen, die die Änderugn des Werts etwa druch vertikale Wischbewegungen im jeweiligen Modus erlauben.
 
