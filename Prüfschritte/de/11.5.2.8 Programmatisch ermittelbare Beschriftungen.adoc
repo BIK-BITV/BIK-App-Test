@@ -33,8 +33,8 @@ Der Prüfschritt ist anwendbar, wenn Bedienelemente eingesetzt werden, die ledig
 
 === 3. Hinweise
 
-Ob das vom Screenreader ausgegebene Accessibility-Label wirklich vom beschriftenden Element stammt oder getrennt als AccessibilityLabel hinterlegt ist, kann nicht festgestellt werden.
-Hier kann nur geprüft werden, ob das Accessibility-Label, für das Bedienelement ohne sichtbare Beschriftung, gleichlautend zur Beschriftung des beschriftenden Elements ist.
+* Im Wesentlichen gleicht die Prüfung in diesem Prüfschritt der Prüfung in Prüfschritt 11.1.3.1e "Beschriftung von Formularelementen programmatisch ermittelbar". In der Regel kann einfach auf diesen Prüfschritt verwiesen werden.
+* Ob das vom Screenreader ausgegebene Accessibility-Label wirklich vom beschriftenden Element stammt oder getrennt als AccessibilityLabel hinterlegt ist, kann nicht festgestellt werden. Hier kann nur festgestellt werden, ob das Accessibility-Label eines Bedienelements gleichlautend mit der nebenstehenden Beschriftung ist.
 
 === 4. Bewertung
 
