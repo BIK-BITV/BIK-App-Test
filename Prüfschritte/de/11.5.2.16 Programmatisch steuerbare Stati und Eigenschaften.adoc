@@ -9,14 +9,27 @@ include::include/attributes.adoc[]
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist anwendbar, wenn die zu prüfende Ansicht Bedienelemente hat, deren Zustände und Eigenschaften sich von Nutzenden ändern lassen. 
 
 === 2. Prüfung
+.Bedienelemente auf der Ansicht ermitteln, bie denen sich von Nutzenden Zustände oder Eigenschaften ändern lassen.
+.Mit dem eingesetzten Screenreader Bedienelemente fokussieren.
+.Prüfen, ob sich Werte und Eigenschaften ändern lassen und der geänderte Wert vom Screenreader auch ausgelesen werden kann. 
 
 === 3. Hinweise
+Im wesentlichen spiegelt dieser Prüfschritt die Bewertung von 11.4.1.2 Name, Rolle, Wert wider. In den meisten Fällen kann hier auf die Bewertung in diesem Prüfschritt verwiesen werden.
+
+Die Erreichbarkeit von Bedienelementen mit der Tastatur ist nicht Gegenstand dieses Prüfschritts. Bei nativen Apps wird Wischgesten-Navigation eingesetzt, um Beldienelemente zu kokussieren und deren Wert zu ändern. Hierbei sind auch Navigationsmodi einzusetzen, die die Änderugn des Werts etwa druch vertikale Wisdchbewegungen im jeweiligen Modus erlauben.
+
+Es wird nicht geprüft, ob ein initialer Wert ausgegeben wird. Nach Interaktion mit dem Bedienelement soll der eingestellte Wert aber ausgelesen werden können. Beispiele sind:
+* Eine Umsetzung einer Leiste mit Reitern gibt bei  Fokussierung den aktuell ausgewählten Reiter aus
+* Checkboxen lässt sich mit dem Screenreader bedienen und geben korrekt den jeweils gesetzten Wert aus
+* Bei einer Combobox, die dynamisch generierte Optionen in einer Ausklappliste erzeugt, lassen sich die Optionen erreichen und auswählen, der geänderte Wert der Combobox wid vom Screenreader bei Fokussierung ausgegeben
 
 === 4. Bewertung
 
 ==== Erfüllt:
+Alle Werte und Eigenschaften, die 
 
 == Einordnung des Prüfschritts
 
