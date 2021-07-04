@@ -17,22 +17,23 @@ Hierzu ist es erforderlich, dass diese Aktionen auch programmatisch, also z. B. 
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn in der App-Ansicht die Texteinfügemarke (Fokus) versetzt werden kann, zum Beispiel in einem Eingabefeld.
+Der Prüfschritt ist anwendbar, wenn in der App-Ansicht die Texteinfügemarke und/oder der Fokus versetzt werden kann, zum Beispiel in einem Eingabefeld.
 Weiterhin ist der Prüfschritt anwendbar, wenn Text markiert werden kann.
 
 === 2. Prüfung
 
 
-. prüfen, ob es Bedienelemente gibt, bei denen sich die Texteinfügemarke bzw. der Fokus versetzen lässt
-. prüfen, ob sich Text auf der Ansicht markieren lässt
+. Prüfen, ob es Bedienelemente/Bereiche gibt, bei denen sich die Texteinfügemarke bzw. der Fokus versetzen lässt
+. Prüfen, ob sich Text auf der Ansicht markieren lässt
 . Screenreader starten
-. prüfen, ob die Aktionen auch mit aktiviertem Screenreader ausführbar sind
+. Prüfen, ob die Aktionen auch mit aktiviertem Screenreader ausführbar sind
 
 === 4. Bewertung
 
 ==== Erfüllt:
 
-* Eingabefeld vorhanden, der Fokus lässt sich mit aktiviertem Screenreader versetzen, auch Text lässt sich markieren
+* Eingabefeld vorhanden, die Texteinfügemarke lässt sich mit aktiviertem Screenreader versetzen und Text lässt sich markieren
+* Fokus zwischen Bedienelementen lässt sich mit aktiviertem Screenreader versetzen
 
 == Einordnung des Prüfschritts
 
