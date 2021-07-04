@@ -9,17 +9,15 @@ Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
 
 == Was wird geprüft?
 
-Informationen und Mechanismen für die Fokusverfolgung, Einfügemarke und
+Informationen und Mechanismen für die Fokusverfolgung, Texteinfügemarke und
 Textauswahl müssen für die Hilfsmitteltechnologie programatisch verfügbar
 sein.
 
 == Wie wird geprüft?
 
-* Kann Text mittels Screenreader navigiert werden?
-* Kann die Einfügemarke bzw. der Cursor versetzt werden und ist dies mit dem
-  Screenreader nachvollziehbar?
-* Kann Text ausgewählt werden und ist dies auch mittels Hilfstechnologie
-  möglich?
+* Wird die Fokusposition vom Screenreader ausgegeben?
+* Wird die Position der Texteinfügemarke vom Screenreader ausgegeben?
+* Gibt der Screenreader bei markiertem Text aus, welcher Text markiert ist?
 
 == Quellen
 
