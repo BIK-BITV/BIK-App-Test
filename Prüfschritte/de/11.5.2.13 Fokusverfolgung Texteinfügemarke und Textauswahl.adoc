@@ -16,7 +16,7 @@ sein.
 == Wie wird geprüft?
 
 * Wird die Fokusposition vom Screenreader ausgegeben?
-* Unterstützt der Inhalt, soweit verfügbar, die vom System und Screenreader vorgesehenen mechanismen der Textauswahl (Ansage der Position Texteinfügemarke, Ansage markierter Text)?
+* Unterstützt der Inhalt, soweit verfügbar, die vom System und Screenreader vorgesehenen Mechanismen der Textauswahl (Ansage der Position Texteinfügemarke, Ansage markierter Text)?
 
 == Quellen
 
