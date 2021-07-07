@@ -15,10 +15,22 @@ sein.
 
 == Wie wird geprüft?
 
-* Wird die Fokusposition vom Screenreader ausgegeben?
+* Wird die Fokusposition innerhalb des Formularfelds vom Screenreader ausgegeben?
 * Unterstützt der Inhalt, soweit verfügbar, die vom System und Screenreader vorgesehenen Mechanismen der Textauswahl (Ansage der Position Texteinfügemarke, Ansage markierter Text)?
 
+== Hinweise
+Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein.
+
+=== Android / TalkBack
+
+* Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert.
+* Die Fokusposition wird in der Regel mit den Lautstärketasten des Geräts versetzt.
+* Über das lokale Kontextmenü (Wischen nach oben und dann nach rechts) können Optionen zum Textauswahl-Modus, zum Kopieren usw. aufgerufen werden
+
 == Quellen
+* https://support.google.com/accessibility/android/answer/6151827?hl=en#zippy=%2Cversion-up%2Cversion-lower[Google-Hilfe zu TalkBack-Gesten]
+* https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-talkback.html[BBC Accessibility and Testing with TalkBack]
+* https://seeingdifferentuk.blogspot.com/2015/06/selecting-copying-and-pasting-with.html[Blogbeitrag SeeingDifferent zu Auswahl, Kopieren, Einfügen mit VoiceOver in iOS]
 
 === Auszug EN 301 549
 
