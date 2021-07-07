@@ -16,10 +16,10 @@ sein.
 == Wie wird geprüft?
 
 * Wird die Fokusposition innerhalb des Formularfelds vom Screenreader ausgegeben?
-* Unterstützt der Inhalt, soweit verfügbar, die vom System und Screenreader vorgesehenen Mechanismen der Textauswahl (Ansage der Position Texteinfügemarke, Ansage markierter Text)?
+* Unterstützt der Inhalt, soweit verfügbar, die vom System und Screenreader vorgesehenen Mechanismen der Textauswahl hinsichtlich der Ansage (an welcher Position befindet sich die Texteinfügemarke, welcher Text ist markiert)?
 
 == Hinweise
-Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein.
+Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein. In diesem Prüfschritt geht es darum, dass die aktuelle Position des Fokus vom Screenreader augegeben werden kann und dass der gerade markierte Text ausgegeben werden kann. In 11.5.2.14 wird dagegen bewertet, ob die Position des Fokus und die Markierung des Texts geändert werden kann.
 
 === Android / TalkBack
 
