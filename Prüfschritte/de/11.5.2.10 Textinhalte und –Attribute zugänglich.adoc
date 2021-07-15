@@ -22,7 +22,7 @@ Außerdem müssen Screenreader-Nutzer herausfinden können, welche Informationen
 . Auf Geräten mit Touch-Display können die sichtbaren Txtinhalte angetippt werden, die Ausgabe des Screenreaders sollte den sichtbaren Textinhalt enthalten. 
 
 === Prüfung Textauszeichnung
-- Falls die Software Möglichkeiten bietet beim Editieren von Text Attriute zu ändern (z.B. Tet zu fetten oder zu unterstreichen) prüfen, ob es  Möglichkeiten gibt, diese Textattribute mittels Screenreader zu setzen und auszulesen. Dies ist meist nur bei Textbearbeitungsprogrammen der Fall. 
+Falls die Software Möglichkeiten bietet beim Editieren von Text Attriute zu ändern (z.B. Tet zu fetten oder zu unterstreichen) prüfen, ob es  Möglichkeiten gibt, diese Textattribute mittels Screenreader zu setzen und auszulesen. Dies ist meist nur bei Textbearbeitungsprogrammen der Fall. 
 
 ==== Prüfung in iOS / VoiceOver
 
