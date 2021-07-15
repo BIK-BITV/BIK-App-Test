@@ -8,29 +8,31 @@ Dieser Prüfschritt basiert auf dem Kriterium 11.5.2.10 Text der EN 301 549.
 
 == Was wird geprüft?
 
-Textinhalte in der Software sind generell für den Screenreader zugänglich.
-Textattribute sind verfügbar, wenn dies generell von der Software
-vorgesehen ist.
-Beispiele für Textattribute sind fett, kursiv oder unterstrichen.
-In einer Textverarbeitung müssen diese Attribute z. B. auch für den
-Screenreader-Nutzer ausgegeben werden können.
+Textinhalte in der Software sind generell für den Screenreader zugänglich. Textattribute sind verfügbar, wenn dies generell von der Software vorgesehen ist.
+Beispiele für Textattribute sind fett, kursiv oder unterstrichen. In einer Textverarbeitung müssen diese Attribute z. B. auch für den Screenreader-Nutzer ausgegeben werden können.
 
-Außerdem muss Der Screenreader-Nutzer herausfinden können, welche
-Informationen gerade auf dem Display angezeigt werden (Viewport).
+Außerdem muss Der Screenreader-Nutzer herausfinden können, welche Informationen gerade auf dem Display angezeigt werden (Viewport).
 
 == Wie wird geprüft?
+=== Prüfung Textausgabe
 
-Mit dem Screenreader die Software navigieren und prüfen, ob alle sichtbaren
-Texte auch von der Hilfsmittel-Software erkannt werden.
+. Screenreader aktivieren
+. Vom Beginn der Ansicht bis zum Ende alle Textinhalte  mit Wischgesten durchaufen
+. Prüfen, ob alle sichtbaren Elemente auch vom Screenreader ausgegeben werden
+. Auf Geräten mit Touch-Display können die sichtbaren Txtinhalte angetippt werden, die Ausgabe des Screenreaders sollte den sichtbaren Textinhalt enthalten. 
 
-Dabei wird mit eingeschaltetem SR überprüft, ob die Sichtbaren Elemente auch
-vom Screenreader ausgegeben werden.
-Auf Geräten mit Touch-Display können die Sichtbaren Elemente angetippt
-werden, die Ausgabe vom SR sollte dann mit dem zu sehenden Element
-übereinstimmen.
+=== Prüfung Textauszeichnung
+- Falls die Software Möglichkeiten bietet beim Editieren von Text Attriute zu ändern (z.B. Tet zu fetten oder zu unterstreichen) prüfen, ob es  Möglichkeiten gibt, diese Textattribute mittels Screenreader zu setzen und auszulesen. Dies ist meist nur bei Textbearbeitungsprogrammen der Fall. 
 
-Prüfen, ob es auch Möglichkeiten gibt, Textattribute mittels Screenreader
-anzuzeigen, wenn dies von der Software generell angeboten wird.
+==== Prüfung in iOS / VoiceOver
+
+. Gibt es editierbaren Text? Falls ja:
+.. Über Rotor-Option 'Textauswahl' über horizontale Wischgeste einen kleinen Textbereich mit gesetztem Textattribut (etwa Fettung) auswählen
+.. Im Rotor schauen, ob die Option "Aktionen" und darin (vertikale Wischgeste) die Option "Textformat" verfügbar ist.  Diese durch Doppeltippen aufrufen.
+.. Gesetztes Textformat auswählen, prüfen, ob es sich ändern lässt (z.B. über VoiceOver die Auswahl "fett" für den ausgewählten Text entfernen und wieder setzen). 
+. Falls nein, Prüfung abbrechen.
+
+==== Prüfung in Android
 
 == Quellen
 
