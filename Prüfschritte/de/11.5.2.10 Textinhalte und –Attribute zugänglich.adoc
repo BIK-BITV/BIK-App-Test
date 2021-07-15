@@ -35,7 +35,7 @@ Falls die Software Möglichkeiten bietet beim Editieren von Text Attriute zu än
 . Gibt es editierbaren Text? Falls ja:
 .. Auswählen: "Talkback-Menü" (Wischgeste nach oben und rechts)  > "Bearbeitungsoptionen" > "Auswahlmodus starten oder beenden"
 .. Mit vertikalen Wischgesten Text auswählen
-.. Wenn in der Software vorhanden, Bedienelement zum Ändern einer Auszeichnugn aktvieren, etwa "B" für "fett"
+.. Wenn in der Software vorhanden, Bedienelement zum Ändern einer Textauszeichnung aktvieren, etwa "B" für "fett"
 .. Prüfen, ob der Stil angewandt wird und sich über Talkback-Menü > Aktionen > "Formatierung der aktuellen Auswahl vorlesen" korrekt ausgeben lässt
 . Falls nein, Prüfung abbrechen.
 
