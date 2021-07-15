@@ -25,7 +25,6 @@ Außerdem müssen Screenreader-Nutzer herausfinden können, welche Informationen
 Falls die Software Möglichkeiten bietet beim Editieren von Text Attriute zu ändern (z.B. Tet zu fetten oder zu unterstreichen) prüfen, ob es  Möglichkeiten gibt, diese Textattribute mittels Screenreader zu setzen und auszulesen. Dies ist meist nur bei Textbearbeitungsprogrammen der Fall. 
 
 ==== Prüfung in iOS / VoiceOver
-
 . Gibt es editierbaren Text? Falls ja:
 .. Über Rotor-Option 'Textauswahl' über horizontale Wischgeste einen kleinen Textbereich mit gesetztem Textattribut (etwa Fettung) auswählen
 .. Im Rotor schauen, ob die Option "Aktionen" und darin (vertikale Wischgeste) die Option "Textformat" verfügbar ist.  Diese durch Doppeltippen aufrufen.
