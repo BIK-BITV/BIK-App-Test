@@ -11,7 +11,7 @@ Dieser Prüfschritt basiert auf dem Kriterium 11.5.2.10 Text der EN 301 549.
 Textinhalte in der Software sind generell für den Screenreader zugänglich. Textattribute sind verfügbar, wenn dies generell von der Software vorgesehen ist.
 Beispiele für Textattribute sind fett, kursiv oder unterstrichen. In einer Textverarbeitung müssen diese Attribute z. B. auch für den Screenreader-Nutzer ausgegeben werden können.
 
-Außerdem muss Der Screenreader-Nutzer herausfinden können, welche Informationen gerade auf dem Display angezeigt werden (Viewport).
+Außerdem müssen Screenreader-Nutzer herausfinden können, welche Informationen gerade auf dem Display angezeigt werden (Viewport).
 
 == Wie wird geprüft?
 === Prüfung Textausgabe
@@ -33,6 +33,8 @@ Außerdem muss Der Screenreader-Nutzer herausfinden können, welche Informatione
 . Falls nein, Prüfung abbrechen.
 
 ==== Prüfung in Android
+
+(folgt)
 
 == Quellen
 
