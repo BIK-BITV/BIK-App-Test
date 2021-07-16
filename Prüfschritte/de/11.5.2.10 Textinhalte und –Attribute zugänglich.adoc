@@ -22,21 +22,21 @@ Außerdem müssen Screenreader-Nutzer herausfinden können, welche Informationen
 . Auf Geräten mit Touch-Display können die sichtbaren Txtinhalte angetippt werden, die Ausgabe des Screenreaders sollte den sichtbaren Textinhalt enthalten. 
 
 === Prüfung Textauszeichnung
-Falls die Software Möglichkeiten bietet beim Editieren von Text Attriute zu ändern (z.B. Tet zu fetten oder zu unterstreichen) prüfen, ob es  Möglichkeiten gibt, diese Textattribute mittels Screenreader zu setzen und auszulesen. Dies ist meist nur bei Textbearbeitungsprogrammen der Fall. 
+Falls die Software Möglichkeiten bietet, beim Editieren von Text Attribute zu ändern (z.B. Text zu fetten oder zu unterstreichen) prüfen, ob es Möglichkeiten gibt, diese Textattribute mittels Screenreader auszulesen. Dies ist meist nur bei Textbearbeitungsprogrammen der Fall. 
 
 ==== Prüfung in iOS / VoiceOver
 . Gibt es editierbaren Text? Falls ja:
 .. Über Rotor-Option 'Textauswahl' über horizontale Wischgeste einen kleinen Textbereich mit gesetztem Textattribut (etwa Fettung) auswählen
 .. Im Rotor schauen, ob die Option "Aktionen" und darin (vertikale Wischgeste) die Option "Textformat" verfügbar ist.  Diese durch Doppeltippen aufrufen.
-.. Gesetztes Textformat auswählen, prüfen, ob es sich ändern lässt (z.B. über VoiceOver die Auswahl "fett" für den ausgewählten Text entfernen und wieder setzen). 
+.. Gesetztes Textformat auswählen, ggf. zusätzlich prüfen, ob es sich ändern lässt (z.B. über VoiceOver die Auswahl "fett" für den ausgewählten Text entfernen und wieder setzen). 
 . Falls nein, Prüfung abbrechen.
 
 ==== Prüfung in Android
 . Gibt es editierbaren Text? Falls ja:
 .. Auswählen: "Talkback-Menü" (Wischgeste nach oben und rechts)  > "Bearbeitungsoptionen" > "Auswahlmodus starten oder beenden"
 .. Mit vertikalen Wischgesten Text auswählen
-.. Wenn in der Software vorhanden, Bedienelement zum Ändern einer Textauszeichnung aktvieren, etwa "B" für "fett"
-.. Prüfen, ob der Stil angewandt wird und sich über Talkback-Menü > Aktionen > "Formatierung der aktuellen Auswahl vorlesen" korrekt ausgeben lässt
+.. Wenn in der Software vorhanden, Bedienelement für Textauszeichnung fokussieren (etwa "B" für "fett") und überprüfen, ob der Zustand richtig ausgegeben wird 
+.. Über Talkback-Menü > Aktionen > "Formatierung der aktuellen Auswahl vorlesen" prüfen ob der Stil des Textes korrekt ausgggeben wird
 . Falls nein, Prüfung abbrechen.
 
 == Quellen
