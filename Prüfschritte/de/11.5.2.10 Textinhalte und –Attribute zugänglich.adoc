@@ -17,9 +17,9 @@ Außerdem müssen Screenreader-Nutzer herausfinden können, welche Informationen
 === Prüfung Textausgabe
 
 . Screenreader aktivieren
-. Vom Beginn der Ansicht bis zum Ende alle Textinhalte  mit Wischgesten durchaufen
+. Vom Beginn der Ansicht bis zum Ende alle Textinhalte  mit Wischgesten durchlaufen
 . Prüfen, ob alle sichtbaren Elemente auch vom Screenreader ausgegeben werden
-. Auf Geräten mit Touch-Display können die sichtbaren Txtinhalte angetippt werden, die Ausgabe des Screenreaders sollte den sichtbaren Textinhalt enthalten. 
+. Auf Geräten mit Touch-Display können die sichtbaren Textinhalte angetippt werden, die Ausgabe des Screenreaders sollte den sichtbaren Textinhalt enthalten. 
 
 === Prüfung Textauszeichnung
 Falls die Software Möglichkeiten bietet, beim Editieren von Text Attribute zu ändern (z.B. Text zu fetten oder zu unterstreichen) prüfen, ob es Möglichkeiten gibt, diese Textattribute mittels Screenreader auszulesen. Dies ist meist nur bei Textbearbeitungsprogrammen der Fall. 
