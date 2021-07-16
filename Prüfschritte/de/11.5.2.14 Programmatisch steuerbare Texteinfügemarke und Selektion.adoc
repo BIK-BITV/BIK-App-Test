@@ -17,22 +17,34 @@ Hierzu ist es erforderlich, dass diese Aktionen auch programmatisch, also z. B. 
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn in der App-Ansicht die Texteinfügemarke (Fokus) versetzt werden kann, zum Beispiel in einem Eingabefeld.
+Der Prüfschritt ist anwendbar, wenn in der App-Ansicht die Texteinfügemarke und/oder der Fokus versetzt werden kann, zum Beispiel in einem Eingabefeld.
 Weiterhin ist der Prüfschritt anwendbar, wenn Text markiert werden kann.
 
 === 2. Prüfung
 
 
-. prüfen, ob es Bedienelemente gibt, bei denen sich die Texteinfügemarke bzw. der Fokus versetzen lässt
-. prüfen, ob sich Text auf der Ansicht markieren lässt
+. Prüfen, ob es Bedienelemente/Bereiche gibt, bei denen sich die Texteinfügemarke bzw. der Fokus versetzen lässt
+. Prüfen, ob sich Text auf der Ansicht markieren lässt
 . Screenreader starten
-. prüfen, ob die Aktionen auch mit aktiviertem Screenreader ausführbar sind
+. Prüfen, ob die Aktionen auch mit aktiviertem Screenreader ausführbar sind
+
+
+== 3. Hinweise
+
+Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein. In diesem Prüfschritt geht es darum, dass die Position des Fokus und die Markierung des Texts geändert werden kann. In 11.5.2.13 wird dagegen bewertet, ob die aktuelle Position des Fokus vom Screenreader augegeben werden kann und dass der gerade markierte Text ausgegeben werden kann.
+
+=== Android / TalkBack
+
+* Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert.
+* Die Fokusposition wird in der Regel mit den Lautstärketasten des Geräts versetzt.
+* Über das lokale Kontextmenü (Wischen nach oben und dann nach rechts) können Optionen zum Textauswahl-Modus, zum Kopieren usw. aufgerufen werden
 
 === 4. Bewertung
 
 ==== Erfüllt:
 
-* Eingabefeld vorhanden, der Fokus lässt sich mit aktiviertem Screenreader versetzen, auch Text lässt sich markieren
+* Eingabefeld vorhanden, die Texteinfügemarke lässt sich mit aktiviertem Screenreader versetzen und Text lässt sich markieren
+* Fokus zwischen Bedienelementen lässt sich mit aktiviertem Screenreader versetzen
 
 == Einordnung des Prüfschritts
 
@@ -41,6 +53,9 @@ Weiterhin ist der Prüfschritt anwendbar, wenn Text markiert werden kann.
 11.5.2.14 Modification of focus and selection attributes
 
 == Quellen
+* https://support.google.com/accessibility/android/answer/6151827?hl=en#zippy=%2Cversion-up%2Cversion-lower[Google-Hilfe zu TalkBack-Gesten]
+* https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-talkback.html[BBC Accessibility and Testing with TalkBack]
+* https://seeingdifferentuk.blogspot.com/2015/06/selecting-copying-and-pasting-with.html[Blogbeitrag SeeingDifferent zu Auswahl, Kopieren, Einfügen mit VoiceOver in iOS]
 
 [.BLOCK_LANG_EN]
 === 11.5.2.14 Modification of focus and selection attributes
