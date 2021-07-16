@@ -21,8 +21,14 @@ sein.
 == Hinweise
 Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein. In diesem Prüfschritt geht es darum, dass die aktuelle Position des Fokus vom Screenreader augegeben werden kann und dass der gerade markierte Text ausgegeben werden kann. In 11.5.2.14 wird dagegen bewertet, ob die Position des Fokus und die Markierung des Texts geändert werden kann.
 
-=== Android / TalkBack
+=== iOS / VoiceOver
+* VoiceOver aktivieren
+* Ein Textfeld mit Textinhalt durch Doppeltippen aktivieren. Es wird in der Regel "Einfügemarke am Ende " angesagt.
+* Den VoiceOver-Rotor auf Zeichen stellen. vertikales Wischen verschiebt den Cursor, der Buchstabe nach dem Cursor wird ausgegeben.
+* Den VoiceOver-Rotor auf "Textauswahl" stellen. Nach-links Streichen erweitert die Auswahl um je ein weiteres Zeichen oder Wort (je nach Einstellung übwer vertikale Wischgeste). Die Auswahl wird ausgegeben.
 
+=== Android / TalkBack
+* TalkBack aktivieren
 * Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert.
 * Die Fokusposition wird in der Regel mit den Lautstärketasten des Geräts versetzt.
 * Über das lokale Kontextmenü (Wischen nach oben und dann nach rechts) können Optionen zum Textauswahl-Modus, zum Kopieren usw. aufgerufen werden
