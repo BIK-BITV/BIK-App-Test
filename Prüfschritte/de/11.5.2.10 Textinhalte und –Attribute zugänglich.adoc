@@ -36,7 +36,7 @@ Falls die Software Möglichkeiten bietet, beim Editieren von Text Attribute zu �
 .. Auswählen: "Talkback-Menü" (Wischgeste nach oben und rechts)  > "Bearbeitungsoptionen" > "Auswahlmodus starten oder beenden"
 .. Mit vertikalen Wischgesten Text auswählen
 .. Wenn in der Software vorhanden, Bedienelement für Textauszeichnung fokussieren (etwa "B" für "fett") und überprüfen, ob der Zustand richtig ausgegeben wird 
-.. Über Talkback-Menü > Aktionen > "Formatierung der aktuellen Auswahl vorlesen" prüfen ob der Stil des Textes korrekt ausgggeben wird
+.. Über Talkback-Menü > Aktionen > "Formatierung der aktuellen Auswahl vorlesen" prüfen, ob der Stil des Textes korrekt ausgggeben wird
 . Falls nein, Prüfung abbrechen.
 
 == Quellen
