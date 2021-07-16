@@ -2,23 +2,19 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
-11.5.2.11 List of available actions.
-
 == Was wird geprüft?
 
-Wenn für ein Element in derSoftware Aktionen durchgeführt werden können,
-müssen diese auch für den Screenreader-Nutzer ersichtlich sein.
+Die verfügbaren Aktionen von Bedienelementen sollen auch für Screenreader-Nutzer ermittelbar sein.
+
+== Warum wird geprüft?
+
+Der Funktionsumfang von Apps muss auch für Screenreader-Nutzer vollständig ermittelbar sein. 
 
 == Wie wird geprüft?
 
-Prüfen, welche Aktionen grundsätzlich für ein Element durchführbar sind
-und mittels Screenreader prüfen, ob die Aktionen auch  hier angeboten werden.
-Ein Beispiel für ein Element mit verschiedenen Aktionen ist ein Listeneintrag
-in der Mail-App, hier können  die einzelnen Mails in der Liste z. B. u. a.
-durch Wischgesten gelöscht und archiviert werden.
+Prüfen, welche Aktionen grundsätzlich für ein Bedienelement ausführbar sind und mittels Screenreader prüfen, ob die Aktionen auch hier angeboten werden.
+So muss bei einer Checkbox die Rolle und der Auswahlzustand ermittelbar sein, bei einer Auswahlliste die auswählbaren Optionen und die aktuell auwählbare Option. Ein Beispiel für ein Element mit verschiedenen Aktionen ist ein Listeneintrag in der Mail-App. Hier können die einzelnen Mails in der Liste z.B.
+durch Wischgesten gelöscht oder auch archiviert werden.
 
 == Quellen
 
