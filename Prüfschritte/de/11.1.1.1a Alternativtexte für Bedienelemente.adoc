@@ -38,8 +38,7 @@ sind.
 In der Regel bedeutet das:
 
 * Bei Schriftgrafiken soll der Alternativtext den Text der Schriftgrafik wiederholen.
-* Bei Symbolen soll der Alternativtext das Symbol nicht beschreiben, sondern ersetzen. Also zum Beispiel der Alternativtext "Suchen" für eine Lupen-Symbol,
-  das einen Dialog mit Sucheingabefeld öffnet.
+* Bei Symbolen soll der Alternativtext das Symbol nicht beschreiben, sondern ersetzen. Also zum Beispiel der Alternativtext "Suchen" für ein Lupen-Symbol, das einen Dialog mit Sucheingabefeld öffnet.
 * Bei Objekten, die nicht angezeigt werden können, sollen der Alternativtext eine kurze Beschreibung oder Identifizierung bieten. Sinnvoll ist es, dass eine
   Begründung für das Nicht-Laden des Objekts ausgegeben wird. In diesem Fall ist es auch ausreichend, wenn das Objekt etwa durch eine Überschrift im unmittelbaren Kontext identifiziert wird.
 
