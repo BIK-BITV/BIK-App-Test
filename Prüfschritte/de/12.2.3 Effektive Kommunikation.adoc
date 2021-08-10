@@ -20,7 +20,7 @@ Dies kann auch durch die Vermittlung von Dritten ermöglicht werden.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar wenn die App einen Unterstützungsdienst anbietet (etwa eine Hotline oder eine Chatfunktion für technischen Support.)
 
 === Prüfung
 
