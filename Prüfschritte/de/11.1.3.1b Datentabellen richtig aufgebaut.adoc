@@ -91,14 +91,11 @@ Offenkundige, unverzichtbare und visuell hervorgehobene Überschriften müssen a
 
 ==== 3.1 Woran erkennt man Zeilenüberschriften?
 
-Die visuelle Hervorhebung ist ein Erkennungsmerkmal für Überschriften. Wenn die erste Spalte einer Datentabelle visuell hervorgehoben ist, dann kann man davon ausgehen, dass die Inhalte dieser Spalte als Überschriften dienen sollen.
+Die visuelle Hervorhebung ist ein Erkennungsmerkmal für Überschriften. Wenn die erste Spalte einer Datentabelle visuell hervorgehoben ist, dann kann man davon ausgehen, dass die Inhalte dieser Spalte als Zeilen-Überschriften dienen sollen.
 
-Dieser Zusammenhang lässt sich aber nicht umkehren, die visuelle Hervorhebung ist als Kriterium nicht immer ausreichend. Denn auf die Hervorhebung der Zeilenüberschriften wird manchmal aus Gestaltungsgründen verzichtet. Sehende Benutzer brauchen sie nicht unbedingt.
-Wenn der Inhalt einer Datenzelle nicht für sich aussagekräftig ist, beziehen sie die Zellen am linken Rand der Tabelle ein, die Position reicht ihnen als Hervorhebung.
+Dieser Zusammenhang lässt sich aber nicht umkehren, die visuelle Hervorhebung ist als Kriterium nicht immer ausreichend. Denn auf die Hervorhebung der Zeilenüberschriften wird manchmal aus Gestaltungsgründen verzichtet. Sehende Benutzer brauchen sie nicht unbedingt. Wenn der Inhalt einer Datenzelle nicht für sich aussagekräftig ist, beziehen sie die Zellen am linken Rand der Tabelle ein, die Position reicht ihnen als Hervorhebung.
 
-Es ist manchmal schwierig, den Fall, dass auf die visuelle Hervorhebung aus gestalterischen Gründen verzichtet worden ist, abzugrenzen von dem Fall, dass die Inhalte der ersten Spalte tatsächlich als Überschriften nicht geeignet sind.
-Selbst wenn in der ersten Spalte zum Beispiel Namen von Herstellern oder Produkten stehen, ist das noch kein sicherer Anhaltspunkt für die Eignung als
-Überschrift. Denn Überschriften sollten eindeutig und geläufig sein, Herstellernamen sind nicht immer eindeutig, Produktnamen oft nicht geläufig.
+Es ist manchmal schwierig, den Fall, dass auf die visuelle Hervorhebung aus gestalterischen Gründen verzichtet worden ist, abzugrenzen von dem Fall, dass die Inhalte der ersten Spalte tatsächlich als Überschriften nicht geeignet sind. Selbst wenn in der ersten Spalte zum Beispiel Namen von Herstellern oder Produkten stehen, ist das noch kein sicherer Anhaltspunkt für die Eignung als Überschrift. Denn Überschriften sollten eindeutig und geläufig sein, Herstellernamen sind nicht immer eindeutig, Produktnamen oft nicht geläufig.
 
 Entwickler oder Redakteure sollten also überlegen, ob die Inhalte der ersten Spalte als Überschriften tauglich sind, ob es Sinn macht, dass ein Screenreader bei Zeilenwechseln immer den jeweiligen Inhalt der ersten Spalte zusammen mit der gerade angesteuerten Datenzelle vorliest. Wenn das der Fall ist, sollten die Zellen der ersten Spalte unbedingt als Überschriften ausgezeichnet werden. In der Regel stehen die Zeilenüberschriften der Tabelle, wenn vorhanden, in der ersten Spalte. Unter Umständen können aber auch Einträge in anderen Spalten als passende Zeilen-Überschrift ausgezeichnet sein.
 
