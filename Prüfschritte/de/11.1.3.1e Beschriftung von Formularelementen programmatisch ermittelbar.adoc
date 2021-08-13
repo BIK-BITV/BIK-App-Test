@@ -4,102 +4,59 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Beschriftungen sollen über die entsprechende Auszeichnung im Programm-Code
-mit den Eingabefeldern verknüpft sein, zu denen sie gehören.
+Beschriftungen sollen über die entsprechende Auszeichnung im Programm-Code mit den Eingabefeldern verknüpft sein, zu denen sie gehören.
 
-Visuell voneinander abgesetzte oder logisch miteinander verbundene Gruppen von
-Formularelementen sind z. B. mithilfe von Überschriften sinnvoll strukturiert.
+Visuell voneinander abgesetzte oder logisch miteinander verbundene Gruppen von Formularelementen sind z. B. mithilfe von Überschriften sinnvoll strukturiert.
 
-Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das
-Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte
-die Verfügbarkeit sichergestellt werden.
+Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte die Verfügbarkeit sichergestellt werden.
 
 == Warum wird das geprüft?
 
-Die Verknüpfung von Beschriftungen mit den zugeordneten Eingabefeldern stellt
-sicher, dass der Aufbau einer Software-Ansicht unabhängig von der
-Präsentation festgelegt und zugänglich ist:
+Die Verknüpfung von Beschriftungen mit den zugeordneten Eingabefeldern stellt sicher, dass der Aufbau einer Software-Ansicht unabhängig von der Präsentation festgelegt und zugänglich ist:
 
-* Der Screenreader liest die Beschriftungen vor, wenn der Benutzer durch die
-  Formularelemente wandert.
-* Das jeweils aktive Label kann deutlich hervorgehoben werden ggf. kann eine
-  Hilfstechnologie beim Antippen / Anklicken des Labels den Fokus auf das
-  zugehörige Formularelement setzen.
+* Der Screenreader liest die Beschriftungen vor, wenn der Benutzer durch die Formularelemente wandert.
+* Das jeweils aktive Label kann deutlich hervorgehoben werden ggf. kann eine Hilfstechnologie beim Antippen / Anklicken des Labels den Fokus auf das zugehörige Formularelement setzen.
 
-Auch wenn die Beschriftungen der Formularelemente korrekt ausgezeichnet sind so
-kann es sein, dass diese nicht ausreichen und z. B. eine gemeinsame
-Überschrift für das Verständnis notwendig ist.
+Auch wenn die Beschriftungen der Formularelemente korrekt ausgezeichnet sind so kann es sein, dass diese nicht ausreichen und z. B. eine gemeinsame Überschrift für das Verständnis notwendig ist.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software-Ansicht Formularelemente
-enthält.
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht Formularelemente enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
-Ob die Semantik im Quelltext der Anwendung korrekt gesetzt ist, kann in der
-Regel nicht ohne weiteres festgestellt werden.
-Hier muss dann ein Blackbox-Test z. B. mittels Screenreader durchgeführt
-werden.
-Zu beachten ist, das hier auch gruppierte Bedienelemente ggf. eine
-Gruppenbeschriftung benötigen und diese muss auch vom Screenreader ausgegeben
-werden können.
+Ob die Semantik im Quelltext der Anwendung korrekt gesetzt ist, kann in der Regel nicht ohne weiteres festgestellt werden. Hierfür muss ein Test mittels Screenreader durchgeführt werden. Zu beachten ist, dass gruppierte Bedienelemente ggf. eine Gruppenbeschriftung benötigen und diese dann auch vom Screenreader ausgegeben werden muss.
 
 . Screenreader starten
 . Zu testende App starten
-. Über Formularelemente navigieren bzw. diese direkt antippen und prüfen, ob
-  dessen Beschriftungen *und* Gruppenbeschriftungen korrekt
-  ausgegeben werden.
+. Zu Formularelementen per Wischgesten navigieren bzw. diese direkt antippen und prüfen, ob dessen Beschriftungen bzw. gegebnenfalls Gruppenbeschriftungen bei gruppierten Elementen korrekt ausgegeben werden.
 
-=== Hinweise
+=== 3. Hinweise
 
-==== Kombinierte Eingabeelemente
+==== 3.1 Kombinierte Eingabeelemente
 
-Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine
-zugeordnete Beschriftung.
-In diesem Fall sollen Elemente mit einer passenden (nicht sichtbaren)
-Bezeichnung für Screenreader versehen werden.
-Beispiel:
-In einem Formular werden für die Eingabe eines Datums drei Auswahllisten
-angeboten (Tag, Monat und Jahr).
-Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum.
-Die Auswahllisten für Tag, Monat und Jahr sind mit einer erklärenden
-Bezeichnung für Screenreader versehen.
-Diese Bezeichnungen sind dann nur von der Hilfstechnologie auswertbar, die
-entsprechenden Bezeichnungen sind nicht sichtbar.
+Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einer passenden (nicht sichtbaren) Bezeichnung für Screenreader versehen werden.
 
-Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button
-besteht, ist oftmals keine sichtbare Beschriftung notwendig.
-Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander
-positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die
-Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen").
-Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen
-eine aussagekräftige (nicht sichtbare) Bezeichnung für den Screenreader
-haben, da für Screenreader-Nutzer der nachfolgende Button nicht
-gleichermaßen als Beschriftung taugt.
+Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einer erklärenden Bezeichnung für Screenreader versehen. Diese Bezeichnungen sind dann nur von der Hilfstechnologie auswertbar, die entsprechenden Bezeichnungen sind nicht sichtbar.
 
-==== Verhindern des separaten vorlesens von Label und Bedienelement
+Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen"). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen eine aussagekräftige (nicht sichtbare) Bezeichnung für den Screenreader haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
 
-In der Praxis kommt es immer wieder vor, dass Label und dessen Bedienelement
-getrennt voneinander vorgelesen werden.
-Dies ist meist dann der Fall, wenn Bedienelement und Label keine
-programmatische Verbindung haben.
-Um die Verbindung programmatisch herzustellen bieten die Plattformen
-unterschiedliche Mögglichkeiten an.
+==== 3.2 Verhindern des separaten Vorlesens von Label und Bedienelement
+
+In der Praxis kommt es immer wieder vor, dass Label und dessen Bedienelement getrennt voneinander vorgelesen werden. Dies ist meist dann der Fall, wenn Bedienelement und Label keine programmatische Verbindung haben. Um die Verbindung programmatisch herzustellen bieten die Plattformen unterschiedliche Mögglichkeiten an.
 In Apples iOS / iPadOS können diese Elemente
 https://developer.apple.com/documentation/uikit/accessibility/delivering_an_exceptional_accessibility_experience#3542986[
 gruppiert werden], sodass sie für den Screenreader als eine Einheit agieren.
 Für Android gibt es dazu https://developer.android.com/guide/topics/ui/accessibility/principles[
 vergleichbare Ansätze].
 
-=== Bewertung
+=== 3. Bewertung
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
-* Beschriftungen sind nicht korrekt mit den dazugehörigen Eingabefeldern
-  verknüpft.
+* Beschriftungen sind nicht korrekt mit den dazugehörigen Eingabefeldern verknüpft. Es wird bei Fokussierung des Feldes auch kein Name ausgegeben, der das Eingabefeld hinreichend beschreibt.
 
 == Einordnung des Prüfschritts
 
