@@ -33,12 +33,8 @@ Wenn es für die Barrierefreiheit relevante Funktionen oder Einstellungsmöglich
 ** Hinweise auf unterstützte Umgebungen, falls es Einschränkungen bei der Nutzbarkeit mit assistiven Technologien gibt
 ** Deaktivierung von Bewegungen oder automatischem Abspielen von Video- oder Audio-Inhalten
 
-
-
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
-
-
 
 
 == Quellen
