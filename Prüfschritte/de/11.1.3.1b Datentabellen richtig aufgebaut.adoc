@@ -115,7 +115,7 @@ Für die Prüfung gilt:
 
 Auch bei Spaltenüberschriften kann auf die visuelle Hervorhebung verzichtet werden. Die vorstehenden Regeln sind dann in der gleichen Weise auf sie anzuwenden.
 
-===== 3.2 Tabellen mit eingesparten Überschriften
+==== 3.2 Tabellen mit eingesparten Überschriften
 
 Überschriften sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte steht nicht nur der Betrag, sondern auch das Währungszeichen.
 
