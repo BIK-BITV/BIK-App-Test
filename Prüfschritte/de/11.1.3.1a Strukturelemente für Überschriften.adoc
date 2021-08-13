@@ -41,13 +41,13 @@ hervorzuheben.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn es in der App Inhalte gibt, die durch
 Überschriften strukturiert werden können.
 Das ist bei informationsorientierten Apps in der Regel der Fall.
 
-=== Prüfung
+=== 2. Prüfung
 
 . App mit zu prüfender Ansicht starten
 . Screenreader starten
@@ -68,37 +68,29 @@ Das ist bei informationsorientierten Apps in der Regel der Fall.
   unterschiedlicher Schriftgrößen eingesetzt wird bzw.
   die Auszeichnung missbräuchlich eingesetzt wird.
 
-=== Hinweise
+=== 3. Hinweise
 
-Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil
-der Überschriften den jeweiligen Inhalten angemessen sind.
+Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil der Überschriften den jeweiligen Inhalten angemessen sind.
 
-App-Entwickler haben derzeit keine Möglichkeit unterschiedliche
-Überschriftsebenen in nativen Ansichten auszuzeichnen.
-Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht*
-negativ bewertet.
+App-Entwickler haben derzeit keine Möglichkeit unterschiedliche Überschriftsebenen in nativen Ansichten auszuzeichnen. Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht* negativ bewertet.
 
-Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die
-Überschriftenebene ausgegeben, handelt es sich um ein Web-View, die auf HTML
-basiert.
-Überschriften sollten dann korrekt geschachtelt sein (h1 gefolgt von h2
-gefolgt von h3, und so weiter), um die Gliederung der Inhalte abzubilden.
-Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies
-durch die Gliederung der Inhalte gerechtfertigt ist.
+Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein Web-View, die auf HTML
+basiert. Überschriften sollten dann korrekt geschachtelt sein (h1 gefolgt von h2 gefolgt von h3, und so weiter), um die Gliederung der Inhalte abzubilden.
+Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
 
-=== Bewertung
+=== 4. Bewertung
 
-*Erfüllt:*
+==== Erfüllt:
 
 * Alle Inhalte der Seite sind über die Überschriften zugänglich.
 
-*Teilweise erfüllt:*
+==== Teilweise erfüllt:
 
 * Es werden Auszeichnungen für Überschriften eingesetzt, die Verschachtelung
   der Hierarchie-Ebenen ist aber irreführend, entspricht nicht der
   inhaltlichen Gliederung (Nur bei Web-Views, siehe <<Hinweise>>).
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 * In der App-Ansicht werden mehrere klar abgrenzbare Inhalte behandelt, es
   wurde aber nur pro forma eine Hauptüberschrift ausgezeichnet.
