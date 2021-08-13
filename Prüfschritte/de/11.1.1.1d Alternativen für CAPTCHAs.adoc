@@ -32,9 +32,9 @@ Der Prüfschritt ist anwendbar, wenn CAPTCHAs vorhanden sind.
 Die Leserlichkeit der Zeichenfolge in einem bildbasierten CAPTCHA ist nicht
 Teil der Prüfung und wird nicht bewertet.
 
-=== Prüfung
+=== 2. Prüfung
 
-*Prüfung der Alternativtexte von CAPTCHA-Bildern*
+==== 2.1 Prüfung der Alternativtexte von CAPTCHA-Bildern
 
 . App mit zu prüfender Ansicht starten.
 . Prüfen ob CAPTCHAs eingesetzt werden.
@@ -46,26 +46,26 @@ Teil der Prüfung und wird nicht bewertet.
   Wenn eine CAPTCHA-Alternative verfügbar ist, sollte der Alternativtext
   außerdem sagen, wie diese zu finden ist.
 
-*Vorhandensein von CAPTCHA-Alternativen*
+==== 2.2 Vorhandensein von CAPTCHA-Alternativen
 
 Prüfen, ob im unmittelbaren Kontext des bildbasierten CAPTCHAs oder
 Audio-Captchas eine Alternative angeboten wird.
 
-=== Hinweise
+=== 3. Hinweise
 
 CAPTCHAs sind generell problematisch, da jede Form von CAPTCHA für manche
 Nutzer mit Behinderungen unzugänglich ist (siehe die WCAG 2.0 Note on CAPTCHA).
 
-=== Bewertung
+=== 4. Bewertung
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
 * Alternativtexte nennen nicht den Zweck des CAPTCHAs.
 * Ein Alternativ-CAPTCHA ist vorhanden, aber es wird darauf nicht im
   Alternativtext verwiesen oder es ist nicht im unmittelbaren Kontext
   zugänglich.
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 * Eine Alternative zu bildbasierten CAPTCHAs oder Audio-Captchas ist nicht
   vorhanden.
