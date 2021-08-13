@@ -14,11 +14,11 @@ Entwickler müssen Grafiken mit passenden Text ergänzen, damit Hilfsmittelsoftw
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn Grafiken als Bedienelemente (Menüs, Logos, Teaserbilder oder Schaltflächen) eingesetzt werden.
 
-=== Prüfung
+=== 2. Prüfung
 
 Falls ein Bedienelement aus einer (Symbol-)Grafik sowie einem Text besteht, der den Zweck des Bedienelements wiedergibt, dann gilt dieser Text als Alternative für die Grafik. Es ist dann ggf. sinnvoll, die Grafik selbst mit einer geeigneten Technik für Screenreader zu verstecken. Handelt es sich dabei um eine Grafik ohne visuell sichtbaren Text (alleinstehendes Icon oder Symbol), so sollte eine Textalternative vorhanden sein, die das Ziel bzw. die Aktion, die ausgeführt wird, beschreibt. In der Praxis ist dies Text, der über ein Accessibility-Label bereitgestellt wird.
 
@@ -54,7 +54,7 @@ Generell gilt:
 * Alternativtexte sollen kurz sein.
 * Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt werden (etwa direkt darunter, in einem Ausklappbereich, oder auch in einem Link zu einer Ansicht, die die Alternative enthält).
 
-=== Hinweise
+=== 3. Hinweise
 
 ==== Alternativtexte für redundant verlinkte Abbildungen
 
@@ -77,7 +77,7 @@ ifndef::env_embedded[]
   alt-Attribute für Layout-Grafiken>>.
 endif::env_embedded[]
 
-=== Bewertung
+=== 4. Bewertung
 
 *Nicht voll erfüllt:*
 
