@@ -61,11 +61,12 @@ transportiert .
 Wenn das Video wichtige über den Textinhalt hinausgehende Informationen
 trägt, ist das Video keine Medienalternative, es braucht Untertitel und muss
 auch auf Audiodeskription geprüft werden (siehe auch Prüfschritt
-ifdef::env_embedded[11.1.2.5 "Audiodeskription für Videos".]
+ifdef::env_embedded[11.1.2.5 "Audiodeskription für Videos"]
 ifndef::env_embedded[]
   <<11.1.2.5 Audiodeskription für Videos.adoc#,11.1.2.5 Audiodeskription für
-  Videos>>.
+  Videos>>
 endif::env_embedded[]
+).
 
 === 4. Bewertung
 
