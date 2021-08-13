@@ -35,11 +35,11 @@ Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden
 
 === 2 Prüfung
 
-==== 2.1 Tabellen für tabellarische Daten verwendet?
+==== 2.1 Werden Tabellen für tabellarische Daten verwendet?
 
 Prüfen, ob für tabellarische Daten tatsächlich Tabellensemantik verwendet wird. Gibt der Screenreader beim Antippen der Tabelle "Tabelle" o. ä. aus?
 
-==== 2.2 Prüfung des Aufbaus von Tabellen:
+==== 2.2 Prüfung des Aufbaus von Tabellen
 
 Prüfen, ob die Tabelle strukturell sinnvoll aufgebaut ist. Schwierigkeiten entstehen in den meisten Fällen dadurch, dass die Tabelle auch Layoutzwecken dient, das Tabellengitter also für die Anordnung von Inhalten auf dem Bildschirm genutzt wird. Problematisch können zum Beispiel sein:
 
@@ -76,7 +76,7 @@ Gezielt untersucht werden sollen Auffälligkeiten:
 Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise, unabhängig von ihren Nachbarzellen, nur zusammen mit den beiden
 Überschriften benutzbar sind. Ist das der Fall? Dann ist die Tabelle richtig aufgebaut und per Screenreader benutzbar.
 
-==== Prüfung der Auszeichnung von Tabellen:
+==== 2.3 Prüfung der Auszeichnung von Tabellen
 
 . App mit zu prüfender Ansicht starten.
 . Prüfen, ob Tabellen in der Ansicht genutzt werden.
