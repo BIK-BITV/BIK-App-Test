@@ -16,7 +16,7 @@ Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt werden können, we
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn informative Grafiken oder, Bilder, Video- oder Audio-Dateien oder Multimedia-Objekte vorhanden sind.
 
@@ -35,14 +35,14 @@ zu beziehen. Der Alternativtext muss aber nicht expliziter sein als das, was fü
 
 Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente vorhanden sind.
 
-=== Prüfung
+=== 2. Prüfung
 
 . App mit zu prüfender Ansicht starten.
 . Prüfen ob unverlinkte informationstragende Grafiken oder Multimedia-Inhalte vorhanden sind.
 . Screenreader starten und Fokus auf jede informationstragende Grafik setzen.
 . Prüfen, ob dieser bei den entsprechenden Elementen auf dem Bildschirm aussagekräftige Alternativtexte ausgibt.
 
-=== Hinweise
+=== 3. Hinweise
 
 ==== Angemessene Alternativtexte
 
@@ -74,7 +74,7 @@ Zum Kontext einer Grafik oder eines Bildes gehört: der dazugehörige (vorangehe
 
 Ein kurzer Alternativtext mit Bezeichnung des Bildes ist auch bei Nutzung von Textalternativen im Kontext erforderlich. Der Alternativtext sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist, er macht klar, worauf sich die Erläuterung im Kontext bezieht.
 
-*Angemessenheit:*
+==== Beurteilung der Angemessenheit ====
 
 Um die Angemessenheit des Alternativtextes einschätzen zu können, muss der Alternativtext auf die Grafik beziehungsweise das Objekt bezogen werden, zu dem er gehört.
 Erforderlich ist also die wechselnde Betrachtung von Grafik/Objekt und zugehörigem Alternativtext.
