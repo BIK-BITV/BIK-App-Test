@@ -27,13 +27,13 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 geprüft.
 
-=== Prüfung auf Untertitel
+=== 2. Prüfung
 
-Das Video wird in der App oder in einem externen, vom Format abhängigen Video-Player abgespielt.
+. Das Video wird in der App oder in einem externen, vom Format abhängigen Video-Player abgespielt.
 
-Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden oder zugeschaltet werden können.
+. Es wird geprüft, ob parallel zum Video Untertitel automatisch angezeigt werden oder zugeschaltet werden können.
 
-Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel dem hörbaren Inhalt entsprechen. Dies betrifft auch akustische Ereignisse, die für das Verständnis des Inhalts wichtig sind.
+. Wenn Untertitel vorhanden sind, wird eine kurze Sequenz des Videos mit Untertiteln angesehen, um stichprobenartig festzustellen, ob die Untertitel dem hörbaren Inhalt entsprechen. Dies betrifft auch akustische Ereignisse, die für das Verständnis des Inhalts wichtig sind.
 
 === Bewertung
 
