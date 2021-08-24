@@ -50,7 +50,7 @@ Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind, müsse
 
 ==== Erfüllt:
 
-* Alle wesentlichen Inhalte und Funktionen sind im Prinzip erreichbar und bedienbar.
+* Alle wesentlichen Inhalte und Funktionen sind im Prinzip mit der Tastatur erreichbar und bedienbar.
 
 ==== Nicht erfüllt:
 
@@ -73,7 +73,7 @@ ifndef::env_embedded[]
   <<11.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,11.2.4.7 Aktuelle Position
   des Fokus deutlich>>
 endif::env_embedded[]
-* Die Sinnvolle Fokusreihenfolge wird in
+* Die sinnvolle Fokusreihenfolge wird in
 ifdef::env_embedded[11.2.4.3 "Schlüssige Reihenfolge bei der Tastaturbedienung"]
 ifndef::env_embedded[]
 <<11.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung.adoc#,11.2.4.3
