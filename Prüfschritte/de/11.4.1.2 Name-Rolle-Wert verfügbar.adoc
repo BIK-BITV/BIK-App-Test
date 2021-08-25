@@ -12,9 +12,9 @@ Bei Software werden dazu die Accessibility-Schnittstellen des jeweiligen Betrieb
 
 == Warum wird das geprüft?
 
-Für sehende Nutzer sind Bedienelemente in der Regel leicht erkannbar und verständlich, wenn sie konventionell, also häufig in gleicher Weise eingesetzt sind. Beispiele wären etwa ein Menü-Tasten aus drei horizontalen Strichen (das sogenannte "Hamburger"-Icon) oder ein Lupen-Icon zum Auslösen einer Suche. Bei vielen Tasten und Eingabefeldern macht die Beschriftung das Element verständlich. Für Hilfsmittel-Nutzende ist es entscheidend, dass Namen, Rollen und Werte von Bedienelementen auch programmatisch verfügbar sind. Wenn ein Element - etwa ein grafischer Menü-Schalter - erreichwird, wird dann zum Beispiel an Screenreader-Nutzende ausgegeben, "Navigationsmenü, Schalter, reduziert". Navigationsmenü ist der hinterlegte Name, Schalter die Rolle, und reduziert der Wert bzw. Zustand. Nutzende wissen dann, dass die Aktivierung dieses Elements ein Navigationsmenü öffnen wird. 
+Für sehende Nutzer sind Bedienelemente in der Regel leicht erkannbar und verständlich, wenn sie konventionell, also häufig in gleicher Weise eingesetzt sind. Beispiele wären etwa ein Menü-Tasten aus drei horizontalen Strichen (das sogenannte "Hamburger"-Icon) oder ein Lupen-Icon zum Auslösen einer Suche. Bei vielen Tasten und Eingabefeldern macht die Beschriftung das Element verständlich. Für Hilfsmittel-Nutzende ist es entscheidend, dass Namen, Rollen und Werte von Bedienelementen auch programmatisch verfügbar sind. Wenn ein Element - etwa ein grafischer Menü-Schalter - erreicht wird, wird an Screenreader-Nutzende ausgegeben: "Navigationsmenü, Schaltfläche, reduziert". "Navigationsmenü" ist der hinterlegte Name, "Schaltfläche" die Rolle, und "reduziert" der Wert bzw. Zustand. Nutzende wissen dann, dass die Aktivierung dieses Elements ein Navigationsmenü öffnen wird. 
 
-Wenn Bedienelemente mit den von der Entwicklungsumgebung bereitgestellten Standard-Elementen umgesetzt werden, sind Rollen und Zustände in der Regel ohne weiteres Zutun programmatisch verfügbar. So sollten in iOS etwa Textfelder über das Standardelement `UITextField` ungesetzt werden und Schalter als `UIButton`. Werden andere als die Standardelemente eingesetzt, etwa ein Bild, das als Schalter eingesetzt wird, gibt es je nach Plattform geeignete Wege, um Namen, Rollen (die Art des Bedienelements) und Werte bzw. typisches Verhalten des Elements programmatisch zu setzen. Wenn das geschieht, ist die Semantik auch bei nicht-visueller Nutzung verfügbar, z. B. beim Einsatz des systemseitigen Screenreaders. Bei IOS dienen dazu etwa das Attribut `AccessibilityLabel` zur Hinterlegung eines Namens und die Accessibility Traits zur Definition der Rolle und des Verhaltens. Bei Android leistet dies das `contentDescription`-Attribut. So kann das Betriebssystem diese Werte an Hilfstechnologien wie Screenreader weiterreichen.
+Wenn Bedienelemente mit den von der Entwicklungsumgebung bereitgestellten Standard-Schnittstellen-Elementen umgesetzt werden, sind Rollen und Zustände in der Regel ohne weiteres Zutun programmatisch verfügbar. So sollten in iOS etwa Textfelder über das Standardelement `UITextField` umgesetzt werden und Schalter als `UIButton`. Werden andere als die Standardelemente eingesetzt, etwa ein Bild, das als Schalter eingesetzt wird, gibt es je nach Plattform geeignete Wege, um Namen, Rollen (die Art des Bedienelements) und Werte bzw. typisches Verhalten des Elements programmatisch zu setzen. Wenn das geschieht, ist die Semantik auch bei nicht-visueller Nutzung verfügbar, z. B. beim Einsatz des systemseitigen Screenreaders. Bei IOS dienen dazu etwa das Attribut https://developer.apple.com/documentation/objectivec/nsobject/1615181-accessibilitylabel[`AccessibilityLabel`] zur Hinterlegung eines Namens und die https://developer.apple.com/documentation/objectivec/nsobject/uiaccessibility/accessibility_traits[Accessibility Traits] zur Definition der Rolle und des Verhaltens. Bei Android leistet dies das https://developer.android.com/guide/topics/ui/accessibility/apps#describe-ui-element[`contentDescription`]-Attribut. So kann das Betriebssystem diese Werte an Hilfstechnologien wie Screenreader weiterreichen.
 
 == Wie wird geprüft?
 
@@ -33,8 +33,7 @@ Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus 
 +
 Der Name ist dabei der Name des Bedienelements und ist meist gleichlautend mit dem Label des Bedienelements. Z. B. "Nachname" für ein Eingabefeld.
 +
-Zu den Rollen gehören u. a. "Taste" bzw. "Schaltfläche", "Umschalttaste", "Eingabefeld", "Suchfeld", "Ausklappliste",
-"Checkbox".
+Zu den Rollen gehören u. a. "Taste" bzw. "Schaltfläche", "Eingabefeld" bzw. "Bearbeitungsfeld", "Suchfeld", "Ausklappliste", und "Markierungsfeld" bzw. "Kästchen".
 +
 Der Wert beschreibt z. B. den Inhalt des Bedienelements z. B. "Müller" bei einem Eingabefeld für Nachnamen. Zu den Werten des Bedienelements gehört auch der aktuelle Status, z. B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
 
@@ -70,11 +69,8 @@ offengelegt werden könnten oder sollten (z.B. eine Liste der verfügbaren
 Aktionen für eine bestimmte Komponente der Benutzeroberfläche und ein Mittel
 zur programmatischen Ausführung einer der aufgeführten Aktionen).
 
-Bei selbsgestalteten Bedienelementen (custom controls) müssen Entwickler
-plattformspezifische Methoden und Schnittstellen verwenden, um diese Elemente
-barrierefrei umzusetzen.
-Unter iOS / iPadOS sind dazu u. a.
-https://developer.apple.com/documentation/objectivec/nsobject/uiaccessibility/accessibility_traits[
+Bei selbstgestalteten Bedienelementen (custom controls) müssen Entwickler plattformspezifische Methoden und Schnittstellen verwenden, um diese Elemente barrierefrei umzusetzen.
+Unter iOS / iPadOS sind dazu u. a. https://developer.apple.com/documentation/objectivec/nsobject/uiaccessibility/accessibility_traits[
 Accessibility Traits] zu verwenden.
 
 === Bewertung
