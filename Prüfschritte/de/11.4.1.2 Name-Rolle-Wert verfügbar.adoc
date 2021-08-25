@@ -148,4 +148,5 @@ endif::env_embedded[]
 * https://developer.apple.com/documentation/swiftui/accessibilitytraits[AccessibilityTraits]
 
 ==== Android Developer: ====
-*  https://developer.android.com/reference/android/accessibilityservice/package-summary[android.accessibilityservice]
+* https://developer.android.com/guide/topics/ui/accessibility/apps[Make apps more accessible]
+* https://developer.android.com/reference/android/accessibilityservice/package-summary[android.accessibilityservice]
