@@ -1,16 +1,16 @@
-= Prüfschritt 11.1.1.1a Alternativtexte für Bedienelemente
+= Prüfschritt 11.1.1.1a Textalternativen für Bedienelemente
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Grafische Bedienelemente müssen mit Alternativtexten versehen werden. Alternativtexte für verlinkte Grafiken (Menüs, Logos) oder Teaserbilder sollen das Ziel des Links bezeichnen. Alternativtexte für grafische Schaltflächen (Buttons) sollen die Aktion bezeichnen, die der Button auslöst.
+Grafische Bedienelemente müssen mit Textalternativen versehen werden. Textalternativen für verlinkte Grafiken (Menüs, Logos) oder Teaserbilder sollen das Ziel des Links bezeichnen. Textalternativen für grafische Schaltflächen (Buttons) sollen die Aktion bezeichnen, die der Button auslöst.
 
 == Warum wird das geprüft?
 
 Für Screenreader-Nutzende sind Grafiken nicht zugänglich. Die Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik ersetzen, diese beschreiben und insbesondere das Ziel bzw. die Aktion bezeichnen.
 
-Entwickler müssen Grafiken mit passenden Text ergänzen, damit Hilfsmittelsoftware den Text anstelle der Grafik z. B. in Braille und Sprache ausgeben kann. Das UI-Element wird dabei um ein Accessibility-Label ergänzt. Bei komplexen Informations-Grafiken soll ein Alternativtext oder eine andere Alternative (z.B. die tabellarische Ansicht eines Diagramms) für nicht-sehende Nutzende einen möglichst äquivalenten Informationsgehalt vermitteln.
+Entwicklerinnen und Entwickler müssen Grafiken mit passenden Text ergänzen, damit Hilfsmittelsoftware den Text anstelle der Grafik z. B. in Braille und Sprache ausgeben kann. Das UI-Element wird dabei um ein Accessibility-Label ergänzt. Bei komplexen Informations-Grafiken soll ein Textalternative oder eine andere Alternative (z.B. die tabellarische Ansicht eines Diagramms) für nicht-sehende Nutzende einen möglichst äquivalenten Informationsgehalt vermitteln.
 
 == Wie wird geprüft?
 
@@ -22,44 +22,44 @@ Der Prüfschritt ist anwendbar, wenn Grafiken als Bedienelemente (Menüs, Logos,
 
 Falls ein Bedienelement aus einer (Symbol-)Grafik sowie einem Text besteht, der den Zweck des Bedienelements wiedergibt, dann gilt dieser Text als Alternative für die Grafik. Es ist dann ggf. sinnvoll, die Grafik selbst mit einer geeigneten Technik für Screenreader zu verstecken. Handelt es sich dabei um eine Grafik ohne visuell sichtbaren Text (alleinstehendes Icon oder Symbol), so sollte eine Textalternative vorhanden sein, die das Ziel bzw. die Aktion, die ausgeführt wird, beschreibt. In der Praxis ist dies Text, der über ein Accessibility-Label bereitgestellt wird.
 
-Handelt es sich um eine informationstragende Grafik, sollte diese im Alternativtext bzw. im unmittelbaren Kontext beschrieben sein. Bei interaktiven Grafiken soll (ggf. zusätzlich) das Ziel bzw. die hinterlegte Funktion angeben sein.
+Handelt es sich um eine informationstragende Grafik, sollte diese in der Textalternative bzw. im unmittelbaren Kontext beschrieben sein. Bei interaktiven Grafiken soll (ggf. zusätzlich) das Ziel bzw. die hinterlegte Funktion angeben sein.
 
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus auf jedes grafische Bedienelement setzen.
-. Prüfen, ob für die Bedienelemente Alternativtexte ausgegeben werden und diese (auch) das Ziel bzw. die Funktion des Bedienelements beschreiben.
+. Prüfen, ob für die Bedienelemente Textalternativen ausgegeben werden und diese (auch) das Ziel bzw. die Funktion des Bedienelements beschreiben.
 . Falls die Grafik zusammen mit aussagekräftigem Text als Bedienelement auftaucht, prüfen ob die Grafik vor dem Screenreader versteckt wird (keine unnötigen und redundanten Ausgaben durch den Screenreader aufgrund der Grafik). 
-. Bei Informationstragenden Grafiken wird ein äquivalenter Alternativtext ausgegeben oder ist im unmittelbaren Kontext der Grafik verfügbar.
+. Bei Informationstragenden Grafiken wird ein äquivalente Textalternative ausgegeben oder ist im unmittelbaren Kontext der Grafik verfügbar.
 
 Gleichwertige (äquivalente) Alternativtexte:
 
-Entscheidend ist: die App soll benutzbar sein, wenn Grafiken, oder Bilder oder Objekte durch die entsprechenden Alternativtexte oder Textalternativen ersetzt
+Entscheidend ist: die App soll benutzbar sein, wenn Grafiken, oder Bilder oder Objekte durch die entsprechenden Textalternativen ersetzt
 sind.
 
 In der Regel bedeutet das:
 
-* Bei Schriftgrafiken soll der Alternativtext den Text der Schriftgrafik wiederholen.
-* Bei Symbolen soll der Alternativtext das Symbol nicht beschreiben, sondern ersetzen. Also zum Beispiel der Alternativtext "Suchen" für ein Lupen-Symbol, das einen Dialog mit Sucheingabefeld öffnet.
-* Bei Objekten, die nicht angezeigt werden können, sollen der Alternativtext eine kurze Beschreibung oder Identifizierung bieten. Sinnvoll ist es, dass eine
+* Bei Schriftgrafiken soll die Textalternative den Text der Schriftgrafik wiederholen.
+* Bei Symbolen soll die Textalternative das Symbol nicht beschreiben, sondern ersetzen. Also zum Beispiel die Textalternative "Suchen" für ein Lupen-Symbol, das einen Dialog mit Sucheingabefeld öffnet.
+* Bei Objekten, die nicht angezeigt werden können, sollen die Textalternative eine kurze Beschreibung oder Identifizierung bieten. Sinnvoll ist es, dass eine
   Begründung für das Nicht-Laden des Objekts ausgegeben wird. In diesem Fall ist es auch ausreichend, wenn das Objekt etwa durch eine Überschrift im unmittelbaren Kontext identifiziert wird.
 
 Bei verlinkten Abbildungen gibt es folgende Möglichkeiten:
 
-* Beschreibung des abgebildeten Gegenstandes in den Alternativtext (wenn der abgebildete Gegenstand wichtig ist und daraus das Linkziel hervorgeht, zum
+* Beschreibung des abgebildeten Gegenstandes in der Textalternative (wenn der abgebildete Gegenstand wichtig ist und daraus das Linkziel hervorgeht, zum
   Beispiel Logo)
-* Ziel des Links in den Alternativtext
-* Beschreibung des abgebildeten Gegenstandes und Ziel des Links im Alternativtext (wenn beides wichtig ist)
+* Ziel des Links in die Textalternative
+* Beschreibung des abgebildeten Gegenstandes und Ziel des Links in der Textalternative (wenn beides wichtig ist)
 
 Generell gilt:
 
-* Alternativtexte sollen kurz sein.
-* Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext, sondern im Kontext der Abbildung zur Verfügung gestellt werden (etwa direkt darunter, in einem Ausklappbereich, oder auch in einem Link zu einer Ansicht, die die Alternative enthält).
+* Textalternativen sollen kurz sein.
+* Ausführliche Beschreibungen von Abbildungen sollen nicht in die Textalternative, sondern im Kontext der Abbildung zur Verfügung gestellt werden (etwa direkt darunter, in einem Ausklappbereich, oder auch in einem Link zu einer Ansicht, die die Alternative enthält).
 
 === 3. Hinweise
 
-==== Alternativtexte für redundant verlinkte Abbildungen
+==== Textalternativen für redundant verlinkte Abbildungen
 
 * Wenn eine Abbildung und ein danebenstehender Textlink auf dasselbe Ziel verweisen, muss geprüft werden, ob es sich um ein zusammengesetztes Bedienelement handelt (d. h. der Screenreader liest Grafik und Text nicht separat vor).
-* Wenn es sich nicht um ein zusammengesetztes Bedienelement handelt, der Screenreader im Lesemodus also beide Elemente  nacheinander fokussiert und ausgibt, soll der Alternativtext der Grafik nicht einfach die nebenstehende Beschriftung (Linktext) wiederholen. Je nach Inhalt der Abbildung kann der Alternativtext dann 
+* Wenn es sich nicht um ein zusammengesetztes Bedienelement handelt, der Screenreader im Lesemodus also beide Elemente  nacheinander fokussiert und ausgibt, soll die Textalternative der Grafik nicht einfach die nebenstehende Beschriftung (Linktext) wiederholen. Je nach Inhalt der Abbildung kann die Textalternative dann 
 ** bei Schmuckgrafiken leer bleiben - das Element sollte ganz aus der Fokusreihenfolge entfernt werden
 ** bei verlinkten Abbildungen ggf. kurz den abgebildetem Inhalt nennen, in jedem Fall jedoch Zweck oder Ziel des Links bzw. der Funktion nennen (etwa: "öffnet vergrößerte Ansicht")
 * Vorteilhaft ist in jedem Fall die Gruppierung von Grafiken und Text, wenn die gleiche Funktion bzw. das gleiche Ziel aufgerufen wird.
@@ -81,13 +81,13 @@ endif::env_embedded[]
 
 *Nicht voll erfüllt:*
 
-* Der Alternativtext fehlt beim Link zum Seitenanfang oder bei einem anderen
+* Die Textalternative fehlt beim Link zum Seitenanfang oder bei einem anderen
   für die Benutzung der App weniger wichtigen Bedienelement.
-* Alternativtexte sind missverständlich, undeutlich oder extrem lang.
+* Textalternativen sind missverständlich, undeutlich oder extrem lang.
 
 *Nicht erfüllt:*
 
-* Der Alternativtext für ein wichtiges Bedienelement fehlt oder er ist
+* Die Textalternative für ein wichtiges Bedienelement fehlt oder er ist
   unbrauchbar.
 
 == Einordnung des Prüfschritts
@@ -101,7 +101,7 @@ auch noch eine andere Information vermitteln sollen.
 * Einzige Ausnahme:
   Grafik und danebenstehender Text sind ein zusammengehöriger Link
   (zusammengesetztes Bedienelement).
-  Der Alternativtext bezieht sich dann nur auf die Grafik, die Prüfkriterien
+  Die Textalternative bezieht sich dann nur auf die Grafik, die Prüfkriterien
 ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
   <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
@@ -115,7 +115,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
   sind anzuwenden.
 
-* Alternativtexte für grafische Überschriften:
+* Textalternativen für grafische Überschriften:
   siehe Prüfschritt
 ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte".]
 ifndef::env_embedded[]
@@ -139,7 +139,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
   Thema.
   Dort geht es um die allgemeine Aussagekraft, in diesem Prüfschritt 11.1.1.1a
-  geht es dagegen nur um die Gleichwertigkeit von Alternativtext und grafischem
+  geht es dagegen nur um die Gleichwertigkeit von Textalternative und grafischem
   Link.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
