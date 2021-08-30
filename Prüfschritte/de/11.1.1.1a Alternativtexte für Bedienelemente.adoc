@@ -30,7 +30,7 @@ Handelt es sich um eine informationstragende Grafik, sollte diese in der Textalt
 . Falls die Grafik zusammen mit aussagekräftigem Text als Bedienelement auftaucht, prüfen ob die Grafik vor dem Screenreader versteckt wird (keine unnötigen und redundanten Ausgaben durch den Screenreader aufgrund der Grafik). 
 . Bei Informationstragenden Grafiken wird ein äquivalente Textalternative ausgegeben oder ist im unmittelbaren Kontext der Grafik verfügbar.
 
-Gleichwertige (äquivalente) Alternativtexte:
+Gleichwertige (äquivalente) Textalternativen:
 
 Entscheidend ist: die App soll benutzbar sein, wenn Grafiken, oder Bilder oder Objekte durch die entsprechenden Textalternativen ersetzt
 sind.
@@ -175,7 +175,7 @@ endif::env_embedded[]
 
 == Quellen
 
-=== Anleitungen zum Erstellen guter Alternativtexte
+=== Anleitungen zum Erstellen guter Textalternativen
 
 * W3C Web Accessibility Tutorials:
   https://www.w3.org/WAI/tutorials/images/[Images Concepts]
