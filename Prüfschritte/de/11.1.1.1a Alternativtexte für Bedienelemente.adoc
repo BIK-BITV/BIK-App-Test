@@ -84,8 +84,7 @@ endif::env_embedded[]
 
 *Nicht voll erfüllt:*
 
-* Die Textalternative fehlt beim Link zum Seitenanfang oder bei einem anderen
-  für die Benutzung der App weniger wichtigen Bedienelement.
+* Die Textalternative fehlt bei einem für die Benutzung der App weniger wichtigen Bedienelement.
 * Textalternativen sind missverständlich, undeutlich oder extrem lang.
 
 *Nicht erfüllt:*
