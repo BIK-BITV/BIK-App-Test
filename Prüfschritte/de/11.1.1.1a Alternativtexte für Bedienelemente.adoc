@@ -28,7 +28,7 @@ Handelt es sich um eine informationstragende Grafik, sollte diese in der Textalt
 
 ==== 2.1 Prüfung von Textalternativen
 
-Für eine Prüfung mit VoiceOver / iOS beachten Sie bitte die unter "3. Hinweise" aufgeführten Einstellungen.
+Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen ausgeschaltet sein (siehe "3. Hinweise").
 
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes grafische Bedienelement setzen.
