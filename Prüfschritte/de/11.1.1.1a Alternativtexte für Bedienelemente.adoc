@@ -20,17 +20,20 @@ Der Prüfschritt ist anwendbar, wenn Grafiken als Bedienelemente (Menüs, Logos,
 
 === 2. Prüfung
 
-Falls ein Bedienelement aus einer (Symbol-)Grafik sowie einem Text besteht, der den Zweck des Bedienelements wiedergibt, dann gilt dieser Text als Alternative für die Grafik. Es ist dann ggf. sinnvoll, die Grafik selbst mit einer geeigneten Technik für Screenreader zu verstecken. Handelt es sich dabei um eine Grafik ohne visuell sichtbaren Text (alleinstehendes Icon oder Symbol), so sollte eine Textalternative vorhanden sein, die das Ziel bzw. die Aktion, die ausgeführt wird, beschreibt. In der Praxis ist dies Text, der über ein Accessibility-Label bereitgestellt wird.
+Falls ein Bedienelement aus einer (Symbol-)Grafik sowie einem Text besteht, der den Zweck des Bedienelements wiedergibt, dann gilt dieser Text als Alternative für die Grafik. Es ist dann ggf. sinnvoll, die Grafik selbst mit einer geeigneten Technik für Screenreader zu verstecken. 
+
+Handelt es sich dabei um eine Grafik ohne visuell sichtbaren Text (alleinstehendes Icon oder Symbol), so sollte eine Textalternative vorhanden sein, die das Ziel bzw. die Aktion, die ausgeführt wird, beschreibt. In der Praxis ist dies Text, der über ein Accessibility-Label bereitgestellt wird.
 
 Handelt es sich um eine informationstragende Grafik, sollte diese in der Textalternative bzw. im unmittelbaren Kontext beschrieben sein. Bei interaktiven Grafiken soll (ggf. zusätzlich) das Ziel bzw. die hinterlegte Funktion angeben sein.
 
+==== 2.1 Prüfung von Textalternativen
 . App mit zu prüfender Ansicht öffnen.
-. Screenreader starten und Fokus auf jedes grafische Bedienelement setzen.
+. Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes grafische Bedienelement setzen.
 . Prüfen, ob für die Bedienelemente Textalternativen ausgegeben werden und diese (auch) das Ziel bzw. die Funktion des Bedienelements beschreiben.
 . Falls die Grafik zusammen mit aussagekräftigem Text als Bedienelement auftaucht, prüfen ob die Grafik vor dem Screenreader versteckt wird (keine unnötigen und redundanten Ausgaben durch den Screenreader aufgrund der Grafik). 
 . Bei Informationstragenden Grafiken wird ein äquivalente Textalternative ausgegeben oder ist im unmittelbaren Kontext der Grafik verfügbar.
 
-Gleichwertige (äquivalente) Textalternativen:
+==== 2.2 Gleichwertige (äquivalente) Alternativtexte
 
 Entscheidend ist: die App soll benutzbar sein, wenn Grafiken, oder Bilder oder Objekte durch die entsprechenden Textalternativen ersetzt
 sind.
