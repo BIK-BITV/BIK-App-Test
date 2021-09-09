@@ -27,6 +27,9 @@ Handelt es sich dabei um eine Grafik ohne visuell sichtbaren Text (alleinstehend
 Handelt es sich um eine informationstragende Grafik, sollte diese in der Textalternative bzw. im unmittelbaren Kontext beschrieben sein. Bei interaktiven Grafiken soll (ggf. zusätzlich) das Ziel bzw. die hinterlegte Funktion angeben sein.
 
 ==== 2.1 Prüfung von Textalternativen
+
+Für eine Prüfung mit VoiceOver / iOS beachten Sie bitte die unter "3. Hinweise" aufgeführten Einstellungen.
+
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes grafische Bedienelement setzen.
 . Prüfen, ob für die Bedienelemente Textalternativen ausgegeben werden und diese (auch) das Ziel bzw. die Funktion des Bedienelements beschreiben.
@@ -58,6 +61,12 @@ Generell gilt:
 * Ausführliche Beschreibungen von Abbildungen sollen nicht in die Textalternative, sondern im Kontext der Abbildung zur Verfügung gestellt werden (etwa direkt darunter, in einem Ausklappbereich, oder auch in einem Link zu einer Ansicht, die die Alternative enthält).
 
 === 3. Hinweise
+
+==== Einstellungen für die Prüfung mit VoiceOver / iOS
+Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:    
+
+- iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
+- iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern
 
 ==== Textalternativen für redundant verlinkte Abbildungen
 
