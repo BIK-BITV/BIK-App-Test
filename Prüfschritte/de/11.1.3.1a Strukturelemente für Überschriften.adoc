@@ -4,69 +4,37 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Überschriften müssen als solche ausgezeichnet sein und die Inhalte der
-App-Ansicht erschließen.
-Falls verschiedene Überschriftsebenen existieren, besteht grundsätzlich die
-Anforderung, dass die Strukturierung sinnvoll und nachvollziehbar ist.
+Überschriften müssen als solche ausgezeichnet sein und die Inhalte der App-Ansicht erschließen. Falls verschiedene Überschriftsebenen existieren, besteht grundsätzlich die Anforderung, dass die Strukturierung sinnvoll und nachvollziehbar ist.
 
-Aktuell können verschiedene Überschriftsebenen lediglich in Web-Views von Apps
-unter iOS / iPadOS und Android realisiert werden.
-In Nativen Ansichten können derzeit Überschriften nicht programmatisch in
-Ebenen unterteilt werden.
-Aufgrund technischer Begrenzungen können Entwickler hier nur ein UI-Element als
-einfache Überschrift auszeichnen.
+Aktuell können verschiedene Überschriftsebenen lediglich in Web-Views von Apps unter iOS / iPadOS und Android realisiert werden.
+In nativen Ansichten können derzeit Überschriften nicht programmatisch in Ebenen unterteilt werden.
+Aufgrund technischer Begrenzungen können Entwickler hier nur ein UI-Element als einfache Überschrift auszeichnen.
 
 == Warum wird das geprüft?
 
-Visuell können App-Inhalte durch Überschriften strukturiert werden.
-Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die
-Inhalte der Ansicht leicht überblicken und gezielt auf Inhalte zugreifen,
-die ihn interessieren.
+Visuell können App-Inhalte durch Überschriften strukturiert werden. Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der Ansicht leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.
 
-Benutzer, die diese visuelle Ordnung nicht nutzen können, zum Beispiel, weil
-sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind
-darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem
-Bildschirm zugänglich und nutzbar ist.
-Die Verwendung von Überschriften-Elementen ist dafür eine wesentliche
-Voraussetzung.
+Benutzer, die diese visuelle Ordnung nicht nutzen können, zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar ist. Die Verwendung von Überschriften-Elementen ist dafür eine wichtige Voraussetzung.
 
 So können Benutzer die Überschriften-Elemente anwenden:
 
 * Orientierung in umfangreicheren Ansichten
 * Von Überschrift zu Überschrift springen (Screenreader-Nutzer)
 
-Weitere Anpassungen sind denkbar, z. B. könnten Screenreader zukünftig
-Überschriften mit einer anderen Stimme vorlesen, um diese als solche
-hervorzuheben.
+Weitere Anpassungen sind denkbar, z.B. könnten Screenreader zukünftig Überschriften mit einer anderen Stimme vorlesen, um diese als solche hervorzuheben.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn es in der App Inhalte gibt, die durch
-Überschriften strukturiert werden können.
-Das ist bei informationsorientierten Apps in der Regel der Fall.
+Der Prüfschritt ist anwendbar, wenn es in der App Inhalte gibt, die durch visuelle Überschriften strukturiert werden. Das ist bei informationsorientierten Apps häufig der Fall.
 
 === 2. Prüfung
 
 . App mit zu prüfender Ansicht starten
 . Screenreader starten
-. Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind auch als
-  Überschriften ausgezeichnet sind.
-  Die Navigationseinstellung des Screenreaders wird auf "Überschriften"
-  gesetzt.
-  Anschließend navigiert man durch alle Überschriften der Ansicht und prüft
-  die Ausgabe des Screenreaders.
-  Falls es sich um eine korrekt ausgezeichnete Überschrift handelt, gibt der
-  Screenreader dies mit dem Wort "Überschrift" o. ä. aus.
-  Falls zwischen Überschriftsebenen unterschieden wird, wird die entsprechende
-  Ebene ebenfalls ausgegeben.
-  Es handelt sich dann um ein Web-View.
-  Die Hierarchie der eingesetzten Überschriftsebenen soll dann der Gliederung
-  der Inhalte entsprechen.
-. Prüfen, ob die Überschriftsauszeichnung lediglich zur Erzeugung
-  unterschiedlicher Schriftgrößen eingesetzt wird bzw.
-  die Auszeichnung missbräuchlich eingesetzt wird.
+. Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind, auch als Überschriften ausgezeichnet sind. Die Navigationseinstellung des Screenreaders wird auf "Überschriften" gesetzt. Anschließend navigiert man durch all Überschriften der Ansicht und prüft die Ausgabe des Screenreaders. Falls es sich um eine korrekt ausgezeichnete Überschrift handelt, gibt der Screenreader dies mit dem Wort "Überschrift" o.ä. aus. Falls zwischen Überschriftsebenen unterschieden wird (etwa bei Webviews), wird die entsprechende Ebene ebenfalls ausgegeben. Die Hierarchie der eingesetzten Überschriftsebenen soll dann der Gliederung der Inhalte entsprechen.
+. Prüfen, ob die Überschriftsauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich eingesetzt wird.
 
 === 3. Hinweise
 
@@ -74,26 +42,21 @@ Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil der
 
 App-Entwickler haben derzeit keine Möglichkeit unterschiedliche Überschriftsebenen in nativen Ansichten auszuzeichnen. Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht* negativ bewertet.
 
-Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein Web-View, die auf HTML
-basiert. Überschriften sollten dann korrekt geschachtelt sein (h1 gefolgt von h2 gefolgt von h3, und so weiter), um die Gliederung der Inhalte abzubilden.
-Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
+Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein Web-View, die auf HTML basiert. Überschriften sollten dann korrekt geschachtelt sein (h1 gefolgt von h2 gefolgt von h3, und so weiter), um die Gliederung der Inhalte abzubilden. Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
 
 === 4. Bewertung
 
 ==== Erfüllt:
 
-* Alle Inhalte der Seite sind über die Überschriften zugänglich.
+* Visuelle Überschriften auf der Seite sind asuch semantisch als Überschriften umgesetzt.
 
 ==== Teilweise erfüllt:
 
-* Es werden Auszeichnungen für Überschriften eingesetzt, die Verschachtelung
-  der Hierarchie-Ebenen ist aber irreführend, entspricht nicht der
-  inhaltlichen Gliederung (Nur bei Web-Views, siehe <<Hinweise>>).
+* Es werden Auszeichnungen für Überschriften eingesetzt, die Verschachtelung der Hierarchie-Ebenen ist aber irreführend, entspricht nicht der inhaltlichen Gliederung (Nur bei Web-Views, siehe <<Hinweise>>).
 
 ==== Nicht erfüllt:
 
-* In der App-Ansicht werden mehrere klar abgrenzbare Inhalte behandelt, es
-  wurde aber nur pro forma eine Hauptüberschrift ausgezeichnet.
+* Eine vorhandene visuelle Hauptüberschrift der Ansicht ist nicht als als Überschrift ausgezeichnet.
 
 == Informationen für Entwickler
 
