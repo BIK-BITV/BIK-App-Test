@@ -4,20 +4,20 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Beschriftungen sollen über die entsprechende Auszeichnung im Programm-Code mit den Eingabefeldern verknüpft sein, zu denen sie gehören.
+Beschriftungen müssen programmatisch mit den entsprechenden Formularelmenten verknüpft werden.
 
 Visuell voneinander abgesetzte oder logisch miteinander verbundene Gruppen von Formularelementen sind z. B. mithilfe von Überschriften sinnvoll strukturiert.
 
-Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte die Verfügbarkeit sichergestellt werden.
+Wenn das Verständnis der Beschriftung einzelner Formularelmente einer Gruppe nicht gegeben ist, so ist eine Gruppenbeschriftung erforderlich.
 
 == Warum wird das geprüft?
 
-Die Verknüpfung von Beschriftungen mit den zugeordneten Eingabefeldern stellt sicher, dass der Aufbau einer Software-Ansicht unabhängig von der Präsentation festgelegt und zugänglich ist:
+Die Verknüpfung von Beschriftungen mit den zugeordneten Eingabefeldern stellt sicher, dass die Struktur unabhängig von der Präsentation wahrnehmbar und zugänglich ist:
 
-* Der Screenreader liest die Beschriftungen vor, wenn der Benutzer durch die Formularelemente wandert.
+* Der Screenreader liest die Beschriftungen vor, wenn der Benutzer durch die Formularelemente navigiert.
 * Das jeweils aktive Label kann deutlich hervorgehoben werden ggf. kann eine Hilfstechnologie beim Antippen / Anklicken des Labels den Fokus auf das zugehörige Formularelement setzen.
 
-Auch wenn die Beschriftungen der Formularelemente korrekt ausgezeichnet sind so kann es sein, dass diese nicht ausreichen und z. B. eine gemeinsame Überschrift für das Verständnis notwendig ist.
+Auch wenn die Beschriftungen der Formularelemente korrekt ausgezeichnet sind, so kann es sein, dass diese nicht ausreichen und z. B. eine gemeinsame Gruppenbeschriftung für das Verständnis notwendig ist.
 
 == Wie wird geprüft?
 
@@ -39,9 +39,9 @@ Ob die Semantik im Quelltext der Anwendung korrekt gesetzt ist, kann in der Rege
 
 Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einer passenden (nicht sichtbaren) Bezeichnung für Screenreader versehen werden.
 
-Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einer erklärenden Bezeichnung für Screenreader versehen. Diese Bezeichnungen sind dann nur von der Hilfstechnologie auswertbar, die entsprechenden Bezeichnungen sind nicht sichtbar.
+Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einer erklärenden Bezeichnung für Screenreader versehen. Diese Bezeichnungen sind dann nur von der Hilfstechnologie verfügbar, die entsprechenden Bezeichnungen sind nicht sichtbar.
 
-Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen"). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen eine aussagekräftige (nicht sichtbare) Bezeichnung für den Screenreader haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
+Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen"). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen eine aussagekräftige (nicht sichtbare) Bezeichnung für den Screenreader haben, da für Screenreader-Nutzende der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
 
 ==== 3.2 Verhindern des separaten Vorlesens von Label und Bedienelement
 
@@ -62,8 +62,7 @@ vergleichbare Ansätze].
 
 === Abgrenzung von anderen Prüfkriterien
 
-Ob bei Nutzung von gruppierenden Überschriften der Text zusammen mit
-verknüpften Beschriftungen der Formularfelder (label) Sinn ergibt, wird in
+Ob bei Nutzung von Gruppenbeschriftungen der Text zusammen mit verknüpften Beschriftungen der Formularfelder (label) Sinn ergibt, wird in
 Prüfschritt
 ifdef::env_embedded[11.2.4.6 "Aussagekräftige Überschriften und Beschriftungen"]
 ifndef::env_embedded[]
