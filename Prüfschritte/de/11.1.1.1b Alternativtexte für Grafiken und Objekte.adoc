@@ -37,12 +37,23 @@ Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente 
 
 === 2. Prüfung
 
+Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen ausgeschaltet sein (siehe "3. Hinweise").
+
 . App mit zu prüfender Ansicht starten.
 . Prüfen ob unverlinkte informationstragende Grafiken oder Multimedia-Inhalte vorhanden sind.
 . Screenreader starten und Fokus auf jede informationstragende Grafik setzen.
 . Prüfen, ob dieser bei den entsprechenden Elementen auf dem Bildschirm aussagekräftige Alternativtexte ausgibt.
 
 === 3. Hinweise
+
+==== Einstellungen für die Prüfung mit VoiceOver / iOS
+
+Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
+
+* iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
+
+* iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern
+
 
 ==== Angemessene Alternativtexte
 
