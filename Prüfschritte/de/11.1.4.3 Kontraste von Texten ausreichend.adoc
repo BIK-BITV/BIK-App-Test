@@ -12,13 +12,13 @@ Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben Tex
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Software-Ansicht Text enthält.
 
 Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Screenshots erstellen, falls vorhanden, kontrastreichere Version über den
   Style-Switcher der App, einbeziehen (ggf. vorher Zoomfunktion nutzen, um
@@ -32,7 +32,7 @@ Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
   auswählen).
 . Screenshots am PC öffnen und mit dem Contrast-Analyzer untersuchen.
 
-==== Prüfung der Textkontraste der Standardversion
+==== 2.1 Prüfung der Textkontraste der Standardversion
 
 . Sind die Schriftkontraste stark genug?
   Im Zweifel den Contrast Analyzer öffnen.
@@ -44,7 +44,7 @@ Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
 . Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder
   größer liegt.
 
-==== Styleswitcher-Prüfung
+==== 2.2. Styleswitcher-Prüfung
 
 Prüfung der Textkontraste der alternativen kontrastreicheren Ansicht
 
@@ -59,9 +59,9 @@ Ansicht eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
 . Textkontraste der alternativen Ansicht prüfen (wie bei der Prüfung der
   Textkontraste der Standardversion).
 
-=== Hinweise
+=== 3. Hinweise
 
-==== Allgemeine Hinweise
+==== 3.1 Allgemeine Hinweise
 
 Elemente, die unterschiedliche Zustände haben können, sollten immer
 ausreichend kontrastieren.
@@ -95,7 +95,7 @@ Bildbearbeitungsprogramms zu nutzen.
 Der Farbkontrast von Textvorbelegungen von Formularfeldern erfüllt oft nicht
 die Mindest-Anforderung von 4,5:1.
 
-==== Hinweise zur Prüfung von Ansichten mit Styleswitcher
+==== 3.2 Hinweise zur Prüfung von Ansichten mit Styleswitcher
 
 Die Kontrastprüfung auf durch Styleswitcher aufgerufenen kontrastreicheren
 Ansicht erfolgt nur unter folgenden Bedingungen:
@@ -106,7 +106,7 @@ Ansicht erfolgt nur unter folgenden Bedingungen:
   Beispiel tastaturbedienbar)
 * Die alternative kontrastreichere Ansicht muss dieselben Informationen und dieselbe Funktionalität aufweisen wie die Ausgangsansicht.
 
-===== Hinweise zur Messung des Kontrastverhältnisses
+===== 3.3 Hinweise zur Messung des Kontrastverhältnisses
 
 NOTE: Für Apps ist die Schriftgrößen-Unterscheidung z. Z. nur bedingt anwendbar.
 Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender
@@ -136,7 +136,7 @@ höher auflösenden Bildschirmen).
 Für die Prüfung maßgeblich ist der Referenzwert von 96 dpi
 Bildschirmauflösung, für den die Entsprechung auf jeden Fall gilt.
 
-=== Bewertung
+=== 4. Bewertung
 
 *Erfüllt:*
 
