@@ -4,66 +4,51 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die für die Identifizierung notwendige visuelle Information von
-informationstragenden Grafiken und grafischen Bedienelementen sowie deren
-Zuständen soll einen Kontrast von mindestens 3:1 zu angrenzenden Farben haben.
+Visuelle Information von informationstragenden Grafiken und grafischen Bedienelementen, die für die Identifizierung notwendige sind (und deren Zustände), sollen einen Kontrast von mindestens 3:1 zu angrenzenden Farben haben.
 
-In vielen Fällen, wie etwa bei einfarbigen Icons, bedeutet das einfach, dass
-der Kontrast zwischen der Farbe des Elements und der Hintergrundfarbe gemessen
+In vielen Fällen, wie etwa bei einfarbigen Icons, bedeutet das einfach, dass der Kontrast zwischen der Farbe des Elements und der Hintergrundfarbe gemessen
 wird.
 
-Bei mehrfarbigen oder abgetönten Elementen gilt die Kontrastanforderung für
-jene visuelle Information, über die das Element (oder dessen Zustand)
-hinreichend klar identifizierbar ist.
-Es müssen also nicht sämtliche Bereiche einer Grafik die Kontrastanforderung
+Bei mehrfarbigen oder abgetönten Elementen gilt die Kontrastanforderung für jene visuelle Information, über die das Element (oder dessen Zustand)
+hinreichend klar identifizierbar ist. Es müssen also nicht sämtliche Bereiche einer Grafik die Kontrastanforderung
 erfüllen.
 
-Wenn grafische Elemente zusätzlich eingesetzt werden, ein Text also das
-Bedienelement bzw. dessen Zustand hinreichend kennzeichnet, müssen grafische
+Wenn grafische Elemente zusätzlich eingesetzt werden, ein Text also das Bedienelement bzw. dessen Zustand hinreichend kennzeichnet, müssen grafische
 Elemente die Kontrastanforderung nicht erfüllen.
 
 == Warum wird das geprüft?
 
-Viele Menschen mit Sehbehinderungen brauchen gute Kontraste, um grafische
-Bedienelemente bzw. deren Zustände oder Elemente in informationstragenden
-Grafiken, etwa statistischen Diagrammen oder Schaubildern, wahrnehmen zu
-können.
-Die Forderung nach einem Minimalkontrast für informationstragende Grafiken
+Viele Menschen mit Seheinschränkungen brauchen gute Kontraste, um grafische Bedienelemente bzw. deren Zustände oder Elemente in informationstragenden
+Grafiken, etwa statistischen Diagrammen oder Schaubildern, wahrnehmen zu können. Die Forderung nach einem Minimalkontrast für informationstragende Grafiken
 hilft diesen Menschen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn informationstragende grafische
-Bedienelemente, die nicht lediglich ergänzend (etwa zu Text) eingesetzt
+Der Prüfschritt ist anwendbar, wenn informationstragende grafische Bedienelemente, die nicht lediglich ergänzend (etwa zu Text) eingesetzt
 werden, oder informationstragende Grafiken vorhanden sind.
 
-Nicht anwendbar ist der Prüfschritt auf Fotos, Logos, Flaggen, Screenshots,
-Diagramme mit Farben, die nicht geändert werden dürfen, und
+Nicht anwendbar ist der Prüfschritt auf Fotos, Logos, Flaggen, Screenshots, Diagramme mit Farben, die nicht geändert werden dürfen, und
 Datenvisualisierungen mit Farbabstufungen wie etwa Heatmaps.
 
-Ebenfalls nicht anwendbar ist der Prüfschritt auf native grafische
-Bedienelemente, die in ihrem Erscheinungsbild nicht durch den Autor
-beeinflusst wurden, etwa native Checkboxen, sowie auf inaktive Bedienelemente,
-also solche, die zustandsabhängig für die Interaktion nicht zur Verfügung
-stehen.
+Ebenfalls nicht anwendbar ist der Prüfschritt auf native grafische Bedienelemente, die in ihrem Erscheinungsbild nicht durch den Autor beeinflusst wurden, etwa native Checkboxen, sowie auf inaktive Bedienelemente, also solche, die zustandsabhängig für die Interaktion nicht zur Verfügung stehen.
 
-=== Prüfung
+=== 2. Prüfung
 
-Hinweis: Für die aufgeführten Prüfungen ist eine Sichtprüfung ausreichend,
-wenn der Kontrast sehr deutlich über 3:1 liegt.
-Im Zweifelsfall immer den Color Contrast Analyzer einsetzen.
+Für die aufgeführten Prüfungen ist eine Sichtprüfung ausreichend, wenn der Kontrast sehr deutlich über 3:1 liegt. Im Zweifelsfall immer den Color Contrast Analyzer einsetzen.
 
-Bei Prüfungen von Software-Ansichten muss mit Screenshots gearbeitet werden.
-Diese werden dann regulär mit dem Contrast-Analyzer überprüft.
-Falls es schwierig ist, Einzelheiten mit der Contrast-Analyzer-Pipette zu
-erfassen, kann vor der Erstellung des Screenshots die entsprechende Ansicht in
-der Software mit der Zoomfunktion des Systems vergrößert werden.
+Screenshots erstellen:
 
-. Screenshots erstellen (ggf. vorher Zoomfunktion nutzen)
-. Screenshots an den PC übertragen.
-. Screenshots am PC öffnen und mit dem Contrast-Analyzer untersuchen.
+. App mit zu prüfender Ansicht öffnen.
+. Screenshots erstellen (gegebenenfalls vorher die Zoomfunktion nutzen, um eine größere Fläche für die Kontrastmessung zur Verfügung zu haben.):
+ * iOS/iPadOS: Screenshot mit der Tastenkombination Power- und Home-Taste erstellen. Bei Geräten ohne Home-Button nutzt man die Kombination von Power- und Lauter -
+   Taste.
+ * Android: Screenshot mit der Tastenkombination Power- und Leiser-Taste erstellen.
+. Screenshots an den PC übertragen:
+ * iOS/iPadOS und Android: Gerät mittels USB-Kabel an den Rechner anschließen und im Datei-Explorer auswählen.
+. Sind die Kontraste stark genug? Screenshots am PC öffnen und im Zweifel mit dem Contrast-Analyzer untersuchen:
+ * Im Bereich Vordergrund mit der Pipette die Vordergrundfarbe auswählen, dann im Bereich Hintergrund die Hintergrundfarbe.
 
 ==== Prüfung von Bedienelementen in der Ausgangsansicht
 
@@ -105,7 +90,7 @@ Wenn es in Bereichen der Grafik Farbverläufe gibt, Anteile mit einem Kontrast
 von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch
 ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
 
-=== Hinweise
+=== 3. Hinweise
 
 ==== Zur Identifizierung notwendige Teile von Bedienelementen
 
