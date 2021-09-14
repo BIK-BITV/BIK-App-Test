@@ -4,14 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Alle Texte der Software-Ansicht sollen ausreichende Helligkeitskontraste haben.
-Sie sollen auch für farbfehlsichtige Benutzer wahrnehmbar sein.
+Alle Texte der App-Ansicht sollen ausreichende Helligkeitskontraste haben.
 
 == Warum wird das geprüft?
 
-Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben
-sie unter Umständen zu wenig Kontrast, wenn sie mit Schwarzweiß-Monitoren
-oder von Menschen mit verschiedenen Arten von Farbenschwäche betrachtet werden.
+Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben Texte unter Umständen zu wenig Kontrast. Gute Kontraste sorgen dafür, dass Nutzende Texte leichter lesen können. Insbesondere Menschen, die aufgrund einer mäßig niedrigen Sehschärfe, einer Farbfehlsichtigkeit oder aufgrund des Alters eine verminderte Kontrastempfindlichkeit haben, profitieren von guten Kontrasten.
 
 == Wie wird geprüft?
 
