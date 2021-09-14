@@ -21,11 +21,12 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält. Grafische Sc
 ==== 2.1 Prüfung der Textkontraste der Standardversion
 
 . App mit zu prüfender Ansicht öffnen.
-. Screenshots erstellen:
- * iOS/iPadOS: Screenshot mit der Tastenkombination Power- und Home-Button erstellt. Bei Geräten ohne Home-Button nutzt man die Kombination von Power- und Lauter-Taste.
+. Screenshots erstellen (gegebenenfalls vorher die Zoomfunktion nutzen, um eine größere Fläche für die Kontrastmessung zur Verfügung zu haben.):
+ * iOS/iPadOS: Screenshot mit der Tastenkombination Power- und Home-Taste erstellen. Bei Geräten ohne Home-Button nutzt man die Kombination von Power- und Lauter-  
+   Taste.
+ * Android: Screenshot mit der Tastenkombination Power- und Leiser-Taste erstellen.
 . Screenshots an den PC übertragen: 
- * iOS/iPadOS: Gerät mittels USB-Kabel an den Rechner anschließen und im Datei-Explorer das iPhone/iPad auswählen.
- * Gegebenenfalls vorher die Zoomfunktion nutzen, um eine größere Fläche für die Kontrastmessung zur Verfügung zu haben.	
+ * iOS/iPadOS und Android: Gerät mittels USB-Kabel an den Rechner anschließen und im Datei-Explorer auswählen.	
 . Sind die Schriftkontraste stark genug? Screenshots am PC öffnen und im Zweifel mit dem Contrast-Analyzer untersuchen:
  * Im Bereich *Vordergrund* mit der Pipette die Vordergrundfarbe auswählen, dann im Bereich *Hintergrund* die Hintergrundfarbe.
 . Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter  Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt.
@@ -51,8 +52,6 @@ Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die Ansi
 * Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit einer App erleichtern. Ein Beispiel: Funktionen, die prinzipiell vorgesehen, aktuell aber nicht
   verfügbar sind, werden schwach kontrastierend dargestellt. Das ist akzeptabel, wenn das ausgeblendete Element für die Orientierung und Bedienung nicht erforderlich
   ist. Der Prüfschritt ist daher auf die Beschriftungen ausgeblendeter, deaktivierter Bedienelemente in der Regel nicht anwendbar.
-* Bei Bereichen, die mit Farbwechseln auf den Mauszeiger reagieren, kann ein Screenshot helfen, den Farbwert im "Ruhezustand" zu ermitteln. Alternativ kann man den 
-  Fokuszustand über Tastaturbedienung erzeugen und dann den Kontrast mit der Pipette des Contrast Analyzer messen.
 * Wenn Kontraste dünner Schriften zu prüfen sind, gegebenenfalls Schrift vergrößern.
 * Der Farbkontrast von Textvorbelegungen von Formularfeldern erfüllt oft nicht die Mindest-Anforderung von 4,5:1.
 
