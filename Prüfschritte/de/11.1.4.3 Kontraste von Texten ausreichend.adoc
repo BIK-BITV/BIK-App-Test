@@ -14,9 +14,7 @@ Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben Tex
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software-Ansicht Text enthält.
-
-Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält. Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
 
 === 2. Prüfung
 
