@@ -22,7 +22,6 @@ Der Prüfschritt ist anwendbar, wenn die App Texteingaben vorsieht oder Textbest
 * Unterstützt der Inhalt, soweit verfügbar, die vom System und Screenreader vorgesehenen Mechanismen der Textauswahl hinsichtlich der Ansage (an welcher Position befindet sich die Texteinfügemarke, welcher Text ist markiert)?
 
 === 3. Hinweise
-Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein. In diesem Prüfschritt geht es darum, dass die aktuelle Position des Fokus vom Screenreader augegeben werden kann und dass der gerade markierte Text ausgegeben werden kann. In 11.5.2.14 wird dagegen bewertet, ob die Position des Fokus und die Markierung des Texts geändert werden kann.
 
 ==== Textauswahl in iOS / VoiceOver
 * VoiceOver aktivieren
@@ -35,6 +34,12 @@ Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sei
 * Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert.
 * Die Fokusposition wird in der Regel mit den Lautstärketasten des Geräts versetzt.
 * Über das lokale Kontextmenü (Wischen nach oben und dann nach rechts) können Optionen zum Textauswahl-Modus, zum Kopieren usw. aufgerufen werden
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein. In diesem Prüfschritt geht es darum, dass die aktuelle Position des Fokus vom Screenreader augegeben werden kann und dass der gerade markierte Text ausgegeben werden kann. In 11.5.2.14 wird dagegen bewertet, ob die Position des Fokus und die Markierung des Texts geändert werden kann.
 
 == Quellen
 * https://support.google.com/accessibility/android/answer/6151827?hl=en#zippy=%2Cversion-up%2Cversion-lower[Google-Hilfe zu TalkBack-Gesten]
