@@ -21,8 +21,6 @@ Der Prüfschritt ist anwendbar, wenn die App Texteingaben vorsieht oder Textbest
 * Wird die Fokusposition innerhalb von Textfeldern oder auswählbaren Textbestandteilen der App vom Screenreader ausgegeben?
 * Unterstützt der Inhalt, soweit verfügbar, die vom System und Screenreader vorgesehenen Mechanismen der Textauswahl hinsichtlich der Ansage (an welcher Position befindet sich die Texteinfügemarke, welcher Text ist markiert)?
 
-=== 3. Hinweise
-
 ==== Textauswahl in iOS / VoiceOver
 * VoiceOver aktivieren
 * Ein Textfeld mit Textinhalt durch Doppeltippen aktivieren. Es wird in der Regel "Einfügemarke am Ende " angesagt.
