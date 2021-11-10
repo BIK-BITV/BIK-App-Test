@@ -8,7 +8,7 @@ Wenn in Apps Text zu sehen ist, soll dieser Text auch vom Screenreader ausgegebe
 
 == Warum wird das geprüft?
 
-Textinhalte, die nicht rein dekorative Zweck haben, gelten als Information, die auch bei Nutzung assistiver Technologien verfügbar sein sollen.
+Textinhalte, die nicht einen rein dekorativen Zweck haben, vermitteln Informationen, die auch bei Nutzung assistiver Technologien verfügbar sein sollen.
 Sie dürfen nicht auf eine Weise implementiert werden, dass sie für den Screenreader-Nutzer unzugänglich sind.
 
 == Wie wird geprüft?
