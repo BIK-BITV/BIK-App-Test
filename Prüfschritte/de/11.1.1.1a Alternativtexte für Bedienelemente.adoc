@@ -185,11 +185,6 @@ endif::env_embedded[]
 
 === EN 301 549 V.3.2.1
 
-==== 11.1.2.1.1 Audio-only and video-only (pre-recorded - open functionality)
-
-Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading and where pre-recorded auditory information is not needed to enable the use of closed functions of ICT, it shall satisfy the WCAG 2.1 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded).
-
-NOTE: The alternative can be provided directly in the software - or provided in an alternate version that meets the success criterion.
 
 === Anleitungen zum Erstellen guter Textalternativen
 
