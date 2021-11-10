@@ -35,7 +35,7 @@ Prüfschritt eröffnen.
 
 == Quellen
 
-=== EN 301 549 V.3.2.1
+=== EN 301 549 V3.2.1
 
 ==== 6.5.6 Speaker identification with video (sign language) communication
 
