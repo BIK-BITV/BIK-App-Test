@@ -15,7 +15,7 @@ Sie dürfen nicht auf eine Weise implementiert werden, dass sie für den Screenr
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn in der App Textinhalte vorhanden sind, die Inhalte vermitteln und fpr duie Nutzung relevant sein können.
+Der Prüfschritt ist anwendbar, wenn in der App Textinhalte vorhanden sind, die Inhalte vermitteln und für die Nutzung relevant sein können.
 
 === Prüfung
 
