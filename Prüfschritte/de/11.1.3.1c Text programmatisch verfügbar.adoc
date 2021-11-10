@@ -21,7 +21,7 @@ Der Prüfschritt ist anwendbar, wenn in der App Textinhalte vorhanden sind, die 
 
 . Screenreader starten (siehe Handreichung)
 . Zu testende App starten
-. Mit dem Screenreader mittels Wischgesten durch alle Inhalte navigieren bzw. diese direkt antippen und prüfen, ob der Screenreader die Textinhalte ausgibt.
+. Mit dem Screenreader mittels Wischgesten durch alle Inhalte navigieren bzw. diese direkt antippen und prüfen, ob der Screenreader alle Textinhalte ausgibt.
 . Wenn es sich um Bedienelemente handelt, kann die Ausgabe mitunter vom sichtbaren Text abweichen (beachte aber Prüfschritt 11.2.5.3 Beschriftung im zugänglichen Namen).
 
 == Einordnung des Prüfschritts
