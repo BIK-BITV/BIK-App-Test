@@ -33,8 +33,10 @@ Der Prüfschritt ist anwendbar, wenn die App Zwei-Wege-Sprachkommunikation unter
   
 == Quellen
 
+=== EN 301 549 V.3.2.1
+
 [.BLOCK_LANG_EN]
-=== 6.2.2.4 Visual indicator of Audio with RTT
+==== 6.2.2.4 Visual indicator of Audio with RTT
 
 [.BLOCK_LANG_EN]
 --
@@ -51,5 +53,3 @@ NOTE 2:
 Without this indication a person who lacks the ability to hear does not know
 when someone is talking.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.2.4 "Visual indicator of Audio with RTT")
