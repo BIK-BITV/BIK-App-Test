@@ -1,5 +1,4 @@
 = Prüfschritt 6.5.6 Sprecher-Anzeige für Gebärdensprachen-Kommunikation
-
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
