@@ -4,27 +4,25 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Grafische Bedienelemente müssen mit Textalternativen versehen werden. Textalternativen für verlinkte Grafiken (Menüs, Logos) oder Teaserbilder sollen das Ziel des Links bezeichnen. Textalternativen für grafische Schaltflächen (Buttons) sollen die Aktion bezeichnen, die der Button auslöst.
+Grafische Bedienelemente müssen Textalternativen haben. Textalternativen für verlinkte Grafiken oder Teaserbilder sollen das Ziel des Links bezeichnen. Textalternativen für grafische Schaltflächen (Buttons) sollen die Aktion bezeichnen, die der Button auslöst.
 
 == Warum wird das geprüft?
 
-Für Screenreader-Nutzende sind Grafiken nicht zugänglich. Die Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik ersetzen, diese beschreiben und insbesondere das Ziel bzw. die Aktion bezeichnen.
+Für Screenreader-Nutzende sind Grafiken nicht zugänglich. Die Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik ersetzen und bei Bedienelementen das Linkziel bzw. die Aktion bezeichnen.
 
-Entwicklerinnen und Entwickler müssen Grafiken mit passenden Text ergänzen, damit Hilfsmittelsoftware den Text anstelle der Grafik z. B. in Braille und Sprache ausgeben kann. Das UI-Element wird dabei um ein Accessibility-Label ergänzt. Bei komplexen Informations-Grafiken soll ein Textalternative oder eine andere Alternative (z.B. die tabellarische Ansicht eines Diagramms) für nicht-sehende Nutzende einen möglichst äquivalenten Informationsgehalt vermitteln.
+Entwicklerinnen und Entwickler müssen Grafiken mit passenden Text ergänzen, damit Hilfsmittelsoftware den Text anstelle der Grafik z. B. in Braille und Sprache ausgeben kann. Das UI-Element wird dabei um ein Accessibility-Label ergänzt.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Grafiken als Bedienelemente (Menüs, Logos, Teaserbilder oder Schaltflächen) eingesetzt werden.
+Der Prüfschritt ist anwendbar, wenn Grafiken als Bedienelemente (z.B., Icons in Menüs oder Werkzeugleisten, Logos, Teaserbilder) eingesetzt werden.
 
 === 2. Prüfung
 
 Falls ein Bedienelement aus einer (Symbol-)Grafik sowie einem Text besteht, der den Zweck des Bedienelements wiedergibt, dann gilt dieser Text als Alternative für die Grafik. Es ist dann ggf. sinnvoll, die Grafik selbst mit einer geeigneten Technik für Screenreader zu verstecken. 
 
 Handelt es sich dabei um eine Grafik ohne visuell sichtbaren Text (alleinstehendes Icon oder Symbol), so sollte eine Textalternative vorhanden sein, die das Ziel bzw. die Aktion, die ausgeführt wird, beschreibt. In der Praxis ist dies Text, der über ein Accessibility-Label bereitgestellt wird.
-
-Handelt es sich um eine informationstragende Grafik, sollte diese in der Textalternative bzw. im unmittelbaren Kontext beschrieben sein. Bei interaktiven Grafiken soll (ggf. zusätzlich) das Ziel bzw. die hinterlegte Funktion angeben sein.
 
 ==== 2.1 Prüfung von Textalternativen
 
@@ -34,12 +32,11 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes grafische Bedienelement setzen.
 . Prüfen, ob für die Bedienelemente Textalternativen ausgegeben werden und diese (auch) das Ziel bzw. die Funktion des Bedienelements beschreiben.
 . Falls die Grafik zusammen mit aussagekräftigem Text als Bedienelement auftaucht, prüfen ob die Grafik vor dem Screenreader versteckt wird (keine unnötigen und redundanten Ausgaben durch den Screenreader aufgrund der Grafik). 
-. Bei Informationstragenden Grafiken wird ein äquivalente Textalternative ausgegeben oder ist im unmittelbaren Kontext der Grafik verfügbar.
+. Bei aktivierbaren informationstragenden Grafiken wird der Inhalt benannt und Linkziel bzw. Aktion beschrieben (etwa: "Portraitfoto Helga Müller - öffnet vergrößerte Ansicht").
 
 ==== 2.2 Gleichwertige (äquivalente) Alternativtexte
 
-Entscheidend ist: die App soll benutzbar sein, wenn Grafiken, oder Bilder oder Objekte durch die entsprechenden Textalternativen ersetzt
-sind.
+Entscheidend ist: die App soll benutzbar sein, wenn Grafiken, oder Bilder oder Objekte durch die entsprechenden Textalternativen ersetzt sind.
 
 In der Regel bedeutet das:
 
@@ -53,7 +50,7 @@ Bei verlinkten Abbildungen gibt es folgende Möglichkeiten:
 * Beschreibung des abgebildeten Gegenstandes in der Textalternative (wenn der abgebildete Gegenstand wichtig ist und daraus das Linkziel hervorgeht, zum
   Beispiel Logo)
 * Ziel des Links in die Textalternative
-* Beschreibung des abgebildeten Gegenstandes und Ziel des Links in der Textalternative (wenn beides wichtig ist)
+* Beschreibung des abgebildeten Gegenstandes und Ziel des Links bzw. der Aktion in der Textalternative (wenn beides wichtig ist)
 
 Generell gilt:
 
@@ -71,7 +68,7 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 ==== Textalternativen für redundant verlinkte Abbildungen
 
 * Wenn eine Abbildung und ein danebenstehender Textlink auf dasselbe Ziel verweisen, muss geprüft werden, ob es sich um ein zusammengesetztes Bedienelement handelt (d. h. der Screenreader liest Grafik und Text nicht separat vor).
-* Wenn es sich nicht um ein zusammengesetztes Bedienelement handelt, der Screenreader im Lesemodus also beide Elemente  nacheinander fokussiert und ausgibt, soll die Textalternative der Grafik nicht einfach die nebenstehende Beschriftung (Linktext) wiederholen. Je nach Inhalt der Abbildung kann die Textalternative dann 
+* Wenn es sich nicht um ein zusammengesetztes Bedienelement handelt, der Screenreader im Lesemodus also beide Elemente nacheinander fokussiert und ausgibt, soll die Textalternative der Grafik nicht einfach die nebenstehende Beschriftung (Linktext) wiederholen. Je nach Inhalt der Abbildung kann die Textalternative dann 
 ** bei Schmuckgrafiken leer bleiben - das Element sollte ganz aus der Fokusreihenfolge entfernt werden
 ** bei verlinkten Abbildungen ggf. kurz den abgebildetem Inhalt nennen, in jedem Fall jedoch Zweck oder Ziel des Links bzw. der Funktion nennen (etwa: "öffnet vergrößerte Ansicht")
 * Vorteilhaft ist in jedem Fall die Gruppierung von Grafiken und Text, wenn die gleiche Funktion bzw. das gleiche Ziel aufgerufen wird.
