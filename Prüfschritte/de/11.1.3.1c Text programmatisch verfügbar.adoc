@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn in Apps Text zu sehen ist, soll dieser Text auch vom Screenreader ausdgegeben werden können.
+Wenn in Apps Text zu sehen ist, soll dieser Text auch vom Screenreader ausgegeben werden können.
 
 == Warum wird das geprüft?
 
