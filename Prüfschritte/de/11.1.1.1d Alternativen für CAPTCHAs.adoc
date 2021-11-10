@@ -1,4 +1,4 @@
-= 1.1.1d Alternativen für CAPTCHAs
+= 11.1.1.1d Alternativen für CAPTCHAs
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
