@@ -102,3 +102,13 @@ Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
   alternative for time-based media for audio-only content]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G159[G159: Providing an
   alternative for time-based media for video-only content]
+
+== Quellen
+
+=== EN 301549 V3.2.1
+
+==== 11.1.2.1.1 Audio-only and video-only (pre-recorded -open functionality)
+
+Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading and where pre-recorded auditory information is not needed to enable the use of closed functions of ICT, it shall satisfy the WCAG 2.1 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded).
+
+NOTE: The alternative can be provided directly in the software - or provided in an alternate version that meets the success criterion.
