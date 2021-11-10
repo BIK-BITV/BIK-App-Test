@@ -1,6 +1,5 @@
 = Prüfschritt 6.5.6 Sprecher-Anzeige für Gebärdensprachen-Kommunikation
 
-= Prüfschritt 6.5.5 Visual indicator of audio with video
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
