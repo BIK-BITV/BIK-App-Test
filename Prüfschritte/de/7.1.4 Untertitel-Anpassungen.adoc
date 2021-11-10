@@ -41,7 +41,7 @@ Der Prüfschritt ist anwendbar, wenn die App Videos mit Untertiteln enthält und
 
 == Quellen
 
-=== EN 301 549 v.3.2.1
+=== EN 301 549 V3.2.1
 [.BLOCK_LANG_EN]
 === 7.1.4 Captions characteristics
 
