@@ -34,13 +34,10 @@ anzuzeigen, wenn dies von der Software generell angeboten wird.
 
 == Quellen
 
-=== Auszug EN 301 549
+=== Auszug EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.10 Text 
 
 [.BLOCK_LANG_EN]
-Where the software provides a user interface it shall, by using the services
-as described in clause 11.5.2.3, make the text contents, text attributes, and
-the boundary of text rendered to the screen programmatically determinable by
-assistive technologies.
+Where the software provides a user interface it shall, by using the services as described in clause 11.5.2.3, make the text contents, text attributes, and the boundary of text rendered to the screen programmatically determinable by assistive technologies.
