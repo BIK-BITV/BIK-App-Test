@@ -21,9 +21,13 @@ Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie inkl. Sprachüb
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zu diesem
 Prüfschritt eröffnen.
 
-. App auf zwei Geräten starten
-. Videotelefonieverbindung zwischen den Geräten herstellen
-. Auf dem verbundenen Gerät Sprache eingeben und überprüfen, ob die Spracheingabe visuell wahrnehmbar ist. Für den Indikator gelten die sonstigen Anforderungen, z.B. an Grafik-Kontrast.
+. App auf zwei Geräten starten.
+. Videotelefonieverbindung zwischen den Geräten herstellen.
+. Auf dem verbundenen Gerät Sprache eingeben und überprüfen, ob die Spracheingabe visuell wahrnehmbar ist. 
+
+=== Hinweise
+
+Für den Indikator der Sprachaktivität gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
 
 == Quellen
 
