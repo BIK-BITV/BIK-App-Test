@@ -1,0 +1,48 @@
+= Prüfschritt 6.2.2.3 Sprecheridentifizierung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn die App Echtzeit-Textkommunikation (RTT, Real-time Text) unterstützt und aktive Sprechende über Sprache identifiziert, sollen auch Sprechende, die Echtzeit-Texteingaben nutzen, gleichermaßen identifizierbar sein.
+
+== Warum wird das geprüft?
+
+Für alle Teilnehmenden in einer entfernten Kommunikation ist es sehr wichtig, sehen oder ermitteln zu können, wer gerade spricht, um sich in Antworten auf sie oder ihn beziehen zu können. Sprach-Eingaben und Text-Eingaben sollen deshalb gleichranging behandelt werden.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die App Echtzeit-Textkommunikation (RTT, Real-time Text) unterstützt und den aktiven Sprecher über Sprache identifiziert. Der aktive Sprecher wird dabei in der App markiert oder anderweitig hervorgehoben.
+
+=== 2. Prüfung
+
+. App öffnen.
+. Prüfen, ob aktive Sprechende über Sprache identifiziert und in der App markiert oder anderweitig hervorgehoben werden.
+. Ist dies der Fall, prüfen, ob auch Teilnehmende, die Echtzeit-Texteingabe verwenden, beim Eingaben markiert oder anderweitig hervorgehoben werden.
+
+=== 3. Hinweise
+
+Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmenden etabliert werden, um eine eventuelle Markierung oder anderweitige Hervorhebung zweifelsfrei festzustellen.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+6.2.2 Display of RTT
+
+
+== Quellen
+
+=== EN 301 549 V.3.2.1
+
+[.BLOCK_LANG_EN]
+=== 6.2.2.3 Speaker identification
+
+[.BLOCK_LANG_EN]
+--
+Where ICT has RTT capabilities, and provides speaker identification for voice, the ICT shall provide speaker identification for RTT.
+
+NOTE: This is necessary to enable both voice and RTT participants to know who is currently communicating, whether it be in RTT or voice.
+--
