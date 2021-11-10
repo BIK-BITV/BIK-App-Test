@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Informative Grafiken und Bilder müssen mit Textalternativen versehen werden. Die Textalternativen ersetzen das Bild, sie sollen (wenn möglich) dieselbe Aufgabe erfüllen wie das Bild.
+Informative Grafiken und Bilder müssen Textalternativen haben. Die Textalternativen ersetzen das Bild, sie sollen (soweit wie möglich) die gleiche Information vermitteln wie das Bild.
 
 Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien soll die Textalternative zumindest eine beschreibende Identifizierung des Inhalts ermöglichen.
 
@@ -23,15 +23,14 @@ Der Prüfschritt ist anwendbar, wenn informative Grafiken oder, Bilder, Video- o
 Als informative Grafiken gelten:
 
 * grafische Schriften
-* Symbole
 * Abbildungen, die zeigen sollen, wie ein Objekt oder eine Person aussieht
-* Illustrationen, die eine Aussage vorstellen, verdeutlichen oder veranschaulichen sollen
+* Illustrationen, die einen Gegenstand, ein Konzept oder einen Prozess vorstellen, verdeutlichen oder veranschaulichen sollen (etwa Diagramme)
+* Symbole
 
 Dekorative Grafiken und Bilder sind Grenzfälle. Sie stellen (im Unterschied zu Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen Bezug zum Thema der App-Ansicht. Ihr Informationsgehalt und ihr Nutzen für das Verständnis ist aber nicht klar. Sie können daher als dekorativ gekennzeichnet werden, der Prüfschritt ist dann nicht anwendbar.
 
 Wenn Logo-artige Elemente, in denen Grafik und Schrift verbunden sind, auftauchen, sind diese fast nie als bloße Schmuckgrafik anzusehen und brauchen deshalb eine
-Textalternative. Wenn die Grafik verlinkt ist, ist das natürlich ohnehin so. Dies ermöglicht blinden und sehenden Nutzern, sich gemeinsam auf diese Elemente
-zu beziehen. Die Textalternative muss aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich ist.
+Textalternative. Dies ermöglicht blinden und sehenden Nutzern, sich gemeinsam auf diese Elemente zu beziehen. Die Textalternative muss aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich ist.
 
 Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente vorhanden sind.
 
@@ -40,7 +39,7 @@ Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente 
 Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen ausgeschaltet sein (siehe "3. Hinweise").
 
 . App mit zu prüfender Ansicht starten.
-. Prüfen ob unverlinkte informationstragende Grafiken oder Multimedia-Inhalte vorhanden sind.
+. Prüfen, ob unverlinkte informationstragende Grafiken oder Multimedia-Inhalte vorhanden sind.
 . Screenreader starten und Fokus auf jede informationstragende Grafik setzen.
 . Prüfen, ob der Screenreader bei den entsprechenden Elementen auf dem Bildschirm aussagekräftige Textalternativen ausgibt.
 
@@ -51,7 +50,6 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
 * iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
-
 * iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern
 
 
@@ -66,7 +64,7 @@ In der Regel bedeutet das:
 * Bei Gruppen von zusammengehörigen Bildern kann auch eines der Bilder die Bedeutung der Gruppe wiedergeben, die anderen sollten als dekorativ gekennzeichnet werden.
 * Bei Fotos, Reproduktionen von Gemälden oder anderen Nicht-Text-Elementen, die eine spezifische Sinneserfahrung vermitteln, genügt in der Regel eine knappe Bezeichnung des abgebildeten Gegenstandes.
 * Bei Diagrammen oder technischen Zeichnungen sind unter Umständen ausführlichere Erläuterungen erforderlich.
-  Textalternativen sind dafür nicht geeignet, sie sollen in der Regel 80 Zeichen nicht überschreiten. In der Textalternative steht dann nur, was dargestellt ist und wo (etwa: "Details im anschließenden Text"), die Erläuterung steht in Kontext des Bildes. Der Kontext kann zum Beispiel ein unmittelbar folgender Inhalt (Text oder Tabelle), ein Ausklappbereich oder auch ein Link zu einer Ansicht sein, die die ausführliche Alternative enthält.
+  Textalternativen sind dafür nicht geeignet, sie sollen in der Regel 80 Zeichen nicht überschreiten. In der Textalternative steht dann nur, was dargestellt ist und wo (etwa: "Details im anschließenden Text"). Die ausführliche Textalternative soll sich in Kontext des Bildes befinden. Der Kontext kann zum Beispiel ein unmittelbar folgender Inhalt (Text oder Tabelle), ein Ausklappbereich oder auch ein Link zu einer Ansicht sein, die die ausführliche Alternative enthält.
 * Bei Objekten, die nicht angezeigt werden können, sollen die Textalternative oder Text im unmittelbaren Kontext des Objekts (etwa eine vorangehende Überschrift oder nachfolgende Legende) eine kurze Beschreibung oder Identifizierung bieten und, falls vorhanden, auf eine Medienalternative verweisen.
 
 Generell gilt: Textalternativen sollen kurz sein. Ausführliche Beschreibungen von Abbildungen sollen nicht in die Textalternative, sondern im Kontext der Abbildung zur Verfügung gestellt werden.
@@ -83,7 +81,7 @@ Das betrifft zum Beispiel
 
 Zum Kontext einer Grafik oder eines Bildes gehört: der dazugehörige (vorangehende, folgende) Text und eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar benannte Textalternative.
 
-Eine kurze Textalternative mit Bezeichnung des Bildes ist auch bei Nutzung von Textalternativen im Kontext erforderlich. Die Textalternative sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist, er macht klar, worauf sich die Erläuterung im Kontext bezieht.
+Eine kurze Textalternative mit Bezeichnung des Bildes ist auch bei Nutzung von Textalternativen im Kontext erforderlich. Die Textalternative sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist, sie macht klar, worauf sich die Erläuterung im Kontext bezieht.
 
 ==== Beurteilung der Angemessenheit ====
 
