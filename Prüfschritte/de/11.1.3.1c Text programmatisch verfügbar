@@ -1,0 +1,64 @@
+= Prüfschritt 1.3.1c Text programmatisch verfügbar
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn in Apps Text zu sehen ist, soll dieser Text auch vom Screenreader ausdgegeben werden können.
+
+== Warum wird das geprüft?
+
+Textinhalte, die nicht rein dekorative Zweck haben, gelten als Information, die auch bei Nutzung assistiver Technologien verfügbar sein sollen.
+Sie dürfen nicht auf eine Weise implementiert werden, dass sie für den Screenreader-Nutzer unzugänglich sind.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn in der App Textinhalte vorhanden sind, die Inhalte vermitteln und für die Nutzung relevant sein können.
+
+=== Prüfung
+
+. Screenreader starten (siehe Handreichung)
+. Zu testende App starten
+. Mit dem Screenreader mittels Wischgesten durch alle Inhalte navigieren bzw. diese direkt antippen und prüfen, ob der Screenreader die Textinhalte ausgibt.
+. Wenn es sich um Bedienelemente handelt, kann die Ausgabe mitunter vom sichtbaren Text abweichen (beachte aber Prüfschritt 11.2.5.3 Beschriftung im zugänglichen Namen).
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131#adaptable[Guideline
+  1.3 Adaptable: Create content that can be presented in different ways (for
+  example simpler layout) without losing information or structure]
+
+==== Success criterion
+
+* https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131#info-and-relationships[
+  1.3.1 Info and Relationships (Level A)]
+
+==== Techniques
+
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G115.html[G115: Using
+  semantic elements to mark up structure]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[G140: Separating
+  information and structure from presentation to enable different presentations]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F92.html[F92: Failure of
+  Success Criterion 1.3.1 due to the use of role presentation on content which
+  conveys semantic information]
+
+== Quellen
+
+=== EN 301 549 V.3.2.1
+
+==== 11.1.3.1.1 Info and relationships (open functionality)
+
+Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading, it shall satisfy the WCAG 2.1 Success Criterion 1.3.1 Info and Relationships.
+
+NOTE: In software, programmatic determinability is best achieved through the use of accessibility services provided by platform software to enable interoperability between software and assistive technologies and accessibility features of software. (see clause 11.5 Interoperability with assistive technology).
