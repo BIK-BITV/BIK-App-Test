@@ -120,6 +120,7 @@ geprüft.
 === EN 301 549 V.3.2.1 Text
 
 ==== 11.1.1.1.1 Non-text content (open functionality)
+
 NOTE: CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.
 
 === Andere Quellen
