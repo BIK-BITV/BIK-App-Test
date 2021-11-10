@@ -1,4 +1,38 @@
 = Prüfschritt 6.5.5 Visual indicator of audio with video
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn die Software Videotelefonie unterstützt, soll Audio-Aktivität visuell angezeigt werden.
+
+== Warum wird das geprüft?
+
+Für gehörlose Nutzer ist über den Anzeige der Audio-Aktivität wahrnehmbar, dass jemand spricht, und wer spricht.
+
+== Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie inkl. Sprachübertragung unterstützt.
+
+=== Prüfung
+
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zu diesem
+Prüfschritt eröffnen.
+
+. App auf zwei Geräten starten
+. Videotelefonieverbindung zwischen den Geräten herstellen
+. Auf dem verbundenen Gerät Sprache eingeben und überprüfen, ob die Spracheingabe visuell wahrnehmbar ist. Für den Indikator gelten die sonstigen Anforderungen, z.B. an Grafik-Kontrast.
+
+== Quellen
+
+=== EN 301 549 V.3.2.1
+
+==== 6.5.5 Visual indicator of audio with video
+
 Where ICT provides two-way voice communication, and includes real-time video functionality, the ICT shall provide a real-time visual indicator of audio activity.
+
 NOTE 1: The visual indicator may be a simple visual dot or LED, or other type of on/off indicator, that flickers to reflect audio activity.
+
 NOTE 2: Without this indication a person who lacks the ability to hear does not know when someone is talking.
