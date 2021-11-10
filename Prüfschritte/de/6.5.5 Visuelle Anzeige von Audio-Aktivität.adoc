@@ -1,4 +1,4 @@
-= Prüfschritt 6.5.5 Visual indicator of audio with video
+= Prüfschritt 6.5.5 Visuelle Anzeige von Audio-Aktivität
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
