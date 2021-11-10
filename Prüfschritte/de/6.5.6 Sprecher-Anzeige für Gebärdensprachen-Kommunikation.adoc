@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Software Videotelefonie unterstützt, soll nicht nur die Aktivtät von Sprechenden, sondern auch die von Gebärdensprach-Eingebenden angezeigt werden.
+Wenn eine App Videotelefonie unterstützt, soll nicht nur die Aktivtät von Sprechenden, sondern auch die von Gebärdensprach-Eingebenden angezeigt werden.
 
 == Warum wird das geprüft?
 
@@ -14,7 +14,7 @@ Für Nutzende ist über den Anzeige einer aktiven Gebärden-Eingabe wahrnehmbar,
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App Videotelefonie unterstützt und eine Anzeige der Sprechaktivität von Sprechenden bietet.
+Der Prüfschritt ist anwendbar, wenn eine App Videotelefonie unterstützt und eine Anzeige der Sprechaktivität von Sprechenden bietet.
 
 === Prüfung
 
@@ -25,12 +25,13 @@ Prüfschritt eröffnen.
 . Videotelefonieverbindung zwischen den Geräten herstellen.
 . Auf dem verbundenen Gerät die Eingabe von Gebärden starten.
 . Prüfen, ob die App die Möglichkeit bietet, den Start eines Gebärden-Eingabe zu signalisieren oder die Eingabe von der App automatisch erkannt und in Folge der Aktivitäts-Zustand gesetzt werden kann.
-. Prüfen, ob die Aktivität der Gebärden-Eingabe visuell wahrnehmbar ist.
+. Prüfen, ob die Aktivität der Gebärden-Eingabe wahrnehmbar ist.
 
 === Hinweise
 
-Es spielt für die Überprüfung vermutlich keine Rolle, ob die Eingabe von Gebärdensprachen-Kundigen vorgenommen wird oder nur ähnliche Bewegungen gemacht werden, eine Eingabe also nur simuliert wird.
-Für den Indikator der Aktivität von Gebärdenden gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
+. Es spielt für die Überprüfung vermutlich keine Rolle, ob die Eingabe von Gebärdensprachen-Kundigen vorgenommen wird oder nur ähnliche Bewegungen gemacht werden, eine Eingabe also nur simuliert wird.
+. Für den Indikator der Aktivität von Gebärdenden gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
+. Wahrnehmbarkeit schließt visuelle Wahrnehmbarkeit und ptogrammatische Ermittelbarkeit der Aktivitätsanzeige ein.
 
 == Quellen
 
