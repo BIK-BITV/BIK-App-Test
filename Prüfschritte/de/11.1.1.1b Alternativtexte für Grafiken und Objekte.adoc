@@ -41,7 +41,8 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 . App mit zu prüfender Ansicht starten.
 . Prüfen, ob unverlinkte informationstragende Grafiken oder Multimedia-Inhalte vorhanden sind.
 . Screenreader starten und Fokus auf jede informationstragende Grafik setzen.
-. Prüfen, ob der Screenreader bei den entsprechenden Elementen auf dem Bildschirm aussagekräftige Textalternativen ausgibt.
+. Prüfen, ob der Screenreader informationstragende Grafiken aussagekräftigen Alternativtext ausgibt
+. Bei komplexen Grafiken prüfen, ob der Alternativtext Inhalt knapp nennt und auf ausführliche Textalternativen im Kontext der Grafik verweist. Diese können etwa unterhalb der Grafik, in einem Ausklappbereich oder in einer verlinkten Ansicht vorgehalten werden.
 . Prüfen, ob Schmuckgrafiken Alternativtexte tragen. Bei Grenzfällen (Grafiken haben einen beschreibbaren Inhalt mit Bezug zum Thema, sind aber zum Verständnis der Inhalte nicht wichtig) können sowohl Alternativtexte als das Fehlen von Alternativtext akzeptiert werden.
 
 === 3. Hinweise
