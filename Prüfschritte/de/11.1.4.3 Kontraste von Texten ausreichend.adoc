@@ -47,7 +47,7 @@ Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die Ansi
 === 3.1 Hinweise auf Messungenauigkeiten
 * Screenshots geben die tatsächlichen Farben nicht immer richtig wieder (siehe https://webaim.org/discussion/mail_thread?thread=10162[Thread in Webaim Mailing List]).
 * Bei Messungen mittels der Pipette des Color Contrast Analyzers kann es bei kleineren Schriften zu Fehlmessungen kommen: Der Randbreich der Schriften ist wegen des Anti-Aliasings oft näher am Kontrastwert des Hintergrundes, der Wert scheint dann ungenügend, obwohl er normativ ggf. ausreicht. Bei App-Screenshots ist es nicht wie bei Web-Angeboten möglich, vor der Messung hineinzuzoomen, um bei einer besseren Strichstärke der Schrift eine zuverlässigere Messung vorzunehmen. Messungen im Grenzbereich der geforderten Kontrastwerte sollten diesen Unsicherheitsfaktor benennen.
-* Für gro0e und kleine Schriften gelten unterschiedliche Richtwerte. Bei Apps ist die Schriftgrößen-Unterscheidung derzeit nur bedingt anwendbar. Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender Werkzeuge nicht oder nur ungenau möglich. Prüfende Personen müssen an dieser Stelle anhand ihrer Erfahrung urteilen. Falls Ihnen geeignete Werkzeuge und Methoden bekannt sind, weisen Sie uns gerne in einem https://github.com/BIK-BITV/BIK-App-Test/issues[GitHub Issue] darauf hin.
+* Für große und kleine Schriften gelten unterschiedliche Richtwerte. Bei Apps ist die Schriftgrößen-Unterscheidung derzeit nur bedingt anwendbar. Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender Werkzeuge nicht oder nur ungenau möglich. Prüfende Personen müssen an dieser Stelle anhand ihrer Erfahrung urteilen. Falls Ihnen geeignete Werkzeuge und Methoden bekannt sind, weisen Sie uns gerne in einem https://github.com/BIK-BITV/BIK-App-Test/issues[GitHub Issue] darauf hin.
 
 ==== 3.2 Allgemeine Hinweise
 * Elemente, die unterschiedliche Zustände haben können, sollten immer ausreichend kontrastieren. Das bedeutet, auch die farblich hervorgehobene, aktuell ausgewählte
@@ -55,7 +55,6 @@ Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die Ansi
 * Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit einer App erleichtern. Ein Beispiel: Funktionen, die prinzipiell vorgesehen, aktuell aber nicht
   verfügbar sind, werden schwach kontrastierend dargestellt. Das ist akzeptabel, wenn das ausgeblendete Element für die Orientierung und Bedienung nicht erforderlich
   ist. Der Prüfschritt ist daher auf die Beschriftungen ausgeblendeter, deaktivierter Bedienelemente in der Regel nicht anwendbar.
-* Wenn Kontraste dünner Schriften zu prüfen sind, gegebenenfalls Schrift vergrößern.
 * Der Farbkontrast von Textvorbelegungen von Formularfeldern erfüllt oft nicht die Mindest-Anforderung von 4,5:1.
 
 ==== 3.3 Hinweise zur Prüfung von Ansichten mit Styleswitcher
