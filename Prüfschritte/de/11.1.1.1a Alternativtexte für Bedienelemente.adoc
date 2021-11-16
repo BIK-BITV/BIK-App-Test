@@ -65,27 +65,6 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 - iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
 - iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern
 
-==== Textalternativen für redundant verlinkte Abbildungen
-
-* Wenn eine Abbildung und ein danebenstehender Textlink auf dasselbe Ziel verweisen, muss geprüft werden, ob es sich um ein zusammengesetztes Bedienelement handelt (d. h. der Screenreader liest Grafik und Text nicht separat vor).
-* Wenn es sich nicht um ein zusammengesetztes Bedienelement handelt, der Screenreader im Lesemodus also beide Elemente nacheinander fokussiert und ausgibt, soll die Textalternative der Grafik nicht einfach die nebenstehende Beschriftung (Linktext) wiederholen. Je nach Inhalt der Abbildung kann die Textalternative dann 
-** bei Schmuckgrafiken leer bleiben - das Element sollte ganz aus der Fokusreihenfolge entfernt werden
-** bei verlinkten Abbildungen ggf. kurz den abgebildetem Inhalt nennen, in jedem Fall jedoch Zweck oder Ziel des Links bzw. der Funktion nennen (etwa: "öffnet vergrößerte Ansicht")
-* Vorteilhaft ist in jedem Fall die Gruppierung von Grafiken und Text, wenn die gleiche Funktion bzw. das gleiche Ziel aufgerufen wird.
-
-Dies ist Gegenstand der Prüfkriterien
-ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
-ifndef::env_embedded[]
-  <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
-  Alternativtexte für Grafiken und Objekte>>
-endif::env_embedded[]
-und
-ifdef::env_embedded[11.1.1.1c "Leere alt-Attribute für Layoutgrafiken".]
-ifndef::env_embedded[]
-  <<11.1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,11.1.1.1c Leere
-  alt-Attribute für Layout-Grafiken>>.
-endif::env_embedded[]
-
 === 4. Bewertung
 
 *Nicht voll erfüllt:*
