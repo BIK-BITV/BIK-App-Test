@@ -33,7 +33,8 @@ Der Prüfschritt ist anwendbar, wenn es in der App Inhalte gibt, die durch visue
 
 . App mit zu prüfender Ansicht starten
 . Screenreader starten
-. Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind, auch als Überschriften ausgezeichnet sind. Die Navigationseinstellung des Screenreaders wird auf "Überschriften" gesetzt. Anschließend navigiert man durch all Überschriften der Ansicht und prüft die Ausgabe des Screenreaders. Falls es sich um eine korrekt ausgezeichnete Überschrift handelt, gibt der Screenreader dies mit dem Wort "Überschrift" o.ä. aus. Falls zwischen Überschriftsebenen unterschieden wird (etwa bei Webviews), wird die entsprechende Ebene ebenfalls ausgegeben. Die Hierarchie der eingesetzten Überschriftsebenen soll dann der Gliederung der Inhalte entsprechen.
+. Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind, auch als Überschriften ausgezeichnet sind. Die Navigationseinstellung des Screenreaders wird auf "Überschriften" gesetzt. Anschließend navigiert man durch all Überschriften der Ansicht und prüft die Ausgabe des Screenreaders. Falls es sich um eine korrekt ausgezeichnete Überschrift handelt, gibt der Screenreader dies mit dem Wort "Überschrift" o.ä. aus. 
+. Auf Webviews kann zwischen Überschriftsebenen unterschieden werden, wird die entsprechende Ebene ebenfalls ausgegeben. Die Hierarchie der eingesetzten Überschriftsebenen soll dann der Gliederung der Inhalte entsprechen. Der Aufruf des Rotors (iOS) bzw. von Kontextmenü / Navigation (Android) gibt einen Hinweis, ob es sich um ein Webview oder eine native Ansicht handelt. Bei Webviews werden in der Regel mehr Navigationsmöglichkeiten angezeigt.
 . Prüfen, ob die Überschriftsauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich eingesetzt wird.
 
 === 3. Hinweise
