@@ -42,13 +42,13 @@ Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil der
 
 App-Entwickler haben derzeit keine Möglichkeit unterschiedliche Überschriftsebenen in nativen Ansichten auszuzeichnen. Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht* negativ bewertet.
 
-Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein Web-View, die auf HTML basiert. Überschriften sollten dann korrekt geschachtelt sein (h1 gefolgt von h2 gefolgt von h3, und so weiter), um die Gliederung der Inhalte abzubilden. Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
+Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein Web-View, der auf HTML basiert. Überschriften sollten dann korrekt geschachtelt sein (h1 gefolgt von h2 gefolgt von h3, und so weiter), um die Gliederung der Inhalte abzubilden. Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
 
 === 4. Bewertung
 
 ==== Erfüllt:
 
-* Visuelle Überschriften auf der Seite sind asuch semantisch als Überschriften umgesetzt.
+* Visuelle Überschriften auf der Seite sind auch semantisch als Überschriften umgesetzt.
 
 ==== Teilweise erfüllt:
 
