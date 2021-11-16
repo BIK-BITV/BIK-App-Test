@@ -41,15 +41,6 @@ Zu den Rollen gehören u. a. "Taste" bzw. "Schaltfläche", "Eingabefeld" bzw. "B
 +
 Der Wert beschreibt z. B. den Inhalt des Bedienelements z. B. "Müller" bei einem Eingabefeld für Nachnamen. Zu den Werten des Bedienelements gehört auch der aktuelle Status, z. B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
 
-==== Rollen von iOS / iPadOS und Android
-
-Bei der Prüfung von Bedienelementen mit dem Screenreader, müssen die korrekten Rollen angesagt werden. Einige wichtige Rollen stellen wir in der Folgenden Tabelle bereit:
-
-[%header,format=csv,separator=;]
-|===
-include::include/Rollen.csv[]
-|===
-
 === Hinweise
 
 Dieses Erfolgskriterium richtet sich in erster Linie an Softwareentwickler, die benutzerdefinierte bzw. selbstgestaltete Komponenten für die
