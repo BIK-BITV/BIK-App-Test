@@ -54,10 +54,14 @@ Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichti
 
 === 4. Bewertung
 
+*Eher erfüllt:*
+
+* Bildinhalte fehlen in der Audiodeskription bzw. der Tonspur, es gibt jedoch keine Sprecherpausen, in denen die Information eingesprochen werden könnte. Hier leiße sich den Anfprderung nur durch eine erweiterte Audiodeskription erfüllen, dies jedoch wird in der EN nicht verlangt (vergl. 
+
+
 *Nicht voll erfüllt:*
 
-* Es wird keine Audiodeskription angeboten, informationstragende Bilddinhalte
-  sind nicht vollständig in der angebotenen Volltextalternative enthalten.
+* Es wird keine Audiodeskription angeboten, informationstragende Bilddinhalte sind nicht vollständig in der angebotenen Volltextalternative enthalten.
 
 *Nicht erfüllt:*
 
@@ -98,6 +102,7 @@ Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichti
 === BIK für Alle: Leitfaden barrierefreie Online-Videos
 
 * http://www.bik-fuer-alle.de/audiodeskription.html[Audiodeskription]
+* https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded[Extended Audio-Deskription]
 
 === Blogartikel von Terrill Thompson zu Audio Description (Stand 03/2017):
 
