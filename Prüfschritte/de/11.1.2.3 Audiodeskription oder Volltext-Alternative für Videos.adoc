@@ -31,8 +31,8 @@ Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 ==== Audiodeskription prüfen
 
 . Video abspielen und Bildinhalte daraufhin überprüfen, ob wichtige Informationen vorhanden sind, die sich nicht auch aus dem Ton entnehmen lassen.
-. Zu häufigen informationstragenden Elementen der Bildebene gehören zum Beispiel Einblendungen von Sprechernamen. Ist es dann wichtig, mitzubekommen, wer spricht? Sind visuelle Informationen auch in der Tonspur vorhanden? 
-. Ist das Video lediglich eine Medienalternative zu einem textbasierten Inhalt, wird also ergänzend zu einem Text angeboten? In diesem Fall ist keine Audiodeskription erforderlich. Die gilt allerdings nur dann, wenn das Video keine Inhalte enthält, die inhaltlich über die Textversion hinausgehen. 
+. Zu häufigen informationstragenden Elementen der Bildebene gehören zum Beispiel Einblendungen von sprechenden Personen. Ist es dann wichtig, mitzubekommen, wer spricht? Sind visuelle Informationen auch in der Tonspur vorhanden? 
+. Ist das Video lediglich eine Medienalternative zu einem textbasierten Inhalt, wird es also ergänzend zu einem Text angeboten? In diesem Fall ist keine Audiodeskription erforderlich. Dies gilt allerdings nur dann, wenn das Video keine Inhalte enthält, die inhaltlich über die Textversion hinausgehen. 
 
 
 ==== 2.2 Prüfung von Volltextalternativen
@@ -56,7 +56,7 @@ Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichti
 
 *Eher erfüllt:*
 
-* Bildinhalte fehlen in der Audiodeskription bzw. der Tonspur, es gibt jedoch keine Sprecherpausen, in denen die Information eingesprochen werden könnte. Hier leiße sich den Anfprderung nur durch eine erweiterte Audiodeskription erfüllen, dies jedoch wird in der EN nicht verlangt (vergl. 
+* Bildinhalte fehlen in der Audiodeskription bzw. der Tonspur, es gibt jedoch keine Pausen bei den sprechenden Personen, in denen die Information eingesprochen werden könnte. Hier ließe sich den Anfprderung nur durch eine erweiterte Audiodeskription erfüllen, dies jedoch wird in der EN 301 549 nicht verlangt. 
 
 
 *Nicht voll erfüllt:*
