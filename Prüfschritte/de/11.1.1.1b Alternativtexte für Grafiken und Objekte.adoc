@@ -29,8 +29,7 @@ Als informative Grafiken gelten:
 
 Dekorative Grafiken und Bilder sind Grenzfälle. Sie stellen (im Unterschied zu Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen Bezug zum Thema der App-Ansicht. Ihr Informationsgehalt und ihr Nutzen für das Verständnis ist aber nicht klar. Sie können daher als dekorativ gekennzeichnet werden, der Prüfschritt ist dann nicht anwendbar.
 
-Wenn Logo-artige Elemente, in denen Grafik und Schrift verbunden sind, auftauchen, sind diese fast nie als bloße Schmuckgrafik anzusehen und brauchen deshalb eine
-Textalternative. Dies ermöglicht blinden und sehenden Nutzern, sich gemeinsam auf diese Elemente zu beziehen. Die Textalternative muss aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich ist.
+Wenn Logo-artige Elemente, in denen Grafik und Schrift verbunden sind, auftauchen, sind diese fast nie als bloße Schmuckgrafik anzusehen und brauchen deshalb eine Textalternative. Dies ermöglicht blinden und sehenden Nutzern, sich gemeinsam auf diese Elemente zu beziehen. Die Textalternative muss aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich ist.
 
 Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente vorhanden sind.
 
