@@ -20,7 +20,7 @@ Der Prüfschritt ist anwendbar, wenn die App Videos mit zuschaltbaren bzw. progr
 
 . App öffnen.
 . Video mit Untertitelung abspielen.
-. Falls es sich um zuschaltbare bzw. programmatisch ermittelbare Untertitel handelt: Prüfen, ob es die Option einer Sprachausgabe der Untertitel gibt.
+. Falls es sich um zuschaltbare bzw. programmatisch ermittelbare Untertitel handelt: Prüfen, ob sich eine Sprachausgabe der Untertitel aktivieren lässt.
 
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue hinterlassen].
 
