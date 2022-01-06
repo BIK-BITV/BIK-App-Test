@@ -38,7 +38,7 @@ Gängige Video-Player verfügen zur Zeit meist nicht über die Möglichkeit eine
 
 === Einordnung des Prüfschritts nach EN 301 549 v.3.2.1
 
-==== 7.1.5  Spoken Captions
+==== 7.1.5  Spoken subtitles
 
 == Quellen
 
