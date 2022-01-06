@@ -8,7 +8,7 @@ Wenn die App Videos mit Untertiteln überträgt, lassen sich Untertitel anpassen
 
 == Warum wird das geprüft?
 
-Wenn die App Videos mit Untertiteln überträgt, ist des für Untertitel-Nutzende hilfreich, die visuelle Darstellung der Untertitel anpassen zu können.
+Bei Videos mit Untertiteln ist es für Untertitel-Nutzende hilfreich, die visuelle Darstellung der Untertitel anpassen zu können, zum Beispiel, die Schrift größer stellen zu können oder den Kontrast des Texts anpassen zu können.
 
 == Wie wird geprüft?
 
@@ -18,14 +18,15 @@ Der Prüfschritt ist anwendbar, wenn die App Videos mit Untertiteln enthält und
 
 === 2. Prüfung
 
-1. App öffnen.
-2. Video mit Untertitelung abspielen.
-3. Falls es sich um zuschaltbare Untertitel handelt: Prüfen, ob es Einstellungsmöglichkeiten für die Darstellung der Untertitel gibt, etwa, um Schriftgröße, Schriftart (Font), Vorder- und Hintergrundfarbe, oder Transparenz des Untertitel-Bereichs anpassen zu können.
+. App öffnen.
+. Video mit Untertitelung abspielen.
+. Falls es sich um zuschaltbare Untertitel handelt: Prüfen, ob es Einstellungsmöglichkeiten für die Darstellung der Untertitel gibt, etwa, um Schriftgröße, Schriftart (Font), Vorder- und Hintergrundfarbe, oder Transparenz des Untertitel-Bereichs anpassen zu können.
+
+Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue hinterlassen].
 
 === 3. Hinweise
 
-* Art und Umfang der Anpassungsmöglichkeiten sind nicht normativ festgelegt. Die Norm nennt beispielhaft Hinter- und Vordergrundfarbe der Untertitel, Schriftart, Größe, Transparenz des Untertitel-Bereichs, und Kontur der Schrift.
-* Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue hinterlassen].
+Art und Umfang der Anpassungsmöglichkeiten sind nicht normativ festgelegt. Die Norm nennt beispielhaft Hinter- und Vordergrundfarbe der Untertitel, Schriftart, Größe, Transparenz des Untertitel-Bereichs, und Kontur der Schrift.
 
 === 4. Bewertung
 
