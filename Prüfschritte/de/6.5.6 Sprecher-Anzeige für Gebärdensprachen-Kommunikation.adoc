@@ -12,26 +12,26 @@ Für Nutzende ist über den Anzeige einer aktiven Gebärden-Eingabe wahrnehmbar,
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn eine App Videotelefonie unterstützt und eine Anzeige der Sprechaktivität von Sprechenden bietet.
 
-=== Prüfung
+=== 2. Prüfung
+
+. App auf zwei Geräten mit abweichenden Nutzenden-Konten starten.
+. Videotelefonieverbindung zwischen den beiden Instanzen der App herstellen.
+. Auf dem verbundenen Gerät die Eingabe von Gebärden starten.
+. Prüfen, ob die App die Möglichkeit bietet, den Start einer Gebärden-Eingabe zu signalisieren oder die Eingabe von der App automatisch erkannt und in Folge der Aktivitäts-Zustand automatisch gesetzt wird.
+. Prüfen, ob die Aktivität der Gebärden-Eingabe wahrnehmbar ist.
 
 Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zu diesem
 Prüfschritt eröffnen.
 
-. App auf zwei Geräten starten.
-. Videotelefonieverbindung zwischen den Geräten herstellen.
-. Auf dem verbundenen Gerät die Eingabe von Gebärden starten.
-. Prüfen, ob die App die Möglichkeit bietet, den Start eines Gebärden-Eingabe zu signalisieren oder die Eingabe von der App automatisch erkannt und in Folge der Aktivitäts-Zustand gesetzt werden kann.
-. Prüfen, ob die Aktivität der Gebärden-Eingabe wahrnehmbar ist.
-
-=== Hinweise
+=== 3. Hinweise
 
 * Es spielt für die Überprüfung vermutlich keine Rolle, ob die Eingabe von Gebärdensprachen-Kundigen vorgenommen wird oder nur ähnliche Bewegungen gemacht werden, eine Eingabe also nur simuliert wird.
 * Für den Indikator der Aktivität von Gebärdenden gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
-* Wahrnehmbarkeit schließt visuelle Wahrnehmbarkeit und ptogrammatische Ermittelbarkeit der Aktivitätsanzeige ein.
+* Wahrnehmbarkeit schließt visuelle Wahrnehmbarkeit und programmatische Ermittelbarkeit der Aktivitätsanzeige ein.
 
 == Quellen
 
