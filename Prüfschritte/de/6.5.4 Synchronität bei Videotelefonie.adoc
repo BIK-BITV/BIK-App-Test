@@ -24,7 +24,7 @@ Die Synchronität (bzw. das Auftreten von Asynchronität, Ton und Bild laufen ni
 
 . App auf zwei Geräten starten
 . Videotelefonieverbindung zwischen den Geräten herstellen
-. Synchronität zwischen Sprache und Video prüfen (Lippensynchronität), ist eine Zeitdifferenz deutlich wahrnehmbar?
+. Synchronität zwischen Sprache und Video prüfen (Lippensynchronität). Ist eine Zeitdifferenz deutlich wahrnehmbar?
 
 Um ein belastbares Ergebnis zu erzielen, sollte die Testübertragung wiederholt werden.
 
@@ -32,7 +32,7 @@ Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der Zeitdiff
 
 ==== Hinweise
 
-* Untersuchungen zeigen, dass die Verständlichkeit deutlich mehr leidet, wenn das Video dem Audio hinterherhängt als andersherum. Diese Tatsache sollte bei der Bewertung entsprechend berücksichtigt und angemerkt werden.
+* Untersuchungen zeigen, dass die Verständlichkeit deutlich mehr leidet, wenn das Video dem Audio hinterherhängt, als umgekehrt. Diese Tatsache kann bei der Bewertung entsprechend berücksichtigt und angemerkt werden.
 
 * Um Latenzen der Netzwerk-Infrastruktrur zu minimieren, sollten beide Geräte über eine stabile Internetverbindung mit ausreichend Bandbreite verbunden sein.
 
