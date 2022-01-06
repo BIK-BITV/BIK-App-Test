@@ -18,9 +18,9 @@ Der Prüfschritt ist anwendbar, wenn das Webangebot Echtzeit-Sprachkommunikation
 sprachbasierte Menüführung bei einer Hotline, einsetzt.
 
 === 2. Prüfung
-* Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprech- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:
-** eine alternative Zugangsmöglichkeit, z.B. über barrierefreie Menüs oder Formulare
-** eine alternative barrierefreie Ausgabe der Information, etwa als sichtbarer und programmatisch ermittelbarer Text 
+Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprech- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:
+* eine alternative Zugangsmöglichkeit, z.B. über barrierefreie Menüs oder Formulare
+* eine alternative barrierefreie Ausgabe der Information, etwa als sichtbarer und programmatisch ermittelbarer Text 
 
 Für die Weiterentwicklung dieses Prüfschritts können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen] und Ihre Erfahrungen teilen.
