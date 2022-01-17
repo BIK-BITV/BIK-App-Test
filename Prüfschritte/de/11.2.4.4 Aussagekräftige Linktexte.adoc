@@ -7,48 +7,29 @@ include::include/attributes.adoc[]
 Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem
 direkten Kontext des Links ermittelbar sein.
 
-Falls Links nicht auf andere Ansichten der App verweisen, soll der Link über
+Falls der Link nicht auf andere App-Ansichten verweist, soll der Link über
 das Dateiformat des Zieldokuments informieren.
 
-Wenn Links in Anwendungen nicht erwartbar auf Ressourcen außerhalb der
-Software verweisen, sollte der Linktext auch hier einen zusätzlichen Hinweis
-auf das Ziel(format) geben.
-Z. B. „öffnet in Browser“ etc.
+Auch wenn Links nicht auf Dokumente verweisen, sondern andere Anwendungen öffnen, sollte der Linktext auch hier einen zusätzlichen Hinweis auf das Ziel gebenb Z. B. „öffnet in Browser“ etc.
 
 == Warum wird das geprüft?
 
-Blinde Nutzer, die von Link zu Link tabben / navigieren, bekommen die
-Linktexte vorgelesen und können bei aussagekräftigen Linktexten leicht
-entscheiden, ob sie einem Link folgen möchten.
+Blinde Nutzende, die von Link zu Link navigieren, bekommen die Linktexte vorgelesen und können bei aussagekräftigen Linktexten leicht entscheiden, ob sie einem Link folgen möchten.
 
-Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare
-Kontext für Screenreader-Nutzer wenigstens leicht ermittelbar sein.
+Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare Kontext für Screenreader-Nutzende wenigstens leicht ermittelbar sein.
 
-Screenreader bieten die Möglichkeit der Auflistung bzw.
-direkter Anspringbarkeit sämtlicher Links der App-Ansicht und damit auch
-einen schnellen Überblick, selbst wenn die Software ansonsten schlecht
-zugänglich ist.
-Diese Technik funktioniert allerdings nicht, wenn alle Linktexte gleich sind
-und nicht ausreichend Auskunft über das Linkziel geben.
+Screenreader bieten die Möglichkeit sämtliche Links der Seite aufzulisten und ermöglichen damit
+einen schnellen Überblick, selbst wenn die Software ansonsten schlecht zugänglich ist. Diese Technik funktioniert allerdings nicht, wenn alle Linktexte gleich sind und nicht ausreichend Auskunft über das Linkziel geben.
 
-Für Angebote außerhalb der App (zum Beispiel PDF- oder Word-Dokumente)
-benötigt der Benutzer zusätzliche Apps oder Plugins, die aber nicht jeder
-installiert hat.
-Manche Apps arbeiten schlecht mit Screenreadern oder anderen Hilfsanwendungen
-zusammen, manche Dateiformate sind nicht oder nur schlecht zugänglich.
-Für viele Benutzer ist es wichtig zu wissen, in welchem Format
-Informationen angeboten werden, bevor sie einen Link aktivieren.
+Bei Links zu Angeboten außerhalb der App (zum Beispiel PDF- oder Word-Dokumente) ist es für Nutzende sinnvoll zu wissen, in welchem Format Informationen angeboten werden, bevor sie einen Link aktivieren. Möglichwerweise werden zusätzliche Apps oder Plugins gebraucht und diese Apps sind vielleicht schlecht mit Screenreadern oder anderen Hilfsmittel zugänglich. Auch können bestimmte Dateiformate nicht oder nur schlecht zugänglich sein.
 
-Ein weiterer Grund, weshalb die Vorab-Information über den Typ des Links
-wichtig ist: Der Benutzer weiß dann, was auf ihn zukommt.
-Er ist nicht überrascht oder irritiert, wenn plötzlich Funktionen nicht mehr
-vorhanden sind oder der E-Mail-Client geöffnet wird.
+Nutzende wissen außerdem, was sie erwartet, wenn sie einen Link aktivieren. Sie sind nicht überrascht oder irritiert, wenn plötzlich Funktionen nicht mehr vorhanden sind oder eine andere Anwendung geöffnet wird.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Links enthält.
+Der Prüfschritt ist anwendbar, wenn die Links enthält.
 
 === Prüfung
 
