@@ -27,7 +27,7 @@ Nutzende wissen außerdem, was sie erwartet, wenn sie einen Link aktivieren. Sie
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Links enthält.
+Der Prüfschritt ist anwendbar, wenn die App Links enthält.
 
 === Prüfung
 
@@ -61,11 +61,9 @@ Ressourcen wie z. B. PDF-Dateien geprüft werden.
 
 * Links, deren Ziel generell für alle Nutzer unklar ist, fallen nicht unter diesen Prüfschritt.
 * Verlinkte URLs und verlinkte E-Mail-Adressen vermitteln über ihr Format den Linkzweck (etwa, dass sie einen Email-Client öffnen oder auf ein externes Webangebot verlinken). URLs sind für alle Nutzer möglicherweise nicht aussagekräftig und werden deshalb hier nicht negativ bewertet.
-* Bei verlinkten Grafiken ist der Linktext der Wert des Alternativtextes
-* Der Linktext kann auch aus dem Alternativtext einer oder mehrerer Grafiken und
-einfachem Text zusammengesetzt sein.
-* Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element
-einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der
+* Bei verlinkten Grafiken ist der Linktext der Wert des Alternativtextes.
+* Der Linktext kann auch aus dem Alternativtext einer oder mehrerer Grafiken und einfachem Text zusammengesetzt sein.
+* Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der
 Auflistung hervorgeht.
 * Das title-Attribut eines Links ist potenziell programmatisch ermittelbar, wird aber in manchen Fällen (abhängig von Einstellungen) nicht von Screenreadern ausgewertet. Bei der Benutzung von Touch-Geräten ist außerdem problematisch, dass der Wert (der Text) nur bei Berührung mit einem Zeigegerät (z. B. Maus) angezeigt wird.
 
