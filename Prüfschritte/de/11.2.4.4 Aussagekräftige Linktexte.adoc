@@ -33,9 +33,10 @@ Der Prüfschritt ist anwendbar, wenn die Links enthält.
 
 ==== Prüfung von Linktexten
 
-. App mit zu testender Ansicht öffnen.
+. App mit zu prüfender Ansicht öffnen.
+. Screenreader starten und Fokus mit Hilfe der Wischgeste auf die Links setzen.
 . Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
-. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist, prüfen (gegebenenfalls mit dem Screenreader), ob der Linktext durch eine der folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
+. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist, mit dem Screenreader prüfen, ob der Linktext durch eine der folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
 +
 * durch zusätzlichen versteckten Linktext
 * durch den Alternativtext einer mit im selben Link-Element verlinkten Grafik 
@@ -52,6 +53,7 @@ Ressourcen wie z. B. PDF-Dateien geprüft werden.
 
 . App mit zu testender Ansicht öffnen.
 . Prüfen, ob visuell, etwa über zusätzliche Icons Auskunft über das Dateiformat gegeben wird.
+. Screenreader starten und Fokus mit Hilfe der Wischgeste auf das Icon setzen.
 . Prüfen, ob visuelle Information zum Dateiformat auch programmatisch bereitgestellt wird (etwa über versteckten Linktext, Alternativtext, oder geeignete ARIA-Attribute).
 . Falls weder über den Linktext noch über ein entsprechend eindeutiges Icon Auskunft über das Dateiformat gegeben wird, ist das Dateiformat des Links möglicherweise für alle Nutzenden unklar. Dies ist nicht als Mangel im Sinne dieses Prüfschritts zu bewerten (sollte jedoch gegebenenfalls als allgemeines Usability-Problem angemerkt werden).
 
