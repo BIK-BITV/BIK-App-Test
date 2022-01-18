@@ -8,7 +8,7 @@ Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem direk
 
 Falls der Link nicht auf andere App-Ansichten verweist, soll der Link über das Dateiformat des Zieldokuments informieren.
 
-Auch wenn Links nicht auf Dokumente verweisen, sondern andere Anwendungen öffnen, sollte der Linktext auch hier einen zusätzlichen Hinweis auf das Ziel gebenb Z. B. „öffnet in Browser“ etc.
+Auch wenn Links nicht auf Dokumente verweisen, sondern andere Anwendungen öffnen, sollte der Linktext auch hier einen zusätzlichen Hinweis auf das Ziel gebenb Z. B. „öffnet im Browser“ etc.
 
 == Warum wird das geprüft?
 
@@ -57,26 +57,23 @@ Ressourcen wie z. B. PDF-Dateien geprüft werden.
 
 === Hinweise
 
-Bei verlinkten Grafiken ist der Linktext der Wert des Alternativtextes
-
-Der Linktext kann auch aus dem Alternativtext einer oder mehrerer Grafiken und
+* Links, deren Ziel generell für alle Nutzer unklar ist, fallen nicht unter diesen Prüfschritt.
+* Verlinkte URLs und verlinkte E-Mail-Adressen vermitteln über ihr Format den Linkzweck (etwa, dass sie einen Email-Client öffnen oder auf ein externes Webangebot verlinken). URLs sind für alle Nutzer möglicherweise nicht aussagekräftig und werden deshalb hier nicht negativ bewertet.
+* Bei verlinkten Grafiken ist der Linktext der Wert des Alternativtextes
+* Der Linktext kann auch aus dem Alternativtext einer oder mehrerer Grafiken und
 einfachem Text zusammengesetzt sein.
-
-Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element
+* Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element
 einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der
 Auflistung hervorgeht.
+* Das title-Attribut eines Links ist potenziell programmatisch ermittelbar, wird aber in manchen Fällen (abhängig von Einstellungen) nicht von Screenreadern ausgewertet. Bei der Benutzung von Touch-Geräten ist außerdem problematisch, dass der Wert (der Text) nur bei Berührung mit einem Zeigegerät (z. B. Maus) angezeigt wird.
 
-Bei Software kann mit aktiviertem Screenreader geprüft werden, was dieser bei
-verlinkten Grafiken ausgibt.
 
 === Bewertung
 
 *Erfüllt:*
 
-* Alle Links benennen im Linktext oder im direkten Kontext Linkziel oder
-  Linkzweck.
-* Alle Links auf Angebote / Ressourcen außerhalb der App geben Auskunft über
-  das Dateiformat oder das externe Ziel. (öffnet im Browser, …)
+* Alle Links benennen im Linktext oder im direkten Kontext Linkziel oder Linkzweck.
+* Alle Links auf Angebote oder Ressourcen außerhalb der App geben Auskunft über das Dateiformat oder das externe Ziel (z. B. "öffnet im Browser")
 
 *Nicht voll erfüllt:*
 
@@ -86,32 +83,24 @@ verlinkten Grafiken ausgibt.
 
 === Abgrenzung zu anderen Prüfkriterien
 
-Die Aussaagekraft der Alternativtexte für Grafiken wird geprüft in:
+In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden ist. Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im zugänglichen Namen des Elements angegeben wird.
 
-* Prüfschritt
-ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
-ifndef::env_embedded[]
-  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Alternativtexte
-  für Bedienelemente>>
-endif::env_embedded[]
-
-In diesem Prüfschritt wird nur geprüft, ob die Information über das
-Dateiformat überhaupt vorhanden ist.
-Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im
-accessible name des Elements angegeben wird.
-
-Nicht geprüft wird, ob die Information auch gut zugänglich ist.
-Dafür reicht die alleinige Anzeige als Grafik nicht aus.
-Wenn das Dateiformat mit einer Grafik angezeigt wird, muss geprüft werden, ob
-diese Information auch als Text verfügbar ist.
-
-* Alternativer Text für blinde Nutzer:
-  Prüfschritt
+Die Zugänglichkeit und Aussaagekraft der Textalternativen für Grafiken wird im Prüfschritt 
 ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
 ifndef::env_embedded[]
   <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a
   Alternativtexte für Bedienelemente>>
 endif::env_embedded[]
+geprüft.
+
+
+Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden (z. B. unverlinkt dem Link vorangestellt), so wird dies in Prüfschritt
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifndef::env_embedded[]
+  <<11.1.1.1a Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>
+endif::env_embedded[]
+geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
