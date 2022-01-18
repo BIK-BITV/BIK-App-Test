@@ -138,17 +138,11 @@ geprüft.
 
 [.BLOCK_LANG_EN]
 --
-Assistive technology has the ability to provide users with a list of links
-that are on the Web page.
-Link text that is as meaningful as possible will aid users who want to choose
-from this list of links.
-Meaningful link text also helps those who wish to tab from link to link.
-Meaningful links help users choose which links to follow without requiring
-complicated strategies to understand the page.
---
+> Assistive technology has the ability to provide users with a list of links that are on the Web page. Link text that is as meaningful as possible will aid users who want to choose from this list of links. Meaningful link text also helps those who wish to tab from link to link. Meaningful links help users choose which links to follow without requiring complicated strategies to understand the page.
 
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
-Link Purpose (In Context): Understanding SC 2.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
+Link Purpose (In Context): Understanding SC 2.4.4]
+--
 
 === Gruppen zusammengehöriger Links
 
@@ -157,34 +151,23 @@ genannt werden und in den folgenden Links unterscheidende Informationen.
 Die WCAG 2.1 geben folgendes Beispiel:
 
 [.BLOCK_LANG_EN]
-A list of books is available in three formats: HTML, PDF, and mp3 (a recording
-of a person reading the book).
-To avoid hearing the title of each book three times (once for each format),
-the first link for each book is the title of the book, the second link says
-"PDF" and the third says, "mp3."
+--
+> A list of books is available in three formats: HTML, PDF, and mp3 (a recording of a person reading the book). To avoid hearing the title of each book three times (once for each format), the first link for each book is the title of the book, the second link says "PDF" and the third says, "mp3."
 
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[
 Link Purpose (In Context): Understanding SC 2.4.4: Examples of Success
-Criterion 2.4.4])
+Criterion 2.4.4]
+--
 
 === Aussagekraft über den Kontext
 
 [.BLOCK_LANG_EN]
 --
-Whenever possible, provide link text that identifies the purpose of the link
-without needing additional context.
+> Whenever possible, provide link text that identifies the purpose of the link without needing additional context.
+ 
+In some situations, authors may want to provide part of the description of the link in logically related text that provides the context for the link.
+In this case the user should be able to identify the purpose of the link without moving focus from the link. In other words, they can arrive on a link and find out more about it without losing their place. This can be achieved by putting the description of the link in the same sentence, paragraph, list item, the heading immediately preceding the link, or table cell as the link, or in the table header cell for a link in a data table, because these are directly associated with the link itself.
 
-In some situations, authors may want to provide part of the description of the
-link in logically related text that provides the context for the link.
-In this case the user should be able to identify the purpose of the link
-without moving focus from the link.
-In other words, they can arrive on a link and find out more about it without
-losing their place.
-This can be achieved by putting the description of the link in the same
-sentence, paragraph, list item, the heading immediately preceding the link, or
-table cell as the link, or in the table header cell for a link in a data
-table, because these are directly associated with the link itself.
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
+Link Purpose (In Context): Understanding SC 2.4.4]
 --
-
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
-Link Purpose (In Context): Understanding SC 2.4.4])
