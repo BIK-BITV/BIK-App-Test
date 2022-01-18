@@ -20,29 +20,34 @@ Der Prüfschritt ist anwendbar, wenn Audiodateien oder stumme Videodateien in de
 
 ==== 2.1 Transkription für Audiodateien
 
-. In der App die Audiodatei abspielen. Prüfen, ob Informationen vermittelt werden (z. B. über eine Kommentarstimme). Dann ist eine Transkription erforderlich.
+. App mit zu prüfender Ansicht öffnen.
+. Die Audiodatei abspielen. 
+. Prüfen, ob Informationen vermittelt werden (z. B. über eine Kommentarstimme). Dann ist eine Transkription erforderlich.
 . Prüfen, ob eine Transkription angeboten wird.
 . Transkription aufrufen und prüfen, ob sie die gleichen Inhalte wie die Audiodatei vermittelt.
-  Bei Audiodateien mit verschiedenen Stimmen gibt es in der Transkription eine Kennzeichnung der Sprecher.
+  Bei Audiodateien mit verschiedenen Stimmen gibt es in der Transkription eine Kennzeichnung der sprechenden Person.
 
 ==== 2.2 Medienalternative für stumme Film- oder Bildsequenzen
 
-. In der App die stumme Videodatei abspielen. Prüfen, ob Informationen vermittelt werden.
+. App mit zu prüfender Ansicht öffnen.
+. Die stumme Videodatei abspielen. 
+. Prüfen, ob Informationen vermittelt werden.
 . Prüfen, ob eine Medienalternative angeboten wird. Dies kann eine Textversion (direkt oder über einen Link), eine alternative Tonspur oder eine zusätzliche Audiodatei sein.
 . Medienalternative aufrufen und prüfen, ob sie die gleichen Inhalte wie die stumme Film- oder Bildsequenz vermittelt.
 
 ==== 2.3 Prüfung der Erreichbarkeit der Transkription bzw. Medienalternative
 
+. App mit zu prüfender Ansicht öffnen.
 . Prüfen, ob die Medienalternative im unmittelbaren Kontext der Audio- oder Videodatei angeboten wird.
-. Falls die Medienalternative in einer anderen Ansicht steht: gibt es zu ihr einen aussagekräftigen Link im unmittelbaren Kontext der Audio- oder Videodatei?
+. Falls die Medienalternative in einer anderen Ansicht zur Verfügung steht: gibt es zu ihr einen aussagekräftigen Link im unmittelbaren Kontext der Audio- oder Videodatei?
 
 ==== 3. Hinweise
 
 Eine Medienalternative ist nicht nötig, wenn Audio- oder Videodateien selbst als ergänzende Medienalternative angeboten werden (etwa eine schriftliche Montageanleitung, die durch eine Bildsequenz der beschriebenen Schritte ergänzt wird). Der Bezug muss dabei klar sein, etwa durch unmittelbare Nachbarschaft der beiden Medienalternativen oder durch einen aussagekräftigen Link.
 
-Eine genaue Entsprechung der Audio- oder stummen Videodatei und ihrer Medienalternative ist nicht erforderlich, es sollen aber nachvollziehbar dieselben Inhalte wiedergegeben werden. Bei Transkriptionen von mehreren Stimmen (etwa Dialogen) sollen die Sprecher im Text identifiziert sein.
+Eine genaue Entsprechung der Audio- oder stummen Videodatei und ihrer Medienalternative ist nicht erforderlich, es sollen aber nachvollziehbar dieselben Inhalte wiedergegeben werden. Bei Transkriptionen von mehreren Stimmen (etwa Dialogen) sollen die sprechenden Personen im Text identifiziert sein.
 
-Statt Links auf Inhalte können auch andere Bedienelemente genutzt werden. Konformität besteht auch dann, wenn eine Spezielle Version der Software angeboten wird, die die Anforderungen erfüllt.
+Statt Links auf Inhalte können auch andere Bedienelemente genutzt werden. Konformität besteht auch dann, wenn eine spezielle Version der Software angeboten wird, die die Anforderungen erfüllt.
 
 === 4. Bewertung
 
@@ -55,19 +60,15 @@ Statt Links auf Inhalte können auch andere Bedienelemente genutzt werden. Konfo
 
 === Abgrenzung zu anderen Prüfkriterien
 
-Nach der BITV 2 geht es in der Bedingung 1.1.1 "Nicht-Text-Inhalte" im Fall
-von zeitbasierten Medien um die Bereitstellung von kurzen beschreibenden
-Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt
-werden können, diese kurz identifizieren.
-Dies ist Gegenstand des Prüfschritts
+im Fall von zeitbasierten Medien geht es im Prüfschritt
 ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
 ifndef::env_embedded[]
   <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
   Alternativtexte für Grafiken und Objekte>>.
-endif::env_embedded[]
+um die Bereitstellung von kurzen beschreibenden Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt werden können, diese kurz identifizieren.
 
-In diesem Prüfschritt 1.2.1a geht es dagegen um die Bereitstellung von
-gleichwertigen Alternativen für reine Audio- oder Videoinhalte.
+
+In diesem Prüfschritt 11.1.2.1 Alternativen für Audiodateien und stumme Videos geht es dagegen um die Bereitstellung von gleichwertigen Alternativen für reine Audio- oder Videoinhalte.
 
 Im Prüfschritt
 ifdef::env_embedded[11.1.2.3 "Audiodeskription oder Volltext-Alternative für Videos"]
@@ -75,11 +76,8 @@ ifndef::env_embedded[]
   <<11.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,
   11.1.2.3 Audiodeskription oder Volltext-Alternative für Videos>>
 endif::env_embedded[]
-geht es schließlich um die Bereitstellung von zusätzlichen
-Audiodeskriptionen für synchronisierte Videos (also Videos mit Bild- und
-Tonspur).
-Dort geht es also um zusätzliche akustische Informationen über
-Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
+geht es schließlich um die Bereitstellung von zusätzlichen Audiodeskriptionen für synchronisierte Videos (also Videos mit Bild- und Tonspur).
+Dort geht es also um **zusätzliche** akustische Informationen über Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -109,6 +107,6 @@ Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
 
 ==== 11.1.2.1.1 Audio-only and video-only (pre-recorded -open functionality)
 
-Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading and where pre-recorded auditory information is not needed to enable the use of closed functions of ICT, it shall satisfy the WCAG 2.1 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded).
+Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading and where pre-recorded auditory information is not needed to enable the use of closed functions of ICT, it shall satisfy the WCAG 2.1 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded). 
 
 NOTE: The alternative can be provided directly in the software - or provided in an alternate version that meets the success criterion.
