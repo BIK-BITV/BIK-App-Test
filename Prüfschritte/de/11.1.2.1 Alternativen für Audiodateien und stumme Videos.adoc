@@ -37,6 +37,7 @@ Der Prüfschritt ist anwendbar, wenn Audiodateien oder stumme Videodateien in de
 
 ==== 2.3 Prüfung der Erreichbarkeit der Transkription bzw. Medienalternative
 
+. App mit zu prüfender Ansicht öffnen.
 . Prüfen, ob die Medienalternative im unmittelbaren Kontext der Audio- oder Videodatei angeboten wird.
 . Falls die Medienalternative in einer anderen Ansicht zur Verfügung steht: gibt es zu ihr einen aussagekräftigen Link im unmittelbaren Kontext der Audio- oder Videodatei?
 
