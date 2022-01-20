@@ -30,7 +30,7 @@ verwendet werden.
 
 === Prüfung
 
-. App mit zu prüfender Ansicht starten
+. App mit zu prüfender Ansicht starten.
 . Prüfen ob Layoutgrafiken oder dekorative Grafiken eingesetzt werden
 . Screenreader starten und Fokus auf die ensprechende Grafik setzen
 . Prüfen, ob beim Antippen der Layoutgrafiken eine Ausgabe durch den
