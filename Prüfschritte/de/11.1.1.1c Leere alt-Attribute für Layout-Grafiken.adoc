@@ -17,11 +17,11 @@ Dekorative Grafiken können mit plattformspezifischen Mitteln vor dem Screenread
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn eingebundene Grafiken für Layout- oder dekorative Zwecke verwendet werden.
 
-=== Prüfung
+=== 2. Prüfung
 
 . App mit zu prüfender Ansicht starten.
 . Prüfen ob Layoutgrafiken oder dekorative Grafiken eingesetzt werden.
@@ -30,12 +30,12 @@ Der Prüfschritt ist anwendbar, wenn eingebundene Grafiken für Layout- oder dek
 . Prüfen, ob eine Ausgabe durch den Screenreader stattfindet. 
 . Dekorative Grafiken sollten nicht den Fokus erhalten und es sollte keine Ausgabe durch den Screenreader erfolgen.
 
-=== Hinweise
+=== 3. Hinweise
 
 Bei aus mehreren Teilbildern zusammengesetzten Bilder mit Informationsgehalt sollte eines der Teilbilder einen Alternativtext haben, der über den Inhalt
 des zusammengesetzten Bildes informiert. Die anderen Teilbilder sollten dann vor dem Screenreader ausgeblendet werden.
 
-=== Bewertung
+=== 4. Bewertung
 
 *Nicht voll erfüllt:*
 
