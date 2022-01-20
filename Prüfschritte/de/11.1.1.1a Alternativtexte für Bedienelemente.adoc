@@ -47,10 +47,10 @@ In der Regel bedeutet das:
 
 Bei verlinkten Abbildungen gibt es folgende Möglichkeiten:
 
-* Beschreibung des abgebildeten Gegenstandes in der Textalternative (wenn der abgebildete Gegenstand wichtig ist und daraus das Linkziel hervorgeht, zum
-  Beispiel Logo)
-* Ziel des Links in die Textalternative
-* Beschreibung des abgebildeten Gegenstandes und Ziel des Links bzw. der Aktion in der Textalternative (wenn beides wichtig ist)
+* Der abgebildete Gegenstand wird in der Textalternative beschrieben (wenn der abgebildete Gegenstand wichtig ist und daraus das Linkziel hervorgeht, zum
+  Beispiel Logo).
+* Das Ziel des Links wird über die Textalternative vermittelt.
+* Der abgebildete Gegenstand und das Ziel des Links bzw. die Aktion werden über die Textalternative vermittelt (wenn beides wichtig ist).
 
 Generell gilt:
 
@@ -63,7 +63,7 @@ Generell gilt:
 Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:    
 
 - iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
-- iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern
+- iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern.
 
 === 4. Bewertung
 
