@@ -39,7 +39,7 @@ des zusammengesetzten Bildes informiert. Die anderen Teilbilder sollten dann vor
 
 *Nicht voll erfüllt:*
 
-* Layout-oder dekorative Grafiken werden vom Screenreader nicht fokussiert, es erfolgt keine Ausgabe.
+* Layout- oder dekorative Grafiken werden vom Screenreader fokussiert, es erfolgt eine Ausgabe.
 
 == Einordnung des Prüfschritts
 
