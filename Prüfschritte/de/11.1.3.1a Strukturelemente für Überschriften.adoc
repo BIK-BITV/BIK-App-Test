@@ -4,24 +4,23 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Überschriften müssen als solche ausgezeichnet sein und die Inhalte der App-Ansicht erschließen. Falls verschiedene Überschriftsebenen existieren, besteht grundsätzlich die Anforderung, dass die Strukturierung sinnvoll und nachvollziehbar ist.
+Überschriften, die zur Beschreibung von Inhalten eingesetzt werden, müssen auch semantisch als Überschriften ausgezeichnet sein. 
 
-Aktuell können verschiedene Überschriftsebenen lediglich in Web-Views von Apps unter iOS / iPadOS und Android realisiert werden.
-In nativen Ansichten können derzeit Überschriften nicht programmatisch in Ebenen unterteilt werden.
-Aufgrund technischer Begrenzungen können Entwickler hier nur ein UI-Element als einfache Überschrift auszeichnen.
+Die eingesetzten Überschriften sollten die strukturelle Hierarchie des Inhalts richtig wiedergeben. Aktuell können jedoch unterschiedliche Überschriftsebenen unter iOS / iPadOS und Android lediglich in Web-Views mit Web-Techniken (`h1` - `h6` bzw. durch den Einsatz von ARIA-Rollen und -Attributen) realisiert werden.
+
+In nativen Ansichten können derzeit Überschriften nicht programmatisch in Ebenen unterteilt werden. Aufgrund technischer Begrenzungen können Umsetzende nur ein UI-Element als einfache Überschrift auszeichnen.
 
 == Warum wird das geprüft?
 
-Visuell können App-Inhalte durch Überschriften strukturiert werden. Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der Ansicht leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.
+Visuell können Inhalte durch Überschriften strukturiert werden. Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der Ansicht leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.
 
-Benutzer, die diese visuelle Ordnung nicht nutzen können, zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar ist. Die Verwendung von Überschriften-Elementen ist dafür eine wichtige Voraussetzung.
+Nutzende, denen diese visuelle Ordnung nicht zur Verfügung steht, zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar ist. Die Verwendung von semantischen Überschriften ist dafür eine wichtige Voraussetzung.
 
 So können Benutzer die Überschriften-Elemente anwenden:
 
 * Orientierung in umfangreicheren Ansichten
-* Von Überschrift zu Überschrift springen (Screenreader-Nutzer)
-
-Weitere Anpassungen sind denkbar, z.B. könnten Screenreader zukünftig Überschriften mit einer anderen Stimme vorlesen, um diese als solche hervorzuheben.
+* Von Überschrift zu Überschrift springen (Screenreader-Nutzende)
+* Weitere Anpassungen sind denkbar, z.B. könnten Screenreader zukünftig Überschriften mit einer anderen Stimme vorlesen, um diese als solche hervorzuheben.
 
 == Wie wird geprüft?
 
@@ -31,19 +30,42 @@ Der Prüfschritt ist anwendbar, wenn es in der App Inhalte gibt, die durch visue
 
 === 2. Prüfung
 
-. App mit zu prüfender Ansicht starten
-. Screenreader starten
-. Prüfen, ob Inhalte, die visuell als Überschriften zu erkennen sind, auch als Überschriften ausgezeichnet sind. Die Navigationseinstellung des Screenreaders wird auf "Überschriften" gesetzt. Anschließend navigiert man durch all Überschriften der Ansicht und prüft die Ausgabe des Screenreaders. Falls es sich um eine korrekt ausgezeichnete Überschrift handelt, gibt der Screenreader dies mit dem Wort "Überschrift" o.ä. aus. 
-. Auf Webviews kann zwischen Überschriftsebenen unterschieden werden, hier wird die entsprechende Überschriftenebene ebenfalls ausgegeben. Die Hierarchie der Überschriften soll dann der Gliederung der Inhalte entsprechen. Der Aufruf des Rotors (iOS) bzw. von Kontextmenü / Navigation (Android) gibt einen Hinweis, ob es sich um ein Webview oder eine native Ansicht handelt. Bei Webviews werden in der Regel mehr Navigationsmöglichkeiten angezeigt.
-. Prüfen, ob die Überschriftsauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich eingesetzt wird.
+==== 2.1 Prüfung von nativen Inhalten
+. App mit zu prüfender Ansicht starten.
+. Screenreader starten.
+. Prüfen, ob Inhalte visuell als Überschriften zu erkennen sind und zur Strukturierung eingesetzt werden. 
+. Prüfen, ob diese Überschriften ausgezeichnet sind. 
+. Die Navigationseinstellung des Screenreaders auf "Überschriften" setzen. Anschließend durch all Überschriften der Ansicht navigieren und die Ausgabe des Screenreaders prüfen. 
+. Der Screenreader gibt eine korrekt ausgezeichnete Überschrift mit dem Wort "Überschrift" aus. 
+. Prüfen, ob die Überschriftensauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich erfolgt.
+
+==== 2.2 Prüfung von Webviews
+. Auf Webviews kann zwischen Überschriftsebenen unterschieden werden.
+. Werden Überschriften mit den entsprechenden Web-Techniken (`h1`- `h6`, alternativ durch den Einsatz von ARIA-Rollen und -Attribute) ausgezeichnet, 
+wird die entsprechende Überschriftenebene ausgegeben. Die Hierarchie der Überschriften soll dann der Gliederung der Inhalte entsprechen. 
+. Der Aufruf des Rotors (iOS) bzw. von Kontextmenü / Navigation (Android) gibt einen Hinweis, ob es sich um ein Webview oder eine native Ansicht handelt. Bei Webviews werden in der Regel mehr Navigationsmöglichkeiten angezeigt.
+. Prüfen, ob die Überschriftensauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich erfolgt.
 
 === 3. Hinweise
 
-Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil der Überschriften den jeweiligen Inhalten angemessen sind.
+* Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil der Überschriften den jeweiligen Inhalten angemessen sind.
 
-App-Entwickler haben derzeit keine Möglichkeit unterschiedliche Überschriftsebenen in nativen Ansichten auszuzeichnen. Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht* negativ bewertet.
+* App-Entwickler haben derzeit keine Möglichkeit unterschiedliche Überschriftsebenen in nativen Ansichten auszuzeichnen. Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht* negativ bewertet.
 
-Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein Web-View, der auf HTML basiert. Überschriften sollten dann korrekt geschachtelt sein (h1 gefolgt von h2 gefolgt von h3, und so weiter), um die Gliederung der Inhalte abzubilden. Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
+* Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein Webview, der auf HTML basiert. Überschriften sollten dann korrekt geschachtelt sein (`h1` gefolgt von `h2` gefolgt von `h3`, und so weiter), um die Gliederung der Inhalte abzubilden. Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
+
+==== 3.1. Hinweise für Entwicklungs-Teams:
+
+* Für native Apps unter iOS / iPadOS das 
+https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
+``"header"``-Property] der
+https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits[
+`UIAccessibilityTraits`] für die Auszeichnung von Überschriften verwendet.
+
+* Für nativen Apps unter Android das Attribut
+https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[
+`"android:accessibilityHeading"`] für UI-Elemente auf `true` setzen, um ein
+Element als Überschrift auszuzeichnen.
 
 === 4. Bewertung
 
@@ -51,30 +73,13 @@ Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschrift
 
 * Visuelle Überschriften auf der Seite sind auch semantisch als Überschriften umgesetzt.
 
-==== Teilweise erfüllt:
+==== Nicht voll erfüllt:
 
-* Es werden Auszeichnungen für Überschriften eingesetzt, die Verschachtelung der Hierarchie-Ebenen ist aber irreführend, entspricht nicht der inhaltlichen Gliederung (Nur bei Web-Views, siehe <<Hinweise>>).
+* Es werden Auszeichnungen für Überschriften eingesetzt. Bei Web-Views (siehe <<Hinweise>>) ist die Verschachtelung der Hierarchie-Ebenen jedoch irreführend und entspricht nicht der inhaltlichen Gliederung.
 
 ==== Nicht erfüllt:
 
-* Eine vorhandene visuelle Hauptüberschrift der Ansicht ist nicht als als Überschrift ausgezeichnet.
-
-== Informationen für Entwickler
-
-=== iOS / iPadOS
-
-Entwickler von nativen iOS / iPadOS Apps können das 
-https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
-``"header"``-Property] der
-https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits[
-`UIAccessibilityTraits`] für die Auszeichnung von Überschriften verwenden.
-
-=== Android
-
-Entwickler von nativen Android Apps können das Attribut
-https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[
-`"android:accessibilityHeading"`] für UI-Elemente auf `true` setzen, um ein
-Element als Überschrift auszuzeichnen.
+* Es gibt auf der Ansicht gegliederte Inhalte. Überschriften werden nicht als solche semantisch ausgezeichnet.
 
 == Einordnung des Prüfschritts
 
@@ -125,7 +130,7 @@ element to create a horizontal dividing line), but visual presentation is not
 sufficient to identify document sections.
 --
 
-(http://www.w3.org/TR/WCAG10-HTML-TECHS/#document-headers)
+http://www.w3.org/TR/WCAG10-HTML-TECHS/#document-headers
 
 === Überschriften richtig schachteln
 
@@ -134,7 +139,7 @@ To facilitate navigation and understanding of overall document structure,
 authors should use headings that are properly nested (e.g., h1 followed by h2,
 h2 followed by h2 or h3, h3 followed by h3 or h4, etc.)..
 
-(WCAG 2.0 Technik G141: Organizing a page using headings)
+WCAG 2.0 Technik G141: Organizing a page using headings
 
 === Überschriften-Elemente und CSS-Auszeichnungen nicht missbrauchen
 
@@ -146,8 +151,8 @@ Conversely, while applying bold format, or even class="heading", can result in
 the visual display of a heading, assistive technologies will not recognize
 such text as headings.
 
-(http://www.w3.org/TR/WCAG20-TECHS/H42.html[WCAG 2.0 Technik H42: Using
-h1-h6 to identify headings])
+http://www.w3.org/TR/WCAG21-TECHS/H42.html[WCAG 2.0 Technik H42: Using
+h1-h6 to identify headings]
 
 === UI-Elemente als Überschrift auszeichnen
 
