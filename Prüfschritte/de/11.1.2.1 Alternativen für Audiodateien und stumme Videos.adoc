@@ -8,7 +8,7 @@ Audiodateien und stumme Videodateien, die Informationen vermitteln, müssen mit 
 
 == Warum wird das geprüft?
 
-Audiodateien sind für hörbehinderte Nutzer nicht oder nur eingeschränkt zugänglich, deshalb brauchen sie eine Transkription. Stumme Videodateien (etwa eine Film- oder Animationsequenz, die zeigt, wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzer nicht verfügbar. Sie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
+Audiodateien (z. B. ein Audio-Podcast) sind für hörbehinderte Nutzer nicht oder nur eingeschränkt zugänglich, deshalb brauchen sie eine Transkription. Stumme Videodateien (etwa eine Film- oder Animationsequenz, die ohne Audio-Kommentare zeigt, wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzer nicht verfügbar. Sie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
 
 == Wie wird geprüft?
 
