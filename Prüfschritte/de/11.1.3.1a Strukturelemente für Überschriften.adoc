@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 Überschriften, die zur Beschreibung von Inhalten eingesetzt werden, müssen auch semantisch als Überschriften ausgezeichnet sein. 
 
-Die eingesetzten Überschriften sollten die strukturelle Hierarchie des Inhalts richtig wiedergeben. Aktuell können jedoch unterschiedliche Überschriftsebenen unter iOS / iPadOS und Android lediglich in Web-Views mit Web-Techniken (`h1` - `h6` bzw. durch den Einsatz von ARIA-Rollen und -Attributen) realisiert werden.
+Die eingesetzten Überschriften sollten die strukturelle Hierarchie des Inhalts richtig wiedergeben. Aktuell können jedoch unterschiedliche Überschriftsebenen unter iOS / iPadOS und Android lediglich in WebViews mit Web-Techniken (`h1` - `h6` bzw. durch den Einsatz von ARIA-Rollen und -Attributen) realisiert werden.
 
 In nativen Ansichten können derzeit Überschriften nicht programmatisch in Ebenen unterteilt werden. Aufgrund technischer Begrenzungen können Umsetzende nur ein UI-Element als einfache Überschrift auszeichnen.
 
@@ -39,7 +39,7 @@ Der Prüfschritt ist anwendbar, wenn es in der App Inhalte gibt, die durch visue
 . Der Screenreader gibt eine korrekt ausgezeichnete Überschrift mit dem Wort "Überschrift" aus. 
 . Prüfen, ob die Überschriftensauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich erfolgt.
 
-==== 2.2 Prüfung von Webviews
+==== 2.2 Prüfung von WebViews
 . Auf Webviews kann zwischen Überschriftsebenen unterschieden werden.
 . Werden Überschriften mit den entsprechenden Web-Techniken (`h1`- `h6`, alternativ durch den Einsatz von ARIA-Rollen und -Attribute) ausgezeichnet, 
 wird die entsprechende Überschriftenebene ausgegeben. Die Hierarchie der Überschriften soll dann der Gliederung der Inhalte entsprechen. 
@@ -52,7 +52,7 @@ wird die entsprechende Überschriftenebene ausgegeben. Die Hierarchie der Übers
 
 * App-Entwickler haben derzeit keine Möglichkeit unterschiedliche Überschriftsebenen in nativen Ansichten auszuzeichnen. Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht* negativ bewertet.
 
-* Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein Webview, der auf HTML basiert. Überschriften sollten dann korrekt geschachtelt sein (`h1` gefolgt von `h2` gefolgt von `h3`, und so weiter), um die Gliederung der Inhalte abzubilden. Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
+* Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein WebView, der auf HTML basiert. Überschriften sollten dann korrekt geschachtelt sein (`h1` gefolgt von `h2` gefolgt von `h3`, und so weiter), um die Gliederung der Inhalte abzubilden. Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
 
 ==== 3.1. Hinweise für Entwicklungs-Teams:
 
@@ -75,7 +75,7 @@ Element als Überschrift auszuzeichnen.
 
 ==== Nicht voll erfüllt:
 
-* Es werden Auszeichnungen für Überschriften eingesetzt. Bei Web-Views (siehe <<Hinweise>>) ist die Verschachtelung der Hierarchie-Ebenen jedoch irreführend und entspricht nicht der inhaltlichen Gliederung.
+* Es werden Auszeichnungen für Überschriften eingesetzt. Bei WebViews (siehe "3. Hinweise") ist die Verschachtelung der Hierarchie-Ebenen jedoch irreführend und entspricht nicht der inhaltlichen Gliederung.
 
 ==== Nicht erfüllt:
 
@@ -115,22 +115,14 @@ Element als Überschrift auszuzeichnen.
 
 == Quellen
 
-=== Überschriften zur Abbildung der Struktur verwenden
+=== UI-Elemente als Überschrift auszeichnen
 
-[.BLOCK_LANG_EN]
---
-Long documents are often divided into a variety of chapters, chapters have
-subtopics and subtopics are divided into various sections, sections into
-paragraphs, etc.
-These semantic chunks of information make up the structure of the document.
-
-Sections should be introduced with the HTML heading elements (H1-H6). Other
-markup may complement these elements to improve presentation (e.g., the HR
-element to create a horizontal dividing line), but visual presentation is not
-sufficient to identify document sections.
---
-
-http://www.w3.org/TR/WCAG10-HTML-TECHS/#document-headers
+* Apple Developer Documentation:
+  https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
+  UI Accessibility Traits / Header]
+* Android Developer:
+  https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[
+  Headings within text]
 
 === Überschriften richtig schachteln
 
@@ -139,7 +131,7 @@ To facilitate navigation and understanding of overall document structure,
 authors should use headings that are properly nested (e.g., h1 followed by h2,
 h2 followed by h2 or h3, h3 followed by h3 or h4, etc.)..
 
-WCAG 2.0 Technik G141: Organizing a page using headings
+https://www.w3.org/WAI/WCAG21/Techniques/general/G141[WCAG 2.1, G141: Organizing a page using headings]
 
 === Überschriften-Elemente und CSS-Auszeichnungen nicht missbrauchen
 
@@ -151,17 +143,8 @@ Conversely, while applying bold format, or even class="heading", can result in
 the visual display of a heading, assistive technologies will not recognize
 such text as headings.
 
-http://www.w3.org/TR/WCAG21-TECHS/H42.html[WCAG 2.0 Technik H42: Using
+https://www.w3.org/WAI/WCAG21/Techniques/html/H42.html[WCAG 2.1, H42: Using
 h1-h6 to identify headings]
-
-=== UI-Elemente als Überschrift auszeichnen
-
-* Apple Developer Documentation:
-  https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
-  UI Accessibility Traits / Header]
-* Android Developer:
-  https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[
-  Headings within text]
 
 == Fragen zu diesem Prüfschritt
 
