@@ -1,57 +1,45 @@
-= Prüfschritt 11.1.1.1c Leere alt-Attribute für Layout-Grafiken
+= Prüfschritt 11.1.1.1c Keine Textalternative für dekorative Grafiken
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Eine Grafik, die keine informative Funktion hat, benötigt keinen
-Alternativtext.
-Grafiken ohne informative Funktion sind zum Beispiel Abstandshalter,
-Farbflächen, Muster, oder rein dekorative Fotos.
+Eine Grafik, die keine informative Funktion hat, benötigt keine Textalternative.
+Grafiken ohne informative Funktion sind zum Beispiel Abstandshalter, Farbflächen, Muster, oder rein dekorative Fotos.
 Solche Grafiken sollen für Screenreader ausgeblendet werden.
 
 == Warum wird das geprüft?
 
-Der Screenreader kann Layoutgrafiken nicht von Informationstragenden Grafiken
-unterscheiden und gibt daher beide Grafikarten an den Nutzer aus.
-Wenn in einer Ansicht mehrere Layout- oder Schmuckgrafiken auftauchen, kann
-dies schnell zu vielen unbrauchbaren Ausgaben durch den Screenreader führen.
-Diese unnützen Ausgaben unterbrechen den Informationsfluss und sind für den
-Screenreader-Nutzer sehr störend.
-Entwickler können Layoutgrafiken mit plattformspezifischen Mitteln vor dem
-Screenreader verbergen, um diese Störung zu vermeiden.
+Der Screenreader kann dekorative Grafiken nicht von informationstragenden Grafiken unterscheiden und gibt daher beide Grafikarten an den Nutzer aus.
+Wenn in einer Ansicht mehrere Layout- oder Schmuckgrafiken auftauchen, kann dies schnell zu vielen unbrauchbaren Ausgaben durch den Screenreader führen.
+Diese unnützen Ausgaben unterbrechen den Informationsfluss und sind für den Screenreader-Nutzenden sehr störend.
+Dekorative Grafiken können mit plattformspezifischen Mitteln vor dem Screenreader verborgen werden, um diese Störung zu vermeiden.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn eingebundene Grafiken für Layout-Zwecke
-verwendet werden.
+Der Prüfschritt ist anwendbar, wenn eingebundene Grafiken für Layout- oder dekorative Zwecke verwendet werden.
 
 === Prüfung
 
 . App mit zu prüfender Ansicht starten.
-. Prüfen ob Layoutgrafiken oder dekorative Grafiken eingesetzt werden
-. Screenreader starten und Fokus auf die ensprechende Grafik setzen
-. Prüfen, ob beim Antippen der Layoutgrafiken eine Ausgabe durch den
-  Screenreader stattfindet.
-
-Der Screenreader sollte bei Layoutgrafiken oder dekorativen Grafiken nichts
-ausgeben.
+. Prüfen ob Layoutgrafiken oder dekorative Grafiken eingesetzt werden.
+. Screenreader starten und mit Hilfe der Wischgeste durch die Seite navigieren.
+. Prüfen, ob dekorative Grafiken fokussiert werden.
+. Prüfen, ob eine Ausgabe durch den Screenreader stattfindet. 
+. Dekorative Grafiken sollten nicht den Fokus erhalten und es sollte keine Ausgabe durch den Screenreader erfolgen.
 
 === Hinweise
 
-Bei aus mehreren Teilbildern zusammengesetzten Bilder mit Informationsgehalt
-sollte eines der Teilbilder einen Alternativtext haben, der über den Inhalt
-des zusammengesetzten Bildes informiert.
-Die anderen Teilbilder sollten dann vor dem Screenreader ausgeblendet werden.
+Bei aus mehreren Teilbildern zusammengesetzten Bilder mit Informationsgehalt sollte eines der Teilbilder einen Alternativtext haben, der über den Inhalt
+des zusammengesetzten Bildes informiert. Die anderen Teilbilder sollten dann vor dem Screenreader ausgeblendet werden.
 
 === Bewertung
 
 *Nicht voll erfüllt:*
 
-* Layout-Grafiken werden in Software vom Screenreader in irgendeiner Weise
-  ausgegeben, die Ausgabe ist dabei jedoch kurz.
+* Layout-oder dekorative Grafiken werden vom Screenreader nicht fokussiert, es erfolgt keine Ausgabe.
 
 == Einordnung des Prüfschritts
 
@@ -88,17 +76,10 @@ Die anderen Teilbilder sollten dann vor dem Screenreader ausgeblendet werden.
 
 === Aufgabe der Layout-Grafik in den Alternativtext?
 
-Warum soll man bei Layout-Grafiken nicht die jeweilige Aufgabe des Bildes,
-also zum Beispiel "Abstandhalter" in den Alternativtext schreiben?
+Warum soll man bei Layout-Grafiken nicht die jeweilige Aufgabe des Bildes, also zum Beispiel "Abstandhalter" in den Alternativtext schreiben?
 
 Wofür sollte das gut sein?
-Den Abstand herstellen, also die Aufgabe des Bildes übernehmen kann der
-Alternativtext nicht.
-Die Information, dass da irgendwo Abstände zwischen Elementen in der Ansicht
-sind, ist nutzlos.
-Wie die Elemente auf der Ansicht angeordnet sind, lässt sich der Tatsache, dass
-an irgend welchen Stellen Abstandhalter sind, auch nicht entnehmen.
+Den Abstand herstellen, also die Aufgabe des Bildes übernehmen kann der Alternativtext nicht. Die Information, dass da irgendwo Abstände zwischen Elementen in der Ansicht sind, ist nutzlos. Wie die Elemente auf der Ansicht angeordnet sind, lässt sich der Tatsache, dass an irgend welchen Stellen Abstandhalter sind, auch nicht entnehmen.
 
-Solche Alternativtexte haben also keinen Nutzen.
-Auf der anderen Seite kann es sehr störend sein, wenn der Screenreader dauernd
+Solche Alternativtexte haben also keinen Nutzen. Auf der anderen Seite kann es sehr störend sein, wenn der Screenreader dauernd
 "Abstandhalter Abstandhalter Abstandhalter ..." vorliest.
