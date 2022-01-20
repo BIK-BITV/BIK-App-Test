@@ -42,8 +42,6 @@ In der Regel bedeutet das:
 
 * Bei Schriftgrafiken soll die Textalternative den Text der Schriftgrafik wiederholen.
 * Bei Symbolen soll die Textalternative das Symbol nicht beschreiben, sondern ersetzen. Also zum Beispiel die Textalternative "Suchen" für ein Lupen-Symbol, das einen Dialog mit Sucheingabefeld öffnet.
-* Bei Objekten, die nicht angezeigt werden können, sollen die Textalternative eine kurze Beschreibung oder Identifizierung bieten. Sinnvoll ist es, dass eine
-  Begründung für das Nicht-Laden des Objekts ausgegeben wird. In diesem Fall ist es auch ausreichend, wenn das Objekt etwa durch eine Überschrift im unmittelbaren Kontext identifiziert wird.
 
 Bei verlinkten Abbildungen gibt es folgende Möglichkeiten:
 
