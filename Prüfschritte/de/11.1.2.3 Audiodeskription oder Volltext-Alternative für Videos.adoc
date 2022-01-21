@@ -24,9 +24,7 @@ Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werden. Den S
 Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 
 * Die Audiodeskription ist bereits in die normalen Tonspur integriert.
-* Eine weitere Version des Videos mit Audiodeskription wird angeboten. Wenn das der Fall ist, wird diese Version wird geprüft. Es muss dann ein funktionierender Link zu dieser Version im unmittelbaren Kontext des Videos angeboten werden, ebenso wie ein Zurück-Link.
 * Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription. Diese Spur wird zusätzlich eingeschaltet.
-* Das Video wird in der App oder in einem externen, vom Format abhängigen Video-Player abgespielt.
 
 ==== Audiodeskription prüfen
 
@@ -37,7 +35,7 @@ Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 
 ==== 2.2 Prüfung von Volltextalternativen
 
-Es wird eine Sicht- und Hörprüfung vorgenommen. Das Video wird in der App oder in einem externen, vom Format abhängigen Video-Player abgespielt. Die Volltextalternative sollte folgende Informationen enthalten:
+Es wird eine Sicht- und Hörprüfung vorgenommen. Das Video wird in der App abgespielt. Die Volltextalternative sollte folgende Informationen enthalten:
 
 * Eine fortlaufende Beschreibung des Geschehens
 * Alle informationstragenden visuellen Informationen
@@ -56,7 +54,7 @@ Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichti
 
 *Eher erfüllt:*
 
-* Bildinhalte fehlen in der Audiodeskription bzw. der Tonspur, es gibt jedoch keine Pausen bei den sprechenden Personen, in denen die Information eingesprochen werden könnte. Hier ließe sich den Anfprderung nur durch eine erweiterte Audiodeskription erfüllen, dies jedoch wird in der EN 301 549 nicht verlangt. 
+* Bildinhalte fehlen in der Audiodeskription bzw. der Tonspur, es gibt jedoch keine Pausen bei den sprechenden Personen, in denen die Information eingesprochen werden könnte. Hier ließe sich den Anforderung nur durch eine erweiterte Audiodeskription erfüllen, diese jedoch wird in der EN 301 549 nicht verlangt. 
 
 
 *Nicht voll erfüllt:*
