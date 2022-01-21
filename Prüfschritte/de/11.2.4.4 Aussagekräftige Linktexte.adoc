@@ -16,8 +16,7 @@ Blinde Nutzende, die von Link zu Link navigieren, bekommen die Linktexte vorgele
 
 Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare Kontext für Screenreader-Nutzende wenigstens leicht ermittelbar sein.
 
-Screenreader bieten die Möglichkeit sämtliche Links der Seite aufzulisten und ermöglichen damit
-einen schnellen Überblick, selbst wenn die Software ansonsten schlecht zugänglich ist. Diese Technik funktioniert allerdings nicht, wenn alle Linktexte gleich sind und nicht ausreichend Auskunft über das Linkziel geben.
+Screenreader bieten die Möglichkeit, gezielt nur bestimmte Elemente, wie z. B. alle Links auf der Ansicht, zu durchlaufen, und ermöglichen damit einen besseren Überblick. Bei bei mehreren gleichen Linktexten wie "Weiter" oder "mehr lesen" ist das Linkziel schwerer zu ermitteln.
 
 Bei Links zu Angeboten außerhalb der App (zum Beispiel PDF- oder Word-Dokumente) ist es für Nutzende sinnvoll zu wissen, in welchem Format Informationen angeboten werden, bevor sie einen Link aktivieren. Möglichwerweise werden zusätzliche Apps oder Plugins gebraucht und diese Apps sind vielleicht schlecht mit Screenreadern oder anderen Hilfsmittel zugänglich. Auch können bestimmte Dateiformate nicht oder nur schlecht zugänglich sein.
 
