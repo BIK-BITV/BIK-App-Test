@@ -8,7 +8,7 @@ Für informationstragende visuelle Videoinhalte muss eine Audiodeskription oder 
 
 == Warum wird das geprüft?
 
-Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werden. Den Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu verstehen, worum es geht. Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt werden. Damit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche Passagen beschrieben werden. Hierfür wird das Verfahren der Audiodeskription eingesetzt.
+Manche Videos können auch ohne Bild recht gut verstanden werden. Die sprechende Person einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu verstehen, worum es geht. Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt werden. Damit ein blinder Zuschauer Videos, in denen Inhalte nur über Bilder vermittelt werden, verstehen können, müssen ihm solche Passagen beschrieben werden. Hierfür wird das Verfahren der Audiodeskription eingesetzt.
 
 == Wie wird geprüft?
 
