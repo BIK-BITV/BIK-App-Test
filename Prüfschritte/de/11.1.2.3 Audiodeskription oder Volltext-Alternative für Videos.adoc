@@ -35,16 +35,16 @@ Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 
 ==== 2.2 Prüfung von Volltextalternativen
 
-Es wird eine Sicht- und Hörprüfung vorgenommen. Das Video wird in der App abgespielt. Die Volltextalternative sollte folgende Informationen enthalten:
+. Es wird eine Sicht- und Hörprüfung vorgenommen. 
+. Das Video wird in der App abgespielt. Die Volltextalternative sollte folgende Informationen enthalten:
 
 * Eine fortlaufende Beschreibung des Geschehens
 * Alle informationstragenden visuellen Informationen
 * Informationstragende Geräusche (Gelächter, off-Screen-Stimmen etc.)
 * Die Transkriptionen aller Dialoge (mit Angabe, wer spricht)
 
-Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video entsprechen.
-
-Falls interaktive Elemente vorkommen, sollte die Volltextalternative Links oder ähnliches vorsehen, um dieselbe Funktionalität zu gewährleisten.
+. Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video entsprechen.
+. Falls interaktive Elemente vorkommen, sollte die Volltextalternative Links oder ähnliches vorsehen, um dieselbe Funktionalität zu gewährleisten.
 
 === 3. Hinweise
 
