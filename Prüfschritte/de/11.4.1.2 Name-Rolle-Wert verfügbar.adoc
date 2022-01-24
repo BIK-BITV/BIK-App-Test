@@ -4,29 +4,29 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Alle Bedienelemente einer App (also etwa Tasten, oder Formularelemente wie Checkboxen oder Eingabefelder) müssen semantische Informationen (Name, Rolle, Wert) programmatisch bereitstellen, damit Hilfsmittel wie Screenreader diese richtig erkennen und bedienen können. Bei nativen Elementen, also solchen, die mit den Standardelementen der Entwicklungsumgebungen umgesetzt sind, ist dies in der Regel ohne weiteres Zutun gegeben. 
+Alle Bedienelemente einer App (also etwa Tasten, oder Formularelemente wie Checkboxen oder Eingabefelder) müssen semantische Informationen (Name, Rolle, Wert) programmatisch bereitstellen. Dies ermöglicht Hilfsmitteln wie Screenreadern die Bedeutung und Funktion der Elemente zu kommunizieren, damit Nutzende die Elemente verstehen und bedienen können. Bei nativen Elementen, also solchen, die mit den Standardelementen der Entwicklungsumgebungen umgesetzt sind, ist dies in der Regel ohne weiteres Zutun gegeben. 
 
-Bei selbsterstellten Bedienelementen von Apps müssen semantische Informationen wie Name, Rolle und Wert gegebenenfalls explizit definiert werden, damit Hilfsmittel diese Elemente erkennen.
+Bei selbsterstellten Bedienelementen müssen semantische Informationen wie Name, Rolle und Wert gegebenenfalls explizit definiert werden, damit Hilfsmitteln die entsprechenden Informationen zur Verfügung stehen und an Nutzende ausgegeben werden.
 
 Bei Software werden dazu die Accessibility-Schnittstellen des jeweiligen Betriebssystems genutzt.
 
 == Warum wird das geprüft?
 
-Für sehende Nutzende sind Bedienelemente in der Regel leicht erkannbar und verständlich, wenn sie in einer konventionellen, also üblichen Weise eingesetzt sind. Beispiele wären etwa ein Menü-Tasten aus drei horizontalen Strichen (das sogenannte "Hamburger"-Icon) oder ein Lupen-Icon zum Auslösen einer Suche. Bei vielen Tasten und Eingabefeldern macht die Beschriftung das Element verständlich. 
+Für sehende Nutzende ist die Bedeutung von Bedienelementen in der Regel intuitiv verständlich. Dies ist insbesondere der Fall, wenn sie in einer konventionellen, also üblichen Weise eingesetzt sind und ein Abgleich mit bereits gespeicherten Erfahrungen stattfinden kann. Beispiele wären etwa ein Menü-Tasten aus drei horizontalen Strichen (das sogenannte "Hamburger"-Icon) oder ein Lupen-Icon zum Auslösen einer Suche. Bei vielen Tasten und Eingabefeldern macht die Beschriftung das Element verständlich. 
 
-Für Hilfsmittel-Nutzende ist es entscheidend, dass Namen, Rollen und Werte von Bedienelementen auch programmatisch verfügbar sind. Wenn ein Element - etwa ein grafischer Menü-Schalter - erreicht wird, sollte an Screenreader-Nutzende ausgegeben werden: "Navigationsmenü, Schaltfläche, reduziert". "Navigationsmenü" ist der hinterlegte Name, "Schaltfläche" die Rolle, und "reduziert" der Wert bzw. Zustand. Nutzende wissen dann, dass die Aktivierung dieses Elements ein Navigationsmenü öffnen wird. 
+Menschen, die eine Webseite nicht-visuell nutzen, sind darauf angewiesen, dass Informationen zur Bedeutung eines Elements, deren Beschriftung und Zustand (Name, Rolle, Wert) auf einer abstrakten Ebene zur Verfügung stehen und assistive Technologien diese nutzen können. Man bezeichnet das auch als programmatische Ermittelbarkeit. Wenn ein Element - etwa ein grafischer Menü-Schalter - erreicht wird, sollte an Screenreader-Nutzende ausgegeben werden: "Navigation, Taste, reduziert". "Navigation" ist der hinterlegte Name, "Taste" die Rolle, und "reduziert" der Wert bzw. Zustand. Nutzende wissen dann, dass die Aktivierung dieses Elements ein Navigations einblenden wird. 
 
 Wenn Bedienelemente mit den von der Entwicklungsumgebung bereitgestellten Standard-Schnittstellen-Elementen umgesetzt werden, sind Rollen und Zustände in der Regel ohne weiteres Zutun programmatisch verfügbar. So sollten in iOS etwa Textfelder über das Standardelement `UITextField` umgesetzt werden und Schalter als `UIButton`.
 
-Werden andere als die Standardelemente eingesetzt, etwa ein Bild wird als Schalter eingesetzt, gibt es je nach Plattform geeignete Wege, um Namen, Rollen (die Art des Bedienelements) und Werte bzw. typisches Verhalten des Elements programmatisch zu setzen. Wenn das geschieht, ist die Semantik auch bei nicht-visueller Nutzung verfügbar (z. B. beim Einsatz des systemseitigen Screenreaders). Bei IOS dienen zur Hinterlegung eines Namens das Attribut https://developer.apple.com/documentation/objectivec/nsobject/1615181-accessibilitylabel[`AccessibilityLabel`] und zur Definition der Rolle und des Verhaltens die https://developer.apple.com/documentation/objectivec/nsobject/uiaccessibility/accessibility_traits[Accessibility Traits]. Bei Android leistet dies das https://developer.android.com/guide/topics/ui/accessibility/apps#describe-ui-element[`contentDescription`]-Attribut. So kann das Betriebssystem diese Werte an Hilfstechnologien wie Screenreader weiterreichen.
+Werden andere als die Standardelemente eingesetzt, etwa ein Bild wird als Schalter eingesetzt, gibt es je nach Plattform geeignete Wege, um Namen, Rollen (die Art des Bedienelements) und Werte bzw. typisches Verhalten des Elements programmatisch zu setzen. Wenn das geschieht, ist die Semantik auch bei nicht-visueller Nutzung verfügbar (z. B. beim Einsatz des systemseitigen Screenreaders). Bei IOS dienen zur Hinterlegung eines Namens das Attribut https://developer.apple.com/documentation/objectivec/nsobject/1615181-accessibilitylabel[`AccessibilityLabel`] und zur Definition der Rolle und des Zustandes die https://developer.apple.com/documentation/objectivec/nsobject/uiaccessibility/accessibility_traits[Accessibility Traits]. Bei Android leistet dies das https://developer.android.com/guide/topics/ui/accessibility/apps#describe-ui-element[`contentDescription`]-Attribut.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob die Bedienelemente vom Betriebssystem bereitgestellt werden (und damit quasi von Haus aus zugänglich sind) oder von Entwicklerinnen und Entwicklern selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert und aktiviert werden, um festzustellen, ob die jeweiligen Namen, Rollen und Werte vom Screenreader ausgegeben und auch Zustandsänderungen richtig kommuniziert werden.
+Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwicklerinnen und Entwicklern selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert und aktiviert werden, um festzustellen, ob die jeweiligen Namen, Rollen und Werte vom Screenreader ausgegeben und auch Zustandsänderungen richtig kommuniziert werden.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Screenreader starten. 
 .. Bei iOS/iPadOS geht dies über Einstellungen -> Allgemein -> Bedienungshilfen -> VoiceOver oder, wenn der Kurzbefehl für Bedienungshilfen so eingestellt ist, dass er VoiceOver aktiviert, über dreimaliges Drücken der Home-Taste am Gerät. 
@@ -41,7 +41,7 @@ Zu den Rollen gehören u. a. "Taste" bzw. "Schaltfläche", "Eingabefeld" bzw. "B
 +
 Der Wert beschreibt z. B. den Inhalt des Bedienelements z. B. "Müller" bei einem Eingabefeld für Nachnamen. Zu den Werten des Bedienelements gehört auch der aktuelle Status, z. B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
 
-=== Hinweise
+=== 3. Hinweise
 
 Dieses Erfolgskriterium richtet sich in erster Linie an Softwareentwickler, die benutzerdefinierte bzw. selbstgestaltete Komponenten für die
 Benutzeroberfläche entwickeln oder einsetzen. Standard-Benutzeroberflächenkomponenten auf den meisten barrierefrei gestalteten Plattformen erfüllen dieses Erfolgskriterium bereits bei bestimmungsgemäßer Verwendung.
@@ -56,7 +56,7 @@ Bei selbstgestalteten Bedienelementen (custom controls) müssen Entwicklerinnen 
 Unter iOS / iPadOS sind dazu u. a. https://developer.apple.com/documentation/objectivec/nsobject/uiaccessibility/accessibility_traits[
 Accessibility Traits] zu verwenden.
 
-=== Bewertung
+=== 4. Bewertung
 
 *Nicht erfüllt:*
 
