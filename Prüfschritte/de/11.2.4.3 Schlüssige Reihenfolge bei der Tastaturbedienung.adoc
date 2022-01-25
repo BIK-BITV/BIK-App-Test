@@ -10,11 +10,11 @@ Wenn die App mit der Tastatur bedient wird, soll die Reihenfolge, in der Links, 
 
 Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur möglich sein. Auch adere Eingabeformen, etwa die Spracheingabe oder Schaltersteuerung, sind auf eine gute Tastaturbedienbarkeit und eine sinnvolle Fokusreihenfolge angewiesen.
 
-Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Gesten, daher wird oft nur an die gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen.
+Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzenden arbeitet mit Touch-Gesten, daher wird oft nur an sie gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen.
 
 Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
 
-Manche Apps präsentieren dynamische Inhalte, etwa Rückmeldungen bei fehlerhaften Formular-Eingaben oder Nachrichten-Teaser, die im Wechsel angezeigt werden. Während dynamische Änderungen der Seite für sehende Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzern gar nicht oder erst mit Verzögerung wahrgenommen. Dynamische Änderungen können über eine sinnvolle Fokusreihenfolge (z.B.: Fehlermeldungen bei fehlenden oder inkorrekten Eingaben erscheinen direkt unterhalb des Eingabefelds) oder auch durch Statusmeldungen vermittelt werden. Bei Statusmeldungen gibt es eine Ausgabe an den Screenreader, der Fokus bleibt aber auf dem aktuellen Element.
+Manche Apps präsentieren dynamische Inhalte, etwa Rückmeldungen bei fehlerhaften Formular-Eingaben oder Nachrichten-Teaser, die im Wechsel angezeigt werden. Während dynamische Änderungen der Seite für sehende Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzern gar nicht oder erst mit Verzögerung wahrgenommen. Dynamische Änderungen können über eine sinnvolle Fokusreihenfolge (z. B.: Fehlermeldungen bei fehlenden oder inkorrekten Eingaben erscheinen direkt unterhalb des Eingabefelds) oder auch durch Statusmeldungen vermittelt werden. Bei Statusmeldungen gibt es eine Ausgabe an den Screenreader, der Fokus bleibt aber auf dem aktuellen Element.
 
 Wenn nach dem Starten einer App weitere Elemente in die Ansicht eingefügt werden, soll diese Einfügung unterhalb des auslösenden Elements geschehen, damit Screenreader hinzugefügte Elemente bemerken und vorlesen.
 
@@ -32,8 +32,8 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente ode
 
 Bei den meisten mobilen Systemen kann die Fokusreihenfolge mittels angedockter oder über Bluetooth gekoppelter Tastatur getestet werden.
 
-. Der Tastatur-Fokus wird  auf das erste Steuerelement gesetzt.
-. Die interaktiven Elemente der Ansicht wird mit der Tabulatortaste bzw. auch mit den Pfeiltasten durchlaufen. Rückwärts-Tabben oder die Aktivierung der entgegengesetzten Pfeiltaste sollen die Elemente in der Regel in der gleichen Reihenfolge rückwärts durchlaufen.
+. Der Tastatur-Fokus wird auf das erste Steuerelement gesetzt.
+. Die interaktiven Elemente der Ansicht werden mit der Tabulatortaste bzw. auch mit den Pfeiltasten durchlaufen. Rückwärts-Tabben oder die Aktivierung der entgegengesetzten Pfeiltaste sollen die Elemente in der Regel in der gleichen Reihenfolge rückwärts durchlaufen.
 . Prüfen, ob die Fokus-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Steuerelemente abbildet.
 . Falls dynamische Inhalte eingeblendet oder eingefügt werden können, wird geprüft, ob die Reihenfolge nach der Einfügung noch immer sinnvoll ist. Dies ist bei eingeblendeten Dialogen der Fall,
 
@@ -45,7 +45,7 @@ Bei den meisten mobilen Systemen kann die Fokusreihenfolge mittels angedockter o
 
 Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf dem Bildschirm folgen. Kleinere Abweichungen sind kein Problem, manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend abzuleiten.
 
-Ggf. müssen erst Bereiche mit Tabulator oder Pfeiltasten erreicht bzw. geöffnet und dann zwischen Tabulator- und Pfeiltasten-Navigation gewechselt werden. Bei einer nicht linearen (zweidimensionalen) Navigation wie in einer Gitterstruktur kann man dagegen i.d.R. nicht von einer schlüssigen Reihenfolge sprechen, da hier der Weg zur Fokussierung nur visuell vermittelt wird und  linear kaum nachvollziehbar ist.
+Gegebnenfalls müssen erst Bereiche mit Tabulator oder Pfeiltasten erreicht bzw. geöffnet und dann zwischen Tabulator- und Pfeiltasten-Navigation gewechselt werden. Bei einer nicht linearen (zweidimensionalen) Navigation wie in einer Gitterstruktur kann man dagegen i.d.R. nicht von einer schlüssigen Reihenfolge sprechen, da hier der Weg zur Fokussierung nur visuell vermittelt wird und linear kaum nachvollziehbar ist.
 
 Die Tabulatorreihenfolge ist schwer nachzuvollziehen, wenn sie über unsichtbare ausführbare Elemente geht. 
 
