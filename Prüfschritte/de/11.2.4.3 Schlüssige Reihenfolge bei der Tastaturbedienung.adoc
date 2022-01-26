@@ -23,7 +23,7 @@ Ist das nicht der möglich, so muss über ein Fokusmanagement für eine nachvoll
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente oder Objekte, etwa nach Interaktion eingeblendete Menüs oder Dialoge, enthält.
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente oder Objekte (z. B. Menüs oder Dialoge, die nach Interaktion eingebelendet werden), enthält.
 
 === 2. Prüfung
 
