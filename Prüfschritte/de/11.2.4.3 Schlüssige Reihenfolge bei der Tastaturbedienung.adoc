@@ -12,15 +12,12 @@ Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowo
 
 Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzenden arbeitet mit Touch-Gesten, daher wird oft nur an sie gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen.
 
-Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
+Bei einer nicht nachvollziehbaren Fokusreihenfolge laufen Nutzende Gefahr, die Orientierung zu verlieren, die Tastaturbedienbarkeit kann dadurch erheblich beeinträchtigt sein.
 
-Manche Apps präsentieren dynamische Inhalte, etwa Rückmeldungen bei fehlerhaften Formular-Eingaben oder Nachrichten-Teaser, die im Wechsel angezeigt werden. Während dynamische Änderungen der Seite für sehende Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzern gar nicht oder erst mit Verzögerung wahrgenommen. Dynamische Änderungen können über eine sinnvolle Fokusreihenfolge (z. B.: Fehlermeldungen bei fehlenden oder inkorrekten Eingaben erscheinen direkt unterhalb des Eingabefelds) oder auch durch Statusmeldungen vermittelt werden. Bei Statusmeldungen gibt es eine Ausgabe an den Screenreader, der Fokus bleibt aber auf dem aktuellen Element.
+Manche Apps stellen Inhalte dynamisch bereit, z.B. Rückmeldungen bei fehlerhaften formular-Eingaben werden dynamisch unter dem Feld angezeigt oder Dialoge werden eingeblendet. Während diese Änderungen der Seite für sehende Nutzende unmittelbar wahrnehmbar sind, werden sie von Screenreader-Nutzenden gar nicht oder erst mit Verzögerung wahrgenommen. 
 
-Wenn nach dem Starten einer App weitere Elemente in die Ansicht eingefügt werden, soll diese Einfügung unterhalb des auslösenden Elements geschehen, damit Screenreader hinzugefügte Elemente bemerken und vorlesen.
-
-In manchen Fällen können sie, wenn dies im Kontext verständlich ist, auch weiter unten in der App eingefügt oder verändert werden (also nicht direkt nach dem auslösenden Element).
-
-Werden Elemente an anderer Stelle, z. B. am unteren Rand der App-Ansicht, eingefügt (das ist oft bei modalen Dialogen der Fall), muss die App dafür sorgen, dass auch blinde Nutzer die Änderung mitbekommen, z.B. durch Fokusversetzung in den eingefügten oder eingeblendeten Bereich.
+Werden der Ansicht Elemente dynamisch eingefügt, soll diese Einfügung unterhalb des auslösenden Elements geschehen, damit Screenreader hinzugefügte Elemente bemerken und vorlesen.
+Ist das nicht der möglich, so muss über ein Fokusmanagement für eine nachvollziehbare Fokusreihenfolge gesorgt werden. Für einen eingeblendeten Dialog bedeutet das beispielsweise, der Fokus wird auf den Dialog gesetzt und so lange darin gehalten, bis er geschlossen wird. Anschließend ist der Fokus wieder auf dem auslösenden Element.
 
 == Wie wird geprüft?
 
