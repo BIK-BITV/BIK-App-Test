@@ -17,8 +17,9 @@ Der Prüfschritt ist anwendbar, wenn die zu prüfende Ansicht Bedienelemente hat
 
 === 2. Prüfung
 
+. App mit zu prüfender Ansicht öffnen.
 . Bedienelemente auf der Ansicht ermitteln, bei denen sich von Nutzenden Zustände oder Eigenschaften ändern lassen.
-. Mit dem eingesetzten Screenreader Bedienelemente fokussieren.
+. Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes grafische Bedienelement setzen.
 . Prüfen, ob sich Werte und Eigenschaften ändern lassen und der geänderte Wert vom Screenreader auch ausgelesen werden kann. 
 
 === 3. Hinweise
