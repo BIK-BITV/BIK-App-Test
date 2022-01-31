@@ -4,12 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn in Apps Text zu sehen ist, soll dieser Text auch vom Screenreader ausgegeben werden können.
+Textinhalte, die Informationen vermitteln, sollen vom Screenreader ausgegeben werden können.
 
 == Warum wird das geprüft?
 
-Textinhalte, die nicht einen rein dekorativen Zweck haben, vermitteln Informationen, die auch bei Nutzung assistiver Technologien verfügbar sein sollen.
-Sie dürfen nicht auf eine Weise implementiert werden, dass sie für den Screenreader-Nutzer unzugänglich sind.
+Textinhalte, die Informationen vermitteln, sollen auch bei Nutzung assistiver Technologien verfügbar sein. Sie dürfen nicht auf eine Weise implementiert werden, dass sie für den Screenreader-Nutzer unzugänglich sind.
 
 == Wie wird geprüft?
 
