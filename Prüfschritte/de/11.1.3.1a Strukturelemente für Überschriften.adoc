@@ -32,7 +32,7 @@ Der Prüfschritt ist anwendbar, wenn es in der App Inhalte gibt, die durch visue
 
 ==== 2.1 Prüfung von nativen Inhalten
 . App mit zu prüfender Ansicht starten.
-. Screenreader starten.
+. Screenreader starten und Fokus mit Hilfe der Wischgeste auf Überschriften setzen.
 . Prüfen, ob Inhalte visuell als Überschriften zu erkennen sind und zur Strukturierung eingesetzt werden. 
 . Prüfen, ob diese Überschriften ausgezeichnet sind. 
 . Die Navigationseinstellung des Screenreaders auf "Überschriften" setzen. Anschließend durch all Überschriften der Ansicht navigieren und die Ausgabe des Screenreaders prüfen. 
