@@ -4,15 +4,13 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind ausgezeichnet.
-
-In nativer Software werden Tabellen plattformspezifisch im Programm-Code ausgezeichnet.
+Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind plattformspezifisch im Programm-Code ausgezeichnet.
 
 == Warum wird das geprüft?
 
 Visuell orientierte Personen nutzen für die Orientierung in einer Datentabelle neben den Überschriften wenn nötig auch den Wertebereich. Es ist für sie daher relativ leicht möglich, strukturelle Mängel, zum Beispiel Wechsel in der Bedeutung von Zeilen oder Spalten, zu erkennen und mit ihnen umzugehen.
 
-Sehbehinderte und blinde Benutzer erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften und anderen im Kontext verfügbaren Informationen eine Vorstellung vom Aufbau der Tabelle. Diese Vorstellung ist die Grundlage für den Zugriff auf die angebotenen Daten.
+Sehbehinderte und blinde Nutzende erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften und anderen im Kontext verfügbaren Informationen eine Vorstellung vom Aufbau der Tabelle. Diese Vorstellung ist die Grundlage für den Zugriff auf die angebotenen Daten.
 
 Damit das möglich ist und funktioniert, müssen zwei Bedingungen erfüllt sein:
 
@@ -37,7 +35,9 @@ Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden
 
 ==== 2.1 Werden Tabellen für tabellarische Daten verwendet?
 
-Prüfen, ob für tabellarische Daten tatsächlich Tabellensemantik verwendet wird. Gibt der Screenreader beim Antippen der Tabelle "Tabelle" o. ä. aus?
+. App mit zu prüfender Ansicht öffnen.
+. Prüfen, ob die App-Ansicht Datentabelle enthält (d.h. Daten stehen in einer logischen Beziehung zueinander und sind rasterartig organisiert).
+. Screenreader starten und prüfen ob der Screenreader beim Antippen der Tabelle "Tabelle" o.ä. ausgibt.
 
 ==== 2.2 Prüfung des Aufbaus von Tabellen
 
@@ -78,11 +78,10 @@ Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise, unabhäng
 
 ==== 2.3 Prüfung der Auszeichnung von Tabellen
 
-. App mit zu prüfender Ansicht starten.
-. Prüfen, ob Tabellen in der Ansicht genutzt werden.
-. Screenreader starten (siehe Handreichung).
-. Prüfen, ob alle Spalten- und Zeilenüberschriften korrekt ausgezeichnet sind. Dazu wird die Zeilen- bzw. Spaltenüberschrift angetippt, dabei wird darauf geachtet, was der Screenreader ausgibt. 
-  Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnliches als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
+. App mit zu prüfender Ansicht öffnen.
+. Prüfen, ob die App-Ansicht Datentabelle enthält.
+. Screenreader starten und mit Hilfe der Wischgeste durch die Tabelle navigieren.
+. Prüfen, ob alle Spalten- und Zeilenüberschriften zusammen mit der Datenzelle ausgegeben werden. Alternativ die Zeilen- bzw. Spaltenüberschrift angetippen und prüfen, was der Screenreader ausgibt: Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnlich als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
 
 Die Mindestanforderung:
 Offenkundige, unverzichtbare und visuell hervorgehobene Überschriften müssen ausgezeichnet sein (siehe Hinweis Woran erkennt man Zeilenüberschriften?).
@@ -93,7 +92,7 @@ Offenkundige, unverzichtbare und visuell hervorgehobene Überschriften müssen a
 
 Die visuelle Hervorhebung ist ein Erkennungsmerkmal für Überschriften. Wenn die erste Spalte einer Datentabelle visuell hervorgehoben ist, dann kann man davon ausgehen, dass die Inhalte dieser Spalte als Zeilen-Überschriften dienen sollen.
 
-Dieser Zusammenhang lässt sich aber nicht umkehren, die visuelle Hervorhebung ist als Kriterium nicht immer ausreichend. Denn auf die Hervorhebung der Zeilenüberschriften wird manchmal aus Gestaltungsgründen verzichtet. Sehende Benutzer brauchen sie nicht unbedingt. Wenn der Inhalt einer Datenzelle nicht für sich aussagekräftig ist, beziehen sie die Zellen am linken Rand der Tabelle ein, die Position reicht ihnen als Hervorhebung.
+Dieser Zusammenhang lässt sich aber nicht umkehren, die visuelle Hervorhebung ist als Kriterium nicht immer ausreichend. Denn auf die Hervorhebung der Zeilenüberschriften wird manchmal aus Gestaltungsgründen verzichtet. Sehende Nutzende brauchen sie nicht unbedingt. Wenn der Inhalt einer Datenzelle nicht für sich aussagekräftig ist, beziehen sie die Zellen am linken Rand der Tabelle ein, die Position reicht ihnen als Hervorhebung.
 
 Es ist manchmal schwierig, den Fall, dass auf die visuelle Hervorhebung aus gestalterischen Gründen verzichtet worden ist, abzugrenzen von dem Fall, dass die Inhalte der ersten Spalte tatsächlich als Überschriften nicht geeignet sind. Selbst wenn in der ersten Spalte zum Beispiel Namen von Herstellern oder Produkten stehen, ist das noch kein sicherer Anhaltspunkt für die Eignung als Überschrift. Denn Überschriften sollten eindeutig und geläufig sein, Herstellernamen sind nicht immer eindeutig, Produktnamen oft nicht geläufig.
 
@@ -116,8 +115,8 @@ Auch bei Spaltenüberschriften kann auf die visuelle Hervorhebung verzichtet wer
 
 Überschriften sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte steht nicht nur der Betrag, sondern auch das Währungszeichen.
 
-Für blinde und sehbehinderte Benutzer kann der Umgang mit solchen Tabellen schwierig sein. Denn mangels Überschriften müssen sie auf den Wertebereich zugreifen, um zu
-verstehen, was die Tabelle anbietet. Für normal sehende Benutzer ist das leicht, für Benutzer, die sich immer nur einen kleinen Ausschnitt der Tabelle vorlesen oder anzeigen lassen können, aber nicht.
+Für blinde und sehbehinderte Nutzende kann der Umgang mit solchen Tabellen schwierig sein. Denn mangels Überschriften müssen sie auf den Wertebereich zugreifen, um zu
+verstehen, was die Tabelle anbietet. Für normal sehende Nutzende ist das leicht, für Benutzer, die sich immer nur einen kleinen Ausschnitt der Tabelle vorlesen oder anzeigen lassen können, aber nicht.
 
 Unproblematisch ist der Verzicht auf Überschriften, wenn zwei Bedingungen erfüllt sind:
 
@@ -126,12 +125,12 @@ Unproblematisch ist der Verzicht auf Überschriften, wenn zwei Bedingungen erfü
 
 Tabellen mit eingesparten Überschriften erfüllen also den Prüfschritt, wenn sie richtig aufgebaut und linear nutzbar sind.
 
-Bei Software ist es in der Regel nicht ohne den Quelltext möglich, die korrekte syntaktische Auszeichnung festzustellen. Hier kann dann in der Regel nur ein Blackbox-Test mit einem Screenreader durchgeführt werden. Dieser sagt dann an, ob es sich um eine "richtige" Tabelle handelt und kann beim Navigieren über Zeilen und Spalten ggf. auch dessen Überschriften ausgeben.
+Bei Software ist es in der Regel nicht ohne den Quelltext möglich, die korrekte syntaktische Auszeichnung festzustellen. Hier kann dann in der Regel nur ein Test mit einem Screenreader durchgeführt werden. Dieser sagt dann an, ob es sich um eine "richtige" Tabelle handelt und kann beim Navigieren über Zeilen und Spalten ggf. auch dessen Überschriften ausgeben.
 
 
 ==== 3.3 Informationen für Entwickler (iOS / iPadOS)
 
-Entwickler von nativen Apps können das Protokoll
+Personen, die Apps entwickeln, können das Protokoll
 `"link:https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
 UIAccessibilityContainerDataTable]"`
 zur Auszeichnung von barrierefreien Datentabellen nutzen.
