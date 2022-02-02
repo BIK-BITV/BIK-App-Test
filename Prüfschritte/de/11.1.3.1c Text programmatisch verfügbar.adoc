@@ -4,25 +4,27 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn in Apps Text zu sehen ist, soll dieser Text auch vom Screenreader ausgegeben werden können.
+Textinhalte, die Informationen vermitteln, sollen vom Screenreader ausgegeben werden können.
 
 == Warum wird das geprüft?
 
-Textinhalte, die nicht einen rein dekorativen Zweck haben, vermitteln Informationen, die auch bei Nutzung assistiver Technologien verfügbar sein sollen.
-Sie dürfen nicht auf eine Weise implementiert werden, dass sie für den Screenreader-Nutzer unzugänglich sind.
+Textinhalte, die Informationen vermitteln, sollen auch bei Nutzung assistiver Technologien verfügbar sein. Sie dürfen nicht auf eine Weise implementiert werden, dass sie für den Screenreader-Nutzer unzugänglich sind.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn in der App Textinhalte vorhanden sind, die Inhalte vermitteln und für die Nutzung relevant sein können.
 
-=== Prüfung
+=== 2. Prüfung
 
-. Screenreader starten (siehe Handreichung)
-. Zu testende App starten
-. Mit dem Screenreader mittels Wischgesten durch alle Inhalte navigieren bzw. diese direkt antippen und prüfen, ob der Screenreader alle Textinhalte ausgibt.
-. Wenn es sich um Bedienelemente handelt, kann die Ausgabe mitunter vom sichtbaren Text abweichen (beachte aber Prüfschritt 11.2.5.3 Beschriftung im zugänglichen Namen).
+. App mit zu prüfender Ansicht öffnen.
+. Screenreader starten und mittels Wischgesten durch alle Inhalte navigieren bzw. diese direkt antippen.
+. Prüfen, ob der Screenreader alle Textinhalte ausgibt.
+
+=== 3. Bewertung
+==== Nicht voll erfüllt
+Nicht alle Textinhalte, die Informationen vermitteln, werden vom Screenreader ausgegeben.
 
 == Einordnung des Prüfschritts
 
