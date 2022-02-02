@@ -4,45 +4,32 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-in den einzelnen Ansichten von Apps sollen korrekte Reihenfolgen vorherrschen
-z. B. folgt ein Informationstext nach dessen Überschrift.
-Hier muss mangels Quelltextzugriff ein Test mittels
-Screenreader durchgeführt werden.
+Inhalte sollten unabhängig von der Darstellung in einer sinnvollen Reihenfolge stehen. Was inhaltlich zusammengehört (etwa eine Überschrift und die dazugehörigen Inhalte darunter) soll nicht auseinandergerissen werden.
 
 == Warum wird das geprüft?
 
-Screenreader lesen die Elemente, die auf dem Bildschirm in der Fläche
-angeordnet sind, nacheinander vor - und zwar in der Reihenfolge, in der sie im
-Quellcode stehen (programmatische Reihenfolge).
-Die Reihenfolge der dargestellten UI-Elemente muss also gut verständlich und
-nutzbar sein.
+Screenreader lesen die Elemente, die auf dem Bildschirm in der Fläche angeordnet sind linear, d.h.nacheinander vor - und zwar in der Reihenfolge, in der sie im Quellcode stehen. Die Reihenfolge der dargestellten Elemente muss also gut verständlich und nutzbar sein.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Bei mobilen Apps ist dieser Prüfschritt immer anwendbar.
+Der Prüfschritt ist immer anwendbar.
 
-=== Prüfung
+=== 2. Prüfung
 
-Bei Apps soll die programmatische und durch den Screenreader ausgegebene
-Element-Reihenfolge auf der Ansicht im Wesentlichen die visuelle Reihenfolge
-abbilden.
+Bei Apps soll die programmatische und durch den Screenreader ausgegebene Element-Reihenfolge auf der Ansicht im Wesentlichen die visuelle Reihenfolge abbilden.
 
-. Die Prüfung erfolgt mit aktiviertem Screenreader.
-. Mit der entsprechenden Wischgeste (Wischen nach links oder rechts) durch
-  alle Elemente der Ansicht navigieren, dabei werden auch Nicht-Steuerelemente
-  navigiert.
-. Prüfen, ob die Reihenfolge, in der die Elemente fokussiert und durch den
-  Screenreader ausgegeben werden, sinnvoll und im Wesentlichen der visuellen
-  Reihenfolge entspricht.
+. App mit der zu prüfenden Ansicht öffnen.
+. Screenreader starten und mit Hilfe der Wischgeste (Wischen nach links oder rechts) durch alle Elemente der Ansicht navigieren, dabei werden auch nicht interaktive Elemente
+  fokussiert.
+. Prüfen, ob die Reihenfolge, in der die Elemente fokussiert und durch den Screenreader ausgegeben werden, sinnvoll und im Wesentlichen der visuellen Reihenfolge entspricht.
 
-=== Bewertung
+=== 3. Bewertung
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt
 
-* Die Reihenfolge der UI-Elemente ist nicht sinnvoll oder entspricht nicht der
-Wesentlichen visuellen Folge.
+* Die Reihenfolge der Elemente ist nicht sinnvoll oder entspricht im Wesentlichen nicht der visuellen Folge.
 
 == Einordnung des Prüfschritts
 
