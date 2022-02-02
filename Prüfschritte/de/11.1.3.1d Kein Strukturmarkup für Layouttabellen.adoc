@@ -4,35 +4,26 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Tabellenstruktur-Auszeichnungen wie z. B. Überschriftszellen dürfen nicht für Layouttabellen verwendet werden.
+Für Layouttabellen darf keine strukturelle Tabellen-Auszeichnung verwendet werden (z. B. Zeilen- und Spaltenüberschriften). 
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Tabellen für das Layout
-verwendet.
+Der Prüfschritt ist anwendbar, wenn die Software Tabellen für das Layout verwendet.
 
-=== Prüfung
+=== 2. Prüfung
 
-Bei Software kann in der Regel nur ein Blackbox-Test mittels Screenreader
-durchgeführt werden.
-Da wo eine inkorrekt eingesetzte Tabelle vermutet wird, kann mit dem SR
-navigiert werden.
-Der Screenreader sagt dann an, ob es sich um eine „richtige“ semantische
-Tabelle handelt (ein Zusatz wie „Tabelle“ wird ausgegeben).
+. App mit zu prüfender Ansicht starten.
+. Prüfen, ob es Inhalte gibt, die visuell tabellenartig gestaltet sind.
+. Screenreader starten und mit Hilfe der Wischgeste durch diese Inhalte navigieren.
+. Prüfen ob der Screenreader den Zusatz „Tabelle“ ausgibt. In diesem Fall darf bei einer Überschriftenzelle nicht der Zusatz "Überschrift" ausgegeben werden.
 
-. Screenreader starten (siehe Handreichung)
-. Zu testende App starten
-. Den Bereich navigieren bzw. antippen, der für eine semantische Tabelle
-  gehalten wird.
-. Prüfen ob der Screenreader den Zusatz „Tabelle“ ausgibt. In diesem Fall darf z. B. bei einer Überschriftenzelle nicht der Zusatz "Überschrift" oder ähnlich ausgegeben werden.
-
-=== Bewertung
+=== 3. Bewertung
 
 *Nicht erfüllt:*
 
-* Bei Layouttabellen gibt der Screenreader unnötige weitere Tabellenstrukturen aus, wie z. B. eine Überschriftenzelle.
+* Bei Layouttabellen gibt der Screenreader Tabellenstrukturen wie z. B. Überschriften aus.
 
 == Einordnung des Prüfschritts
 
