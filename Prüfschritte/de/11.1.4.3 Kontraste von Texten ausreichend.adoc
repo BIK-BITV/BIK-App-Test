@@ -55,7 +55,7 @@ Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die Ansi
 * Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit einer App erleichtern. Ein Beispiel: Funktionen, die prinzipiell vorgesehen, aktuell aber nicht
   verfügbar sind, werden schwach kontrastierend dargestellt. Das ist akzeptabel, wenn das ausgeblendete Element für die Orientierung und Bedienung nicht erforderlich
   ist. Der Prüfschritt ist daher auf die Beschriftungen ausgeblendeter, deaktivierter Bedienelemente in der Regel nicht anwendbar.
-* Der Farbkontrast von Textvorbelegungen von Formularfeldern erfüllt oft nicht die Mindest-Anforderung von 4,5:1.
+* Der Farbkontrast von Textvorbelegungen von Formularfeldern muss die Mindest-Anforderung von 4,5:1 erfüllen. Ausgenommen sind Textvorbelegungen, wenn eine redundante sichtbare Beschriftung die Kontrastanforderung erfüllt. Als Beschriftung zählt bei Suchfeldern auch ein konventionelles Icon, das die Anforderung für Grafikkontraste erfüllt (vergl. Prüfschritt 9.1.4.11). Wenn zusätzliche Informationen (etwa Datumsformat) im Platzhalter-Text stehen, gilt diese Ausnahme nicht, der Platzhalter-Text muss dann den Kontrast von 4,5:1 erfüllen.
 
 ==== 3.3 Hinweise zur Prüfung von Ansichten mit Styleswitcher
 
