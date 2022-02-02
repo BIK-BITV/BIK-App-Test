@@ -10,7 +10,7 @@ Für Layouttabellen darf keine strukturelle Tabellen-Auszeichnung verwendet werd
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Tabellen für das Layout verwendet.
+Der Prüfschritt ist anwendbar, wenn in App-Ansichten Tabellen für das Layout verwendet wird.
 
 === 2. Prüfung
 
