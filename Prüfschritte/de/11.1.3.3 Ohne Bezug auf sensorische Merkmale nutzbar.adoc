@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Verweise auf Inhalte der Software-Ansicht sollen nicht ausschließlich
+Verweise auf Inhalte der App-Ansicht sollen nicht ausschließlich
 sensorische Merkmale wie Farbe, Form oder Position nutzen, sondern auch ohne
 bestimmte Sinneswahrnehmungen verständlich sein (etwa durch den Verweis auf
 die Überschrift von Inhalten).
@@ -12,20 +12,20 @@ die Überschrift von Inhalten).
 == Warum wird das geprüft?
 
 Auch der Bezug auf die Form, Farbe oder Position von bestimmten Inhalten ist
-für blinde Nutzer und auch Nutzer, die eine Webseite ohne das mitgelieferte
+für blinde Nutzende und auch Nutzende, die eine Webseite ohne das mitgelieferte
 Stylesheet oder auf anderen Ausgabegeräten sehen, nicht brauchbar.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== Prüfung
+=== 2. Prüfung
 
-==== Textliche Bezüge auf Farben und andere sensorische Merkmale
+==== 2.1 Textliche Bezüge auf Farben und andere sensorische Merkmale
 
-Prüfen, ob textliche Verweise auf Inhalte in einer Software-Ansicht diese nur
+Prüfen, ob textliche Verweise auf Inhalte in einer App-Ansicht diese nur
 über die Angabe sensorischer Merkmale wie Farbe, Form, Größe, Position,
 oder Orientierung identifizieren und nicht auch sinnesunabhängig, etwa durch
 Nennung einer Überschrift oder eines Labels.
