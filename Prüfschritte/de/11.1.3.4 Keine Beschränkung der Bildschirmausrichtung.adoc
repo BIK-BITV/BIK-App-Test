@@ -33,18 +33,18 @@ Der Prüfschritt ist immer anwendbar.
 
 . Ein aktuelles Android-Smartphone oder iPhone mit ca. 4-6 Zoll   Bildschirmdiagonale zur Prüfung verwenden.
 . Sicherstellen, dass auf dem mobilen Prüfgerät die Ausrichtung nicht hardware- oder betriebssystemseitig festgestellt bzw. arretiert ist.
-. Ansicht der App in den beiden Ausrichtungen öffnen.
+. Zu prüfende Ansicht der App öffnen.
 . Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
 . Der zu prüfende Inhalt in der anderen Ausrichtung neu laden.
 . Prüfen, ob Inhalte dargestellt werden und nutzbar sind. Treten Beschränkungen beim Wechsel der Ausrichtung auf, etwa Meldungen, welche zur Nutzung der jeweils anderen Ausrichtung auffordern?
 . Wenn nur eine Ausrichtung unterstützt wird und in der anderen Ausrichtung entweder der Inhalt nicht erscheint, um 90 Grad gedreht erscheint, oder aber
   eine Meldung ausgegeben wird, dass die andere Ausrichtung zu nutzen ist: 
-  . Prüfen, ob die unterstützte Ausrichtung unerlässlich ist, die Inhalte in der nicht unterstützten Ausrichtung also nicht oder nur schlecht dargestellt werden könnten.
+  . Prüfen, ob die Beschränkung auf die unterstützte Ausrichtung unerlässlich ist, die Inhalte in der nicht unterstützten Ausrichtung also nicht oder nur schlecht dargestellt werden können.
 
 === 3. Hinweise
 
 Es wird nicht verlangt, dass eine Änderung der Ausrichtung die Inhalte dynamisch anpasst (obwohl dies wünschenswert und bei responsiven Angeboten meist auch der Fall ist).
-Der Inhalt muss also in beiden Ausrichtungen jeweils neu gestartet werden.
+Der Inhalt muss also in beiden Ausrichtungen jeweils neu geöffnet werden.
 
 === 4. Bewertung
 
