@@ -192,37 +192,3 @@ zur Auszeichnung von barrierefreien Datentabellen nutzen.
 * Apple Developer:
   https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
   UIAccessibilityContainerDataTable]
-
-== Fragen zu diesem Prüfschritt
-
-=== Nicht veränderbare Datentabellen
-
-Der Aufbau von Datentabellen kann unter Umständen nicht einfach verändert
-werden.
-Wie kann die Barrierefreiheit trotzdem sichergestellt werden?
-
-Zwei Fälle sind da zu unterscheiden:
-
-* Der Aufbau der Tabelle gehört zum Inhalt.
-  Das Dokument ist zum Beispiel historisch, es zeigt, wie die alten Ägypter
-  ihre Erntedaten tabellarisch geordnet haben.
-
-In diesem Fall muss geklärt werden, ob die Tabelle nur betrachtet oder auch
-genutzt werden soll.
-Wenn sie nur betrachtet werden soll, ist der lineare Zugriff ausreichend.
-Wenn sie auch genutzt werden soll, wenn sie also zum Beispiel auch über fette
-und magere Erntejahre Auskunft geben soll, ist die historische Form ungeeignet.
-Ein anderes Dokument muss dafür erstellt werden.
-
-Der häufigere und wichtigere Fall:
-
-* eine andere Abteilung liefert die mangelhaft aufgebauten Tabellen, in der
-  EDV sollen sie durch unsichtbare Zusätze nachträglich barrierefrei gemacht
-  werden.
-
-In diesem Fall muss der Ablauf geändert werden, denn die mangelhafte Struktur
-kann nicht durch Auszeichnungen repariert werden, die Aufgabe ist nicht
-erfüllbar.
-Die Verantwortlichen müssen dafür sorgen, dass die Anforderungen
-der Barrierefreiheit an der richtigen Stelle, also schon bei der Erstellung
-der Tabellen beachtet werden.
