@@ -58,7 +58,7 @@ Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind, müsse
 
 === Abgrenzung zu anderen Prüfkriterien
 
-Dieser Prüfschritt betrifft die Auslösbarkeit von Funktionen und Links auch über die Tastatur.
+Dieser Prüfschritt betrifft die Fokussierbarkeit und Aktivierbarkeit von interaktiven Elementen mit der Tastatur.
 
 * Tastaturfallen sind Gegenstand von Prüfschritt
 ifdef::env_embedded[11.2.1.2 "Keine Tastaturfalle"]
