@@ -4,92 +4,35 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Inhalte sollen bei einer Viewport-Breite von 1280 Pixeln und 400%
-Zoomvergrößerung so umbrechen, dass alle Informationen und Funktionen
-verfügbar sind, ohne dass Nutzer horizontal scrollen müssen.
+Seiten-Inhalte sollen bei einer Ansicht von 320 CSS-Pixeln (bzw. bei einer Breite von 1280 CSS-Pixeln und 400% Zoomvergrößerung) so umbrechen, dass alle Informationen und Funktionen verfügbar sind, ohne dass Nutzer horizontal scrollen müssen.
 
-Es wird dabei nicht verlangt, dass alle Inhalte in gleicher Weise in der
-responsiven Ansicht verfügbar sind.
-So sind die sichtbaren Navigationsmenüs einer Standard-Ansicht auf dem
-Desktop häufig nach dem Hereinzoomen (oder bei Nutzung des Angebots auf einem
-Smartphone-Display) nur über eine Ausklappnavigation zugänglich.
-Inhalte können auch in Ausklappbereichen oder über Links auf andere Seiten
-oder Ansichten verfügbar sein.
+Ausnahmen gelten für Inhalte, für deren Nutzung ein zweidimensionales Layout erforderlich ist, z.B. Bilder, Landkarten, Diagramme, Videos, Spiele, Präsentationen, Datentabellen, Anwendungs-Schnittstellen, in denen die Bearbeitung von Inhalten die permanente Verfügbarkeit von Werkzeugleisten erfordert.
 
-Ausnahmen gelten für Inhalte, für deren Nutzung ein zweidimensionales Layout
-erforderlich ist, z.B.:
-
-* Bilder
-* Landkarten
-* Diagramme
-* Videos
-* Spiele
-* Präsentationen
-* Datentabellen 
-* Anwendungs-Schnittstellen
-+
-In denen die Bearbeitung von Inhalten die permanente Verfügbarkeit von
-Werkzeugleisten erfordert.
-
-*Hinweis:*
-Dieser Prüfschritt beschränkt sich auf Inhalte, deren primäre
-Schreibrichtung waagerecht ist, wie bei der für die meisten westlichen
-Sprachen benutzten lateinischen Schrift.
-Die zugrunde liegende WCAG-Anforderung gilt in ähnlicher Weise für Inhalte
-mit vertikaler Schreibrichtung.
-
-Bei Software, die für einen horizontalen Bildlauf (z. B. mit vertikalem Text)
-ausgelegt ist, entspricht die Höhe des starting Viewports von 1024 px bei
-400% Zoom.
+Hinweis: Dieser Prüfschritt beschränkt sich auf Inhalte, deren primäre Schreibrichtung waagerecht ist, wie bei der für die meisten westlichen Sprachen benutzten lateinischen Schrift. Die zugrunde liegende WCAG-Anforderung gilt in ähnlicher Weise für Inhalte mit vertikaler Schreibrichtung.
 
 == Warum wird das geprüft?
 
-Bei mobilen Apps wird mit Systemfunktionen der Bildschirmausschnitt
-vergrößert, hierbei wird jedoch Text nicht umgebrochen und der Prüfschritt
-ist so nicht anwendbar.
-Falls das System eine Nur-Text-Vergrößerung anbietet, sollte der Text in der
-Anwendung korrekt umbrechen.
+Bei mobilen Apps wird mit Systemfunktionen der Bildschirmausschnitt vergrößert, hierbei wird jedoch Text nicht umgebrochen und der Prüfschritt ist so nicht anwendbar.
+Falls das System eine Nur-Text-Vergrößerung anbietet, sollte der Text in der Anwendung korrekt umbrechen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software anwendbar.
-Wie dies jedoch umgesetzt werden soll, ist unklar.
-Ggf. gibt es in zukünftigen Versionen der mobilen Betriebssysteme eine
-entsprechende Bedienungshilfe zum umbrechen von Text, die ein- und
-ausgeschaltet werden kann.
-Dann müssen Apps diese Systemschnittstelle unterstützen.
+Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software anwendbar. Wie dies jedoch umgesetzt werden soll, ist unklar. Gegebenenfalls gibt es in zukünftigen Versionen der mobilen Betriebssysteme eine entsprechende Bedienungshilfe zum umbrechen von Text, die ein- und ausgeschaltet werden kann. Dann müssen Apps diese Systemschnittstelle unterstützen.
 
-=== Prüfung
+=== 2. Prüfung
 
-Wie dieser Prüfschritt bei nativer Software geprüft werden kann muss noch
-geklärt werden.
-Wenn vom Betriebssystem eine Bedienungshilfe zum umbrechen von Text
-zur Verfügung gestellt wird, sollten Apps mit der entsprechenden Funktion
-umgehen bzw. zugehörige Methoden implementieren, um diese
-systemseitige Funktion zu unterstützen.
+Wie dieser Prüfschritt bei nativer Software geprüft werden kann muss noch geklärt werden. Wenn vom Betriebssystem eine Bedienungshilfe zum Umbrechen von Text
+zur Verfügung gestellt wird, sollten Apps mit der entsprechenden Funktion umgehen bzw. zugehörige Methoden implementieren, um diese systemseitige Funktion zu unterstützen.
 
-Für Hinweise zur Prüfpraxis können Sie auf GitHub
-https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zur diesem
-Prüfschritt erstellen.
+=== 3. Hinweise
 
-=== Hinweise
+Bei der alternativen Prüfung mit 1280px Viewport-Breite und 400% Zoom soll nicht negativ bewertet werden, wenn fest positionierte Inhalte (etwa Ausklappmenüs) aufgrund der sehr geringen verfügbaren Höhe des Viewports nicht voll erreichbar sind. Geprüft wird allein, ob Inhalte erfolgreich in eine Ansicht umbrechen, die nicht horizontal gescrollt werden braucht.
 
-Bei der alternativen Prüfung mit 1280px Viewport-Breite und 400% Zoom soll
-nicht negativ bewertet werden, wenn fest positionierte Inhalte (etwa
-Ausklappmenüs) aufgrund der sehr geringen verfügbaren Höhe des Viewports
-nicht voll erreichbar sind.
-Geprüft wird allein, ob Inhalte erfolgreich in eine Ansicht umbrechen, die
-nicht horizontal gescrollt werden braucht.
+Ausnahmen für die Anforderung, dass horizontales Scrollen nicht erforderlich ist, sind Inhalte, deren Nutzung ein zweidimensionales Layout voraussetzen, etwa Datentabellen, Bilder, Diagramme, Videos, Spiele oder Benutzerschnittstellen mit Werkzeugleisten.
 
-Ausnahmen für die Anforderung, dass horizontales Scrollen nicht erforderlich
-ist, sind Inhalte, deren Nutzung ein zweidimensionales Layout voraussetzen,
-etwa Datentabellen, Bilder, Diagramme, Videos, Spiele oder
-Benutzerschnittstellen mit Werkzeugleisten.
-
-Im Prüfschritt wird nicht geprüft, ob die Zoomvergrößerung auf 400%
-Textinhalte tatsächlich auf 400% oder einen geringeren Wert vergrößert.
+Im Prüfschritt wird nicht geprüft, ob die Zoomvergrößerung auf 400% Textinhalte tatsächlich auf 400% oder einen geringeren Wert vergrößert.
 Dies ist Gegenstand von Prüfschritt
 ifdef::env_embedded[]
 11.1.4.4 "Text auf 200% vergrößerbar".
@@ -99,7 +42,11 @@ ifndef::env_embedded[]
 vergrößerbar>>.
 endif::env_embedded[]
 
-// === Bewertung
+Für Hinweise zur Prüfpraxis können Sie auf GitHub
+https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zur diesem
+Prüfschritt erstellen.
+
+=== 4. Bewertung
 
 == Quellen
 
