@@ -139,6 +139,6 @@ WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/css/C14.html[C14:
 Using em units for font sizes]
 
 === Artikel: 
-https://medium.com/@r.whitaker/swiftui-accessibility-dynamic-type-d9b99ae87334[SwiftUI Accessibility: Dynamic Type, Rob Whiteker, 2019]
+* https://medium.com/@r.whitaker/swiftui-accessibility-dynamic-type-d9b99ae87334[SwiftUI Accessibility: Dynamic Type, Rob Whiteker, 2019]
 
 
