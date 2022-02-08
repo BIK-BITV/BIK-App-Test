@@ -48,7 +48,7 @@ Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind, müsse
 
 ==== Erfüllt:
 
-* Alle wesentlichen Inhalte und Funktionen sind im Prinzip mit der Tastatur erreichbar und bedienbar.
+* Alle wesentlichen Inhalte und Funktionen sind mit der Tastatur erreichbar und bedienbar.
 
 ==== Nicht erfüllt:
 
