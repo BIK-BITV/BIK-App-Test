@@ -8,78 +8,57 @@ Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt
 
 * Mit der Zoom-Funktion des Betriebssystems kann das gesamte Layout proportional zur Schriftgröße vergrößert werden.
 * Mit der Nur-Text-Vergrößerung des Betriebssystems kann der Text vergrößert werden.
-* Über ein Bedienelement der Software-Ansicht kann die Schriftgröße vergrößert werden.
+* Über ein Bedienelement der App-Ansicht kann die Schriftgröße vergrößert werden.
 
-Da die gängigen mobilen Plattformen wie iOS / iPadOS und Android
-Bedienungshilfen mit Vergrößerungsfunktionalitäten anbieten, ist dieser
-Prüfschritt erfüllt, wenn die Software ordungsgemäß mit diesen
-Systemfunktionen nutzbar ist.
+Da die gängigen mobilen Plattformen wie iOS / iPadOS und Android Bedienungshilfen mit Vergrößerungsfunktionalitäten anbieten, ist dieser Prüfschritt erfüllt, wenn die Software ordungsgemäß mit diesen Systemfunktionen nutzbar ist.
 
 == Warum wird das geprüft?
 
-Benutzer sollen die Schriftgröße nach ihren Bedürfnissen einstellen können.
-Die gängigen Betriebssysteme bieten zwei verschiedene
-Vergrößerungsmöglichkeiten: die klassische Nur-Text-Vergrößerung und die
-Zoom-Vergrößerung des gesamten Bildschirminhalts.
+Nutzende sollen die Schriftgröße nach ihren Bedürfnissen einstellen können. Die gängigen Betriebssysteme bieten zwei verschiedene Vergrößerungsmöglichkeiten: die klassische Nur-Text-Vergrößerung und die Zoom-Vergrößerung des gesamten Bildschirminhalts.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software-Ansicht Text enthält.
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
-. Zoom-Funktionalität in den Bedienungshilfen von iOS / iPadOS bzw. Android
-  aktivieren
-. App mit zu prüfender Ansicht starten
-. Ansicht mittels der Zoomfunktion des Betriebssystems um 200% vergrößern
-  und dabei prüfen, ob dies Probleme bei der zu prüfenden Ansicht hervorruft.
+==== 2.1 Prüfung der Schriftvergrößerung mit Hilfe der Betriebssystem-Einstellungen
 
-==== Prüfung der Schriftvergrößerung durch Bedienelemente in der Software
+. Zoom-Funktionalität in den Bedienungshilfen von iOS / iPadOS bzw. Android aktivieren
+. App mit zu prüfender Ansicht öffnen
+. Ansicht mittels der Zoomfunktion des Betriebssystems um 200% vergrößern und dabei prüfen, ob dies Probleme bei der zu prüfenden Ansicht hervorruft.
 
-Wenn die Software eigene Bedienelemente bereithält, um die Schriftgröße zu
-vergrößern:
+==== 2.2 Prüfung der Schriftvergrößerung durch Bedienelemente in der App
 
-Muss nur geprüft werden, wenn die Systemfunktion zum vergrößern nicht
-vorhanden ist oder diese mit der App zu Problemen führt.
+Wenn die Software eigene Bedienelemente bereithält, um die Schriftgröße zu vergrößern:
 
-. Prüfen, ob die Bedienelemente für Schriftvergrößerung deutlich sichtbar
-  im oberen Bereich der Ansicht angeboten werden.
-. Prüfen, ob die Schrift mit Hilfe der auf der Ansicht angebotenen
-  Bedienelemente schrittweise vergrößert werden kann (wie stark die
-  Vergrößerung ist spielt dabei keine Rolle).
-. Prüfen, ob sich über die angebotenen Bedienelemente die
-  Ausgangsschriftgröße wiederherstellen lässt.
+Muss nur geprüft werden, wenn die Systemfunktion zum vergrößern nicht vorhanden ist oder diese mit der App zu Problemen führt.
 
-=== Hinweise
+. Prüfen, ob die Bedienelemente für Schriftvergrößerung deutlich sichtbar im oberen Bereich der Ansicht angeboten werden.
+. Prüfen, ob die Schrift mit Hilfe der auf der Ansicht angebotenen Bedienelemente schrittweise vergrößert werden kann (wie stark die Vergrößerung ist spielt dabei keine  Rolle).
+. Prüfen, ob sich über die angebotenen Bedienelemente die Ausgangsschriftgröße wiederherstellen lässt.
 
-Werden Apps getestet, kommen die Funktionen Zoomen und/oder
-Nur-Text-Vergrößerung des Betriebssystems zum Einsatz
-Bietet das Betriebssystem eine normale Zoomfunktion (Vergrößerung des
-gesamten Bildausschnitts) an, wird diese meist eine 200%ige Vergrößerung
-ermöglichen.
-Funktioniert die Zoomfunktion mit der zu testenden Software, ist dieser
-Prüfschritt bestanden.
-Falls das Betriebssystem auch eine Nur-Text-Vergrößerung anbietet, sollte
-diese dennoch mit der Software getestet werden.
-Probleme mit der Nur-Text-Vergrößerung sollten dabei zumindest
-angemerkt werden, da diese für einige Nutzer Vorteilhafter als die
+=== 3. Hinweise
+
+Werden Apps getestet, kommen die Funktionen Zoomen und / oder Nur-Text-Vergrößerung des Betriebssystems zum Einsatz:
+
+* Bietet das Betriebssystem eine normale Zoomfunktion (Vergrößerung des gesamten Bildausschnitts) an, wird diese meist eine 200%ige Vergrößerung
+ermöglichen. Funktioniert die Zoomfunktion mit der zu testenden Software, ist dieser Prüfschritt bestanden.
+* Falls das Betriebssystem auch eine Nur-Text-Vergrößerung anbietet, sollte diese ebenfalls getestet werden.
+Probleme mit der Nur-Text-Vergrößerung sollten zumindest angemerkt werden, da diese für einige Nutzer vorteilhafter ist, als die
 Vergrößerung des gesamten Bildausschnitts ist (z. B. bessere Orientierung).
 
-Die Prüfung der Schriftvergrößerung durch eigene Bedienelemente in der zu
-testenden Software-Ansicht erfolgt nur unter folgenden Bedingungen:
+Die Prüfung der Schriftvergrößerung durch ein eigenes Bedienelement in der zu testenden App-Ansicht erfolgt nur unter folgender Bedingung:
 
-* Das Bedienelement erfüllt alle Anforderungen an Barrierefreiheit (es ist
-  zum Beispiel tastaturbedienbar, erfüllt die Kontrastanforderungne etc.)
+* Das Bedienelement erfüllt alle Anforderungen an Barrierefreiheit (es ist zum Beispiel tastaturbedienbar, erfüllt die Kontrastanforderungne etc.)
 
-=== Bewertung
+=== 4. Bewertung
 
-*Erfüllt:*
+==== Erfüllt:
 
-* Der Bildschirminhalt (inkl. Text) lässt sich mittels der Systemfunktionen
-  auf 200 % vergrößern, ohne dass es zu Überlappungen oder abgeschnittenen
-  Inhalten kommt und ohne dass Funktionalitäten beeinträchtigt werden.
+* Der Bildschirminhalt (inklusive Text) lässt sich mittels der Systemfunktionen auf 200 % vergrößern, ohne dass es zu Überlappungen oder abgeschnittenen Inhalten kommt und ohne dass Funktionalitäten beeinträchtigt werden.
 
 == Einordnung des Prüfschritts
 
