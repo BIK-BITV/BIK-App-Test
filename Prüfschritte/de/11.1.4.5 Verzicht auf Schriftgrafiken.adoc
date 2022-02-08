@@ -21,7 +21,7 @@ Der Prüfschritt ist immer anwendbar.
 
 . App mit zu prüfender Ansicht öffnen.
 . Prüfen, ob es Elemente gibt, die wie eine Schriftgrafik aussehen. 
-. Screenreader starten und mit Hilfe der Wischgesete zu Elementen navigierne, die wie vermeintliche Schriftgrafiken aussehen.
+. Screenreader starten und mit Hilfe der Wischgesete zu Elementen navigieren, die wie vermeintliche Schriftgrafiken aussehen.
 . Falls es sich um eine Schriftgrafik (also um keinen „echten“ Text) handelt, gibt der Screenreader „Bild“ oder „Grafik“ aus.
 
 === Hinweise
