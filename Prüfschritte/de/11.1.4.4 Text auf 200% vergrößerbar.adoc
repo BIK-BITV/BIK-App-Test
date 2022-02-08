@@ -113,8 +113,8 @@ layout.
 An example of direct support might be via server-side script that can be used
 to assign different style sheets.
 
-(https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html[Resize text:
-Understanding SC 1.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html[Resize text:
+Understanding SC 1.4.4]
 
 === Die WCAG 2.1 zur Nutzung absoluter und relativer Maßeinheiten für Text
 
@@ -135,5 +135,10 @@ style element (...). When using inline style with the style attribute, the
 text size change is not supported.
 --
 
-(WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/css/C14.html[C14:
-Using em units for font sizes])
+WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/css/C14.html[C14:
+Using em units for font sizes]
+
+=== Artikel: 
+https://medium.com/@r.whitaker/swiftui-accessibility-dynamic-type-d9b99ae87334[SwiftUI Accessibility: Dynamic Type, Rob Whiteker, 2019]
+
+
