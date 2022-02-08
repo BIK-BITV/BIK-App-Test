@@ -42,17 +42,9 @@ Muss nur geprüft werden, wenn die Systemfunktion zum vergrößern nicht vorhand
 
 === 3. Hinweise
 
-Werden Apps getestet, kommen die Funktionen Zoomen und / oder Nur-Text-Vergrößerung des Betriebssystems zum Einsatz:
+* Die Zoomfunktion (Vergrößerung des gesamten Bildausschnitts) des Betriebssystems wird in der Regel eine 200%ige Vergrößerung ermöglichen. Funktioniert die Zoomfunktion mit der zu testenden Software, ist dieser Prüfschritt bestanden. Wir empfehlen jedoch dringend, dass native Apps die häufig genutzte dynamische Textvergrößerng untertützen, da die Bedürfnisse von sehbehinderten Nutzenden durch die Zoom-Funktion der Plattform nicht vollständig abgedeckt werden. Probleme mit der Nur-Text-Vergrößerung sollten zumindest angemerkt werden.
 
-* Bietet das Betriebssystem eine normale Zoomfunktion (Vergrößerung des gesamten Bildausschnitts) an, wird diese meist eine 200%ige Vergrößerung
-ermöglichen. Funktioniert die Zoomfunktion mit der zu testenden Software, ist dieser Prüfschritt bestanden.
-* Falls das Betriebssystem auch eine Nur-Text-Vergrößerung anbietet, sollte diese ebenfalls getestet werden.
-Probleme mit der Nur-Text-Vergrößerung sollten zumindest angemerkt werden, da diese für einige Nutzer vorteilhafter ist, als die
-Vergrößerung des gesamten Bildausschnitts ist (z. B. bessere Orientierung).
-
-Die Prüfung der Schriftvergrößerung durch ein eigenes Bedienelement in der zu testenden App-Ansicht erfolgt nur unter folgender Bedingung:
-
-* Das Bedienelement erfüllt alle Anforderungen an Barrierefreiheit (es ist zum Beispiel tastaturbedienbar, erfüllt die Kontrastanforderungne etc.)
+* Die Prüfung der Schriftvergrößerung durch ein eigenes Bedienelement in der zu testenden App-Ansicht erfolgt nur unter der Bedingung, dass das Bedienelement alle Anforderungen an Barrierefreiheit erfüllt (zum Beispiel tastaturbedienbar, erfüllt die Kontrastanforderungne etc.)
 
 === 4. Bewertung
 
