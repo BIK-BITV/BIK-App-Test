@@ -28,7 +28,7 @@ Der Prüfschritt ist immer anwendbar.
 . Mit der Tabulatortaste durch alle interaktiven Elemente und Formularelemente navigieren.
 . Prüfen, ob alle interaktiven Elemente und Formularelemente erreicht und wieder verlassen werden können.
 
-=== 3. Hinweise zu Tastaturfallen
+=== 3. Hinweise
 
 Wenn die Tastaturfalle verhindert, dass man Inhalte nach der Tastaturfalle
 erreicht, dann ist eventuell auch Prüfschritt
