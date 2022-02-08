@@ -4,47 +4,31 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Kann der Tastaturfokus auf ein Element der Ansicht bewegt werden, muss er auch
-von diesem Element wieder wegbewegt werden können.
-Der Inhalt darf keine Tastaturfalle erzeugen.
+Kann der Tastaturfokus auf ein Element der Ansicht bewegt werden, muss er auch von diesem Element wieder wegbewegt werden können. Der Inhalt darf keine Tastaturfalle erzeugen.
 
-Wenn mehr als Pfeil- oder Tabulatortasten oder andere
-Standard-Beendigungsmethoden erforderlich sind, wird Der Benutzer auf die
-benötigte Methode zum Wegbewegen des Fokus hingewiesen.
+Wenn mehr als Pfeil- oder Tabulatortasten oder andere Standard-Beendigungsmethoden erforderlich sind, wird Der Benutzer auf die benötigte Methode zum Wegbewegen des Fokus hingewiesen.
 
-Da jeder Teil einer Software, der dieses Erfolgskriterium nicht erfüllt, die
-Fähigkeit des Nnutzers beeinträchtigen kann, die gesamte Software zu
-verwenden, ist dies für alle Inhalte in der Software erforderlich um dieses
-Erfolgskriterium zu erfüllen.
-
-Die Standard-Exit-Methoden können je nach Plattform variieren.
-Beispielsweise ist auf vielen Desktop-Plattformen die Escape-Taste eine
-Standardmethode zum Beenden bzw. schließen von Dialogen.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich sein.
-Das bedeutet:
-Sie muss sowohl mit Touch-Eingaben als auch mit der Tastatur möglich sein.
+Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit Touch-Eingaben als auch mit der Tastatur möglich sein.
 
-Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch
-eingeschränkte oder blinde Menschen .
+Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte oder blinde Menschen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== Prüfung
+=== 2. Prüfung
 
-. Tastatur z. B. per Bluetooth anschließen.
-. App starten und zu prüfende Ansicht aufrufen.
-. Mit der Tabulatortaste die Links und Formularelemente durchgehen.
-. Prüfen, ob alle Links und Formularelemente erreicht und wieder verlassen
-  werden können.
+. Tastatur über Bluetooth-Kopplung oder USB-Kabel anschließen.
+. App mit zu prüfender Ansicht öffnen.
+. Mit der Tabulatortaste durch alle interaktiven Elemente und Formularelemente navigieren.
+. Prüfen, ob alle interaktiven Elemente und Formularelemente erreicht und wieder verlassen werden können.
 
-=== Hinweise zu Tastaturfallen
+=== 3. Hinweise zu Tastaturfallen
 
 Wenn die Tastaturfalle verhindert, dass man Inhalte nach der Tastaturfalle
 erreicht, dann ist eventuell auch Prüfschritt
@@ -54,16 +38,15 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 nicht erfüllt.
 
-=== Bewertung
+=== 4. Bewertung
 
-*Erfüllt:*
+==== Erfüllt:
 
 * Es gibt keine Tastaturfallen.
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
-* Wesentliche Inhalte und Funktionen sind aufgrund einer Tastaturfalle mit der
-  Tastatur nicht erreichbar oder nicht bedienbar.
+* Wesentliche Inhalte und Funktionen sind aufgrund einer Tastaturfalle mit der Tastatur nicht erreichbar oder nicht bedienbar.
 
 == Einordnung des Prüfschritts
 
