@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt oder Funktionalität verloren geht. Eine der folgenden Voraussetzungen soll erfüllt sein:
 
 * Mit der Zoom-Funktion des Betriebssystems kann das gesamte Layout proportional zur Schriftgröße vergrößert werden.
-* Mit der Funktion "größerer dynamischer Text" des Betriebssystems kann der Text vergrößert werden.
+* Mit der Funktion des Betriebssystems kann der Text vergrößert werden.
 * Über ein Bedienelement der App-Ansicht kann die Schriftgröße vergrößert werden.
 
 Da die gängigen mobilen Plattformen wie iOS / iPadOS und Android Bedienungshilfen mit Vergrößerungsfunktionalitäten anbieten, ist dieser Prüfschritt erfüllt, wenn die Software ordungsgemäß mit diesen Systemfunktionen nutzbar ist.
@@ -43,7 +43,7 @@ Muss nur geprüft werden, wenn die Systemfunktion zum vergrößern nicht vorhand
 === 3. Hinweise
 
 * Die Zoomfunktion (Vergrößerung des gesamten Inhalt des Bildschirms) des Betriebssystems wird in der Regel eine 200%ige Vergrößerung ermöglichen. Funktioniert die Zoomfunktion mit der zu testenden Software, ist dieser Prüfschritt bestanden. 
-Native mobile Plattformen verfügen über eine Funktion "größerer dynamischer Text". Apps, die diese Funktion unterstützen, passen sich an die festgelegte Lesegröße an. Diese Funktion wird häufig verwendet, da die Bedürfnisse von sehbehinderten Nutzenden durch die Zoom-Funktion der Plattform nicht vollständig abgedeckt werden. Wir empfehlen daher dringend, dass native Apps diese Funktion unterstützen. Probleme die bei der Nutzung der dynamischen Textfunktion entstehen, sollten zumindest angemerkt werden.
+Native mobile Plattformen verfügen über eine Funktion "größerer dynamischer Text" das bedeutet, eine Funktion zur Textvergrößerung. Apps, die diese Funktion unterstützen, passen sich an die festgelegte Lesegröße an. Diese Funktion wird häufig verwendet, da die Bedürfnisse von sehbehinderten Nutzenden durch die Zoom-Funktion der Plattform nicht vollständig abgedeckt werden. Wir empfehlen daher dringend, native Apps so umzusetzen, dass sie diese Funktion unterstützen. Probleme die bei der Nutzung der dynamischen Textfunktion entstehen, sollten zumindest angemerkt werden.
 
 * Die Prüfung der Schriftvergrößerung durch ein eigenes Bedienelement in der zu testenden App-Ansicht erfolgt nur unter der Bedingung, dass das Bedienelement alle Anforderungen an Barrierefreiheit erfüllt (zum Beispiel tastaturbedienbar, erfüllt die Kontrastanforderungne etc.)
 
