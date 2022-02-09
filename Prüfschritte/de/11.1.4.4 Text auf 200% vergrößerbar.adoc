@@ -43,7 +43,7 @@ Muss nur geprüft werden, wenn die Systemfunktion zum vergrößern nicht vorhand
 === 3. Hinweise
 
 * Die Zoomfunktion (Vergrößerung des gesamten Inhalt des Bildschirms) des Betriebssystems wird in der Regel eine 200%ige Vergrößerung ermöglichen. Funktioniert die Zoomfunktion mit der zu testenden Software, ist dieser Prüfschritt bestanden. 
-Native mobile Plattformen verfügen über eine Funktion "größerer dynamischer Text", das bedeutet, eine Funktion zur Textvergrößerung. Apps, die diese Funktion unterstützen, passen diese an die festgelegte Textgröße an. Diese Funktion wird häufig verwendet, da die Bedürfnisse von sehbehinderten Nutzenden durch die Zoom-Funktion der Plattform nicht vollständig abgedeckt werden. Daher ist es sinnvoll, native Apps so umzusetzen, dass sie diese Funktion unterstützen.
+Native mobile Plattformen verfügen über eine Funktion "größerer dynamischer Text", das bedeutet, eine Funktion zur Textvergrößerung. Apps, die dynamische Fonts verwenden, passen diese an die eingestellte Schriftgröße an. Diese Funktion wird häufig verwendet, da die Bedürfnisse von sehbehinderten Nutzenden durch die Zoom-Funktion der Plattform nicht vollständig abgedeckt werden. Daher ist es sinnvoll, native Apps so umzusetzen, dass sie diese Funktion unterstützen.
 
 * Die Prüfung der Schriftvergrößerung durch ein eigenes Bedienelement in der zu testenden App-Ansicht erfolgt nur unter der Bedingung, dass das Bedienelement alle Anforderungen an Barrierefreiheit erfüllt (zum Beispiel tastaturbedienbar, erfüllt die Kontrastanforderungne etc.)
 
