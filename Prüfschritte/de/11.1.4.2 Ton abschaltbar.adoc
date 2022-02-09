@@ -27,7 +27,7 @@ ein Tonelement automatisch abgespielt wird:
 * Prüfen, ob der Ton länger als 3 Sekunden dauert.
 
 * Wenn das der Fall ist: Prüfen, ob sich am Beginn der Ansicht ein Mechanismus (Button, Link, oder Lautstärke-Regler) befindet, mit dem sich der Ton abschalten oder unabhängig
-von der Systemlautstärke herunter regeln lässt. Der Fokus soll bei Aufruf der Ansicht auf dem Bedienelement zum Pausieren der Wiedergabe gesetzt sein.
+von der Systemlautstärke herunter regeln lässt.
 
 * Den Mechanismus bedienen und den Ton abschalten.
 
@@ -39,15 +39,17 @@ Hier kann z. B. vor und nach einem Test ein Vergleichs-Sound abgespielt werden, 
 
 === 3. Hinweise
 
-Töne, die nicht nach kurzer Zeit enden, können auch die Verständlichkeit der Sprachausgabe des Abschaltmechanismus stören. Deshalb wird auch berücksichtigt, wie störend sich der Ton auswirkt. Sprache oder laute Geräusche etwa stören mehr als eine gleichmäßige Hintergrundmusik.
+* Töne, die nicht nach kurzer Zeit enden, können auch die Verständlichkeit der Sprachausgabe des Abschaltmechanismus stören. Deshalb wird auch berücksichtigt, wie störend sich der Ton auswirkt. Sprache oder laute Geräusche etwa stören mehr als eine gleichmäßige Hintergrundmusik.
 
-Der Mechanismus zum Herunterregeln des Tones darf nicht die Systemtonlautstärke ändern, da dies auch die Tonausgabe von Hilfsmitteln mit Sprachausgabe beeinträchtigen würde.
+* Der Mechanismus zum Herunterregeln des Tones darf nicht die Systemtonlautstärke ändern, da dies auch die Tonausgabe von Hilfsmitteln mit Sprachausgabe beeinträchtigen würde.
 
-Der Mechanismus zum Abschalten oder Herunterregeln des Tons muss sich in jeder Ansicht befinden, in denen Ton abgespielt wird und soll selbst alle Anforderungen an Barrierefreiheit erfüllen, also etwa ausreichende Kontraste haben und tastaturbedienbar sein.
+* Der Mechanismus zum Abschalten oder Herunterregeln des Tons muss sich in jeder Ansicht befinden, in denen Ton abgespielt wird und soll selbst alle Anforderungen an Barrierefreiheit erfüllen, also etwa ausreichende Kontraste haben und tastaturbedienbar sein.
 
-Wenn sich der Ton herunterregeln lässt, soll er auf der niedrigsten Stellung des Reglers nicht mehr hörbar sein.
+* Wenn sich der Ton herunterregeln lässt, soll er auf der niedrigsten Stellung des Reglers nicht mehr hörbar sein.
 
-Es reicht zur Erfüllung dieses Prüfschritts nicht aus, wenn sich der Ton über Tastaturbefehle (etwa die Escape-Taste) abschalten lässt. Diese Funktion kann sinnvoll sein, wird aber von vielen Nutzern nicht vermutet. Insbesondere auf Touch-Geräten soll der Fokus standardmäßig auf dem Play / Pause / Mute Bedienelement sein, damit dieses sofort bedient werden kann und nicht erst gesucht werden muss.
+* Es reicht zur Erfüllung dieses Prüfschritts nicht aus, wenn sich der Ton über Tastaturbefehle (etwa die Escape-Taste) abschalten lässt. Diese Funktion kann sinnvoll sein, wird aber von vielen Nutzern nicht vermutet. 
+
+* Insbesondere auf Touch-Geräten wird empfohlen, dass der Fokus standardmäßig auf dem Play- , Pause- , Mute-Bedienelement ist, damit dieses sofort bedient werden kann und nicht erst gesucht werden muss.
 
 === 4. Bewertung
 
