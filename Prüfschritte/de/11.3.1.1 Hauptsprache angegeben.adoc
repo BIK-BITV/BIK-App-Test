@@ -8,11 +8,9 @@ Die Hauptsprache der App soll angegeben werden.
 
 ==  Warum wird das geprüft?
 
-Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter
-festgelegt ist.
-Sie müssen wissen, in welcher Sprache ein Text verfasst ist, damit sie die
-richtige Wortliste für die Aussprache verwenden und den Text korrekt
-aussprechen können.
+Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt ist.
+Sie müssen wissen, in welcher Sprache ein Text verfasst ist, damit sie die richtige Wortliste für die Aussprache verwenden und den Text korrekt aussprechen können.
+Wenn jemand beispielsweise eine deutschsprachige App auf einem englischsprachigen Betriebssystem verwendet, sollen die deutschen Begriffe nicht in englischer Aussprache vorgelesen werden.
 
 == Wie wird geprüft?
 
@@ -22,16 +20,12 @@ Der Prüfschritt ist immer anwendbar.
 
 === Prüfung
 
-Prüfen ob sich die Anwendung an die Systemsprache hält.
-Falls dies nicht der Fall ist, soll die Software ihre verwendete Sprache an
-das System melden.
-Gegebenenfalls ist dies mit einem Screenreader prüfbar, indem man prüft, ob
-der Screenreader eine zur Sprache der Anwendung passende Stimme beim Vorlesen
-der Bedienelemente wählt.
+In den Einstellungen des Betriebssystems wird eine andere Sprache als die der App gewählt. Alternativ kann die Sprache der App auf eine andere Sprache als die des Betriebssystems gesetzt werden. Dazu kann auch in den Betriebssystem-Einstellungen die App aufgerufen werden und dort die Sprache geändert werden (beispielsweise unter iOS möglich).
+
+Prüfen, ob trotz unterschiedlicher System- und App-Sprache die Begriffe in der App vom Screenreader noch in der App-Sprache ausgegeben werden. Oder werden sie fälschlich nach Ausspracheregeln der Systemsprache gesprochen?
 
 Ggf. müssen hier noch bessere Prüfmethoden gefunden werden.
-Die meiste Software richtet sich jedoch nach der Systemsprache und ist somit
-konform.
+Die meiste Software richtet sich jedoch nach der Systemsprache und ist somit konform.
 
 Für Hinweise zur Prüfpraxis erstellen Sie gerne ein https://github.com/BIK-BITV/BIK-App-Test/issues[Issue
 auf GitHub].
@@ -40,15 +34,11 @@ auf GitHub].
 
 *Erfüllt:*
 
-* Die Anwendung hält sich an die Systemsprache oder meldet ihre verwendete
-  Sprache an das System.
+* Die Anwendung hält sich an die Systemsprache oder meldet ihre verwendete Sprache an das System. Der Screenreader spricht die Begriffe immer in der Sprache der App aus.
 
 *Nicht erfüllt:*
 
-* Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet
-  dabei ihre verwendete Hauptsprache nicht an das System, sodass z. B. ein
-  Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit
-  beispielsweise englischer Text mit einer deutschen Stimme vorgelesen wird.
+* Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z. B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit beispielsweise englischer Text mit einer deutschen Stimme vorgelesen wird.
 
 ==  Einordnung des Prüfschritts
 
