@@ -9,6 +9,10 @@ ermittelbar sein.
 
 Diese Anforderung stellt sicher, dass auch Nutzer von Hilfstechnologien den Anrufer identifizieren können.
 
+== Warum wird das geprüft?
+
+Diese Anforderung stellt sicher, dass auch Nutzende von Hilfsmittel-Technologien den Anrufer identifizieren können.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
@@ -21,6 +25,7 @@ Anrufidentifizierung bedeutet hier, die Signalisierung bzw. Anzeige der Anrufend
 
 Für die Prüfung muss die App gegebenenfalls auf zwei Geräten installiert werden.
 
+. Screenreader starten
 . Zu prüfende Ansicht der App öffnen
 . Anruf von einem zweiten Gerät tätigen
 . Prüfen, wie der Anruf in Zusammenhang mit dem aktiviertem Screenreader signalisiert wird. Wird der Anrufer automatisch angesagt oder sind die
