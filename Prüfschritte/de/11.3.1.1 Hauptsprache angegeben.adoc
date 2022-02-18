@@ -32,7 +32,7 @@ Ggegebenenfalls müssen hier noch bessere Prüfmethoden gefunden werden. Die mei
 Für Hinweise zur Prüfpraxis erstellen Sie gerne ein https://github.com/BIK-BITV/BIK-App-Test/issues[Issue
 auf GitHub].
 
-=== 3. Bewertung
+=== 4. Bewertung
 
 ==== Erfüllt:
 
@@ -55,3 +55,12 @@ auf GitHub].
 
 * https://www.w3.org/TR/WCAG21/#language-of-page[3.1.1 Language of Page
   (Level A)]
+
+== Quellen
+
+=== iOS
+* https://www.ralfebert.com/ios-examples/xcode/change-development-language/[Changing the development language of an Xcode project,] (Ralf Ebert, 2019)
+
+=== Android
+* https://www.tutorialspoint.com/how-to-change-the-app-language-programmatically-in-android[How to change the app language programmatically in android?,] (Azhar, 2019)
+* https://www.geeksforgeeks.org/how-to-change-the-whole-app-language-in-android-programmatically/[How to Change the Whole App Language in Android Programmatically?,] (Ankur Pal, 2021)
