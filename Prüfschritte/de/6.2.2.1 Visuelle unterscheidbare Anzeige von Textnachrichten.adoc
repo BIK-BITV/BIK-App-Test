@@ -2,51 +2,52 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.2.2.1 "Visually distinguishable display" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Software Echtzeit Textkommunikation senden und empfangen kann,
-soll die Anzeige von empfangenen und gesendeten Nachrichten visuell
-unterscheidbar sein und somit voneinander separiert werden.
+Wenn die App Echtzeit-Textkommunikation (RTT, Real-Time Text) senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell gut voneinander unterscheidbar sein.
+
+== Warum wird das geprüft?
+
+Menschen, die Echtzeit-Textkommunikation nutzen, sollen in der Lage sein, bereits empfangene und gesendete Nachrichten visuell zu unterscheiden. So können sie leichter Äußerungen von sich selbst oder von anderen finden und zuordnen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Echtzeit Textkommunikation
-senden und empfangen kann.
+Der Prüfschritt ist anwendbar, wenn die App Echtzeit-Textkommunikation (RTT, Real-Time Text) senden und empfangen kann.
 
-=== Prüfung
+=== 2. Prüfung
 
-. App starten
-. prüfen, ob die App das Senden und Empfangen von Echtzeit Textkommunikation
-  anbietet
-. prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich
-  voneinander unterscheidbar sind und separat angezeigt werden, z. B.:
-+
+. Zu prüfende Ansicht der App öffnen.
+. Prüfen, ob die App das Senden und Empfangen von Echtzeit Textkommunikation
+  anbietet.
+. Prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich voneinander unterscheidbar sind und separat angezeigt werden, z. B.:
 * Rahmen für Textnachricht (mit gutem Kontrast nach außen)
-* Positionierung der eigenen Nachrichten rechtsbündig und der
-  Gesprächsteilnehmer linksbündig oder umgekehrt
+* Positionierung der eigenen Nachrichten rechtsbündig und der Gesprächsteilnehmer linksbündig oder umgekehrt
 * Nennung des Namens vor Beginn der Nachricht
-* Nur als Zusatz: Unterscheidung der Nachrichten von verschiedenen Personen
-  durch unterschiedliche Farbgebung (mit gutem Kontrast)
 
-==== Hinweise
+==== 3. Hinweise
 
-Wenn die Software verschiedene Optionen für die Anzeige der Nachrichten
-anbietet, die ggf. nicht diesen Anforderungen entsprechen, soll dies nicht
-schlecht bewertet werden.
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 
-Andere Optionen für die Anzeige sind positiv, sie können andere Bedürfnisse
-der Nutzer erfüllen.
-Beispielsweise kann die Inline-Darstellung von Empfangenen und gesendeten
-Nachrichten für Braille-Nutzer vorteilhaft sein.
+* Die Anforderung gilt streng genommen nur für Echtzeit-Textkommunikation, ist aber auch für die Unterscheidung von anderen Formen von Textkommunikation (etwa Text-Chats) wichtig.
+
+* Wenn das Webangebot weitere Optionen für die Anzeige der Nachrichten anbietet, die gegebenenfalls nicht diesen Anforderungen entsprechen, soll dies nicht negativ bewertet werden. Andere Darstellungsweisen sind positiv, sie können bestimmte Nutzer-Bedürfnisse erfüllen. So kann die Fließtext-Darstellung von sowohl empfangenen als auch gesendeten Nachrichten in einem Textcontainer für Braille-Nutzer vorteilhaft sein.
+
+* Die Unterscheidung der Nachrichten von verschiedenen Personen sollte nicht ausschließlich über eine unterschiedliche Textfarbe geschehen - vergleiche auch Abschnitt 4.2 Abgrenzung zu anderen Prüfschritten.
+
+* Der Prüfschritt verlangt nur die Unterscheidung von gesendeten (auch Nutzersicht also eignen) und empfangenen Äußerungen, nicht die Unterscheidung verschiedener empfangener Äußerungen.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüschritts nach der EN 301 549 V3.1.1
+
+6.2.2.1 Visually distinguishable display
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Wenn Nachrichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 11.1.4.1a "Ohne Farbe nutzbar" nicht erfüllt. Andere Anforderungen (etwa, dass der Text selbst oder auch der Rahmen oder andere grafische Elemente zur Unterscheidung kontrastreich genug sind) werden außerdem in den dafür zuständigen Prüfschritten bewertet.
+
 
 == Quellen
 
