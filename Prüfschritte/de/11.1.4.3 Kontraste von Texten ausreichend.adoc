@@ -30,7 +30,7 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält. Grafische Sc
  * iOS/iPadOS und Android: Gerät mittels USB-Kabel an den Rechner anschließen und im Datei-Explorer auswählen.	
 . Sind die Schriftkontraste stark genug? Screenshots am PC öffnen und im Zweifel mit dem Contrast-Analyzer untersuchen:
  * Im Bereich *Vordergrund* mit der Pipette die Vordergrundfarbe auswählen, dann im Bereich *Hintergrund* die Hintergrundfarbe.
-. Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter  Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt (zur Bestimmung der Schriftgröße siehe Abschntt 3. Hinweise)
+. Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt (zur Bestimmung der Schriftgröße siehe Abschnitt 3.1).
 . Für große Schriften ist ein Mindestkontrastverhältnis von nur 3:1 gefordert. Die Schriftgrößen-Unterscheidung ist derzeit jedoch aufgrund fehlender Werkzeuge nicht 
   oder nur ungenau möglich.
 
