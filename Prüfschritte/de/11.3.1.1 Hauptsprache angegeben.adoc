@@ -25,8 +25,6 @@ Der Prüfschritt ist immer anwendbar.
 
 . Prüfen, ob trotz unterschiedlicher System- und App-Sprache die Begriffe in der App vom Screenreader noch in der App-Sprache ausgegeben werden. Oder werden sie fälschlich nach Ausspracheregeln der Systemsprache gesprochen?
 
-Die meiste Software richtet sich nach der Systemsprache und ist somit konform.
-
 === 3. Hinweise
 
 Für Hinweise zur Prüfpraxis erstellen Sie gerne ein https://github.com/BIK-BITV/BIK-App-Test/issues[Issue
