@@ -30,7 +30,7 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält. Grafische Sc
  * iOS/iPadOS und Android: Gerät mittels USB-Kabel an den Rechner anschließen und im Datei-Explorer auswählen.	
 . Sind die Schriftkontraste stark genug? Screenshots am PC öffnen und im Zweifel mit dem Contrast-Analyzer untersuchen:
  * Im Bereich *Vordergrund* mit der Pipette die Vordergrundfarbe auswählen, dann im Bereich *Hintergrund* die Hintergrundfarbe.
-. Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter  Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt.
+. Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter  Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt (zur Bestimmung der Schriftgröße siehe Abschntt 3. Hinweise)
 . Für große Schriften ist ein Mindestkontrastverhältnis von nur 3:1 gefordert. Die Schriftgrößen-Unterscheidung ist derzeit jedoch aufgrund fehlender Werkzeuge nicht 
   oder nur ungenau möglich.
 
@@ -44,10 +44,15 @@ Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die Ansi
 . Screenshots erstellen und an den PC übertragen.
 . Textkontraste der alternativen Ansicht prüfen (entsprechend Prüfung der Textkontraste der Standardversion).
 
-=== 3.1 Hinweise auf Messungenauigkeiten
+=== 3.1 Hinweise auf Messungenauigkeiten und Berechnung der Schriftgröße
 * Screenshots geben die tatsächlichen Farben nicht immer richtig wieder (siehe https://webaim.org/discussion/mail_thread?thread=10162[Disskusionsfaden in Webaim Mailing List]).
 * Bei Messungen mittels der Pipette des Color Contrast Analyzers kann es bei kleineren Schriften zu Fehlmessungen kommen: Der Randbreich der Schriften ist wegen des Anti-Aliasings oft näher am Kontrastwert des Hintergrundes, der Wert scheint dann ungenügend, obwohl er normativ ggf. ausreicht. Bei App-Screenshots ist es nicht wie bei Web-Angeboten möglich, vor der Messung hineinzuzoomen, um bei einer besseren Strichstärke der Schrift eine zuverlässigere Messung vorzunehmen. Gegebenenfalls ist aber bei dynamischen Schriften die Erhöhung der Schriftgröße über die Einstellungen in den Bedienungshilfen sinnvoll. Messungen im Grenzbereich der geforderten Kontrastwerte sollten diese Unsicherheitsfaktoren berücksichtigen und ggf. benennen.
-* Für große und kleine Schriften gelten unterschiedliche Richtwerte. Bei Apps ist die Schriftgrößen-Unterscheidung derzeit nur bedingt anwendbar. Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender Werkzeuge nicht oder nur ungenau möglich. Prüfende Personen müssen an dieser Stelle anhand ihrer Erfahrung urteilen. Falls Ihnen geeignete Werkzeuge und Methoden bekannt sind, weisen Sie uns gerne in einem https://github.com/BIK-BITV/BIK-App-Test/issues[GitHub Issue] darauf hin.
+* Für große und kleine Schriften gelten unterschiedliche Richtwerte. Im Zweifelsfall ist es möglich, die Schriftgröße annäherend auf folgendem Weg zu bestimmen:
+. Viewport-Größe (bzw. physische Auflösung und Device Pixel Ratio) des eingesetzen Geräts ermitteln, zum Beispiel über die Dokumentation der Spezifikation. (Beispiel: Ein iPhone 11 hat eine Auflösung von 828 x 1792 pysischen Pixeln und eine Device Pixel Ratio von 2, der physische Breiten-Wert von 828px wird also übersetzt in eine Viewport-Breite von 828 / 2 = 414 CSS Pixel).
+. Screenshot im Grafikprogramm laden, Bild auf die errechnete CSS Viewport-Breite verkleinern
+. Mit Auswahlrechteck die Schrift umschließen - ausschlaggebend sind am besten Großbuchstaben. Unterlängen von Kleinbuchstaben nicht berücksichtigen
+. Auf geeignete Weise Höhe des Auswahlrechtecks bestimmen (in Photoshop etwa über Kopieren, dann Datei / Neu. Hier wird im Dialog die Größe des Auswahlrechtecks als Bildgröße vorgeschlagen, die Höhe steht im Feld "Höhe").
+. Die so ausgewiesene Höhe entspricht ungefähr dem Schriftgrad in Pixeln. Ist sie bei gefetteten Schriften über 18,7 px, muss die Schrift nur einen Kontrast von 3:1 oder besser haben. Bei nicht gefetteten Schriften liegt dieser Schwellenwert bei 24 px.
 
 ==== 3.2 Allgemeine Hinweise
 * Elemente, die unterschiedliche Zustände haben können, sollten immer ausreichend kontrastieren. Das bedeutet, auch die farblich hervorgehobene, aktuell ausgewählte
