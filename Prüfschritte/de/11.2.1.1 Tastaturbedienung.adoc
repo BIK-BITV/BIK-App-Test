@@ -23,8 +23,8 @@ Dies trifft auf die meisten Apps auf den gängigen mobilen Plattformen wie Apple
 
 . Tastatur über Bluetooth-Kopplung oder USB-Kabel anschließen.
 . App mit zu prüfender Ansicht öffnen.
-. Mit der Tabulatortaste die Links und Formularelemente durchgehen. Wo sich Elemente nicht mit dem Tabulator erreichen lassen, prüfen, ob sie über die Pfeiltasten erreichbar sind.
-. Prüfen, ob alle wesentlichen Funktionen über die Tastatur erreicht und aktiviert werden können. In der Regel heißt das, das Elemente fokussiert und dann über die Eingabe- oder Leertaste aktiviert werden können. Wo Elemente nicht erreichbar oder aktivierbar sind, stehen äquivalente Wege zum Auslösen der Funktion über die Tastatur zur Verfügung.
+. Mit der Tabulatortaste zu allen interaktiven Elmenenten navigieren. 
+. Prüfen, ob alle wesentlichen Funktionen über die Tastatur erreicht und aktiviert werden können. 
 . Falls die Ansicht Elemente enthält, die wie Bedienelemente aussehen, jedoch nicht über Tabulatortaste oder Pfeiltasten angesteuert werden, prüfen, ob diese Elemente auf Touch-Eingaben reagieren (zum Beispiel Navigation zu anderen Ansichten, Funktionsaufrufe, Vergrößerung, Einblenden von weiteren Inhalten). Wenn ja, müssen sie auch mit der Tastatur fokussier- und aktivierbar sein.
 . Falls die Ansicht scrollbare Bereiche enthält, sollen nicht sichtbare Inhalte dieser Bereiche auch über die Tastatur erreichbar sein.
 
@@ -38,8 +38,6 @@ Die prüfende Person muss mit der Funktionsweise der eingesetzten Browser und Be
 
 Für diesen Prüfschritt spielt die Reihenfolge, in der interaktive Elemente und Formularelemente angesteuert werden, keine Rolle. 
 
-Manche Elemente sind nur in nicht-linearer Navigation, z.B. durch eine Abfolge von Pfeiltasten erreichbar. So ist ein Element oben rechts von der aktuellen Fokusposition gegebnenfalls nur fokussierbar, wenn man erst zweimal die Pfeiltaste nach oben und dann die nach rechts betätigt. Dieser Prüfschritt 11.2.1.1 ist dann zwar erfüllt, nicht jedoch der Prüfschritt 11.2.4.3 "Schlüssige Reihenfolge bei der Tastaturbedienung", denn der Weg zum Erreichen des prinzipiell fokussierbaren Elements ist nur zwei-dimensional und visuell verständlich, nicht linear.
-
 ==== 3.2 Hinweis zu Drag-and-Drop
 
 Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind, müssen auch tastaturnutzbare Alternativen angeboten werden.
@@ -48,7 +46,7 @@ Für wichtige Bedienfunktionen, die mittels Drag-and-Drop bedienbar sind, müsse
 
 ==== Erfüllt:
 
-* Alle wesentlichen Inhalte und Funktionen sind mit der Tastatur erreichbar und bedienbar.
+* Alle interaktiven Elemente sind mit der Tastatur erreichbar und bedienbar.
 
 ==== Nicht erfüllt:
 
