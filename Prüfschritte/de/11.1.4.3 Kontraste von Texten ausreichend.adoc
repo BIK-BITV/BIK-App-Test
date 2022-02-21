@@ -45,7 +45,7 @@ Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die Ansi
 
 === 3. Hinweise
 
-==== 3.1 Hinweise auf Messungenauigkeiten und Berechnung der Schriftgröße
+==== 3.1 Hinweise zu Messungenauigkeiten
 * Screenshots geben die tatsächlichen Farben nicht immer richtig wieder (siehe https://webaim.org/discussion/mail_thread?thread=10162[Disskusionsfaden in Webaim Mailing List]).
 * Bei Messungen mittels der Pipette des Color Contrast Analyzers kann es bei kleineren Schriften zu Fehlmessungen kommen: Der Randbreich der Schriften ist wegen des Anti-Aliasings oft näher am Kontrastwert des Hintergrundes. Der Wert scheint dann ungenügend, obwohl er normativ gegebenenfalls ausreicht. Bei App-Screenshots ist es nicht wie bei Web-Angeboten möglich, vor der Messung hineinzuzoomen, um bei einer besseren Strichstärke der Schrift eine zuverlässigere Messung vorzunehmen. Bei dynamischen Schriften kann die Erhöhung der Schriftgröße über die Einstellungen in den Bedienungshilfen sinnvoll sein. Liegen die gemessenen Werte im Grenzbereich der geforderten Kontrastwerte, sollten diese Unsicherheitsfaktoren berücksichtigen und gegebenenfalls benennen.
 
