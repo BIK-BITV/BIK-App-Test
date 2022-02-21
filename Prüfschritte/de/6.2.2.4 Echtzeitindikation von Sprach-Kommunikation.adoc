@@ -8,7 +8,7 @@ Wenn die App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtz
 
 == Warum wird das geprüft?
 
-Ein wichtige Information in der Kommunikation, etwa in einer Web-Konferenz, ist die Anzeige, dass jemand spricht, und die Zuordnung des Beitrags zum jeweils Sprechenden. So wissen Teilnehmende, die den Beitrag nicht hören können (z.B. gehörlose Menschen), dass gerade jemand spricht, und wer spricht.
+Ein wichtige Information in der Kommunikation, etwa in einer Online-Konferenz, ist die Anzeige, dass jemand spricht, und die Zuordnung des Beitrags zum jeweils Sprechenden. So wissen Teilnehmende, die den Beitrag nicht hören können (z.B. gehörlose Menschen), dass gerade jemand spricht, und wer spricht.
 
 == Wie wird geprüft?
 
@@ -21,7 +21,7 @@ Der Prüfschritt ist anwendbar, wenn die App Zwei-Wege-Sprachkommunikation unter
 . App öffnen
 . Eine Verbindung mit einem weiteren Gerät über die Anwendung herstellen
 . Prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, z. B. über ein blinkendes Icon
-. Falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, ob die Signalisierung programmatisch ermittelbar ist und auf der Braillezeile platzsparend über blinkende Braillemodule o. ä. dargestellt wird
+. Falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, ob die Signalisierung programmatisch ermittelbar ist und auf der Braillezeile platzsparend über blinkende Braillemodule o. ä. dargestellt wird.
 
 === 3. Hinweise 
 
