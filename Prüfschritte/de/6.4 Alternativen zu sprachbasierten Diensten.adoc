@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn eine App Echtzeit-Sprachkommunikation bietet und auch Voice-Mail oder sprachbasierte Auswahlmenüs einsetzt, sollen etwaige Aufgaben auch ohne die Fähigkeit zum Hören und Sprechen durchführbar sein.
+Wenn eine App Echtzeit-Sprachkommunikation mit Voicemail-Funktion bietet oder interaktive Sprachdialogsysteme einsetzt (z.B. sprachgesteueerte Menüführung), sollen etwaige Aufgaben auch ohne die Fähigkeit zum Hören und Sprechen durchführbar sein.
 
 == Warum wird das geprüft?
 
@@ -14,8 +14,7 @@ Gehörlose und schwerhörige Menschen und Menschen mit Einschränkungen beim Spr
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn das Webangebot Echtzeit-Sprachkommunikation wie Voice-Mail oder interaktive Assistenzsysteme, z.B. für die
-sprachbasierte Menüführung bei einer Hotline, einsetzt.
+Der Prüfschritt ist anwendbar, wenn die App Echtzeit-Sprachkommunikation mit Voicemail-Funktion oder interaktive Sprachdialogsysteme (z.B. sprachgesteuerte Menüführung bei einer Hotline) einsezt.
 
 === 2. Prüfung
 Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, prüfen, ob diese auch ohne Sprech- und Hör-Fähigkeit zugänglich ist. Dies beinhaltet:
@@ -23,14 +22,14 @@ Wenn Informationen über Echtzeit-Sprachkommunikation bereitgestellt werden, pr�
 * eine alternative Zugangsmöglichkeit, z.B. über barrierefreie Menüs oder Formulare
 * eine alternative barrierefreie Ausgabe der Information, etwa als sichtbarer und programmatisch ermittelbarer Text 
 
-Für die Weiterentwicklung dieses Prüfschritts können Sie auf GitHub
-https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen] und Ihre Erfahrungen teilen.
-
 === 3. Hinweise
 
 Ein Beispiel für einen Dienst, der Sprach und Hörfähigkeiten voraussetzt, ist z.B. das Video-Ident-Verfahren. Dieses wird u. a. bei Online-Banken für die Identifizierung genutzt. Mit einem Videoanruf werden dabei Personalausweis etc. auf Echtheit geprüft. Hier muss eine Alternative geboten werden, die das Hören und Sprechen nicht erfordert.
 
 Ein anderes Beispiel ist telefonische Ansage des Guthabens bei einem Prepaid-Mobilfunkvertrag. Hier müsste der Anbieter das aktuelle Guthaben in Textform auf der Seite bereitstellen.
+
+Für die Weiterentwicklung dieses Prüfschritts können Sie auf GitHub
+https://github.com/BIK-BITV/BIK-Web-Test/issues[ein Issue anlegen] und Ihre Erfahrungen teilen.
 
 == Quellen
 

@@ -4,30 +4,26 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Sind Videos mit synchroner Bild- und Tonspur vorhanden, bietet der Videoplayer die Möglichkeit, die Untertitel anzuzeigen.
-Werden dynamisch zuschaltbare, textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden.
+Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden dynamisch zuschaltbare, textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden.
 
 == Warum wird das geprüft?
 
-Filme sind in der Regel ohne den Ton nicht zu verstehen.
-Daher muss für Menschen mit Höreinschränkung der Inhalt der Tonspur durch
-Untertitel bereitgestellt werden.
-Untertitel können auf unterschiedliche Arten eingebunden werden:
-Manche Player unterstützen nur die dauerhaft sichtbaren „open captions“,
-die meisten jedoch sogenannte textbasierte „closed captions“, die über
-ein Bedienelement am Player flexibel zuschaltbar sind.
-Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden
-wahrgenommen werden können, ist es erforderlich, dass der Videoplayer die
-Möglichkeit bietet, diese ein- und auszublenden.
-Bei Open captions handelt es sich hingegen um immer sichtbare Untertitel, d. h.
-der Videoplayer wird hier nicht geprüft.
+Filme sind in der Regel ohne den Ton nicht zu verstehen. Daher muss für Menschen mit Höreinschränkung der Inhalt der Tonspur durch Untertitel bereitgestellt werden.
+
+Untertitel können auf unterschiedliche Arten eingebunden werden: Manche Player unterstützen nur die dauerhaft sichtbaren „open captions“, die meisten jedoch sogenannte textbasierte „closed captions“, die über ein Bedienelement am Player flexibel zuschaltbar sind.
+
+Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahrgenommen werden können, ist es erforderlich, dass der Videoplayer die Möglichkeit bietet, diese ein- und auszublenden. Bei open captions handelt es sich hingegen um immer sichtbare Untertitel, d.h. der Videoplayer wird hier nicht geprüft.
+
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-* Der Prüfschritt ist anwendbar, wenn in der App ein Videoplayer eingebunden ist, der aufgezeichnete Videos mit synchroner Bild- und Tonspur abspielt.
-* Aufgezeichnete Videos ohne Tonspur, stumme Videos, brauchen keine Untertitelung, der Prüfschritt ist für sie nicht anwendbar.
+
+* Der Prüfschritt ist anwendbar, wenn die App aufgezeichnete Videos mit synchroner Bild- und Tonspur anbietet und Untertitel zuschaltbar sind.
+* Aufgezeichnete Videos ohne Tonspur (stumme Videos) brauchen keine Untertitelung, der Prüfschritt ist für sie nicht anwendbar.
+
+
 
 === 2. Prüfung
 
@@ -40,17 +36,7 @@ der Videoplayer wird hier nicht geprüft.
 
 . Video im eingebundenen Player abspielen.
 . Prüfen, ob ein Menü zum Einblenden von Untertiteln im Player angezeigt wird.
-. Falls ja, testweise Untertitel ein- und abschalten.
-  Werden die Untertitel angezeigt, funktioniert das Abschalten der Untertitel?
-
-==== 2.3 Prüfung mit externen Videos
-
-Wenn die App externe bzw. eigene Videos abspielen kann, kann ein eigenes
-Video mit eingebetteten Untertiteln (closed captions) für die Prüfung in der
-App abgespielt werden.
-
-Die App muss in diesem Fall die Möglichkeit bieten, die eingebetteten
-Untertitel synchron zum Video abzuspielen.
+. Falls ja, testweise Untertitel ein- und abschalten. Werden die Untertitel angezeigt, funktioniert das Abschalten der Untertitel?
 
 === 3. Hinweise
 

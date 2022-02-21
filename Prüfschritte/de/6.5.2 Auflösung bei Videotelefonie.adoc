@@ -2,34 +2,22 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.5.2 "Resolution" verwiesen.
-
 == Was wird geprüft?
 
-Software mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung
-für die Videoübertragung unterstützen.
-Üblicherweise entspricht dies 320x240 Pixel.
-Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten
-werden.
+Apps mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung für die Videoübertragung unterstützen. Üblicherweise entspricht dies 320 x 240 Pixel. Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten werden.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie unterstützt.
+Der Prüfschritt ist anwendbar, wenn die App Videotelefonie unterstützt.
 
-=== Prüfung
+=== 2. Prüfung
 
-Der Prüfschritt sollte anhand der technischen Dokumentation der App in
-Zusammenhang mit dem visuellen Eindruck einer Testübertragung beurteilt werden.
+. Die technische Dokumentation der App konsultieren. Wird mindestens eine QVGA (320x240 Pixel) angegeben?
+. Testübertragung: Den visuellen Eindruck prüfen. Ist die Angabe in der App-Dokumentation plausibel?
 
-* App-Dokumentation: Wird mindestens eine QVGA (320x240 Pixel) angegeben?
-* Testübertragung: Scheint die Angabe in der App-Dokumentation plausibel?
+=== 3. Hinweise
 
 Für Hinweise zu diesem Prüfschritt eröffnen Sie gerne https://github.com/BIK-BITV/BIK-App-Test/issues[ein
 Issue auf GitHub].

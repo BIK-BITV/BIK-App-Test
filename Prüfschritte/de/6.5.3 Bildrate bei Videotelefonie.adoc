@@ -1,49 +1,36 @@
-= Prüfschritt 6.5.3 Bildrate bei Videotelefonie
+= Prüfschritt 6.5.3 Bildwiederholfrequenz bei Videotelefonie bei Videotelefonie
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-6.5.3 "Framerate" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Software Videotelefonie unterstützt, soll die dabei verwendete
-Framerate bzw. Bildrate mindestens 20 Bildern pro Sekunde entsprechn.
-Besser ist eine Mindestbildrate von 30 Bildern pro Sekunde.
+Wenn die App Videotelefonie unterstützt, soll  soll sie eine Bildwiederholfrequenz (framerate) von mindestens 20 Bildern pro Sekunde unterstützen. Besser ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde.
+
+== Warum wird das geprüft?
+
+Eine ausreichende Bildwiederholfrequenz ist besonders wichtig für Menschen mit Hörbehinderungen, die Bildinformationen auswerten, etwa gehörlose Menschen, die das Mundbild von Sprechenden lesen. Auch die unterstützende Wahrnehmung von Mimik und Gestik verlangt eine ausreichende Bildwiederholfrequenz.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Videotelefonie unterstützt.
+Der Prüfschritt ist anwendbar, wenn die App Videotelefonie unterstützt.
 
-=== Prüfung
+=== 2. Prüfung
 
-Eine genaue Methode zur Messung de verwendeten Bildrate ist noch offen.
-Hinweise zur Weiterentwicklung des Prüfschritts können Sie auf GitHub
+Zur Beurteilung der Konformität mit diesem Prüfschritt müssen derzeit die Angaben des Software-Herstellers mit den eigenen visuellen Eindrücken abgeglichen werden. Für die Prüfung muss die App auf zwei Geräten geöffnet werden.
+
+. Die unterstützte Bildwiederholfrequenz der Dokumentation der App entnehmen oder vom Hersteller erfragen. Werden mindestens 20 Bilder pro Sekunde unterstützt?
+. Zu prüfende Ansicht der App auf zwei Geräten öffnen.
+. Videotelefonieverbindung zwischen den Geräten herstellen.
+. Prüfen, ob das Bild flüssig dargestellt wird. Scheint die Angabe des Herstellers über die Bildwiederholfrequenz plausibel?
+
+=== 3. Hinweise
+
+Für die Videotelefonie ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde empfehlenswert, um eine flüssige Darstellung des Bildes zu gewährleisten.
+
+Eine genaue Methode zur Messung der unterstützten Bildwiederholfrequenz ist noch offen. Hinweise zur Weiterentwicklung des Prüfschritts können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue] hinterlassen.
-
-Zur Beurteilung der Konformität mit diesem Prüfschritt müssen derzeit die
-Angaben des Software-Herstellers mit den eigenen visuellen Eindrücken
-abgeglichen werden.
-
-Für die Prüfung muss die Software ggf. auf zwei Geräten installiert werden.
-
-. Verwendete Bildrate der App-Dokumentation entnehmen oder vom Hersteller
-  erfragen, sind dies mindestens 20 Bilder pro Sekunde?
-. App auf zwei Geräten staten
-. Videotelefonieverbindung zwischen den Geräten herstellen
-. Prüfen, ob das Bild flüssig dargestellt wird, scheint die Angabe des
-  Herstellers über die Bildrate plausibel?
-
-==== Hinweise
-
-Für die Videotelefonie ist eine Mindestbildrate von 30 Bildern pro Sekunde
-empfehlenswert, um eine flüssige Darstellung des Bildes zu gewährleisten.
 
 == Quellen
 

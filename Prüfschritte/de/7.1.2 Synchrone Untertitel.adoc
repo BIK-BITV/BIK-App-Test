@@ -5,9 +5,8 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Sind Videos mit synchroner Bild- und Tonspur vorhanden, ist gewährleistet, dass der Videoplayer Untertitel und Ton synchron darstellt.
-Das bedeutet für Untertitel aufgezeichneter Videos: Die Anzeige des Untertitels weicht nicht mehr als 100ms vom Zeitstempel der Untertitel-Datei ab.
-Dies bezieht sich theoretisch auch auf Live-Untertitel.
-Hier liegt jedoch naturgemäß einer Verzögerung durch die Konvertierung von gesprochener Sprache in Text vor, besonders, wenn die Konvertierung nicht automatisch, sondern durch Menschen erfolgt.
+
+Das bedeutet für Untertitel aufgezeichneter Videos: Die Anzeige des Untertitels weicht nicht mehr als 100ms vom Zeitstempel der Untertitel-Datei ab. Dies bezieht sich theoretisch auch auf Live-Untertitel. Hier liegt jedoch naturgemäß einer Verzögerung durch die Konvertierung von gesprochener Sprache in Text vor, besonders, wenn die Konvertierung nicht automatisch, sondern durch Menschen erfolgt.
 
 == Warum wird das geprüft?
 
@@ -26,15 +25,13 @@ Der Prüfschritt ist anwendbar, wenn in der App aufgezeichnete Videos mit synchr
 
 . Das Video in dem in der App eingebundenen Player abspielen.
 . Prüfen, ob die Untertitel synchron zum Ton angezeigt werden.
-. Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder an fehlerhaften Zeitstempel in der Untertitel-Datei liegen.  Die Ursache kann derzeit nur vom Web-Autor geprüft werden.
+. Werden Untertitel nicht synchron angezeigt, kann das an den technischen Möglichkeiten des Players oder an fehlerhaften Zeitstempel in der Untertitel-Datei liegen. Die Ursache kann derzeit nur von den Umsetzenden ergründet werden.
 
 === 3. Hinweise
 
-Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue hinterlassen].
+Es ist sinnvoll, stichprobenartig zu prüfen, ob es in der App Videos gibt, bei denen die Untertitel synchron zum Ton dargestellt werden. Wenn dies der Fall ist, ist das ein Hinweis, dass der Player Untertitel prinzipiell korrekt darstellt. Der Prüfschritt ist damit erfüllt, Probleme mit der Synchronität sind dann höchstwahrscheinlich bei den Inhalten zu suchen und nicht im eingebundenen Player.
 
-Es ist sinnvoll, stichprobenartig zu prüfen, ob es in der App Videos gibt, bei denen die Untertitel synchron zum Ton dargestellt werden.
-Wenn dies der Fall ist, ist das ein Hinweis, dass der Player Untertitel prinzipiell korrekt darstellt.
-Der Prüfschritt ist damit erfüllt, Probleme mit der Synchronität sind dann höchstwahrscheinlich bei den Inhalten zu suchen und nicht im eingebundenen Player.
+Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue hinterlassen].
 
 === 4. Bewertungen
 
