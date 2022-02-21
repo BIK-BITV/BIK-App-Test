@@ -25,7 +25,7 @@ Dies trifft auf die meisten Apps auf den gängigen mobilen Plattformen wie Apple
 . App mit zu prüfender Ansicht öffnen.
 . Mit der Tabulatortaste zu allen interaktiven Elmenenten navigieren. 
 . Prüfen, ob alle wesentlichen Funktionen über die Tastatur erreicht und aktiviert werden können. 
-. Falls die Ansicht Elemente enthält, die wie Bedienelemente aussehen, jedoch nicht über Tabulatortaste oder Pfeiltasten angesteuert werden, prüfen, ob diese Elemente auf Touch-Eingaben reagieren (zum Beispiel Navigation zu anderen Ansichten, Funktionsaufrufe, Vergrößerung, Einblenden von weiteren Inhalten). Wenn ja, müssen sie auch mit der Tastatur fokussier- und aktivierbar sein.
+. Falls die Ansicht Elemente enthält, die wie Bedienelemente aussehen, jedoch nicht über die Tastatur fokussiert werden, prüfen, ob diese Elemente auf Touch-Eingaben reagieren (zum Beispiel Navigation zu anderen Ansichten, Funktionsaufrufe, Vergrößerung, Einblenden von weiteren Inhalten). Wenn ja, müssen sie auch mit der Tastatur fokussier- und aktivierbar sein.
 . Falls die Ansicht scrollbare Bereiche enthält, sollen nicht sichtbare Inhalte dieser Bereiche auch über die Tastatur erreichbar sein.
 
 === 3. Hinweise
