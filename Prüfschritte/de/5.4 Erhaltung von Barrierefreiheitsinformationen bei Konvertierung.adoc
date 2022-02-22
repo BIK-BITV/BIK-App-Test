@@ -28,6 +28,8 @@ Die Prüfung ist sehr individuell und richtet sich nach den verwendeten Quell- u
 
 === 3. Hinweise
 
+Informationen, die das Zielformat nicht unterstützt, sollen bei der Prüfung nicht berücksichtigt werden.
+
 Für Hinweise zur Prüfpraxis, eröffnen Sie gerne https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue
 auf GitHub].
 
