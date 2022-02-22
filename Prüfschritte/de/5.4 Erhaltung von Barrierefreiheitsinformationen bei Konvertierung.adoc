@@ -18,7 +18,7 @@ Hinzunehmen ist der Verlust von Barrierefreiheitsinformationen nur dann, wenn da
 
 Der Prüfschritt ist anwendbar, wenn die App Dokumente konvertiert. "Dokumente" umfasst dabei alle digitalen Formate wie Text, Audio und Video.
 
-=== 2. rüfung
+=== 2. Prüfung
 
 Die Prüfung ist sehr individuell und richtet sich nach den verwendeten Quell- und Zielformaten.
 
