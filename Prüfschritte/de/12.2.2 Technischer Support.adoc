@@ -42,6 +42,14 @@ vollständig geklärt. Hinweise dazu können Sie in einem GitHub https://github.
 
 12.2.2 Information on accessibility and compatibility features
 
+=== Abgrenzung zu anderen Prüfschritten
+
+In diesem Prüfschritt wird ermittelt, ob der technische Support zu dokumentierten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität weitere Informationen liefern kann. Davon ist abzugrenzen:
+
+* Der Prüfschritt 12.2.3 "Effektive Kommunikation" prüft, ob mit dem technischen Support auf verschiedene Weise kommuniziert werfen kann (z.B. per Telefon, Kontaktformular, E-Mail oder Chat).
+
+* Der Prüfschritt 12.2.4 "Vom Support bereitgestellte Dokumentation" prüft die Barrierefreiheit der vom Support bereitgestellten web-basierten Dokumentation.
+
 == Quellen
 
 [.BLOCK_LANG_EN]
