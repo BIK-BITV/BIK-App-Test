@@ -64,7 +64,7 @@ Die Darstellung von Fließtexten richtet sich nach den Einstellungen im System. 
 ===== Android
 
 . Einstellungen öffnen (Einstellungen > Bedienungshilfen)
-. Die Einstellungen "Schriftgröße" und "Fetter Text" aktivieren.
+. Die Einstellungen "Schriftgröße" und "Fettdruck" aktivieren.
 . App neu starten und prüfen, ob die Einstellungen übernommen werden.
 
 ==== Hinweise
