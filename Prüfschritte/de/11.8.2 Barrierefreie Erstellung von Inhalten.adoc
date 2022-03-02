@@ -2,52 +2,40 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-11.8.2 "Accessible content creation" verwiesen.
-
 == Was wird geprüft?
 
-Wenn es sich bei der zu testenden Software um ein Autorenwerkzeug handelt, soll
-die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und den
-Nutzer dabei unterstützen.
+Wenn es sich bei der zu testenden Ansicht der App um ein Autorenwerkzeug handelt, soll die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und Nutzende dabei unterstützen.
+
+== Warum wird das geprüft?
+
+Für Nutzende von Hilfsmitteln, die eine programmatische Ermittelbarkeit von Informationen brauchen, ist es wichtig, dass Autorenwerkzeuge dies bei der Erzeugung von Inhalten unterstützen. Wenn zum Beispiel ein Kommentar-Eingabefeld die Vergabe einer Überschrift erlaubt, sollte diese auf der erzeugten (bzw. aktualisierten) Seite auch als Überschrift ausgezeichnet sein, damit Hilfsmittel-Nutzer diese semantische Information auswerten können (zum Beispiel zum Navigieren von Kommentar zu Kommentar).
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist.
+Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkzeugs ist. Ebenfalls anwendbar ist der Prüfschritt auf Kommentarfunktionen, die die Strukturierung von Kommentare erlauben.
+
+Die Prüfung bezieht sich in erster Linie auf die Ausgabe des jeweiligen Autorenwerkzeugs.
+
 Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die
 Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht
 anwendbar.
-Des Weiteren muss die Ausgabe innerhalb der App dargestellt werden, es können
-lediglich integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden.
-Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können mit dem
-App-Test-Verfahren derzeit nicht geprüft werden, da hier dann auch die
-Barrierefreiheit der durch das Tool generierten Dateien geprüft werden
-müsste.
+
+Die Ausgabe des Autorenwerkzeugs muss innerhalb der App dargestellt werden, es können lediglich integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden. Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können mit dem App-Test-Verfahren derzeit nicht geprüft werden, da hier dann auch die Barrierefreiheit der durch das Tool generierten Dateien geprüft werden müsste.
 
 === Prüfung
 
-Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
-Sie auf GitHub
-https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
-
-In der App wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine
-Ausgabe generiert.
-Die Ansicht der App, in der die Ausgabe angezeigt wird, muss dann bei der
-Prüfung berücksichtigt werden.
-Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden.
+. In der Ansicht der App mittels Autorenwerkzeug (z. B. Kommentarfunktion) eine Ausgabe generieren (und ggf. freigegeben).
+. Die erzeugte Auasgabe prüfen. Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden.
 
 ==== Hinweise
 
-Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von
-anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen.
-Das könnte z. B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln
+Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen. Das könnte z. B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln
 sein.
+
+Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub
+https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
 == Quellen
 
