@@ -101,8 +101,7 @@ Ausnahme: Das Löschen bereits gemachter Eingaben ist sinnvoll bei
 
 == Fragen zu diesem Prüfschritt
 
-=== Warum wird nicht grundsätzlich bei allen Formularen eine Fehlerüberprüfung
-verlangt?
+=== Warum wird nicht grundsätzlich bei allen Formularen eine Fehlerüberprüfung verlangt?
 
 Eine Fehlerbehandlung ist oft sinnvoll, aber nicht grundsätzlich bei allen
 Formularen.
