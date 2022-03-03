@@ -4,97 +4,60 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn Anwendungssoftware Funktionen implementieren, die über pfadbasierte
-Zeiger-Gesten (etwa Streich- oder Zieh-Gesten) oder über Mehrpunktgesten
-bedient werden können, gibt es Alternativen für die Aktivierung mittels
-einer einfachen Zeigereingabe.
+Wenn Apps Funktionen implementieren, die über pfadbasierte Zeiger-Gesten (etwa Streich- oder Zieh-Gesten) oder über Mehrpunktgesten bedient werden können, gibt es Alternativen für die Aktivierung mittels einer einfachen Zeigereingabe.
 
-"Zeiger" schließt dabei indirekte Eingaben mittels Mauszeiger ebenso wie
-direkte Eingaben ein, etwa mit dem Finger auf einem Touchscreen oder mit dem
-Stift auf einem Grafiktablett.
+"Zeiger" schließt dabei indirekte Eingaben mittels Mauszeiger ebenso wie direkte Eingaben ein, etwa mit dem Finger auf einem Touchscreen oder mit dem Stift auf einem Grafiktablett.
 
-Ausgenommen sind Fälle, in denen die pfadbasierte oder Mehrpunkt-Eingabe
-essenziell wichtig ist - etwa bei der Handschrifterkennung.
-Drag-and-Drop-Aktionen gelten nicht als pfadbasierte Geste im Sinne dieser
-Anforderung.
+Ausgenommen sind Fälle, in denen die pfadbasierte oder Mehrpunkt-Eingabe essenziell wichtig ist - etwa bei der Handschrifterkennung. Drag-and-Drop-Aktionen gelten nicht als pfadbasierte Geste im Sinne dieser Anforderung.
 
-Diese Anforderung gilt nur für Zeiger-Gesten, die direkt von Webinhalten bzw.
-Anwendungssoftware interpretiert und verarbeitet werden - sie betreffen also
-nicht Gesten für die Bedienung von Betriebssystem oder Hilfsmitteln, etwa
-Gesten zur Navigation zwischen Apps oder zur Nutzung systemseitiger
-Screenreader.
+Diese Anforderung gilt nur für Zeiger-Gesten, die direkt Apps interpretiert und verarbeitet werden - sie betreffen also nicht Gesten für die Bedienung von Betriebssystem oder Hilfsmitteln, etwa Gesten zur Navigation zwischen Apps oder zur Nutzung systemseitiger Screenreader.
 
 *Beispiele für pfadbasierte Gesten:*
 
 * Streichgeste, etwa zum Bewegen etwa von Slider-Bereichen
-
-Zi* hen eines Sliders/Range
+* Ziehen eines Sliders/Range
 * Zeichnen eines Pfads, z. B. ein 'Z' zum Widerrufen
 
 *Beispiele für Mehrpunkt Gesten:*
 
-* Zwei-Finger-Spreizgeste zum Zoomen (sofern dies von der Anwendungssoftware
-  und nicht vom Betriebssystem oder einer gesonderten Hilfsmitteltechnologie
-  implementiert ist)
+* Zwei-Finger-Spreizgeste zum Zoomen (sofern dies von der App und nicht vom Betriebssystem oder einer gesonderten Hilfsmitteltechnologie implementiert ist)
 * "Split tap" (ein Finger hält und der andere tippt)
 * Streichen mit mehreren Fingern
 
-*Hinweis:*
-Drag-and-Drop-Eingaben gelten nicht als pfadbasiert im Sinne dieses
-Prüfschritts, da hier nur Beginn und Endpunkt feststehen und der Pfad
-dazwischen beliebig ist.
+*Hinweis:* Drag-and-Drop-Eingaben gelten nicht als pfadbasiert im Sinne dieses Prüfschritts, da hier nur Beginn und Endpunkt feststehen und der Pfad dazwischen beliebig ist.
 
 == Warum wird das geprüft?
 
-Für Menschen mit Bewegungseinschränkungen ist es oft schwierig und teilweise
-unmöglich, komplexe Zeiger-Gesten erfolgreich auszuführen.
-Deshalb sollen solche Gesten, wenn Sie von Anwendungssoftware implementiert
-werden, nicht der einzige Weg sein, eine Funktion auszuführen.
-Beispiele für komplexe Gesten sind Streichgesten vom Rand her, um Menüs
-einzublenden, Wischgesten zum Bewegen von Karussell-Inhalten, Zieh-Gesten zum
-Verstellen von Schiebereglern, oder Mehrpunktgesten wie die Spreizgeste zum
-Vergrößern eines Kartenausschnitts.
+Für Menschen mit Bewegungseinschränkungen ist es oft schwierig und teilweise unmöglich, komplexe Zeiger-Gesten erfolgreich auszuführen. Deshalb sollen solche Gesten, wenn Sie von Anwendungssoftware implementiert werden, nicht der einzige Weg sein, eine Funktion auszuführen. Beispiele für komplexe Gesten sind Streichgesten vom Rand her, um Menüs einzublenden, Wischgesten zum Bewegen von Karussell-Inhalten, Zieh-Gesten zum Verstellen von Schiebereglern, oder Mehrpunktgesten wie die Spreizgeste zum Vergrößern eines Kartenausschnitts.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Anwendungssoftware Eventhandler
-implementieren, die auf komplexe Gesten (etwa Streichgesten, Mehrpunkt-Gesten)
-ansprechen.
+Der Prüfschritt ist anwendbar, wenn die App Eventhandler implementiert, die auf komplexe Gesten (etwa Streichgesten, Mehrpunkt-Gesten) ansprechen.
 
-=== Prüfung
+=== 2. Prüfung
 
 . App mit zu prüfender Ansicht öffnen
-. Sichtprüfung und Ausprobieren, ob Inhalte komplexe Gesten implementieren
-  (z. B. auf Karussels, Slidern), lassen sich Slider durch Streichgesten
-  bewegen, Werden durch Streichgesten vom Rand her Menüs oder andere Inhalte
-  eingeblendet, Reagieren bestimmte Elemente (etwa Karten) auf die
-  Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
-. Prüfen, ob die über komplexe Zeigergesten auslösbare Funktion auch über
-  einfache Zeiger-Gesten wie Tippen, Doppeltippen oder Tippen-und-Halten
-  ausgelöst werden kann, etwa durch Aktivierung von alternativen statischen
-  Elementen (z.B. Tasten, die Slider bewegen, Werte erhöhen oder verringern,
-  oder Menüs einblenden)
+. Sichtprüfung und Ausprobieren, ob Inhalte komplexe Gesten implementieren (z. B. auf Karussels, Slidern), lassen sich Slider durch Streichgesten bewegen, Werden durch Streichgesten vom Rand her Menüs oder andere Inhalte eingeblendet, Reagieren bestimmte Elemente (etwa Karten) auf die Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
+. Prüfen, ob die über komplexe Zeigergesten auslösbare Funktion auch über einfache Zeiger-Gesten wie Tippen, Doppeltippen oder Tippen-und-Halten ausgelöst werden kann, etwa durch Aktivierung von alternativen statischen Elementen (z.B. Tasten, die Slider bewegen, Werte erhöhen oder verringern, oder Menüs einblenden)
 
-=== Anmerkungen
+=== 3. Hinweise
 
-Ausgenommen sind Funktionen, die von Natur aus und notwendigerweise auf
+* Ausgenommen sind Funktionen, die von Natur aus und notwendigerweise auf
 komplexen Pfaden oder Mehrpunktgesten basieren.
 So wird beispielsweise die Eingabe der eigenen Signatur von Natur aus
 pfadbasiert sein.
 
-Software für die verschiedenen Plattformen wie Windows, MacOS, iOS, Android
+* Software für die verschiedenen Plattformen wie Windows, MacOS, iOS, Android
 usw. ist immer einzeln zu bewerten, da hier nicht davon ausgegangen werden
 kann, dass sich die Software auf jeder Plattform exakt gleich verhält.
 
-=== Bewertung
+=== 4. Bewertung
 
-*Erfüllt:*
+==== Erfüllt:
 
-* Für alle in der Anwendungssoftware implementierten komplexen Gesten gibt es
-  alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den
-  Umgebungen, die in die Prüfung gemäß Accessibility Baseline einbezogen sind.
+* Für alle in der App implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den Umgebungen, die in die Prüfung gemäß Accessibility Baseline einbezogen sind.
 
 == Einordnung des Prüfschritts
 
