@@ -19,7 +19,7 @@ Manchmal wird versteckter Text benutzt, um sichtbare Beschriftungen zu erweitern
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar auf Bedienelemente, die entweder sich selbst beschriften (Links, Tasten) oder einem Bedienelement wie einem Texteingabefeld oder einer Checkbox direkt zugeordnet sind.
 
