@@ -11,72 +11,45 @@ Checkboxen.
 
 == Warum wird das geprüft?
 
-Spracheingabenutzer können Bedienelemente wie Links, Tasten oder Eingabefelder
-aktivieren, indem sie den sichtbaren Namen sagen, auch in der Verbindung mit
-Befehlen (z. B. Klick "Abschicken").
-Wenn die sichtbare Beschriftung nicht in dem hinterlegten zugänglichen Namen
-des Bedienelements (also dem Text, der programmatisch als Beschriftung
-ermittelt wird) vorkommt, lässt sich das Bedienelement gegebenenfalls nicht
-oder nur über Umwege mittels Spracheingabe aktivieren.
+Nutzende von Spracheingabe können Bedienelemente wie Links, Tasten oder Eingabefelder aktivieren, indem sie den sichtbaren Namen sagen, auch in der Verbindung mit Befehlen (z. B. Klick "Abschicken"). Wenn die sichtbare Beschriftung nicht in dem hinterlegten zugänglichen Namen des Bedienelements (also dem Text, der programmatisch als Beschriftung ermittelt wird) vorkommt, lässt sich das Bedienelement gegebenenfalls nicht oder nur über Umwege mittels Spracheingabe aktivieren.
 
-Bedienelemente haben manchmal einen zugänglichen Namen, der von der
-sichtbaren Beschriftung abweicht, weil er über nicht sichtbare Attribute
-festgelegt wird.
-So könnte etwa die sichtbare Beschriftung "AGB akzeptieren" durch den
-hinterlegten zugänglichen Namen "Allgemeine Geschäftsbedingungen annehmen"
-ersetzt werden.
-Wenn Spracheingabenutzer nun Klicke "AGB akzeptieren" diktieren, kommt dieser
-Text so nicht im zugänglichen Namen vor, die Eingabe schlägt deshalb fehl.
+Bedienelemente haben manchmal einen zugänglichen Namen, der von der sichtbaren Beschriftung abweicht, weil er über nicht sichtbare Attribute festgelegt wird. So könnte etwa die sichtbare Beschriftung "AGB akzeptieren" durch den hinterlegten zugänglichen Namen "Allgemeine Geschäftsbedingungen annehmen" ersetzt werden. Wenn Spracheingabenutzer nun Klicke "AGB akzeptieren" diktieren, kommt dieser Text so nicht im zugänglichen Namen vor, die Eingabe schlägt deshalb fehl.
 
-Manchmal wird versteckter Text benutzt, um sichtbare Beschriftungen zu
-erweitern, oft auch in der Absicht, Hilfsmittelnutzern zu helfen.
-Das ist dann in Ordnung, wenn die sichtbare Beschriftung durchgehend in dem
-zugänglichen Namen enthalten ist, am besten zu Beginn.
+Manchmal wird versteckter Text benutzt, um sichtbare Beschriftungen zu erweitern, oft auch in der Absicht, Hilfsmittelnutzern zu helfen. Das ist dann in Ordnung, wenn die sichtbare Beschriftung durchgehend in dem zugänglichen Namen enthalten ist, am besten zu Beginn.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar auf Bedienelemente, die entweder sich selbst
-beschriften (Links, Tasten) oder einem Bedienelement wie einem Texteingabefeld
-oder einer Checkbox direkt zugeordnet sind.
+Der Prüfschritt ist anwendbar auf Bedienelemente, die entweder sich selbst beschriften (Links, Tasten) oder einem Bedienelement wie einem Texteingabefeld oder einer Checkbox direkt zugeordnet sind.
 
-Auf Bedienelemente, die durch mehrere sichtbare Elemente beschriftet sind, ist
-der Prüfschritt nicht anwendbar, so wenn Elemente über eine tabellarische
-Matrix über Beschriftungen in Spalten- und Zeilenüberschriften ihren
-zugänglichen Namen empfangen.
-In diesen Fällen ist es für den Spracheingabe-Nutzer unklar, welche Elemente
-als Beschriftung des Bedienelements gelten und dementsprechend für ein Diktat
-per Spracheingabe benutzt werden sollten.
+Auf Bedienelemente, die durch mehrere sichtbare Elemente beschriftet sind, ist der Prüfschritt nicht anwendbar, so wenn Elemente über eine tabellarische Matrix über Beschriftungen in Spalten- und Zeilenüberschriften ihren zugänglichen Namen empfangen.
+In diesen Fällen ist es für den Spracheingabe-Nutzer unklar, welche Elemente als Beschriftung des Bedienelements gelten und dementsprechend für ein Diktat per Spracheingabe benutzt werden sollten.
 
-=== Prüfung
+=== 2. Prüfung
 
-Für jedes Bedienelement, das sich selbst beschriftet oder durch eine
-einfachen zugeordneten Text beschriftet ist, prüfen, ob der Text in der
-gleichen Form im zugänglichen Namen des Bedienelements vorkommt.
+. Zu prüfende Ansicht der App öffnen.
+. Alle Bedienelemente identifizieren, die eine sichtbare Text-Beschriftung haben.
+. Screenreader starten und mit Hilfe der Wischgeste den Fokus auf das Bedienelement setzen.
+. Die sichtbare Text-Beschriftung, sollte entweder
+* entsprechend des sichtbaren Textes vom Screenreader genau so ausgegeben werden oder
+* zumindest teilweise in der Screenreader-Ausgabe enthalten sein.
 
-=== Hinweise
+=== 3. Hinweise
 
-Verwenden Sie einen Screenreader, um den zugänglichen Namen jedes
-Bedienelements für den Vergleich mit dem Text der sichtbaren Beschriftung zu
-ermitteln.
-(Beachten Sie, dass die Screenreader-Ausgabe Informationen enthalten kann, die
-nicht Teil des zugänglichen Namens sind, zum Beispiel die Rolle des
-Bedienelements oder eine zusätzliche Beschreibung).
+* Beachten Sie beim Testen mit dem Screenreader, dass die Screenreader-Ausgabe Informationen enthalten kann, die
+nicht Teil des zugänglichen Namens sind, zum Beispiel die Rolle des Bedienelements oder eine zusätzliche Beschreibung).
 
-Der zugängliche Name des Bedienelements kann zusätzlichen Text enthalten,
-aber die Zeichenkette der Beschriftung sollte in der gleichen Form in der
-Zeichenkette des zugänglichen Namens enthalten sein.
+* Der zugängliche Name des Bedienelements kann zusätzlichen Text enthalten, aber die Zeichenkette der Beschriftung sollte in der gleichen Form in der Zeichenkette des zugänglichen Namens enthalten sein.
 
-Zu beachten ist, dass bei den meisten mobilen Apps nur ein Test mittels
-Screenreader Aufschluss über den Accessible-Name gibt.
-Zukünftig könnten Systeme zur Sprachsteuerung wie Apples VoiceControl als
-Prüfwerkzeug berücksichtigt werden.
+* Bei den meisten mobilen Apps kann nur ein Test mittels Screenreader Aufschluss über den Accessible-Name geben.
+Zukünftig könnten Systeme zur Sprachsteuerung wie Apples VoiceControl als Prüfwerkzeug berücksichtigt werden.
 
-=== Bewertung
 
-* Der Prüfschritt ist erfüllt, wenn der Beschriftungstext in der gleichen
-  Form im zugänglichen Namen vorkommt.
+=== 4. Bewertung
+
+==== Erfüllt:
+* Der Text der Beschriftung ist im zugänglichen Namen enthalten.
 
 == Einordnung des Prüfschritts
 
