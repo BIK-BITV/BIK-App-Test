@@ -16,8 +16,8 @@ aufzeichnet, oder wenn die Bewegung Teil einer zugänglichkeits-unterstützten
 Hilfsmitteleingabe ist.
 
 Abschaltbarkeit der Bewegungseingabe:
-Gegebenenfalls kann Anwendungssoftware diese Anforderung erfüllen, indem sie
-Betriebssystemeinstellungen unterstützen, die es dem Benutzer ermöglichen,
+Gegebenenfalls kann die App diese Anforderung erfüllen, indem sie
+Betriebssystemeinstellungen unterstützen, die es den Nutzenden ermöglichen,
 die Bewegungserkennung auf Systemebene zu deaktivieren.
 
 == Warum wird das geprüft?
@@ -31,35 +31,34 @@ Bedienelemente der Software gibt.
 
 Bei anderen motorischen Einschränkungen kann es durch unwillkürliche
 Bewegungen zu ungewollten Eingaben kommen.
-Deshalb ist es wichtig, dass sich von der Software bereitgestellte motorische
+Deshalb ist es wichtig, dass sich von der App bereitgestellte motorische
 Eingaben deaktivieren lassen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Anwendungssoftware bestimmte
+Der Prüfschritt ist anwendbar, wenn die App bestimmte
 Bewegungseingaben definiert, etwa die Bewegung durch eine
 360-Grad-Rundumansicht durch ein Rotieren des Geräts, oder das Blättern
 durch eine Folge von Präsentationsfolien durch ruckartige
 Seitwärtsbewegungen.
 
-=== Prüfung
+=== 2. Prüfung
 
-. Über Bewegungen prüfen, ob die Software in irgend einer Weise auf
-  Bewegungseingaben reagiert
+. Über Bewegungen prüfen, ob die App in irgend einer Weise auf
+  Bewegungseingaben reagiert.
 . Für alle Funktionen, die über Bewegungseingabe ausgelöst werden, prüfen,
-  ob alternative Eingabemöglichkeiten über Bedienelemente bestehen
-. Prüfen, ob sich vorhandene Bewegungseingaben abschalten lassen
+  ob alternative Eingabemöglichkeiten über Bedienelemente bestehen.
+. Prüfen, ob sich vorhandene Bewegungseingaben abschalten lassen.
 
-=== Bewertung
+=== 3. Bewertung
 
-*Erfüllt:*
+==== Erfüllt:
 
 * Von der Software definierte Bewegungseingaben haben eine alternative
-  Eingabemöglichkeit über zugängliche Bedienelemente oder lassen sich vom
-  Nutzer wirkungsvoll deaktivieren
-  (ggf. über Einstellungen des Betriebssystems).
+  Eingabemöglichkeit über zugängliche Bedienelemente oder lassen sich von
+  Nutzenden wirkungsvoll deaktivieren (ggf. über Einstellungen des Betriebssystems).
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
