@@ -67,7 +67,7 @@ Formulars geschehen.
 ==== Nicht erfüllt:
 
 * Die Fehlermeldung gibt keinen Aufschluss darüber, welche Eingabe den Fehler
-  erzeugt hat
+  erzeugt hat.
 * Bei fehlerhafter Eingabe wird das Formular neu angezeigt, bereits gemachte
   korrekte Eingaben sind gelöscht, die Felder sind wieder leer und müssen
   erneut ausgefüllt werden.
