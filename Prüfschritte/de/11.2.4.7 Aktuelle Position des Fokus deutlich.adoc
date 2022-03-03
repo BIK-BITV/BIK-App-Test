@@ -54,7 +54,8 @@ nicht erfüllt! (bzw. Ohne Touch-Gesten bedienbar?)
 
 === 4. Bewertung
 
-*Erfüllt:*
+==== Erfüllt:
+
 Die Fokussierung interaktiver Elemente ist visuell wahrnehmbar:
 
 * Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche Markierungen werden bei Tastaturfokussierung eingesetzt.
