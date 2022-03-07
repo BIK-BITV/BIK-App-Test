@@ -4,15 +4,11 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn Apps Statusmeldungen erzeugen, etwa wenn ein Produkt in einen
-digitalen Warenkorb gelegt wurde, ein Formular beim Abschicken eine
-Fehlermeldung oder eine Bestätigungsmeldung erzeugt, sollen visuell
-eingeblendete Statusmeldungen über geeignete Rollen oder Eigenschaften
-verfügen um damit programmatisch, also auch für nicht-visuelle
-Nutzer, ermittelbar zu sein.
+Eine Statusmeldung ist eine Nachricht, die der Ansicht der App dynamisch hinzugefügt wird. Sie informiert Nutzenden beispielsweise über den Erfolg oder das Ergebnis einer Aktion, über den Fortschritt eines Prozesses oder über das Vorkommen von Fehlern.
 
-Geeignete Rollen und Eigenschaften sind bei nativen Anwendungen
-Plattformspezifisch (iOS / iPadOS / Android).
+Wenn Apps Statusmeldungen erzeugen, sollen visuell eingeblendete Statusmeldungen mit geeigneten Rollen und Eigenschaften ausgezeichnet und programmatisch ermittelbar sein, das bedeutet die Statusmeldungen werden Nutzenden von assistiven Technologien (Screenreader) präsentiert, ohne dass sie den Fokus erhalten.
+
+Geeignete Rollen und Eigenschaften sind bei nativen Anwendungen Plattformspezifisch (iOS / iPadOS / Android).
 
 Beispiele für Statusmeldungen:
 
@@ -37,23 +33,20 @@ zu müssen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App Statusmeldungen generiert,
-die nicht den Fokus erhaltenEr ist nicht anwendbar, wenn Meldungen im
-Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem
-Abschicken eines Formulars (vom Nutzer initiiert) die Ansicht neulädt und dann
-vor dem Formular eine Fehlermeldung erscheint.
+Der Prüfschritt ist anwendbar, wenn die App Statusmeldungen generiert, die nicht den Fokus erhaltenEr ist nicht anwendbar, wenn Meldungen im Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem Abschicken eines Formulars (vom Nutzer initiiert) die Ansicht neulädt und dann vor dem Formular eine Fehlermeldung erscheint.
 
-=== Prüfung
+=== 2. Prüfung
 
-. App mit aktiviertem Screenreader öffnen
-. Eingaben vornehmen, die zur Generierung von Statusmeldungen führen,
-  wenn die App von sich aus Statusmeldungen, z. B bei aktualisierten Inhalten,
-  generiert, diese Meldungen abwarten
-. Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben werden
+. Zu prüfende Ansicht der App öffnen.
+. Statusmeldungen identifizieren. Dafür Eingaben vornehmen, die zur Generierung von Statusmeldungen führen.
+. Screenreader aktivieren.
+. Entsprechende Eingaben, die zur Generierung von Statusmeldungen führen, erneut vornehmen.
+. Wenn die App von sich aus Statusmeldungen generiert, diese Meldungen abwarten.
+. Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben werden.
 
-=== Hinweise
+=== 3. Hinweise
 
 Nicht als Statusmeldung gelten:
 
@@ -62,10 +55,9 @@ Nicht als Statusmeldung gelten:
 
 === Bewertung
 
-*Prüfschritt erfüllt:*
+==== Prüfschritt erfüllt:
 
-* Alle Statusmeldungen sind richtig ausgezeichnet und damit programmatisch
-  verfügbar.
+* Alle Statusmeldungen sind richtig ausgezeichnet und damit programmatisch verfügbar.
 
 == Einordnung des Prüfschritts
 
