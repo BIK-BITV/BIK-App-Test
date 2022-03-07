@@ -41,6 +41,7 @@ Der Prüfschritt ist anwendbar, wenn die Ansicht der App Formularelemente enthä
 
 === Hinweise
 
+* Eine Textvorbelegung ist keine ausreichende Beschriftung im Sinne dieses Prüfschritts. Es verschwindet bei (auch versehentlichen) Nutzereingaben.
 * Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einem unsichtbaren erklärenden Label versehen werden, welches dann von einem Screenreader ausgegeben werden kann. Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind jeweils mit einem unsichtbaren erklärenden Label für Hilfstechnologien versehen.
 
 * Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen"). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen ein aussagekräftiges verstecktes Label haben, da für Screenreader-Nutzer der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
