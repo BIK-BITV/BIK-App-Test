@@ -44,14 +44,14 @@ Der Prüfschritt ist anwendbar, wenn die App Statusmeldungen generiert, die nich
 . Screenreader aktivieren.
 . Entsprechende Eingaben, die zur Generierung von Statusmeldungen führen, erneut vornehmen.
 . Wenn die App von sich aus Statusmeldungen generiert, diese Meldungen abwarten.
-. Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben werden.
+. Prüfen, ob Statusmeldungen beim Erscheinen vom Screenreader ausgegeben werden, ohne dass der Fokus auf die Meldung versetzt wird.
 
 === 3. Hinweise
 
 Nicht als Statusmeldung gelten:
 
 * Fehlermeldung über Dialog (Kontextänderung durch Fokusumsetzung)
-* Die Hinzufügung von Bedienelementen, wie zBzusätzliche Formularelelemente
+* Die Hinzufügung von Bedienelementen, wie z. B. zusätzliche Formularelelemente
 
 === Bewertung
 
