@@ -13,28 +13,28 @@ individuelle Anpassung der Schriftgröße wirkt nicht auf grafische Schriften.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== Prüfung
+=== 2. Prüfung
 
 . App mit zu prüfender Ansicht öffnen.
 . Prüfen, ob es Elemente gibt, die wie eine Schriftgrafik aussehen. 
 . Screenreader starten und mit Hilfe der Wischgesete zu Elementen navigieren, die wie vermeintliche Schriftgrafiken aussehen.
 . Falls es sich um eine Schriftgrafik (also um keinen „echten“ Text) handelt, gibt der Screenreader „Bild“ oder „Grafik“ aus.
 
-=== Hinweise
+=== 3. Hinweise
 
 In der Regel nicht negativ bewertet werden grafische Schriften auf Logos oder in Fotos.
 
-=== Bewertung
+=== 4. Bewertung
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
 * Für Schaltflächen, deren Bedeutung aus dem Kontext hervorgeht (einzelne Schaltfläche unter Eingabefeldern), werden Schriftgrafiken verwendet.
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 * Für wichtige Texte, zum Beispiel Überschriften, Menüoptionen oder für Schaltflächen, deren Beschriftung gelesen werden muss, werden Schriftgrafiken
   verwendet.
@@ -43,17 +43,7 @@ In der Regel nicht negativ bewertet werden grafische Schriften auf Logos oder in
 
 === Abgrenzung zu anderen Prüfkriterien
 
-Verwendung von Tabellen-Markup für die Darstellung von Tabellen:
-siehe Prüfschritt
-ifdef::env_embedded[11.1.3.1b "Datentabellen richtig aufgebaut".]
-ifndef::env_embedded[]
-  <<11.1.3.1b Datentabellen richtig aufgebaut.adoc#,11.1.3.1b Datentabellen
-  richtig aufgebaut>>.
-endif::env_embedded[]
-
-=== Grenzen des Prüfschritts
-
-Checkpunkt 3.1 der WCAG fordert generell die Verwendung von Markup anstelle von
+Erfolgskriterium 1.3.1 der WCAG fordert generell die Verwendung von Markup anstelle von
 Bildern, um Informationen darzustellen.
 Als Beispiel wird MathML genannt.
 Wesentlich wichtiger ist allerdings die (ebenfalls angesprochene) Vermeidung
