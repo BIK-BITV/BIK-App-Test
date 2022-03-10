@@ -14,15 +14,13 @@ Für Nutzende von Hilfsmitteln, die eine programmatische Ermittelbarkeit von Inf
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkzeugs ist. Ebenfalls anwendbar ist der Prüfschritt auf Kommentarfunktionen, die die Strukturierung von Kommentare erlauben.
+Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkzeugs ist. Ebenfalls anwendbar ist der Prüfschritt auf Kommentarfunktionen, die die Strukturierung von Kommentaren erlauben.
 
-Die Prüfung bezieht sich in erster Linie auf die Ausgabe des jeweiligen Autorenwerkzeugs.
+Die Prüfung bezieht sich auf die Ausgabe des jeweiligen Autorenwerkzeugs.
 
-Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die
-Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht
-anwendbar.
+Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht anwendbar.
 
-Die Ausgabe des Autorenwerkzeugs muss innerhalb der App dargestellt werden, es können lediglich integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden. Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen können mit dem App-Test-Verfahren derzeit nicht geprüft werden, da hier dann auch die Barrierefreiheit der durch das Tool generierten Dateien geprüft werden müsste.
+Die Ausgabe des Autorenwerkzeugs muss innerhalb der App dargestellt werden, es können lediglich integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden. Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen, können mit dem App-Test-Verfahren derzeit nicht geprüft werden, da hier dann auch die Barrierefreiheit der durch das Tool generierten Dateien geprüft werden müsste.
 
 === Prüfung
 
@@ -31,8 +29,9 @@ Die Ausgabe des Autorenwerkzeugs muss innerhalb der App dargestellt werden, es k
 
 ==== Hinweise
 
-Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen. Das könnte z. B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln
-sein.
+Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen. Das könnte z. B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln sein.
+
+Nur jene Auszeichnungsmängel in der Ausgabe können als Fehler bewertet werden, für die es bei der Eingabe Möglichkeiten der Auszeichnung gibt. Wenn also z.B. ein Kommentarfeld lediglich als `textarea` ohne weitere Auszeichnungsmöglichkeit umgesetzt ist und Nutzende deshalb textbasierte Techniken zur Gestaltung verwenden (z.B. Listen über Zeilenumbrüche und Spiegelstriche), wäre das Fehlen von Listen-Markup im ausgegebenen Kommentar nicht als Fehler zu bewerten. 
 
 Wenn Sie Hinweise zur Ausgestaltung dieses Prüfschritts haben, können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
