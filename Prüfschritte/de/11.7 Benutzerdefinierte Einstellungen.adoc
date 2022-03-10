@@ -17,7 +17,7 @@ Die App kann darüberhinaus eigene Werte für diese Einstellungen anbieten, die 
 
 == Warum wird das geprüft?
 
-Wenn Menschen eigene Einstellungen im Betriebssystem vornehmen, zum Beispiel weil sie größere Schrift oder eigene angepasste Farbeinstellungen brauchen, sollen diese vom Webangebot wo immer möglich respektiert und übernommen werden.
+Wenn Menschen eigene Einstellungen im Betriebssystem vornehmen, zum Beispiel weil sie größere Schrift oder eigene angepasste Farbeinstellungen brauchen, sollen diese in der App wo immer möglich respektiert und übernommen werden.
 
 == Wie wird geprüft?
 
