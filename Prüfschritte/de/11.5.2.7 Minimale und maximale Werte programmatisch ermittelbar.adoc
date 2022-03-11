@@ -14,17 +14,22 @@ Wenn für sehende Nutzende Minimalwerte und Maximalwerte für Schnittstellen-Ele
 
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist immer anwendbar, wenn für Schnittstellenelemente sichtbar oder programmatisch minimale und/oder maximale Eingabewerte festgelegt wurden.
+Der Prüfschritt ist immer anwendbar, wenn für Schnittstellenelemente (etwa Eingabefelder für "Anzahl" oder "Datum") sichtbar und/oder programmatisch minimale und/oder maximale Eingabewerte festgelegt wurden.
 
 === 2. Prüfung
 . Screenreader aktivieren
-. Formularelemente, für die visuell oder programmatisch, etwy durch clientseitige Überprüfung von Eingaben mittels JavaScript,  minimale und/oder maximale Werte für die Eingabe festgelegt wurden, fokussieren.  Werden diese Eingabegrenzen vom Screenreader ausgegeben?
+. Formularelemente, für die visuell oder programmatisch minimale und/oder maximale Werte für die Eingabe festgelegt wurden, fokussieren.  Werden diese Eingabegrenzen vom Screenreader ausgegeben?
 
 === 3. Hinweise
+* Richtig umgesetzte Schieberegler geben bei Aktivierung und Änderung des Wertes die aktuelle Zahl aus, eine Auswahl über den festgelegten Bereich hinaus ist nicht möglich. Damit ist der Eingabebereich implizit programmatisch definiert. Werden jedoch minimale und maximale Werte visuell angezeigt, sollen diese auch programmatisch ausgegeben werden.
+* Nummerische Eingabefelder erlauben häufig auch die Eingabe von Werten außerhalb des Bereichs, eine solche Eingabe wird dann ggf. als ungültig ausgegeben, jedoch ohne dass die minimalen und maximalen Eingabewerte ausgegeben werden. Hier ist die Angabe von Minimal- bzw. Maximalwerten z.B. in der programmatisch verknüpften Beschriftung oder im AccessibilityLabel erforderlich.
 
 === 4. Bewertung
+==== Erfüllt:
+Visuell verfügbare Minimal- bzw. Maximal-Werte von Schnittstellenelementen werden bei Fokussierung des Schnittstellenelements ausgegeben.
 
-
+==== Nicht erfüllt:
+Minimal- bzw Maximalwerte werden visuell angezeigt und/oder sind programmatisch festgelegt, diese Information ist jedoch nicht programmatisch für Hilfsmittel-Nutzende verfügbar.
 
 
 == Quellen
