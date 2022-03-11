@@ -4,13 +4,17 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben sind, muss diese Information auch dem Screenreader zur Verfügung stehen, damit Hilfsmittel-Nutzende programmatisch ebenfalls über die Grenzen der Eingabemöglichkeiten in Kenntnis gesetzt werden.
+Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben sind, muss diese Information auch dem Screenreader zur Verfügung stehen, damit Hilfsmittel-Nutzende programmatisch ebenfalls über die Grenzen der Eingabemöglichkeiten in Kenntnis gesetzt werden. Beispiele: 
+* Bei einem Kaufvorgang, etwa für ein Konzertticket, kann bei "Anzahl" maximal die Zahl 5 eingegeben werden.
+* Die Mindest-Spendensumme bei einem Hilfswerk ist 5 Euro.
+* Ein Datumsfeld "Geburtsdatum" erlaubt nur Eingaben von Geburtsdaten, die älter als 18 Jahre sind, weil nur Volljährige den Dienst nutzen können.
 
 == Warum wird das geprüft?
 Wenn für sehende Nutzende Minimalwerte und Maximalwerte für Schnittstellen-Elemente definiert wurden, soll diese Grenzen auch für Hilfsmittelnutzende zur Verfügung stehen. Diese Grenzen transportieren häufig wichtige Informationen (z.B. Mindestdauer oder Maximaldauer bei der Buchung eines Services, Minimalbetrag einer Spende, Maximalbetrag einer Überweisung) die allen zur Verfügung stehen sollen. Die Verfügbarkeit der Information über minimale oder maximale Eingabewerte sorgt dafür, dass von Hilfsmittelnutzenden nicht erfolglos Eingaben außerhab des gültigen Bereichs versucht werden.
 
 == Wie wird das geprüft?
-
+=== 1. Anwendbarkeit des Prüfschritts
+Der Pürüfschritt ist immer anwendbar, wenn für Schnittstellenelemente sichtbar oder programmatisch minimale und/oder maximale Eingabewerte festgelegt wurden.
 . Screenreader aktivieren
 . Formularelemente für die minimale oder maximale Werte für die Eingabe festgelegt wurden, fokussieren. 
 Werden diese Eingabegrenzen vom Screenreader ausgegeben?
