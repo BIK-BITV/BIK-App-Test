@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die App soll für die Erfüllung der Barrierefreiheitsanforderungen die vom Betriebssystem dazu bereitgestellten Dienste und -Schnittstellen nutzen.
+Die App soll für die Erfüllung der Barrierefreiheitsanforderungen die vom Betriebssystem dazu bereitgestellten Dienste und Schnittstellen nutzen.
 Nur wenn die App die Barrierefreiheitsanforderungen durch die vom Betriebssystem bereitgestellten Barrierefreiheitsdienste- und -Schnittstellen nicht erfüllen kann, nutzt sie andere Dienste oder Schnittstellen, um die Anforderungen zu erfüllen.
 
 == Warum wird das geprüft?
