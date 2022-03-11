@@ -14,10 +14,16 @@ Wenn für sehende Nutzende Minimalwerte und Maximalwerte für Schnittstellen-Ele
 
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
-Der Pürüfschritt ist immer anwendbar, wenn für Schnittstellenelemente sichtbar oder programmatisch minimale und/oder maximale Eingabewerte festgelegt wurden.
+Der Prüfschritt ist immer anwendbar, wenn für Schnittstellenelemente sichtbar oder programmatisch minimale und/oder maximale Eingabewerte festgelegt wurden.
+
+=== 2. Prüfung
 . Screenreader aktivieren
-. Formularelemente für die minimale oder maximale Werte für die Eingabe festgelegt wurden, fokussieren. 
-Werden diese Eingabegrenzen vom Screenreader ausgegeben?
+. Formularelemente, für die visuell oder programmatisch, etwy durch clientseitige Überprüfung von Eingaben mittels JavaScript,  minimale und/oder maximale Werte für die Eingabe festgelegt wurden, fokussieren.  Werden diese Eingabegrenzen vom Screenreader ausgegeben?
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+
 
 
 
