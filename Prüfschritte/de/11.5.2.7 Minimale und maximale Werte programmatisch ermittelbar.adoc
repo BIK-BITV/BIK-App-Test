@@ -22,7 +22,7 @@ Der Prüfschritt ist immer anwendbar, wenn für Schnittstellenelemente (etwa Ein
 
 === 3. Hinweise
 * Richtig umgesetzte Schieberegler geben bei Aktivierung und Änderung des Wertes die aktuelle Zahl aus, eine Auswahl über den festgelegten Bereich hinaus ist nicht möglich. Damit ist der Eingabebereich implizit programmatisch definiert. Werden jedoch minimale und maximale Werte visuell angezeigt, sollen diese auch programmatisch ausgegeben werden.
-* Nummerische Eingabefelder erlauben häufig auch die Eingabe von Werten außerhalb des Bereichs, eine solche Eingabe wird dann ggf. als ungültig ausgegeben, jedoch ohne dass die minimalen und maximalen Eingabewerte ausgegeben werden. Hier ist die Angabe von Minimal- bzw. Maximalwerten z.B. in der programmatisch verknüpften Beschriftung oder im AccessibilityLabel erforderlich.
+* Nummerische Eingabefelder erlauben häufig auch die Eingabe von Werten außerhalb des festgelegten Bereichs. Eine solche Eingabe wird dann ggf. als ungültig ausgegeben, jedoch ohne Ausgabe der minimalen bzw. maximalen Eingabewerte. Hier ist die Angabe von Minimal- bzw. Maximalwerten z.B. in der programmatisch verknüpften Beschriftung oder im AccessibilityLabel erforderlich.
 
 === 4. Bewertung
 ==== Erfüllt:
