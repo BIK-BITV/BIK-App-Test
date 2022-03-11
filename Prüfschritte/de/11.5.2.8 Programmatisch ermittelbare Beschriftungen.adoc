@@ -35,6 +35,7 @@ Der Prüfschritt ist anwendbar, wenn Bedienelemente eingesetzt werden, die ledig
 
 * Im Wesentlichen gleicht die Prüfung in diesem Prüfschritt der Prüfung in Prüfschritt 11.1.3.1e "Beschriftung von Formularelementen programmatisch ermittelbar". In der Regel kann einfach auf diesen Prüfschritt verwiesen werden.
 * Ob das vom Screenreader ausgegebene Accessibility-Label wirklich vom beschriftenden Element stammt oder getrennt als AccessibilityLabel hinterlegt ist, kann nicht festgestellt werden. Hier kann nur festgestellt werden, ob das AccessibilityLabel eines Bedienelements gleichlautend mit der nebenstehenden Beschriftung ist.
+* Es wird hier nicht negativ bewertet, wenn die programmatische und die sichtbare Beschriftung nicht identisch sind bzw. die sichtbare Beschriftung nicht im zugänglichen Namen enthalten ist. Dies ist Gegenstand von Prüfschritt 11.2.5.3 "Sichtbare Beschriftung Teil des zugänglichen Namens".
 
 === 4. Bewertung
 
