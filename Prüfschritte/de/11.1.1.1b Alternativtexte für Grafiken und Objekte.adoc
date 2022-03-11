@@ -14,7 +14,7 @@ Für blinde Benutzer sind Grafiken und Bilder nicht zugänglich. Die Textalterna
 
 Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt werden können, weil sie z. B. nicht geladen werden können, sollen kurze beschreibende Textalternativen dem Nutzer eine Identifikation der Inhalte ermöglichen.
 
-== Wie wird geprüft?
+== Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
