@@ -2,25 +2,20 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
-11.5.2.7 Values.
-
 == Was wird geprüft?
 
-Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben
-sind, muss diese Information auch dem Screenreader zur Verfügung stehen,
-damit der Screenreader-Nutzer ebenfalls über die Grenzen der
-Eingabemöglichkeiten in Kenntnis gesetzt werden kann.
+Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben sind, muss diese Information auch dem Screenreader zur Verfügung stehen, damit Hilfsmittel-Nutzende programmatisch ebenfalls über die Grenzen der Eingabemöglichkeiten in Kenntnis gesetzt werden.
 
-== Wie wird geprüft?
+== Warum wird das geprüft?
+Wenn für sehende Nutzende Minimalwerte und Maximalwerte für Schnittstellen-Elemente definiert wurden, soll diese Grenzen auch für Hilfsmittelnutzende zur Verfügung stehen. Diese Grenzen transportieren häufig wichtige Informationen (z.B. Mindestdauer oder Maximaldauer bei der Buchung eines Services, Minimalbetrag einer Spende, Maximalbetrag einer Überweisung) die allen zur Verfügung stehen sollen. Die Verfügbarkeit der Information über minimale oder maximale Eingabewerte sorgt dafür, dass von Hilfsmittelnutzenden nicht erfolglos Eingaben außerhab des gültigen Bereichs versucht werden.
 
-Die Formularelemente müssen auf Eingrenzungen der Eingabewerte geprüft
-werden, falls diese generell ersichtlich sind, müssen diese Eingabegrenzen
-auch mittels Screenreader angesagt werden.
-Hierzu wird das Formular mit dem Screenreader durchgegangen, die Grenzen
-sollen dabei vom SR angesagt werden.
+== Wie wird das geprüft?
+
+. Screenreader aktivieren
+. Formularelemente für die minimale oder maximale Werte für die Eingabe festgelegt wurden, fokussieren. 
+Werden diese Eingabegrenzen vom Screenreader ausgegeben?
+
+
 
 == Quellen
 
