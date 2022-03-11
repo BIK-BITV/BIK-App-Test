@@ -16,9 +16,7 @@ In manchen Screenreader-Navigationsmodi werden bestimmte Elemente gezielt durchl
 Bedienelemente müssen daher, auch wenn die Zuordnung der Beschriftung visuell klar ist, eine programmatisch ermittelbare Beschriftung haben, um eine effiziente Bedienung zu ermöglichen.
 
 Damit die Beschriftungsinformation nicht doppelt durch den Entwickler gepflegt werden muss (sichtbare Beschriftung und Accessibility-Label), soll das Bedienelement ohne Beschriftung programmatisch auf dessen Beschriftung verweisen.
-Sobald sich die Beschriftung ändert, erhält das Bedienelement ohne sichtbare Beschriftung ebenfalls den neuen Text und kann diesen als Accessibility-Label an das System melden.
-Der Screenreader kann somit beim Antippen des Bedienelements ohne sichtbare Beschriftung ein passendes Label ausgeben.
-Diese Art, ein Accessibility-Label bereitzustellen, ist robuster als die separate Pflege von sichtbarer Beschriftung und einem Accessibility-Label.
+Sobald sich die Beschriftung ändert, erhält das Bedienelement ohne sichtbare Beschriftung ebenfalls ein aktualisiertes Accessibility-Label und kann so beim Fokussieren des Bedienelements ohne sichtbare Beschriftung die aktuelle Beschriftung ausgeben. Diese Art, ein Accessibility-Label bereitzustellen, ist robuster als die separate Pflege von sichtbarer Beschriftung und einem Accessibility-Label.
 
 == Wie wird das geprüft?
 
