@@ -14,7 +14,7 @@ Wenn für sehende Nutzende Minimalwerte und Maximalwerte für Schnittstellen-Ele
 
 == Wie wird das geprüft?
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist immer anwendbar, wenn für Schnittstellenelemente (etwa Eingabefelder für "Anzahl" oder "Datum") sichtbar und/oder programmatisch minimale und/oder maximale Eingabewerte festgelegt wurden.
+Der Prüfschritt ist immer anwendbar, wenn für Schnittstellenelemente (etwa Eingabefelder für "Anzahl" oder "Datum") sichtbar und/oder programmatisch ermittelbar minimale und/oder maximale Eingabewerte festgelegt wurden.
 
 === 2. Prüfung
 . Screenreader aktivieren
