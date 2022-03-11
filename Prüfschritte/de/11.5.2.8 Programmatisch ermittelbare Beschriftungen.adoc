@@ -13,7 +13,7 @@ Programmatisch ermittelbar ist die Beschriftung des Eingabefelds in diesem Fall,
 
 Screenreader geben die Elemente auf dem Bildschirm nacheinander aus,  eine visuell vermittelte Verbindung von Bedienelementen und Beschriftungen können Nutzer dieser assistiven Software nicht immer in vergleichbarer Weise herstellen. 
 In manchen Screenreader-Navigationsmodi werden bestimmte Elemente gezielt durchlaufen, etwa nur Steuerelemente. Wird ein Element, etwa ein Eingabefeld, auf diese Weise fokussiert, soll die programmatisch zugeordnete oder hinterlegte Beschriftung ausgegeben werden.
-Bedienelemente müssen daher auch die Zuordnung der Beschriftung visuell klar ist, eine programmatisch ermittelbare Beschriftung haben, um eine effiziente Bedienung zu ermöglichen.
+Bedienelemente müssen daher, auch wenn die Zuordnung der Beschriftung visuell klar ist, eine programmatisch ermittelbare Beschriftung haben, um eine effiziente Bedienung zu ermöglichen.
 
 Damit die Beschriftungsinformation nicht doppelt durch den Entwickler gepflegt werden muss (sichtbare Beschriftung und Accessibility-Label), soll das Bedienelement ohne Beschriftung programmatisch auf dessen Beschriftung verweisen.
 Sobald sich die Beschriftung ändert, erhält das Bedienelement ohne sichtbare Beschriftung ebenfalls den neuen Text und kann diesen als Accessibility-Label an das System melden.
