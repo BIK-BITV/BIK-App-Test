@@ -43,12 +43,11 @@ Der Prüfschritt ist anwendbar, wenn die App Links enthält.
 * bei Links in untergeordneten Listen durch den Text des übergeordneten Listen-Elements
 * durch den Text der umschließenden Tabellenzelle und der dazugehörigen Überschriftenzellen
 * durch den Text der vorangehenden Überschrift
-* durch einen verständlichen Link am Seitenbeginn, der Linktexte auf der Seite erweitert
+* durch einen verständlichen Link am Seitenbeginn, der Linktexte auf der Ansicht erweitert
 
 ==== 2.2 Prüfung von Links auf andere Dateiformate
 
-Bei der Prüfung von Software müssen die Links stichprobenartig auf externe
-Ressourcen wie z. B. PDF-Dateien geprüft werden.
+Wenn Links aus der App auf externe Ressourcen wie z.B. PDF-Dateien führen:
 
 . App mit zu testender Ansicht öffnen.
 . Prüfen, ob visuell, etwa über zusätzliche Icons Auskunft über das Dateiformat gegeben wird.
@@ -60,12 +59,9 @@ Ressourcen wie z. B. PDF-Dateien geprüft werden.
 
 * Links, deren Ziel generell für alle Nutzer unklar ist, fallen nicht unter diesen Prüfschritt.
 * Verlinkte URLs und verlinkte E-Mail-Adressen vermitteln über ihr Format den Linkzweck (etwa, dass sie einen Email-Client öffnen oder auf ein externes Webangebot verlinken). URLs sind für alle Nutzer möglicherweise nicht aussagekräftig und werden deshalb hier nicht negativ bewertet.
-* Bei verlinkten Grafiken ist der Linktext der Wert des Alternativtextes.
+* Bei verlinkten Grafiken wird der Linktext ggf. durch den Wert eines hinterlegten Alternativtextes bereit gestellt.
 * Der Linktext kann auch aus dem Alternativtext einer oder mehrerer Grafiken und einfachem Text zusammengesetzt sein.
-* Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der
-Auflistung hervorgeht.
-* Das title-Attribut eines Links ist potenziell programmatisch ermittelbar, wird aber in manchen Fällen (abhängig von Einstellungen) nicht von Screenreadern ausgewertet. Bei der Benutzung von Touch-Geräten ist außerdem problematisch, dass der Wert (der Text) nur bei Berührung mit einem Zeigegerät (z. B. Maus) angezeigt wird.
-
+* Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der Auflistung hervorgeht.
 
 === 4. Bewertung
 
