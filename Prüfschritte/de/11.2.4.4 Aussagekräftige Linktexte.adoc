@@ -78,9 +78,9 @@ Wenn Links aus der App auf externe Ressourcen wie z.B. PDF-Dateien führen:
 
 === Abgrenzung zu anderen Prüfkriterien
 
-In diesem Prüfschritt wird nur geprüft, ob die Information über das Dateiformat überhaupt vorhanden ist. Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im zugänglichen Namen des Elements angegeben wird.
+In diesem Prüfschritt wird nur geprüft, ob ggf. vorhandene visuelle Information über das Dateiformat oder das Linkziel auch programmatisch ermittelbar ist.
 
-Die Zugänglichkeit und Aussaagekraft der Textalternativen für Grafiken wird im Prüfschritt 
+Die Zugänglichkeit und Aussagekraft der Textalternativen für Grafiken wird im Prüfschritt 
 ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
 ifndef::env_embedded[]
   <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a
