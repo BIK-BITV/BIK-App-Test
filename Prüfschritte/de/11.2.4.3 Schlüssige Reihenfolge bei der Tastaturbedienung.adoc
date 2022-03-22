@@ -31,7 +31,9 @@ Die Fokusreihenfolge wird mittels angedockter oder über Bluetooth gekoppelter T
 
 . App mit zu prüfender Ansicht starten.
 . Der Tastatur-Fokus auf das erste Steuerelement setzen.
-. Die interaktiven Elemente der Ansicht mit der Tabulatortaste bzw. auch mit den Pfeiltasten durchlaufen. Rückwärts-Tabben oder die Aktivierung der entgegengesetzten Pfeiltaste sollen die Elemente in der Regel in der gleichen Reihenfolge rückwärts durchlaufen.
+. Die interaktiven Elemente der Ansicht mit der Tabulatortaste bzw. auch mit den Pfeiltasten durchlaufen. 
+. Bei manchen Bereichen, etwa Auswahllisten, sind Elemente statt mit dem Tabulator ggf. mit den Pfeiltasten erreichbar. Wenn der Tabulator Bedienelenente überspringt, ist zu prüfen ob diese stattdessen mit Pfeitasten erreichbar sind. 
+. Rückwärts-Tabben oder die Aktivierung der entgegengesetzten Pfeiltaste sollen die Elemente in der Regel in der gleichen Reihenfolge rückwärts durchlaufen.
 . Prüfen, ob die Fokus-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Steuerelemente abbildet.
 . Falls dynamische Inhalte eingeblendet oder eingefügt werden können, prüfen, ob die Reihenfolge nach der Einfügung noch immer sinnvoll ist. Dies ist bei eingeblendeten Dialogen der Fall,
 
@@ -41,9 +43,9 @@ Die Fokusreihenfolge wird mittels angedockter oder über Bluetooth gekoppelter T
 
 === 3. Hinweise
 
-Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf dem Bildschirm folgen. Kleinere Abweichungen sind kein Problem, manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend abzuleiten.
+Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf dem Bildschirm folgen. Kleinere Abweichungen sind kein Problem, manchmal ist es auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend abzuleiten.
 
-Gegebnenfalls müssen erst Bereiche mit Tabulator oder Pfeiltasten erreicht bzw. geöffnet und dann zwischen Tabulator- und Pfeiltasten-Navigation gewechselt werden. Bei einer nicht linearen (zweidimensionalen) Navigation wie in einer Gitterstruktur kann man dagegen in der Regel nicht von einer schlüssigen Reihenfolge sprechen, da hier der Weg zur Fokussierung nur visuell vermittelt wird und linear kaum nachvollziehbar ist.
+Gegebenenfalls müssen erst Bereiche mit Tabulator oder Pfeiltasten erreicht bzw. geöffnet und dann zwischen Tabulator- und Pfeiltasten-Navigation gewechselt werden. Bei einer nicht linearen (zweidimensionalen) Navigation etwa in einer Matrix bzw. Gitterstruktur, soll die Reihenfolge konsistent sein, also in der Regel der visuellen ANordnung entsprechen.
 
 Die Tabulatorreihenfolge ist schwer nachzuvollziehen, wenn sie über unsichtbare ausführbare Elemente geht. 
 
