@@ -3,12 +3,10 @@ DIAS GmbH <info@dias.de>
 2020-03-03
 :lang: de
 
-In diesem Projekt werden Prüfschritte für die Barrierefreiheit von mobilen Apps
-entwickelt.
+In diesem Projekt werden Prüfschritte für die Barrierefreiheit von mobilen Apps entwickelt.
 Unterstützt werden die Betriebssysteme Android, iOS und iPadOS.
-Die zugrunde liegenden Kriterien richten sich nach den W3C
-https://www.w3.org/TR/WCAG21/[Web Content Accessibility Guidelines (WCAG) 2.1]
-und der EU Norm 301 549.
+
+Die zugrunde liegenden Kriterien richten sich nach der aktuell veröffentlichen https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf[EU Norm 301 549 V3.2.1 (PDF)].
 
 * link:Prüfschritte/de/[Zu den Prüfschritten]
 
