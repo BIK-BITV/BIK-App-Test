@@ -4,57 +4,38 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn Software Tastaturkurzbefehle über Einzeltasten (Buchstaben, Zahlen,
-Satzzeichen oder Symbole) implementieren, können diese
-entweder abgeschaltet oder auf eine Tastenkombination mit Modifikator-Tasten
-umgestellt werden, oder sie sind nur aktiv für bestimmte
-Schnittstellen-Elemente (Bedienelemente), wenn diese den Fokus haben.
+Wenn Apps Tastaturkurzbefehle über Einzeltasten (Buchstaben, Zahlen, Satzzeichen oder Symbole) implementieren, können diese entweder abgeschaltet oder auf eine Tastenkombination mit Modifikator-Tasten umgestellt werden, oder sie sind nur aktiv für bestimmte Schnittstellen-Elemente (Bedienelemente), wenn diese den Fokus haben.
 
 == Warum wird das geprüft?
 
-Tastaturkurzbefehle ohne Modifikatortaste sind für Menschen, die am
-Computer oder einem mobilen Gerät die Spracheingabe benutzen, häufig
-problematisch.
-Spracheingaben können unerwartet Befehle für Funktionen auslösen,
-der Nutzungskontext geht dadurch verloren.
+Tastaturkurzbefehle ohne Modifikatortaste sind für Menschen, die am Computer oder einem mobilen Gerät die Spracheingabe benutzen, häufig problematisch.
+Spracheingaben können unerwartet Befehle für Funktionen auslösen, der Nutzungskontext geht dadurch verloren.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar für native Apps, die eine Benutzeroberfläche bieten und den Zugriff auf Tastaturen oder ein Tastaturinterface unterstützen. Dies trifft auf die meisten Apps auf den gängigen mobilen Plattformen wie Apples iOS / iPadOS sowie Googles Android zu.
 
-=== Prüfung
+=== 2. Prüfung
 
-. Software neu laden.
-  Wenn dies den Fokus auf ein Interface-Element setzt (z.B. auf ein Eingabefeld), auf einen leeren Bereich der Software tippen, um sicherzustellen, dass keine Interface-Elemente fokussiert sind.
-. Mit Ausnahme der Modifikator- und Steuertasten wie STR, ALT, ENTER, Tab,
-  Pfeiltasten und Funktionstasten F1-F12, nacheinander auf alle Tastaturtasten
-  drücken, d. h. auf alle Nummern- Buchstaben-, Symbol- und
-  ZeichensetzungsTasten.
+. Tastatur über Bluetooth-Kopplung oder USB-Kabel anschließen.
+. App mit zu prüfender Ansicht öffnen.
+. Sicherzustellen, dass keine Interface-Elemente fokussiert sind.
+. Mit Ausnahme der Modifikator- und Steuertasten wie STR, ALT, ENTER, Tab, Pfeiltasten und Funktionstasten F1-F12, nacheinander auf alle Tastaturtasten drücken, d. h. auf alle Nummern- Buchstaben-, Symbol- und Zeichensetzungstasten.
 . Die Umschalttaste halten und die gleichen Tasten erneut betätigen.
+. Falls einzelne Tasten Funktionen auslösen, prüfen, ob die App Einstellungen bereithält, um diese Tastaturkurzbefehle über Einzeltasten abzuschalten oder auf Tastaturkurzbefehle mit einer Modifikator-Taste zu mappen.
 
-Falls einzelne Tasten Funktionen auslösen, prüfen, ob die App Einstellungen
-bereithält, um diese Tastaturkurzbefehle über Einzeltasten abzuschalten oder
-auf Tastaturkurzbefehle mit einer Modifikator-Taste zu mappen.
+=== 3. Hinweise
 
-=== Hinweise
+Die Anforderung gilt nicht, wenn die Tastaturkurzbefehle nur aktiv sind, sobald bestimmte Interface-Elemente den Fokus haben, etwa ein Auswahllisten-Element bzw. select. Hier dient z.B. das Drücken einer Buchstabentaste zur schnellen Navigation innerhalb der Auswahllisten-Optionen.
 
-Die Anforderung gilt nicht, wenn die Tastaturkurzbefehle nur aktiv sind,
-sobald bestimmte Interface-Elemente den Fokus haben, etwa ein
-Auswahllisten-Element bzw. select.
-Hier dient z.B. das Drücken einer Buchstabentaste zur schnellen Navigation
-innerhalb der Auswahllisten-Optionen.
+=== 4. Bewertung
 
-=== Bewertung
+==== Erfüllt:
 
-*Erfüllt:*
-
-* Durch das Drücken der Tasten geschehen keinerlei Änderungen des Inhalts
-  oder des Kontexts.
-* Es gibt Tastatur-Kurzbefehle über Einzeltasten, aber diese sind über
-  Einstellungen der App abschaltbar oder auf Tastenkombinationen mit
-  Modifikator-Tasten umstellbar.
+* Durch das Drücken der Tasten geschehen keinerlei Änderungen des Inhalts oder des Kontexts.
+* Es gibt Tastatur-Kurzbefehle über Einzeltasten, aber diese sind über Einstellungen der App abschaltbar oder auf Tastenkombinationen mit Modifikator-Tasten umstellbar.
 
 == Einordnung des Prüfschritts
 
