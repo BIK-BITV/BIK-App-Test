@@ -2,25 +2,35 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
-11.5.2.7 Values.
-
 == Was wird geprüft?
 
-Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben
-sind, muss diese Information auch dem Screenreader zur Verfügung stehen,
-damit der Screenreader-Nutzer ebenfalls über die Grenzen der
-Eingabemöglichkeiten in Kenntnis gesetzt werden kann.
+Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben sind, muss diese Information auch dem Screenreader zur Verfügung stehen, damit Hilfsmittel-Nutzende programmatisch ebenfalls über die Grenzen der Eingabemöglichkeiten in Kenntnis gesetzt werden. Beispiele: 
+* Bei einem Kaufvorgang, etwa für ein Konzertticket, kann bei "Anzahl" maximal die Zahl 5 eingegeben werden.
+* Die Mindest-Spendensumme bei einem Hilfswerk ist 5 Euro.
+* Ein Datumsfeld "Geburtsdatum" erlaubt nur Eingaben von Geburtsdaten, die älter als 18 Jahre sind, weil nur Volljährige den Dienst nutzen können.
 
-== Wie wird geprüft?
+== Warum wird das geprüft?
+Wenn für sehende Nutzende Minimalwerte und Maximalwerte für Schnittstellen-Elemente definiert wurden, soll diese Grenzen auch für Hilfsmittelnutzende zur Verfügung stehen. Diese Grenzen transportieren häufig wichtige Informationen (z.B. Mindestdauer oder Maximaldauer bei der Buchung eines Services, Minimalbetrag einer Spende, Maximalbetrag einer Überweisung) die allen zur Verfügung stehen sollen. Die Verfügbarkeit der Information über minimale oder maximale Eingabewerte sorgt dafür, dass von Hilfsmittelnutzenden nicht erfolglos Eingaben außerhab des gültigen Bereichs versucht werden.
 
-Die Formularelemente müssen auf Eingrenzungen der Eingabewerte geprüft
-werden, falls diese generell ersichtlich sind, müssen diese Eingabegrenzen
-auch mittels Screenreader angesagt werden.
-Hierzu wird das Formular mit dem Screenreader durchgegangen, die Grenzen
-sollen dabei vom SR angesagt werden.
+== Wie wird das geprüft?
+=== 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist immer anwendbar, wenn für Schnittstellenelemente (etwa Eingabefelder für "Anzahl" oder "Datum") sichtbar und/oder programmatisch ermittelbar minimale und/oder maximale Eingabewerte festgelegt wurden.
+
+=== 2. Prüfung
+. Screenreader aktivieren
+. Formularelemente, für die visuell oder programmatisch minimale und/oder maximale Werte für die Eingabe festgelegt wurden, fokussieren.  Werden diese Eingabegrenzen vom Screenreader ausgegeben?
+
+=== 3. Hinweise
+* Richtig umgesetzte Schieberegler geben bei Aktivierung und Änderung des Wertes die aktuelle Zahl aus, eine Auswahl über den festgelegten Bereich hinaus ist nicht möglich. Damit ist der Eingabebereich implizit programmatisch definiert. Werden jedoch minimale und maximale Werte visuell angezeigt, sollen diese auch programmatisch ausgegeben werden.
+* Nummerische Eingabefelder erlauben häufig auch die Eingabe von Werten außerhalb des festgelegten Bereichs. Eine solche Eingabe wird dann ggf. als ungültig ausgegeben, jedoch ohne Ausgabe der minimalen bzw. maximalen Eingabewerte. Hier ist die Angabe von Minimal- bzw. Maximalwerten z.B. in der programmatisch verknüpften Beschriftung oder im AccessibilityLabel erforderlich.
+
+=== 4. Bewertung
+==== Erfüllt:
+Visuell verfügbare Minimal- bzw. Maximal-Werte von Schnittstellenelementen werden bei Fokussierung des Schnittstellenelements ausgegeben.
+
+==== Nicht erfüllt:
+Minimal- bzw Maximalwerte werden visuell angezeigt und/oder sind programmatisch festgelegt, diese Information ist jedoch nicht programmatisch für Hilfsmittel-Nutzende verfügbar.
+
 
 == Quellen
 
