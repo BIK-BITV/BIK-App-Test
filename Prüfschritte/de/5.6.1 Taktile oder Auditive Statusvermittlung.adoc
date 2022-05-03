@@ -1,0 +1,45 @@
+= 5.6.1 Taktile oder Auditive Statusvermittlung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+== Warum wird das geprüft?
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+=== 2. Prüfung
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+Kriterium
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 5.6.1 Tactile or auditory status
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT has a locking or toggle control and the status of that control is visually presented to the user, the ICT shall provide at least one mode of operation where the status of the control can be determined either through touch or sound without operating the control.
+
+NOTE 1:
+Locking or toggle controls are those controls that can only have two or three states and that keep their state while being used.
+
+NOTE 2:
+An example of a locking or toggle control is the "Caps Lock" key found on most keyboards. Another example is the volume button on a pay telephone, which can be set at normal, loud, or extra loud volume.
+--
+____
+
+(Aus EN 301 549 V3.2.1 Abschnitt 5.6.1 Tactile or auditory status)

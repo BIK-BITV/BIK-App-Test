@@ -1,0 +1,42 @@
+= Simultane Aktionen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+== Warum wird das geprüft?
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+=== 2. Prüfung
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+Kriterium
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 5.9 Simultaneous user actions
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT has a mode of operation requiring simultaneous user actions for its operation, such ICT shall provide at least one mode of operation that does not require simultaneous user actions to operate the ICT.
+
+NOTE:
+Having to use both hands to open the lid of a laptop, having to press two or more keys at the same time or having to touch a surface with more than one finger are examples of simultaneous user actions.
+--
+____
+
+(Aus EN 301 549 V3.2.1 Abschnitt 5.9 Simultaneous user actions)
