@@ -4,14 +4,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine semantisch
-eindeutige, sprachunabhängige Bestimmung ihres Zweckes ermöglichen.
+Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine semantisch eindeutige, sprachunabhängige Bestimmung ihres Zweckes ermöglichen.
 
-In iOS/iPadOS und Android können Eingabefelder teilweise für einen
-bestimmten Zweck ausgezeichnet werden. Z. B. für die Eingabe einer
-E-Mail-Adresse, hier kann dann das Betriebssystem u. a. eine optimierte
-Tastatur einblenden.
-Ob dies jedoch für die Konformität ausreicht ist derzeit noch unklar.
+In iOS/iPadOS und Android können manche Eingabefelder teilweise für einen bestimmten Zweck ausgezeichnet werden, z. B. für die Eingabe einer E-Mail-Adresse. Hier kann dann das Betriebssystem u. a. eine optimierte Tastatur einblenden. Grundsätzlich ist aber auch die semantische Auszeichnung anderer Eingabezwecke denkbar. Bei Webangeboten werden hierfür zurzeit passende Werte des autocomplete-Attributs genutzt. Eine entsprechende Semantik wird unseres Wissens bei nativen Apps nicht unterstützt. Die Prüfung beschränkt sich deshalb auf Felder mit Eingabezwecken, die zu bestimmten angepassten Tastaturen wechseln können, etwa für die Eingabe von E-Mail Adressen oder von Zahlen.
 
 Auf GitHub können Sie zu diesem Prüfschritt ein
 https://github.com/BIK-BITV/BIK-App-Test/issues[Issue eröffnen], falls Sie
@@ -19,72 +14,35 @@ Hinweise zu diesem Prüfschritt haben.
 
 == Warum wird das geprüft?
 
-Die Festlegung des Eingabezwecks erlaubt es neuartigen Hilfsmitteln, bei
-Formularfeldern, welche sich auf Daten des Nutzers beziehen, zusätzliche
-Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten
-Beschriftung des Feldes und unabhängig von der natürlichen Sprache des
-Angebots.
+Duch die semantische Festlegung des Eingabezwecks von Eingabefeldern wäre es prinzipiell Bedienungshilfen des Betriebssystems möglich, bei Feldern, welche sich auf Daten des Nutzers beziehen, die Beschriftung anzupassen oder zusätzliche Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten Beschriftung des Feldes und unabhängig von der natürlichen Sprache des Angebots.
 
-Zusätzliche Informationen können etwa Bilder bzw. Icons sein, die über eine
-zukünftige assistive Technologie bereitgestellt werden köntte und über bzw.
-vor dem jeweiligen Eingabefeld angezeigt werden, etwa wenn Nutzer eine
-bestimmte Tastenkombination drücken.
-Für Menschen, die Schwierigkeiten mit dem Lesen haben oder bevorzugt über
-Bilder kommunizieren, erleichtert dies eine Identifizierung von
-nutzerbezogenen Feldern in Formularen.
-
-Darüber hinaus bietet die Auszeichnung des Zwecks Eingabevorschläge für das
-Feld, welche Nutzer einfach übernehmen können.
-Das erleichtert die Texteingabe.
+Zusätzliche Informationen können etwa Bilder bzw. Icons sein, die über zukünftig ggf. verfügbare Bedienungshilfen des Betriebssystems bereitgestellt werden könnten und beim jeweiligen Eingabefeld anstelle der Textbeschriftung angezeigt würden. Für Menschen, die Schwierigkeiten mit dem Lesen haben oder bevorzugt über Bilder kommunizieren, könnte dies eine Identifizierung von nutzerbezogenen Feldern in Formularen erleichtern. Hier liegen bislang kaum empirische Erfahrungen vor.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Formular-Eingabefelder vorhanden sind,
-die sich auf Nutzerdaten beziehen (etwa Login / Anmeldung, Kontaktformulare,
-oder Ansichten zum Anlegen eines Nutzerprofils).
-Des Weiteren muss das Betriebssystem die Auszeichnung des Eingabezwecks
-unterstützen.
-In den Einstellungen zur Barrierefreiheit von Android und iOS müsste eine
-entsprechende Einstellung auftauchen, mit der die Anzeige des Eingabezwecks
-ein- und ausgeschaltet werden kann.
-Dies ist zur Zeit (Juni 2020) nicht der Fall.
+Der Prüfschritt ist prinzipiell dann anwendbar, wenn Formular-Eingabefelder sich auf Nutzerdaten beziehen (etwa Login / Anmeldung, Kontaktformulare,
+oder Ansichten zum Anlegen eines Nutzerprofils). Des Weiteren muss das Betriebssystem die Auszeichnung des Eingabezwecks unterstützen.
+Außerdem müsste in den Bedienungshilfen oder den Einstellungen zur Barrierefreiheit von Android bzw. iOS müsste eine entsprechende Einstellung auftauchen, mit der die Anzeige des Eingabezwecks beziehungseise Optionen zur Anpassung ein- und ausgeschaltet werden kann.
+Dies ist zur Zeit (Juni 2020) nicht der Fall. Damit ist dieser Prüfschritt zurzeit nur anwendbar, um die Anzeige angepasster Tastaturen für bestimmte Eingabefelder (E-Mail, numerische Eingabefelder) zu überprüfen. Dies ist jedoch eher ein Nebeneffekt der eigentlichen Anforderung, die sich auf die Eingabefelder selbst und nicht auf angezeigte Taststuren bezieht.
 
 === Prüfung
 
-Bei Software ist die Prüfung eingeschränkt möglich.
-Hier kann über eine Sichtprüfung z. B. festgestellt werden, ob bei
-Eingabefeldern für E-Mail-Adressen auch die dafür optimierte Tastatur
-eingeblendet wird.
-Auf der dann erscheinenden Tastatur ist dann z. B. gleich das „``@``“-Zeichen
-und der Punkt verfügbar, ohne erst auf die Symboltastatur wechseln zu müssen.
-Dies ist ein starkes Indiz dafür, dass das Eingabefeld in der Software
-korrekt ausgezeichnet wurde.
-Da es strittig ist, ob eine solche Auszeichnung ausreicht, muss geprüft
-werden, ob es in den Android oder iOS / iPadOS Einstellungen eine Möglichkeit
-gibt, die Anzeige des Eingabezwecks systemweit zu aktivieren.
-Daraufhin muss geprüft werden, ob die zu testende Software die entsprechende
-Einstellung auch korrekt umsetzt.
+Eingabefeldern für E-Mail-Adressen fokussieren. Wird die dafür optimierte Tastatur eingeblendet? Auf der dann erscheinenden Tastatur ist dann z. B. gleich das „``@``“-Zeichen und der Punkt verfügbar, ohne erst auf die Symboltastatur wechseln zu müssen.
+
 
 === Hinweis
 
-Die Anforderung gilt nur für Felder, die sich auf den Nutzer selbst beziehen.
-Sie gilt nicht für Seiten bzw. Ansichten, auf denen die Eingabe von
-persönlichen Daten mehrerer Personen möglich ist und die Felder für den
-Nutzer selbst nicht besonders gekennzeichnet sind.
-Ein Beispiel dafür sind Ticketbuchungsseiten / -Apps von Fluglinien.
-Hier sind die Eingabefelder für den Nutzer nicht von den Feldern für
-Mitreisende unterscheidbar.
+Die Anforderung gilt nur für Felder, die sich auf den Nutzer selbst beziehen. Sie gilt nicht für Seiten bzw. Ansichten, auf denen die Eingabe von
+persönlichen Daten mehrerer Personen möglich ist und die Felder für den Nutzer selbst nicht besonders gekennzeichnet sind. Ein Beispiel dafür sind Ticketbuchungsseiten / -Apps von Fluglinien. Hier sind die Eingabefelder für den Nutzer nicht von den Feldern für Mitreisende unterscheidbar.
 
 === Bewertung
 
-*Prüfschritt erfüllt:*
+==== Prüfschritt erfüllt:
 
-* Alle Eingabefelder, die sich klar auf den Nutzer selbst beziehen vermitteln
-  den Zweck des jeweiligen Feldes.
-  Da dies zur Zeit ggf. technisch nicht für alle Felder möglich ist, ist
-  dieser Prüfschritt dann nicht anwendbar.
+* Bei Eingabefeldern für E-Mail-Adressen erscheint bei Fokussierung eine angepasste Tastatur. Geschieht dies nicht, ist der Prüfschritt mit eher erfüllt zu bewerten - eine Eingabe ist ja dennoch möglich.
+* Sobald Bedienungshilfen mobiler Betriebssysteme die (auch teilweise) Auszeichnung des Eingabezwecks unterstützen, wird bei Eingabefeldern, die unterstützt sind und die sich klar auf Nutzende selbst beziehen, die voreingestellte angepasste Darstellung des Eingabezwecks angezeigt.
 
 == Einordnung des Prüfschritts
 
