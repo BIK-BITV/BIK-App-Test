@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine semantisch eindeutige, sprachunabhängige Bestimmung ihres Zweckes ermöglichen.
 
-In iOS/iPadOS und Android können manche Eingabefelder teilweise für einen bestimmten Zweck ausgezeichnet werden, z. B. für die Eingabe einer E-Mail-Adresse. Hier kann dann das Betriebssystem u. a. eine optimierte Tastatur einblenden. Grundsätzlich ist aber auch die semantische Auszeichnung anderer Eingabezwecke denkbar. Bei Webangeboten werden hierfür zurzeit passende Werte des autocomplete-Attributs genutzt. Eine entsprechende Semantik wird unseres Wissens bei nativen Apps nicht unterstützt. Die Prüfung beschränkt sich deshalb auf Felder mit Eingabezwecken, die zu bestimmten angepassten Tastaturen wechseln können, etwa für die Eingabe von E-Mail Adressen oder von Zahlen.
+In iOS/iPadOS und Android können manche Eingabefelder für zweckentsprechend ausgezeichnet werden, z. B. für die Eingabe einer E-Mail-Adresse. Hier kann dann das Betriebssystem u. a. eine optimierte Tastatur einblenden. Grundsätzlich ist aber auch die semantische Auszeichnung anderer Eingabezwecke denkbar. Bei Webangeboten werden hierfür zurzeit passende Werte des `autocomplete`-Attributs genutzt. Eine entsprechende Semantik wird unseres Wissens bei nativen Apps nicht unterstützt. Die Prüfung beschränkt sich deshalb auf Felder mit Eingabezwecken, die zu bestimmten angepassten Tastaturen wechseln können, etwa für die Eingabe von E-Mail Adressen oder von Zahlen.
 
 Auf GitHub können Sie zu diesem Prüfschritt ein
 https://github.com/BIK-BITV/BIK-App-Test/issues[Issue eröffnen], falls Sie
@@ -24,12 +24,13 @@ Zusätzliche Informationen können etwa Bilder bzw. Icons sein, die über zukün
 
 Der Prüfschritt ist prinzipiell dann anwendbar, wenn Formular-Eingabefelder sich auf Nutzerdaten beziehen (etwa Login / Anmeldung, Kontaktformulare,
 oder Ansichten zum Anlegen eines Nutzerprofils). Des Weiteren muss das Betriebssystem die Auszeichnung des Eingabezwecks unterstützen.
-Außerdem müsste in den Bedienungshilfen oder den Einstellungen zur Barrierefreiheit von Android bzw. iOS müsste eine entsprechende Einstellung auftauchen, mit der die Anzeige des Eingabezwecks beziehungseise Optionen zur Anpassung ein- und ausgeschaltet werden kann.
-Dies ist zur Zeit (Juni 2020) nicht der Fall. Damit ist dieser Prüfschritt zurzeit nur anwendbar, um die Anzeige angepasster Tastaturen für bestimmte Eingabefelder (E-Mail, numerische Eingabefelder) zu überprüfen. Dies ist jedoch eher ein Nebeneffekt der eigentlichen Anforderung, die sich auf die Eingabefelder selbst und nicht auf angezeigte Taststuren bezieht.
+Außerdem müsste in den Bedienungshilfen oder den Einstellungen zur Barrierefreiheit von Android bzw. iOS Optionen auftauchen, mit denen die Anzeige des Eingabezwecks aktiviert bzw.verscheidene Optionen dafür ein- und ausgeschaltet werden könnten.
+Dies ist zur Zeit (Mai 2022) nicht der Fall. Damit ist dieser Prüfschritt zurzeit nur anwendbar, um die Anzeige angepasster Tastaturen für bestimmte Eingabefelder (E-Mail, numerische Eingabefelder) zu überprüfen. Dies ist jedoch eher ein Nebeneffekt der eigentlichen Anforderung, die sich auf die Eingabefelder selbst und nicht auf dynamisch angepasste Tastaturen bezieht.
 
 === Prüfung
 
-Eingabefeldern für E-Mail-Adressen fokussieren. Wird die dafür optimierte Tastatur eingeblendet? Auf der dann erscheinenden Tastatur ist dann z. B. gleich das „``@``“-Zeichen und der Punkt verfügbar, ohne erst auf die Symboltastatur wechseln zu müssen.
+. Eingabefelder für E-Mail-Adressen fokussieren. Wird die dafür optimierte Tastatur eingeblendet? Auf der dann erscheinenden Tastatur ist dann z. B. gleich das „``@``“-Zeichen und der Punkt verfügbar, ohne erst auf die Symboltastatur wechseln zu müssen.
+. Falls numerische Eingabefelder vorhanden sind: Diese fokussieren. Wird eine für numerische Eingaben optimierte Tastatur eingeblendet? 
 
 
 === Hinweis
