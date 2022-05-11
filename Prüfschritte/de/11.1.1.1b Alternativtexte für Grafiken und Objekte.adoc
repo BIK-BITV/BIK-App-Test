@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Informative Grafiken und Bilder müssen Textalternativen haben. Die Textalternativen ersetzen das Bild, sie sollen (soweit wie möglich) die gleiche Information vermitteln wie das Bild.
+Informative Grafiken und Bilder müssen Textalternativen haben. Die Textalternativen ersetzen das Bild, sie sollen (soweit wie möglich) die gleiche Information vermitteln wie das Bild. Sind Grafiken lediglich Schmuckbilder sollten sie keine Textalternative haben so dass sie in assistiven Technologien nicht ausgegeben werden..
 
 Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien soll die Textalternative zumindest eine beschreibende Identifizierung des Inhalts ermöglichen.
 
@@ -18,7 +18,7 @@ Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt werden können, we
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn informative Grafiken oder, Bilder, Video- oder Audio-Dateien oder Multimedia-Objekte vorhanden sind.
+Der Prüfschritt ist anwendbar, wenn Grafiken oder, Bilder, Video- oder Audio-Dateien oder Multimedia-Objekte vorhanden sind.
 
 Als informative Grafiken gelten:
 
@@ -27,7 +27,13 @@ Als informative Grafiken gelten:
 * Illustrationen, die einen Gegenstand, ein Konzept oder einen Prozess vorstellen, verdeutlichen oder veranschaulichen sollen (etwa Diagramme)
 * Symbole
 
-Dekorative Grafiken und Bilder sind Grenzfälle. Sie stellen (im Unterschied zu Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen Bezug zum Thema der App-Ansicht. Ihr Informationsgehalt und ihr Nutzen für das Verständnis ist aber nicht klar. Sie können daher als dekorativ gekennzeichnet werden, der Prüfschritt ist dann nicht anwendbar.
+Als dekorative bzw. Schmuckgrafiken gelten:
+
+* dekorative graphische Elemente
+* Hintergrundbilder, graphische Strukturen, Farbverläufe 
+* dekorative Fotos ohne klaren inhaltlichen Bezug zum Angebot
+
+Dekorative Grafiken und Bilder sind Grenzfälle. Sie stellen (im Unterschied zu Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen (manchmal vagen) Bezug zum Thema der App-Ansicht. Ihr Informationsgehalt und ihr Nutzen für das Verständnis ist aber nicht klar. Sie können daher als dekorativ gekennzeichnet werden. Sind beschreibbare visuelle Inhalte vorhanden, ist es aber auch kein Fehler, diese im Alternativtext zu beschreiben ("Frau vor einem Monitor, Mann zeigt auf den Bildschirm").
 
 Wenn Logo-artige Elemente, in denen Grafik und Schrift verbunden sind, auftauchen, sind diese fast nie als bloße Schmuckgrafik anzusehen und brauchen deshalb eine Textalternative. Dies ermöglicht blinden und sehenden Nutzern, sich gemeinsam auf diese Elemente zu beziehen. Die Textalternative muss aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich ist.
 
@@ -42,7 +48,7 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 . Screenreader starten und Fokus auf jede informationstragende Grafik setzen.
 . Prüfen, ob der Screenreader informationstragende Grafiken aussagekräftigen Alternativtext ausgibt.
 . Bei komplexen Grafiken prüfen, ob der Alternativtext Inhalt knapp nennt und auf ausführliche Textalternativen im Kontext der Grafik verweist. Diese können etwa unterhalb der Grafik, in einem Ausklappbereich oder in einer verlinkten Ansicht vorgehalten werden.
-. Prüfen, ob Schmuckgrafiken Alternativtexte tragen. Bei Grenzfällen (Grafiken haben einen beschreibbaren Inhalt mit Bezug zum Thema, sind aber zum Verständnis der Inhalte nicht wichtig) können sowohl Alternativtexte als das Fehlen von Alternativtext akzeptiert werden.
+. Prüfen, ob bei Schmuckgrafiken Alternativtexte ausgegeben werden. Bei Grenzfällen (Grafiken haben einen beschreibbaren Inhalt mit Bezug zum Thema, sind aber zum Verständnis der Inhalte nicht wichtig) können sowohl Alternativtexte als auch das Fehlen von Alternativtext akzeptiert werden.
 
 === 3. Hinweise
 
@@ -64,7 +70,7 @@ In der Regel bedeutet das:
 * Bei Symbolen oder Zeichen (Logos) soll die Textalternative sagen, dass ein Symbol, Zeichen oder Logo abgebildet ist und die Bedeutung des Symbols oder Zeichens wiedergeben.
 * Bei Gruppen von zusammengehörigen Bildern kann auch eines der Bilder die Bedeutung der Gruppe wiedergeben, die anderen sollten als dekorativ gekennzeichnet werden.
 * Bei Fotos, Reproduktionen von Gemälden oder anderen Nicht-Text-Elementen, die eine spezifische Sinneserfahrung vermitteln, genügt in der Regel eine knappe Bezeichnung des abgebildeten Gegenstandes.
-* Bei Diagrammen oder technischen Zeichnungen sind unter Umständen ausführlichere Erläuterungen erforderlich.
+* Bei Diagrammen oder technischen Zeichnungen sind unter Umständen ausführlichere Erläuterungen im Kontext erforderlich.
   Textalternativen sind dafür nicht geeignet, sie sollen in der Regel 80 Zeichen nicht überschreiten. In der Textalternative steht dann nur, was dargestellt ist und wo (etwa: "Details im anschließenden Text"). Die ausführliche Textalternative soll sich in Kontext des Bildes befinden. Der Kontext kann zum Beispiel ein unmittelbar folgender Inhalt (Text oder Tabelle), ein Ausklappbereich oder auch ein Link zu einer Ansicht sein, die die ausführliche Alternative enthält.
 * Bei Objekten, die nicht angezeigt werden können, sollen die Textalternative oder Text im unmittelbaren Kontext des Objekts (etwa eine vorangehende Überschrift oder nachfolgende Legende) eine kurze Beschreibung oder Identifizierung bieten und, falls vorhanden, auf eine Medienalternative verweisen.
 
