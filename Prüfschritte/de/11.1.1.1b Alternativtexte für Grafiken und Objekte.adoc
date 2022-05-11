@@ -118,15 +118,6 @@ ifndef::env_embedded[]
 endif::env_embedded[]
   geprüft.
 
-* Layout-Grafiken oder dekorative Grafiken werden in
-  Prüfschritt
-ifdef::env_embedded[11.1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
-ifndef::env_embedded[]
-  <<11.1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,11.1.1.1c Leere
-  alt-Attribute für Layout-Grafiken>>
-endif::env_embedded[]
-  geprüft.
-
 * CAPTCHAs werden in Prüfschritt
 ifdef::env_embedded[11.1.1.1d "Alternativen für CAPTCHAs"]
 ifndef::env_embedded[]
