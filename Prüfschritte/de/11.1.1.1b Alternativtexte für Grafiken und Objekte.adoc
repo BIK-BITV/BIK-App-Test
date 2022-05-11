@@ -18,7 +18,7 @@ Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt werden können, we
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Grafiken oder, Bilder, Video- oder Audio-Dateien oder Multimedia-Objekte vorhanden sind.
+Der Prüfschritt ist anwendbar, wenn nicht interaktive Grafiken oder Bilder, Video-Vorschaubilder oder Multimedia-Objekte vorhanden sind.
 
 Als informative Grafiken gelten:
 
