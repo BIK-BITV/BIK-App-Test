@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Informative Grafiken und Bilder müssen Textalternativen haben. Die Textalternativen ersetzen das Bild, sie sollen (soweit wie möglich) die gleiche Information vermitteln wie das Bild. Sind Grafiken lediglich Schmuckbilder sollten sie keine Textalternative haben so dass sie in assistiven Technologien nicht ausgegeben werden..
+Informative Grafiken und Bilder müssen Textalternativen haben. Die Textalternativen ersetzen das Bild, sie sollen (soweit wie möglich) die gleiche Information vermitteln wie das Bild. Sind Grafiken lediglich dekorativ, sollten sie keine Textalternative haben, so dass sie in assistiven Technologien nicht ausgegeben werden.
 
 Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien soll die Textalternative zumindest eine beschreibende Identifizierung des Inhalts ermöglichen.
 
