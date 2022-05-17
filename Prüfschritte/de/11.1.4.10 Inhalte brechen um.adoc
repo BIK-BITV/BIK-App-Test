@@ -28,24 +28,28 @@ Bei mobilen Apps wird mit Bedienungshilfen des Betriebssystems der Bildschirmaus
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software anwendbar. Wwas her genau geprüft werden kann, ist zur Zeit noch unklar. In der Regel sind App-Inhlate an schmae Viewports angepasst und erfüllen damit diesen Prüfschritt.
+Laut EN 301 549 ist dieser Prüfschritt auf Software anwendbar. Was her genau geprüft werden kann, ist zur Zeit noch unklar. In der Regel sind App-Inhalte an schmale Viewports angepasst und erfüllen damit diesen Prüfschritt.
 
-=== Prüfung
+=== 2. Prüfung
 
 In der Regel ist diese Prüfschritt bei nativen Apps erfüllt, da nicht wie bei Websites ein eigentlicher Umbruch stattfindet. Manche Apps brechen Inhalte bei Ansicht im Querformat anders um. Eine angepasste Darstellung fürs Querformat ist sinnvoll, aber deren Fehlen kein Fehler im Sinne dieses Prüfschritts. 
 
-Für Hinweise zur Prüfpraxis können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zur diesem Prüfschritt erstellen.
+=== 3. Hinweise
 
-=== Hinweise
-
-Ausnahmen für die Anforderung, dass horizontales Scrollen nicht erforderlich
-ist, sind Inhalte, deren Nutzung ein zweidimensionales Layout voraussetzen,
-etwa Datentabellen, Bilder, Diagramme, Videos, Spiele oder
-Benutzerschnittstellen mit Werkzeugleisten.
+Von der Anforderung, dass alle Informationen und Funktionen verfügbar sind, ohne dass horizontales Scrollen notwendig ist, sind Inhalte ausgenommen, deren Nutzung ein zweidimensionales Layout voraussetzen (etwa Datentabellen, Bilder, Diagramme, Videos, Spiele oder Benutzerschnittstellen mit Werkzeugleisten).
 
 Unklar ist noch, inwieweit in diesem Prüfschritt einstellbare Textvergrößerungen berücksichtigt werden sollten. Sind in der App Einstellungen zur Schriftvergrößerung vorhanden, sollte der Text im sichtbaren Bereich umbrechen. Das gilt bei Einstellungen von großem Text in den Bedienungshilfen auch für Texte, die dnamische Fonts unterstützen. Ggf. kommt es hierbei zu Umbrüchen innerhakb längerer Worte. Dies ist nicht als Fehler zu betrachten.
+
+
+Für Hinweise zur Prüfpraxis können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zur diesem Prüfschritt erstellen.
+
+// === 4. Bewertung
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfkriterien
 
 Im Prüfschritt wird nicht geprüft, ob die Zoomvergrößerung auf 400%
 Textinhalte tatsächlich auf 400% oder einen geringeren Wert vergrößert.
@@ -58,9 +62,7 @@ ifndef::env_embedded[]
 vergrößerbar>>.
 endif::env_embedded[]
 
-// === Bewertung
-
 == Quellen
 
-https://www.w3.org/WAI/WCAG21/Understanding/reflow.html[Understanding Reflow]
+https://www.w3.org/WAI/WCAG21/Understanding/reflow.html[Understanding 1.4.11 Reflow]
 (zur Zeit nur auf Englisch verfügbar)
