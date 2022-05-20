@@ -10,7 +10,7 @@ Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschrif
 
 Visuell orientierte Personen nutzen für die Orientierung in einer Datentabelle neben den Überschriften wenn nötig auch den Wertebereich. Es ist für sie daher relativ leicht möglich, strukturelle Mängel, zum Beispiel Wechsel in der Bedeutung von Zeilen oder Spalten, zu erkennen und mit ihnen umzugehen.
 
-Sehbehinderte und blinde Nutzende erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften und anderen im Kontext verfügbaren Informationen eine Vorstellung vom Aufbau der Tabelle. Diese Vorstellung ist die Grundlage für den Zugriff auf die angebotenen Daten.
+Sehbehinderte und blinde Nutzende erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften und anderen im Kontext verfügbaren Informationen eine Vorstellung vom Aufbau der Tabelle. Bei der Navigation durch den Datenbereich wird beim Wechsel in eine angrenzende Zelle vom Screenreader z.B. die jeweilige Spaltenüberschrift ausgegeben.
 
 Damit das möglich ist und funktioniert, müssen zwei Bedingungen erfüllt sein:
 
@@ -36,8 +36,8 @@ Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden
 ==== 2.1 Werden Tabellen für tabellarische Daten verwendet?
 
 . App mit zu prüfender Ansicht öffnen.
-. Prüfen, ob die App-Ansicht Datentabelle enthält (d.h. Daten stehen in einer logischen Beziehung zueinander und sind rasterartig organisiert).
-. Screenreader starten und prüfen ob der Screenreader beim Antippen der Tabelle "Tabelle" o.ä. ausgibt.
+. Prüfen, ob die App-Ansicht eine Datentabelle enthält (d.h. Daten stehen in einer logischen Beziehung zueinander und sind rasterartig organisiert).
+. Screenreader starten und prüfen, ob der Screenreader beim Antippen der Tabelle "Tabelle" o.ä. ausgibt.
 
 ==== 2.2 Prüfung des Aufbaus von Tabellen
 
@@ -128,12 +128,11 @@ Tabellen mit eingesparten Überschriften erfüllen also den Prüfschritt, wenn s
 Bei Software ist es in der Regel nicht ohne den Quelltext möglich, die korrekte syntaktische Auszeichnung festzustellen. Hier kann dann in der Regel nur ein Test mit einem Screenreader durchgeführt werden. Dieser sagt dann an, ob es sich um eine "richtige" Tabelle handelt und kann beim Navigieren über Zeilen und Spalten ggf. auch dessen Überschriften ausgeben.
 
 
-==== 3.3 Informationen für Entwickler (iOS / iPadOS)
+==== 3.3 Informationen für Entwickler
 
-Personen, die Apps entwickeln, können das Protokoll
-`"link:https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
-UIAccessibilityContainerDataTable]"`
-zur Auszeichnung von barrierefreien Datentabellen nutzen.
+. Bei der iOS App-Entwicklung kann das Protokoll `"link:https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
+UIAccessibilityContainerDataTable]"` zur Auszeichnung von barrierefreien Datentabellen gennutzt werden.
+. Bei der Android App-Entwicklung gibt es Informationen zur Umsetzung von Datentabellen unter `"link:https://material.io/components/data-tables[https://material.io/components/data-tables]"`
 
 === 4. Bewertung
 
