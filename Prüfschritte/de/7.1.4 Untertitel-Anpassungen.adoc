@@ -20,7 +20,11 @@ Der Prüfschritt ist anwendbar, wenn die App Videos mit Untertiteln enthält und
 
 . App öffnen.
 . Video mit Untertitelung abspielen.
-. Falls es sich um zuschaltbare Untertitel handelt: Prüfen, ob es Einstellungsmöglichkeiten für die Darstellung der Untertitel gibt, etwa, um Schriftgröße, Schriftart (Font), Vorder- und Hintergrundfarbe, oder Transparenz des Untertitel-Bereichs anpassen zu können.
+. Falls es sich um zuschaltbare Untertitel handelt: Prüfen, ob es in der App Einstellungsmöglichkeiten für die Darstellung der Untertitel gibt, etwa, um Schriftgröße, Schriftart (Font), Vorder- und Hintergrundfarbe, oder Transparenz des Untertitel-Bereichs anpassen zu können. 
+. Falls die App bzw. die Einstellungsmöglichkeiten für Untertitel im Video-Player keine Anpassungsmöglichkeiten bieten, prüfen, ob sich die Änderung der Textgröße über die Bedienungshilfen des Betriebssystems audf die Darstellung der Untertitel auswirkt:
+.. Android: Einstellungen > Bedienungshilfen > Text und Anzeige > Schriftgröße > am größten
+.. iOS: Einstellungen > Bedienungshilfen > Anzeige und Textgröße > Größerer Text > Text im Schieberegler groß stellen
+
 
 === 3. Hinweise
 
