@@ -4,96 +4,62 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Für informationstragende visuelle Videoinhalte muss eine Audiodeskription oder
-Volltext-Alternative bereitgestellt werden.
+Für informationstragende visuelle Videoinhalte muss eine Audiodeskription oder Volltext-Alternative bereitgestellt werden.
 
 == Warum wird das geprüft?
 
-Die Handlung von Videos kann oft auch ohne Bild recht gut verfolgt werden.
-Den Sprecher einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu
-verstehen, worum es geht.
-Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig
-gesprochen wird und Inhalte über das Bild vermittelt werden.
-Damit ein blinder Zuschauer den Film verfolgen kann, müssen ihm solche
-Passagen beschrieben werden.
-Hierfür wird das Verfahren der Audiodeskription eingesetzt.
+Manche Videos können auch ohne Bild recht gut verstanden werden. Die sprechende Person einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu verstehen, worum es geht. Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt werden. Damit ein blinder Zuschauer Videos, in denen Inhalte nur über Bilder vermittelt werden, verstehen können, müssen ihm solche Passagen beschrieben werden. Hierfür wird das Verfahren der Audiodeskription eingesetzt.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur
-vorhanden sind und Informationen über das Bildgeschehen für das Verständnis
-erforderlich sind.
+* Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur vorhanden sind.
+* Gebärdensprachvideos brauchen keine Audiodeskription, der Prüfschritt ist auf diese nicht anwendbar.
 
-Videos brauchen keine Audiodeskription, wenn der Fortgang des Bildgeschehens
-nicht in Worte gefasst werden kann.
-Der Prüfschritt ist dann nicht anwendbar.
+=== 2.1 Prüfung von Audiodeskription
 
-Verzichtbar ist die Audiodeskription, wenn die synchrone Wahrnehmung von Bild
-und Ton für das Verständnis des Videos nicht erforderlich ist oder wenn das
-Video keine Tonspur hat.
+==== Art der Einbindung ermitteln
 
-Verzichtbar ist die Audiodeskription auch für Videos, die lediglich als
-Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend
-zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer Form
-zu vermitteln.
-Dies gilt nur für Videos, die keine über den Textinhalt hinausgehende
-Informationen bieten und die klar als Medienalternative zum Text erkennbar sind.
+Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 
-Gebärdensprachvideos brauchen keine Audiodeskription.
-
-=== Prüfung
+* Die Audiodeskription ist bereits in die normalen Tonspur integriert.
+* Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription. Diese Spur wird zusätzlich eingeschaltet.
 
 ==== Audiodeskription prüfen
 
-Es wird eine Sicht- und Hörprüfung vorgenommen.
+. Video abspielen und Bildinhalte daraufhin überprüfen, ob wichtige Informationen vorhanden sind, die sich nicht auch aus dem Ton entnehmen lassen.
+. Zu häufigen informationstragenden Elementen der Bildebene gehören zum Beispiel Einblendungen von sprechenden Personen. Ist es dann wichtig, mitzubekommen, wer spricht? Sind visuelle Informationen auch in der Tonspur vorhanden? 
+. Ist das Video lediglich eine Medienalternative zu einem textbasierten Inhalt, wird es also ergänzend zu einem Text angeboten? In diesem Fall ist keine Audiodeskription erforderlich. Dies gilt allerdings nur dann, wenn das Video keine Inhalte enthält, die inhaltlich über die Textversion hinausgehen. 
 
-Art der Einbindung feststellen.
-Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 
-* Die Audiodeskription ist bereits in der normalen Tonspur enthalten.
-* Eine weitere Version des Videos mit Audiodeskription wird angeboten.
-  Diese Version wird geprüft.
-  Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext des
-  Videos angeboten werden, ebenso wie ein Zurück-Link.
-* Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription.
-  Diese Spur wird zusätzlich geschaltet.
-* Das Video wird In der App oder in einem externen, vom Format abhängigen
-  Video-Player abgespielt.
+==== 2.2 Prüfung von Volltextalternativen
 
-Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
-Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
-
-==== Volltextalternative prüfen
-
-Es wird eine Sicht- und Hörprüfung vorgenommen.
-
-Das Video wird in der App oder in einem externen, vom Format abhängigen
-Video-Player abgespielt.
-
-Volltextalternative prüfen.
-Sie sollte folgende Informationen enthalten:
+. Es wird eine Sicht- und Hörprüfung vorgenommen. 
+. Das Video wird in der App abgespielt. Die Volltextalternative sollte folgende Informationen enthalten:
 
 * Eine fortlaufende Beschreibung des Geschehens
-* Alle visuellen Information, eingeschlossen Beschreibungen des visuellen
-  Kontexts, Aktionen und der Ausdruck der Schauspieler.
-* Geräusche (Gelächter, off-Screen-Stimmen etc.)
-* Transkriptionen aller Dialoge
+* Alle informationstragenden visuellen Informationen
+* Informationstragende Geräusche (Gelächter, off-Screen-Stimmen etc.)
+* Die Transkriptionen aller Dialoge (mit Angabe, wer spricht)
 
-Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video
-entsprechen.
+. Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video entsprechen.
+. Falls interaktive Elemente vorkommen, sollte die Volltextalternative Links oder ähnliches vorsehen, um dieselbe Funktionalität zu gewährleisten.
 
-Falls interaktive Elemente vorkommen (z. B. „Aktivieren Sie jetzt, um die
-Frage zu beantworten“), sollte die Volltextalternative Links oder ähnliches
-vorsehen, um dieselbe Funktionalität zu gewährleisten.
+=== 3. Hinweise
 
-=== Bewertung
+Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichtig sind, kommt es nicht darauf an, ob die Information zeitgleich in der (ggf. in die Tonspur integrierten) Audiodeskription vorkommt. So kann eine Audiodeskription mitunter wichtige Informationen eingangs zusammenfassen, die zu einem späteren Zeitpunkt eingeblendet werden.
+
+=== 4. Bewertung
+
+*Eher erfüllt:*
+
+* Bildinhalte fehlen in der Audiodeskription bzw. der Tonspur, es gibt jedoch keine Pausen bei den sprechenden Personen, in denen die Information eingesprochen werden könnte. Hier ließe sich den Anforderung nur durch eine erweiterte Audiodeskription erfüllen, diese jedoch wird in der EN 301 549 nicht verlangt. 
+
 
 *Nicht voll erfüllt:*
 
-* Es wird keine Audiodeskription angeboten, informationstragende Bilddinhalte
-  sind nicht vollständig in der angebotenen Volltextalternative enthalten.
+* Es wird keine Audiodeskription angeboten, informationstragende Bilddinhalte sind nicht vollständig in der angebotenen Volltextalternative enthalten.
 
 *Nicht erfüllt:*
 
@@ -134,6 +100,7 @@ vorsehen, um dieselbe Funktionalität zu gewährleisten.
 === BIK für Alle: Leitfaden barrierefreie Online-Videos
 
 * http://www.bik-fuer-alle.de/audiodeskription.html[Audiodeskription]
+* https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded[Extended Audio-Deskription]
 
 === Blogartikel von Terrill Thompson zu Audio Description (Stand 03/2017):
 
