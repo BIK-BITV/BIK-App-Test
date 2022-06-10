@@ -2,16 +2,9 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
-11.5.2.13 Tracking of focus and selection attributes.
-
 == Was wird geprüft?
 
-Informationen und Mechanismen für die Fokusverfolgung, Texteinfügemarke und
-Textauswahl müssen für die Hilfsmitteltechnologie programatisch verfügbar
-sein.
+Informationen und Mechanismen für die Fokusverfolgung, Texteinfügemarke und Textauswahl müssen für die Hilfsmitteltechnologie programatisch verfügbar sein.
 
 == Wie wird geprüft?
 
