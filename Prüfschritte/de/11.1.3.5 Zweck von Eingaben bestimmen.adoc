@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine semantisch eindeutige, sprachunabhängige Bestimmung ihres Zweckes ermöglichen.
 
-In iOS/iPadOS und Android können manche Eingabefelder für zweckentsprechend ausgezeichnet werden, z. B. für die Eingabe einer E-Mail-Adresse. Hier kann dann das Betriebssystem u. a. eine optimierte Tastatur einblenden. Grundsätzlich ist aber auch die semantische Auszeichnung anderer Eingabezwecke denkbar. Bei Webangeboten werden hierfür zurzeit passende Werte des `autocomplete`-Attributs genutzt. Eine entsprechende Semantik wird unseres Wissens bei nativen Apps nicht unterstützt. Die Prüfung beschränkt sich deshalb auf Felder mit Eingabezwecken, die zu bestimmten angepassten Tastaturen wechseln können, etwa für die Eingabe von E-Mail Adressen oder von Zahlen.
+In iOS/iPadOS und Android können manche Eingabefelder dem Zweck entsprechend ausgezeichnet werden, z. B. für die Eingabe einer E-Mail-Adresse. Hier kann dann das Betriebssystem u. a. eine optimierte Tastatur einblenden. Grundsätzlich ist aber auch die semantische Auszeichnung anderer Eingabezwecke denkbar. Bei Webangeboten werden hierfür zurzeit passende Werte des `autocomplete`-Attributs genutzt. Eine entsprechende Semantik wird unseres Wissens bei nativen Apps nicht unterstützt. Die Prüfung beschränkt sich deshalb auf Felder mit Eingabezwecken, die zu bestimmten angepassten Tastaturen wechseln können, etwa für die Eingabe von E-Mail Adressen oder von Zahlen.
 
 Auf GitHub können Sie zu diesem Prüfschritt ein
 https://github.com/BIK-BITV/BIK-App-Test/issues[Issue eröffnen], falls Sie
