@@ -25,7 +25,7 @@ Der Prüfschritt ist anwendbar, wenn Bedienelemente eingesetzt werden, die ledig
 
 . Screenreader starten
 . Bedienelemente mit nebenstehender Beschriftung mit dem Screenreader fokussieren. 
-. Falls Texteingabefelder nur durch einen Platzhaltertext beschriftet sind: Platzhaltertext durch eine Eingabe ersetzen, um zu prüfen, ob unabhängig vom ersetzbaren Pletzhaltertext ein programmatisch ermittelbarer Name ausgegeben wird.
+. Falls Texteingabefelder nur durch einen Platzhaltertext beschriftet sind: Platzhaltertext durch eine Eingabe ersetzen, um zu prüfen, ob unabhängig vom ersetzbaren Platzhaltertext ein programmatisch ermittelbarer Name ausgegeben wird.
 . Wird jeweils die nebenstehende sichtbare Beschriftung (oder eine gleichwertiger, programmatisch hinterlegter Name) ausgegeben?
 
 === 3. Hinweise
