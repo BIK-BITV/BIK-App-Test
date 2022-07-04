@@ -7,14 +7,14 @@ include::include/attributes.adoc[]
 Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt oder Funktionalität verloren geht. Eine der folgenden Voraussetzungen soll erfüllt sein:
 
 * Mit der Zoom-Funktion des Betriebssystems kann das gesamte Layout proportional zur Schriftgröße vergrößert werden.
-* Mit der Nur-Text-Vergrößerung des Betriebssystems kann der Text vergrößert werden.
+* Mit der Funktion des Betriebssystems kann der Text vergrößert werden.
 * Über ein Bedienelement der App-Ansicht kann die Schriftgröße vergrößert werden.
 
 Da die gängigen mobilen Plattformen wie iOS / iPadOS und Android Bedienungshilfen mit Vergrößerungsfunktionalitäten anbieten, ist dieser Prüfschritt erfüllt, wenn die Software ordungsgemäß mit diesen Systemfunktionen nutzbar ist.
 
 == Warum wird das geprüft?
 
-Nutzende sollen die Schriftgröße nach ihren Bedürfnissen einstellen können. Die gängigen Betriebssysteme bieten zwei verschiedene Vergrößerungsmöglichkeiten: die klassische Nur-Text-Vergrößerung und die Zoom-Vergrößerung des gesamten Bildschirminhalts.
+Nutzende sollen die Schriftgröße nach ihren Bedürfnissen einstellen können. Die gängigen Betriebssysteme bieten zwei verschiedene Vergrößerungsmöglichkeiten: die Zoom-Vergrößerung des gesamten Bildschirminhalts und "größerer dynamischer Text".
 
 == Wie wird geprüft?
 
@@ -42,17 +42,10 @@ Muss nur geprüft werden, wenn die Systemfunktion zum vergrößern nicht vorhand
 
 === 3. Hinweise
 
-Werden Apps getestet, kommen die Funktionen Zoomen und / oder Nur-Text-Vergrößerung des Betriebssystems zum Einsatz:
+* Die Zoomfunktion (Vergrößerung des gesamten Inhalt des Bildschirms) des Betriebssystems wird in der Regel eine 200%ige Vergrößerung ermöglichen. Funktioniert die Zoomfunktion mit der zu testenden Software, ist dieser Prüfschritt bestanden. 
+Native mobile Plattformen verfügen über eine Funktion "größerer dynamischer Text", das bedeutet, eine Funktion zur Textvergrößerung. Apps, die dynamische Fonts verwenden, passen diese an die eingestellte Schriftgröße an. Diese Funktion wird häufig verwendet, da die Bedürfnisse von sehbehinderten Nutzenden durch die Zoom-Funktion der Plattform nicht vollständig abgedeckt werden. Daher ist es sinnvoll, native Apps so umzusetzen, dass sie diese Funktion unterstützen.
 
-* Bietet das Betriebssystem eine normale Zoomfunktion (Vergrößerung des gesamten Bildausschnitts) an, wird diese meist eine 200%ige Vergrößerung
-ermöglichen. Funktioniert die Zoomfunktion mit der zu testenden Software, ist dieser Prüfschritt bestanden.
-* Falls das Betriebssystem auch eine Nur-Text-Vergrößerung anbietet, sollte diese ebenfalls getestet werden.
-Probleme mit der Nur-Text-Vergrößerung sollten zumindest angemerkt werden, da diese für einige Nutzer vorteilhafter ist, als die
-Vergrößerung des gesamten Bildausschnitts ist (z. B. bessere Orientierung).
-
-Die Prüfung der Schriftvergrößerung durch ein eigenes Bedienelement in der zu testenden App-Ansicht erfolgt nur unter folgender Bedingung:
-
-* Das Bedienelement erfüllt alle Anforderungen an Barrierefreiheit (es ist zum Beispiel tastaturbedienbar, erfüllt die Kontrastanforderungne etc.)
+* Die Prüfung der Schriftvergrößerung durch ein eigenes Bedienelement in der zu testenden App-Ansicht erfolgt nur unter der Bedingung, dass das Bedienelement alle Anforderungen an Barrierefreiheit erfüllt (zum Beispiel tastaturbedienbar, erfüllt die Kontrastanforderungne etc.)
 
 === 4. Bewertung
 
@@ -121,8 +114,8 @@ layout.
 An example of direct support might be via server-side script that can be used
 to assign different style sheets.
 
-(https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html[Resize text:
-Understanding SC 1.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html[Resize text:
+Understanding SC 1.4.4]
 
 === Die WCAG 2.1 zur Nutzung absoluter und relativer Maßeinheiten für Text
 
@@ -143,5 +136,10 @@ style element (...). When using inline style with the style attribute, the
 text size change is not supported.
 --
 
-(WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/css/C14.html[C14:
-Using em units for font sizes])
+WCAG 2.1 Technik https://www.w3.org/WAI/WCAG21/Techniques/css/C14.html[C14:
+Using em units for font sizes]
+
+=== Artikel: 
+* https://medium.com/@r.whitaker/swiftui-accessibility-dynamic-type-d9b99ae87334[SwiftUI Accessibility: Dynamic Type, Rob Whiteker, 2019]
+
+
