@@ -4,102 +4,71 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem
-direkten Kontext des Links ermittelbar sein.
+Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem direkten Kontext des Links ermittelbar sein.
 
-Falls Links nicht auf andere Ansichten der App verweisen, soll der Link über
-das Dateiformat des Zieldokuments informieren.
+Falls der Link nicht auf andere App-Ansichten verweist, soll der Link über das Dateiformat des Zieldokuments informieren.
 
-Wenn Links in Anwendungen nicht erwartbar auf Ressourcen außerhalb der
-Software verweisen, sollte der Linktext auch hier einen zusätzlichen Hinweis
-auf das Ziel(format) geben.
-Z. B. „öffnet in Browser“ etc.
+Auch wenn Links nicht auf Dokumente verweisen, sondern andere Anwendungen öffnen, sollte der Linktext auch hier einen zusätzlichen Hinweis auf das Ziel gebenb Z. B. „öffnet im Browser“ etc.
 
 == Warum wird das geprüft?
 
-Blinde Nutzer, die von Link zu Link tabben / navigieren, bekommen die
-Linktexte vorgelesen und können bei aussagekräftigen Linktexten leicht
-entscheiden, ob sie einem Link folgen möchten.
+Blinde Nutzende, die von Link zu Link navigieren, bekommen die Linktexte vorgelesen und können bei aussagekräftigen Linktexten leicht entscheiden, ob sie einem Link folgen möchten.
 
-Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare
-Kontext für Screenreader-Nutzer wenigstens leicht ermittelbar sein.
+Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare Kontext für Screenreader-Nutzende wenigstens leicht ermittelbar sein.
 
-Screenreader bieten die Möglichkeit der Auflistung bzw.
-direkter Anspringbarkeit sämtlicher Links der App-Ansicht und damit auch
-einen schnellen Überblick, selbst wenn die Software ansonsten schlecht
-zugänglich ist.
-Diese Technik funktioniert allerdings nicht, wenn alle Linktexte gleich sind
-und nicht ausreichend Auskunft über das Linkziel geben.
+Screenreader bieten die Möglichkeit, gezielt nur bestimmte Elemente, wie z. B. alle Links auf der Ansicht, zu durchlaufen, und ermöglichen damit einen besseren Überblick. Bei bei mehreren gleichen Linktexten wie "Weiter" oder "mehr lesen" ist das Linkziel schwerer zu ermitteln.
 
-Für Angebote außerhalb der App (zum Beispiel PDF- oder Word-Dokumente)
-benötigt der Benutzer zusätzliche Apps oder Plugins, die aber nicht jeder
-installiert hat.
-Manche Apps arbeiten schlecht mit Screenreadern oder anderen Hilfsanwendungen
-zusammen, manche Dateiformate sind nicht oder nur schlecht zugänglich.
-Für viele Benutzer ist es wichtig zu wissen, in welchem Format
-Informationen angeboten werden, bevor sie einen Link aktivieren.
+Bei Links zu Angeboten außerhalb der App (zum Beispiel PDF- oder Word-Dokumente) ist es für Nutzende sinnvoll zu wissen, in welchem Format Informationen angeboten werden, bevor sie einen Link aktivieren. Möglichwerweise werden zusätzliche Apps oder Plugins gebraucht und diese Apps sind vielleicht schlecht mit Screenreadern oder anderen Hilfsmittel zugänglich. Auch können bestimmte Dateiformate nicht oder nur schlecht zugänglich sein.
 
-Ein weiterer Grund, weshalb die Vorab-Information über den Typ des Links
-wichtig ist: Der Benutzer weiß dann, was auf ihn zukommt.
-Er ist nicht überrascht oder irritiert, wenn plötzlich Funktionen nicht mehr
-vorhanden sind oder der E-Mail-Client geöffnet wird.
+Nutzende wissen außerdem, was sie erwartet, wenn sie einen Link aktivieren. Sie sind nicht überrascht oder irritiert, wenn plötzlich Funktionen nicht mehr vorhanden sind oder eine andere Anwendung geöffnet wird.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software Links enthält.
+Der Prüfschritt ist anwendbar, wenn die App Links enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
-==== Prüfung von Linktexten
+==== 2.1 Prüfung von Linktexten
 
-. Anwendung mit zu testender Ansicht öffnen.
-. Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder
-  im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
-. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist
-  (z. B. "mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der
-  folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
+. App mit zu prüfender Ansicht öffnen.
+. Screenreader starten und Fokus mit Hilfe der Wischgeste auf die Links setzen.
+. Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
+. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist, mit dem Screenreader prüfen, ob der Linktext durch eine der folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
 +
-  * durch einen verständlichen Link am Beginn der Software-Ansicht, der
-    Linktexte auf der Seite erweitert
-  * durch den Alternativtext einer verlinkten Grafik, entsprechend Software
-    mit Screenreader testen
-  * durch den Text der umschließenden Tabellenzelle und der dazugehörigen
-    Überschriftenzellen, entsprechend Software mit Screenreader testen
-  * durch den Text der vorangehenden Überschrift, entsprechend Software mit
-    Screenreader testen
+* durch zusätzlichen versteckten Linktext
+* durch den Alternativtext einer mit im selben Link-Element verlinkten Grafik 
+* durch den Text im umschließenden Element Absatz- oder Listen-Element
+* bei Links in untergeordneten Listen durch den Text des übergeordneten Listen-Elements
+* durch den Text der umschließenden Tabellenzelle und der dazugehörigen Überschriftenzellen
+* durch den Text der vorangehenden Überschrift
+* durch einen verständlichen Link am Seitenbeginn, der Linktexte auf der Ansicht erweitert
 
-==== Prüfung von Links auf andere Dateiformate
+==== 2.2 Prüfung von Links auf andere Dateiformate
 
-Bei der Prüfung von Software müssen die Links stichprobenartig auf externe
-Ressourcen wie PDF-Dateien geprüft werden.
-hier muss zusätzlich geprüft werden, ob im Kontext des Links ein Hinweis auf
-das Ziel(format) gegeben wird z. B. mittels PDF-Symbols oder Überschriften,
-die das Ziel eindeutig kennzeichnen.
+Wenn Links aus der App auf externe Ressourcen wie z.B. PDF-Dateien führen:
 
-=== Hinweise
+. App mit zu testender Ansicht öffnen.
+. Prüfen, ob visuell, etwa über zusätzliche Icons Auskunft über das Dateiformat gegeben wird.
+. Screenreader starten und Fokus mit Hilfe der Wischgeste auf das Icon setzen.
+. Prüfen, ob visuelle Information zum Dateiformat auch programmatisch bereitgestellt wird (etwa über versteckten Linktext, Alternativtext, oder geeignete ARIA-Attribute).
+. Falls weder über den Linktext noch über ein entsprechend eindeutiges Icon Auskunft über das Dateiformat gegeben wird, ist das Dateiformat des Links möglicherweise für alle Nutzenden unklar. Dies ist nicht als Mangel im Sinne dieses Prüfschritts zu bewerten (sollte jedoch gegebenenfalls als allgemeines Usability-Problem angemerkt werden).
 
-Bei verlinkten Grafiken ist der Linktext der Wert des Alternativtextes
+=== 3. Hinweise
 
-Der Linktext kann auch aus dem Alternativtext einer oder mehrerer Grafiken und
-einfachem Text zusammengesetzt sein.
+* Links, deren Ziel generell für alle Nutzer unklar ist, fallen nicht unter diesen Prüfschritt.
+* Verlinkte URLs und verlinkte E-Mail-Adressen vermitteln über ihr Format den Linkzweck (etwa, dass sie einen Email-Client öffnen oder auf ein externes Webangebot verlinken). URLs sind für alle Nutzer möglicherweise nicht aussagekräftig und werden deshalb hier nicht negativ bewertet.
+* Bei verlinkten Grafiken wird der Linktext ggf. durch den Wert eines hinterlegten Alternativtextes bereit gestellt.
+* Der Linktext kann auch aus dem Alternativtext einer oder mehrerer Grafiken und einfachem Text zusammengesetzt sein.
+* Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der Auflistung hervorgeht.
 
-Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element
-einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der
-Auflistung hervorgeht.
-
-Bei Software kann mit aktiviertem Screenreader geprüft werden, was dieser bei
-verlinkten Grafiken ausgibt.
-
-=== Bewertung
+=== 4. Bewertung
 
 *Erfüllt:*
 
-* Alle Links benennen im Linktext oder im direkten Kontext Linkziel oder
-  Linkzweck.
-* Alle Links auf Angebote / Ressourcen außerhalb der App geben Auskunft über
-  das Dateiformat oder das externe Ziel. (öffnet im Browser, …)
+* Alle Links benennen im Linktext oder im direkten Kontext Linkziel oder Linkzweck.
+* Alle Links auf Angebote oder Ressourcen außerhalb der App geben Auskunft über das Dateiformat oder das externe Ziel (z. B. "öffnet im Browser")
 
 *Nicht voll erfüllt:*
 
@@ -109,32 +78,24 @@ verlinkten Grafiken ausgibt.
 
 === Abgrenzung zu anderen Prüfkriterien
 
-Die Aussaagekraft der Alternativtexte für Grafiken wird geprüft in:
+In diesem Prüfschritt wird nur geprüft, ob ggf. vorhandene visuelle Information über das Dateiformat oder das Linkziel auch programmatisch ermittelbar ist.
 
-* Prüfschritt
-ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
-ifndef::env_embedded[]
-  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Alternativtexte
-  für Bedienelemente>>
-endif::env_embedded[]
-
-In diesem Prüfschritt wird nur geprüft, ob die Information über das
-Dateiformat überhaupt vorhanden ist.
-Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im
-accessible name des Elements angegeben wird.
-
-Nicht geprüft wird, ob die Information auch gut zugänglich ist.
-Dafür reicht die alleinige Anzeige als Grafik nicht aus.
-Wenn das Dateiformat mit einer Grafik angezeigt wird, muss geprüft werden, ob
-diese Information auch als Text verfügbar ist.
-
-* Alternativer Text für blinde Nutzer:
-  Prüfschritt
+Die Zugänglichkeit und Aussagekraft der Textalternativen für Grafiken wird im Prüfschritt 
 ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
 ifndef::env_embedded[]
   <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a
   Alternativtexte für Bedienelemente>>
 endif::env_embedded[]
+geprüft.
+
+
+Ist die Grafik, die Auskunft über das Dateiformat gibt, nicht im Link eingebunden (z. B. unverlinkt dem Link vorangestellt), so wird dies in Prüfschritt
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifndef::env_embedded[]
+  <<11.1.1.1a Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>
+endif::env_embedded[]
+geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -172,17 +133,11 @@ endif::env_embedded[]
 
 [.BLOCK_LANG_EN]
 --
-Assistive technology has the ability to provide users with a list of links
-that are on the Web page.
-Link text that is as meaningful as possible will aid users who want to choose
-from this list of links.
-Meaningful link text also helps those who wish to tab from link to link.
-Meaningful links help users choose which links to follow without requiring
-complicated strategies to understand the page.
---
+> Assistive technology has the ability to provide users with a list of links that are on the Web page. Link text that is as meaningful as possible will aid users who want to choose from this list of links. Meaningful link text also helps those who wish to tab from link to link. Meaningful links help users choose which links to follow without requiring complicated strategies to understand the page.
 
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
-Link Purpose (In Context): Understanding SC 2.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
+WCAG 2.1, Link Purpose (In Context): Understanding SC 2.4.4]
+--
 
 === Gruppen zusammengehöriger Links
 
@@ -191,34 +146,23 @@ genannt werden und in den folgenden Links unterscheidende Informationen.
 Die WCAG 2.1 geben folgendes Beispiel:
 
 [.BLOCK_LANG_EN]
-A list of books is available in three formats: HTML, PDF, and mp3 (a recording
-of a person reading the book).
-To avoid hearing the title of each book three times (once for each format),
-the first link for each book is the title of the book, the second link says
-"PDF" and the third says, "mp3."
+--
+> A list of books is available in three formats: HTML, PDF, and mp3 (a recording of a person reading the book). To avoid hearing the title of each book three times (once for each format), the first link for each book is the title of the book, the second link says "PDF" and the third says, "mp3."
 
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[
-Link Purpose (In Context): Understanding SC 2.4.4: Examples of Success
-Criterion 2.4.4])
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html#examples[
+WCAG 2.1, Link Purpose (In Context): Understanding SC 2.4.4: Examples of Success
+Criterion 2.4.4]
+--
 
 === Aussagekraft über den Kontext
 
 [.BLOCK_LANG_EN]
 --
-Whenever possible, provide link text that identifies the purpose of the link
-without needing additional context.
+> Whenever possible, provide link text that identifies the purpose of the link without needing additional context.
+> 
+> In some situations, authors may want to provide part of the description of the link in logically related text that provides the context for the link.
+In this case the user should be able to identify the purpose of the link without moving focus from the link. In other words, they can arrive on a link and find out more about it without losing their place. This can be achieved by putting the description of the link in the same sentence, paragraph, list item, the heading immediately preceding the link, or table cell as the link, or in the table header cell for a link in a data table, because these are directly associated with the link itself.
 
-In some situations, authors may want to provide part of the description of the
-link in logically related text that provides the context for the link.
-In this case the user should be able to identify the purpose of the link
-without moving focus from the link.
-In other words, they can arrive on a link and find out more about it without
-losing their place.
-This can be achieved by putting the description of the link in the same
-sentence, paragraph, list item, the heading immediately preceding the link, or
-table cell as the link, or in the table header cell for a link in a data
-table, because these are directly associated with the link itself.
+https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
+WCAG 2.1, Link Purpose (In Context): Understanding SC 2.4.4]
 --
-
-(https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html[
-Link Purpose (In Context): Understanding SC 2.4.4])
