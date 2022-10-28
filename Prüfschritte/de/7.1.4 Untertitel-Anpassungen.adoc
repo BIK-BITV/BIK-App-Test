@@ -44,7 +44,7 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 === EN 301 549 V3.2.1
 [.BLOCK_LANG_EN]
-=== 7.1.4 Captions characteristics
+==== 7.1.4 Captions characteristics
 
 [.BLOCK_LANG_EN]
 --
@@ -53,4 +53,12 @@ Where ICT displays captions, it shall provide a way for the user to adapt the di
 NOTE 1: Defining the background and foreground colour of subtitles, font type, size opacity of the background box of subtitles, and the contour or border of the fonts can contribute to meeting this requirement.
 
 NOTE 2: Subtitles that are bitmap images are examples of unmodifiable characters.
+--
+=== ITU T.701.25 
+
+==== Empfehlungen für die Audio-Darstellung von Text in Videos, einschließlich Untertitel und andere Texte im Bild (ITU Version, Englisch, kostenlos)
+
+[.BLOCK_LANG_EN]
+--
+* https://www.itu.int/rec/T-REC-T.701.25-202203-I/en[T.701.25 : Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text (itu.int)]
 --
