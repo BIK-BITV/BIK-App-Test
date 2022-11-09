@@ -2,35 +2,49 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Dieser Prüfschritt basiert auf dem Kriterium 11.5.2.10 Text der EN 301 549.
-
 == Was wird geprüft?
 
-Textinhalte in der Software sind generell für den Screenreader zugänglich.
-Textattribute sind verfügbar, wenn dies generell von der Software
-vorgesehen ist.
-Beispiele für Textattribute sind fett, kursiv oder unterstrichen.
-In einer Textverarbeitung müssen diese Attribute z. B. auch für den
-Screenreader-Nutzer ausgegeben werden können.
+Wenn eine App Text enthält, soll der Text für Screenreader-Nutzende zugänglich sein. Wenn Apps die Bearbeitung von Text bieten und die Auszeichnung von Texten unterstützen (etwa die Setzung der Textattribute fett oder kursiv), sollen diese Textattribute auch für Hilfsmittelnutzende verfügbar sein.
 
-Außerdem muss Der Screenreader-Nutzer herausfinden können, welche
-Informationen gerade auf dem Display angezeigt werden (Viewport).
+Außerdem müssen Screenreader-Nutzende herausfinden können, welche Informationen gerade auf dem Display angezeigt werden (Viewport).
+
+== Warum wird das geprüft? 
+
+Texte in einer App müssen nicht nur sichtbar, sondern auch für Hilfsmittel-Nutzende zugänglich sein. Werden von einer App Möglichkeiten der Textverabeitung geboten, sollen  Hilfsmittel-Nutzende Textattribute erkennen, also auslesen können.
 
 == Wie wird geprüft?
 
-Mit dem Screenreader die Software navigieren und prüfen, ob alle sichtbaren
-Texte auch von der Hilfsmittel-Software erkannt werden.
+=== 1. Anwendbarkeit des Prüfschritts
 
-Dabei wird mit eingeschaltetem SR überprüft, ob die Sichtbaren Elemente auch
-vom Screenreader ausgegeben werden.
-Auf Geräten mit Touch-Display können die Sichtbaren Elemente angetippt
-werden, die Ausgabe vom SR sollte dann mit dem zu sehenden Element
-übereinstimmen.
+Der Prüfschritt ist anwendbar, wenn Apps Texte enthalten. Die zusätzliche Prüfung der Textauszeichnung ist anwendbar, wenn Apps Textbearbeitungsfunktionen bieten.
 
-Prüfen, ob es auch Möglichkeiten gibt, Textattribute mittels Screenreader
-anzuzeigen, wenn dies von der Software generell angeboten wird.
+=== 2. Prüfung
+
+==== 2.1 Prüfung der Textausgabe
+
+. Screenreader aktivieren
+. Vom Beginn der Ansicht bis zum Ende alle editierbaren Textinhalte  mit Wischgesten durchlaufen
+. Prüfen, ob alle sichtbaren Elemente auch vom Screenreader ausgegeben werden
+. Auf Geräten mit Touch-Display können die sichtbaren Textinhalte angetippt werden, die Ausgabe des Screenreaders sollte den sichtbaren Textinhalt enthalten. 
+
+==== 2.2 Prüfung der Textauszeichnung
+
+Falls die Software grundsätzlich Möglichkeiten bietet, Text-Attribute zu ändern (z.B. Text zu fetten, kursiv zu setzen oder zu unterstreichen) prüfen, ob es Möglichkeiten gibt, diese Textattribute mittels Screenreader auszulesen. Dies ist meist nur bei Textbearbeitungsprogrammen der Fall. 
+
+===== Prüfung der Textauszeichnung in iOS / VoiceOver
+. Gibt es editierbaren Text? Falls ja:
+.. Über Rotor-Option 'Textauswahl' über horizontale Wischgeste einen kleinen Textbereich mit gesetztem Textattribut (etwa Fettung) auswählen.
+.. Im Rotor schauen, ob die Option "Aktionen" und darin (vertikale Wischgeste) die Option "Textformat" verfügbar ist.  Diese durch Doppeltippen aufrufen.
+.. Gesetztes Textformat auswählen, ggf. zusätzlich prüfen, ob es sich ändern lässt (z.B. über VoiceOver die Auswahl "fett" für den ausgewählten Text entfernen und wieder setzen). 
+. Falls nein, Prüfung abbrechen.
+
+===== Prüfung Textauszeichnung in Android
+. Gibt es editierbaren Text? Falls ja:
+.. Auswählen: "Talkback-Menü" (Wischgeste nach oben und rechts)  > "Bearbeitungsoptionen" > "Auswahlmodus starten oder beenden"
+.. Mit vertikalen Wischgesten Text auswählen.
+.. Wenn in der Software vorhanden, Bedienelement für Textauszeichnung fokussieren (etwa "B" für "fett") und überprüfen, ob der Zustand richtig ausgegeben wird. 
+.. Über Talkback-Menü > Aktionen > "Formatierung der aktuellen Auswahl vorlesen" prüfen, ob der Stil des Textes korrekt ausgggeben wird.
+. Falls nein, Prüfung abbrechen.
 
 == Quellen
 
