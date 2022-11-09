@@ -3,20 +3,34 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+Wenn sich Werte von programmatisch ermittelbaren Attrivuten ändern, sollen Screenreader diese Zustandsänderung ausgeben. So sollte etw nach Auswahl einer Checkbox der Zustand ausgegeben werden ("markiert" / "nicht markiert" oder nach Auswählen einer Option in einer Auswahlliste der Auswahlzustand. Ändern sich durch Nutzereingaben visuell Werte an anderen Stellen als auf dem aktuell fokussierten Element, sollten diese über programmatisch ermittelbare Statusmeldungen ausgegeben werden (z.B., nach Hinzfügung eines Produkts auf einer Shopping-Website, "2 Objekte im Warenkorb", oder, nach Anwendung eines Filters auf eine Suchergebniss Liste, "42 Ergebnisse").
 
 == Warum wird das geprüft?
+Zustandsänderungen, die für Nutzende visuell verfügbar sind, sollen auch für nicht-visuelle Nutzende programmatisch ermittelbar sein und zurückgemeldet werden.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Bedienelemente hat, die durch Eingaben von Nutzenden ihren Wert ändern können oder den Wert einer sichtbaren Ausgabe auf der gleichen Ansicht ändern (etwa über einen geänderten Status). Beispiele sind Checkboxen, Radio-Inputs, Auswahllisten, Umschalter.
 
 === 2. Prüfung
 
+Die Prüfung folgt im Wesentlichen der Prüfung in 9.4.1.2 Name, Rolle, Wert. 
+
+. Bedienelemente werden mit dem Screenreader und dokumentierten Gesten aktiviert, Werte werden geändert. 
+. Erfolgt eine Ausgabe der geänderten Werte?
+. Sind dort Werte nicht programmatisch ermittelbar, ist neben "9.4.1.2 Name, Rolle, Wert verfügbar" auch dieser Prüfschritt nicht erfüllt. 
+. Sind geänderte Werte zwar prinzipiell programmatisch korrekt ermittelbar, aber ohne dass der Wert direkt nach der Eingabe ausgegeben wird, ist dieser Prüfschritt ggf. nicht erfüllt. 
+
 === 3. Hinweise
+
+Bei der Bewertung der Ausgabe geänderter Werte sind die Unterstützung der jeweiligen Bedienelemente durch Hilfsmittel zu berücksichtigen. Abhängig von dee Umgebung (User Agent / Hilfsmittel) kann es sein, dass bestimmte Zustandsänderungen nicht ausgegeben werden, obwohl sie semantisch korrekt umgesetzt wurden. Sind diese Bedienelemente in anderen Umgebungen ausreichend unterstützt, ist die fehlende Änderungsmitteilung nicht als Mangel / Nichterfüllung dieses Prüfschritts zu betrachten.
 
 === 4. Bewertung
 
 ==== Erfüllt:
+
+Geänderte Werte werden nach der Interaktion mit Bedienelementen ausgegeben.
 
 == Einordnung des Prüfschritts
 
