@@ -125,3 +125,4 @@ endif::env_embedded[]
 ==== Android Developer: ====
 * https://developer.android.com/guide/topics/ui/accessibility/apps[Make apps more accessible]
 * https://developer.android.com/reference/android/accessibilityservice/package-summary[android.accessibilityservice]
+* https://medium.com/google-developer-experts/state-descriptions-on-android-b2029283871f[State Descriptions on Android]
