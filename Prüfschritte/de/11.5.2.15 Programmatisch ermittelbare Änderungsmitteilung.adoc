@@ -3,7 +3,7 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
-Wenn sich Werte von programmatisch ermittelbaren Attrivuten ändern, sollen Screenreader diese Zustandsänderung ausgeben. So sollte etw nach Auswahl einer Checkbox der Zustand ausgegeben werden ("markiert" / "nicht markiert" oder nach Auswählen einer Option in einer Auswahlliste der Auswahlzustand. Ändern sich durch Nutzereingaben visuell Werte an anderen Stellen als auf dem aktuell fokussierten Element, sollten diese über programmatisch ermittelbare Statusmeldungen ausgegeben werden (z.B., nach Hinzfügung eines Produkts auf einer Shopping-Website, "2 Objekte im Warenkorb", oder, nach Anwendung eines Filters auf eine Suchergebniss Liste, "42 Ergebnisse").
+Wenn sich bei Bedienelementen oder Statusanzeigen Werte von programmatisch ermittelbaren Attributen ändern, sollen Screenreader diese Zustandsänderung ausgeben. So sollte etwa nach Auswahl einer Checkbox der Zustand ausgegeben werden (markiert / nicht markiert) oder nach Auswählen einer Option in einer Auswahlliste der Auswahlzustand (ausgewählt / nicht ausgewählt). Ändern sich durch Nutzereingaben visuell Werte an anderen Stellen als auf dem aktuell fokussierten Element, sollten diese über programmatisch ermittelbare Statusmeldungen ausgegeben werden (z.B., nach Hinzfügung eines Produkts auf einer Shopping-Website, "2 Objekte im Warenkorb", oder, nach Anwendung eines Filters auf eine Suchergebniss Liste, "42 Ergebnisse").
 
 == Warum wird das geprüft?
 Zustandsänderungen, die für Nutzende visuell verfügbar sind, sollen auch für nicht-visuelle Nutzende programmatisch ermittelbar sein und zurückgemeldet werden.
@@ -15,12 +15,13 @@ Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Bedienelemente hat,
 
 === 2. Prüfung
 
-Die Prüfung folgt im Wesentlichen der Prüfung in 9.4.1.2 Name, Rolle, Wert. 
+Die Prüfung folgt im Wesentlichen der Prüfung in 9.4.1.2 Name, Rolle, Wert und 9.4.1.3 Statusmeldungen.
 
 . Bedienelemente werden mit dem Screenreader und dokumentierten Gesten aktiviert, Werte werden geändert. 
 . Erfolgt eine Ausgabe der geänderten Werte?
 . Sind dort Werte nicht programmatisch ermittelbar, ist neben "9.4.1.2 Name, Rolle, Wert verfügbar" auch dieser Prüfschritt nicht erfüllt. 
 . Sind geänderte Werte zwar prinzipiell programmatisch korrekt ermittelbar, aber ohne dass der Wert direkt nach der Eingabe ausgegeben wird, ist dieser Prüfschritt ggf. nicht erfüllt. 
+. Werden visuell verfügbare Statusmeldungen oder Statusänderungen nicht ausgegeben, ist nicht nur der Prüfschritt 9.4.1.3 Statusmeldungen, sondern auch dieser Prüfschritt nicht erfüllt.
 
 === 3. Hinweise
 
