@@ -17,8 +17,8 @@ Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Bedienelemente hat,
 
 Die Prüfung folgt im Wesentlichen der Prüfung in 9.4.1.2 Name, Rolle, Wert und 9.4.1.3 Statusmeldungen.
 
-. Bedienelemente werden mit dem Screenreader und dokumentierten Gesten aktiviert, Werte werden geändert. 
-. Erfolgt eine Ausgabe der geänderten Werte?
+. Bedienelemente und Bearbeitungsoptionen werden mit dem Screenreader und dokumentierten Gesten aktiviert, Werte werden geändert. Dazu gehören prinzpiell auch geänderte Werte bei der Auswahl und Bearbeitung von Text.
+. Erfolgt eine Ausgabe der geänderten Werte bzw. Zustände?
 . Sind (geänderte) Werte nicht programmatisch ermittelbar, ist neben "9.4.1.2 Name, Rolle, Wert verfügbar" auch dieser Prüfschritt nicht erfüllt. 
 . Sind geänderte Werte zwar prinzipiell programmatisch korrekt ermittelbar, aber ohne dass der Wert direkt nach der Eingabe ausgegeben wird, ist dieser Prüfschritt ggf. nicht erfüllt (vergl. aber 3. Hinweise). 
 . Werden visuell verfügbare Statusmeldungen oder Statusänderungen nicht ausgegeben, ist nicht nur der Prüfschritt 9.4.1.3 Statusmeldungen, sondern auch dieser Prüfschritt nicht erfüllt.
