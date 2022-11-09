@@ -25,7 +25,7 @@ Die Prüfung folgt im Wesentlichen der Prüfung in 9.4.1.2 Name, Rolle, Wert und
 
 === 3. Hinweise
 
-Bei der Bewertung der Ausgabe geänderter Werte sind die Unterstützung der jeweiligen Bedienelemente durch Hilfsmittel zu berücksichtigen. Abhängig von dee Umgebung (User Agent / Hilfsmittel) kann es sein, dass bestimmte Zustandsänderungen nicht ausgegeben werden, obwohl sie semantisch korrekt umgesetzt wurden. Sind diese Bedienelemente in anderen Umgebungen ausreichend unterstützt, ist die fehlende Änderungsmitteilung nicht als Mangel / Nichterfüllung dieses Prüfschritts zu betrachten.
+Bei der Bewertung der Ausgabe geänderter Werte sind die Unterstützung der jeweiligen Bedienelemente durch Hilfsmittel / User Agents zu berücksichtigen. Abhängig von der jeweiligen Nutzungs-Umgebung kann es sein, dass bestimmte Zustandsänderungen nicht ausgegeben werden, obwohl sie semantisch korrekt umgesetzt wurden. Sind diese Bedienelemente in mehreren anderen Umgebungen ausreichend unterstützt, ist die fehlende Änderungsmitteilung nicht als Mangel / Nichterfüllung dieses Prüfschritts zu betrachten (sollte aber dennoch angemerkt werden).
 
 === 4. Bewertung
 
