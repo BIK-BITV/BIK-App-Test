@@ -2,43 +2,46 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== 1. Was wird geprüft?
+== Was wird geprüft?
 
-Wenn für ein Element in der App Aktionen durchgeführt werden können,
-müssen diese auch für den Screenreader-Nutzer ersichtlich sein.
+Wenn in der App Funktionen (bzw. Aktionen) angeboten werden, müssen diese auch für Screenreader-Nutzende ermittelbar sein.
 
-== 2. Wie wird geprüft?
-
-=== 2.1 Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält.
-
-=== 2.2 Prüfung
 Für einfache interaktive Elemente ist die primäre Aktion in der Regel über Beschriftung und Rolle ausreichend klar, etwas "Senden - Schaltfläche" oder "Nutzungsbedingungen - Link". Bei manchen Elementen sind weitere Aktrionen verfügbar, besonders bei gruppierten Elementen. Für diese ist zu prüfen, welche Aktionen grundsätzlich auf dem Element durchführbar sind, und ob diese  Aktionen auch über den Screnreader ausgegeben werden und aktivierbar sind. 
 
 * Ein Beispiel für ein Element mit verschiedenen Aktionen ist ein Listeneintrag in einer Mail-App. Während die primäre Aktion die jeweilige Mail anzeigt, können  die einzelnen Mails in der Liste z. B. durch Wischgesten gelöscht, markiert oder archiviert werden. Die gleiche Funktionen müssen über Screenreader-Nutzende verfügbar sein.
 * Ein anders Beispiel: Eine Karte mit gruppierten Inhalten - etwa eine Nahverkehrsverbindung mit Abfahrtszeit, Fahrtdauer, Verkehrsmittel, und Ticketpreis - wird als ein Fokuspunkt vom Screenreader erreicht. Doppeltipp-Aktivieren geht zu einer Detail-Ansicht der Verbindung. Über den Aufruf einer hinterlegten Aktion kann aber auch ein Ticken-Kaufen-Ansicht erreicht werden, der in der Ansicht ohne Screenreader durch Antippen des Preises innerhalb der Karte erreicht wird.
 * Ein drittes Beispiel: Bei Fokussierung von Text in Eingabefeldern gibt es Bearbeitungsoptionen (z.B. Text auswählen, Kopieren, Ausschnieden, Einfügen). Diese Funktionen müssen auch über den Screenreader aktivierbar sein.
 
-==== 2.2.1 iOS
+== Warum wird das geprüft?
+Screenreader-Nutzende sollen den gleichen Funktionsumfang zur Verfügung haben wir andere Nutzende. Dazu müssen nicht nur die primären Funktionen, etwa Aufrufen einer Detailansicht, sondern auch sekundäre Funktionen wie Löschen, Markieren, Liken, Ablegen, Verschieben, Teilen, Editieren usw. verfügbar sein.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält.
+
+=== 2. Prüfung
+
+==== 2.1 iOS
 
 . Elemente mit aktivertem VoiceOver über Wischgesten durchlaufen. 
-. Elemente fokussieren, die nicht klar nur einer Aktion zuzuordnen sind und vielleicht mehrere getrennte Aktionen aufrufen könnten (das ist oft bei gruppierten Elementen wie Listen- oder Rastereinträgen und bei Karten der Fall)
+. Elemente fokussieren, die nicht klar nur einer Aktion zuzuordnen sind und ggf. mehrere getrennte Aktionen aufrufen könnten (das ist oft bei gruppierten Elementen wie Listen- oder Rastereinträgen und bei Karten der Fall)
 . Mit der VoiceOver-Rotor-Einstellung "Aktionen" und vertikalen Wischgesten und ggf. Aktivieren über Doppeltippen prüfen, ob Aktionen auf diesem Element im nächsten Schritt (oder in weiteren Schritten) erreichbar sind. 
-. Sind alle visuell verfügbaren Aktionen auch bei Nutzung von VoiceOver erreichbar?
+. Sind alle visuell verfügbaren Funktionen auch bei Nutzung von VoiceOver erreichbar?
 
-==== 2.2.2 Android
+==== 2.2 Android
 
 . Elemente mit aktiviertem Talkback über Wischgesten durchlaufen. 
-. Elemente fokussieren, die nicht klar einer einzigen Aktion zuzuordnen sind und vielleicht mehrere getrennte Aktionen aufrufen könnten (das ist oft bei gruppierten Elementen wie Listen- oder Rastereinträgen und bei Karten der Fall).
-. Über gestische Eingaben (Doppeltippen, vertikale Wischgesten, usw.) prüfen, ob  Aktionen auf diesem Element im nächsten Schritt (oder in weiteren Schritten)  erreicht werden können. Die Verfügbarkeit kann ggf. über die Ausgabe "Aktionen verfügbar" kommuniziert werden, oder auch (nach Vorlesen des Elements) über die Ausgabe zweier verschiedener Gesten, etwa "Zum Auswählen doppeltippen, Zum Tickets kaufen doppeltippen und halten".
-. Sind alle visuell verfügbaren Aktionen auch bei Nutzung von VoiceOver erreichbar?
+. Elemente fokussieren, die nicht klar einer einzigen Aktion zuzuordnen sind und ggf. mehrere getrennte Aktionen aufrufen könnten (das ist oft bei gruppierten Elementen wie Listen- oder Rastereinträgen und bei Karten der Fall).
+. Über gestische Eingaben (Doppeltippen, vertikale Wischgesten, usw.) prüfen, ob Aktionen auf diesem Element im nächsten Schritt (oder in weiteren Schritten) erreicht werden können. Die Verfügbarkeit kann ggf. über die Ausgabe "Aktionen verfügbar" kommuniziert werden, oder auch (nach Vorlesen des Elements) über die Ausgabe zweier verschiedener Gesten, etwa "Zum Auswählen doppeltippen, Zum Tickets kaufen doppeltippen und halten".
+. Sind alle visuell verfügbaren Funktionen auch bei Nutzung von TalkBack erreichbar?
 
 === 3. Hinweise
 
-* Manche Aktionen sind erst über mehrere Schritte erreichbar, z.B. über Aktiveren von Optionen wie "mehr" oder "weitere". Es ist nicht erforderlich, dass der Weg zur Funktion mit und ohne Nutzung des Screenreaders gleich ist bzw. die gleiche Anzahl von Schritten beinhaltet.
+* Manche Funktionen sind erst über mehrere Schritte erreichbar, z.B. über Aktivieren von Optionen wie "mehr" oder "weitere" und dann folgende Auswahlen. Es ist nicht erforderlich, dass der Weg zur Funktion mit und ohne Nutzung des Screenreaders gleich ist bzw. die gleiche Anzahl von Schritten beinhaltet.
 * Manchmal sind einzelne interaktive Elemente innerhalb gruppierter Elemente nicht über Wischgesten getrennt fokussierbar. Das ist zu akzeptieren, solange die entsprechende Funkion über den Ausruf von Aktionen auf dem Element erreicht werden kann. 
 
-== Quellen
+== 4. Quellen
 
 === EN 301 549 v.3.2.1
 
