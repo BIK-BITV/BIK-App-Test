@@ -48,7 +48,7 @@ Falls die Software grundsätzlich Möglichkeiten bietet, Text-Attribute zu ände
 
 == Quellen
 
-=== Auszug EN 301 549 V.3.2.1
+=== EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.10 Text 
