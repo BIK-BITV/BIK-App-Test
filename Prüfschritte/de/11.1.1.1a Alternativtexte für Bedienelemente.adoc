@@ -163,7 +163,7 @@ endif::env_embedded[]
 === EN 301 549 V.3.2.1
 
 
-=== Anleitungen zum Erstellen guter Textalternativen
+==== Anleitungen zum Erstellen guter Textalternativen
 
 * W3C Web Accessibility Tutorials:
   https://www.w3.org/WAI/tutorials/images/[Images Concepts]
