@@ -2,11 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
-11.5.2.12 Execution of available actions.
-
 == Was wird geprüft?
 Die im Prüfschritt
 ifdef::env_embedded[11.5.2.11 "Aktionen programmatisch ermittelbar"]
@@ -23,7 +18,7 @@ Screenreader ausgeführt.
 
 == Quellen
 
-=== Auszug EN 301 549
+EN 301 549 v.3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.12 Execution of available actions 
