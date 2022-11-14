@@ -3,8 +3,7 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
-Wenn sich bei Bedienelementen oder Statusanzeigen Werte von programmatisch ermittelbaren Attributen ändern, sollen Screenreader diese Zustandsänderung ausgeben. So sollte etwa nach Auswahl einer Checkbox der Zustand ausgegeben werden (markiert / nicht markiert) oder nach Auswählen einer Option in einer Auswahlliste der Auswahlzustand (ausgewählt / nicht ausgewählt). Ändern sich durch Nutzereingaben visuell Werte an anderen Stellen als auf dem aktuell fokussierten Element, sollten diese über programmatisch ermittelbare Statusmeldungen ausgegeben werden (z.B., nach Hinzfügung eines Produkts auf einer Shopping-Website, "2 Objekte im Warenkorb", oder, nach Anwendung eines Filters auf eine Suchergebniss Liste, "42 Ergebnisse").
-Beispiele: 
+Wenn sich bei Bedienelementen oder Statusanzeigen Werte von programmatisch ermittelbaren Attributen ändern, sollen Screenreader diese Zustandsänderung ausgeben. So sollte etwa nach Auswahl einer Checkbox der Zustand ausgegeben werden (markiert / nicht markiert) oder nach Auswählen einer Option in einer Auswahlliste der Auswahlzustand (ausgewählt / nicht ausgewählt). Ändern sich durch Nutzereingaben visuell Werte an anderen Stellen als auf dem aktuell fokussierten Element, sollten diese über programmatisch ermittelbare Statusmeldungen ausgegeben werden. Beispiele: 
 
 * Direkt nach Aktivierung einer Custom-Checkbox oder eines Switches wird der Zustand ausgegeben (etwa ausgeschaltet/eingeschaltet, ausgewählt/nicht ausgewählt, ausgewählt / zum Auswählen doppeltippen, oder An/Aus)
 * Direkt nach Aktivierung einer einer Einstellungsoption wird der eingestellte Wert ausgegeben
