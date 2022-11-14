@@ -17,7 +17,7 @@ Zustandsänderungen, die für Nutzende visuell verfügbar sind, sollen auch für
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Bedienelemente hat, die durch Eingaben von Nutzenden ihren Wert ändern können oder den Wert einer sichtbaren Ausgabe auf der gleichen Ansicht ändern (etwa über einen geänderten Status). Beispiele sind Checkboxen, Radio-Inputs, Auswahllisten, Umschalter.
+Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Bedienelemente hat, die durch Eingaben von Nutzenden ihren Wert ändern können oder den Wert einer sichtbaren Ausgabe auf der gleichen Ansicht ändern (etwa über einen geänderten Status).
 
 === 2. Prüfung
 
