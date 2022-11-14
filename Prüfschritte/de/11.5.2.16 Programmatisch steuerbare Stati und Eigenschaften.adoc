@@ -3,12 +3,12 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
-Interaktive Elemente, die verschiedene Zustände haben, sollen sich auch mit aktivierten Hilfsmitteln bedienen lassen können. Das heißt: Wenn sich mittels  Interaktion Zustände interaktiver Elemente ändern lassen, soll dies auch mit eingeschaltetem Screenreader funktionieren. Für Standard-Elemente ist dies in der Regel gegeben. Das Augenmerk bei der Prüfung liegt deshalb hauptsächlich auf Custom-Elementen und Custom-Widgets. Beispiele: 
+Interaktive Elemente, die verschiedene Zustände haben (z.B. an- und ausgeschaltet) sollen auch mit eingeschaltetem Screenreader bedienbar sein. Für Standard-Elemente ist dies in der Regel gegeben. Das Augenmerk bei der Prüfung liegt deshalb hauptsächlich auf Custom-Elementen und Custom-Widgets. Beispiele: 
 
 * eine Custom-Checkbox lässt sich markieren
 * die Option einer Auswahlliste bzw. Combobox lässt sch fokussieren und aktivieren
 * ein Ausklappmenü oder ein Ausklappbereich lässt sich öffnen und schließen
-* der Reiter eines Tabpanels lässt sich fokussieren (ein neues Panel wird angezeigt)
+* der Reiter eines Tabpanels lässt sich fokussieren bzw. aktivieren (ein neues Panel wird angezeigt)
 * Der Wert eines interaktiven Reglers (z.B zur Einstellung von Lautstärke, Preisspanne, Zeitraum usw.) lässt sich ändern
 * ein Schalter lässt sich aktivieren/deaktivieren und zeigt dann den jeweiligen Zustand an
 
