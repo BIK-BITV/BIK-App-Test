@@ -5,15 +5,15 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Die Eigenschaften von Bedienelementen der App sollen programmatisch ermittelbar sein.
-Die Elemente sollen also beispielsweise durch einen Screenreader ausgegeben werden können.
+Dann können die zum Beispiel druch einen Screenreader sinnvoll ausgegeben werden.
 
 Im Einzelnen sollen die folgenden Eigenschaften programmatisch ermittelbar sein:
 
-* *Name* bzw. Bezeichnung des Elements, z. B. "absenden"
-* *Description* bzw. Beschreibung des Elements, z. B. "Das Formular wird abgeschickt."
-* *Role* bzw. die Rolle oder der Typ des Bedienelements, z. B. "Button"
-* *State* bzw. der Status des Bedienelements, z. B. "deaktiviert"
-* *Boundarys* bzw. die Grenzen eines Bedienelements, z. B. ein Wertebereich von 1 bis 50
+* *Name (name)* des Bedienelements: Dies kann die Beschriftung sein z.B. "Senden", "Bestellen", Sortieren" usw. Bei Icons (Menü mit Hamburger-Icon, Suchen-Lupe, Filter-Symbol usw.) soll der Name die Funktion bezeichen, also "Menü", "Suchen", "Filtern"
+* *Rolle (role)* des Bedienelements: Diese gibt den Typ des Bedienelements, z. B. "Taste" (iOS) bzw. Schaltfläche" (Android) oder "Textfeld" (iOS) bzw. "Bearbeitungsfeld" (Android)
+* *Zustand (state)* des Bedienelements: Zum Beispiel "aktiviert"/"nicht aktiviert", "ein"/"aus", ausgewählt / nicht ausgewählt, "67 Prozent"
+* *Grenzen (boundary)* bzw. der Werte eines Bedienelements, z. B. "Prozent" (n von 100) oder Preisspanne 300 - 500
+* *Beschreibung (description)* des Bedienelements: Dies kann eine zusätzliche Beschreibung des Elements sein
 
 Insbesondere der Status und die Bedienelement-Grenzen (Boundarys) sollten nur dann vermittelt werden, wenn diese auch visuell durch das Bedienelement vermittelt werden
 
