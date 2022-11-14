@@ -3,20 +3,33 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+Interaktive Elemente, die verschiedene Zustände haben (z.B. an- und ausgeschaltet) sollen auch mit eingeschaltetem Screenreader bedienbar sein. Für Standard-Elemente ist dies in der Regel gegeben. Das Augenmerk bei der Prüfung liegt deshalb hauptsächlich auf Custom-Elementen und Custom-Widgets. Beispiele: 
+
+* eine Custom-Checkbox lässt sich markieren
+* die Option einer Combobox lässt sich fokussieren und aktivieren
+* ein Ausklappmenü oder ein Ausklappbereich lässt sich öffnen und schließen
+* die Reiter eines Tabpanels lassen sich fokussieren bzw. aktivieren (die zum Tab gehörenden Panel werden angezeigt)
+* der Wert eines interaktiven Reglers (z.B zur Einstellung von Lautstärke, Preisspanne, Zeitraum usw.) lässt sich ändern
+* ein Schalter lässt sich aktivieren/deaktivieren und zeigt dann den jeweiligen Zustand an
 
 == Warum wird das geprüft?
+Selbst-gestaltete interaktive Elemente (Custom-Elemente und -Widgets) sollen sich auch von Hilfsmittel-Nutzenden gut bedienen lassen.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist immer anwendbar, wenn die Seite interaktive Elemente enthält, die verschiedene Zustände haben können.
 
 === 2. Prüfung
+Die Prüfung folgt im wesentlichen der Prüfung in 11.4.1.2 Name, Rolle, Wert. Nicht nur bei der initialen Fokussierung sollen zugänglicher Name, Rolle und Wert von Elementen und Widgets ausgegeben werden. Generell verfügbare Zustände müssen sich auch bei eingeschaltetem Screenreader ändern lassen.
 
 === 3. Hinweise
+In der Regel kann die Bewertung bei Prüfgschritt 11.4.1.2 hier übernommen werden. Kann bei eingeschaltetem Screenreader der Wert nicht geändert werden, sind sowohl Prüfschritt 11.4.1.2 als auch dieser Prüfschritt nicht erfüllt. Dieser Prüfschritt betrachtet die Möglichkeit, den Wert wirksam zu setzen, nicht die Ausgabe des geänderten Wertes. Dies ist Gegenstand bvon Prüfschritt 11.5.2.16.
 
 === 4. Bewertung
 
 ==== Erfüllt:
+Alle Werte interaktiver Elemente lassen sich mit aktiviertem Screenreader ändern.
 
 == Einordnung des Prüfschritts
 
