@@ -37,6 +37,12 @@ Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält b
 . Manchmal sind mehrere Aktivierungsgesten verfügbar die bei Fokussierung des Elements ausgegeben werden, etwa "Zum Auswählen doppeltippen, Zum Tickets kaufen doppeltippen und halten".
 . Wird die programmatisch verfügbare Funktion nach der entsprechenden Aktivierung auch ausgeführt? 
 
+=== 3. Hinweise
+
+==== 3.1 Hinweise zur Teamprüfung
+
+Hier ist bei der Teamprüfung (nicht-visuelle Prüfende mit sehender Assistenz) bei Aktiverung ggf. visuell zu überprüfen, ob die Interaktion erfolgreich war, wenn dies mit dem Screenreader nicht unmittelbar nachvollziehbar ist (etwa durch Meldung eines geänderten Zustands).
+
 == Quellen
 
 EN 301 549 v.3.2.1
