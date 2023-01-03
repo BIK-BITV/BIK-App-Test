@@ -20,10 +20,22 @@ Wenn in der App Funktionen (bzw. Aktionen) ermittelbar sind, müssen diese auch 
 == Warum wird das geprüft?
 Screenreader-Nutzende sollen den gleichen Funktionsumfang zur Verfügung haben wir andere Nutzende. Dazu gehören nicht nur die primären Funktionen, etwa Aufrufen einer Detailansicht, sondern auch sekundäre Funktionen wie Löschen, Markieren, Liken, Ablegen, Verschieben, Teilen oder Editieren.
 
-
 == Wie wird geprüft?
 
-Die angebotenen Aktionen für ein Element werden testweise mittels Screenreader ausgeführt.
+=== 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält bei denen vom Screenreader über die Rolle (Link, Schalter) oder die Ansage einer sekundären Funktion (Details aufrufen, Markieren, Löschen, Bearbeiten, usw.) eine Funktion ermittelbar ist.
+
+=== 2. Prüfung
+
+==== 2.1 iOS
+. Die Prüfung ergänzt den in Prüfschritt 11.5.2.11 beschriebenen Ablauf. Alle von Voiceover ausgegebenen Aktionen müssen auch aktivierbar sein, in der Regel durch Doppeltippen an beliebiger Stelle auf dem Display.
+. Wird die programmatisch verfügbare Funktion nach Aktivierung auch ausgeführt? 
+
+==== 2.2 Android
+
+. Die Prüfung ergänzt den in Prüfschritt 11.5.2.11 beschriebenen Ablauf. Alle von Talkback ausgegebenen Aktionen müssen auch aktivierbar sein, zum Beispiel durch Doppeltippen an beliebiger Stelle auf dem Display.
+. Manchmal sind mehrere Aktivierungsgeste verfügbar, die bei Fokussierung ausgegeben werden, etwa "Zum Auswählen doppeltippen, Zum Tickets kaufen doppeltippen und halten".
+. Wird die programmatisch verfügbare Funktion nach Aktivierung auch ausgeführt? 
 
 == Quellen
 
