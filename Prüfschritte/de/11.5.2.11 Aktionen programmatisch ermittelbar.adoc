@@ -37,9 +37,13 @@ Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält.
 . Sind alle visuell verfügbaren Funktionen auch bei Nutzung von TalkBack erreichbar?
 
 === 3. Hinweise
-
+==== 3.1 Allgemeine Hinweise
 * Manche Funktionen sind erst über mehrere Schritte erreichbar, z.B. über Aktivieren von Optionen wie "mehr" oder "weitere" und dann folgende Auswahlen. Es ist nicht erforderlich, dass der Weg zur Funktion mit und ohne Nutzung des Screenreaders gleich ist bzw. die gleiche Anzahl von Schritten beinhaltet.
 * Manchmal sind einzelne interaktive Elemente innerhalb gruppierter Elemente nicht über Wischgesten getrennt fokussierbar. Das ist zu akzeptieren, solange die entsprechende Funkion über den Ausruf von Aktionen auf dem Element erreicht werden kann. 
+
+==== 3.2 Hinweise zur Teamprüfung
+
+Hier ist bei der Teamprüfung (nicht-visuelle Prüfende mit sehender Assistenz) beim Durchlaufen der Ansichten und Elemente genau darauf zu achten, ob visuell angebotene Interaktioen, die nicht getrennt fokussiert werden, über den Aufruf von Aktionen mit den jeweiligen Mitteln unter iOS u. Android erreichbar sind.
 
 == 4. Quellen
 
