@@ -34,8 +34,8 @@ Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält b
 ==== 2.2 Android
 
 . Die Prüfung ergänzt den in Prüfschritt 11.5.2.11 beschriebenen Ablauf. Alle von Talkback ausgegebenen Aktionen müssen auch aktivierbar sein, zum Beispiel durch Doppeltippen an beliebiger Stelle auf dem Display.
-. Manchmal sind mehrere Aktivierungsgeste verfügbar, die bei Fokussierung ausgegeben werden, etwa "Zum Auswählen doppeltippen, Zum Tickets kaufen doppeltippen und halten".
-. Wird die programmatisch verfügbare Funktion nach Aktivierung auch ausgeführt? 
+. Manchmal sind mehrere Aktivierungsgesten verfügbar die bei Fokussierung des Elements ausgegeben werden, etwa "Zum Auswählen doppeltippen, Zum Tickets kaufen doppeltippen und halten".
+. Wird die programmatisch verfügbare Funktion nach der entsprechenden Aktivierung auch ausgeführt? 
 
 == Quellen
 
