@@ -1,0 +1,46 @@
+= Prüfschritt 6.5.6 Sprecher-Anzeige für Gebärdensprachen-Kommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn eine App Videotelefonie unterstützt und die Aktivität von Sprechenden angezeigt wird, soll dies auch für Nutzende von Gebärdensprache gewährleistet sein.
+
+== Warum wird das geprüft?
+
+Die Anzeige einer Gebärden-Eingabe ermöglicht Nutzenden die Wahrnehmung, dass jemand gerade Eingaben in Gebärdensprache macht und wer dies tut.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn eine App Videotelefonie unterstützt und eine Anzeige der Sprechaktivität von Sprechenden bietet.
+
+=== 2. Prüfung
+
+. Die Ansicht der App auf zwei Geräten mit abweichenden Nutzenden-Konten öffnen.
+. Videotelefonieverbindung zwischen den beiden Instanzen der App herstellen.
+. Auf dem verbundenen Gerät die Eingabe von Gebärden starten.
+. Prüfen, 
+* ob die App die Möglichkeit bietet, den Start einer Gebärden-Eingabe manuell zu signalisieren ((d.h. die Anzeige des Aktivitätszustandes zu aktivieren) oder
+* die Eingabe von der App automatisch erkannt und in Folge der Aktivitäts-Zustand automatisch gesetzt wird.
+. Prüfen, ob die Aktivität der Gebärden-Eingabe wahrnehmbar ist.
+
+=== 3. Hinweise
+
+* Es spielt für die Überprüfung vermutlich keine Rolle, ob die Eingabe von Gebärdensprachen-Kundigen vorgenommen wird oder nur ähnliche Bewegungen gemacht werden, eine Eingabe also nur simuliert wird.
+* Für den Indikator der Aktivität von Gebärdenden gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
+
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zu diesem Prüfschritt eröffnen.
+
+== Quellen
+
+=== EN 301 549 V3.2.1
+
+==== 6.5.6 Speaker identification with video (sign language) communication
+
+Where ICT provides speaker identification for voice users, it shall provide a means for speaker identification for real-time signing and sign language users once the start of signing has been indicated.
+
+NOTE 1: The speaker ID can be in the same location as for voice users for multiparty calls.
+
+NOTE 2: This mechanism might be triggered manually by a user, or automatically where this is technically achievable.

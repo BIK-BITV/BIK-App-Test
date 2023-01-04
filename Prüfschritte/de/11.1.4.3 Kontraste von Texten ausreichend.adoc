@@ -4,156 +4,79 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Alle Texte der Software-Ansicht sollen ausreichende Helligkeitskontraste haben.
-Sie sollen auch für farbfehlsichtige Benutzer wahrnehmbar sein.
+Alle Texte der App-Ansicht sollen ausreichende Helligkeitskontraste haben.
 
 == Warum wird das geprüft?
 
-Wenn Vordergrund- und Hintergrundfarbe sich in der Helligkeit ähneln, haben
-sie unter Umständen zu wenig Kontrast, wenn sie mit Schwarzweiß-Monitoren
-oder von Menschen mit verschiedenen Arten von Farbenschwäche betrachtet werden.
+Wenn Vordergrund- und Hintergrundfarbe keinen ausreichenden Helligkeitsunterschied haben, haben Texte zu wenig Kontrast. Gute Kontraste sorgen dafür, dass Nutzende Texte leichter lesen können. Insbesondere Menschen, die aufgrund einer reduzierten Sehschärfe, einer Farbfehlsichtigkeit oder aufgrund des Alters eine verminderte Kontrastempfindlichkeit haben, profitieren von guten Kontrasten.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software-Ansicht Text enthält.
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält. Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
 
-Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
+=== 2. Prüfung
+* Für die Bewertung zählt das https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio[Kontrastverhältnis] (relative luminosity) nach einer in den WCAG 2.1 definierten Formel, die der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[Color Contrast Analyzer] handhabbar macht.
 
-=== Prüfung
+==== 2.1 Prüfung der Textkontraste der Standardversion
 
-. Screenshots erstellen, falls vorhanden, kontrastreichere Version über den
-  Style-Switcher der App, einbeziehen (ggf. vorher Zoomfunktion nutzen, um
-  eine größere Fläche für die Pipette zur Verfügung zu haben).
-  Unter iOS/iPadOS können Screenshots mit der Tastenkombination von Power- und
-  Home-Button erstellt werden.
-  Bei Geräten ohne Home-Button nutzt man die Kombination von Power- und
-  Lauter-Taste.
-. Screenshots an den PC übertragen (unter iOS/iPadOS: Gerät mittels
-  USB-Kabel an den Rechner anschließen und im Datei-Explorer das iPhone/iPad
-  auswählen).
-. Screenshots am PC öffnen und mit dem Contrast-Analyzer untersuchen.
+. App mit zu prüfender Ansicht öffnen.
+. Screenshots erstellen (gegebenenfalls vorher die Zoomfunktion nutzen, um eine größere Fläche für die Kontrastmessung zur Verfügung zu haben.):
+ * iOS/iPadOS: Screenshot mit der Tastenkombination Power- und Home-Taste erstellen. Bei Geräten ohne Home-Button nutzt man die Kombination von Power- und Lauter-  
+   Taste.
+ * Android: Screenshot mit der Tastenkombination Power- und Leiser-Taste erstellen.
+. Screenshots an den PC übertragen: 
+ * iOS/iPadOS und Android: Gerät mittels USB-Kabel an den Rechner anschließen und im Datei-Explorer auswählen.	
+. Sind die Schriftkontraste stark genug? Screenshots am PC öffnen und im Zweifel mit dem Contrast-Analyzer untersuchen:
+ * Im Bereich *Vordergrund* mit der Pipette die Vordergrundfarbe auswählen, dann im Bereich *Hintergrund* die Hintergrundfarbe.
+. Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter  Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt.
+. Für große Schriften ist ein Mindestkontrastverhältnis von nur 3:1 gefordert. Die Schriftgrößen-Unterscheidung ist derzeit jedoch aufgrund fehlender Werkzeuge nicht 
+  oder nur ungenau möglich.
 
-==== Prüfung der Textkontraste der Standardversion
+==== 2.2. Prüfung der Textkontraste der alternativen kontrastreicheren Ansicht (Styleswitcher-Prüfung)
 
-. Sind die Schriftkontraste stark genug?
-  Im Zweifel den Contrast Analyzer öffnen.
-  Schriftfarbe und Hintergrundfarbe auswählen und Kontrastverhältnis prüfen.
-. Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter Schrift)
-  prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt.
-  Zur Zeit ist die Bestimmung der genauen Schriftgröße auf mobilen Geräten
-  zum Teil nur bedingt möglich bzw. nicht praktikabel.
-. Für große Schriften prüfen, ob das Kontrastverhältnis bei 3:1 oder
-  größer liegt.
+Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die Ansicht eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
 
-==== Styleswitcher-Prüfung
-
-Prüfung der Textkontraste der alternativen kontrastreicheren Ansicht
-
-Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die
-Ansicht eine kontrastreichere Ansicht über einen Styleswitcher anbietet:
-
-. Textkontrast des Styleswitcher-Schaltelements prüfen.
-  Das Kontrastverhältnis muss 4,5:1 oder besser sein, und auch die anderen
-  Anforderungen (zum Beispiel tastaturbedienbar) müssen erfüllt sein.
-  Sonst abbrechen.
+. Screenshots erstellen und an den PC übertragen (vergleiche Prüfung der Textkontraste der Standardversion).
+. Textkontrast des Styleswitcher-Schaltelements prüfen. Das Kontrastverhältnis muss 4,5:1 oder besser sein und auch die anderen Anforderungen müssen erfüllt sein. Sonst abbrechen.
 . Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
-. Textkontraste der alternativen Ansicht prüfen (wie bei der Prüfung der
-  Textkontraste der Standardversion).
+. Screenshots erstellen und an den PC übertragen.
+. Textkontraste der alternativen Ansicht prüfen (entsprechend Prüfung der Textkontraste der Standardversion).
 
-=== Hinweise
+=== 3.1 Hinweise auf Messungenauigkeiten
+* Screenshots geben die tatsächlichen Farben nicht immer richtig wieder (siehe https://webaim.org/discussion/mail_thread?thread=10162[Disskusionsfaden in Webaim Mailing List]).
+* Bei Messungen mittels der Pipette des Color Contrast Analyzers kann es bei kleineren Schriften zu Fehlmessungen kommen: Der Randbreich der Schriften ist wegen des Anti-Aliasings oft näher am Kontrastwert des Hintergrundes, der Wert scheint dann ungenügend, obwohl er normativ ggf. ausreicht. Bei App-Screenshots ist es nicht wie bei Web-Angeboten möglich, vor der Messung hineinzuzoomen, um bei einer besseren Strichstärke der Schrift eine zuverlässigere Messung vorzunehmen. Gegebenenfalls ist aber bei dynamischen Schriften die Erhöhung der Schriftgröße über die Einstellungen in den Bedienungshilfen sinnvoll. Messungen im Grenzbereich der geforderten Kontrastwerte sollten diese Unsicherheitsfaktoren berücksichtigen und ggf. benennen.
+* Für große und kleine Schriften gelten unterschiedliche Richtwerte. Bei Apps ist die Schriftgrößen-Unterscheidung derzeit nur bedingt anwendbar. Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender Werkzeuge nicht oder nur ungenau möglich. Prüfende Personen müssen an dieser Stelle anhand ihrer Erfahrung urteilen. Falls Ihnen geeignete Werkzeuge und Methoden bekannt sind, weisen Sie uns gerne in einem https://github.com/BIK-BITV/BIK-App-Test/issues[GitHub Issue] darauf hin.
 
-==== Allgemeine Hinweise
+==== 3.2 Allgemeine Hinweise
+* Elemente, die unterschiedliche Zustände haben können, sollten immer ausreichend kontrastieren. Das bedeutet, auch die farblich hervorgehobene, aktuell ausgewählte
+  Menüoption oder Links, die in anderen Zuständen in einer anderen Farbe dargestellt werden.
+* Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit einer App erleichtern. Ein Beispiel: Funktionen, die prinzipiell vorgesehen, aktuell aber nicht
+  verfügbar sind, werden schwach kontrastierend dargestellt. Das ist akzeptabel, wenn das ausgeblendete Element für die Orientierung und Bedienung nicht erforderlich
+  ist. Der Prüfschritt ist daher auf die Beschriftungen ausgeblendeter, deaktivierter Bedienelemente in der Regel nicht anwendbar.
+* Der Farbkontrast von Textvorbelegungen von Formularfeldern muss die Mindest-Anforderung von 4,5:1 erfüllen. Ausgenommen sind Textvorbelegungen, wenn eine redundante sichtbare Beschriftung die Kontrastanforderung erfüllt. Als Beschriftung zählt bei Suchfeldern auch ein konventionelles Icon, das die Anforderung für Grafikkontraste erfüllt (vergl. Prüfschritt 9.1.4.11). Wenn zusätzliche Informationen (etwa Datumsformat) im Platzhalter-Text stehen, gilt diese Ausnahme nicht, der Platzhalter-Text muss dann den Kontrast von 4,5:1 erfüllen.
 
-Elemente, die unterschiedliche Zustände haben können, sollten immer
-ausreichend kontrastieren.
-Also zum Beispiel: auch die farblich hervorgehobene, aktuell ausgewählte
-Menüoption; auch in einer anderen Farbe dargestellte, besuchte Links.
-Für die Bewertung entscheidend ist der jeweils schlechtere Helligkeitskontrast.
-
-Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit einer
-App erleichtern.
-Ein Beispiel dafür:
-Funktionen, die prinzipiell vorgesehen, aktuell aber nicht verfügbar sind,
-werden schwach kontrastierend dargestellt.
-Das ist akzeptabel, wenn das ausgeblendete Element für die Orientierung und
-Bedienung nicht erforderlich ist.
-Der Prüfschritt ist daher auf die Beschriftungen ausgeblendeter,
-deaktivierter Bedienelemente in der Regel nicht anwendbar.
-
-Bei Bereichen, die mit Farbwechseln auf den Mauszeiger reagieren, kann ein
-Screenshot helfen, den Farbwert im "Ruhezustand" zu ermitteln.
-Alternativ kann man den Fokuszustand über Tastaturbedienung erzeugen und dann
-den Kontrast mit der Pipette des Contrast Analyzer messen.
-
-Wenn Kontraste dünner Schriften zu prüfen sind, gegebenenfalls Schrift
-vergrößern und die Schriftenglättung, falls möglich, ausschalten.
-
-Sollen die Farbwerte sehr kleiner Bereiche (feine Schriften oder kleine Icons)
-ermittelt werden, ist es unter Umständen einfacher, ein Screenshot zu
-erstellen und die leistungsfähigeren Zoom- und Pipettenwerkzeuge eines
-Bildbearbeitungsprogramms zu nutzen.
-
-Der Farbkontrast von Textvorbelegungen von Formularfeldern erfüllt oft nicht
-die Mindest-Anforderung von 4,5:1.
-
-==== Hinweise zur Prüfung von Ansichten mit Styleswitcher
+==== 3.3 Hinweise zur Prüfung von Ansichten mit Styleswitcher
 
 Die Kontrastprüfung auf durch Styleswitcher aufgerufenen kontrastreicheren
 Ansicht erfolgt nur unter folgenden Bedingungen:
 
 * Das Style-Switcher-Element ist am Beginn der Ansicht platziert.
-* Das Schaltelement hat ein Kontrastverhältnis von mindestens 4.5:1 und
-  erfüllt auch die anderen Anforderungen an Barrierefreiheit (es ist zum
-  Beispiel tastaturbedienbar)
+* Das Schaltelement hat ein Kontrastverhältnis von mindestens 4.5:1 und erfüllt auch die anderen Anforderungen an Barrierefreiheit.
 * Die alternative kontrastreichere Ansicht muss dieselben Informationen und dieselbe Funktionalität aufweisen wie die Ausgangsansicht.
 
-===== Hinweise zur Messung des Kontrastverhältnisses
-
-NOTE: Für Apps ist die Schriftgrößen-Unterscheidung z. Z. nur bedingt anwendbar.
-Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender
-Werkzeuge nicht oder nur ungenau möglich.
-Prüfer müssen an dieser Stelle anhand ihrer Erfahrung urteilen.
-Falls Ihnen geeignete Werkzeuge und Methoden bekannt sind, weisen Sie uns gerne
-darauf in einem https://github.com/BIK-BITV/BIK-App-Test/issues[GitHub Issue] hin.
-
-Für die Bewertung zählt das Kontrastverhältnis (relative luminosity) nach
-einer in den WCAG 2.1 definierten Formel.
-
-Die Prüfung der Kontraste für normalen Text und großen Text orientiert sich
-an den gemessenen Werten der Schriftgröße in Pixel (Web Developer Toolbar,
-Funktion Elementinformationen einblenden), denn eine Messung der tatsächlich
-dargestellten Punktgröße auf dem Bildschirm mit einem Typometer ist nicht
-praktikabel.
-Bei einer Bildschirmauflösung von 96 dpi entsprechen 18 Punkt etwa 24 Pixeln bzw. 6,35 mm,
-14 Punkt entsprechen etwa 18,7 Pixeln bzw. 4,94 mm.
-
-Die Messung des Pixel-Äquivalents ist dadurch gerechtfertigt, dass die bisher
-getesteten User Agents die Auszeichnung in Pixel und Punkt analog behandeln
-(im Verhältnis 4:3), also unabhängig von der Bildschirmauflösung, unter der
-der Text angezeigt wird.
-Richtiger wäre es, wenn User Agents die Bildschirmauflösung auswerten
-würden, um die Ausgabegröße zu berechnen (also mehr Pixel pro Punkt bei
-höher auflösenden Bildschirmen).
-Für die Prüfung maßgeblich ist der Referenzwert von 96 dpi
-Bildschirmauflösung, für den die Entsprechung auf jeden Fall gilt.
-
-=== Bewertung
+=== 4. Bewertung
 
 *Erfüllt:*
 
-* Das Kontrastverhältnis (contrast ratio) zwischen Vorder- und
-  Hintergrundfarbe liegt für Texte unter 18 Punkt (beziehungsweise für fette
-  Texte unter 14 Punkt) bei mindestens 4,5:1.
+* Das Kontrastverhältnis (contrast ratio) zwischen Vorder- und Hintergrundfarbe liegt für Texte unter 18 Punkt (beziehungsweise für fette Texte unter 14 Punkt) bei 
+  mindestens 4,5:1.
+* Das Kontrastverhältnis (contrast ratio) zwischen Vorder- und Hintergrundfarbe liegt bei Texten in großer Schriftgröße (18 Punkt und größer, 14 Punkt und größer bei 
+  fetter Schrift) bei mindestens 3:1.
 
-* Das Kontrastverhältnis (contrast ratio) zwischen Vorder- und
-  Hintergrundfarbe liegt bei Texten in großer Schriftgröße (18 Punkt und
-  größer, 14 Punkt und größer bei fetter Schrift) bei mindestens 3:1.
-
-* Wenn die Anforderung nur über eine alternative Ansicht erfüllt wird,
-  erfüllt der Styleswicher selbst die Kontrastforderung von 4,5:1 und andere
-  Anforderungen an Barrierefreiheit.
+* Wenn die Anforderung nur über eine alternative Ansicht erfüllt wird, erfüllt der Styleswicher selbst die Kontrastforderung von 4,5:1 und andere
+ Anforderungen an Barrierefreiheit.
 
 == Einordnung des Prüfschritts
 
@@ -161,8 +84,7 @@ Bildschirmauflösung, für den die Entsprechung auf jeden Fall gilt.
 
 ==== Guideline
 
-* https://www.w3.org/TR/WCAG21/#distinguishable[Guideline 1.4 Distinguishable:
-  Make it easier for users to see and hear content including separating
+* https://www.w3.org/TR/WCAG21/#distinguishable[Guideline 1.4 Distinguishable:Make it easier for users to see and hear content including separating
   foreground from background]
 
 ==== Success criteria
@@ -211,24 +133,13 @@ Wie zuverlässig ist es?
 
 Zwei Punkte sind hier zu beachten:
 
-* Der Helligkeitskontrast ist nur einer von drei Einflussgrößen für den
-  Gesamtkontrast.
-  Insofern ist klar, dass das Ergebnis für den Helligkeitskontrast nicht dem
-  subjektiven Eindruck entspricht.
-  Es soll gar nicht dem subjektiven Gesamteindruck entsprechen, denn
-  schließlich geht es darum, ob die Helligkeitsunterschiede der Farben für sich
-  genommen ausreichend kontrastieren.
-  Wenn man normalsichtig ist, entspricht der subjektive Eindruck der
-  Graustufenansicht dagegen schon eher dem Formelergebnis.
-* Farben benachbarter Flächen beeinflussen die Wahrnehmung, kleine und dünne
-  Schriften erscheinen kontrastärmer, es gibt Überstrahleffekte,
-  möglicherweise werden die Kontraste durch Schriftenglättung abgeschwächt.
-  Die Formel berücksichtigt all diese Faktoren nicht.
-  Zumindest wenn es um Texte geht, ist dies auch angemessen.
-  Denn die genannten Einflüsse stehen nicht fest, sie hängen zum Beispiel
-  von der gewählten Schriftgröße ab.
+* Der Helligkeitskontrast ist nur einer von drei Einflussgrößen für den Gesamtkontrast. Insofern ist klar, dass das Ergebnis für den Helligkeitskontrast nicht dem
+  subjektiven Eindruck entspricht. Es soll gar nicht dem subjektiven Gesamteindruck entsprechen, denn schließlich geht es darum, ob die Helligkeitsunterschiede der 
+  Farben für sich genommen ausreichend kontrastieren. Wenn man normalsichtig ist, entspricht der subjektive Eindruck der Graustufenansicht dagegen schon eher dem 
+  Formelergebnis.
+* Farben benachbarter Flächen beeinflussen die Wahrnehmung, kleine und dünne Schriften erscheinen kontrastärmer, es gibt Überstrahleffekte, möglicherweise werden die
+  Kontraste durch Schriftenglättung abgeschwächt. Die Formel berücksichtigt all diese Faktoren nicht. Zumindest wenn es um Texte geht, ist dies auch angemessen. Denn 
+  die genannten Einflüsse stehen nicht fest, sie hängen zum Beispiel von der gewählten Schriftgröße ab.
 
 Für die Prüfung bedeutet das:
-Wer mit der formelbasierten Bewertung von Helligkeitskontrasten noch keine
-Erfahrungen hat, kann sich nicht auf seinen subjektiven Eindruck verlassen.
-Er muss die Formel fast auf alle Farbkombinationen anwenden.
+Wer mit der formelbasierten Bewertung von Helligkeitskontrasten noch keine Erfahrungen hat, kann sich nicht auf seinen subjektiven Eindruck verlassen. Er muss die Formel fast auf alle Farbkombinationen anwenden.

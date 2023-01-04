@@ -4,24 +4,22 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die Software-Ansicht enthält keine Elemente, die in einem Zeitraum von einer
-Sekunde häufiger als dreimal aufblitzen.
+Die App-Ansicht enthält keine Elemente, die in einem Zeitraum von einer Sekunde häufiger als dreimal aufblitzen.
 
 == Warum wird das geprüft?
 
-Bei Menschen mit Epilepsie kann längeres Flackern in bestimmten Frequenzen
-einen Anfall auslösen.
+Bei Menschen mit Epilepsie kann längeres Flackern in bestimmten Frequenzen einen Anfall auslösen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== Prüfung
+=== 2. Prüfung
 
-Gibt es in der Software-Ansicht flackernde Inhalte, die nicht spätestens nach
-dreimaligem Flackern in einem Zeitraum von einer Sekunde aufhören?
+. App mit zu prüfender Ansicht öffnen. 
+. Gibt es in der App-Ansicht flackernde Inhalte, die nicht spätestens nach dreimaligem Flackern in einem Zeitraum von einer Sekunde aufhören?
 
 Zur Einschätzung der Größe des flackernden Bereichs kann, wenn nötig, die
 WCAG 2.1

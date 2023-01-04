@@ -5,19 +5,15 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 UI-Elemente, die durch andere UI-Elemente beschriftet werden, sollen diese Beschriftung programmatisch ermittelbar zur Verfügung stellen.
-Ein Eingabefeld, das lediglich durch einen nebenstehenden Button beschriftet wird, soll zum Beispiel  selbst die Beschriftung, die es durch den Button erhält, programmatisch zur Verfügung stellen.
-Diese Art der Beschriftung taucht bspw. häufig bei Suchfunktionen auf, ein Button folgt auf ein Eingabefeld, nur der Button ist mit "suchen" beschriftet.
-Programmatisch ermittelbar ist die Beschriftung des Eingabefelds in diesem Fall, wenn die Beschriftung "suchen" beim Antippen des Eingabefelds mit aktiviertem Screenreader vorgelesen wird.
+Ein Eingabefeld, das lediglich durch einen nebenstehenden Button beschriftet wird, soll zum Beispiel selbst die Beschriftung, die es durch den Button erhält, programmatisch zur Verfügung stellen.
+Diese Art der Beschriftung taucht zum Beispiel häufig bei Suchfunktionen auf: Ein Button folgt auf ein Eingabefeld, nur der Button ist mit "Suchen" beschriftet.
+Programmatisch ermittelbar ist die Beschriftung des Eingabefelds in diesem Fall, wenn die Beschriftung "Suchen" beim Fokussieren des Eingabefelds mit aktiviertem Screenreader vorgelesen wird. Auch ein Antippen des Elements führt zu dieser Ausgabe.
 
 == Warum wird das geprüft?
 
-Screenreader geben die Elemente auf dem Bildschirm nacheinander aus,  eine visuell vermittelte Verbindung von Bedien- und anderen UI-elementen zueinander können Nutzer dieser assistiven Software  nicht immer  in vergleichbarer Weise herstellen.
-Bedienelemente müssen daher auch, wenn sie im Verbund eingesetzt werden, jeweils einzeln eine programmatisch ermittelbare Beschriftung erhalten, um eine effiziente und leicht zu verstehende Bedienung zu ermöglichen.
+Screenreader geben die Elemente auf dem Bildschirm nacheinander aus. Den visuellen Zusammenhang zwischen Bedienelement und Beschriftung können Screenreader-Nutzende nicht immer in vergleichbarer Weise herstellen. So werden in manchen Screenreader-Navigationsmodi bestimmte Elemente gezielt durchlaufen, etwa nur Steuerelemente. Wird ein Element, etwa ein Eingabefeld, auf diese Weise fokussiert, soll die programmatisch zugeordnete oder hinterlegte Beschriftung ausgegeben werden. Bedienelemente müssen daher, auch wenn die Zuordnung der Beschriftung visuell klar ist, eine programmatisch ermittelbare Beschriftung haben, um eine effiziente Bedienung zu ermöglichen.
 
-Damit die Beschriftungsinformation nicht doppelt durch den Entwickler gepflegt werden muss (sichtbare Beschriftung und Accessibility-Label), soll das Bedienelement ohne Beschriftung programmatisch auf die Beschriftung des beschriftenden Bedienelements verweisen.
-Sobald sich die Beschriftung ändert, erhält das Bedienelement ohne sichtbare Beschriftung ebenfalls den neuen Text und kann diesen als Accessibility-Label an das System melden.
-Der Screenreader kann somit beim antippen des Bedienelements ohne sichtbare Beschriftung ein passendes Label ausgeben.
-Diese Art, ein Accessibility-Label bereitzustellen ist robuster als die separate Pflege von sichtbarer Beschriftung und einem Accessibility-Label.
+Damit die Beschriftungsinformation nicht doppelt gepflegt werden muss (sichtbare Beschriftung und Accessibility-Label), sollten Bedienelemente ohne Beschriftung programmatisch auf deren nebenstehende Beschriftung verweisen. Sobald sich die Beschriftung ändert, erhält das Bedienelement ohne sichtbare Beschriftung dann ebenfalls ein aktualisiertes Accessibility-Label. So kann beim Fokussieren des Bedienelements ohne sichtbare Beschriftung die aktuelle Beschriftung ausgeben werden. Diese Art, ein Accessibility-Label bereitzustellen, ist robuster als die separate Pflege von sichtbarer Beschriftung und einem Accessibility-Label.
 
 == Wie wird das geprüft?
 
@@ -28,18 +24,26 @@ Der Prüfschritt ist anwendbar, wenn Bedienelemente eingesetzt werden, die ledig
 === 2. Prüfung
 
 . Screenreader starten
-. auf Bedienelement ohne Beschriftung tippen, es sollte die Beschriftung des beschrifteten Bedienelements ausgegeben werden
+. Bedienelemente mit nebenstehender Beschriftung mit dem Screenreader fokussieren. Es sollte jeweils die nebenstehende sichtbare Beschriftung (oder eine gleichwertige programmatisch hinterlegte Beschriftung) ausgegeben werden.
 
 === 3. Hinweise
 
-Ob das vom Screenreader ausgegebene Accessibility-Label wirklich vom beschriftenden UI-Element stammt, kannnicht mit letzter Gewissheit festgestellt werden.
-Hier kann nur geprüft werden, ob das Accessibility-Label, für das Bedienelement ohne sichtbare Beschriftung, gleichlautend zur Beschriftung des beschriftenden Elements ist.
+* Im Wesentlichen gleicht die Prüfung in diesem Prüfschritt der Prüfung in Prüfschritt 11.1.3.1e "Beschriftung von Formularelementen programmatisch ermittelbar". In der Regel kann einfach auf diesen Prüfschritt verwiesen werden.
+* Ob das vom Screenreader ausgegebene Accessibility-Label wirklich vom beschriftenden Element stammt oder getrennt als AccessibilityLabel hinterlegt ist, kann nicht festgestellt werden, wenn beide gleichlautend sind.
+* Es wird hier nicht negativ bewertet, wenn die programmatische und die sichtbare Beschriftung nicht identisch sind bzw. die sichtbare Beschriftung nicht im zugänglichen Namen enthalten ist. Dies ist Gegenstand von Prüfschritt 11.2.5.3 "Sichtbare Beschriftung Teil des zugänglichen Namens".
 
 === 4. Bewertung
 
 ==== Erfüllt:
 
+* Bei Fokussierung von Bedienelementen mit nebenstehender Beschriftung wird diese Beschiftung als Name ausgegeben.
+* Ein gleichwertiger, programmatisch hinterlegter Name wird bei Fokussierung des Bedienelements ausgegeben. 
+
 == Einordnung des Prüfschritts
+
+=== Abgrenzung des Prüfschritts
+
+In Prüfschritt 11.2.5.3 "Sichtbare Beschriftung Teil des zugänglichen Namens" wird geprüft, ob die sichtbare Beschriftung im programmatisch ermittelbaren Namen des Bedienelements vorkommt. Es kann also Fälle geben, wo dieser Prüfschritt erfüllt ist, da statt der Verknüpfung der sichtbaren Beschriftung eine hinterlegte gleichwertige Beschriftung programmatisch ermittelbar ist, jedoch Prüfschritt 11.2.5.3 nicht erfüllt wäre, wenn die exakte Zeichenfolge der sichtbaren Beschriftung nicht im programmatisch ermittelbaren Namen vorkommt.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 

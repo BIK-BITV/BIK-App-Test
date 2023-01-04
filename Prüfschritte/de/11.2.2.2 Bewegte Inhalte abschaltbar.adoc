@@ -4,86 +4,51 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Ablenkung durch blinkende oder sich bewegende Elemente soll vermieden werden,
-auf 5 Sekunden begrenzt sein oder abschaltbar sein.
+Ablenkung durch blinkende oder sich bewegende Elemente soll vermieden werden, auf 5 Sekunden begrenzt sein oder abschaltbar sein.
 
-Bewegte oder automatisch aktualisierte Inhalte, z. B. periodisch wechselnde
-Nachrichten-Aufmacher (Teaser) sollen zum Lesen anhaltbar sein.
+Bewegte oder automatisch aktualisierte Inhalte, z. B. periodisch wechselnde Nachrichten-Aufmacher (Teaser) sollen zum Lesen anhaltbar sein.
 
 == Warum wird das geprüft?
 
-Benutzer haben Schwierigkeiten, Software zu nutzen, die mit blinkenden
-oder sich bewegenden Elementen (zum Beispiel Werbung) ausgestattet sind.
-Solche Elemente lenken ab.
-Der Benutzer kann sich möglicherweise nicht auf
-andere Inhalte konzentrieren.
+Nutzende haben Schwierigkeiten, Apps zu nutzen, die mit blinkenden oder sich bewegenden Elementen (zum Beispiel Werbung) ausgestattet sind. Solche Elemente lenken ab. Der Benutzer kann sich möglicherweise nicht auf andere Inhalte konzentrieren.
 
-Viele Benutzer haben außerdem Schwierigkeiten, blinkende oder bewegte Inhalte
-zu lesen, etwa bei Newstickern.
+Viele Nutzende haben außerdem Schwierigkeiten, blinkende oder bewegte Inhalte zu lesen, etwa bei Newstickern.
 
-Interaktive bewegte Inhalte können für Benutzer mit motorischen
-Einschränkungen problematisch sein.
+Interaktive bewegte Inhalte können für Nutzende mit motorischen Einschränkungen problematisch sein.
 
-Automatisch aktualisierte Nachrichten-Aufmacher (Teaser) ändern
-unangekündigt die angezeigten Inhalte und stören dadurch die Wahrnehmung und
-Orientierung.
-Das beeinträchtigt besonders Nutzer von Bildschirmvergrößerungssoftware und
-solche, die mehr Zeit zum Lesen brauchen.
-Bei Screenreader-Nutzern kann es zu unvermittelten Fokus-Verschiebungen kommen.
+Automatisch aktualisierte Nachrichten-Aufmacher (Teaser) ändern unangekündigt die angezeigten Inhalte und stören dadurch die Wahrnehmung und Orientierung. Das beeinträchtigt besonders Nutzende von Bildschirmvergrößerungssoftware und solche, die mehr Zeit zum Lesen brauchen. Bei Menschen, die einen Screenreader nutzen, kann es zu unvermittelten Fokus-Verschiebungen kommen.
 
-Schaltflächen zum Beenden der Bewegung sind problematisch.
-Sie müssen erst einmal gefunden werden, bevor Benutzer mit ihnen die Bewegung
-stoppen können.
-Da sie zur Zeit sehr selten eingesetzt werden, erwarten und erkennen Benutzer
-sie häufig nicht.
+Schaltflächen zum Beenden der Bewegung sind problematisch. Sie müssen erst einmal gefunden werden, bevor Benutzer mit ihnen die Bewegung stoppen können. Da sie zur Zeit sehr selten eingesetzt werden, erwarten und erkennen Benutzer sie häufig nicht.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar wenn blinkende, bewegte oder automatisch
-aktualisierte Inhalte automatisch starten, länger als fünf Sekunden aktiv
-sind und parallel zu anderen Inhalten dargestellt werden.
+Der Prüfschritt ist anwendbar wenn blinkende, bewegte oder automatisch aktualisierte Inhalte automatisch starten, länger als fünf Sekunden aktiv sind und parallel zu anderen Inhalten dargestellt werden.
 
-=== Prüfung
+=== 2. Prüfung
 
-Falls die zu testende Ansicht in der Software blinkende, bewegte oder
-automatisch aktualisierte Inhalte enthält, die parallel zu anderen
-Inhalten dargestellt wird, zum Beispiel Nachrichten-Aufmacher (Teaser),
-laufende Texte, oder animierte Werbung:
+Falls die zu testende Ansicht in der App blinkende, bewegte oder automatisch aktualisierte Inhalte enthält, die parallel zu anderen Inhalten dargestellt wird, zum Beispiel Nachrichten-Aufmacher (Teaser), laufende Texte, oder animierte Werbung:
 
-* Prüfen, ob die Bewegung innerhalb von 5 Sekunden nach Anzeige der Ansicht
-  von selbst aufhört.
-* Falls das nicht der Fall ist: Feststellen, ob sich auf der Ansicht eine
-  Schaltfläche befindet, mit der man die Bewegung stoppen kann, eine
-  gleichwertige nicht-animierte Version der Ansicht laden kann, oder ob es eine
-  klare Anweisung gibt, wie die Bewegung mit der Tastatur angehalten werden
-  kann.
-* Prüfen, ob das Aktivieren der Schaltfläche oder des Tastatur-Shortcuts die
-  Bewegung tatsächlich anhält und sie auch nicht wieder von allein erneut
-  beginnt.
-* Prüfen, ob das erneute Aktivieren der Schaltfläche die Bewegung wieder in
-  Gang setzt, und zwar von dem Punkt aus, der beim letztem Anhalten erreicht
-  war.
+* Prüfen, ob die Bewegung innerhalb von 5 Sekunden nach Anzeige der Ansicht von selbst aufhört.
+* Falls das nicht der Fall ist: Feststellen, ob sich auf der Ansicht eine Schaltfläche befindet, mit der man die Bewegung stoppen kann, eine gleichwertige nicht-animierte Version der Ansicht laden kann, oder ob es eine klare Anweisung gibt, wie die Bewegung mit der Tastatur angehalten werden kann.
+* Prüfen, ob das Aktivieren der Schaltfläche oder des Tastatur-Shortcuts die Bewegung tatsächlich anhält und sie auch nicht wieder von allein erneut beginnt.
+* Prüfen, ob das erneute Aktivieren der Schaltfläche die Bewegung wieder in Gang setzt, und zwar von dem Punkt aus, der beim letztem Anhalten erreicht war.
 
-=== Hinweise
+=== 3. Hinweise
 
-Die Schaltfläche oder die Anweisung, mit der man die Bewegung anhalten kann,
-muss eindeutig sein und deutlich sichtbar am Beginn der Ansicht oder direkt
+* Die Schaltfläche oder die Anweisung, mit der man die Bewegung anhalten kann, muss eindeutig sein und deutlich sichtbar am Beginn der Ansicht oder direkt
 oberhalb des bewegten Inhalts platziert sein.
 
-Alle Inhalte müssen nach dem Anhalten der Bewegung verfügbar bleiben.
+* Alle Inhalte müssen nach dem Anhalten der Bewegung verfügbar bleiben.
 
-Es spielt keine Rolle, ob es sich bei den blinkenden oder sich bewegenden
-Inhalten um Werbung oder um redaktionelle Inhalte handelt.
+* Es spielt keine Rolle, ob es sich bei den blinkenden oder sich bewegenden Inhalten um Werbung oder um redaktionelle Inhalte handelt.
 
-=== Bewertung
+=== 4. Bewertung
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
-* Bewegung endet nicht von allein, bewegte und automatisch aktualisierte
-  Inhalte können nicht angehalten, ausgeblendet oder in ihrer
-  Aktualisierungsfrequenz angepasst werden.
+* Bewegung endet nicht von allein, bewegte und automatisch aktualisierte Inhalte können nicht angehalten, ausgeblendet oder in ihrer Aktualisierungsfrequenz angepasst werden.
 
 == Einordnung des Prüfschritts
 

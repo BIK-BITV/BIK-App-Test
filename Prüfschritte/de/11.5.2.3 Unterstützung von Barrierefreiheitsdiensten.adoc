@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die App soll für die Erfüllung der Barrierefreiheitsanforderungen die vom Betriebssystem dazu bereitgestellten Dienste und -Schnittstellen nutzen.
+Die App soll für die Erfüllung der Barrierefreiheitsanforderungen die vom Betriebssystem dazu bereitgestellten Dienste und Schnittstellen nutzen.
 Nur wenn die App die Barrierefreiheitsanforderungen durch die vom Betriebssystem bereitgestellten Barrierefreiheitsdienste- und -Schnittstellen nicht erfüllen kann, nutzt sie andere Dienste oder Schnittstellen, um die Anforderungen zu erfüllen.
 
 == Warum wird das geprüft?
@@ -41,7 +41,7 @@ Eine App, die z. B. ohne besonderem Grund selbstsprechend ist (eingebaute Sprach
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 11.5.2.3 Use of accessibility services
 
@@ -53,11 +53,10 @@ Eine App, die z. B. ohne besonderem Grund selbstsprechend ist (eingebaute Sprach
 ____
 [.BLOCK_LANG_EN]
 --
-Where the software provides a user interface it shall use the applicable documented platform accessibility services.
-If the documented platform accessibility services do not allow the software to meet the applicable requirements of clauses 11.5.2.5 to 11.5.2.17, then software that provides a user interface shall use other documented services to interoperate with assistive technology.
+Where the software provides a user interface it shall use the applicable documented platform accessibility services. If the documented platform accessibility services do not allow the software to meet the applicable requirements of clauses 11.5.2.5 to 11.5.2.17, then software that provides a user interface shall use other documented services to interoperate with assistive technology.
 
-NOTE:
-The term "documented platform accessibility services" refers to the set of services provided by the platform according to clauses 11.5.2.1 and 11.5.2.2.
+NOTE: The term "documented platform accessibility services" refers to the set of services provided by the platform according to clauses 11.5.2.1 and 11.5.2.2.
+
 It is best practice to develop software using toolkits that automatically implement the underlying platform accessibility services.
 --
 ____
@@ -73,22 +72,15 @@ ____
 --
 Platform software shall provide a set of documented platform services that enable software that provides a user interface running on the platform software to interoperate with assistive technology.
 
-Where a user interface concept corresponding to one of the clauses 11.5.2.5 to 11.5.2.17 is supported within the software environment, the platform software should support that requirement.
-For example, selection attributes from 11.5.2.14 (Modification of focus and selection attributes) may not exist in environments that do not allow selection, which is most commonly associated with copy and paste.
+Where a user interface concept corresponding to one of the clauses 11.5.2.5 to 11.5.2.17 is supported within the software environment, the platform software should support that requirement. For example, selection attributes from clause 11.5.2.14 (Modification of focus and selection attributes) may not exist in environments that do not allow selection, which is most commonly associated with copy and paste.
 
-NOTE 1:
-These define the minimum functionality of software providing user interfaces when using platform services.
+NOTE 1: These define the minimum functionality of software providing user interfaces when using platform services.
 
-NOTE 2:
-In some platforms these services may be called accessibility services, but in some other platforms these services may be provided as part of the user interface services.
+NOTE 2: In some platforms these services may be called accessibility services, but in some other platforms these services may be provided as part of the user interface services.
 
-NOTE 3:
-User interface services that provide accessibility support by default are considered to be part of the 
-services provided to conform to this clause (e.g. the service for creating a new user interface element 
-provides role, state, boundary, name and description).
+NOTE 3: User interface services that provide accessibility support by default are considered to be part of the services provided to conform to this clause (e.g. the service for creating a new user interface element provides role, state, boundary, name and description).
 
-NOTE 4:
-To comply with this requirement the platform software can provide its own set of services or expose the services provided by its underlying platform layers, if those services conform to this requirement.
+NOTE 4: To comply with this requirement the platform software can provide its own set of services or expose the services provided by its underlying platform layers, if those services conform to this requirement.
 
 NOTE 5: Within specific programming environments, the technical attributes associated with the user interface properties described in clauses 11.5.2.5 to 11.5.2.17 might have different names than those used within the clauses.
 --
@@ -101,25 +93,18 @@ ____
 [.BLOCK_LANG_EN]
 --
 Platform software shall provide a set of documented platform accessibility services that enable assistive technology to interoperate with software that provides a user interface running on the platform software.
-Where a user interface concept corresponding to one of the clauses 11.5.2.5 to 11.5.2.17 is supported within the software environment, the platform software should support that requirement.
-For example, selection attributes from 11.5.2.14 (Modification of focus and selection attributes) may not exist in environments that do not allow selection, 
-which is most commonly associated with copy and paste.
 
-NOTE 1:
-These define the minimum functionality available to assistive technologies when using platform services.
+Where a user interface concept corresponding to one of the clauses 11.5.2.5 to 11.5.2.17 is supported within the software environment, the platform software should support that requirement. For example, selection attributes from clause 11.5.2.14 (Modification of focus and selection attributes) may not exist in environments that do not allow selection, which is most commonly associated with copy and paste.
 
-NOTE 2:
-The definition of platform in clause 3.1 applies to software that provides services to other software, including but not limited to, operating systems, web browsers, virtual machines.
+NOTE 1: These define the minimum functionality available to assistive technologies when using platform services.
 
-NOTE 3:
-In some platforms these services may be called accessibility services, but in some other platforms these 
-services may be provided as part of the user interface services.
+NOTE 2: The definition of platform in clause 3.1 applies to software that provides services to other software, including but not limited to, operating systems, web browsers, virtual machines.
 
-NOTE 4:
-Typically these services belong to the same set of services that are described in clause 11.5.2.1.
+NOTE 3: In some platforms these services may be called accessibility services, but in some other platforms these services may be provided as part of the user interface services.
 
-NOTE 5:
-To comply with this requirement the platform software can provide its own set of services or expose the services provided by its underlying platform layers, if those services conform to this requirement.
+NOTE 4: Typically these services belong to the same set of services that are described in clause 11.5.2.1.
+
+NOTE 5: To comply with this requirement the platform software can provide its own set of services or expose the services provided by its underlying platform layers, if those services conform to this requirement.
 --
 ____
 

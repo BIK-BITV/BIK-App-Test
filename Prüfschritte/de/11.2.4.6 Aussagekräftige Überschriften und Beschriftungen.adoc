@@ -4,50 +4,37 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Überschriften beschreiben den folgenden Inhaltsteil, Beschriftungen sind
-sinngebend.
+Überschriften beschreiben den folgenden Inhalt, Beschriftungen sind sinngebend.
 
 == Warum wird das geprüft?
 
-Visuell werden Webseiten-und Software-Inhalte durch Überschriften strukturiert.
-Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die
-Inhalte leicht überblicken und gezielt auf Inhalte zugreifen, die ihn
-interessieren.
+Visuell werden Inhalte von App-Ansichten durch Überschriften strukturiert. Dank dieser Strukturierung wissen Nutzende, was zusammengehört, können die
+Inhalte leicht überblicken und gezielt auf Inhalte zugreifen, die sie interessieren.
 
-Wenn Formularfelder sinngebend beschriftet sind, können Sie von Nutzer als
-solche erkannt und bedient werden.
+Wenn Formularelemente sinngebend beschriftet sind, können Sie von Nutzenden als solche erkannt und bedient werden.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn es in der App-Ansicht Inhalte gibt, die
-durch Überschriften strukturiert werden können und wenn die Ansicht
+Der Prüfschritt ist anwendbar, wenn es in der App-Ansicht Inhalte gibt, die durch Überschriften strukturiert werden können und wenn die Ansicht
 Formularelemente enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
-. App mit zu prüfender Ansicht öffnen
-. Prüfen, ob die Überschriften im Zusammenhang mit den durch sie
-  strukturierten Inhalten aussagekräftig sind
-. Prüfen, ob Beschriftungen von Formularelementen aussagekräftig sind
-. Wenn Gruppen von Bedienelementen durch Legenden beschriftet werden:
-  Sind Legende und Label bzw. Beschriftung des Bedienelements, zusammen
-  vorgelesen, bei allen Formularelementen in der Gruppierung sinnvoll?
+. App mit zu prüfender Ansicht starten.
+. Screenreader starten und Fokus mit Hilfe der Wischgeste auf Überschriften und Formularelemente setzen.
+. Prüfen, ob die Überschriften im Zusammenhang mit den durch sie strukturierten Inhalten aussagekräftig sind.
+. Prüfen, ob Beschriftungen von Formularelementen aussagekräftig sind.
+. Wenn Formularelemente eine Gruppenbeschriftung haben: Sind Gruppenbeschriftung und Beschriftung des Formularelements im Zusammenhang aussagekräftig?
 
-=== Hinweise
+=== 3. Hinweise
 
-Besonders in Fachanwendungen gibt es Labels und Überschriften, die in dem
-betreffenden Nutzerkreis bestimmten, etablierten Vokabularen entsprechen 
-einschließlich viel genutzter Abkürzungen).
-Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit,
-Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt
-für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer
-negativen Bewertung führen soll.
+Besonders in fachspezifischen Apps gibt es Labels und Überschriften, die für die Zielgruppe bestimmten, etablierten Vokabularen entsprechen einschließlich viel genutzter Abkürzungen). Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
 
 == Einordnung des Prüfschritts
 
-=== Abgrenzung von anderen Prüfkriterien
+=== Abgrenzung von anderen Prüfschritten
 
 * In diesem Prüfschritt geht es um die Aussagekraft von Überschriften und
   Beschriftungen.

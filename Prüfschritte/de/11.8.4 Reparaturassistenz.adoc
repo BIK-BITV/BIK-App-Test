@@ -2,40 +2,45 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-11.8.4 "Repair assistance" verwiesen.
-
 == Was wird geprüft?
 
-Wenn die Software ein Autorenwerkzeug ist und Funktionen zur Erkennung von
-Barrierefreiheitsproblemen in Dokumenten, die das Werkzeug unterstützt,
-anbietet, soll die Software Vorschläge zur Reparatur dieser Probleme machen.
+Wenn die Ansicht der App Teil eines Autorenwerkzeugs und bietet Funktionen zur Erkennung von Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten, dann sollen Vorschläge zur Behebung dieser Fehler verfügbar sein.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist und
-Probleme in Bezug auf Barrierefreiheit in den Dokumenten, welche die Software
-erstellen kann, detektieren kann.
+Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkzeugs ist oder eine Autorenfunktion enthält (etwa eine Kommentarfunktion). Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten können aufgezeigt werden (z. B. "Bitte vergeben Sie eine Überschrift" oder "Wenn Sie ein informationstragendes Bild einfügen, vergeben Sie bitte einen passenden Alternativtext").
 
-=== Prüfung
+=== 2. Prüfung
 
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
-https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
+. Mit der Autorenfunkiton Inhalte erstellen und dabei vorhandene Auszeichnungsmöglichkeiten nicht nutzen, z. B.:
 
-Wenn die Software Probleme im Bereich Barrierefreiheit in den Dokumenten
-erkennt und auflistet, sollen für die einzelnen Probleme Hinweise für die
-Reparatur gegeben werden.
+* Vorhandene Felder für Überschriften leer lassen, Überschriftenauszeichung von Text-Editoren nicht nutzen
+
+* Bilder einfügen, ohne einen Alternativtext festzulegen
+
+* In ein E-Mail-Adressen-Feld eine fehlerhafte E-Mail-Adresse eingeben
+
+. Inhalt sichern oder abschicken und prüfen, ob eine Überprüfung auf Fehler stattfindet.
+
+. Falls eine Fehlerprüfung stattfindet (z. B. wenn das Sichern oder Abschicken nicht möglich ist bzw. fehlerhafte oder fehlende Eingaben grafisch hervorgehoben werden), prüfen, ob Hinweise für die Korrektur der Fehler gegeben werden.
+
+=== 3. Hinweise
 
 Der Begriff "Dokumente" wird dabei weit gefasst und umfasst Web- und
 Nicht-Web-Dokumente.
 Siehe dazu auch Kapitel 9 (Web-Inhalte) und Kapitel 10 (Nicht-Web-Inhalte) der
 EN 301 549.
+
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
+https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+11.8.4 Repair assistance
 
 == Quellen
 

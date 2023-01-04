@@ -18,24 +18,21 @@ Dies erleichtert den Nutzern, Eingaben zu korrigieren.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Ansicht der Software Formulare
 enthält, welche bei inkorrektem Ausfüllen Fehlermeldungen erzeugen.
 Dies kann schon während der Eingabe oder erst nach dem Abschicken des
 Formulars geschehen.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Formular unvollständig oder fehlerhaft ausfüllen, etwa durch
   das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht
-  korrekter Email-Adressen
+  korrekter Email-Adressen.
 . Falls das Abschicken des Formulars eine Fehlermeldung erzeugt:
-  Prüfen, ob die betroffenen Felder identifiziert sind
-+
-Die Identifizierung der betroffenen Felder kann, auch abhängig von der Länge
-des Formulars, auf verschiedene Arten geschehen:
-+
+  Prüfen, ob die betroffenen Felder identifiziert sind. Dies kann, auch abhängig von der Länge des Formulars auf verschiedene Art geschehen:
+
 * Bei Neuanzeige des Formulars werden am Beginn der Ansicht fehlerhaft
   ausgefüllte Felder identifiziert.
 * Fehlerhaft ausgefüllte Felder werden zusätzlich deutlich hervorgehoben.
@@ -47,7 +44,7 @@ des Formulars, auf verschiedene Arten geschehen:
 . Prüfen, ob nach Korrektur der Eingaben und erneutem Abschicken des
   Formulars zuvor angezeigte Fehlermeldungen verschwinden.
 
-=== Hinweise
+=== 3. Hinweise
 
 * Wenn serverseitig eine Fehlermeldung in einer neuen Ansicht ausgegeben wird,
   wird diese wie ein Zustand unter der Ausgangsansicht mitgeprüft.
@@ -55,29 +52,26 @@ des Formulars, auf verschiedene Arten geschehen:
 * Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu
   bewerten.
 
-=== Bewertung
+=== 4. Bewertung
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
 * Die Fehlermeldung nach Formularüberprüfung benennt Felder mit fehlender
   oder fehlerhafter Eingabe nicht klar oder verweist nicht deutlich darauf
   (etwa durch Änderung des dem Feld zugeordneten Labels, semantische
-  Hervorhebung, oder Links)
-* Fehlermeldungen sind unklar oder irreführend
+  Hervorhebung, oder Links).
 * Unspezifische Fehlermeldung, Felder mit Eingabefehlern oder fehlenden
   Eingaben werden lediglich grafisch oder durch zusätzliches Sternchen
-  hervorgehoben
+  hervorgehoben.
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 * Die Fehlermeldung gibt keinen Aufschluss darüber, welche Eingabe den Fehler
-  erzeugt hat
+  erzeugt hat.
 * Bei fehlerhafter Eingabe wird das Formular neu angezeigt, bereits gemachte
   korrekte Eingaben sind gelöscht, die Felder sind wieder leer und müssen
-  erneut ausgefüllt werden
-+
-  Ausnahme:
-  Das Löschen bereits gemachter Eingaben ist sinnvoll bei
+  erneut ausgefüllt werden.
+Ausnahme: Das Löschen bereits gemachter Eingaben ist sinnvoll bei
   sicherheitsrelevanten Daten wie Passwörtern oder Benutzernamen.
 
 ==  Einordnung des Prüfschritts
@@ -107,10 +101,7 @@ des Formulars, auf verschiedene Arten geschehen:
 
 == Fragen zu diesem Prüfschritt
 
-=== Obligatorische Fehlerüberprüfung
-
-Warum wird nicht grundsätzlich bei allen Formularen eine Fehlerüberprüfung
-verlangt?
+=== Warum wird nicht grundsätzlich bei allen Formularen eine Fehlerüberprüfung verlangt?
 
 Eine Fehlerbehandlung ist oft sinnvoll, aber nicht grundsätzlich bei allen
 Formularen.

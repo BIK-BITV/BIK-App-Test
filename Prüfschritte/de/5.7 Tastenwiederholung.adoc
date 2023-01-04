@@ -1,0 +1,41 @@
+= 5.7 Tastenwiederholung
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+== Warum wird das geprüft?
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+=== 2. Prüfung
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+Kriterium
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 5.7 Key repeat
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT has a key repeat function that cannot be turned off:
+a) the delay before the key repeat shall be adjustable to at least 2 seconds; and
+b) the key repeat rate shall be adjustable down to one character per 2 seconds.
+--
+____
+
+(Aus EN 301 549 V3.2.1 Abschnitt 5.7 Key repeat)

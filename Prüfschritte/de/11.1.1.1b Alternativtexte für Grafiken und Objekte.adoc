@@ -1,113 +1,78 @@
-= Prüfschritt 11.1.1.1b Alternativtexte für Grafiken und Objekte
+= Prüfschritt 11.1.1.1b Textalternativen für Grafiken und Objekte
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Informative Grafiken und Bilder müssen mit Alternativtexten versehen werden.
-Die Alternativtexte ersetzen das Bild, sie sollen also (wenn möglich) dieselbe
-Aufgabe erfüllen wie das Bild.
+Informative Grafiken und Bilder müssen Textalternativen haben. Die Textalternativen ersetzen das Bild, sie sollen (soweit wie möglich) die gleiche Information vermitteln wie das Bild.
 
-Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien
-soll der Alternativtext zumindest eine beschreibende Identifizierung des
-Inhalts ermöglichen.
+Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien soll die Textalternative zumindest eine beschreibende Identifizierung des Inhalts ermöglichen.
 
 == Warum wird das geprüft?
 
-Für blinde Benutzer sind Grafiken und Bilder nicht zugänglich.
-Die Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik
-inhaltlich ersetzen können.
+Für blinde Benutzer sind Grafiken und Bilder nicht zugänglich. Die Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik inhaltlich ersetzen können.
 
-Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt
-werden können, weil sie z. B. nicht geladen werden können, sollen kurze
-beschreibende Alternativtexte dem Nutzer eine Identifikation der Inhalte
-ermöglichen.
+Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt werden können, weil sie z. B. nicht geladen werden können, sollen kurze beschreibende Textalternativen dem Nutzer eine Identifikation der Inhalte ermöglichen.
 
-== Wie wird geprüft?
+== Wie wird das geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn informative Grafiken oder, Bilder, Video-
-oder Audio-Dateien oder Multimedia-Objekte vorhanden sind.
+Der Prüfschritt ist anwendbar, wenn informative Grafiken oder, Bilder, Video- oder Audio-Dateien oder Multimedia-Objekte vorhanden sind.
 
 Als informative Grafiken gelten:
 
 * grafische Schriften
-* Symbole
 * Abbildungen, die zeigen sollen, wie ein Objekt oder eine Person aussieht
-* Illustrationen, die eine Aussage vorstellen, verdeutlichen oder
-  veranschaulichen sollen
+* Illustrationen, die einen Gegenstand, ein Konzept oder einen Prozess vorstellen, verdeutlichen oder veranschaulichen sollen (etwa Diagramme)
+* Symbole
 
-Dekorative Grafiken und Bilder sind Grenzfälle. Sie stellen (im Unterschied zu
-Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen
-Bezug zum Thema der App-Ansicht.
-Ihr Informationsgehalt und ihr Nutzen für das Verständnis ist aber
-nicht klar.
-Dekorative Grafiken können daher mit leerem Alternativtext versehen werden,
-der Prüfschritt ist dann nicht anwendbar.
+Dekorative Grafiken und Bilder sind Grenzfälle. Sie stellen (im Unterschied zu Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen Bezug zum Thema der App-Ansicht. Ihr Informationsgehalt und ihr Nutzen für das Verständnis ist aber nicht klar. Sie können daher als dekorativ gekennzeichnet werden, der Prüfschritt ist dann nicht anwendbar.
 
-Wenn Logo-artige Elemente in denen Grafik und Schrift verbunden sind auftauchen,
-sind diese fast nie als bloße Schmuckgrafik anzusehen und brauchen deshalb
-Alternativtext.
-Wenn die Grafik verlinkt ist, ist das natürlich ohnehin so.
-Dies ermöglicht blinden und sehenden Nutzern, sich gemeinsam auf diese Elemente
-zu beziehen.
-Der Alternativtext muss aber nicht expliziter sein als das, was für den
-sehenden Nutzer erkenntlich ist.
+Wenn Logo-artige Elemente, in denen Grafik und Schrift verbunden sind, auftauchen, sind diese fast nie als bloße Schmuckgrafik anzusehen und brauchen deshalb eine Textalternative. Dies ermöglicht blinden und sehenden Nutzern, sich gemeinsam auf diese Elemente zu beziehen. Die Textalternative muss aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich ist.
 
-Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente
-vorhanden sind.
+Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente vorhanden sind.
 
-=== Prüfung
+=== 2. Prüfung
+
+Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen ausgeschaltet sein (siehe "3. Hinweise").
 
 . App mit zu prüfender Ansicht starten.
-. Prüfen ob unverlinkte informationstragende Grafiken oder Multimedia-Inhalte
-  vorhanden sind.
+. Prüfen, ob unverlinkte informationstragende Grafiken oder Multimedia-Inhalte vorhanden sind.
 . Screenreader starten und Fokus auf jede informationstragende Grafik setzen.
-. Prüfen, ob dieser bei den entsprechenden Elementen auf dem Bildschirm aussagekräftige Alternativtexte
-  ausgibt.
+. Prüfen, ob der Screenreader informationstragende Grafiken aussagekräftigen Alternativtext ausgibt.
+. Bei komplexen Grafiken prüfen, ob der Alternativtext Inhalt knapp nennt und auf ausführliche Textalternativen im Kontext der Grafik verweist. Diese können etwa unterhalb der Grafik, in einem Ausklappbereich oder in einer verlinkten Ansicht vorgehalten werden.
+. Prüfen, ob Schmuckgrafiken Alternativtexte tragen. Bei Grenzfällen (Grafiken haben einen beschreibbaren Inhalt mit Bezug zum Thema, sind aber zum Verständnis der Inhalte nicht wichtig) können sowohl Alternativtexte als das Fehlen von Alternativtext akzeptiert werden.
 
-=== Hinweise
+=== 3. Hinweise
+
+==== Einstellungen für die Prüfung mit VoiceOver / iOS
+
+Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
+
+* iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
+* iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern
+
 
 ==== Angemessene Alternativtexte
 
-Entscheidend ist: Die App soll benutzbar sein, wenn Grafiken oder Bilder durch
-die entsprechenden Alternativtexte oder andere geeignete Textalternativen
-ersetzt sind.
+Entscheidend ist: Die App soll benutzbar sein, wenn für Grafiken oder Bilder die entsprechenden Textalternativen vom Screenreader ausgegeben werden.
 
 In der Regel bedeutet das:
 
-* Bei Schriftgrafiken soll der Alternativtext den Text der Schriftgrafik
-  wiederholen.
-* Bei Symbolen oder Zeichen (Logos) soll der Alternativtext sagen, dass ein
-  Symbol, Zeichen oder Logo abgebildet ist und die Bedeutung des Symbols oder
-  Zeichens wiedergeben.
-* Bei Gruppen von zusammengehörigen Bildern kann auch eines der Bilder die
-  Bedeutung der Gruppe wiedergeben, die anderen haben ein leeren Alternativtext.
-* Bei Fotos, Reproduktionen von Gemälden oder anderen Nicht-Text-Elementen, die
-  eine spezifische Sinneserfahrung vermitteln, genügt in der Regel eine knappe
-  Bezeichnung des abgebildeten Gegenstandes.
-* Bei Diagrammen oder technischen Zeichnungen sind unter Umständen
-  ausführlichere Erläuterungen erforderlich.
-  Alternativtexte sind dafür nicht geeignet, sie sollen 80 Zeichen nicht
-  überschreiten.
-  Im Alternativtext steht dann nur, was dargestellt ist und wo (etwa: "Details
-  im anschließenden Text"), die Erläuterung steht in Kontext des Bildes.
-* Bei Objekten, die nicht angezeigt werden können, sollen der Alternativtext
-  oder Text im unmittelbaren Kontext des Objekts (etwa eine vorangehende
-  Überschrift oder nachfolgende Legende) eine kurze Beschreibung oder
-  Identifizierung bieten und, falls vorhanden, auf eine Medienalternative
-  verweisen.
+* Bei Schriftgrafiken soll die Textalternative den Text der Schriftgrafik wiederholen.
+* Bei Symbolen oder Zeichen (Logos) soll die Textalternative sagen, dass ein Symbol, Zeichen oder Logo abgebildet ist und die Bedeutung des Symbols oder Zeichens wiedergeben.
+* Bei Gruppen von zusammengehörigen Bildern kann auch eines der Bilder die Bedeutung der Gruppe wiedergeben, die anderen sollten als dekorativ gekennzeichnet werden.
+* Bei Fotos, Reproduktionen von Gemälden oder anderen Nicht-Text-Elementen, die eine spezifische Sinneserfahrung vermitteln, genügt in der Regel eine knappe Bezeichnung des abgebildeten Gegenstandes.
+* Bei Diagrammen oder technischen Zeichnungen sind unter Umständen ausführlichere Erläuterungen erforderlich.
+  Textalternativen sind dafür nicht geeignet, sie sollen in der Regel 80 Zeichen nicht überschreiten. In der Textalternative steht dann nur, was dargestellt ist und wo (etwa: "Details im anschließenden Text"). Die ausführliche Textalternative soll sich in Kontext des Bildes befinden. Der Kontext kann zum Beispiel ein unmittelbar folgender Inhalt (Text oder Tabelle), ein Ausklappbereich oder auch ein Link zu einer Ansicht sein, die die ausführliche Alternative enthält.
+* Bei Objekten, die nicht angezeigt werden können, sollen die Textalternative oder Text im unmittelbaren Kontext des Objekts (etwa eine vorangehende Überschrift oder nachfolgende Legende) eine kurze Beschreibung oder Identifizierung bieten und, falls vorhanden, auf eine Medienalternative verweisen.
 
-Generell gilt: Alternativtexte sollen kurz sein.
-Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext,
-sondern im Kontext der Abbildung zur Verfügung gestellt werden.
+Generell gilt: Textalternativen sollen kurz sein. Ausführliche Beschreibungen von Abbildungen sollen nicht in die Textalternative, sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
 ==== Angemessenheit von Textalternativen im Kontext
 
-Wenn der Alternativtext kein angemessener Ersatz für die Grafik oder das Bild
-sein kann, muss geprüft werden, ob die über das Bild vermittelte Information
-im Kontext als Text zur Verfügung steht.
+Wenn die Textalternative kein angemessener Ersatz für die Grafik oder das Bild sein kann, muss geprüft werden, ob die über das Bild vermittelte Information im Kontext als Text zur Verfügung steht.
 
 Das betrifft zum Beispiel
 
@@ -115,33 +80,25 @@ Das betrifft zum Beispiel
 * technische Zeichnungen
 * Anfahrtspläne
 
-Zum Kontext einer Grafik oder eines Bildes gehört: der dazugehörige
-(vorangehende, folgende) Text und eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar
-benannte Textalternative.
+Zum Kontext einer Grafik oder eines Bildes gehört: der dazugehörige (vorangehende, folgende) Text und eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar benannte Textalternative.
 
-Ein kurzer Alternativtext mit Bezeichnung des Bildes ist auch bei Nutzung von
-Textalternativen im Kontext erforderlich.
-Der Alternativtext sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist,
-er macht klar, worauf sich die Erläuterung im Kontext bezieht.
+Eine kurze Textalternative mit Bezeichnung des Bildes ist auch bei Nutzung von Textalternativen im Kontext erforderlich. Die Textalternative sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist, sie macht klar, worauf sich die Erläuterung im Kontext bezieht.
 
-*Angemessenheit:*
+==== Beurteilung der Angemessenheit ====
 
-Um die Angemessenheit des Alternativtextes einschätzen zu können, muss der
-Alternativtext auf die Grafik beziehungsweise das Objekt bezogen werden, zu
-dem er gehört.
-Erforderlich ist also die wechselnde Betrachtung von Grafik/Objekt und
-zugehörigem Alternativtext.
+Um die Angemessenheit der Textalternative einschätzen zu können, muss die Textalternative auf die Grafik beziehungsweise das Objekt bezogen werden, zu dem sie gehört.
+Erforderlich ist also die wechselnde Betrachtung von Grafik/Objekt und zugehörige Textalternative.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfkriterien
 
-* Alternativtexte für verlinkte Grafiken (z.B. Bedienelemente oder
+* Textalternative für verlinkte Grafiken (z.B. Bedienelemente oder 
   Teaser-Bilder)
   werden in Prüfschritt
-ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
+ifdef::env_embedded[11.1.1.1a "Textalternativen für Bedienelemente"]
 ifndef::env_embedded[]
-  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Alternativtexte
+  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Textalternativen
   für Bedienelemente>>
 endif::env_embedded[]
   geprüft.
@@ -285,89 +242,41 @@ alternative should be provided as well with the complete text.
 
 == Fragen zu diesem Prüfschritt
 
-=== Was kann der Alternativtext leisten?
+=== Was kann die Textalternative leisten?
 
 Zum Beispiel die Explosionszeichnung eines Motors: sollte der gesamte Aufbau
 des Motors im Alternativtext
 beschrieben werden?
 
-Die Explosionszeichnung zeigt die Lage verschiedener Teile im Motor.
-Alternative Vermittlungsformen sind denkbar und möglich.
-Zum Beispiel könnte die Lage der Teile an einem tastbaren Modell gezeigt
-werden.
-Klar ist aber, dass bei einigermaßen komplexen Gebilden die Textform nicht
-geeignet ist.
-Die Frage ist daher, was im Alternativtext sinnvoll herübergebracht werden
-kann.
-Auf jeden Fall kann der Alternativtext darüber informieren, dass eine
-Explosionszeichnung des Motors dargestellt wird.
-Der blinde Benutzer weiß dann zumindest, welche Informationen ihm nicht
-zugänglich sind.
-Darüber hinaus kann es sein, dass nur ein bestimmtes Detail der gesamten
-Zeichnung relevant ist.
-Das geht aus dem Kontext hervor.
-Das betreffende Detail kann dann in Textform erläutert werden.
+Die Explosionszeichnung zeigt die Lage verschiedener Teile im Motor. Alternative Vermittlungsformen sind denkbar und möglich. Zum Beispiel könnte die Lage der Teile an einem tastbaren Modell gezeigt werden. Klar ist aber, dass bei einigermaßen komplexen Gebilden die Textform nicht geeignet ist. Die Frage ist daher, was im Alternativtext sinnvoll herübergebracht werden kann. Auf jeden Fall kann die Textalternative darüber informieren, dass eine Explosionszeichnung des Motors dargestellt wird. Der blinde Benutzer weiß dann zumindest, welche Informationen ihm nicht zugänglich sind. Darüber hinaus kann es sein, dass nur ein bestimmtes Detail der gesamten Zeichnung relevant ist. Das geht aus dem Kontext hervor. Das betreffende Detail kann dann in Textform erläutert werden.
 
-Für die Bewertung im BITV-Test gilt: wenn der Prüfer selbst nicht sagen kann,
-ob oder wie der Informationsgehalt des Bildes in Textform vermittelt werden
-könnte, muss die Bezeichnung des dargestellten Gegenstandes im Alternativtext
-als hinreichend bewertet werden.
+Für die Bewertung gilt: wenn der Prüfer selbst nicht sagen kann, ob oder wie der Informationsgehalt des Bildes in Textform vermittelt werden könnte, muss die Bezeichnung des dargestellten Gegenstandes in der Textalternative als hinreichend bewertet werden.
 
-=== Alternativtexte für Firmenlogos
+=== Textalternativen für Firmenlogos
 
-Auf der Website ist das Firmenlogo abgebildet.
+Auf der Website ist das Firmenlogo abgebildet. Reicht es aus, wenn in der Textalternative steht, dass da das Firmenlogo abgebildet
+ist? Oder sollte es auch beschrieben werden?
 
-Reicht es aus, wenn im Alternativtext steht, dass da das Firmenlogo abgebildet
-ist?
-Oder sollte es auch beschrieben werden?
+Auch für einen blinden Besucher kann das Aussehen des Logos interessant sein. Er unterhält sich ja mit Sehenden, weiß dann, wovon die Rede ist. Allerdings sollte die Textalternative kurz sein, der Besucher möchte nicht immer wieder diese Beschreibung hören, wenn er die Seite besucht. Sie könnte also in einer separaten, ausführlicheren Beschreibung bereitgestellt werden.
 
-Auch für einen blinden Besucher kann das Aussehen des Logos interessant sein.
-Er unterhält sich ja mit Sehenden, weiß dann, wovon die Rede ist.
-Allerdings sollte der Alternativtext kurz sein, der Besucher möchte nicht immer
-wieder diese Beschreibung hören, wenn er die Seite besucht.
-Sie könnte also in einer separaten, ausführlicheren Beschreibung
-bereitgestellt werden.
-
-Im BITV-Test wird eine solche ausführliche Beschreibung des Firmenlogos
-allerdings nicht gefordert.
+Im BITV-Test wird eine solche ausführliche Beschreibung des Firmenlogos allerdings nicht gefordert.
 
 === Abbildungen mit Text
 
-Eine Abbildung enthält Text.
-Muss dieser Text in jedem Fall im Alternativtext bereitgestellt werden?
+Eine Abbildung enthält Text. Muss dieser Text in jedem Fall in der Textalternative bereitgestellt werden?
 
-Nein, entscheidend ist die Funktion der Abbildung.
-Wenn es sich um eine Schriftgrafik handelt, dann ist die Sache meistens klar,
-die Abbildung ist für die Anzeige des Textes da.
+Nein, entscheidend ist die Funktion der Abbildung. Wenn es sich um eine Schriftgrafik handelt, dann ist die Sache meistens klar, die Abbildung ist für die Anzeige des Textes da.
 
-Anders, wenn ein Motiv mit Text abgebildet ist.
-Dann muss (wie bei allen Bildern) überlegt werden, was die Leistung des Bildes
-ist, ob der abgebildete Text wesentlich ist.
-Nur dann muss der Text im Alternativtext beachtet werden.
+Anders, wenn ein Motiv mit Text abgebildet ist. Dann muss (wie bei allen Bildern) überlegt werden, was die Leistung des Bildes ist, ob der abgebildete Text wesentlich ist. Nur dann muss der Text in der Textalternative beachtet werden.
 
-=== Soll im Alternativtext stehen, dass es sich um ein grafisches Element handelt?
+=== Soll in der Textalternative stehen, dass es sich um ein grafisches Element handelt?
 
-Nein, das ist nicht erforderlich.
-Denn Screenreader stellen anhand des Markups fest, auf was für ein Element
-sich der Alternativtext bezieht.
-Im BITV-Test wird ein entsprechender Vorsatz im Alternativtext jedoch nicht
-negativ bewertet, er ist für die Bewertung nicht relevant.
+Nein, das ist nicht erforderlich. Denn Screenreader stellen anhand des Markups fest, auf was für ein Element sich die Textalternative bezieht. Im BITV-Test wird ein entsprechender Vorsatz in der Textalternative jedoch nicht negativ bewertet, er ist für die Bewertung nicht relevant.
 
 === Kann die Bedeutung eines Bildes auch im Kontext beschrieben werden?
 
-Das ist in vielen Fällen sinnvoll und eine gute Alternative zur Nutzung des
-longdesc-Attributs.
-Wichtig ist, dass die Beschreibung dem Bild eindeutig zugeordnet werden kann.
-Dafür kann (und soll) dann der Alternativtext des Bildes genutzt werden.
-Er enthält eine kurze Bezeichnung des abgebildeten, im Kontext beschriebenen
-Gegenstandes.
+Das ist in vielen Fällen sinnvoll. Wichtig ist, dass die Beschreibung dem Bild eindeutig zugeordnet werden kann. Dafür kann (und soll) dann die Textalternative des Bildes genutzt werden. Er enthält eine kurze Bezeichnung des abgebildeten, im Kontext beschriebenen Gegenstandes.
 
-=== Was sollte im Alternativtext für Landkarten stehen?
+=== Was sollte in der Textalternative für Landkarten stehen?
 
-Der Alternativtext für Landkarten kann kein Äquivalent sein, eine
-Beschreibung in Textform kann die Karte nicht ersetzen.
-Nicht-visuelle Äquivalente könnten Routenbeschreibungen sein, wie sie häufig
-von Reiseplanern angeboten werden.
-Das geht aber über die Möglichkeiten des Alternativtextes hinaus.
-Der Alternativtext für Karten muss sich also darauf beschränken, anzugeben,
-welches Gebiet auf der Karte dargestellt ist.
+Die Textalternative für Landkarten kann kein Äquivalent sein, eine Beschreibung in Textform kann die Karte nicht ersetzen. Nicht-visuelle Äquivalente könnten Routenbeschreibungen sein, wie sie häufig von Reiseplanern angeboten werden. Das geht aber über die Möglichkeiten der Textalternative hinaus. Die Textalternative für Karten muss sich also darauf beschränken, anzugeben, welches Gebiet auf der Karte dargestellt ist.

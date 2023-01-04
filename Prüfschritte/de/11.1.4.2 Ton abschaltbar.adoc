@@ -4,97 +4,64 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Automatisch abgespielte Töne, die nicht nach drei Sekunden enden, sollen
-abschaltbar sein.
+Automatisch abgespielte Töne, die nicht nach drei Sekunden enden, sollen abschaltbar sein.
 
 == Warum wird das geprüft?
 
-Automatisch abgespielte Töne stören Nutzer, die sich in einer Software
-mittels Sprachausgabe orientieren.
+Automatisch abgespielte Töne stören Nutzende, die sich in einer App mittels Sprachausgabe orientieren.
 
-Falls ein Tonelement nach dem starten einer Software automatisch startet, ist
-es deshalb wichtig, dass es sich über einen am Beginn der Ansicht
-befindlichen barrierefreien Mechanismus abschalten, anhalten oder herunter
+Falls ein Tonelement nach dem starten einer App automatisch abgespielt wird, ist es deshalb wichtig, dass es sich über einen am Beginn der Ansicht befindlichen barrierefreien Mechanismus abschalten, anhalten oder herunter
 regeln lässt.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn nach dem starten einer Software bzw. beim
-Wechsel auf die zu prüfende Ansicht Tonelemente automatisch länger als drei
-Sekunden abgespielt werden.
+Der Prüfschritt ist anwendbar, wenn nach dem starten einer App bzw. beim Wechsel auf die zu prüfende Ansicht Tonelemente automatisch länger als drei Sekunden abgespielt werden.
 
-=== Prüfung
+=== 2. Prüfung
 
-Wenn nach starten der Software bzw. beim Wechsel auf die zu prüfende Ansicht
+Wenn nach Starten der App bzw. beim Wechsel auf die zu prüfende Ansicht
 ein Tonelement automatisch abgespielt wird:
 
 * Prüfen, ob der Ton länger als 3 Sekunden dauert.
-+
-Wenn das der Fall ist:
-Prüfen, ob sich am Beginn der Ansicht ein Mechanismus (Button, Link, oder
-Lautstärke-Regler) befindet, mit dem sich der Ton abschalten oder unabhängig
+
+* Wenn das der Fall ist: Prüfen, ob sich am Beginn der Ansicht ein Mechanismus (Button, Link, oder Lautstärke-Regler) befindet, mit dem sich der Ton abschalten oder unabhängig
 von der Systemlautstärke herunter regeln lässt.
-Der Fokus soll bei Aufruf der Ansicht auf dem Bedienelement zum Pausieren der
-Wiedergabe gesetzt sein.
 
 * Den Mechanismus bedienen und den Ton abschalten.
 
 Wenn sich die Lautstärke regeln lässt:
 
-* die Systemlautstärke darf durch den Regler in der App nicht verändert
-werden.
-+
-Hier kann z. B. vor und nach einem Test ein Vergleichs-Sound abgespielt
-werden, um zu beurteilen, ob eine Veränderung der Systemlautstärke
-stattgefunden hat.
+* die Systemlautstärke darf durch den Regler in der App nicht verändert werden.
 
-=== Hinweise
+Hier kann z. B. vor und nach einem Test ein Vergleichs-Sound abgespielt werden, um zu beurteilen, ob eine Veränderung der Systemlautstärke stattgefunden hat.
 
-Töne, die nicht nach kurzer Zeit enden, können auch die Verständlichkeit
-der Sprachausgabe des Abschaltmechanismus stören.
-Deshalb wird auch berücksichtigt, wie störend sich der Ton auswirkt.
-Sprache oder laute Geräusche etwa stören mehr als eine gleichmäßige
-Hintergrundmusik.
+=== 3. Hinweise
 
-Der Mechanismus zum Herunterregeln des Tones darf nicht die
-Systemtonlautstärke ändern, da dies auch die Tonausgabe von Hilfsmitteln mit
-Sprachausgabe beeinträchtigen würde.
+* Töne, die nicht nach kurzer Zeit enden, können auch die Verständlichkeit der Sprachausgabe des Abschaltmechanismus stören. Deshalb wird auch berücksichtigt, wie störend sich der Ton auswirkt. Sprache oder laute Geräusche etwa stören mehr als eine gleichmäßige Hintergrundmusik.
 
-Der Mechanismus zum Abschalten oder Herunterregeln des Tons muss sich in jeder
-Ansicht befinden, in denen Ton abgespielt wird und soll selbst alle
-Anforderungen an Barrierefreiheit erfüllen, also etwa ausreichende Kontraste
-haben und tastaturbedienbar sein.
+* Der Mechanismus zum Herunterregeln des Tones darf nicht die Systemtonlautstärke ändern, da dies auch die Tonausgabe von Hilfsmitteln mit Sprachausgabe beeinträchtigen würde.
 
-Wenn sich der Ton herunterregeln lässt, soll er auf der niedrigsten Stellung
-des Reglers nicht mehr hörbar sein.
+* Der Mechanismus zum Abschalten oder Herunterregeln des Tons muss sich in jeder Ansicht befinden, in denen Ton abgespielt wird und soll selbst alle Anforderungen an Barrierefreiheit erfüllen, also etwa ausreichende Kontraste haben und tastaturbedienbar sein.
 
-Es reicht zur Erfüllung dieses Prüfschritts nicht aus, wenn sich der Ton
-über Tastaturbefehle (etwa die Escape-Taste) abschalten lässt.
-Diese Funktion kann sinnvoll sein, wird aber von vielen Nutzern nicht vermutet.
-Insbesondere auf Touch-Geräten soll der Fokus standardmäßig auf dem Play /
-Pause / Mute Bedienelement sein, damit dieses sofort bedient werden kann und
-nicht erst gesucht werden muss.
+* Wenn sich der Ton herunterregeln lässt, soll er auf der niedrigsten Stellung des Reglers nicht mehr hörbar sein.
 
-=== Bewertung
+* Es reicht zur Erfüllung dieses Prüfschritts nicht aus, wenn sich der Ton über Tastaturbefehle (etwa die Escape-Taste) abschalten lässt. Diese Funktion kann sinnvoll sein, wird aber von vielen Nutzern nicht vermutet. 
 
-*Erfüllt:*
+* Insbesondere auf Touch-Geräten wird empfohlen, dass der Fokus standardmäßig auf dem Play- , Pause- , Mute-Bedienelement ist, damit dieses sofort bedient werden kann und nicht erst gesucht werden muss.
 
-* Automatisch abgespielte Töne dauern nicht länger als drei Sekunden oder
-  sind über einen barrierefreien Mechanismus in jeder Ansicht, in der Ton
-  abgespielt wird, leicht abschaltbar.
+=== 4. Bewertung
 
-*Nicht voll erfüllt:*
+==== Erfüllt:
 
-* Automatisch abgespielter Ton enthält von Beginn an längere Sprachpassagen
-  oder andere laute und störende Ton-Ereignisse.
-  Die Sprachausgabe des Abschaltmechanismus kann deshalb nur schlecht
-  wahrgenommen werden.
-* Der Mechanismus zum Abschalten des Tons befindet sich nicht auf der Ansicht,
-  in der Ton abgespielt wird.
-* Es gibt lediglich eine Erklärung, wie der Ton mittels Tastatur abschaltbar
-  ist.
+* Automatisch abgespielte Töne dauern nicht länger als drei Sekunden oder sind über einen barrierefreien Mechanismus in jeder Ansicht, in der Ton abgespielt wird, leicht abschaltbar.
+
+==== Nicht voll erfüllt:
+
+* Automatisch abgespielter Ton enthält von Beginn an längere Sprachpassagen oder andere laute und störende Ton-Ereignisse. Die Sprachausgabe des Abschaltmechanismus kann deshalb nur schlecht wahrgenommen werden.
+* Der Mechanismus zum Abschalten des Tons befindet sich nicht auf der Ansicht, in der Ton abgespielt wird.
+* Es gibt lediglich eine Erklärung, wie der Ton mittels Tastatur abschaltbar ist.
 
 == Einordnung des Prüfschritts
 

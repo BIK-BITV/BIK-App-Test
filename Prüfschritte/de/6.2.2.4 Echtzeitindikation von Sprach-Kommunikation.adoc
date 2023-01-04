@@ -1,0 +1,55 @@
+= Prüfschritt 6.2.2.4 Echtzeitindikation von Sprach-Kommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn die App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation (RTT, Real-Time Text) bietet, soll die Aktivität von Sprechenden in Echtzeit visualisiert werden. Der visuelle Indikator, dass gerade gesprochen wird, soll dabei auch programmatisch ermittelbar sein, sodass auch taubblinde Menschen z. B. über eine Braillezeile über die laufende Audiokommunikation informiert werden. Es wird dabei lediglich in Echtzeit signalisiert, dass Audio-Eingabe stattfindet, die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts.
+
+== Warum wird das geprüft?
+
+Ein wichtige Information in der Kommunikation, etwa in einer Online-Konferenz, ist die Anzeige, dass jemand spricht, und die Zuordnung des Beitrags zum jeweils Sprechenden. So wissen Teilnehmende, die den Beitrag nicht hören können (z.B. gehörlose Menschen), dass gerade jemand spricht, und wer spricht.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation bietet.
+
+=== 2. Prüfung
+
+. App öffnen
+. Eine Verbindung mit einem weiteren Gerät über die Anwendung herstellen
+. Prüfen, ob beim Sprechen eine Signalisierung in Echtzeit erfolgt, z. B. über ein blinkendes Icon
+. Falls dies der Fall ist, mit Screenreader und Braillezeile prüfen, ob die Signalisierung programmatisch ermittelbar ist und auf der Braillezeile platzsparend über blinkende Braillemodule o. ä. dargestellt wird.
+
+=== 3. Hinweise 
+
+* Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
+
+== Einordnung des Prüfschritts nach der EN 301 549 V3.2.1
+  
+6.2.2.4 Visual indicator of Audio with RTT
+  
+== Quellen
+
+=== EN 301 549 V3.2.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.2.4 Visual indicator of Audio with RTT
+
+[.BLOCK_LANG_EN]
+--
+Where ICT provides two-way voice communication, and has RTT capabilities, the
+ICT shall provide a real-time visual indicator of audio activity on the display.
+
+NOTE 1:
+The visual indicator may be a simple character position on the display that
+flickers on and off to reflect audio activity, or presentation of the
+information in another way that can be both visible to sighted users and
+passed on to deaf-blind users who are using a braille display.
+
+NOTE 2:
+Without this indication a person who lacks the ability to hear does not know
+when someone is talking.
+--

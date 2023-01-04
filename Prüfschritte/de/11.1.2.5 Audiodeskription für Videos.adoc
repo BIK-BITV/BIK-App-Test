@@ -20,39 +20,27 @@ Hierfür wird das Verfahren der Audiodeskription eingesetzt.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur
-vorhanden sind und Informationen über das Bildgeschehen für das Verständnis
-erforderlich sind.
+Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur vorhanden sind und Informationen über das Bildgeschehen für das Verständnis erforderlich sind.
 
-Videos brauchen keine Audiodeskription, wenn der Fortgang des Bildgeschehens
-nicht in Worte gefasst werden kann.
-Der Prüfschritt ist dann nicht anwendbar.
+Videos brauchen keine Audiodeskription, wenn der Fortgang des Bildgeschehens nicht in Worte gefasst werden kann. Der Prüfschritt ist dann nicht anwendbar.
 
-Verzichtbar ist die Audiodeskription, wenn die synchrone Wahrnehmung von Bild
-und Ton für das Verständnis des Videos nicht erforderlich ist oder wenn das
-Video keine Tonspur hat (siehe Prüfschritt
+Verzichtbar ist die Audiodeskription, wenn die synchrone Wahrnehmung von Bild und Ton für das Verständnis des Videos nicht erforderlich ist oder wenn das Video keine Tonspur hat (siehe Prüfschritt
 ifdef::env_embedded[11.1.2.1 "Alternativen für Audiodateien und stumme Videos".]
 ifndef::env_embedded[]
   <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,11.1.2.1
   Alternativen für Audiodateien und stumme Videos>>.
 endif::env_embedded[]
-Verzichtbar ist die Audiodeskription auch für Videos, die lediglich als
-Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend
-zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer Form
-zu vermitteln.
-Dies gilt nur für Videos, die keine über den Textinhalt hinausgehende
-Informationen bieten und die klar als Medienalternative zum Text erkennbar sind.
+Verzichtbar ist die Audiodeskription auch für Videos, die lediglich als Medienalternative zu einem textbasierten Inhalt dienen, das heißt ergänzend zu einem Text angeboten werden, um den Textinhalt zusätzlich in anderer Form zu vermitteln. Dies gilt nur für Videos, die keine über den Textinhalt hinausgehende Informationen bieten und die klar als Medienalternative zum Text erkennbar sind.
 
 Gebärdensprachvideos brauchen keine Audiodeskription.
 
-=== Audiodeskription prüfen
+=== 2. Prüfung
 
-Es wird eine Sicht- und Hörprüfung vorgenommen.
+. Es wird eine Sicht- und Hörprüfung vorgenommen.
 
-Art der Einbindung feststellen.
-Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
+. Art der Einbindung feststellen. Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 
 * Die Audiodeskription ist bereits in der normalen Tonspur enthalten.
 * Eine weitere Version des Videos mit Audiodeskription wird angeboten.
@@ -64,17 +52,17 @@ Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 * Das Video wird in der App oder in einem externen, vom Format abhängigen
   Video-Player abgespielt.
 
-Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
+. Wenn eine Audiodeskription vorhanden ist, wird eine kurze Sequenz der
 Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 
-=== Bewertung
+=== 3. Bewertung
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
 * Die Bildbeschreibungen der Audiodeskription sind nicht aussagekräftig oder
   nicht vollständig.
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 * Das informationstragende, visuelle Video hat keine Audiodeskription.
 

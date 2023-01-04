@@ -4,47 +4,35 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Bei fokussierten Bedienelementen soll der Tastaturfokus sich deutlich von der
+Werden Bedienelementen mit der Tastatur fokussiert, dann soll sich der Tastaturfokus deutlich von der
 ausgewählten Hintergrundfarbe abheben.
 
 Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 
 == Warum wird das geprüft?
 
-Für den Tastaturbenutzer ist es wichtig, zu sehen, wo sich der Tastaturfokus
-gerade befindet, welches Bedienelement also ausgelöst wird, wenn er die
-Enter-Taste drückt.
+Für Tastaturbenutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, welches Bedienelement also ausgelöst wird, wenn sie die Enter-Taste drücken.
 
-Wenn Apps allein durch die Tastatur bedient werden, muss das fokussierte
-Bedienelement für den Nutzer deutlich hervorgehoben sein, da eine sichere
-Bedienung der Anwendung andernfalls für visuelle Nutzer kaum möglich ist.
+Wenn Apps allein durch die Tastatur bedient werden, muss das fokussierte Bedienelement für den Nutzende deutlich hervorgehoben sein. Eine sichere Bedienung der Anwendung ist für visuelle Nutzer andernfalls kaum möglich ist.
 
-Die vom Betriebssystem vorgesehene Kennzeichnung des Tastaturfokus hebt sich
-von dunklen Seitenhintergründen meist nicht so gut ab, wie in der "normalen"
-Ansicht des Betriebssystems oder des Benutzers.
-Das muss dann ausgeglichen werden, zum Beispiel durch farbige Hinterlegung des
-angesteuerten Bedienelements. ???
+Die vom Betriebssystem vorgesehene Kennzeichnung des Tastaturfokus hebt sich von dunklen Seitenhintergründen meist nicht so gut ab. Das muss dann durch eine entsprechende Gestaltung des Fokusindikators ausgeglichen werden.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App-Ansicht interaktive Elemente
-enthält.
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht interaktive Elemente enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
-. Zu prüfende Ansicht in der Software öffnen.
-. Alle Bedienelemente mit Tabulator durchlaufen und prüfen, ob sie mit
-  grafischen Veränderungen auf den Fokus reagieren (zum Beispiel mit
-  Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). Versteckte
-  Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
-. Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht,
-  prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem
-  Zustand mindestens 3:1 beträgt.
+. Tastatur über Bluetooth-Kopplung oder USB-Kabel anschließen.
+. Zu prüfende Ansicht der App öffnen.
+. Mit der Tabulatortaste zu allen interaktiven Elementen navigieren.
+. Prüfen, ob sie mit grafischen Veränderungen auf den Fokus reagieren (zum Beispiel mit
+  Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
+. Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht, prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt.
 . Bei Bedienelementen, die sich im Fokus nicht verändern, prüfen, ob der
-  Tastaturfokus (Systemkranz) an dieser Stelle vor hellem Hintergrund
-  dargestellt ist, also gut zu erkennen ist.
+  Tastaturfokus (Systemkranz) an dieser Stelle vor hellem Hintergrund dargestellt ist, also gut zu erkennen ist.
   In Zweifelsfällen gemäß Prüfschritt
 ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend"]
 ifndef::env_embedded[]
@@ -54,28 +42,27 @@ endif::env_embedded[]
   ermitteln, ob die Farbe Schwarz vor dem gewählten Hintergrund ausreichend
   kontrastiert.
 
-=== Hinweise
+=== 3. Hinweise
 
-* Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturcursor
-sichtbar ist.
+* Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturfokus sichtbar ist.
 Dann ist eventuell auch Prüfschritt
 ifdef::env_embedded[11.2.1.1 "Tastaturbedienung"]
 ifndef::env_embedded[]
   <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
 endif::env_embedded[]
-nicht erfüllt! (Ohne Touch-Gesten bedienbar?)
+nicht erfüllt! (bzw. Ohne Touch-Gesten bedienbar?)
 
-Bei mobilen Systemen muss ggf. eine Bluetooth-Tastatur zum Einsatz kommen.
+=== 4. Bewertung
 
-=== Bewertung
+==== Erfüllt:
 
-*Erfüllt:*
+Die Fokussierung interaktiver Elemente ist visuell wahrnehmbar:
 
-* Die Hervorhebung des Fokusses ist nicht schlechter als ein ausreichend
-  kontrastierender Systemkranz.
-* Bei Bedienelementen, die sich bei Fokuserhalt nicht verändern, jedoch einen
-  Systemkranz zur Hervorhebung erhalten, erfüllt der Helligkeitskontrast der
-  Farbe Schwarz vor dem gewählten Hintergrund die Anforderungen von Prüfschritt
+* Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche Markierungen werden bei Tastaturfokussierung eingesetzt.
+
+* Wenn die Fokussierung von Links oder Buttons nur über die Änderung der Text- oder Hintergrundfarbe vermittelt wird, beträgt deren Kontrastabstand zum unfokussierten Zustand mindestens 3:1.
+
+*  Wenn nur der System-Tastaturfokus angezeigt wird, ist dieser vor gestalteten Hintergründen ausreichend sichtbar, er erfüllt den Prüfschritt
 ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend".]
 ifndef::env_embedded[]
   <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
