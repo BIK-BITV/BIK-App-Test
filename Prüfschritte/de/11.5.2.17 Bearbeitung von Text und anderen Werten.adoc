@@ -71,4 +71,3 @@ Assistive technologies may be required to maintain the same level of security as
 --
 ____
 
-(Aus EN 301 549 V3.1.1 Abschnitt 11.5.2.17 "Modifications of values and text")
