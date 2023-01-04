@@ -6,13 +6,14 @@ include::include/attributes.adoc[]
 Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar". Hier wird bewertet, ob sich Werte von Bedienelementen und modifizierbarer Text, etwa bei Eingabefeldern, auch bei aktivierten Hilfsmitteln modifizieren lassen.
 
 == Warum wird das geprüft?
-Bedienelemente sollen nicht nur ihren Namen, ihre Rolle und ihren Wert programmatisch zur Verfügung stellen, es soll Hilfsmittel-Nutzenden auch möglich sein, Werte von Bedienelementen zu ändern.
+
+Hilfsmittel-Nutzenden soll es möglich sein, alle Werte von Bedienelementen zu ändern, die sich ohne die Nutzung von Hilfsmitteln ändern lassen.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwicklerinnen und Entwicklern selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert werden und der Wert muss geändert werden, um festzustellen, ob Zustandsänderungen auch bei aktiviertem Screenreader möglioch sind.
+Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt, bei denen sich Werte (z.B. Zustände oder Textinhalte) ändern lassen. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwickler:innen selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert werden und der Wert muss geändert werden, um festzustellen, ob Zustandsänderungen auch bei aktiviertem Screenreader möglich sind.
 
 === 2. Prüfung
 
@@ -25,11 +26,11 @@ Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus 
 
 ==== 3.1 Prüfung zugänglicher alternativer Versionen
 
-Wenn ein Bedienelement vorhanden sind, das sich in der Nutzung ohne Screenreader aktivieren lässt, für Screenreader jedoch nicht programmatisch verfügbar ist, ist zu prüfen, ob es im Kontext eine äquivalente Möglichkeit für die Aktivierung der unterlegten Funktion gibt. Beispiel: Ein Schieberegler ist für Screenreader nicht programmatisch ermittelbar, es gibt darunter jedoch eine zugängliches Bedienelement, über das der Wert eingestellt werden kann. Wenn Elemente programmatisch verfügbar sind, müssen sie auch bedienbar sein, also Änderungen des Werts unterstützen.
+Wenn ein Bedienelement vorhanden sind, das sich in der Nutzung ohne Screenreader aktivieren lässt, für Screenreader jedoch nicht programmatisch verfügbar ist, ist zu prüfen, ob es im Kontext eine äquivalente zugängliche Möglichkeit für die Aktivierung der unterlegten Funktion gibt. Beispiel: Ein Schieberegler ist für Screenreader nicht programmatisch ermittelbar, es gibt darunter jedoch eine zugängliches Bedienelement, über das der Wert eingestellt werden kann. Wenn Elemente programmatisch verfügbar sind, müssen sie auch bedienbar sein, also Änderungen des Werts unterstützen.
 
 ==== 3.2 Hinweise zur Teamprüfung
 
-Bei der Beurteilung, ob sich Werte erfolgreich ändern lassen, ist ggf. sehende Assistenz nötig, nämlich dann, wenn sich ein Wert bei Aktivierung mit eingeschaltetem Screenreader zwar ändert, die Zustandsänderung selbst aber nicht programmatisch ermittelbar ist. Dies ist dann ein Mangel, der im Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar" zu erfassen wäre. 
+Bei der Beurteilung, ob sich Werte erfolgreich ändern lassen, ist ggf. sehende Assistenz nötig, nämlich dann, wenn sich ein Wert bei Aktivierung mit eingeschaltetem Screenreader zwar ändert, der geänderte Wert selbst aber nicht programmatisch ermittelbar ist. Dies ist dann ein Mangel, der im Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar" zu erfassen wäre. 
 
 === 4. Bewertung
 
