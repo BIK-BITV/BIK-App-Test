@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 Interaktive Elemente, die verschiedene Zustände haben (z.B. an- und ausgeschaltet) sollen auch mit eingeschaltetem Screenreader bedienbar sein. Für Standard-Elemente ist dies in der Regel gegeben. Das Augenmerk bei der Prüfung liegt deshalb hauptsächlich auf Custom-Elementen und Custom-Widgets. 
 
-Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar". Hier wird bewertet, ob sich Zustände und Eigenschaften von Bedienelementen auch bei aktivierten Hilfsmitteln modifizieren lassen. Beispiele: 
+Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar". Hier wird speziell geprüft, ob sich *Zustände und Eigenschaften* von Bedienelementen auch bei aktivierten Hilfsmitteln modifizieren lassen. Beispiele: 
 
 * eine Custom-Checkbox lässt sich markieren
 * ein Ausklappmenü oder ein Ausklappbereich lässt sich öffnen und schließen
