@@ -16,7 +16,7 @@ Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus 
 
 === 2. Prüfung
 
-Die Prüfung verläuft im Wesentlichen wie in Prüfschritt 4.1.2 beschrieben. Hier ist das Augenmerk auf der Möglichkeit, Werte zu ändern.
+Die Prüfung verläuft im Wesentlichen wie in Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar" beschrieben. Geprüft wird hier spezifisch die Möglichkeit, Werte zu ändern.
 
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes interaktive Element setzen.
