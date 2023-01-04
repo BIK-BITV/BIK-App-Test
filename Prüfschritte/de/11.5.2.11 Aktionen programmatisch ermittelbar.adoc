@@ -47,13 +47,15 @@ Hier ist bei der Teamprüfung (nicht-visuelle Prüfende mit sehender Assistenz) 
 
 == 4. Quellen
 
-=== EN 301 549 v.3.2.1
+=== Auszug EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.11 List of available actions 
+____
 
 [.BLOCK_LANG_EN]
 Where the software provides a user interface it shall, by using the services as
 described in clause 11.5.2.3, make a list of available actions that can be
 executed on a user interface element, programmatically determinable by
 assistive technologies.
+____
