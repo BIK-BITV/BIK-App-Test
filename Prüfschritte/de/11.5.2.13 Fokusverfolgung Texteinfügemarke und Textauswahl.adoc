@@ -4,17 +4,17 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Informationen und Mechanismen für die Fokusverfolgung, Texteinfügemarke und Textauswahl müssen für die Hilfsmitteltechnologie programatisch verfügbar sein. Geprüft wird dies mithilfe der integrierten Screenreader VoiceOver (iOS) und TalkBack (Android) und der Aktivierung der jeweiligen Gesten-Befehle für Fokusversetzung und Textauswahl.
+Bei Interface-Elementen der App, die Texteingaben und Textbearbeitung vorsehen, muss die Position des Fokus bzw. der Texteinfügemarke und sowie die Textauswahl für Hilfsmitteltechnologien programatisch verfügbar sein. Geprüft wird dies mithilfe der integrierten Screenreader VoiceOver (iOS) und TalkBack (Android) und der Aktivierung der jeweiligen Gesten-Befehle für Fokusversetzung und Textauswahl.
 
 == Warum wird das geprüft?
 
-Wenn die App grundsätzlich die Auswahl von Text zulässt (etwa zum Kopieren oder Editieren von Texteingaben), sollen die dazugehörigen Funktionen wie die Positionierung des Cursors und die Festlegung der Textauswahl auch für Hilfsmittel-Nutzende verfügbar sein. Dafür müssen Informationen und Mechanismen für die Fokusverfolgung, die Texteinfügemarke (Cursor) und die Textauswahl programmatisch verfügbar sein.
+Die Textbearbeitung und die dazugehörigen Funktionen wie die Positionierung des Cursors und die Festlegung der Textauswahl sollen auch für Hilfsmittel-Nutzende verfügbar sein.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App Texteingaben vorsieht oder Textbestandteile der App ausgewählt und kopiert werden können.
+Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und Bearbeitung von Text vorsehen. In der Regel sind dies einzeilige oder mehrzeilige Textfelder in Formularen, oder auch editierbare Felder in Lückentexten.
 
 === 2. Prüfung
 
