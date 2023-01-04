@@ -11,15 +11,28 @@ Bedienelemente sollen nicht nur ihren Namen, ihre Rolle und ihren Wert programma
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente aufweist. 
+
+Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwicklerinnen und Entwicklern selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert und aktiviert werden, um festzustellen, ob die jeweiligen Namen, Rollen und Werte vom Screenreader ausgegeben und auch Zustandsänderungen richtig kommuniziert werden.
 
 === 2. Prüfung
 
+Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen ausgeschaltet sein (siehe "3. Hinweise").
+
+. App mit zu prüfender Ansicht öffnen.
+. Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes interaktive Element setzen.
+. Prüfen, ob der Name, die Rolle und der Wert des Bedienelements vom Screenreader korrekt ausgegeben wird (siehe auch "3. Hinweise").
+. Prüfen, ob sich Werte von Elementen (Zustände) mit aktiviertem Screenreader ändern lassen: Checkboxen bzw. Umschalter lassen sich aktivieren/deaktivieren, Werte in Schiebereglern lassen sich erhöhen oder verringern, Text in Texteingabefeldern lässt sich ändern, Ausklappbereiche lassen sich öffnen und schließen, usw.
+. Dass geänderte Werte nach Eingabe korrekt ausgegeben werden, wird in Prüfschritt 11.4.1.2 erfasst (für Fokusposition und Textauswahl außerdem in Prüfschritt 11.5.2.13).
+
 === 3. Hinweise
+
+Die Prüfung ist weitgehend identisch mit der Prüfung in 11.4.1.2. Hier richtet sich das Augenmerk aber darauf, dass Wertänderungen bei aktiviertem Screenreader überhaupt möglich sind.
 
 === 4. Bewertung
 
 ==== Erfüllt:
+
+Werte von Bedienelementen und Textinhalte editierbarer Textfelder lassen sich mit aktiviertem Screenreader über gestische Eingaben modifizieren.
 
 == Einordnung des Prüfschritts
 
