@@ -16,8 +16,6 @@ Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus 
 
 === 2. Prüfung
 
-Die Prüfung verläuft im Wesentlichen wie in Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar" beschrieben. Geprüft wird hier spezifisch die Möglichkeit, Werte zu ändern.
-
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes interaktive Element setzen.
 . Prüfen, ob sich Werte von Elementen (Zustände) mit aktiviertem Screenreader ändern lassen: Checkboxen bzw. Umschalter lassen sich aktivieren/deaktivieren, Werte in Schiebereglern lassen sich erhöhen oder verringern, Text in Texteingabefeldern lässt sich ändern, Ausklappbereiche lassen sich öffnen und schließen, usw.
