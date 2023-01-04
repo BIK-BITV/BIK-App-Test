@@ -29,29 +29,41 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 * Sicherstellen, dass in den VoiceOver-Einstellungen unter "Rotor" die Optionen "Zeichen" und "Textauswahl" aktiviert sind. Dann VoiceOver aktivieren.
 * Ein Textfeld über horizontale Wischgeste fokussieren und durch Doppeltippen aktivieren. Es wird in der Regel "Einfügemarke am Ende" angesagt. (Doppeltippen ändert die Cursorposition von Ende zu Anfang und umgekehrt.) Wenn kein Text im Textfeld vorhanden ist, etwas Text eingeben.
 
-== 3. Hinweise
+===== 2.1.1 Prüfung Fokusversetzung in iOS / VoiceOver
 
-Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein. In diesem Prüfschritt geht es darum, dass die Position des Fokus und die Markierung des Texts geändert werden kann. In 11.5.2.13 wird dagegen bewertet, ob die aktuelle Position des Fokus vom Screenreader augegeben werden kann und dass der gerade markierte Text ausgegeben werden kann.
+* Den VoiceOver-Rotor auf "Zeichen" stellen.
+* Steht der Cursor am Anfang, soll vertikales Wischen nach unten die Cursor-Position um ein Zeichen nach rechts verschieben. Das Zeichen vor dem Cursor wird ausgegeben. Steht der Cursor am Ende, soll vertikales Wischen nach oben die Cursor-Position um ein Zeichen nach links verschieben. Das Zeichen nach dem Cursor wird ausgegeben. 
 
-=== Android / TalkBack
+===== 2.1.2 Textauswahl in iOS / VoiceOver
 
-* Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert.
-* Die Fokusposition wird in der Regel mit den Lautstärketasten des Geräts versetzt.
-* Über das lokale Kontextmenü (Wischen nach oben und dann nach rechts) können Optionen zum Textauswahl-Modus, zum Kopieren usw. aufgerufen werden
+* Den VoiceOver-Rotor auf "Textauswahl" stellen. Ggf. über vertikales Wischen die Textauswahl auf "Zeichenauswahl" stellen.
+* Steht der Cursor am Ende, soll horizontales Wischen nach links die Auswahl um je ein weiteres Zeichen erweitern. Steht der Cursor am Anfang, geschieht die Auswahl über horizontales Wischen nach rechts. Die Auswahl wird ausgegeben. 
 
-=== iOS / VoiceOver
+====  2.2 Android / TalkBack
 
-* Durch Doppeltippen wird die Einfügemarke bei wiederholter Anwendung zwischen Anfang und Ende des Texts hin und her verschoben.
-* Im Rotor eine der Optionen Zeichen/Wörter einstellen. Anschließend durch Streichen mit einem Finger von oben nach unten bzw. unten nach oben die Fokusposition versetzen.
-* Text-Auswahl: Zoom-Geste (Pinch bzw. Finger auseinander ziehen / zusammen ziehen) anwenden, entsprechend werden Zeichen/Worte markiert.
-* Kopieren/Einfügen (u. ä.): Im Rotor die Option Bearbeiten wählen. Anschließend durch Streichen mit einem Finger von oben nach unten die zugehörige Option auswählen und doppeltippen.
+* TalkBack aktivieren
+* Ein Textfeld über horizontale Wischgeste fokussieren und ggf. durch Doppeltippen aktivieren (ist der Bearbeitungsmodus aktiv, wird "in Bearbeitung" ausgegeben). Wenn kein Text im Textfeld vorhanden ist, etwas Text eingeben. (Die Cursorposition lässt sich über das Talkback-Menü (Haken-Wischgeste noch oben, dann nach rechts) und dann Auswahl von "Aktionen" ändern: "Cursor an den Anfang verschieben" an bzw. "Cursor ans Ende verschieben").
+
+
+===== 2.1.1 Prüfung Fokusversetzung in Android / Talkback
+
+* Über eine Dreifinger-Wischgeste die Einstellung "Zeichen" wählen. Die Cursorposition sollte sich nun über eine vertikale Einfinger-Wischgeste durch nach-Unten-Wischen nach rechts und durch Nach-Oben-Wischen nach links verschieben lassen.
+
+===== 2.1.1 Prüfung Textauswahl in Android / Talkback
+
+* Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert bzw. wieder deaktiviert. Eine Alternative ist die Auswahl über das Talkback-Menü (Haken-Wischgeste noch oben, dann nach rechts; Auswahl von "Aktionen"; Auswahl von "Auswahlmodus starten oder beenden").
+* Der Text lässt sich nun durch vertikale Wischgesten zeichenweise oder auch wortweise auswählen. Über die vertikale Dreifinger-Wischgeste lässt sich der jeweilige Auswahlmodus ändern.
+
+=== 3. Hinweise
+
+* Die Hinweise beziehen sich auf die aktuellen Betriebssystem- und Screenreader-Versionen zum Zeitpunkt der Aktualisierung des Prüfschritts. Ggf. ändern sich die Gesten für die Versetzung des Fokus und die Auswahl von Text mit neuen Versionen von VoiceOver und TalkBack. Es wird empfohlen, ggf. die aktuelle Dokumentation zu den Bedienungshilfen zu konsultieren.
+* Manche Android-Geräte bzw. ältere Talkback-Versionen unterstützten auch die Verschiebung der Cursor-Position über die physischen Tasten am Geräterand zum Lauter/Leiser-Stellen. 
 
 === 4. Bewertung
 
 ==== Erfüllt:
 
-* Eingabefeld vorhanden, die Texteinfügemarke lässt sich mit aktiviertem Screenreader versetzen und Text lässt sich markieren
-* Fokus zwischen Bedienelementen lässt sich mit aktiviertem Screenreader versetzen
+Bei aktiviertem Screenreader lässt sich die Fokusposition gezielt versetzen und bei die Text-Auswahl gezielt ändern (erweitern / verringern).
 
 == Einordnung des Prüfschritts
 
