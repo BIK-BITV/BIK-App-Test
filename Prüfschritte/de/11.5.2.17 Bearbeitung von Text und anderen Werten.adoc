@@ -25,9 +25,7 @@ Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus 
 
 ==== 3.1 Allgemeine Hinweise
 
-* Die Prüfung ist weitgehend identisch mit der Prüfung in 11.4.1.2. Hier richtet sich das Augenmerk aber darauf, dass Wertänderungen bei aktiviertem Screenreader überhaupt möglich sind.
-
-* Wenn ein Bedienelement vorhanden sind, das sich in der Nutzung ohne Screenreader aktivieren lässt, für Screenreader jedoch nicht programmatisch verfügbar ist, ist zu prüfen, ob es im Kontext eine äquivalente Möglichkeit für die Aktivierung der unterlegten Funktion gibt. Beispiel: Ein Schieberegler ist für Screenreader nicht programmatisch ermittelbar, es gibt darunter jedoch eine zugängliches Bedienelement, über das der Wert eingestellt werden kann. Wenn Elemente programmatisch verfügbar sind, müssen sie auch bedienbar sein, also Änderungen des Werts unterstützen.
+Prüfung zugänglicher alternativer Versionen: Wenn ein Bedienelement vorhanden sind, das sich in der Nutzung ohne Screenreader aktivieren lässt, für Screenreader jedoch nicht programmatisch verfügbar ist, ist zu prüfen, ob es im Kontext eine äquivalente Möglichkeit für die Aktivierung der unterlegten Funktion gibt. Beispiel: Ein Schieberegler ist für Screenreader nicht programmatisch ermittelbar, es gibt darunter jedoch eine zugängliches Bedienelement, über das der Wert eingestellt werden kann. Wenn Elemente programmatisch verfügbar sind, müssen sie auch bedienbar sein, also Änderungen des Werts unterstützen.
 
 ==== 3.2 Hinweise Teamprüfung
 
