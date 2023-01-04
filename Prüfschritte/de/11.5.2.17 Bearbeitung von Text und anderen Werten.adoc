@@ -3,7 +3,7 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
-Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar". Hier wird bewertet, ob sich Werte von Bedienelementen und modifizierbarer Text, etwa bei Eingabefeldern, auch bei aktivierten Hilfsmitteln modifizieren lassen.
+Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar". Hier wird geprüft und bewertet, ob sich Werte von Bedienelementen und modifizierbarer Text, etwa bei Eingabefeldern, auch bei aktivierten Hilfsmitteln modifizieren lassen.
 
 == Warum wird das geprüft?
 Bedienelemente sollen nicht nur ihren Namen, ihre Rolle und ihren Wert programmatisch zur Verfügung stellen, es soll Hilfsmittel-Nutzenden auch möglich sein, Werte von Bedienelementen zu ändern.
