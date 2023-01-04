@@ -42,7 +42,7 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 ====  2.2 Android / TalkBack
 
 . TalkBack aktivieren
-. Ein Textfeld über horizontale Wischgeste fokussieren und ggf. durch Doppeltippen aktivieren (ist der Bearbeitungsmodus aktiv, wird "in Bearbeitung" ausgegeben). Wenn kein Text im Textfeld vorhanden ist, etwas Text eingeben. (Die Cursorposition lässt sich über das Talkback-Menü (Haken-Wischgeste noch oben, dann nach rechts) und dann Auswahl von "Aktionen" ändern: "Cursor an den Anfang verschieben" an bzw. "Cursor ans Ende verschieben").
+. Ein Textfeld über horizontale Wischgeste fokussieren und ggf. durch Doppeltippen aktivieren (ist der Bearbeitungsmodus aktiv, wird "in Bearbeitung" ausgegeben). Wenn kein Text im Textfeld vorhanden ist, etwas Text eingeben. (Die Cursorposition lässt sich über das Talkback-Menü (Aufruf: mit drei Fingern tippen) und dann Auswahl von "Aktionen" ändern: "Cursor an den Anfang verschieben" an bzw. "Cursor ans Ende verschieben").
 
 
 ===== 2.2.1 Prüfung Fokusversetzung in Android / Talkback
@@ -52,7 +52,7 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 
 ===== 2.2.2 Prüfung Textauswahl in Android / Talkback
 
-. Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert bzw. wieder deaktiviert. Eine Alternative ist die Auswahl über das Talkback-Menü (Haken-Wischgeste noch oben, dann nach rechts; Auswahl von "Aktionen"; Auswahl von "Auswahlmodus starten oder beenden").
+. Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert bzw. wieder deaktiviert. Eine Alternative ist die Auswahl über das Talkback-Menü (Aufruf: mit drei Fingern tippen), Auswahl von "Aktionen", dann Auswahl von "Auswahlmodus starten oder beenden").
 . Der Text lässt sich nun durch vertikale Wischgesten zeichenweise oder auch wortweise auswählen. Über die vertikale Dreifinger-Wischgeste lässt sich der jeweilige Auswahlmodus ändern.
 
 === 3. Hinweise
