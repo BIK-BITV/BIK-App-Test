@@ -24,8 +24,7 @@ Der Prüfschritt ist anwendbar, wenn die App Texteingaben vorsieht oder Textbest
 * Unterstützt der Inhalt, soweit verfügbar, die vom System und Screenreader vorgesehenen Mechanismen der Textauswahl hinsichtlich der Ansage (an welcher Position befindet sich die Texteinfügemarke, welcher Text ist markiert)?
 
 ==== 2.1 Textauswahl in iOS / VoiceOver
-* Sicherstellen, dass in den VoiceOver-Einstellungen unter "Rotor" die Option "Textauswahl" aktiviert ist.
-* VoiceOver aktivieren
+* Sicherstellen, dass in den VoiceOver-Einstellungen unter "Rotor" die Option "Textauswahl" aktiviert ist. Dann VoiceOver aktivieren.
 * Ein Textfeld über horizontale Wischgeste fokussieren und durch Doppeltippen aktivieren. Es wird in der Regel "Einfügemarke am Ende" angesagt. (Doppeltippen ändert die Cursorposition von Ende zu Anfang und umgekehrt.)
 * Wenn kein Text im Textfeld vorhanden ist, etwas Text eingeben.
 * Den VoiceOver-Rotor auf "Textauswahl" stellen. Ggf. über vertikales Wischen die Textauswahl auf "Zeichenauswahl" stellen.
