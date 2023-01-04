@@ -45,19 +45,19 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 * Ein Textfeld über horizontale Wischgeste fokussieren und ggf. durch Doppeltippen aktivieren (ist der Bearbeitungsmodus aktiv, wird "in Bearbeitung" ausgegeben). Wenn kein Text im Textfeld vorhanden ist, etwas Text eingeben. (Die Cursorposition lässt sich über das Talkback-Menü (Haken-Wischgeste noch oben, dann nach rechts) und dann Auswahl von "Aktionen" ändern: "Cursor an den Anfang verschieben" an bzw. "Cursor ans Ende verschieben").
 
 
-===== 2.1.1 Prüfung Fokusversetzung in Android / Talkback
+===== 2.2.1 Prüfung Fokusversetzung in Android / Talkback
 
 * Über eine Dreifinger-Wischgeste die Einstellung "Zeichen" wählen. Die Cursorposition sollte sich nun über eine vertikale Einfinger-Wischgeste durch nach-Unten-Wischen nach rechts und durch Nach-Oben-Wischen nach links verschieben lassen.
 
-===== 2.1.1 Prüfung Textauswahl in Android / Talkback
+===== 2.2.2 Prüfung Textauswahl in Android / Talkback
 
 * Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert bzw. wieder deaktiviert. Eine Alternative ist die Auswahl über das Talkback-Menü (Haken-Wischgeste noch oben, dann nach rechts; Auswahl von "Aktionen"; Auswahl von "Auswahlmodus starten oder beenden").
 * Der Text lässt sich nun durch vertikale Wischgesten zeichenweise oder auch wortweise auswählen. Über die vertikale Dreifinger-Wischgeste lässt sich der jeweilige Auswahlmodus ändern.
 
 === 3. Hinweise
 
-* Die Hinweise beziehen sich auf die aktuellen Betriebssystem- und Screenreader-Versionen zum Zeitpunkt der Aktualisierung des Prüfschritts. Ggf. ändern sich die Gesten für die Versetzung des Fokus und die Auswahl von Text mit neuen Versionen von VoiceOver und TalkBack. Es wird empfohlen, ggf. die aktuelle Dokumentation zu den Bedienungshilfen zu konsultieren.
-* Manche Android-Geräte bzw. ältere Talkback-Versionen unterstützten auch die Verschiebung der Cursor-Position über die physischen Tasten am Geräterand zum Lauter/Leiser-Stellen. 
+* Die Hinweise beziehen sich auf die aktuellen Betriebssystem- und Screenreader-Versionen zum Zeitpunkt der Aktualisierung des Prüfschritts (Android 13 / iOS 16). Ggf. ändern sich die Gesten für die Versetzung des Fokus und die Auswahl von Text mit neuen Versionen von VoiceOver und TalkBack. Es wird empfohlen, ggf. die aktuelle Dokumentation zu den Bedienungshilfen zu konsultieren.
+* Manche Android-Geräte bzw. ältere Talkback-Versionen unterstützten auch die Verschiebung der Cursor-Position über die physischen Tasten am Geräterand zum Lauter/Leiser-Stellen des Tons. 
 
 === 4. Bewertung
 
