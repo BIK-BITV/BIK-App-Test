@@ -8,7 +8,7 @@ Informationen und Mechanismen für die Fokusverfolgung, Texteinfügemarke und Te
 
 == Warum wird das geprüft?
 
-Wenn die App grundsätzlich die Auswahl von Text zulässt, etwa zum Kopieren oder Editieren von Texteingaben, sollen die dazugehörigen Funktionen wie die Positionierung des Cursors und die Festlegung der Textauswahl (etwa zum Kopieren) auch für Hilfsmittel-Nutzende verfügbar sein. Dafür müssen Informationen und Mechanismen für die Fokusverfolgung, die Texteinfügemarke (Cursor) und die Textauswahl müssen für die Hilfsmitteltechnologie programmatisch verfügbar sein.
+Wenn die App grundsätzlich die Auswahl von Text zulässt (etwa zum Kopieren oder Editieren von Texteingaben) sollen die dazugehörigen Funktionen wie die Positionierung des Cursors und die Festlegung der Textauswahl auch für Hilfsmittel-Nutzende verfügbar sein. Dafür müssen Informationen und Mechanismen für die Fokusverfolgung, die Texteinfügemarke (Cursor) und die Textauswahl müssen für die Hilfsmitteltechnologie programmatisch verfügbar sein.
 
 == Wie wird geprüft?
 
