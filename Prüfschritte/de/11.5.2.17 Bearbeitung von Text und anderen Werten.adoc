@@ -13,7 +13,7 @@ Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt
 
 == Warum wird das geprüft?
 
-Hilfsmittel-Nutzenden soll es möglich sein, alle Werte von Bedienelementen zu ändern, die sich ohne die Nutzung von Hilfsmitteln ändern lassen.
+Hilfsmittel-Nutzenden soll es möglich sein, alle Werte von Bedienelementen zu ändern, die sich ohne die Nutzung von Hilfsmitteln ändern lassen. Selbst-gestaltete interaktive Elemente (Custom-Elemente und -Widgets) sollen sich ebenso bedienen lassen wie native Elemente.
 
 == Wie wird das geprüft?
 
