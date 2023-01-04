@@ -45,10 +45,11 @@ Hier ist bei der Teamprüfung (nicht-visuelle Prüfende mit sehender Assistenz) 
 
 == Quellen
 
-EN 301 549 v.3.2.1
+=== Auszug EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.12 Execution of available actions 
+____
 
 [.BLOCK_LANG_EN]
 --
@@ -68,3 +69,4 @@ security, command and control of military forces.
 Assistive technologies may be required to maintain the same level of security
 as the standard input mechanisms supported by the platform.
 --
+____
