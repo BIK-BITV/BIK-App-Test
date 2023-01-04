@@ -12,27 +12,32 @@ Bedienelemente sollen nicht nur ihren Namen, ihre Rolle und ihren Wert programma
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwicklerinnen und Entwicklern selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert und aktiviert werden, um festzustellen, ob die jeweiligen Namen, Rollen und Werte vom Screenreader ausgegeben und auch Zustandsänderungen richtig kommuniziert werden.
+Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwicklerinnen und Entwicklern selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert werden und der Wert muss geändert werden, um festzustellen, ob Zustandsänderungen auch bei aktiviertem Screenreader möglioch sind.
 
 === 2. Prüfung
 
-Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen ausgeschaltet sein (siehe "3. Hinweise").
+Die Prüfung verläuft im Wesentlichen wie in Prüfschritt 4.1.2 beschrieben. Hier ist das Augenmerk auf der Möglichkeit, Werte zu ändern.
 
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes interaktive Element setzen.
-. Prüfen, ob der Name, die Rolle und der Wert des Bedienelements vom Screenreader korrekt ausgegeben wird (siehe auch "3. Hinweise").
 . Prüfen, ob sich Werte von Elementen (Zustände) mit aktiviertem Screenreader ändern lassen: Checkboxen bzw. Umschalter lassen sich aktivieren/deaktivieren, Werte in Schiebereglern lassen sich erhöhen oder verringern, Text in Texteingabefeldern lässt sich ändern, Ausklappbereiche lassen sich öffnen und schließen, usw.
 . Dass geänderte Werte nach Eingabe korrekt ausgegeben werden, wird in Prüfschritt 11.4.1.2 erfasst (für Fokusposition und Textauswahl außerdem in Prüfschritt 11.5.2.13).
 
 === 3. Hinweise
 
-Die Prüfung ist weitgehend identisch mit der Prüfung in 11.4.1.2. Hier richtet sich das Augenmerk aber darauf, dass Wertänderungen bei aktiviertem Screenreader überhaupt möglich sind.
+==== 3.1 Allgemeine Hinweise
+
+* Die Prüfung ist weitgehend identisch mit der Prüfung in 11.4.1.2. Hier richtet sich das Augenmerk aber darauf, dass Wertänderungen bei aktiviertem Screenreader überhaupt möglich sind.
+
+* Wenn ein Bedienelement vorhanden sind, das sich in der Nutzung ohne Screenreader aktivieren lässt, für Screenreader jedoch nicht programmatisch verfügbar ist, ist zu prüfen, ob es im Kontext eine äquivalente Möglichkeit für die Aktivierung der unterlegten Funktion gibt. Beispiel: Ein Schieberegler ist für Screenreader nicht programmatisch ermittelbar, es gibt darunter jedoch eine zugängliches Bedienelement, über das der Wert eingestellt werden kann. Wenn Elemente programmatisch verfügbar sind, müssen sie auch bedienbar sein, also Änderungen des Werts unterstützen.
+
+==== 3.2 Hinweise Teamprüfung
 
 === 4. Bewertung
 
 ==== Erfüllt:
 
-Werte von Bedienelementen und Textinhalte editierbarer Textfelder lassen sich mit aktiviertem Screenreader über gestische Eingaben modifizieren.
+Wenn Bedienelemente für Hilfsmittel programmatisch verfügbar sind, lassen sich deren Werte (einschließlich Textinhalte editierbarer Textfelder) mit aktiviertem Screenreader über Eingaben modifizieren.
 
 == Einordnung des Prüfschritts
 
