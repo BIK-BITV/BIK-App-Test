@@ -35,6 +35,7 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 
 * Den VoiceOver-Rotor auf "Textauswahl" stellen. Ggf. über vertikales Wischen die Textauswahl auf "Zeichenauswahl" stellen.
 * Steht der Cursor am Ende, soll horizontales Wischen nach links die Auswahl um je ein weiteres Zeichen erweitern. Steht der Cursor am Anfang, geschieht die Auswahl über horizontales Wischen nach rechts. Die Auswahl wird ausgegeben. 
+* Alternative Text-Auswahl: Zoom-Geste (Pinch-Geste bzw. Finger auseinander ziehen / zusammen ziehen) anwenden, entsprechend werden Zeichen/Worte fortschreitend ausgewählt und ausgegeben.
 
 ====  2.2 Android / TalkBack
 
