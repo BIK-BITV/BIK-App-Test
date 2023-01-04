@@ -13,20 +13,20 @@ Hilfsmittel-Nutzenden soll es möglich sein, alle Werte von Bedienelementen zu �
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt, bei denen sich Werte (z.B. Zustände oder Textinhalte) ändern lassen. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwickler:innen selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert werden und der Wert muss geändert werden, um festzustellen, ob Zustandsänderungen auch bei aktiviertem Screenreader möglich sind.
+Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt, bei denen sich Werte (z.B. der Wert eines Reglers oder Textinhalte) ändern lassen. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwickler:innen selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert werden und der Wert muss geändert werden, um festzustellen, ob Zustandsänderungen auch bei aktiviertem Screenreader möglich sind.
 
 === 2. Prüfung
 
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes interaktive Element setzen.
-. Prüfen, ob sich Werte von Elementen (Zustände) mit aktiviertem Screenreader ändern lassen: Checkboxen bzw. Umschalter lassen sich aktivieren/deaktivieren, Werte in Schiebereglern lassen sich erhöhen oder verringern, Text in Texteingabefeldern lässt sich ändern, Ausklappbereiche lassen sich öffnen und schließen, usw.
+. Prüfen, ob sich die Werte von Elementen mit aktiviertem Screenreader ändern lassen: Werte in Schiebereglern lassen sich erhöhen oder verringern, Optionen von Auswahllisten lassen sich ändern, Text in Texteingabefeldern lässt sich ändern, usw.
 . Dass geänderte Werte nach Eingabe korrekt ausgegeben werden, wird in Prüfschritt 11.4.1.2 erfasst (für Fokusposition und Textauswahl außerdem in Prüfschritt 11.5.2.13).
 
 === 3. Hinweise
 
 ==== 3.1 Prüfung zugänglicher alternativer Versionen
 
-Wenn ein Bedienelement vorhanden sind, das sich in der Nutzung ohne Screenreader aktivieren lässt, für Screenreader jedoch nicht programmatisch verfügbar ist, ist zu prüfen, ob es im Kontext eine äquivalente zugängliche Möglichkeit für die Aktivierung der unterlegten Funktion gibt. Beispiel: Ein Schieberegler ist für Screenreader nicht programmatisch ermittelbar, es gibt darunter jedoch eine zugängliches Bedienelement, über das der Wert eingestellt werden kann. Wenn Elemente programmatisch verfügbar sind, müssen sie auch bedienbar sein, also Änderungen des Werts unterstützen.
+Wenn ein Bedienelement vorhanden sind, das in der Nutzung ohne Screenreader Wert-Änderungen zulässt, für Screenreader jedoch nicht programmatisch verfügbar ist, ist zu prüfen, ob es im Kontext eine äquivalente zugängliche Möglichkeit für die Änderung des Wertes gibt. Beispiel: Ein Schieberegler ist für Screenreader nicht programmatisch ermittelbar, es gibt darunter jedoch eine zugängliches Bedienelement, über das der Wert eingestellt werden kann. Wenn Elemente programmatisch verfügbar sind, müssen sie auch bedienbar sein, also Änderungen des Werts unterstützen.
 
 ==== 3.2 Hinweise zur Teamprüfung
 
