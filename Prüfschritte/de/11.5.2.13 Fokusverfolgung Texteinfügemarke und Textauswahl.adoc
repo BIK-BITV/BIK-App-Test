@@ -64,7 +64,7 @@ Bei Versetzung des Fokus wird die Position vom Screenreader ausgegeben. Bei Ausw
 
 === Abgrenzung zu anderen Prüfschritten
 
-Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein. In diesem Prüfschritt geht es darum, dass die aktuelle Position des Fokus vom Screenreader ausgegeben werden kann und dass der gerade markierte Text ausgegeben werden kann. In 11.5.2.14 wird dagegen bewertet, ob die Position des Fokus und die Markierung des Texts geändert werden kann.
+Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein. In diesem Prüfschritt geht es darum, ob die aktuelle Position des Fokus und der aktuell ausgewählte Text ausgegeben werden. In 11.5.2.14 wird dagegen bewertet, ob die Position des Fokus und die Auswahl des Texts geändert werden kann.
 
 == Quellen
 * https://support.google.com/accessibility/android/answer/6151827?hl=en#zippy=%2Cversion-up%2Cversion-lower[Google-Hilfe zu TalkBack-Gesten]
