@@ -57,14 +57,14 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 
 === 3. Hinweise
 
-* Die Hinweise beziehen sich auf die aktuellen Betriebssystem- und Screenreader-Versionen zum Zeitpunkt der Aktualisierung des Prüfschritts. Ggf. ändern sich die Gesten für die Versetzung des Fokus und die Auswahl von Text mit neuen Versionen von VoiceOver und TalkBack. Es wird empfohlen, ggf. die aktuelle Dokumentation zu den Bedienungshilfen zu konsultieren.
-* Manche Android-Geräte bzw. ältere Talkback-Versionen unterstützten auch die Verschiebung der Cursor-Position über die physischen Tasten am Geräterand zum Lauter/Leiser-Stellen. 
+* Die Hinweise beziehen sich auf die aktuellen Betriebssystem- und Screenreader-Versionen zum Zeitpunkt der Aktualisierung des Prüfschritts (Android 13 / iOS 16). Ggf. ändern sich die Gesten für die Versetzung des Fokus und die Auswahl von Text mit neuen Versionen von VoiceOver und TalkBack. Es wird empfohlen, ggf. die aktuelle Dokumentation zu den Bedienungshilfen zu konsultieren.
+* Manche Android-Geräte bzw. ältere Talkback-Versionen unterstützten auch die Verschiebung der Cursor-Position über die physischen Tasten am Geräterand zum Lauter/Leiser-Stellen des Tons. 
 
 === 4. Bewertung
 
 ==== Erfüllt:
 
-Bei aktiviertem Screenreader lässt sich die Fokusposition gezielt versetzen und bei die Text-Auswahl gezielt ändern (erweitern / verringern).
+Bei aktiviertem Screenreader lässt sich die Fokusposition gezielt versetzen, die Text-Auswahl lässt sich gezielt ändern (erweitern / verringern).
 
 == Einordnung des Prüfschritts
 
