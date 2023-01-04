@@ -61,6 +61,8 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 
 === 4. Bewertung
 
+==== Erfüllt:
+
 Bei Versetzung des Fokus wird die Position vom Screenreader ausgegeben. Bei Auswahl von Text wird der ausgewählte Text vom Screenreader ausgegeben.
 
 == Einordnung des Prüfschritts
