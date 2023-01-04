@@ -26,8 +26,10 @@ Der Prüfschritt ist anwendbar, wenn die App Texteingaben vorsieht oder Textbest
 ==== 2.1 Textauswahl in iOS / VoiceOver
 * VoiceOver aktivieren
 * Ein Textfeld mit Textinhalt durch Doppeltippen aktivieren. Es wird in der Regel "Einfügemarke am Ende" angesagt.
-* Den VoiceOver-Rotor auf Zeichen stellen. vertikales Wischen verschiebt den Cursor, der Buchstabe nach dem Cursor wird ausgegeben.
-* Den VoiceOver-Rotor auf "Textauswahl" stellen. Nach-links Streichen erweitert die Auswahl um je ein weiteres Zeichen oder Wort (je nach Einstellung übwer vertikale Wischgeste). Die Auswahl wird ausgegeben.
+* Wenn kein Text im Feld vorhanden ist, etwas Text eingeben.
+* Den VoiceOver-Rotor auf "Textauswahl" stellen. 
+* Ggf. über vertikales Wischen auf "Zeichenauswahl" stellen.
+* Steht der Cursor am Ende, soll horizontales Wischen nach links die Auswahl um je ein weiteres Zeichen erweitern. Steht der Cursor am Anfang, geschieht die Auswahl über horizontales Wischen nach rechts. Die Auswahl wird ausgegeben. 
 
 ==== 2.2 Textauswahl in Android / TalkBack
 * TalkBack aktivieren
