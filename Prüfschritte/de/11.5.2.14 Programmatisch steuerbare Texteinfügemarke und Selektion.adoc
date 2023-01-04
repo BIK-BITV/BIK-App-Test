@@ -48,12 +48,12 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 
 ===== 2.2.1 Prüfung Fokusversetzung in Android / Talkback
 
-* Über eine Dreifinger-Wischgeste die Einstellung "Zeichen" wählen. Die Cursorposition sollte sich nun über eine vertikale Einfinger-Wischgeste durch nach-Unten-Wischen nach rechts und durch Nach-Oben-Wischen nach links verschieben lassen.
+* Über eine Dreifinger-Wischgeste die Einstellung "Zeichen" wählen. Die Cursorposition sollte sich nun über eine vertikale Einfinger-Wischgeste durch Nach-Unten-Wischen nach rechts und durch Nach-Oben-Wischen nach links verschieben lassen.
 
 ===== 2.2.2 Prüfung Textauswahl in Android / Talkback
 
 * Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert bzw. wieder deaktiviert. Eine Alternative ist die Auswahl über das Talkback-Menü (Haken-Wischgeste noch oben, dann nach rechts; Auswahl von "Aktionen"; Auswahl von "Auswahlmodus starten oder beenden").
-* Der Text lässt sich nun durch vertikale Wischgesten zeichenweise oder auch wortweise auswählen. Über die vertikale Dreifinger-Wischgeste lässt sich der jeweilige Auswahlmodus ändern.
+* Der Text lässt sich nun durch vertikale Einfinger-Wischgesten zeichenweise oder auch wortweise auswählen. Über die vertikale Dreifinger-Wischgeste lässt sich der jeweilige Auswahlmodus ändern.
 
 === 3. Hinweise
 
