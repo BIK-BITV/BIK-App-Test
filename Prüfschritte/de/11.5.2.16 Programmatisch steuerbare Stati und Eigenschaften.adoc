@@ -24,7 +24,7 @@ Der Prüfschritt ist immer anwendbar, wenn die Seite interaktive Elemente enthä
 Die Prüfung folgt im wesentlichen der Prüfung in 11.4.1.2 Name, Rolle, Wert. Nicht nur bei der initialen Fokussierung sollen zugänglicher Name, Rolle und Wert von Elementen und Widgets ausgegeben werden. Generell verfügbare Zustände müssen sich auch bei eingeschaltetem Screenreader ändern lassen.
 
 === 3. Hinweise
-In der Regel kann die Bewertung bei Prüfgschritt 11.4.1.2 hier übernommen werden. Kann bei eingeschaltetem Screenreader der Wert nicht geändert werden, sind sowohl Prüfschritt 11.4.1.2 als auch dieser Prüfschritt nicht erfüllt. Dieser Prüfschritt betrachtet die Möglichkeit, den Wert wirksam zu setzen, nicht die Ausgabe des geänderten Wertes. Dies ist Gegenstand bvon Prüfschritt 11.5.2.16.
+In der Regel kann die Bewertung bei Prüfgschritt 11.4.1.2 hier übernommen werden. Kann bei eingeschaltetem Screenreader der Wert nicht geändert werden, sind sowohl Prüfschritt 11.4.1.2 als auch dieser Prüfschritt nicht erfüllt. Dieser Prüfschritt betrachtet die Möglichkeit, den Wert wirksam zu ändern, nicht die Ausgabe des (geänderten) Wertes. Dies ist Gegenstand von Prüfschritt 11.4.1.2 "Name Rolle Wert verfügbar".
 
 === 4. Bewertung
 
