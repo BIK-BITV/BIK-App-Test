@@ -9,7 +9,6 @@ Informationen und Mechanismen für die Fokusverfolgung, Texteinfügemarke und Te
 == Warum wird das geprüft?
 
 Wenn die App grundsätzlich die Auswahl von Text zulässt, etwa zum Kopieren oder Editieren von Texteingaben, sollen die dazugehörigen Funktionen wie die Bestimmung der Textauswahl auch für Hilfsmittelnutzer verfügbar sein.
-=======
 
 Informationen und Mechanismen für die Fokusverfolgung, Texteinfügemarke und Textauswahl müssen für die Hilfsmitteltechnologie programatisch verfügbar sein.
 
