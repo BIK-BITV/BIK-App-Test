@@ -8,16 +8,17 @@ include::include/attributes.adoc[]
 Visuell dargestellte Hierarchien sollen grundsätzlich auch für den Screenreader-Nutzer erfahrbar sein.
 Der Einsatz hierarchischer Strukturen ist allerdings bei Apps recht beschränkt. Überschriften finden sich in nativen Apps bislang meist nur auf einer Ebene, auch wenn ab iOS / iPadOS 15 an Überschriften-Hierarchien möglich sind. 
 
-Die am häufigsten anzutreffende Hierarchie sowohl bei Android als auch iOS ist wohl die von Tab-Leisten für die Navigation. Viele listenartige Strukturen sind häufig nur Ansammlungen von Tasten bzw. Schaltern und vermitteln weder die visuell erfahrbare Eltern-Kind Beziehung noch ene ANsgabe von Anzahl von Kindelementen oder Position in der Gruppe. Elemente wie Popup-Fenster (Android) nennen bei Aufruf die Eltern-Rolle, nicht jedoch Anzahl und Position von Kindelementen.
+Die am häufigsten anzutreffende Hierarchie sowohl bei Android als auch iOS ist die von Tab-Leisten Tabs für die Navigation bzw. Werkzeugleisten (Toolbars) mit einer Gruppe von  oder den Aufrug von Funktionen. 
 
+Andere visuell listenartige oder kachelartige Strukturen wie Listen und sind sehr häufig nur Ansammlungen von Tasten bzw. Schaltern und vermitteln weder die visuell erfahrbare Eltern-Kind Beziehung noch die Ausgabe der Anzahl von Kindelementen oder Position in der Gruppe. Elemente wie "Popup-Fenster" oder "Liste" (Android) nennen bei Aufruf die Eltern-Rolle, nicht jedoch Anzahl und oder die relative Position fokussierter Kindelemente. Umfangreiche Hierarchien lassen sich ggf. über bei Einstellung von "Wert anpassen" im Rotor über vertikale Wischgesten navigieren - so etwa etwa der Abschnittsindex in der iOS-App Kontakte.
 
 == Warum wird das geprüft?
-Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progammatisch verfügbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. iOS-Beispiel: Ein Tablist-Widget sagt die Anzahl seiner Tab-Elemente und die Position des kokussierten Objekte im Eltern-Element an. Das Eltern-Element kann gezielt von Screenreader-Nutzenden angesprungen werden, z.B. über die Rotor-Funktion "Vertikale Navigation".
+
+Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progammatisch verfügbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. iOS-Beispiel: Ein Tablist-Widget sagt die Anzahl seiner Tab-Elemente und die Position des kokussierten Objekte im Eltern-Element an. Das Eltern-Element kann gezielt von Screenreader-Nutzenden angesprungen werden, z.B. über die Rotor-Funktion "Vertikale Navigation", der Fokus ist automatisch auf dem zuletzt aktiven Tab.
 
 == Wie wird geprüft?
 
-Mittels Screenreader prüfen, ob die verschiedenen Hierarchien bzw. Ebenen vom
-Screenreader ausgegeben werden.
+Mittels Screenreader prüfen, ob Interface-Elemente, welche Hierarchien standardmäßig ausgeben wie Tablists und Toolbars, die Anzahl und Position von Elementen vermitteln. Nicht negativ zu bewerten ist, wenn das Elternelement selbst nicht benannt ist bzw. bei der Fokussierung eines Kindelementes nicht der Name oder Rolle des Elternelements ausgegeben wird.
 
 == Quellen
 
