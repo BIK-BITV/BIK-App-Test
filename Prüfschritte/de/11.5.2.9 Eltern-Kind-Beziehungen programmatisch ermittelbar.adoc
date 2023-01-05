@@ -16,12 +16,17 @@ Andere visuell listenartige oder kachelartige Strukturen wie Listen treten meist
 
 == Warum wird das geprüft?
 
-Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progammatisch verfügbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. iOS-Beispiel: Eine Tablist sagt bei Fokussierung des Kind-Tabs die Position des Tabs und die Anzahl der Tabs im Eltern-Element an.
+Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progammatisch verfügbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. 
 
 == Wie wird geprüft?
-Da die programmatische Ermittelbarkeit von Eltern-Kind Beziehungen in Apps generell eingeschränkt ist und über die Auszeichung von Tablisten hinaus kaum anzutreffen ist, wird das Fehlen programmatisch ermittelbarer Hierarchien bi Listenansichten oder Navigationsmenüs zurzeit nicht negativ bewertet.
+=== 1. Anwendbarkeit des Prüfschritts
+Da die programmatische Ermittelbarkeit von Eltern-Kind Beziehungen in Apps generell eingeschränkt ist und über die Auszeichung von Tablisten hinaus kaum anzutreffen ist, wird das Fehlen programmatisch ermittelbarer Hierarchien bei Listenansichten oder Navigationsmenüs zurzeit nicht negativ bewertet.
 
-Mittels Screenreader prüfen, ob Tablists und Toolbars die Position des Elements sowie die Gesamt-Anzahl vermitteln. Nicht negativ zu bewerten ist, wenn das Elternelement selbst nicht benannt ist bzw. bei der Fokussierung eines Kindelementes nicht der Name oder Rolle des Elternelements ausgegeben wird. Für andere hierarchische Konstrukte (Listviews, Tables, Collections) ist eine solche Ausgabe nicht standardmäßg unterstützt und deshalb nicht zu erwarten.
+Der Prüfschritt wird also nur auf Tablisten, isbesondere Tablisten oder Toolbars im Fußbereich, angewandt. Hier sollte der Screenreader bei Fokussierung des Kind-Tabs die Namen und Position des Tabs und die Anzahl der Tabs im Eltern-Element ausgeben (z.B. "Suchen, Tab, 5 von 5").
+
+. Mittels Screenreader prüfen, ob Tablists und Toolbars die Position des Elements sowie die Gesamt-Anzahl von Tabs vermitteln. 
+
+Nicht negativ zu bewerten ist, wenn das Elternelement selbst nicht benannt ist bzw. bei der Fokussierung eines Kindelementes nicht der Name oder Rolle des Elternelements ausgegeben wird. Für andere hierarchische Konstrukte (List views, Table views, Collections) ist eine solche Ausgabe nicht standardmäßg unterstützt und deshalb nicht zu erwarten.
 
 == Quellen
 
