@@ -2,16 +2,17 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Dieser Prüfschritt basiert auf den Kriterien der EN 301 549 Abschnitt
-11.5.2.9 Parent-child relationships.
 
 == Was wird geprüft?
 
-Visuell dargestellte Hierarchien sollen grundsätzlich auch für den
-Screenreader-Nutzer erfahrbar sein.
-Beispiel für eine solche Hierarchie kann eine Baum- bzw. Strukturansicht sein.
+Visuell dargestellte Hierarchien sollen grundsätzlich auch für den Screenreader-Nutzer erfahrbar sein.
+Der Einsatz hierarchischer Strukturen ist allerdings bei Apps recht beschränkt. Überschriften finden sich in nativen Apps bislang meist nur auf einer Ebene, auch wenn ab iOS / iPadOS 15 an Überschriften-Hierarchien möglich sind. 
+
+Die am häufigsten anzutreffende Hierarchie sowohl bei Android als auch iOS ist wohl die von Tab-Leisten für die Navigation. Viele listenartige Strukturen sind häufig nur Ansammlungen von Tasten bzw. Schaltern und vermitteln weder die visuell erfahrbare Eltern-Kind Beziehung noch ene ANsgabe von Anzahl von Kindelementen oder Position in der Gruppe. Elemente wie Popup-Fenster (Android) nennen bei Aufruf die Eltern-Rolle, nicht jedoch Anzahl und Position von Kindelementen.
+
+
+== Warum wird das geprüft?
+Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progammatisch verfügbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. iOS-Beispiel: Ein Tablist-Widget sagt die Anzahl seiner Tab-Elemente und die Position des kokussierten Objekte im Eltern-Element an. Das Eltern-Element kann gezielt von Screenreader-Nutzenden angesprungen werden, z.B. über die Rotor-Funktion "Vertikale Navigation".
 
 == Wie wird geprüft?
 
@@ -19,6 +20,8 @@ Mittels Screenreader prüfen, ob die verschiedenen Hierarchien bzw. Ebenen vom
 Screenreader ausgegeben werden.
 
 == Quellen
+
+* https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[accessibilityHeading(_:) Hierarchische Überschriften in iOS]
 
 === Auszug EN 301 549
 
