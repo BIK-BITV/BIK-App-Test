@@ -8,7 +8,7 @@ include::include/attributes.adoc[]
 Visuell dargestellte Hierarchien (Eltern-Kind Beziehungen) sollten grundsätzlich auch für den Screenreader-Nutzer erfahrbar sein.
 Der Einsatz programmatisch ermittelbarer hierarchischer Strukturen ist allerdings bei Apps recht beschränkt. So finden sich Überschriften in nativen Apps bislang meist nur auf einer Ebene, auch wenn unter iOS / iPadOS seit Version 15.0 Überschriften-Hierarchien möglich sind. 
 
-Die am häufigsten anzutreffende programmatisch ausgegebene Hierarchie, sowohl bei Android als auch iOS, ist die von Tab-Leisten (Tabs für die Navigation zu App-Bereichen) bzw. Werkzeugleisten (Toolbars) zum Aufruf von Funktionen. 
+Die am häufigsten anzutreffende programmatisch ausgegebene Hierarchie, sowohl bei Android als auch iOS, ist die von Tab-Leisten (Tabs für die Navigation zu App-Bereichen) bzw. Werkzeugleisten (Toolbars) zum Aufruf von Funktionen, sowie von Reiter-Elementen (Tab Panels).
 
 Wenn Einträge in Navigations-Menüs bei Aktivierung Untermenüs in einem akkordion-artigen Einblendbereich oder einer weiteren Ansicht aufrufen, kann diese Hierarchie über den Ausklapp-Zustand der Menüeinträge vermittelt werden: so wird etwa bei erweiterbaren Menüeinträgen der iOS-Pages-App "reduziert" ausgegeben. Ein anderes Beispiel ist das Menü der iOS-Guardian-App. Dieses Pattern ist jedoch selbst bei iOS- und Android System-Apps selten genutzt: meist erfolgt lediglich die Ausgabe "Schalter", das Untermenü ersetzt das Hauptmenü, ein Zurück-Schalter führt zum Hauptmenü zurück. Die Vermittlung der Eltern-Kind Hierarchie lässt sich deshalb schwerlich generell bei Navigationsmenüs von Apps einfordern.
 
@@ -22,20 +22,20 @@ Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progra
 === 1. Anwendbarkeit des Prüfschritts
 Da die programmatische Ermittelbarkeit von Eltern-Kind Beziehungen in Apps generell eingeschränkt ist und über die Auszeichung von Tablisten hinaus kaum anzutreffen ist, wird das Fehlen programmatisch ermittelbarer Hierarchien bei Listenansichten oder Navigationsmenüs zurzeit nicht negativ bewertet.
 
-Der Prüfschritt wird also nur auf Tableisten und Toolbars im Fußbereich sowie auf Reiternavigationen (Tabpanels) angewandt. Hier sollte der Screenreader bei Fokussierung des Kind-Tabs die Namen und Position des Tabs und die Anzahl der Tabs im Eltern-Element ausgeben.
+Der Prüfschritt wird also nur auf Tableisten und Toolbars im Fußbereich sowie auf Reiter-Elementen (Tabpanels) angewandt. Hier sollte der Screenreader bei Fokussierung des Kind-Tabs die Namen und Position des Tabs und die Anzahl der Tabs im Eltern-Element ausgeben.
 
 === 2. Prüfung
-. Mittels Screenreader prüfen, ob bei Tableisten, Toolbars und Reiternavigationen (Tabpanels) die Position des Tab-Elements sowie die Gesamt-Anzahl von Tabs vermitteln (z.B. "Suchen, Tab, 5 von 5", oder "Ausgewählt, Aktuelle Tickets, Tab 1 von 2").
+. Mittels Screenreader prüfen, ob bei Tableisten, Toolbars und Reiter-Elementen (Tabpanels) die Position des Tab-Elements sowie die Gesamt-Anzahl von Tabs vermitteln (z.B. "Suchen, Tab, 5 von 5", oder "Ausgewählt, Aktuelle Tickets, Tab 1 von 2").
 
 === 3. Hinweise
 Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist bzw. bei der Fokussierung eines Kind-Elements nicht der Name oder Rolle des Eltern-Elements ausgegeben wird. Für Eltern-Elemente (List views, Table views, Collections) ist eine solche Ausgabe nicht generell sinnvoll oder ggf. sogar störend.
 
 === 4. Bewertung
 ==== 4.1 Eher erfüllt: 
-Elemente in Tablisten haben Name und Rolle und vermitteln den Auswahl-Zustand, nicht jedoch ihre Position innerhalb des Eltern-Elements und die Anzahl der Kind-Elemente.
+Elemente in Tableisten haben Name und Rolle und vermitteln den Auswahl-Zustand, nicht jedoch ihre Position innerhalb des Eltern-Elements und die Anzahl der Kind-Elemente.
 
 ==== 4.2 Nicht erfüllt:
-Schalter in Tablisten vermitteln unrichtige Informationen zu Eltern-Kind Beziehungen - z.B. "Suchen, Tab, 1 von 1", wenn mehrere Tabs vorhanden sind. (Fehlende Namen, Rollen und Werte sind ansonsten bei 11.4.1.2 zu bewerten.)
+Schalter in Tableisten vermitteln unrichtige Informationen zu Eltern-Kind Beziehungen - z.B. "Suchen, Tab, 1 von 1", obwohl mehrere Tabs in der Tableiste vorhanden sind. (Fehlende Namen, Rollen und Werte sind ansonsten bei 11.4.1.2 zu bewerten.)
 
 
 == Quellen
