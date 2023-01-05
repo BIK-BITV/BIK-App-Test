@@ -36,9 +36,10 @@ Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist 
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.9 Parent-child relationships 
-
+____
 [.BLOCK_LANG_EN]
 Where the software provides a user interface it shall, by using the services as
 described in clause 11.5.2.3, make the relationship between a user interface
 element and any parent or children elements programmatically determinable by
 assistive technologies.
+____
