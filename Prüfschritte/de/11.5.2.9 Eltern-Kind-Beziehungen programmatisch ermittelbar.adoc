@@ -22,9 +22,9 @@ Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progam
 === 1. Anwendbarkeit des Prüfschritts
 Da die programmatische Ermittelbarkeit von Eltern-Kind Beziehungen in Apps generell eingeschränkt ist und über die Auszeichung von Tablisten hinaus kaum anzutreffen ist, wird das Fehlen programmatisch ermittelbarer Hierarchien bei Listenansichten oder Navigationsmenüs zurzeit nicht negativ bewertet.
 
-Der Prüfschritt wird also nur auf Tablisten, isbesondere Tablisten oder Toolbars im Fußbereich, angewandt. Hier sollte der Screenreader bei Fokussierung des Kind-Tabs die Namen und Position des Tabs und die Anzahl der Tabs im Eltern-Element ausgeben (z.B. "Suchen, Tab, 5 von 5").
+Der Prüfschritt wird also nur auf Tablisten, isbesondere Tablisten oder Toolbars im Fußbereich, angewandt. Hier sollte der Screenreader bei Fokussierung des Kind-Tabs die Namen und Position des Tabs und die Anzahl der Tabs im Eltern-Element ausgeben.
 
-. Mittels Screenreader prüfen, ob Tablists und Toolbars die Position des Elements sowie die Gesamt-Anzahl von Tabs vermitteln. 
+. Mittels Screenreader prüfen, ob Tablists und Toolbars die Position des Elements sowie die Gesamt-Anzahl von Tabs vermitteln (z.B. "Suchen, Tab, 5 von 5").
 
 Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist bzw. bei der Fokussierung eines Kind-Elements nicht der Name oder Rolle des Eltern-Elements ausgegeben wird. Für Eltern-Elemente (List views, Table views, Collections) ist eine solche Ausgabe nicht generell sinvoll oder ggf. sogar störend, und ist deshalb nicht zwingend zu fordern.
 
