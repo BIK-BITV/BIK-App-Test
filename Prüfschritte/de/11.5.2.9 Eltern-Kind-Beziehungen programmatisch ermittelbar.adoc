@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Visuell dargestellte Hierarchien sollen grundsätzlich auch für den Screenreader-Nutzer erfahrbar sein.
-Der Einsatz hierarchischer Strukturen ist allerdings bei Apps recht beschränkt. Überschriften finden sich in nativen Apps bislang meist nur auf einer Ebene, auch wenn ab iOS / iPadOS 15 an Überschriften-Hierarchien möglich sind. 
+Der Einsatz hierarchischer Strukturen ist allerdings bei Apps recht beschränkt. Überschriften finden sich in nativen Apps bislang meist nur auf einer Ebene, auch wenn unter iOS / iPadOS seit Version 15.0 Überschriften-Hierarchien möglich sind. 
 
 Die am häufigsten anzutreffende Hierarchie sowohl bei Android als auch iOS ist die von Tab-Leisten Tabs für die Navigation bzw. Werkzeugleisten (Toolbars) mit einer Gruppe von  oder den Aufrug von Funktionen. 
 
