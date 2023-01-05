@@ -24,9 +24,19 @@ Da die programmatische Ermittelbarkeit von Eltern-Kind Beziehungen in Apps gener
 
 Der Prüfschritt wird also nur auf Tablisten, isbesondere Tablisten oder Toolbars im Fußbereich, angewandt. Hier sollte der Screenreader bei Fokussierung des Kind-Tabs die Namen und Position des Tabs und die Anzahl der Tabs im Eltern-Element ausgeben.
 
+=== 2. Prüfung
 . Mittels Screenreader prüfen, ob Tablists und Toolbars die Position des Elements sowie die Gesamt-Anzahl von Tabs vermitteln (z.B. "Suchen, Tab, 5 von 5").
 
+=== 3. Hinweise
 Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist bzw. bei der Fokussierung eines Kind-Elements nicht der Name oder Rolle des Eltern-Elements ausgegeben wird. Für Eltern-Elemente (List views, Table views, Collections) ist eine solche Ausgabe nicht generell sinvoll oder ggf. sogar störend, und ist deshalb nicht zwingend zu fordern.
+
+=== 4. Bewertung
+==== 4.1 Eher erfüllt: 
+Elemente in Tablisten haben Name und Rolle und vermitteln den Auswahl-Zustand, nicht jedoch ihre Position innerhalb des Eltern-Elements und die Anzahl der Kind-Elemente.
+
+==== 4.2 Nicht erfüllt:
+Schalter in Tablisten vermitteln unrichtige Informationen zu Eltern-Kind Beziehungen - z.B. "Suchen, Tab, 1 von 1", wenn mehrere Tabs vorhanden sind. (Fehlende Namen, Rollen und Werte sind ansonsten bei 11.4.1.2 zu bewerten.)
+
 
 == Quellen
 
