@@ -32,7 +32,7 @@ Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist 
 
 === 4. Bewertung
 ==== 4.1 Eher erfüllt: 
-Elemente in Tableisten haben Name und Rolle und vermitteln den Auswahl-Zustand, nicht jedoch ihre Position innerhalb des Eltern-Elements und die Anzahl der Kind-Elemente.
+Elemente in Tableisten vermitteln nicht ihre Position innerhalb des Eltern-Elements und die Anzahl der Kind-Elemente in der Leiste (die Verfügbarkeit von Name, Rolle und Wert gehört zu Profschritt 11.4.1.2 und wird dort bewertet)
 
 ==== 4.2 Nicht erfüllt:
 Schalter in Tableisten vermitteln unrichtige Informationen zu Eltern-Kind Beziehungen - z.B. "Suchen, Tab, 1 von 1", obwohl mehrere Tabs in der Tableiste vorhanden sind. (Fehlende Namen, Rollen und Werte sind ansonsten bei 11.4.1.2 zu bewerten.)
