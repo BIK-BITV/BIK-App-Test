@@ -30,7 +30,7 @@ Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist 
 
 == Quellen
 
-* https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[accessibilityHeading(_:) Hierarchische Überschriften in iOS]
+* https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[Hierarchische Überschriften in iOS]
 
 === Auszug EN 301 549
 
