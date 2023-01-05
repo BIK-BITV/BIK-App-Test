@@ -16,7 +16,7 @@ Andere visuell listenartige oder kachelartige Strukturen wie Listen treten meist
 
 == Warum wird das geprüft?
 
-Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progammatisch verfügbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. 
+Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen programmatisch ermittelbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. 
 
 == Wie wird geprüft?
 === 1. Anwendbarkeit des Prüfschritts
