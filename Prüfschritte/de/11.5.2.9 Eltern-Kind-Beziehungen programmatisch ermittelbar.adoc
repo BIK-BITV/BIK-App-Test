@@ -18,7 +18,7 @@ Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progam
 
 == Wie wird geprüft?
 
-Mittels Screenreader prüfen, ob Interface-Elemente, welche Hierarchien standardmäßig ausgeben wie Tablists und Toolbars, die Anzahl und Position von Elementen vermitteln. Nicht negativ zu bewerten ist, wenn das Elternelement selbst nicht benannt ist bzw. bei der Fokussierung eines Kindelementes nicht der Name oder Rolle des Elternelements ausgegeben wird.
+Mittels Screenreader prüfen, ob Tablists und Toolbars die Position des Elements sowie die Gesamt-Anzahl vermitteln. Nicht negativ zu bewerten ist, wenn das Elternelement selbst nicht benannt ist bzw. bei der Fokussierung eines Kindelementes nicht der Name oder Rolle des Elternelements ausgegeben wird. Für andere hierarchische Konstrukte (Listviews, Tables, Collections) ist eine solche Ausgabe nicht standardmäßg unterstützt und deshalb nicht zu erwarten.
 
 == Quellen
 
