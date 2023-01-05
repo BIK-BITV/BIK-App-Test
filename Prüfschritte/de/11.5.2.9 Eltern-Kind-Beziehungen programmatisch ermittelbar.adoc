@@ -26,7 +26,7 @@ Der Prüfschritt wird also nur auf Tablisten, isbesondere Tablisten oder Toolbar
 
 . Mittels Screenreader prüfen, ob Tablists und Toolbars die Position des Elements sowie die Gesamt-Anzahl von Tabs vermitteln. 
 
-Nicht negativ zu bewerten ist, wenn das Elternelement selbst nicht benannt ist bzw. bei der Fokussierung eines Kindelementes nicht der Name oder Rolle des Elternelements ausgegeben wird. Für andere hierarchische Konstrukte (List views, Table views, Collections) ist eine solche Ausgabe nicht standardmäßg unterstützt und deshalb nicht zu erwarten.
+Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist bzw. bei der Fokussierung eines Kind-Elements nicht der Name oder Rolle des Eltern-Elements ausgegeben wird. Für Eltern-Elemente (List views, Table views, Collections) ist eine solche Ausgabe nicht generell sinvoll oder ggf. sogar störend, und ist deshalb nicht zwingend zu fordern.
 
 == Quellen
 
