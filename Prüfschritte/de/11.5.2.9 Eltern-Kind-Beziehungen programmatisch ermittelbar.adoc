@@ -10,11 +10,11 @@ Der Einsatz hierarchischer Strukturen ist allerdings bei Apps recht beschränkt.
 
 Die am häufigsten anzutreffende programmatisch ermittelbare Hierarchie, sowohl bei Android als auch iOS, ist die von Tab-Leisten (Tabs für die Navigation zu App-Bereichen) bzw. Werkzeugleisten (Toolbars) zum Aufruf von Funktionen. 
 
-Andere visuell listenartige oder kachelartige Strukturen wie Listen und sind sehr häufig nur Ansammlungen von Tasten bzw. Schaltern und vermitteln weder die visuell erfahrbare Eltern-Kind Beziehung noch die Ausgabe der Anzahl von Kindelementen oder Position in der Gruppe. Elemente wie "Popup-Fenster" oder "Liste" (Android) nennen bei Aufruf die Eltern-Rolle, nicht jedoch Anzahl und oder die relative Position fokussierter Kindelemente. Umfangreiche Hierarchien lassen sich ggf. über bei Einstellung von "Wert anpassen" im Rotor über vertikale Wischgesten navigieren - so etwa etwa der Abschnittsindex in der iOS-App Kontakte.
+Andere visuell listenartige oder kachelartige Strukturen wie Listen und sind bezüglich der Ausgabe sehr häufig nur Ansammlungen von Tasten bzw. Schaltern und vermitteln prgrammatisch weder die visuell erfahrbare Eltern-Kind Beziehung noch die Anzahl von Kindelementen oder deren Position in der Gruppe. Elementen mit Rollen wie "Popup-Fenster" (Android), "Liste" (Android) oder "Auswahl" (iOS) nennen bei Aufruf die Eltern-Rolle, nicht jedoch Anzahl und oder die relative Position fokussierter Kind-Elemente. Unter iOS lassen sich hierarchische Indices ggf. über die Rotor-Option "Wert anpassen" über vertikale Wischgesten navigieren - so etwa etwa der Abschnittsindex in der iOS-App Kontakte.
 
 == Warum wird das geprüft?
 
-Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progammatisch verfügbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. iOS-Beispiel: Ein Tablist-Widget sagt die Anzahl seiner Tab-Elemente und die Position des kokussierten Objekte im Eltern-Element an. Das Eltern-Element kann gezielt von Screenreader-Nutzenden angesprungen werden, z.B. über die Rotor-Funktion "Vertikale Navigation", der Fokus ist automatisch auf dem zuletzt aktiven Tab.
+Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progammatisch verfügbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. iOS-Beispiel: Eine Tablist sagt bei Fokussierung des Kind-Tabs die Position des Tabs und die Anzahl der Tabs im Eltern-Element an.
 
 == Wie wird geprüft?
 
