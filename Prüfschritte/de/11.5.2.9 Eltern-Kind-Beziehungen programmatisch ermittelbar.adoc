@@ -16,9 +16,10 @@ Andere visuell listenartige oder kachelartige Strukturen wie Listen treten meist
 
 == Warum wird das geprüft?
 
-Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progammatisch verfügbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. iOS-Beispiel: Eine Tablist sagt bei Fokussierung des Kind-Tabs die Position des Tabs und die Anzahl der Tabs im Eltern-Element an. Da die programmatische Ermittelbarkeit von Eltern-Kind Beziehungen in Apps generell selten ist und über die Auszeichung von Tablisten hinaus kaum anzutreffen ist, wird das Fehlen programmatisch ermittelbarer Hierarchien zurzeit auch nur hier negativ bewertet.
+Wenn hierarchische Interface-Strukturen und damit Eltern-Kind Beziehungen progammatisch verfügbar sind, haben nicht-visuelle Nutzende einen besseren Überblick über das Interface und seine Strukturen. iOS-Beispiel: Eine Tablist sagt bei Fokussierung des Kind-Tabs die Position des Tabs und die Anzahl der Tabs im Eltern-Element an.
 
 == Wie wird geprüft?
+Da die programmatische Ermittelbarkeit von Eltern-Kind Beziehungen in Apps generell eingeschränkt ist und über die Auszeichung von Tablisten hinaus kaum anzutreffen ist, wird das Fehlen programmatisch ermittelbarer Hierarchien bi Listenansichten oder Navigationsmenüs zurzeit nicht negativ bewertet.
 
 Mittels Screenreader prüfen, ob Tablists und Toolbars die Position des Elements sowie die Gesamt-Anzahl vermitteln. Nicht negativ zu bewerten ist, wenn das Elternelement selbst nicht benannt ist bzw. bei der Fokussierung eines Kindelementes nicht der Name oder Rolle des Elternelements ausgegeben wird. Für andere hierarchische Konstrukte (Listviews, Tables, Collections) ist eine solche Ausgabe nicht standardmäßg unterstützt und deshalb nicht zu erwarten.
 
