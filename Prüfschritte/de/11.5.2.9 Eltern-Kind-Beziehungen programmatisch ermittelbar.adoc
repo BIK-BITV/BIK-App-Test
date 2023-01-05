@@ -28,7 +28,7 @@ Der Prüfschritt wird also nur auf Tableisten und Toolbars im Fußbereich sowie 
 . Mittels Screenreader prüfen, ob bei Tableisten, Toolbars und Reiternavigationen (Tabpanels) die Position des Tab-Elements sowie die Gesamt-Anzahl von Tabs vermitteln (z.B. "Suchen, Tab, 5 von 5", oder "Ausgewählt, Aktuelle Tickets, Tab 1 von 2").
 
 === 3. Hinweise
-Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist bzw. bei der Fokussierung eines Kind-Elements nicht der Name oder Rolle des Eltern-Elements ausgegeben wird. Für Eltern-Elemente (List views, Table views, Collections) ist eine solche Ausgabe nicht generell sinnvoll oder ggf. sogar störend, und ist deshalb nicht zwingend zu fordern.
+Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist bzw. bei der Fokussierung eines Kind-Elements nicht der Name oder Rolle des Eltern-Elements ausgegeben wird. Für Eltern-Elemente (List views, Table views, Collections) ist eine solche Ausgabe nicht generell sinnvoll oder ggf. sogar störend.
 
 === 4. Bewertung
 ==== 4.1 Eher erfüllt: 
