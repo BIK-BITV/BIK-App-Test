@@ -26,7 +26,7 @@ Kriterium
 
 == Quellen
 
-* https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelper&pli=1[External Keyboard Helper Pro]
+* Android App offering key repeat settings: https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelper&pli=1[External Keyboard Helper Pro]
 
 [.BLOCK_LANG_EN]
 === 5.7 Key repeat
