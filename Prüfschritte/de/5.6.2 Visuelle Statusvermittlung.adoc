@@ -33,7 +33,7 @@ In der App ist ein Bedienelement vorhanden, dass den Kontext der Ausgabe oder Ei
 App-Entwickler haben auf die genutzten physischen Geräte und Peripherie-Geräte wie Tastaturen keinerlei Einfluss. Ebensowenig können sie beeinflussen, ob die defaultmäßig oder von Nutzenden installierten virtuellen Tastaturen die Anforderung erfüllen. Die dominanten mobilen Betriebssysteme bieten Bedienelemente zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand ist bei beiden visuell zugänglich. 
 
 === Zur Abgrenzung zu virtuellen Tastaturen 
-Der Status der Shift-Taste bei virtuellen Tastaturen (festgestellt) wird bei allen uns bekannten Tastaturen visuell vermittelt. Da App-Entwickler keinen Einfluss auf installierte Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
+Der Status "festgestellt" bei der Shift-Taste virtueller Tastaturen wird bei allen uns bekannten Tastaturen visuell vermittelt. Da App-Entwickler keinen Einfluss auf installierte Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
 
 == Einordnung des Prüfschritts
 
