@@ -33,7 +33,9 @@ ____
 [.BLOCK_LANG_EN]
 --
 Where ICT has a key repeat function that cannot be turned off:
+
 a) the delay before the key repeat shall be adjustable to at least 2 seconds; and
+
 b) the key repeat rate shall be adjustable down to one character per 2 seconds.
 --
 ____
