@@ -59,4 +59,3 @@ An example of a locking or toggle control is the "Caps Lock" key found on most k
 --
 ____
 
-(Aus EN 301 549 V3.2.1 Abschnitt 5.6.1 Tactile or auditory status)
