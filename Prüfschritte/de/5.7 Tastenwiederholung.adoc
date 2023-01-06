@@ -3,7 +3,7 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
-Die Tastenwiederholung, die automatisch beim Halten einer Taste auf der Tastatur das jeweilige Zeichen wiederholt, soll so konfigurierbar sein, dass die Taste mindestens zwei Sekunden gedrückt werden kann, bevor die Tastenwiederholung einsetzt (der Standard ist etwa eine halbe Sekunde). Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben und nehmen sollten (selbst wenn es möglich ist, das Standard-Eingabeverhalten in der App programmatisch zu ändern).
+Die Tastenwiederholung, die automatisch beim Halten einer Taste auf der Tastatur das jeweilige Zeichen wiederholt, soll so konfigurierbar sein, dass die Taste mindestens zwei Sekunden gedrückt werden kann, bevor die Tastenwiederholung einsetzt (der Standard ist etwa eine halbe Sekunde). Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten.
 
 Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) erfolgt keine Tastenwiederholung. Der Prüfschritt ist für eine Accessibility Baseline, die Apps nur mit Toucheingabe (ohne Anschluss externer Tastaturen) betrachten wollte, also erfüllt. Unter iOS, und iPadOS (iPad mit Magic Keyboard) gibt es die geforderten Einstellungsmöglichkeiten unter Bedienungshilfen / Tastaturen / Tastenwiederholung. Hier lässt sich die Tastenwiederholung ganz abstellen.
 
