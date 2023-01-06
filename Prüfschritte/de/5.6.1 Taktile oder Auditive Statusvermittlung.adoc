@@ -7,9 +7,11 @@ Wenn es einen Schalter zum Feststellen der Bildschirm-Ausrichtung oder andere Fe
 
 In diesem Prüfschritt wird geprüft, ob die App selbst eine Funktion zum Sperren der Ausrichtung anbietet. Wenn dies der Fall ist, muss der Sperr-Status programmatisch ermittelbar sein, ohne Schalter für diese Funktion zu bedienen zu müssen.
 
-=== Zur Abgrenzung von physchen Schaltern und solchen auf Betriebssystem-Eben bzw. in virtuellen Tastaturen
+=== Zur Abgrenzung zu physischen Schaltern und solchen auf Betriebssystem-Ebene 
+
 App-Entwickler haben auf die genutzten physischen Geräte und Peripherie-Geräte wie Tastastuen keinerlei Einfluss. Ebensowenig können sie beeinflöussen, ob die von nutzendne verwendeten virtuellen Tastaturen die Anforderung erfüllen. Die dominanten mobilen Betriebssysteme bieten Bedienelemente zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand beider programmatisch zugänglich und damit über eine Braillzeile taktil und über eine Screenreader-Ausgabe akustisch wahrnehmbar. 
 
+=== Zur Abgrenzung zu virtuellen Tastaturen 
 Die Feststelltasten bei virtuellen Tastaturen geben ihren Feststell-Status oft nur einmalig bei Aktivierung des Feststellmodus aus: so bei den Android-Tastaturen GBoard und SwiftKey. Bei der iOS Tastatur wird der Feststell-Modus aktivierungsunabhängig ausgegeben. Da App-Entwickler keinen Einfluss darauf haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
 
 == Warum wird das geprüft?
