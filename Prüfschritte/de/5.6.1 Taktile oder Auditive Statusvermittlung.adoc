@@ -3,8 +3,16 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+Wenn es einen Schalter zum Feststellen der Bildschirm-Ausrichtung oder andere Feststelltasten (etwa für Großbuchstaben) gibt und dessen Einstellung visuell wahrnehmbar ist, soll dessen Einstellung sowohl taktil als auch akustisch wahrnehmbar sein, ohne den Schalter zu bedienen zu müssen.
+
+Manche Mobilgeräte wie das iPhone haben physische Ausrichtungssperren. Diese sind physisch, aber nicht akustisch wahrnehmbar. Viele andere Mobil-Geräte haben hierfür keinen physische Schalter. Die dominanten mobilen Betriebssysteme haben jedoch beide auch verituelle Tasten zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand beider programmatisch zugänglich und damit über eine Braillzeile taktil und über eine Screenreader-Ausgabe akustisch wahrnehmbar.
+Die Feststelltasten bei virtuellen Tastaturen geben ihren Feststell-Status oft nur einmalig bei Aktivierung des Feststellmodus aus: so bei den Android-Tastaturen GBoard und SwiftKey. Bei der iOS Tastatur wird der Feststell-Modus ausgegeben. Da Tastaturen sich auf Betriebssystemebene unabhängig von der zu prüfendsen App inastallieren lassen und der AUtor keinen Einfluss darauf hat, werden sie in diesem Prüfschritt nicht berücksichtigt. 
+
+Es bleibt für den Test von Apps also zu prüfen, ob die App selbst eine Ausrichtungssperre anbietet und dessen Status programmatisch ermittelbar ist.
 
 == Warum wird das geprüft?
+
+Von der App implementierte Ausrichtungssperren, falls vorhanden, müssen
 
 == Wie wird das geprüft?
 
