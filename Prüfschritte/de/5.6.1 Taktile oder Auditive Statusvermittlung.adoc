@@ -16,25 +16,26 @@ Von der App implementierte Schalter, die den Kontext der Ein- oder Ausgabe ände
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist nur anwendbar, wenn in der App Bedienelemente vorkommen, die Einstellungen außerhalb der App, also auf Betriebssystem-Ebene, ändern. Dazu gehören Schalter zum Feststellen der Bildschirmausrichtung, zum Aktivieren der Taschenlampe, der Kamera usw. Andere Schalter für Einstellungen mit zwei oder drei Werten, die Aspekte der Darstellung oder Funktion der App selbst ändern, etwa Kontrastschalter, genereller Ausklappstatus, erweiterte Linktexte oder Ähnliches, werden in Prüfschritt 11.4.1.2 bewertet.
+Der Prüfschritt ist nur anwendbar, wenn in der App Bedienelemente vorkommen, die generell den Kontext der Ausgabe oder Eingabe beeinflussen. Dazu gehören etwa Schalter zum Feststellen der Bildschirmausrichtung oder zum Stummschalten. Andere Schalter für Darstellungsoptionen der App-Inhalte selbst, etwa Kontrastschalter, genereller Ausklappstatus von Disclosure-Widgets, erweiterte Linktexte oder Ähnliches, werden in Prüfschritt 11.4.1.2 bewertet.
 
 === 2. Prüfung
-Mittels Quelltextanalyse oder Screenreader-Ausgabe prüfen, ob der Zustand von Bedienelementen für Einstellungen, die sich außerhalb der App auswirken, programmatisch ermittelbar ist.
+. Gibt es in der App Bedienelemente für Einstellungen, die generell den Kontext der Ausgabe oder Eingabe beeinflussen (z.B. die Bildschirm-Ausrichtung feststellen oder den Ton stumm schalten)?
+. Falls das zutrifft: Mittels Quelltextanalyse oder Screenreader-Ausgabe für jedes dieser Bedienelemente prüfen, ob dessen Status programmatisch ermittelbar ist.
 
 === 3. Hinweise
 
 === 4. Bewertung
 ==== 4.1 Nicht erfüllt:
-Ist in der App selbst ein Bedienelement für Einstellungen, die sich außerhalb der App auswirken, vorhanden und dessen Zustand ist nicht programmatisch ermittelbar, sind sowohl dieser Prüfschritt als auch 11.4.1.2 nicht erfüllt.
+In der App ist ein Bedienelement vorhanden, dass den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand ist nicht programmatisch ermittelbar ist. In diesem Fall sind sowohl dieser Prüfschritt als auch 11.4.1.2 nicht erfüllt.
 
 == Einordnung des Prüfschritts
 
 === Zur Abgrenzung zu physischen Schaltern und solchen auf Betriebssystem-Ebene 
 
-App-Entwickler haben auf die genutzten physischen Geräte und Peripherie-Geräte wie Tastastuen keinerlei Einfluss. Ebensowenig können sie beeinflöussen, ob die von nutzendne verwendeten virtuellen Tastaturen die Anforderung erfüllen. Die dominanten mobilen Betriebssysteme bieten Bedienelemente zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand beider programmatisch zugänglich und damit über eine Braillzeile taktil und über eine Screenreader-Ausgabe akustisch wahrnehmbar. 
+App-Entwickler haben auf die genutzten physischen Geräte und Peripherie-Geräte wie Tastaturen keinerlei Einfluss. Ebensowenig können sie beeinflussen, ob die defaultmäßig oder von Nutzenden installierten virtuellen Tastaturen die Anforderung erfüllen. Die dominanten mobilen Betriebssysteme bieten Bedienelemente zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand is bei beiden programmatisch zugänglich und damit über eine Braillzeile taktil und über eine Screenreader-Ausgabe akustisch wahrnehmbar. 
 
 === Zur Abgrenzung zu virtuellen Tastaturen 
-Die Feststelltasten bei virtuellen Tastaturen geben ihren Feststell-Status oft nur einmalig bei Aktivierung des Feststellmodus aus: so bei den Android-Tastaturen GBoard und SwiftKey. Bei der iOS Tastatur wird der Feststell-Modus aktivierungsunabhängig ausgegeben. Da App-Entwickler keinen Einfluss darauf haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
+Die Feststelltasten bei virtuellen Tastaturen geben ihren Feststell-Status oft nur einmalig bei Aktivierung des Feststellmodus aus: so bei den Android-Tastaturen GBoard und SwiftKey. Bei der iOS-Tastatur wird der Feststell-Modus aktivierungsunabhängig bei Fokussierung ausgegeben. Da App-Entwickler keinen Einfluss auf installierte Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
