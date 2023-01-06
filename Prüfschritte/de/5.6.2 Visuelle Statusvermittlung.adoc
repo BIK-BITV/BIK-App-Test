@@ -3,28 +3,41 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+Wenn es in der App nicht-visuell wahrnehmbare Umschalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, müssen diese Schalter auch visuell wahrnehmbar sein.
+
+Die Intention dieser Anforderung ist ebenso wie bei Prüfschritt 5.6.1 die Einbeziehung von physischen Schaltern an Geräten, welche Zustände der Ausgabe (etwa Lautstärke) oder Eingabe (etwa Großbuchstaben) mittles Umschalter oder dreiwertigem Schalter feststellen. Dazu gehören etwa Großbuchstaben-Feststelltaste oder dreiwertige Lautstärke-Taste. Im Kontext von Mobilgeräten ist insbesondere die Feststelltaste für die Bildschirmausrichtung relevant, für die sich zum Teil auch physische Tasten finden (etwa beim iPhone). Es lässt sich also ableiten, dass es hier speziell um Bedienelemente geht, die nicht Funktionen der App selbst betreffen, sondern den Kontext der Eingabe oder Ausgabe.
+
+Da sich der Test auf die Prüfung der App selbst beschränkt und Peripherie nicht einbezieht (siehe "Einordnung des Prüfschritts" unten), werden in diesem Prüfschritt nur virtualisierte Schalter erfasst, die den Kontext der Ausgabe oder Eingabe betreffen. Hier geht es um die Forderung, dass der Zustand solcher Schalter visuell verfügbar ist. Die EN nennt in Note 2 die Feststelltaste für Großschreibung bei physischen Tastaturen. Bei virtualisierten Schaltern ist die visuelle Ausgabe des Status, da sie die Mehrheit der Nutzenden betrifft, in der Regel richtig implementiert. Ein Beispiel für einen Fehler in diesem Prüfschritt wäre ein Umchalter zum Sperren der Bildschirmausrichtung, der nicht visuell, sondern nur programmatisch ermittelbar ist, oder beim Bedienen seinen visuellen Zustand nicht ändert.
 
 == Warum wird das geprüft?
+
+Von der App implementierte Schalter, die den Kontext der Ein- oder Ausgabe ändern, können dazu führen, dass App-Inhalte nicht oder nur in einer für Nutzende unvertrauten Form erscheinen. Ist der Zustand nicht visuell wahrnehmbar, könnte für Sehende eine Barriere entstehen. Dieser Fall ist recht unwahrscheinlich und uns aus der Praxis bisher nicht bekannt. 
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist nur anwendbar, wenn in der App Bedienelemente vorkommen, die generell den Kontext der Ausgabe oder Eingabe beeinflussen. Dazu gehören etwa Schalter zum Feststellen der Bildschirmausrichtung oder zum Stummschalten. Andere Schalter für Darstellungsoptionen der App-Inhalte selbst, etwa Kontrastschalter, genereller Ausklappstatus von Disclosure-Widgets, erweiterte Linktexte oder Ähnliches, werden in Prüfschritt 11.4.1.2 bewertet.
 
 === 2. Prüfung
+. Gibt es in der App Bedienelemente für Einstellungen, die generell den Kontext der Ausgabe oder Eingabe beeinflussen (z.B. die Bildschirm-Ausrichtung feststellen oder den Ton stumm schalten)?
+. Falls das zutrifft: Mittels Sichtprüfung für jedes dieser Bedienelemente prüfen, ob es sichtbar ist und sein Status visuell ermittelbar ist.
 
-=== 3. Hinweise
-
-=== 4. Bewertung
-
-==== Erfüllt:
+=== 3. Bewertung
+==== 3.1 Nicht erfüllt:
+In der App ist ein Bedienelement vorhanden, dass den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand ist nicht visuell ermittelbar ist.
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Zur Abgrenzung zu physischen Schaltern und solchen auf Betriebssystem-Ebene 
 
-Kriterium
+App-Entwickler haben auf die genutzten physischen Geräte und Peripherie-Geräte wie Tastaturen keinerlei Einfluss. Ebensowenig können sie beeinflussen, ob die defaultmäßig oder von Nutzenden installierten virtuellen Tastaturen die Anforderung erfüllen. Die dominanten mobilen Betriebssysteme bieten Bedienelemente zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand ist bei beiden visuell zugänglich. 
 
-== Quellen
+=== Zur Abgrenzung zu virtuellen Tastaturen 
+Der Status der Shift-Taste bei virtuellen Tastaturen (festgestellt) wird bei allen uns bekannten Tastaturen visuell vermittelt. Da App-Entwickler keinen Einfluss auf installierte Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 === 5.6.2 Visual status
