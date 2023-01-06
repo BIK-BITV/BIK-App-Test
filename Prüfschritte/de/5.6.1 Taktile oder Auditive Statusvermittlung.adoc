@@ -3,27 +3,29 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
-Wenn es einen Schalter zum Feststellen der Bildschirm-Ausrichtung oder andere Feststelltasten (etwa für Großbuchstaben) gibt und dessen Einstellung visuell wahrnehmbar ist, soll dessen Einstellung sowohl taktil als auch akustisch wahrnehmbar sein.
+Wenn es in der App visuell wahrnehmbare Kipp-Schalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, etwa einen Schalter zum Feststellen der Bildschirm-Ausrichtung, müssen diese Schalter über geeignete Ausgabesoftware oder -Hardware sowohl taktil als auch akustisch wahrnehmbar sein. Taktile Wharnehmung kann etwa über eine Braille-Zeile, akustische Wahrnehmung über einen Screenreader erfolgen. Grundlegend für beides ist die programmatische Ermittelbarkeit des Status.
 
-In diesem Prüfschritt wird geprüft, ob die App selbst einen Schalter zum Sperren der Ausrichtung anbietet. Wenn dies der Fall ist, muss dessen Sperr-Status programmatisch ermittelbar sein, ohne Schalter bedienen / aktivieren zu müssen.
+Die Intention dieser Anforderung ist die Einbeziehung von physischen Schaltern an Geräten, welche Zustände im Sinn eines Kippschalters oder dreiwertigen Schalters ändern. Dazu gehören etwa Großbuchstaben-Feststelltaste oder dreiwertige Lautstärke-Taste. Im Kontext von Mobilgeräten ist insbesondere die Feststelltaste für die Bildschirmausrichtung relevant. Es lässt sich also ableiten, dass es hier speziell um Bedienelemente geht, die nicht Funktionen der App selbst betreffen, sondern den Kontext der Eingabe oder Ausgabe.
+
+Da sich der Test auf die Prüfung der App selbst beschränkt und Peripherie nicht einbezieht (siehe "Einordnung des Prüfschritts" unten), werden in diesem Prüfschritt nur virtualisierte Schalter geprüft, die den Kontext der Ausgabe oder Eingabe betreffen. Dazu würden zum Beispiel ein Schalter zum Sperren der Ausrichtung oder auch ein Schalter zum Stumm-Stellen gehören, da sie den Gesamtkontext der Ausgabe betreffen. Bei solchen Schaltern muss der Status programmatisch ermittelbar sein, ohne den jeweiligen Schalter bedienen / aktivieren zu müssen.
 
 == Warum wird das geprüft?
 
-Von der App implementierte Ausrichtungssperren können dazu führen, dass App-Inhalte nur in einer für Nutzende unvertrauten Bildschirmausrichtung erscheinen. Bei manchen Apps sind Layout und direkte Verfügbarkeit von Inhalten von der Viewportbreite des Displays abhängig. Andere Apps bieten ihre Inhalte ausschließlich im Hochformat. Die Feststellung einer nicht gewünschten Orientierung, die von Nutzenden nicht programmatisch zu ermitteln ist, kann unter Umständen also eine schwere Barriere darstellen. Der Status solcher Einstellungen muss also programmatisch (und damit takil) für die Braillezeile und auditiv für den Screenreader) verfügbar sein.
+Von der App implementierte Schalter, die den Kontext der Ein- oder Ausgabe ändern können dazu führen, dass App-Inhalte nicht oder nur in einer für Nutzende unvertrauten Form erscheinen.  Beispiel Ausrichtungssperre: Bei manchen Apps sind Layout und direkte Verfügbarkeit von Inhalten von der Viewportbreite des Displays abhängig. Andere Apps bieten ihre Inhalte ausschließlich im Hochformat. Die Feststellung einer nicht gewünschten Orientierung, die von Nutzenden nicht programmatisch zu ermitteln ist, kann unter Umständen also eine schwere Barriere darstellen. Der Status solcher Einstellungen muss also programmatisch (und damit takil für die Braillezeile, und auditiv für den Screenreader) verfügbar sein.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist nur anwendbar, wenn in der App ein Bedienelement zum Feststellen der Bildschirmausrichtung vorhanden ist. Andere Einstellungen mit zwei oder drei Werten, die Aspekte der Darstellung oder Funktion der App ändern, etwa Kontrastschalter, genereller Ausklappstatus, erweiterte Linktexte oder Ähnliches, werden in Prüfschritt 11.4.1.2 bewertet.
+Der Prüfschritt ist nur anwendbar, wenn in der App Bedienelemente vorkommen, die Einstellungen außerhalb der App, also auf Betriebssystem-Ebene, ändern. Dazu gehören Schalter zum Feststellen der Bildschirmausrichtung, zum Aktivieren der Taschenlampe, der Kamera usw. Andere Schalter für Einstellungen mit zwei oder drei Werten, die Aspekte der Darstellung oder Funktion der App selbst ändern, etwa Kontrastschalter, genereller Ausklappstatus, erweiterte Linktexte oder Ähnliches, werden in Prüfschritt 11.4.1.2 bewertet.
 
 === 2. Prüfung
-Mittels Quelltextanalyse oder Screenreader-Ausgabe prüfen, ob der Zustand des Bedienelementes zum Feststellen der Bildschirmausrichtung programmatisch ermittelbar ist.
+Mittels Quelltextanalyse oder Screenreader-Ausgabe prüfen, ob der Zustand von Bedienelementen für Einstellungen, die sich außerhalb der App auswirken, programmatisch ermittelbar ist.
 
 === 3. Hinweise
 
 === 4. Bewertung
 ==== 4.1 Nicht erfüllt:
-Ist in der App selbst ein Bedienelement zum Feststellen der Ausrichtung vorhanden und dessen Zustand ist nicht programmatisch ermittelbar, sind sowohl dieser Prüfschritt als auch 11.4.1.2 nicht erfüllt.
+Ist in der App selbst ein Bedienelement für Einstellungen, die sich außerhalb der App auswirken, vorhanden und dessen Zustand ist nicht programmatisch ermittelbar, sind sowohl dieser Prüfschritt als auch 11.4.1.2 nicht erfüllt.
 
 == Einordnung des Prüfschritts
 
