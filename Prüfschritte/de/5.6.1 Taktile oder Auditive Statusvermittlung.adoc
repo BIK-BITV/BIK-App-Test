@@ -3,12 +3,14 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
-Wenn es einen Schalter zum Feststellen der Bildschirm-Ausrichtung oder andere Feststelltasten (etwa für Großbuchstaben) gibt und dessen Einstellung visuell wahrnehmbar ist, soll dessen Einstellung sowohl taktil als auch akustisch wahrnehmbar sein, ohne den Schalter zu bedienen zu müssen.
+Wenn es einen Schalter zum Feststellen der Bildschirm-Ausrichtung oder andere Feststelltasten (etwa für Großbuchstaben) gibt und dessen Einstellung visuell wahrnehmbar ist, soll dessen Einstellung sowohl taktil als auch akustisch wahrnehmbar sein.
 
-Manche Mobilgeräte wie das iPhone haben physische Ausrichtungssperren. Diese sind physisch, aber nicht akustisch wahrnehmbar. Viele andere Mobil-Geräte haben hierfür keinen physische Schalter. Die dominanten mobilen Betriebssysteme haben jedoch beide auch verituelle Tasten zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand beider programmatisch zugänglich und damit über eine Braillzeile taktil und über eine Screenreader-Ausgabe akustisch wahrnehmbar.
-Die Feststelltasten bei virtuellen Tastaturen geben ihren Feststell-Status oft nur einmalig bei Aktivierung des Feststellmodus aus: so bei den Android-Tastaturen GBoard und SwiftKey. Bei der iOS Tastatur wird der Feststell-Modus ausgegeben. Da Tastaturen sich auf Betriebssystemebene unabhängig von der zu prüfendsen App inastallieren lassen und der AUtor keinen Einfluss darauf hat, werden sie in diesem Prüfschritt nicht berücksichtigt. 
+In diesem Prüfschritt wird geprüft, ob die App selbst eine Ausrichtungssperre anbietet. Wenn dies der Fall ist, muss dessen Status programmatisch ermittelbar sein, ohne den Schalter zu bedienen zu müssen.
 
-Es bleibt für den Test von Apps also zu prüfen, ob die App selbst eine Ausrichtungssperre anbietet und dessen Status programmatisch ermittelbar ist.
+=== Zur Abgrenzung von physchen Schaltern und solchen auf Betriebssystem-Eben bzw. in virtuellen Tastaturen
+App-Entwickler haben auf die genutzten physischen Geräte und Peripherie-Geräte wie Tastastuen keinerlei Einfluss. Ebensowenig können sie beeinflöussen, ob die von nutzendne verwendeten virtuellen Tastaturen die Anforderung erfüllen. Die dominanten mobilen Betriebssysteme bieten Bedienelemente zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand beider programmatisch zugänglich und damit über eine Braillzeile taktil und über eine Screenreader-Ausgabe akustisch wahrnehmbar. 
+
+Die Feststelltasten bei virtuellen Tastaturen geben ihren Feststell-Status oft nur einmalig bei Aktivierung des Feststellmodus aus: so bei den Android-Tastaturen GBoard und SwiftKey. Bei der iOS Tastatur wird der Feststell-Modus aktivierungsunabhängig ausgegeben. Da App-Entwickler keinen Einfluss darauf haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
 
 == Warum wird das geprüft?
 
