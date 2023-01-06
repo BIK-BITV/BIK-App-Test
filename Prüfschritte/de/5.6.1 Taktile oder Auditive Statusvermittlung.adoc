@@ -3,7 +3,7 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
-Wenn es in der App visuell wahrnehmbare Kipp-Schalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, etwa einen Schalter zum Feststellen der Bildschirm-Ausrichtung, müssen diese Schalter über geeignete Ausgabesoftware oder -Hardware sowohl taktil als auch akustisch wahrnehmbar sein. Taktile Wharnehmung kann etwa über eine Braille-Zeile, akustische Wahrnehmung über einen Screenreader erfolgen. Grundlegend für beides ist die programmatische Ermittelbarkeit des Status.
+Wenn es in der App visuell wahrnehmbare Kipp-Schalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, etwa einen Schalter zum Feststellen der Bildschirm-Ausrichtung, müssen diese Schalter sowohl taktil als auch akustisch wahrnehmbar sein. Taktile Wahrnehmung kann etwa über eine Braille-Zeile, akustische Wahrnehmung über einen Screenreader erfolgen. Grundlegend für beides ist die programmatische Ermittelbarkeit des Status.
 
 Die Intention dieser Anforderung ist die Einbeziehung von physischen Schaltern an Geräten, welche Zustände im Sinn eines Kippschalters oder dreiwertigen Schalters ändern. Dazu gehören etwa Großbuchstaben-Feststelltaste oder dreiwertige Lautstärke-Taste. Im Kontext von Mobilgeräten ist insbesondere die Feststelltaste für die Bildschirmausrichtung relevant. Es lässt sich also ableiten, dass es hier speziell um Bedienelemente geht, die nicht Funktionen der App selbst betreffen, sondern den Kontext der Eingabe oder Ausgabe.
 
