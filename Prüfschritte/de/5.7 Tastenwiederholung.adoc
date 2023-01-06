@@ -3,20 +3,33 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+Die Tastenwiederholung, die automatisch beim Halten einer Taste auf der Tastatur das jeweilige Zeichen wiederholt, soll so konfigurierbar sein, dass die Taste mindestens zwei Sekunden gedrückt werden kann, befor die Tastenwiederholung einsetzt. Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler keinen Einfluss haben (auch wenn es möglch wäre, das Standard-Eingabeverhalten über Scripts zu ändern).
+
+Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) erfolgt keine Tastenwiederholung. Der Prüfschritt ist für eine Accessibility Baseline, die Apps nur mit Toucheingabe (ohne Anschluss externer Tastaturen) betrachten wollte, also erfüllt. Unter iOS, und iPadOS (iPad mit Magic Keyboard) gibt es die geforderten Einstellungsmöglichkeiten unter Bedienungshilfen / Tastaturen / Tastenwiederholung. Hier lässt sich die Tastenwiederholung ganz abstellen.
+
+Hinweis: Ist bei iOS Tastenwiederholung aktiviert, funktioniert diese nur bei bestimmten Tasten, nicht jedoch bei 0-9 und A-Z. Dies ist ein bekannter iOS-Bug.
+
+Unter Android mit externer Tastatur lässt sich die Tastenwiederholung zur Zeit nicht abstellen oder einstellen. Eine App, https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelper&pli=1[External Keyboard Helper Pro], bietet diese Möglichkeit.
+
+Da in den App-Test Prüfschritten nur Aspekte geprüft werden, die Entwickler direkt in der Gestaltung der App beeinflussen können, wird diese Anforderung zur Zeot nicht aktiv geprüft. Die Tastenwiederholung ist zurzeit in virtuellen Tastaturen nicht aktiv und bei iOS abschaltbar. Unter Android besteht das Problem dass sie im Betriebssystem nicht angepasst werden kann. Daraus ist aber keine Verpflichtung an Entwickler abzuleiten, Versäumnisse des Betriebssystems in der App zu kompensieren. 
 
 == Warum wird das geprüft?
+Menschen mit motorischen Einschränkungen haben manchmal das Problem dass sie durch zu langes Drücken von Tasten unabsichtlich die Tastenwiederholung auslösen und dann Eingaben wieder löschen müssen. Die Verlängerung der Verzögerung vor Einsetzen der Tastenwiederholung und Verlangsamung de Intervalls zwischen wiederholten Eingaben verringert dieses Risiko.
 
 == Wie wird das geprüft?
+Dieser Prüfschritt wird nicht geprüft, da Einstellungen der Tastenwiederholung Aufgabe des Betriebssystems sind und nicht von Apps implementiert werden sollten. Selbst wenn Android-Entwickler bei der Nutrzung externer Tastaturen die Tastenwiederholung erfolgreich unterbinden können, wäre hierausd keine generelle Anforderung abzuleiten, dies auf der Ebene der App umzusetzen.
 
 === 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt wird nicht angewandt. 
 
 === 2. Prüfung
+Keine Prüfung.
 
-=== 3. Hinweise
-
-=== 4. Bewertung
+=== 3. Bewertung
 
 ==== Erfüllt:
+Nicht anwendbar:
+Der Prüfschritt ist zurzeit nicht anwendbar.
 
 == Einordnung des Prüfschritts
 
