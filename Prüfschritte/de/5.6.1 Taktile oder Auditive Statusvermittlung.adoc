@@ -5,7 +5,27 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 Wenn es einen Schalter zum Feststellen der Bildschirm-Ausrichtung oder andere Feststelltasten (etwa für Großbuchstaben) gibt und dessen Einstellung visuell wahrnehmbar ist, soll dessen Einstellung sowohl taktil als auch akustisch wahrnehmbar sein.
 
-In diesem Prüfschritt wird geprüft, ob die App selbst eine Funktion zum Sperren der Ausrichtung anbietet. Wenn dies der Fall ist, muss der Sperr-Status programmatisch ermittelbar sein, ohne Schalter für diese Funktion zu bedienen zu müssen.
+In diesem Prüfschritt wird geprüft, ob die App selbst einen Schalter zum Sperren der Ausrichtung anbietet. Wenn dies der Fall ist, muss dessen Sperr-Status programmatisch ermittelbar sein, ohne Schalter bedienen / aktivieren zu müssen.
+
+== Warum wird das geprüft?
+
+Von der App implementierte Ausrichtungssperren können dazu führen, dass App-Inhalte nur in einer für Nutzende unvertrauten Bildschirmausrichtung erscheinen. Bei manchen Apps sind Layout und direkte Verfügbarkeit von Inhalten von der Viewportbreite des Displays abhängig. Andere Apps bieten ihre Inhalte ausschließlich im Hochformat. Die Feststellung einer nicht gewünschten Orientierung, die von Nutzenden nicht programmatisch zu ermitteln ist, kann unter Umständen also eine schwere Barriere darstellen. Der Status solcher Einstellungen muss also programmatisch (und damit takil) für die Braillezeile und auditiv für den Screenreader) verfügbar sein.
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist nur anwendbar, wenn in der App ein Bedienelement zum Feststellen der Bildschirmausrichtung vorhanden ist. Andere Einstellungen mit zwei oder drei Werten, die Aspekte der Darstellung oder Funktion der App ändern, etwa Kontrastschalter, genereller Ausklappstatus, erweiterte Linktexte oder Ähnliches, werden in Prüfschritt 11.4.1.2 bewertet.
+
+=== 2. Prüfung
+Mittels Quelltextanalyse oder Screenreader-Ausgabe prüfen, ob der Zustand des Bedienelementes zum Feststellen der Bildschirmausrichtung programmatisch ermittelbar ist.
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+==== 4.1 Nicht erfüllt:
+Ist in der App selbst ein Bedienelement zum Feststellen der Ausrichtung vorhanden und dessen Zustand ist nicht programmatisch ermittelbar, sind sowohl dieser Prüfschritt als auch 11.4.1.2 nicht erfüllt.
+
+== Einordnung des Prüfschritts
 
 === Zur Abgrenzung zu physischen Schaltern und solchen auf Betriebssystem-Ebene 
 
@@ -13,24 +33,6 @@ App-Entwickler haben auf die genutzten physischen Geräte und Peripherie-Geräte
 
 === Zur Abgrenzung zu virtuellen Tastaturen 
 Die Feststelltasten bei virtuellen Tastaturen geben ihren Feststell-Status oft nur einmalig bei Aktivierung des Feststellmodus aus: so bei den Android-Tastaturen GBoard und SwiftKey. Bei der iOS Tastatur wird der Feststell-Modus aktivierungsunabhängig ausgegeben. Da App-Entwickler keinen Einfluss darauf haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
-
-== Warum wird das geprüft?
-
-Von der App implementierte Ausrichtungssperren, falls vorhanden, müssen
-
-== Wie wird das geprüft?
-
-=== 1. Anwendbarkeit des Prüfschritts
-
-=== 2. Prüfung
-
-=== 3. Hinweise
-
-=== 4. Bewertung
-
-==== Erfüllt:
-
-== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
