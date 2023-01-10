@@ -13,7 +13,7 @@ Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben sind,
 Der Prüfschritt ist auf Ansichten mit Formularen anwendbar.
 
 === 2. Prüfung
-. Formulare visuell auf Vorhansdensein von Elementen mit numerischen Eingabefeldern und Schieberegler zum Einstellen von Werten überprüfen.
+. Formulare visuell auf Vorhandensein Felder für Felder oder Regler für numerische Eingaben überprüfen.
 . Gibt es visuell vermittelte Begrenzungen der Eingabewerte? Wenn diese visuell verfügbar sind, etwa über Legenden, Beschriftungen oder Textvorbelegungen, müssen minimale bzw. maximal mögliche Werte auch für Screenreader ermittelbar sein.
 . Elemente mit dem Screenreader fokussieren. Minimal bzw. maximal mögliche Werte bzw. der aktuell eingestellte Wert sollen vom SR ausgegeben werden.
 
