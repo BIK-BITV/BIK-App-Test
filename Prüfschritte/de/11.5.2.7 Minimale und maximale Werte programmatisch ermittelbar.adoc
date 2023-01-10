@@ -25,7 +25,7 @@ Eingabe-Grenzen können auch implizit vermittelt werden. So ist etwa bei Reglern
 Bei Fokussierung des Eingabefelds oder des Reglers werden Grenzen explizit oder mittelbar (etwa über die Ausgabe von Prozent) ausgegeben.
 
 ==== 4.2 Eher erfüllt:
-Eine getrennt fokussierbare Beschriftung unmittelbar vor dem Eingabefeld oder Regler informiert über minimal bzw. maximal mögliche Werte.
+Eine getrennt fokussierbare, programmatisch ermittelbare Beschriftung unmittelbar vor dem Eingabefeld oder Regler informiert über minimal bzw. maximal mögliche Werte.
 
 == Quellen
 
