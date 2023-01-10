@@ -13,7 +13,9 @@ Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben sind,
 Der Prüfschritt ist auf Ansichten mit Formularen anwendbar.
 
 === 2. Prüfung
-Formularelemente mit numerischen Eingabefeldern und Schieberegler zum Einstellen von Werten werden auf visuell vermittelte Begrenzungen der Eingabewerte überprüft. Wenn diese visuell verfügbar sind, etwa über Legenden, Beschriftungen oder Textvorbelegungen, müssen sie auch für Screenreader ermittelbar sein. Hierzu wird das Formular mit dem Screenreader durchgegangen, die Grenzen sollen dabei vom SR angesagt werden.
+. Formularelemente mit numerischen Eingabefeldern und Schieberegler zum Einstellen von Werten identifizieren
+. Gibt es visuell vermittelte Begrenzungen der Eingabewerte? Wenn diese visuell verfügbar sind, etwa über Legenden, Beschriftungen oder Textvorbelegungen, müssen sie auch für Screenreader ermittelbar sein.
+. Elemente mit dem Screenreader fokussieren. Der aktuell eingestellte Wert und die Grenzen sollen vom SR ausgegeben werden.
 
 === 3. Hinweise
 Eingabegrenzen können auch implizit vermittelt werden. So ist etwa bei Reglern mit Prozentwerten klar, dass Werte auf den Bereich von 0% - 100% eingegrenzt sind.
@@ -26,8 +28,6 @@ Eingabegrenzen können auch implizit vermittelt werden. So ist etwa bei Reglern 
 ==== 11.5.2.7 Values 
 
 [.BLOCK_LANG_EN]
-Where the software provides a user interface, it shall, by using the services
-as described in clause 11.5.2.3, make the current value of a user interface
-element and any minimum or maximum values of the range, if the user interface
-element conveys information about a range of values, programmatically
+Where the software provides a user interface, it shall, by using the services as described in clause 11.5.2.3, make the current value of a user interface
+element and any minimum or maximum values of the range, if the user interface element conveys information about a range of values, programmatically
 determinable by assistive technologies.
