@@ -8,6 +8,9 @@ include::include/attributes.adoc[]
 
 Falls für Formularelemente minimale oder maximale Eingabewerte programmatisch festgelegt sind und visuell vermittelt werden, muss diese Information auch programmatisch verfügbar sein, damit Screenreader-Nutzende ebenfalls über die Eingabe-Grenzen in Kenntnis gesetzt werden.
 
+Warum wird das geprüft?
+Informationen, die visuell vermittelt werden, sollen für nicht-visuelle Nutzende auch programmatisch ermittelbar sein, um unnötige Fehleingaben unzulässiger Werte zu vermeiden.
+
 == Wie wird geprüft?
 === 1. Anwendbarkeit des Prüfschritts
 Der Prüfschritt ist auf Ansichten mit Formularen anwendbar.
