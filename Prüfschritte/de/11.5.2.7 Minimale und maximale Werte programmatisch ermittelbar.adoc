@@ -18,7 +18,7 @@ Der Prüfschritt ist auf Ansichten mit Formularen anwendbar.
 . Elemente mit dem Screenreader fokussieren. Minimal bzw. maximal mögliche Werte bzw. der aktuell eingestellte Wert sollen vom SR ausgegeben werden.
 
 === 3. Hinweise
-Eingabegrenzen können auch implizit vermittelt werden. So ist etwa bei Reglern mit Prozentwerten klar, dass Werte auf den Bereich von 0% - 100% eingegrenzt sind.
+Eingabegrenzen können auch implizit vermittelt werden. So ist etwa bei Reglern, die mit dem Wert auch "Prozent" ausgeben, klar, dass Werte auf den Bereich von 0% - 100% eingegrenzt sind.
 
 === 4. Bewertung
 ==== 4.1 Erfüllt:
