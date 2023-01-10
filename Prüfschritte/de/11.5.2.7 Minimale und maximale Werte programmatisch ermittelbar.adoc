@@ -17,8 +17,8 @@ Der Prüfschritt ist auf Ansichten mit Formularen anwendbar.
 
 === 2. Prüfung
 . Formulare visuell auf Vorhandensein von Feldern oder Reglern für numerische Eingaben überprüfen.
-. Gibt es visuell vermittelte Begrenzungen der Eingabewerte? Wenn diese visuell verfügbar sind, etwa über Legenden, Beschriftungen oder Textvorbelegungen, müssen minimale bzw. maximal mögliche Werte auch für Screenreader ermittelbar sein.
-. Elemente mit dem Screenreader fokussieren. Minimal bzw. maximal mögliche Werte bzw. der aktuell eingestellte Wert sollen vom SR ausgegeben werden.
+. Gibt es visuell vermittelte Begrenzungen der Eingabewerte? Wenn diese visuell verfügbar sind, etwa über Legenden, Beschriftungen oder Textvorbelegungen, müssen minimale bzw. maximale Werte auch für Screenreader ermittelbar sein.
+. Elemente mit dem Screenreader fokussieren. Visuell verfügbare minimale bzw. maximale Eingabe-Werte und der aktuell eingestellte Wert sollen vom Screenreader ausgegeben werden.
 
 === 3. Hinweise
 Eingabe-Grenzen können auch implizit vermittelt werden. So ist etwa bei Reglern, die nach dem Wert "Prozent" ausgeben, klar, dass Werte auf den Bereich von 0% - 100% eingegrenzt sind.
@@ -28,7 +28,7 @@ Eingabe-Grenzen können auch implizit vermittelt werden. So ist etwa bei Reglern
 Bei Fokussierung des Eingabefelds oder des Reglers werden Grenzen explizit oder mittelbar (etwa über die Ausgabe von Prozent) ausgegeben.
 
 ==== 4.2 Eher erfüllt:
-Eine getrennt fokussierbare, programmatisch ermittelbare Beschriftung unmittelbar vor dem Eingabefeld oder Regler informiert über minimal bzw. maximal mögliche Werte.
+Eine getrennt fokussierbare, vom Screenreader ausgegebene Beschriftung unmittelbar vor dem Eingabefeld oder Regler informiert über minimale bzw. maximale Eingabe-Werte.
 
 == Quellen
 
