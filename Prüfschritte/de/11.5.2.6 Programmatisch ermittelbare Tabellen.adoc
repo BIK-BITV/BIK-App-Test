@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Werden Datentabellen in der App eingesetzt, sollen dessen Zeilen- und Spalten programmatisch ermittelbar sein.
