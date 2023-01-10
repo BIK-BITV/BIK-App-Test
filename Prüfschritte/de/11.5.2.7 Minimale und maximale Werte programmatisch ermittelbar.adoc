@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Falls für Formularelemente minimale oder maximale Eingabewerte programmatisch festgelegt sind und visuell vermittelt werden, muss diese Information auch programmatisch verfügbar sein, damit Screenreader-Nutzende ebenfalls über die Eingabe-Grenzen in Kenntnis gesetzt werden.
+Falls für Formularelemente minimale oder maximale Eingabewerte programmatisch festgelegt sind und visuell vermittelt werden, muss diese Information auch programmatisch verfügbar sein.
 
 == Warum wird das geprüft?
 Informationen über minimale oder maximale Eingabewerte, die visuell vermittelt werden, sollen für nicht-visuelle Nutzende auch programmatisch ermittelbar sein, um erfolglose Eingaben unzulässiger Werte zu vermeiden.
