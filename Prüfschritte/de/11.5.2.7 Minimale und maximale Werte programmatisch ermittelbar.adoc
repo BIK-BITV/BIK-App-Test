@@ -6,26 +6,26 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben sind, muss diese Information auch programmatisch verfügbar sein, damit Screenreader-Nutzende ebenfalls über die Grenzen der Eingabemöglichkeiten in Kenntnis gesetzt werden.
+Falls für Formularelemente minimale oder maximale Eingabewerte programmatisch festgelegt sind und visuell vermittelt werden, muss diese Information auch programmatisch verfügbar sein, damit Screenreader-Nutzende ebenfalls über die Eingabe-Grenzen in Kenntnis gesetzt werden.
 
 == Wie wird geprüft?
 === 1. Anwendbarkeit des Prüfschritts
 Der Prüfschritt ist auf Ansichten mit Formularen anwendbar.
 
 === 2. Prüfung
-. Formulare visuell auf Vorhandensein Felder für Felder oder Regler für numerische Eingaben überprüfen.
+. Formulare visuell auf Vorhandensein von Feldern oder Reglern für numerische Eingaben überprüfen.
 . Gibt es visuell vermittelte Begrenzungen der Eingabewerte? Wenn diese visuell verfügbar sind, etwa über Legenden, Beschriftungen oder Textvorbelegungen, müssen minimale bzw. maximal mögliche Werte auch für Screenreader ermittelbar sein.
 . Elemente mit dem Screenreader fokussieren. Minimal bzw. maximal mögliche Werte bzw. der aktuell eingestellte Wert sollen vom SR ausgegeben werden.
 
 === 3. Hinweise
-Eingabegrenzen können auch implizit vermittelt werden. So ist etwa bei Reglern, die mit dem Wert auch "Prozent" ausgeben, klar, dass Werte auf den Bereich von 0% - 100% eingegrenzt sind.
+Eingabe-Grenzen können auch implizit vermittelt werden. So ist etwa bei Reglern, die nach dem Wert "Prozent" ausgeben, klar, dass Werte auf den Bereich von 0% - 100% eingegrenzt sind.
 
 === 4. Bewertung
 ==== 4.1 Erfüllt:
-Bei Fokussierung des Eingabefelds oder des Reglers werden Grenzen direkt oder mittelbar /etwa über die Ausgabe von Prozent) ausgegeben.
+Bei Fokussierung des Eingabefelds oder des Reglers werden Grenzen explizit oder mittelbar (etwa über die Ausgabe von Prozent) ausgegeben.
 
 ==== 4.2 Eher erfüllt:
-Eine getrennt fokussierbare Beschriftung vor der Eingabe informiert über minimal bzw. maximal mögliche Werte.
+Eine getrennt fokussierbare Beschriftung unmittelbar vor dem Eingabefeld oder Regler informiert über minimal bzw. maximal mögliche Werte.
 
 == Quellen
 
@@ -33,8 +33,9 @@ Eine getrennt fokussierbare Beschriftung vor der Eingabe informiert über minima
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.7 Values 
-
+____
 [.BLOCK_LANG_EN]
 Where the software provides a user interface, it shall, by using the services as described in clause 11.5.2.3, make the current value of a user interface
 element and any minimum or maximum values of the range, if the user interface element conveys information about a range of values, programmatically
 determinable by assistive technologies.
+____
