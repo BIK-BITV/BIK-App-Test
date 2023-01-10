@@ -6,18 +6,17 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben
-sind, muss diese Information auch dem Screenreader zur Verfügung stehen,
-damit der Screenreader-Nutzer ebenfalls über die Grenzen der
-Eingabemöglichkeiten in Kenntnis gesetzt werden kann.
+Falls für Formularelemente minimale oder maximale Eingabewerte vorgegeben sind, muss diese Information auch programmatisch verfügbar sein, damit Screenreader-Nutzende ebenfalls über die Grenzen der Eingabemöglichkeiten in Kenntnis gesetzt werden.
 
 == Wie wird geprüft?
+=== 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist auf Ansichten mit Formularen anwendbar.
 
-Die Formularelemente müssen auf Eingrenzungen der Eingabewerte geprüft
-werden, falls diese generell ersichtlich sind, müssen diese Eingabegrenzen
-auch mittels Screenreader angesagt werden.
-Hierzu wird das Formular mit dem Screenreader durchgegangen, die Grenzen
-sollen dabei vom SR angesagt werden.
+=== 2. Prüfung
+Formularelemente mit numerischen Eingabefeldern und Schieberegler zum Einstellen von Werten werden auf visuell vermittelte Begrenzungen der Eingabewerte überprüft. Wenn diese visuell verfügbar sind, etwa über Legenden, Beschriftungen oder Textvorbelegungen, müssen sie auch für Screenreader ermittelbar sein. Hierzu wird das Formular mit dem Screenreader durchgegangen, die Grenzen sollen dabei vom SR angesagt werden.
+
+=== 3. Hinweise
+Eingabegrenzen können auch implizit vermittelt werden. So ist etwa bei Reglern mit Prozentwerten klar, dass Werte auf den Bereich von 0% - 100% eingegrenzt sind.
 
 == Quellen
 
