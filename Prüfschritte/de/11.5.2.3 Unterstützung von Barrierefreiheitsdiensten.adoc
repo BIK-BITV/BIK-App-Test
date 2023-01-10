@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Die App soll für die Erfüllung der Barrierefreiheitsanforderungen die vom Betriebssystem dazu bereitgestellten Dienste und Schnittstellen nutzen.
