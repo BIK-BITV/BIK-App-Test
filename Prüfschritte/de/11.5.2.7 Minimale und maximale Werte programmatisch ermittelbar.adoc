@@ -20,11 +20,11 @@ Der Prüfschritt ist auf Ansichten mit Formularen anwendbar.
 === 3. Hinweise
 Eingabegrenzen können auch implizit vermittelt werden. So ist etwa bei Reglern mit Prozentwerten klar, dass Werte auf den Bereich von 0% - 100% eingegrenzt sind.
 
-=== Bewertung
-==== Erfüllt:
+=== 4. Bewertung
+==== 4.1 Erfüllt:
 Bei Fokussierung des Eingabefelds oder des Reglers werden Grenzen direkt oder mittelbar /etwa über die Ausgabe von Prozent) ausgegeben.
 
-==== Eher erfüllt:
+==== 4.2 Eher erfüllt:
 Eine getrennt fokussierbare Beschriftung vor der Eingabe informiert über minimal bzw. maximal mögliche Werte.
 
 == Quellen
