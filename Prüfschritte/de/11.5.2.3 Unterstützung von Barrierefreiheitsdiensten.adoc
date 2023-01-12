@@ -11,11 +11,7 @@ Nur wenn die App die Barrierefreiheitsanforderungen durch die vom Betriebssystem
 
 == Warum wird das geprüft?
 
-Damit die Bedienung von Apps mittels assistiver Software möglichst konsistent und in ihrer Funktionalität robust ist, sollten Apps Barrierefreiheitsdienste- und Schnittstellen des Systems nutzen.
-
-Die Unterstützung der Barrierefreiheitsdienste und -Schnittstellen des Systems stellt  beispielsweise sicher, das die Bedienung eines bestimmten Steuerelements, z. B. eines Aufklappmenüs, überall im System und den Apps gleichartig funktioniert.
-Nutzer müssen sich nicht unterschiedliche Bedienarten für dieses Element merken.
-Wenn Nutzer auf ein Steuerelement in einer App treffen, wissen diese Anwender höchstwahrscheinlich aus anderen Apps, wie dieses  UI-Control zu bedienen ist.
+Damit die Bedienung von Apps mittels assistiver Software möglichst konsistent und in ihrer Funktionalität robust ist, sollten Apps Barrierefreiheitsdienste- und Schnittstellen des Systems nutzen. Solche Dienste sind etwa Screenreader oder Spracheingabe.
 
 == Wie wird das geprüft?
 
