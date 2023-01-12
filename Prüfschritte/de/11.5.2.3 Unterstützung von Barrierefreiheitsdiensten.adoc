@@ -23,7 +23,7 @@ Der Prüfschritt ist immer anwendbar. Es wird hier stichprobenartig geprüft, ob
 ==== 2. Generelle Prüfung
 . Screenreader aktivieren.
 . Mittels Wischgesten durch die Elemente der App navigieren. Erfolgt eine Ausgabe im Screenreader?
-. Gibt es im Standardzustand (also ohne explizite Aktivierung durch Nutzende aktive) Sprachausgaben oder Vergrößerungsfunktionen, die die Nutzung von Barrierefreiheitsdienste beeinträchtigen? 
+. Gibt es im Standardzustand (also ohne explizite Aktivierung durch Nutzende aktive) Sprachausgaben, Vergrößerungsfunktionen oder andere in der App implementierte Funkionen, welche die die Nutzung von Barrierefreiheitsdienste des Betriebssystems beeinträchtigen? 
 
 ==== 2.2 Webviews
 Falls Webviews vorhanden sind: 
