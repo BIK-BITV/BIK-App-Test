@@ -11,7 +11,7 @@ Nur wenn die App die Barrierefreiheitsanforderungen durch die vom Betriebssystem
 
 == Warum wird das geprüft?
 
-Damit die Bedienung von Apps mittels assistiver Software möglichst konsistent und in ihrer Funktionalität robust ist, sollten Apps Barrierefreiheitsdienste- und Schnittstellen vom System nutzen.
+Damit die Bedienung von Apps mittels assistiver Software möglichst konsistent und in ihrer Funktionalität robust ist, sollten Apps Barrierefreiheitsdienste- und Schnittstellen des Systems nutzen.
 
 Die Unterstützung der Barrierefreiheitsdienste und -Schnittstellen des Systems stellt  beispielsweise sicher, das die Bedienung eines bestimmten Steuerelements, z. B. eines Aufklappmenüs, überall im System und den Apps gleichartig funktioniert.
 Nutzer müssen sich nicht unterschiedliche Bedienarten für dieses Element merken.
@@ -21,15 +21,20 @@ Wenn Nutzer auf ein Steuerelement in einer App treffen, wissen diese Anwender h�
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist immer anwendbar. Es wird hier stichprobenartig geprüft, ob der Barrierefreiheitsdienst Screenreader bei Nutzung der App generell in seinen Funktionen zur Verfügung steht - nicht, ob einzelne Elemente korrekt ausgezeichnet sind, so dass der Screenreader bei Fokussierung Name und gegebenenfalls Rolle und Wert ausgibt. Dies ist Gegenstand von anderen Prüfschritten, insbesondere 11.4.1.2 Name, Rolle, Wert verfügbar".
 
 === 2. Prüfung
+==== 2. Generelle Prüfung
+. Screenreader aktivieren.
+. Mittels Wischgesten durch die Elemente der App navigieren. Erfolgt eine Ausgabe im Screenreader?
+. Gibt es im Standardzustand (also ohne explizite Aktivierung durch Nutzende aktive) Sprachausgaben oder Vergrößerungsfunktionen, die die Nutzung von Barrierefreiheitsdienste beeinträchtigen? 
 
-Ob Barrierefreiheitsdienste und -Schnittstellen des Betriebssystems genutzt werden, scheint derzeit nur anhand von Indizien feststellbar zu sein.
-So können bspw. Screenreader-Ausgaben der App mit denen von System-Apps verglichen werden.
-Stichprobenartig sollten dabei verschiedene Steuerelemente verglichen werden.
-Wenn zum Beispiel "echte" System-Buttons eingesetzt werden, sagt iOS mit VoiceOver zusätzlich zur Beschriftung "Taste" an, also bspw. "Schließen Taste".
-Unter Android wäre es statt "Taste" dann "Schaltfläche".
+==== 2.2 Webviews
+Falls Webviews vorhanden sind: 
+. Wenn möglich, die Quellen der Webviews im mobilen Standard-Browser öffnen und prüfen, ob hier vorhandene Auszeichnungen (etwa Überschriften) auch in der Webview-Ansicht der gleichen Quelle ausgegeben werden.
+
+=== 3. Hinweis
+Ob eine Ausgabe auf allen Elementen durchgängig erfolgt, ob also bei Fokussierung interaktiver Elemente Name Rolle und Wert ausgegeben werden, fällt in andere Prüfschritte, insbesondere 11.4.1.2 Name Rolle Wert verfügbar, 11.1.3.1 Informationen und Beziehungen, und 11.1.1.1a Alternativtexte für grafische Bedienelemente und 11.1.1.1b Alternativtexte für Grafiken.
 
 "Barrierefreiheitsdienste- und Schnittstellen" beziehen sich jedoch nicht nur auf die Umsetzung von Steuerelementen.
 Auch  eingebaute Sprachausgaben oder Vergrößerungsfunktionen sind  solche Dienste.
