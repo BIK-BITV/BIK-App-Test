@@ -16,7 +16,7 @@ Unter Android mit externer Tastatur lässt sich die Tastenwiederholung zur Zeit 
 Da im App-Test nur Aspekte geprüft werden, welche Entwickler direkt in der Gestaltung der App beeinflussen können und sollen, wird diese Anforderung zur Zeit nicht aktiv geprüft, da sie die Betriebssystem-Ebene betrifft.
 
 == Warum wird das geprüft?
-Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie durch zu langes Drücken von Tasten unabsichtlich die Tastenwiederholung auslösen und dann Eingaben wieder löschen müssen. Die Verlängerung der Verzögerung vor Einsetzen der Tastenwiederholung und Verlangsamung de Intervalls zwischen wiederholten Eingaben verringert dieses Risiko.
+Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie durch zu langes Drücken von Tasten unabsichtlich die Tastenwiederholung auslösen und dann Eingaben wieder löschen müssen. Die Verlängerung der Verzögerung vor Einsetzen der Tastenwiederholung und Verlangsamung des Intervalls zwischen wiederholten Eingaben verringert dieses Risiko.
 
 == Wie wird das geprüft?
 Der Prüfschritt wird nicht geprüft, da Einstellungsmöglichkeiten der Tastenwiederholung Aufgabe des Betriebssystems sind und nicht auf der Ebene der App implementiert werden sollten. Selbst wenn Android-App-Entwickler die Tastenwiederholung bei der Nutzung externer Tastaturen erfolgreich unterbinden, wäre hieraus keine generelle Anforderung abzuleiten, dies auf der Ebene der App umzusetzen.
