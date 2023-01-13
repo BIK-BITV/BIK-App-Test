@@ -101,3 +101,4 @@ UIAccessibilityContainerDataTable] zur Auszeichnung von barrierefreien Datentabe
 * Apple Developer:
   https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
   UIAccessibilityContainerDataTable]
+* developers.google.com: https://developers.google.com/chart/interactive/docs/datatables_dataviews[DataTables und DataViews]
