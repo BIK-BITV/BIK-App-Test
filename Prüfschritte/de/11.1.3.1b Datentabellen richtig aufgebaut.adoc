@@ -8,30 +8,17 @@ Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschrif
 
 == Warum wird das geprüft?
 
-Sehbehinderte und blinde Nutzende erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften eine Vorstellung vom Aufbau der Tabelle und navigieren Tabellenzellen horizonal und vertikal. Bei jeder Zelle wird dann die jeweils neue Spalten- oder zeilenüberschrift ausgegeben. 
-
-Damit das möglich ist und funktioniert, müssen zwei Bedingungen erfüllt sein:
-
-* Die Tabelle muss eine klare Struktur haben, die Bedeutung der Zeilen und Spalten muss fassbar sein und sie muss möglichst gut den Spalten- und Zeilen-Überschriften zu entnehmen sein.
-* Die Überschriften müssen auffindbar sein und es muss klar sein, auf welche Daten sie sich beziehen, sie müssen also korrekt ausgezeichnet sein.
-
-Die klare Struktur ist die Grundlage der Barrierefreiheit von Datentabellen. Es ist nicht möglich, eine mangelhaft strukturierte Datentabelle durch spezielle Auszeichnung barrierefrei zugänglich zu machen. Auf Grundlage einer klaren, nachvollziehbaren Struktur ist die korrekte Auszeichnung aber nützlich und wichtig.
-
-Mögliche Anwendungen der Auszeichnung von Tabellenüberschriften:
-
-* Der Screenreader informiert über die Position und Anzahl der Überschriftenreihen.
-* Der Screenreader liest die (neue) Zeilen- oder Spaltenüberschrift vor, wenn der Benutzer die Tabellenzeile oder die Tabellenspalte wechselt.
-* Überschriften werden in einer für den Benutzer besser geeigneten Form hervorgehoben.
+Sehbehinderte und blinde Nutzende erschließen sich Datentabellen analytisch und entwickeln anhand der Spalten- und ggf. Zeilen-Überschriften eine Vorstellung vom Aufbau der Tabelle. Wenn es semantische Überschriften gibt (oft sind diese auch visuell hervorgehoben) und Zelleninhalte nur mit diesen zusammen aussagekräftig sind, sollen sie beim Navigieren der Tabellenzellen verfügbar sein. Bei jedem Wechsel zur nächsten Zelle wird dann die jeweils neue Spalten- oder Zeilenüberschrift ausgegeben. 
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden sind. Diese tauchen häufiger in Webviews auf.
+Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden sind. Diese sind in nativen Apps eher selten, tauchen aber häufiger in Webviews auf.
 
 Zur Tabellennavigation siehe Abschnitt 3. Hinweise für iOS und Android.
 
-=== 2 Prüfung
+=== 2. Prüfung
 
 ==== 2.1 Werden Tabellen für tabellarische Daten verwendet?
 
@@ -53,23 +40,6 @@ Prüfen, ob die Tabelle strukturell sinnvoll aufgebaut ist. Schwierigkeiten ents
 
 Auch komplexe Tabellen sind aus einfachen Spalten und Zeilen zusammengesetzt, die Anforderungen sind so weit die selben. Hinzu kommt allerdings, dass benachbarte Zeilen oder Spalten durch übergreifende Überschriften zusammengefasst sind. Auch den Inhalt dieser zusammengefassten Bereiche muss man allgemein fassen können, wie den Inhalt der einzelnen Spalten und Zeilen.
 
-===== Wie kann man (ohne Screenreader) prüfen, ob eine Datentabelle richtig aufgebaut ist?
-
-Man nimmt eine beliebige Zelle und liest sie zusammen mit den zugehörigen Spalten- und Zeilenüberschriften:
-
-* "[Überschrift(en) der Spalte] - [Überschrift(en) der Zeile]: [Inhalt der
-  Zelle]"
-
-Ist die Bedeutung der Zelle so verständlich?
-
-Gezielt untersucht werden sollen Auffälligkeiten:
-
-* Ist irgendwo andersartiger Inhalt vorhanden?
-* Sind Zellen hervorgehoben?
-
-Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise, unabhängig von ihren Nachbarzellen, nur zusammen mit den beiden
-Überschriften benutzbar sind. Ist das der Fall? Dann ist die Tabelle richtig aufgebaut und per Screenreader benutzbar.
-
 ==== 2.3 Prüfung der Auszeichnung von Tabellen
 
 . App mit zu prüfender Ansicht öffnen.
@@ -86,28 +56,6 @@ Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise, unabhäng
 * iPad: Über CTR + Option + Pfeiltasten können Tabellenzellen durchlaufen werden. Dabei werden semantisch umgesetzte Spaltenüberschriften ausgegeben.
 * iPad: Über Kurzbefehle (bei iOS mit Tastatur, CTR + Option + C) können Spaltenheader ausgegeben werden.
 
-==== 3.2 Woran erkennt man Zeilenüberschriften?
-
-Die visuelle Hervorhebung ist ein Erkennungsmerkmal für Überschriften. Wenn die erste Spalte einer Datentabelle visuell hervorgehoben ist, dann kann man davon ausgehen, dass die Inhalte dieser Spalte als Zeilen-Überschriften dienen sollen.
-
-Dieser Zusammenhang lässt sich aber nicht umkehren, die visuelle Hervorhebung ist als Kriterium nicht immer ausreichend. Denn auf die Hervorhebung der Zeilenüberschriften wird manchmal aus Gestaltungsgründen verzichtet. Sehende Nutzende brauchen sie nicht unbedingt. Wenn der Inhalt einer Datenzelle nicht für sich aussagekräftig ist, beziehen sie die Zellen am linken Rand der Tabelle ein, die Position reicht ihnen als Hervorhebung.
-
-Es ist manchmal schwierig, den Fall, dass auf die visuelle Hervorhebung aus gestalterischen Gründen verzichtet worden ist, abzugrenzen von dem Fall, dass die Inhalte der ersten Spalte tatsächlich als Überschriften nicht geeignet sind. Selbst wenn in der ersten Spalte zum Beispiel Namen von Herstellern oder Produkten stehen, ist das noch kein sicherer Anhaltspunkt für die Eignung als Überschrift. Denn Überschriften sollten eindeutig und geläufig sein, Herstellernamen sind nicht immer eindeutig, Produktnamen oft nicht geläufig.
-
-Entwickler oder Redakteure sollten also überlegen, ob die Inhalte der ersten Spalte als Überschriften tauglich sind, ob es Sinn macht, dass ein Screenreader bei Zeilenwechseln immer den jeweiligen Inhalt der ersten Spalte zusammen mit der gerade angesteuerten Datenzelle vorliest. Wenn das der Fall ist, sollten die Zellen der ersten Spalte unbedingt als Überschriften ausgezeichnet werden. In der Regel stehen die Zeilenüberschriften der Tabelle, wenn vorhanden, in der ersten Spalte. Unter Umständen können aber auch Einträge in anderen Spalten als passende Zeilen-Überschrift ausgezeichnet sein.
-
-Für die Prüfung gilt:
-
-* Zellen, die keine Daten enthalten, also nur als Überschriften dienen können, müssen entsprechend ausgezeichnet werden. (Beispiel dafür: in der Randspalte steht "Länge", Breite", "Gewicht" und so weiter)
-* Muss beim Zugriff auf Daten auf den Inhalt der Zeile oder Spalte Bezug genommen werden, ist es ohne Berücksichtigung der Randspalte nicht möglich,
-  wenigstens einen Teil der unterschiedlichen Werte einer anderen Spalte zu interpretieren? Dann enthält die Randspalte Überschriften, sie muss entsprechend
-  ausgezeichnet werden. (Beispiel: im Wertebereich der Tabelle finden sich ausschließlich Preisangaben.)
-* Die Randspalte kann abweichend von der visuellen Darstellung als Überschrift ausgezeichnet werden, wenn es Sinn macht, beim Vergleich von Werten anderer
-  Spalten auf sie Bezug zu nehmen. (Beispiel: Tabelle mit Produkten, Anbieter und Modellbezeichnung sind als Überschriften ähnlich brauchbar.)
-* Ansonsten ist das Kriterium für die Auszeichnung aber nur die visuelle Hervorhebung. Zeilenüberschriften müssen ausgezeichnet sein, wenn sie visuell hervorgehoben sind.
-  Auch wenn die Randspalte möglicherweise aus einem anderen Grund hervorgehoben ist und für die vergleichende Fassung mit den Daten in anderen Spalten eher nicht nützlich ist, soll die Auszeichnung nicht von der Darstellung auf dem Bildschirm abweichen. Gegebenenfalls muss in diesem Fall die Darstellung für den Bildschirm angepasst werden. (Beispiel dafür: in der ersten Spalte einer Tabelle mit Produkten wird die Bestellnummer angezeigt.)
-
-Auch bei Spaltenüberschriften kann auf die visuelle Hervorhebung verzichtet werden. Die vorstehenden Regeln sind dann in der gleichen Weise auf sie anzuwenden.
 
 ==== 3.3 Tabellen mit eingesparten Überschriften
 
