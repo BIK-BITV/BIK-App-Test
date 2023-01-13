@@ -26,7 +26,7 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 . Prüfen, ob die App-Ansicht Datentabellen enthält (d.h. Daten stehen in einer logischen Beziehung zueinander und sind rasterartig organisiert).
 . iOS: Alternativ mit aktiviertem Screenreader und Rotor-Einstellung "Tabelle" über vertikale Wischgesten erkunden, ob Datentabellen gefunden werden. 
 . Visuelle Prüfung: Erste Zelle (oben links) antippen, prüfen, ob nach Ausgabe des Zellen-Inhalts sowie Zeilen- und Spaltennummern "Anfang der Tabelle" (iOS) oder "In Tabelle" (Android) ausgegeben wird. 
-. über horizontale Wischgesten die Zellen der Tabelle linear durchlaufen. Falls Spalten-Überschriften vorhanden sind, prüfen, ob diese bei Fokussierung der Datenzelle ausgegeben werden. (Eine vertikale Wischgesten-Navigation ist meist nicht in gleicher Weise möglich, weil diese Geste vom Screenreader "verbraucht" oder auf die horizontale Naviogation gemappt wird.)
+. Über horizontale Wischgesten die Zellen der Tabelle linear durchlaufen. Falls Spalten-Überschriften vorhanden sind, prüfen, ob diese bei Fokussierung der Datenzelle ausgegeben werden. (Eine vertikale Wischgesten-Navigation ist meist nicht in gleicher Weise möglich, weil diese Geste vom Screenreader "verbraucht" oder auf die horizontale Naviogation gemappt wird.)
 
 ==== 2.2 Prüfung des Aufbaus von Tabellen
 
