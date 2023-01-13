@@ -8,9 +8,7 @@ Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschrif
 
 == Warum wird das geprüft?
 
-Visuell orientierte Personen nutzen für die Orientierung in einer Datentabelle neben den Überschriften wenn nötig auch den Wertebereich. Es ist für sie daher relativ leicht möglich, strukturelle Mängel, zum Beispiel Wechsel in der Bedeutung von Zeilen oder Spalten, zu erkennen und mit ihnen umzugehen.
-
-Sehbehinderte und blinde Nutzende erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften und anderen im Kontext verfügbaren Informationen eine Vorstellung vom Aufbau der Tabelle. Diese Vorstellung ist die Grundlage für den Zugriff auf die angebotenen Daten.
+Sehbehinderte und blinde Nutzende erschließen sich das Angebot von Datentabellen dagegen eher analytisch. Sie entwickeln ausgehend von den Überschriften eine Vorstellung vom Aufbau der Tabelle und navigieren Tabellenzellen horizonal und vertikal. Bei jeder Zelle wird dann die jeweils neue Spalten- oder zeilenüberschrift ausgegeben. 
 
 Damit das möglich ist und funktioniert, müssen zwei Bedingungen erfüllt sein:
 
@@ -29,15 +27,18 @@ Mögliche Anwendungen der Auszeichnung von Tabellenüberschriften:
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden sind.
+Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden sind. Diese tauchen häufiger in Webviews auf.
+
+Zur Tabellennavigation siehe Abschnitt 3. Hinweise für iOS und Android.
 
 === 2 Prüfung
 
 ==== 2.1 Werden Tabellen für tabellarische Daten verwendet?
 
-. App mit zu prüfender Ansicht öffnen.
-. Prüfen, ob die App-Ansicht Datentabelle enthält (d.h. Daten stehen in einer logischen Beziehung zueinander und sind rasterartig organisiert).
-. Screenreader starten und prüfen ob der Screenreader beim Antippen der Tabelle "Tabelle" o.ä. ausgibt.
+. Prüfen, ob die App-Ansicht Datentabellen enthält (d.h. Daten stehen in einer logischen Beziehung zueinander und sind rasterartig organisiert).
+. Alternativ mit aktiviertem Screenreader und Rotor-Einstellung "Tabelle" über vertikale Wischgesten erkunden, ob Datentabellen gefunden werden.
+. Visuelle Prüfung: Erste Zelle (oben links) antippen, prüfen, ob nach Ausgabe des Inhalts, der Zeile und Spalte "Anfang der Tabelle" (iOS) oder "In Tabelle" (Android) ausgegeben wird. 
+. über horizontale Wischgesten die Zellen der Tabelle linear durchlaufen. Falls Spalten-Überschriften vorhanden sind, prüfen ob diese bei Fokussierung der Datenzelle ausgegeben werden.
 
 ==== 2.2 Prüfung des Aufbaus von Tabellen
 
@@ -49,13 +50,6 @@ Prüfen, ob die Tabelle strukturell sinnvoll aufgebaut ist. Schwierigkeiten ents
 * Leere Zeilen werden eingefügt, um die Höhe oder den Abstand von Zeilen festzulegen
 * Verschachtelungen (weitere Tabelle innerhalb einer Tabellenzelle)
 
-===== Woran erkennt man, dass eine Datentabelle sinnvoll aufgebaut ist?
-
-Bei einer sinnvoll aufgebauten Tabelle kann man sagen, welche Informationen in den einzelnen Spalten und Zeilen der Tabelle enthalten sind. Man kann diesen Inhalt allgemein fassen, nicht nur als eine Zusammenstellung der in den einzelnen Zellen abgelegten Werte.
-
-Die Bedeutung der einzelnen Spalten und Zeilen kann in den Überschriften gefasst sein. Das ist aber nicht zwangsläufig so, auch eine Tabelle ohne Überschriften kann sinnvoll strukturiert sein.
-
-Wenn aussagekräftige Spalten- oder Zeilen-Überschriften vorhanden sind, sollte man auch prüfen, ob das, was in den zugeordneten Zellen steht, den Überschriften entspricht.
 
 Auch komplexe Tabellen sind aus einfachen Spalten und Zeilen zusammengesetzt, die Anforderungen sind so weit die selben. Hinzu kommt allerdings, dass benachbarte Zeilen oder Spalten durch übergreifende Überschriften zusammengefasst sind. Auch den Inhalt dieser zusammengefassten Bereiche muss man allgemein fassen können, wie den Inhalt der einzelnen Spalten und Zeilen.
 
@@ -79,16 +73,20 @@ Man prüft, ob auch in diesen Bereichen alle Zellen in gleicher Weise, unabhäng
 ==== 2.3 Prüfung der Auszeichnung von Tabellen
 
 . App mit zu prüfender Ansicht öffnen.
-. Prüfen, ob die App-Ansicht Datentabelle enthält.
+. Prüfen, ob die App-Ansicht eine Datentabelle enthält.
 . Screenreader starten und mit Hilfe der Wischgeste durch die Tabelle navigieren.
-. Prüfen, ob alle Spalten- und Zeilenüberschriften zusammen mit der Datenzelle ausgegeben werden. Alternativ die Zeilen- bzw. Spaltenüberschrift angetippen und prüfen, was der Screenreader ausgibt: Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnlich als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
-
-Die Mindestanforderung:
-Offenkundige, unverzichtbare und visuell hervorgehobene Überschriften müssen ausgezeichnet sein (siehe Hinweis Woran erkennt man Zeilenüberschriften?).
+. Prüfen, ob alle Spalten- und Zeilenüberschriften zusammen mit der Datenzelle ausgegeben werden. 
+. Alternativ die Zeilen- bzw. Spaltenüberschrift angetippen und prüfen, was der Screenreader ausgibt: Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnlich als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
 
 === 3. Hinweise
 
-==== 3.1 Woran erkennt man Zeilenüberschriften?
+==== 3. Erschließen von Tabellen in iOS
+* Vor der Prüfung sicherstellen, dass "Tabellen" im Rotor als Navgationsmöglichkeit aktiviert ist.
+* Mit Rotoreinstellung "Tabellen" sind Tabellen über vertikale Wischgeste erreichbar (fokussiert wird die Zelle links oben)
+* iPad: Über CTR + Option + Pfeiltasten können Tabellenzellen durchlaufen werden. Dabei werden semantisch umgesetzte Spaltenüberschriften ausgegeben.
+* iPad: Über Kurzbefehle (bei iOS mit Tastatur, CTR + Option + C) können Spaltenheader ausgegeben werden.
+
+==== 3.2 Woran erkennt man Zeilenüberschriften?
 
 Die visuelle Hervorhebung ist ein Erkennungsmerkmal für Überschriften. Wenn die erste Spalte einer Datentabelle visuell hervorgehoben ist, dann kann man davon ausgehen, dass die Inhalte dieser Spalte als Zeilen-Überschriften dienen sollen.
 
@@ -111,7 +109,7 @@ Für die Prüfung gilt:
 
 Auch bei Spaltenüberschriften kann auf die visuelle Hervorhebung verzichtet werden. Die vorstehenden Regeln sind dann in der gleichen Weise auf sie anzuwenden.
 
-==== 3.2 Tabellen mit eingesparten Überschriften
+==== 3.3 Tabellen mit eingesparten Überschriften
 
 Überschriften sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte steht nicht nur der Betrag, sondern auch das Währungszeichen.
 
@@ -127,13 +125,6 @@ Tabellen mit eingesparten Überschriften erfüllen also den Prüfschritt, wenn s
 
 Bei Software ist es in der Regel nicht ohne den Quelltext möglich, die korrekte syntaktische Auszeichnung festzustellen. Hier kann dann in der Regel nur ein Test mit einem Screenreader durchgeführt werden. Dieser sagt dann an, ob es sich um eine "richtige" Tabelle handelt und kann beim Navigieren über Zeilen und Spalten ggf. auch dessen Überschriften ausgeben.
 
-
-==== 3.3 Informationen für Entwickler (iOS / iPadOS)
-
-Personen, die Apps entwickeln, können das Protokoll
-`"link:https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
-UIAccessibilityContainerDataTable]"`
-zur Auszeichnung von barrierefreien Datentabellen nutzen.
 
 === 4. Bewertung
 
@@ -182,6 +173,14 @@ zur Auszeichnung von barrierefreien Datentabellen nutzen.
   conveys semantic information]
 
 == Quellen
+
+
+==== Informationen für Entwickler (iOS / iPadOS)
+
+Personen, die Apps entwickeln, können das Protokoll
+`"link:https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
+UIAccessibilityContainerDataTable]"`
+zur Auszeichnung von barrierefreien Datentabellen nutzen.
 
 === W3C - Web Accessibility Tutorials
 
