@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind plattformspezifisch im Programm-Code ausgezeichnet. Sie wegen des reduziertne Viewports sind in nativen Apps eher selten, tauchen aber häufiger in Webviews auf. Zum Teil erscheinen Sie in unterschiedlicher Form abhängig von der Viewportbreite des Ausgabegeräts bzw, der Ausrichtung des Geräts. Ist die Ausgabe au Tablets Teil der Accessibility Baseline, sind hier ggf. abweichende Ansichten zu berücksichtigen.
+Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind plattformspezifisch im Programm-Code ausgezeichnet. Tabellen sind wegen des reduzierten Viewports in nativen Apps eher selten, tauchen aber häufiger in Webviews auf. Zum Teil erscheinen Sie in unterschiedlicher Form abhängig von der Viewportbreite des Ausgabegeräts bzw, der Ausrichtung des Geräts. Gehört die die Püfung auf Tablets zum Umfanf des Tests, sind hier ggf. abweichende Ansichten zu berücksichtigen.
 
 == Warum wird das geprüft?
 
