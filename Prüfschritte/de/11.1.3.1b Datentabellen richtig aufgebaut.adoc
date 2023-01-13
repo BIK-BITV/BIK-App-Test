@@ -28,20 +28,7 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 . Visuelle Prüfung: Erste Zelle (oben links) antippen, prüfen, ob nach Ausgabe des Zellen-Inhalts sowie Zeilen- und Spaltennummern "Anfang der Tabelle" (iOS) oder "In Tabelle" (Android) ausgegeben wird. 
 . Über horizontale Wischgesten die Zellen der Tabelle linear durchlaufen. Falls Spalten-Überschriften vorhanden sind, prüfen, ob diese bei Fokussierung der Datenzelle ausgegeben werden. (Eine vertikale Wischgesten-Navigation ist meist nicht in gleicher Weise möglich, weil diese Geste vom Screenreader "verbraucht" oder auf die horizontale Naviogation gemappt wird.)
 
-==== 2.2 Prüfung des Aufbaus von Tabellen
-
-Prüfen, ob die Tabelle strukturell sinnvoll aufgebaut ist. Schwierigkeiten entstehen in den meisten Fällen dadurch, dass die Tabelle auch Layoutzwecken dient, das Tabellengitter also für die Anordnung von Inhalten auf dem Bildschirm genutzt wird. Problematisch können zum Beispiel sein:
-
-* Eine Spalte mit Daten ist vor der Überschriftenspalte platziert
-* Wechsel der Bedeutung von Zeilen oder Spalten ("ab hier ...")
-* Zellen mit Erläuterungen sind in die Tabelle integriert
-* Leere Zeilen werden eingefügt, um die Höhe oder den Abstand von Zeilen festzulegen
-* Verschachtelungen (weitere Tabelle innerhalb einer Tabellenzelle)
-
-
-Auch komplexe Tabellen sind aus einfachen Spalten und Zeilen zusammengesetzt, die Anforderungen sind so weit die selben. Hinzu kommt allerdings, dass benachbarte Zeilen oder Spalten durch übergreifende Überschriften zusammengefasst sind. Auch den Inhalt dieser zusammengefassten Bereiche muss man allgemein fassen können, wie den Inhalt der einzelnen Spalten und Zeilen.
-
-==== 2.3 Prüfung der Auszeichnung von Tabellen
+==== 2.2 Prüfung der Auszeichnung von Tabellen
 
 . App mit zu prüfender Ansicht öffnen.
 . Prüfen, ob die App-Ansicht eine Datentabelle enthält.
