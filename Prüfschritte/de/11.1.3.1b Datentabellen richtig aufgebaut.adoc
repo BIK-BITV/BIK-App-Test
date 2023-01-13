@@ -37,19 +37,23 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 . Alternativ die Zeilen- bzw. Spaltenüberschrift angetippen und prüfen, was der Screenreader ausgibt: Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnlich als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
 
 === 3. Hinweise
+Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte Betrag und Währungszeichen.
+
 ==== 3.1 Allgemeine Hinweise zur Navigation von Tabellen
 * Eine vertikale Screenreader-Navigation der Tabelle über Wischgesten ist in der Regel nicht möglich. 
 * Ggf. wird die Pfeiltastennavigation zwischen Zellen unterstützt. 
 
-==== 3.1 Erschließen von Tabellen in iOS
+==== 3.2 Erschließen von Tabellen in iOS
 * Vor der Prüfung sicherstellen, dass "Tabellen" im Rotor als Navgationsmöglichkeit aktiviert ist.
 * Mit Rotoreinstellung "Tabellen" sind Tabellen über vertikale Wischgeste erreichbar (fokussiert wird die Zelle links oben)
 * iOS nit Tastatur: Über CTR + Option + Pfeiltasten können Tabellenzellen durchlaufen werden. Dabei werden semantisch umgesetzte Spaltenüberschriften ausgegeben.
 * iOS nit Tastatur: Über Kurzbefehle (bei iOS mit Tastatur, CTR + Option + C) können Spaltenheader ausgegeben werden.
 
+==== 3.3 Erschließen von Tabellen in Android
+
 ==== 3.3 Tabellen mit eingesparten Überschriften
 
-Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte Betrag und Währungszeichen.
+
 
 === 4. Bewertung
 
