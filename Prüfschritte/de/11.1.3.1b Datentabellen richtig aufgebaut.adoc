@@ -44,8 +44,8 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 ==== 3.1 Erschließen von Tabellen in iOS
 * Vor der Prüfung sicherstellen, dass "Tabellen" im Rotor als Navgationsmöglichkeit aktiviert ist.
 * Mit Rotoreinstellung "Tabellen" sind Tabellen über vertikale Wischgeste erreichbar (fokussiert wird die Zelle links oben)
-* iPad: Über CTR + Option + Pfeiltasten können Tabellenzellen durchlaufen werden. Dabei werden semantisch umgesetzte Spaltenüberschriften ausgegeben.
-* iPad: Über Kurzbefehle (bei iOS mit Tastatur, CTR + Option + C) können Spaltenheader ausgegeben werden.
+* iOS nit Tastatur: Über CTR + Option + Pfeiltasten können Tabellenzellen durchlaufen werden. Dabei werden semantisch umgesetzte Spaltenüberschriften ausgegeben.
+* iOS nit Tastatur: Über Kurzbefehle (bei iOS mit Tastatur, CTR + Option + C) können Spaltenheader ausgegeben werden.
 
 ==== 3.3 Tabellen mit eingesparten Überschriften
 
@@ -55,7 +55,7 @@ Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, 
 
 ==== Nicht voll erfüllt:
 
-* Für tabellarische Daten wird keine Tabellensemantik verwendet.
+* Für Datentabellen wird keine Tabellensemantik verwendet.
 
 == Einordnung des Prüfschritts
 
