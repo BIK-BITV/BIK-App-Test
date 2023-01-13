@@ -8,7 +8,7 @@ Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschrif
 
 == Warum wird das geprüft?
 
-Sehbehinderte und blinde Nutzende erschließen sich Datentabellen analytisch und entwickeln anhand der Spalten- und ggf. Zeilen-Überschriften eine Vorstellung vom Aufbau der Tabelle. Wenn es semantische Überschriften gibt (oft sind diese auch visuell hervorgehoben) und Zelleninhalte nur mit diesen zusammen aussagekräftig sind, sollen dies Überschriften beim Navigieren der Tabellenzellen verfügbar sein. Bei jedem Wechsel zur nächsten Zelle wird dann die jeweils neue Spalten- oder Zeilenüberschrift ausgegeben. 
+Sehbehinderte und blinde Nutzende erschließen sich Datentabellen analytisch und entwickeln anhand der Spalten- und ggf. Zeilen-Überschriften eine Vorstellung vom Aufbau der Tabelle. Wenn es solche semantischen Überschriften gibt (oft sind diese auch visuell hervorgehoben) und Zelleninhalte nur mit diesen zusammen aussagekräftig sind, sollen dies Überschriften beim Navigieren der Tabellenzellen verfügbar sein. Bei jedem Wechsel zur nächsten Zelle wird dann die jeweils neue Spalten- oder Zeilenüberschrift ausgegeben. 
 
 == Wie wird geprüft?
 
