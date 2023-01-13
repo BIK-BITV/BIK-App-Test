@@ -38,7 +38,7 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 
 === 3. Hinweise
 ==== 3.1 Allgemeine Hinweise zur Navigation von Tabellen
-* Eine verikale Navigation der Tabelle über Wischgesten ist in der Regel nicht möglich. 
+* Eine vertikale Screenreader-Navigation der Tabelle über Wischgesten ist in der Regel nicht möglich. 
 * Ggf. wird die Pfeiltastennavigation zwischen Zellen unterstützt. 
 
 ==== 3.1 Erschließen von Tabellen in iOS
