@@ -51,7 +51,8 @@ Auch komplexe Tabellen sind aus einfachen Spalten und Zeilen zusammengesetzt, di
 
 === 3. Hinweise
 ==== 3.1 Allgemeine Hinweise zur Navigation von Tabellen
-* Eine verikale Navigation über Wischgesten ist in der Regel nicht möglich. Mittles Tastatur wird ggf, die Pfeiltzastennaivgation zwischen Zellen unterstützt.
+* Eine verikale Navigation der Tabelle über Wischgesten ist in der Regel nicht möglich. 
+* Ggf. wird die Pfeiltastennavigation zwischen Zellen unterstützt. 
 
 ==== 3.1 Erschließen von Tabellen in iOS
 * Vor der Prüfung sicherstellen, dass "Tabellen" im Rotor als Navgationsmöglichkeit aktiviert ist.
