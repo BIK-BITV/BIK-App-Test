@@ -89,10 +89,8 @@ Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, 
 
 ==== Informationen für Entwickler (iOS / iPadOS)
 
-Personen, die Apps entwickeln, können das Protokoll
-`"link:https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
-UIAccessibilityContainerDataTable]"`
-zur Auszeichnung von barrierefreien Datentabellen nutzen.
+Personen, die Apps entwickeln, können das Protokoll `"link:https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
+UIAccessibilityContainerDataTable]"` zur Auszeichnung von barrierefreien Datentabellen nutzen.
 
 === W3C - Web Accessibility Tutorials
 
