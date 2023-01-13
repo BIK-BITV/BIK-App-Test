@@ -4,28 +4,28 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind plattformspezifisch im Programm-Code ausgezeichnet.
+Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind plattformspezifisch im Programm-Code ausgezeichnet. Sie wegen des reduziertne Viewports sind in nativen Apps eher selten, tauchen aber häufiger in Webviews auf. Zum Teil erscheinen Sie in unterschiedlicher Form abhängig von der Viewportbreite des Ausgabegeräts bzw, der Ausrichtung des Geräts. Ist die Ausgabe au Tablets Teil der Accessibility Baseline, sind hier ggf. abweichende Ansichten zu berücksichtigen.
 
 == Warum wird das geprüft?
 
-Sehbehinderte und blinde Nutzende erschließen sich Datentabellen analytisch und entwickeln anhand der Spalten- und ggf. Zeilen-Überschriften eine Vorstellung vom Aufbau der Tabelle. Wenn es semantische Überschriften gibt (oft sind diese auch visuell hervorgehoben) und Zelleninhalte nur mit diesen zusammen aussagekräftig sind, sollen sie beim Navigieren der Tabellenzellen verfügbar sein. Bei jedem Wechsel zur nächsten Zelle wird dann die jeweils neue Spalten- oder Zeilenüberschrift ausgegeben. 
+Sehbehinderte und blinde Nutzende erschließen sich Datentabellen analytisch und entwickeln anhand der Spalten- und ggf. Zeilen-Überschriften eine Vorstellung vom Aufbau der Tabelle. Wenn es semantische Überschriften gibt (oft sind diese auch visuell hervorgehoben) und Zelleninhalte nur mit diesen zusammen aussagekräftig sind, sollen dies Überschriften beim Navigieren der Tabellenzellen verfügbar sein. Bei jedem Wechsel zur nächsten Zelle wird dann die jeweils neue Spalten- oder Zeilenüberschrift ausgegeben. 
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden sind. Diese sind in nativen Apps eher selten, tauchen aber häufiger in Webviews auf.
+Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden sind.
 
 === 2. Prüfung
-Die Ausgabe von Datentabellen in Apps, besonders in Webviews, is oft uneinheitlich. Es kommt vor, dass Tabellen unter manchen Bedingungen fokussierbar und navigierbar sind, in anderen nicht, selbst auf dem gleichen Gerät. Semantisch richtig aufgebaute Datentabellen können ggf. in responsiven Ansichten nicht zugänglich sein, zum Beispiel nicht im Lesemodus erreichbar sien, obwohl sie semantisch korrekt umgesetzt sind. Dies kann an der App selbst liegen oder auch auf einen Bug des Betriebssystems, der in Webviews genutzten Browserfunktion, oder des Screenreaders hindeuten. Das ist ohne Quelltextzugang nicht immer klar zu entscheiden. Ggf. während der Prüfung die App neu laden, Ansichten neu aufrufen, Screenreader deaktiveren und wieder aktivieren. Das Ziel ist, Auszeichungsmängel der App zu bewerten und *nicht* Lücken oder Bugs in der Hilfsmitteluterstützung. Bei Webviews hift es, wenn die Quelle isdentifizierbar ist, im Desktop-Browser aufgerufen werden kann und dort mit Bordmtteln untersucht werden kann.
+Die Ausgabe von Datentabellen in Apps, besonders in Webviews, is oft uneinheitlich. Es kommt vor, dass Tabellen unter manchen Bedingungen fokussierbar und navigierbar sind und unter anderen nicht, selbst auf dem gleichen Gerät. Semantisch richtig aufgebaute Datentabellen können ggf. in responsiven Ansichten nicht zugänglich sein, zum Beispiel nicht im Lesemodus erreichbar sein, obwohl sie semantisch korrekt umgesetzt sind. Dies kann an der App selbst liegen oder auch auf einen Bug des Betriebssystems, des in Webviews transparent genutzten Browsers, oder des Screenreaders hindeuten. Das ist ohne Quelltextzugang nicht immer klar zu entscheiden. Ggf. während der Prüfung die App neu laden, Ansichten neu aufrufen, Screenreader deaktiveren und wieder reaktivieren, Geräte neu starten. Das Ziel ist, Auszeichungsmängel der App zu bewerten und *nicht* Lücken oder Bugs in der Hilfsmittelunterstützung. Bei Webviews hift es, wenn die Quelle identifizierbar ist, im Desktop-Browser aufgerufen werden kann und dort mit Bordmtteln untersucht werden kann.
 
 Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android in Abschnitt 3.
 
 ==== 2.1 Werden Tabellen für tabellarische Daten verwendet?
 
 . Prüfen, ob die App-Ansicht Datentabellen enthält (d.h. Daten stehen in einer logischen Beziehung zueinander und sind rasterartig organisiert).
-. Alternativ mit aktiviertem Screenreader und Rotor-Einstellung "Tabelle" über vertikale Wischgesten erkunden, ob Datentabellen gefunden werden.
-. Visuelle Prüfung: Erste Zelle (oben links) antippen, prüfen, ob nach Ausgabe des Inhalts, der Zeile und Spalte "Anfang der Tabelle" (iOS) oder "In Tabelle" (Android) ausgegeben wird. 
+. Alternativ mit aktiviertem Screenreader und Rotor-Einstellung "Tabelle" über vertikale Wischgesten erkunden, ob Datentabellen gefunden werden. 
+. Visuelle Prüfung: Erste Zelle (oben links) antippen, prüfen, ob nach Ausgabe des Zellen-Inhalts sowie Zeilen- und Spaltennummern "Anfang der Tabelle" (iOS) oder "In Tabelle" (Android) ausgegeben wird. 
 . über horizontale Wischgesten die Zellen der Tabelle linear durchlaufen. Falls Spalten-Überschriften vorhanden sind, prüfen ob diese bei Fokussierung der Datenzelle ausgegeben werden.
 
 ==== 2.2 Prüfung des Aufbaus von Tabellen
@@ -50,30 +50,18 @@ Auch komplexe Tabellen sind aus einfachen Spalten und Zeilen zusammengesetzt, di
 . Alternativ die Zeilen- bzw. Spaltenüberschrift angetippen und prüfen, was der Screenreader ausgibt: Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnlich als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
 
 === 3. Hinweise
+==== 3.1 Allgemeine Hinweise zur Navigation von Tabellen
+* Eine verikale Navigation über Wischgesten ist in der Regel nicht möglich. Mittles Tastatur wird ggf, die Pfeiltzastennaivgation zwischen Zellen unterstützt.
 
-==== 3. Erschließen von Tabellen in iOS
+==== 3.1 Erschließen von Tabellen in iOS
 * Vor der Prüfung sicherstellen, dass "Tabellen" im Rotor als Navgationsmöglichkeit aktiviert ist.
 * Mit Rotoreinstellung "Tabellen" sind Tabellen über vertikale Wischgeste erreichbar (fokussiert wird die Zelle links oben)
 * iPad: Über CTR + Option + Pfeiltasten können Tabellenzellen durchlaufen werden. Dabei werden semantisch umgesetzte Spaltenüberschriften ausgegeben.
 * iPad: Über Kurzbefehle (bei iOS mit Tastatur, CTR + Option + C) können Spaltenheader ausgegeben werden.
 
-
 ==== 3.3 Tabellen mit eingesparten Überschriften
 
-Überschriften sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte steht nicht nur der Betrag, sondern auch das Währungszeichen.
-
-Für blinde und sehbehinderte Nutzende kann der Umgang mit solchen Tabellen schwierig sein. Denn mangels Überschriften müssen sie auf den Wertebereich zugreifen, um zu
-verstehen, was die Tabelle anbietet. Für normal sehende Nutzende ist das leicht, für Benutzer, die sich immer nur einen kleinen Ausschnitt der Tabelle vorlesen oder anzeigen lassen können, aber nicht.
-
-Unproblematisch ist der Verzicht auf Überschriften, wenn zwei Bedingungen erfüllt sind:
-
-* Der Aufbau der Tabelle ist der ersten Zeile zu entnehmen.
-* Die Tabelle listet Daten auf, die zusammen gehören und eine feste Reihenfolge haben. Sie wird also normalerweise linear genutzt, wie ein Buch.
-
-Tabellen mit eingesparten Überschriften erfüllen also den Prüfschritt, wenn sie richtig aufgebaut und linear nutzbar sind.
-
-Bei Software ist es in der Regel nicht ohne den Quelltext möglich, die korrekte syntaktische Auszeichnung festzustellen. Hier kann dann in der Regel nur ein Test mit einem Screenreader durchgeführt werden. Dieser sagt dann an, ob es sich um eine "richtige" Tabelle handelt und kann beim Navigieren über Zeilen und Spalten ggf. auch dessen Überschriften ausgeben.
-
+Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte Betrag und Währungszeichen.
 
 === 4. Bewertung
 
