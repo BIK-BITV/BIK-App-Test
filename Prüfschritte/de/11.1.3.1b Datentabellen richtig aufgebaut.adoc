@@ -16,9 +16,10 @@ Sehbehinderte und blinde Nutzende erschließen sich Datentabellen analytisch und
 
 Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden sind. Diese sind in nativen Apps eher selten, tauchen aber häufiger in Webviews auf.
 
-Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android in Abschnitt 3..
-
 === 2. Prüfung
+Die Ausgabe von Datentabellen in Apps, besonders in Webviews, is oft uneinheitlich. Es kommt vor, dass Tabellen unter manchen Bedingungen fokussierbar und navigierbar sind, in anderen nicht, selbst auf dem gleichen Gerät. Semantisch richtig aufgebaute Datentabellen können ggf. in responsiven Ansichten nicht zugänglich sein, zum Beispiel nicht im Lesemodus erreichbar sien, obwohl sie semantisch korrekt umgesetzt sind. Dies kann an der App selbst liegen oder auch auf einen Bug des Betriebssystems, der in Webviews genutzten Browserfunktion, oder des Screenreaders hindeuten. Das ist ohne Quelltextzugang nicht immer klar zu entscheiden. Ggf. während der Prüfung die App neu laden, Ansichten neu aufrufen, Screenreader deaktiveren und wieder aktivieren. Das Ziel ist, Auszeichungsmängel der App zu bewerten und *nicht* Lücken oder Bugs in der Hilfsmitteluterstützung. Bei Webviews hift es, wenn die Quelle isdentifizierbar ist, im Desktop-Browser aufgerufen werden kann und dort mit Bordmtteln untersucht werden kann.
+
+Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android in Abschnitt 3.
 
 ==== 2.1 Werden Tabellen für tabellarische Daten verwendet?
 
