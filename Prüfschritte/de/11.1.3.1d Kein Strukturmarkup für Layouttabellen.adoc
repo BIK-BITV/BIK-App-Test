@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Für Layouttabellen darf keine strukturelle Tabellen-Auszeichnung verwendet werden (z. B. Zeilen- und Spaltenüberschriften). 
@@ -10,20 +12,20 @@ Für Layouttabellen darf keine strukturelle Tabellen-Auszeichnung verwendet werd
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn in App-Ansichten Tabellen für das Layout verwendet wird.
+Der Prüfschritt ist anwendbar, wenn in App-Ansichten Tabellen für das Layout verwendet werden.
 
 === 2. Prüfung
 
 . App mit zu prüfender Ansicht starten.
-. Prüfen, ob es Inhalte gibt, die visuell tabellenartig gestaltet sind.
+. Prüfen, ob es Inhalte gibt, die visuell tabellenartig bzw. als Raster gestaltet sind. Android gibt dann "im Raster" und die Anzahl der Zeilen und Spalten aus. Bei gleichartigen Rastern erfgolgt bei iOS in der Regel die Ausgabe.
 . Screenreader starten und mit Hilfe der Wischgeste durch diese Inhalte navigieren.
-. Prüfen ob der Screenreader den Zusatz „Tabelle“ ausgibt. In diesem Fall darf bei einer Überschriftenzelle nicht der Zusatz "Überschrift" ausgegeben werden.
+. Prüfen ob der Screenreader bei reinen Layouttabellen Informationen zur Tabellen- bzw. Rastern ausgibt.
 
 === 3. Bewertung
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
-* Bei Layouttabellen gibt der Screenreader Tabellenstrukturen wie z. B. Überschriften aus.
+* Bei Layouttabellen bzw. Rastern gibt der Screenreader Informationen zur Tabellen- bzw. Rastern ausgibt.
 
 == Einordnung des Prüfschritts
 
