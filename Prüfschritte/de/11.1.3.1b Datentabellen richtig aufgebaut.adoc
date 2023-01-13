@@ -16,7 +16,7 @@ Sehbehinderte und blinde Nutzende erschließen sich Datentabellen analytisch und
 
 Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden sind. Diese sind in nativen Apps eher selten, tauchen aber häufiger in Webviews auf.
 
-Zur Tabellennavigation siehe Abschnitt 3. Hinweise für iOS und Android.
+Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android in Abschnitt 3..
 
 === 2. Prüfung
 
