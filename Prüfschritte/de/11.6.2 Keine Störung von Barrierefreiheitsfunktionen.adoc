@@ -24,8 +24,8 @@ Der Prüfschritt ist immer anwendbar.
 . In den Bedienungshilfen Zoom (iOS) bzw. Vergrößerung (Android) aktivieren. Ist die Nutzung mit den für Zoom bzw. Vergößerung dokumentierten Gesten möglich?
 
 === 3. Hinweise
-Es wird hier nicht geprüft, ob alle Bedienelemente zugänglich bzw. richtig ausgezeichnet sind, sondern nur, ob Barrierefreiheitsfunktionen grundsätzlich ohne Störung zur Verfügung stehen. 
-Mögliche Störungen wären etwa das automatische Abspielen von Audio-Hinweisen, -Sprachausgaben oder -Aufzeichnungen, welche die Ausgabe des Screenreaders überlagert und damit schlecht verständlich macht, oder die Verwendung von Gesten durch der App, die durch Bedienungshilfen eingesetzt werden (etwa die Dreifinger-Doppeltipp-Geste zur Aktivierung des iOS Zooms).
+Es wird hier nicht geprüft, ob alle Bedienelemente zugänglich bzw. richtig ausgezeichnet sind, sondern nur, ob Barrierefreiheitsfunktionen grundsätzlich ohne Störung zur Verfügung stehen. Mögliche Störungen wären etwa das automatische Abspielen von Audio-Hinweisen, -Sprachausgaben oder -Aufzeichnungen, welche die Ausgabe des Screenreaders überlagern und damit schlecht verständlich machen, oder die Verwendung von Gesten in der App, die durch Bedienungshilfen eingesetzt werden (etwa die Dreifinger-Doppeltipp-Geste zur Aktivierung des iOS Zooms).
+
 Die Gesten, die durch Bedienungshilfen genutzt werden, ändern sich ggf. mit neuen Versionen der Betriebssysteme und sind zum Teil auch über Einstellungen in den Betriebssystemen konfigurierbar. Dadurch kann es zu Konflikten kommen, die nicht immer für App-Entwickler voraussehbar sind. Bei der Bewertung von Gestenkonflikten sollte also  die Anpassbarkeit von Gesten sowohl auf Betriebssystemebene als auch auf App-Ebene berücksichtigt werden.
 
 === 4. Bewertung
