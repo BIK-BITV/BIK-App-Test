@@ -6,6 +6,10 @@ include::include/attributes.adoc[]
 
 Wenn die App ein Autorenwerkzeug ist und Umstrukturierungen oder Funktionen zur Umcodierung bietet, dann werden die Informationen zur Zugänglichkeit im umstrukturierten oder umcodierten Zielformat übernommen, soweit gleichwertige Mechanismen für Barrierefreiheits-Informationen bzw. semantische Auszeichnungen im Zielformat möglich sind.
 
+Restrukturierungen sind Transformationen, bei denen die strukturellen Merkmale sich ändern (z.B. Linearisierung von Tabellen, Aufteilen eines Dokuments in Seiten oder wenn einzelne PDF-Dokumente in eine Datei zusammengeführt werden). Der Dokumententyp bzw. die Technologie bleibt gleich.
+
+Umcodierungen sind Transformationen, bei denen die Technologie bzw. der Dokumententyp geändert wird. Dies kann z.B. die Umwandlung eines HTML-Dokuments in ein PDF sein.
+
 == Warum wird das geprüft?
 
 Menschen mit Behinderung benötigen semantische Auszeichnungen (zum Beispiel durch Überschriften oder richtig aufgebaute Datentabellen), um Inhalte effektiv zu nutzen. Werden diese Auszeichnungen bei Transformationen entfernt oder korrumpiert, leidet die Benutzbarkeit der Dokumente.
@@ -15,14 +19,6 @@ Menschen mit Behinderung benötigen semantische Auszeichnungen (zum Beispiel dur
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist und Funktionen für die Umstrukturierung oder Umcodierung von Informationen bietet (etwa den Export von Ansichten oder von Teilen von Ansichten, z.B. in Webviews, als PDF-Datei).
-
-==== 1.1 Restrukturierungen
-
-Restrukturierungen sind Transformationen, bei denen die strukturellen Merkmale sich ändern (z.B. Linearisierung von Tabellen, Aufteilen eines Dokuments in Seiten oder wenn einzelne PDF-Dokumente in eine Datei zusammengeführt werden). Der Dokumententyp bzw. die Technologie bleibt gleich.
-
-==== 1.2 Umcodierungen
-
-Umcodierungen sind Transformationen, bei denen die Technologie bzw. der Dokumententyp geändert wird. Dies kann z.B. die Umwandlung eines HTML-Dokuments in ein PDF sein.
 
 === 2. Prüfung
 
