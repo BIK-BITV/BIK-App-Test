@@ -20,7 +20,7 @@ Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist und Umstruk
 
 Restrukturierungen sind Transformationen, bei denen die strukturellen Merkmale sich ändern (z.B. Linearisierung von Tabellen, Aufteilen eines Dokuments in Seiten oder wenn einzelne PDF-Dokumente in eine Datei zusammengeführt werden). Der Dokumententyp bzw. die Technologie bleibt gleich.
 
-==== 1.2 Rekodierungstransformationen 
+==== 1.2 Umcodierungen
 
 Umcodierungen sind Transformationen, bei denen die Technologie bzw. der Dokumententyp geändert wird. Dies kann z.B. die Umwandlung eines HTML-Dokuments in ein PDF sein.
 
