@@ -20,7 +20,7 @@ Wenn Funktionen der App die Nutzung von Barrierefreiheitsfunktionen stören oder
 Der Prüfschritt ist immer anwendbar.
 
 === 2. Prüfung
-. In den Bedienungshilfen Screenreader aktivieren. Ist die Nutzung mit den dokumentierten Screenreader-Gesten möglich?
+. In den Bedienungshilfen den Screenreader aktivieren. Ist die Nutzung mit den dokumentierten Screenreader-Gesten möglich?
 . In den Bedienungshilfen Zoom (iOS) bzw. Vergrößerung (Android) aktivieren. Ist die Nutzung mit den für Zoom bzw. Vergößerung dokumentierten Gesten möglich?
 
 === 3. Hinweise
