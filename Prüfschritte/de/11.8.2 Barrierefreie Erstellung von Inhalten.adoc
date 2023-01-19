@@ -19,9 +19,8 @@ Nutzer dabei unterstützen.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist.
-Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die
-Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht
+Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist Oder Elemente eines Autorenwerkzeugs integriert (etwa Kommentare).
+Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht
 anwendbar.
 Des Weiteren muss die Ausgabe innerhalb der App dargestellt werden, es können
 lediglich integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden.
