@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 Wenn Autorenwerkzeuge Zielformate erzeugen, etwa Webseiten oder Dokumente, sollen die für die barrierefreie Nutzung notwendigen Informationen vom erzeugten Zielformat unterstützt werden. Genauer beschrieben ist das in den Anforderungen 11.8.2 bis 11.8.5.
-Der klassische Fall wäre die Prüfung eines webbasierten Content Management Systems für die Erstellung von Webseiten. Aber auch Kommentarfunktionen lassen sich als in Apps integriertes Autorenwerkzeug betrachten.
+Der klassische Fall wäre die Prüfung eines webbasierten Content Management Systems für die Erstellung von Webseiten. Aber aucheine Kommentarfunktion lässt sich als ein in die App integriertes Autorenwerkzeug betrachten.
 
 Ein Beispiel: Wenn das Zielformat Überschriften enthält, sollen diese im Autorenwerkzeug auch semantisch definiert werden können (nicht etwa nur durch Festlegung von Schriftgröße, Fettung usw.). 
 
