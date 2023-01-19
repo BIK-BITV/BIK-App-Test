@@ -4,42 +4,41 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Software ein Autorenwerkzeug ist und Umstrukturierungen oder Funktionen zur Neucodierung bietet, dann werden die Informationen zur Zugänglichkeit in der Ausgabe, wenn gleichwertige Mechanismen zur Speicherung der Zugänglichkeitsinformationen im Zieldokumententyp der Ausgabe existieren,
-übernommen.
+Wenn die App ein Autorenwerkzeug ist und Umstrukturierungen oder Funktionen zur Umcodierung bietet, dann werden die Informationen zur Zugänglichkeit im umstrukturierten oder umcodierten Zielformat übernommen, soweit gleichwertige Mechanismen für Barrierefreiheits-Informationen bzw. semantische Auszeichnungen im Zielformat möglich sind.
 
 == Warum wird das geprüft?
 
-Menschen mit Behinderung benötigen semantische Auszeichnungen (zum Beispiel durch Überschriften oder richtig aufgebaute Datentabellen), um Inhalte effektiv zu nutzen. Werden diese Auszeichnungen in Transformationen entfernt oder korrumpiert, leidet die Benutzbarkeit der Dokumente.
+Menschen mit Behinderung benötigen semantische Auszeichnungen (zum Beispiel durch Überschriften oder richtig aufgebaute Datentabellen), um Inhalte effektiv zu nutzen. Werden diese Auszeichnungen bei Transformationen entfernt oder korrumpiert, leidet die Benutzbarkeit der Dokumente.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist und Umstrukturierungen (Restrukturierungstransformationen) oder Funktionen zur Neucodierung bietet.
+Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist und Umstrukturierungen oder Funktionen zur Umcodierung bietet.
 
-==== 1.1 Restrukturierungstransformationen
+==== 1.1 Restrukturierungen
 
-Restrukturierungstransformationen sind Transformationen, bei denen die strukturellen Merkmale sich ändern (z.B. Linearisierung von Tabellen, Aufteilen eines Dokuments in Seiten oder wenn einzelne PDF-Dokumente in eine Datei zusammengeführt werden). Der Dokumententyp bzw. die Technologie bleibt gleich.
+Restrukturierungen sind Transformationen, bei denen die strukturellen Merkmale sich ändern (z.B. Linearisierung von Tabellen, Aufteilen eines Dokuments in Seiten oder wenn einzelne PDF-Dokumente in eine Datei zusammengeführt werden). Der Dokumententyp bzw. die Technologie bleibt gleich.
 
 ==== 1.2 Rekodierungstransformationen 
 
-Rekodierungstransformationen sind Transformationen, bei denen die Technologie bzw. der Dokumententyp geändert wird. Dies könnte z. B. die Umwandlung eines HTML-Dokuments zum PDF sein.
+Umcodierungen sind Transformationen, bei denen die Technologie bzw. der Dokumententyp geändert wird. Dies kann z.B. die Umwandlung eines HTML-Dokuments in ein PDF sein.
 
 === 2. Prüfung
 
-. Beispieldokument im Eingangsformat wählen. Wenn z. B. ein Autorenwerkzeug eine Rekodierungstransformation von HTML nach PDF bietet, wäre das eine HTML-Datei.
-. Beispieldokument in der App öffnen und in das Zielformat bzw. in eine andere Struktur umgewandeln.
-. Zieldatei überprüfen. Je nach Dokumententyp erfordert dies Überprüfungen, die nicht im Rahmen des BITV-Tests selbst vorgenommen werden können. Ein Beispiel wäre die Transformation eines HTML-Dokuments zum PDF-Dokument:
+. Ansicht mit Information im Ausgangsformat öffnen. Wenn z. B. ein Autorenwerkzeug eine Umkodierungs-Transformation von HTML nach PDF bietet, wäre das etwa eine HTML-Datei in einem Webview.
+. Ansicht in das Zielformat umgewandeln.
+. Zielformat überprüfen. Je nach Dokumententyp erfordert dies Überprüfungen, die nicht im Rahmen des BITV-Tests selbst vorgenommen werden können. Ein Beispiel wäre die Transformation eines HTML-Dokuments in ein PDF-Dokument:
 
 * Sind alle Überschriften aus der Quelle übernommen worden?
-* Sind die Alternativtexte der Grafiken in der PDF-Datei enthalten
+* Sind die Alternativtexte der Grafiken in der PDF-Datei enthalten?
 * Wurde die Tabellenauszeichnung korrekt übersetzt?
 
 == 3. Hinweise
 
-Die Schritte müssen für jedes Ein- und Ausgangsformat, das die App für die Transformation unterstützt, wiederholt werden.
+Die Schritte müssen für jedes Ausgang- und Zielformat, das die App für die Transformation unterstützt, wiederholt werden.
 
-Auch wenn die App lediglich die Struktur des Eingangsdokuments verändert, muss sichergestellt werden, dass die Ausgangsdatei noch alle, für die Barrierefreiheit relevanten, Informationen enthält.
+Auch wenn die App lediglich die Struktur der Information im Ausgangsformat verändert, muss sichergestellt werden, dass das Zielformat noch alle für die Barrierefreiheit relevanten Informationen enthält.
 
 Für Hinweise dazu können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
