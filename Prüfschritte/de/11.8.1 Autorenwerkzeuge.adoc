@@ -13,7 +13,7 @@ Ein anderes Beispiel: Wenn im Zielformat Bilder erscheinen, soll das Autorenwerk
 Das Gleiche gilt für andere Arten von Inhalten, wie Listen oder Tabellen. Das Autorensystem soll in der Lage sein, die für die barrierefreie Nutzung wichtigen Informationen in Form von geeigneten semantischen Auszeichnungen (z.B. als HTML-Mark-Up) im Zielformat zu erzeugen.
 
 == Warum wird das geprüft?
-Autorensystem sollen Inhalte in den jeweiligen Zielformaten erzeugen, die barrierefrei zugänglich sind, damit Menschen mit Behinderungen diese einfach nutzen können. Dafür ist die passende semantische Auszeichnung von Inhalten wie Überschriften, Bildern, Tabellen, Listen usw. wichtig.
+Autorensysteme sollen Inhalte in den jeweiligen Zielformaten erzeugen, die barrierefrei zugänglich sind, damit Menschen mit Behinderungen diese einfach nutzen können. Dafür ist die passende semantische Auszeichnung von Inhalten wie Überschriften, Bildern, Tabellen, Listen usw. wichtig.
 
 == Wie wird das geprüft?
 
