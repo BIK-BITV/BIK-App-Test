@@ -5,13 +5,13 @@ include::include/attributes.adoc[]
 *Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
-Barierefreiheitsfunktionen des Betriebssystems wie Screenreader, Zoom, oder Sprachsteuerung sollen nicht durch Funktionen der App gestört werden - es sei denn, Nutzende erwarten oder aktivieren solche App-Funktionen in der Nutzung der App.
+Barierefreiheitsfunktionen des Betriebssystems wie Screenreader, Vergrößerung, oder Sprachsteuerung sollen nicht durch Funktionen der App gestört werden - es sei denn, Nutzende erwarten oder aktivieren solche App-Funktionen in der Nutzung der App.
 
 Ein  positives Beispiel ist eine Scan-App, die bei aktiviertem Screenreader beim Scannen von Dokumenten mit der Kamera über die Sprachausgabe Ausrichtungshinweise gibt. Solange diese App-Funktion aktiv ist, wäre die Screenreader-Ausgabe anderer ggf. auf der gleichen Ansicht verfügbarer Elemente evtl. gestört. Für blinde Nutzer sind solche Ausrichtungshinweise aber als implizit gewünschtes und erwartetes Verhalten zu betrachten. Die Funktion sollte sich jedoch in den App-Einstellungen auch deaktivieren lassen.
 
 Ein weiteres positives Beispiel ist die zwei-Finger-Pinzetten-Geste zum Hinein- und Hinauszoomen, etwa in die Bildvorschau von Kamera-Apps. Wird die Vergrößerung in den Bedienungshilfen aktiviert, ändert die Pinzetten-Geste nicht mehr auf App-Ebene den Zoomfaktor der Kamera (und würde dadurch die Bedienungshilfe aushebeln) sondern vergrößert die gesamte Ansicht einschließlich andere Bedienelemente unterhalb der Bildvorschau. Erst wenn die Bedienungshilfe Vergrößerung (ggf. vorübergehend) deaktiviert wird, ist die gleiche Geste auf App-Ebene, also in der Bildvorschau, wirksam.
 
-Ein hypothetisches negatives Beispiel: Eine App nimmt aufd einer Ansicht automatisch über das Geräte-Mikrophon Ton auf. Die Sprachsteuerung von Bedienelementen auf dieser Ansicht ist dadurch nicht mehr möglich. Würde die Audio-Aufnahme von Nutzenden explizit aktiviert, wäre die Störung der Sprachsteuerungs-Funktion zu akzeptieren. 
+Ein hypothetisches negatives Beispiel: Eine App nimmt nach Aufruf einer Ansicht automatisch über das Mikrophon das Audio-Signal der Umgebung auf. Die Sprachsteuerung von Bedienelementen auf dieser Ansicht ist dadurch nicht mehr möglich. Würde die Audio-Aufnahme von Nutzenden explizit aktiviert, wäre die Störung der Sprachsteuerungs-Funktion zu akzeptieren. 
 
 == Warum wird das geprüft?
 Wenn Funktionen der App die Nutzung von Barrierefreiheitsfunktionen stören oder unmöglich machen, ist eine Nutzung für manche Menschen möglicherweise nicht oder nur schwer möglich.
