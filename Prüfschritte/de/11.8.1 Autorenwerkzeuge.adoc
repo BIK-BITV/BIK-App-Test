@@ -9,9 +9,11 @@ Wenn Autorenwerkzeuge Zielformate erzeugen, etwa Webseiten oder Dokumente, solle
 
 Ein Beispiel eines Autorenwerkzeugs ist eine native App zur Texterstellung und Bearbeitung. Aber auch eine Kommentarfunktion in einer App lässt sich als ein (stark reduzuertes) Autorenwerkzeug betrachten.
 
-Ein Beispiel: Wenn das Zielformat Überschriften enthält, sollen diese im Autorenwerkzeug auch semantisch definiert werden können (nicht etwa nur durch Festlegung von Schriftgröße, Fettung usw.). 
+Es soll möglich sein, im Autorenwerkzeug semantische Auszeichungen für das Zielformat vorzunehmen.
 
-Ein anderes Beispiel: Wenn im Zielformat Bilder erscheinen, soll das Autorenwerkzeug in der Lage sein, bei der Erstellung für diese Alternativtexte zu hinterlegen. 
+* Ein Beispiel: Wenn das Zielformat Überschriften enthält, sollen diese im Autorenwerkzeug auch semantisch definiert werden können (nicht etwa nur durch Festlegung von Schriftgröße, Fettung usw.). 
+
+* Ein anderes Beispiel: Wenn im Zielformat Bilder erscheinen, soll das Autorenwerkzeug in der Lage sein, bei der Erstellung für diese Alternativtexte zu hinterlegen. 
 
 Das Gleiche gilt für andere Arten von Inhalten, wie Listen oder Tabellen. Das Autorensystem soll in der Lage sein, die für die barrierefreie Nutzung wichtigen Informationen in Form von geeigneten semantischen Auszeichnungen (z.B. als HTML-Mark-Up) im Zielformat zu erzeugen.
 
