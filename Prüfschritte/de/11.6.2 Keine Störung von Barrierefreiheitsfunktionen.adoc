@@ -5,7 +5,9 @@ include::include/attributes.adoc[]
 *Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
-Barierefreiheitsfunktionen des Betriebssystems wie Screenreader, Zoom, oder Sprachsteuerung sollen nicht durch Funktionen der App gestört werden - es sei denn, Nutzende aktivieren solche App-Funktionen.
+Barierefreiheitsfunktionen des Betriebssystems wie Screenreader, Zoom, oder Sprachsteuerung sollen nicht durch Funktionen der App gestört werden - es sei denn, Nutzende erwarten oder aktivieren solche App-Funktionen in der Nutzung der App.
+
+Ein mögliches Beispiel wäre eine Scan-App, die bei aktiviertem Screenreader beim Scannen von Dokumenten mit der Kamera über die Sprachausgabe Ausrichtungshinweise gibt. Solange diese App-Funktion aktiv ist, wäre die Screenreader-Ausgabe anderer ggf. auf der gleichen Ansicht verfügbarer Elemente evtl. gestört. Solange auf der Ansicht nichts geschieht, als die Kamera auf das Dokument auszurichten, wären solche Ausrichtungshinweise für blinde Nutzer wohl als implizit gewünschtes Verhalten zu betrachten. Solche Hinweise sollten sich dann jedoch in den Einstellungen auch deaktivieren lassen.
 
 == Warum wird das geprüft?
 Wenn Funktionen der App die Nutzung von Barrierefreiheitsfunktionen stören oder unmöglich machen, ist eine Nutzung nicht oder nur schwer möglich.
