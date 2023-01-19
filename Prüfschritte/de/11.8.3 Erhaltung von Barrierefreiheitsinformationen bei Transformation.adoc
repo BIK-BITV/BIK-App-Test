@@ -30,11 +30,11 @@ Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist und Funktio
 * Sind die Alternativtexte der Grafiken in der PDF-Datei enthalten?
 * Wurde die Tabellenauszeichnung korrekt übersetzt?
 
+Die Prüfung muss für jedes Ausgang- und Zielformat, das die App für die Transformation unterstützt, wiederholt werden.
+
 == 3. Hinweise
 
-Die Schritte müssen für jedes Ausgang- und Zielformat, das die App für die Transformation unterstützt, wiederholt werden.
-
-Auch wenn die App lediglich die Struktur der Information im Ausgangsformat verändert, muss sichergestellt werden, dass das Zielformat noch alle für die Barrierefreiheit relevanten Informationen enthält.
+Auch wenn die App lediglich die Struktur der Information im Ausgangsformat verändert, muss sichergestellt werden, dass das Zielformat noch die für die Barrierefreiheit relevanten Informationen enthält. Wenn z.B. eine einfache Datentabelle zu einer Liste umstrukturiert wird, wäre im Zielformat zwar keine Tabellenauszeichnung mehr vorhanden, wohl aber eine Listenauszeichnung, in der ggf. die ursprünglichen Spaltenüberschriften in den Listenelementen verfügbar sind, wenn sie für das Verständnis erforderlich sind.
 
 Für Hinweise dazu können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
