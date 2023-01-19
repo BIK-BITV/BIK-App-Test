@@ -3,14 +3,20 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+Barierefreiheitsfunktionen des Betriebssystems wie Screenreader, Zoom, oder Sprachsteuerung sollen nicht durch Funktionen der App gestört werden - es sei denn, Nutzende aktivieren diese ausdrücklich.
 
 == Warum wird das geprüft?
+Wenn Funktionen der App die Nutzung von Barrierefreiheitsfunktionen stören oder unmöglich machen, ist eine Nutzung nicht oder nur schwer möglich.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist immer anwendbar.
 
 === 2. Prüfung
+. App mit eingeschaltetem Screenreader  nutzen. 
+. Gibt es irgendwelche Funktionen der App, die die Verwendugn des Screenreaders behindern?
+
 
 === 3. Hinweise
 
