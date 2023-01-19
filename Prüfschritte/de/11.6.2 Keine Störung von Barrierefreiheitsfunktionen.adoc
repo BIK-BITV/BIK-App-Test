@@ -7,9 +7,9 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 Barierefreiheitsfunktionen des Betriebssystems wie Screenreader, Zoom, oder Sprachsteuerung sollen nicht durch Funktionen der App gestört werden - es sei denn, Nutzende erwarten oder aktivieren solche App-Funktionen in der Nutzung der App.
 
-Ein  positives Beispiel ist eine Scan-App, die bei aktiviertem Screenreader beim Scannen von Dokumenten mit der Kamera über die Sprachausgabe Ausrichtungshinweise gibt. Solange diese App-Funktion aktiv ist, wäre die Screenreader-Ausgabe anderer auf der gleichen Ansicht verfügbarer Elemente dann evtl. gestört. Für blinde Nutzer wären solche Ausrichtungshinweise wohl als implizit gewünschtes Verhalten zu betrachten. Sie sollten sich dann jedoch in den Einstellungen auch deaktivieren lassen.
+Ein  positives Beispiel ist eine Scan-App, die bei aktiviertem Screenreader beim Scannen von Dokumenten mit der Kamera über die Sprachausgabe Ausrichtungshinweise gibt. Solange diese App-Funktion aktiv ist, wäre die Screenreader-Ausgabe anderer ggf. auf der gleichen Ansicht verfügbarer Elemente evtl. gestört. Für blinde Nutzer sind solche Ausrichtungshinweise aber als implizit gewünschtes und erwartetes Verhalten zu betrachten. Die Funktion sollte sich jedoch in den App-Einstellungen auch deaktivieren lassen.
 
-Ein weiteres positives Beispiel ist der Pinzetten-Geste zum Hinein- und Hinauszoomen, etwa in die Bildvorschau Kamera-Apps. Wird die Vergrößerungsfunktion aktiert, verändert die Pinzetten-Geste nicht den Zoomfaktor der Kamera (und würde dadurch die Bedienungshilfe stören) sondern vergößert die gesamte Ansicht einschließlich andere Bedienelemente unterhalb der Bildvorschau. Erst wenn die Bedienungshilfe Vergrößerung (ggf. vorübergehend) deaktiviert wird, ist die gleiche Geste auf App-Ebene, also in der Bildvorschau, wirksam.
+Ein weiteres positives Beispiel ist der Pinzetten-Geste zum Hinein- und Hinauszoomen, etwa in die Bildvorschau von Kamera-Apps. Wird die Vergrößerung in den Bedienungshilfen aktiviert, verändert die Pinzetten-Geste nicht mehr den Zoomfaktor der Kamera (und würde dadurch die Bedienungshilfe aushebeln) sondern vergößert die gesamte Ansicht einschließlich andere Bedienelemente unterhalb der Bildvorschau. Erst wenn die Bedienungshilfe Vergrößerung (ggf. vorübergehend) deaktiviert wird, ist die gleiche Geste auf App-Ebene, also in der Bildvorschau, wirksam.
 
 == Warum wird das geprüft?
 Wenn Funktionen der App die Nutzung von Barrierefreiheitsfunktionen stören oder unmöglich machen, ist eine Nutzung nicht oder nur schwer möglich.
@@ -25,7 +25,8 @@ Der Prüfschritt ist immer anwendbar.
 
 === 3. Hinweise
 Es wird hier nicht geprüft, ob alle Bedienelemente zugänglich bzw. richtig ausgezeichnet sind, sondern ob Barrierefreiheitsfunktionen grundsätzlich ohne Störung zur Verfügung stehen. 
-Mögliche Störungen wären etwa das automatische Abspielen von Audio, das die Ausgabe des Screenreaders überlagert und damit schlecht verständlich macht, oder die Verwendung von Gesten durch der App, die für die Aktivierung der Barrierefreiheitsfunktion eingesetzt werden (etwa die Dreifinger-Doppeltipp-Geste zur Aktivierung des iOS Zooms).
+Mögliche Störungen wären etwa das automatische Abspielen von Audio-Hinweisen, -Sprachausgaben oder -Aufzeichnungen, welche die Ausgabe des Screenreaders überlagert und damit schlecht verständlich macht, oder die Verwendung von Gesten durch der App, die durch Bedienungshilfen eingesetzt werden (etwa die Dreifinger-Doppeltipp-Geste zur Aktivierung des iOS Zooms).
+Die Gesten, die durch Bedienungshilfen genutzt werden, ändern sich ggf. mit neuen Versionen der Betriebssysteme und sind zum Teil auch über Einstellungen in den Betriebssystemen konfigurierbar. Dadurch kann es zu Konflikten kommen, die nicht immer für App-Entwickler voraussehbar sind. Bei der Bewertung von Gestenkonflikten sollte also  die Anpassbarkeit von Gesten sowohl auf Betriebssystemebene als auch auf App-Ebene berücksichtigt werden.
 
 === 4. Bewertung
 
