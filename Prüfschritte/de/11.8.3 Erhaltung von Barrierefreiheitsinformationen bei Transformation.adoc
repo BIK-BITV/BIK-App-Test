@@ -14,7 +14,7 @@ Menschen mit Behinderung benötigen semantische Auszeichnungen (zum Beispiel dur
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist und Umstrukturierungen oder Funktionen zur Umcodierung bietet (etwa den Export von Informationen als PDF-Datei).
+Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist und Funktionen für die Umstrukturierung oder Umcodierung von Informationen bietet (etwa den Export von Ansichten oder von Teilen von Ansichten, z.B. in Webviews, als PDF-Datei).
 
 ==== 1.1 Restrukturierungen
 
