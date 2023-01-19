@@ -18,7 +18,7 @@ Autorensysteme sollen Inhalte in den jeweiligen Zielformaten erzeugen, die barri
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist anwendbar, wenn die App (oder eine Teil) ein Autorenwerkzeug ist oder Elemente eines Autorenwerkzeugs integriert und das Zielformat sselbst in der App selbst darin angezeigt wird bzw. aufrufbar ist (auch etwa als HTML-Datei innerhalb eines Webviews). Für andere Zielformate wie PDF mss ggf. eine getrennte Prüfung vorgenommen werden.
+Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist oder Elemente eines Autorenwerkzeugs integriert und das Zielformat sselbst in der App selbst darin angezeigt wird bzw. aufrufbar ist (auch etwa als HTML-Datei innerhalb eines Webviews). Für andere Zielformate wie PDF mss ggf. eine getrennte Prüfung vorgenommen werden.
 
 === 2. Prüfung
 . Vom Autorenwerkzeug generiertes Zielformat überprüfen. 
