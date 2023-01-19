@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 Wenn Autorenwerkzeuge Zielformate erzeugen, etwa Webseiten oder Dokumente, sollen die für die barrierefreie Nutzung notwendigen Informationen vom erzeugten Zielformat unterstützt werden. Genauer beschrieben ist das in den Anforderungen 11.8.2 bis 11.8.5.
 Der klassische Fall wäre die Prüfung eines webbasierten Content Management Systems für die Erstellung von Webseiten. 
 
-Zum Beispiel: Wenn das Zielformat zum Beispiel Überschriften aufweist, sollen diese im Autorenwerkzeug auch semantisch definiert werden können. 
+Ein Beispiel: Wenn das Zielformat Überschriften enthält, sollen diese im Autorenwerkzeug auch semantisch definiert werden können. 
 
 Ein anderes Beispiel: Wenn im Zielformat Bilder erscheinen, soll das Autorenwerkzeug in der Lage sein, bei der Erstellung für diese Alternativtexte zu hinterlegen. 
 
