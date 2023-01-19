@@ -9,6 +9,7 @@ include::include/attributes.adoc[]
 Wenn App Teil eines Autorenwerkzeugs und bietet Funktionen zur Erkennung von Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten, dann sollen Vorschläge zur Behebung dieser Fehler verfügbar sein.
 
 == Warum wird das geprüft?
+Autorensysteme sollen Inhalte in den jeweiligen Zielformaten erzeugen, die barrierefrei zugänglich sind, damit Menschen mit Behinderungen diese einfach nutzen können. Dafür ist die passende semantische Auszeichnung von Inhalten wie Überschriften, Bildern, Tabellen, Listen usw. wichtig.
 
 == Wie wird geprüft?
 
