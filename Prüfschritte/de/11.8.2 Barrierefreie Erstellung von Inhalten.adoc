@@ -10,6 +10,9 @@ Wenn es sich bei der zu testenden Software um ein Autorenwerkzeug handelt, soll
 die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und den
 Nutzer dabei unterstützen.
 
+== Warum wird das geprüft?
+Autorensysteme sollen Inhalte in den jeweiligen Zielformaten erzeugen, die barrierefrei zugänglich sind, damit Menschen mit Behinderungen diese einfach nutzen können. Dafür ist die passende semantische Auszeichnung von Inhalten wie Überschriften, Bildern, Tabellen, Listen usw. wichtig.
+
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
