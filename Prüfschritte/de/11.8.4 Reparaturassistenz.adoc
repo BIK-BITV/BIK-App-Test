@@ -2,9 +2,13 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
-Wenn die Ansicht der App Teil eines Autorenwerkzeugs und bietet Funktionen zur Erkennung von Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten, dann sollen Vorschläge zur Behebung dieser Fehler verfügbar sein.
+Wenn App Teil eines Autorenwerkzeugs und bietet Funktionen zur Erkennung von Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten, dann sollen Vorschläge zur Behebung dieser Fehler verfügbar sein.
+
+== Warum wird das geprüft?
 
 == Wie wird geprüft?
 
