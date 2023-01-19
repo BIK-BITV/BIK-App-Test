@@ -19,11 +19,11 @@ Nutzer dabei unterstützen.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist Oder Elemente eines Autorenwerkzeugs integriert (etwa Kommentare).
-Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht
-anwendbar.
-Des Weiteren muss die Ausgabe innerhalb der App dargestellt werden, es können lediglich integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden.
-Für externe Zielformate, etwa PDF, muss ggf. eine getrennte Prüfung vorgenommen werden.
+Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist oder Elemente eines Autorenwerkzeugs integriert und das Zielformat in der App selbst  angezeigt wird bzw. darin aufrufbar ist (auch etwa als HTML-Datei innerhalb eines Webviews). 
+
+Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht anwendbar. Für externe Zielformate, etwa PDF, muss ggf. eine getrennte Prüfung vorgenommen werden.
+
+Umfangreiche Textverarbeitungen, die Dokumente erzeugen und anzeigen, welche auch außerhalb der App geladen werden können, sind ggf. im App-Test allein nicht bzw. nicht ausreichend prüfbar, da nicht alle semantischen Auszeichnungen in der App-Umgebung überprüft werden können.
 
 === Prüfung
 
