@@ -1,4 +1,4 @@
-= 11.5.2.5 Programmatisch ermittelbare UI-Elemente
+= 11.5.2.5 Programmatisch ermittelbare Bedienelemente
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
