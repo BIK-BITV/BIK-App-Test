@@ -7,27 +7,27 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Die Eigenschaften von Bedienelementen der App sollen programmatisch ermittelbar sein.
-Dann können die zum Beispiel druch einen Screenreader sinnvoll ausgegeben werden.
+Dann können die zum Beispiel von einen Screenreader sinnvoll ausgegeben werden.
 
 Im Einzelnen sollen die folgenden Eigenschaften programmatisch ermittelbar sein:
 
 * *Name (name)* des Bedienelements: Dies kann die Beschriftung sein z.B. "Senden", "Bestellen", Sortieren" usw. Bei Icons (Menü mit Hamburger-Icon, Suchen-Lupe, Filter-Symbol usw.) soll der Name die Funktion bezeichen, also "Menü", "Suchen", "Filtern"
 * *Rolle (role)* des Bedienelements: Diese gibt den Typ des Bedienelements, z. B. "Taste" (iOS) bzw. Schaltfläche" (Android) oder "Textfeld" (iOS) bzw. "Bearbeitungsfeld" (Android)
-* *Zustand (state)* des Bedienelements: Zum Beispiel "aktiviert"/"nicht aktiviert", "ein"/"aus", ausgewählt / nicht ausgewählt, "67 Prozent"
-* *Grenzen (boundary)* bzw. der Werte eines Bedienelements, z. B. "Prozent" (n von 100) oder Preisspanne 300 - 500
+* *Zustand (state)* oder Wert des Bedienelements: Zum Beispiel "aktiviert"/"nicht aktiviert", "ein"/"aus", ausgewählt / nicht ausgewählt, "67 Prozent"
+* *Grenzen (boundary)* der Werte eines Bedienelements, z. B. "Prozent" (n von 100) oder Preisspanne 300 - 500
 * *Beschreibung (description)* des Bedienelements: Dies kann eine zusätzliche Beschreibung des Elements sein
 
-Insbesondere der Status und die Bedienelement-Grenzen (Boundarys) sollten nur dann vermittelt werden, wenn diese auch visuell durch das Bedienelement vermittelt werden
+Insbesondere der Status und die Bedienelement-Grenzen (boundaries) sollten nur dann vermittelt werden, wenn diese auch visuell durch das Bedienelement vermittelt werden
 
 == Warum wird das geprüft?
 
-Von UI-Elementen visuell vermittelte Informationen sollen auch programmatisch verfügbar sein, damit Hilfsmittelsoftware, wie Screenreader, die Informationen aufbereiten und ausgeben können.
+Von Bedienelementen visuell vermittelte Informationen sollen auch programmatisch verfügbar sein, damit Hilfsmittel wie Screenreader die Informationen ausgeben können.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn in der App-Ansicht Bedienelemente eingesetzt werden, die nicht vom Betriebssystem bereitgestellt werden (Custom controls, vom Programmhersteller definierte Bedienelemente).
+Der Prüfschritt ist anwendbar, wenn in der App-Ansicht Bedienelemente eingesetzt werden, die nicht vom Betriebssystem bereitgestellt werden (Custom controls, von Entwicklern definierte Bedienelemente).
 Eine Sichtprüfung reicht dabei nicht aus, da rein visuell nicht mit Sicherheit festgestellt werden kann, ob es sich um ein Custom Control handelt.
 
 === 2. Prüfung
