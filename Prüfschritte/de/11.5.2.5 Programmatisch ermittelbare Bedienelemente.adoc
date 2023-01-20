@@ -37,7 +37,7 @@ ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
 <<11.4.1.2 Name-Rolle-Wert verfügbar.adoc#,11.4.1.2 Name, Rolle, Wert verfügbar>>
 endif::env_embedded[]
-geprüft. Jener Prüfschritt ist weiter gefasst, denn dort wird explizit verlangt, dass durch Nutzereingaben oder programmatisch *geänderte* Werte den Hilfsmitteln zur Verfügung stehen. Wenn also bei der Prüfung in 11.4.1.2 bei Bedienelementen Auszeichnungsmängel negativ bewertet werden, wird die Bewertung in diesen Prüfschritt übertragen. 
+geprüft. Jener Prüfschritt ist weiter gefasst, denn dort wird auch verlangt, dass durch Nutzereingaben oder programmatisch *geänderte* Werte den Hilfsmitteln zur Verfügung stehen. Wenn also bei der Prüfung in 11.4.1.2 bei Bedienelementen Auszeichnungsmängel negativ bewertet werden, wird die Bewertung in diesen Prüfschritt übertragen. 
 
 Die hier über Name Rolle und Wert hinaus genannten Wertgrenzen werden bezüglich ihrer programmatischen Verfügbarkeit explizit in Prüfschritt 11.5.2.7 "Minimale und maximale Werte programmatisch ermittelbar" geprüft.
 
