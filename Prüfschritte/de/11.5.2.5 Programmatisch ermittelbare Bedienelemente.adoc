@@ -32,7 +32,7 @@ Eine Sichtprüfung reicht dabei nicht aus, da rein visuell nicht mit Sicherheit 
 
 === 2. Prüfung
 
-Die Anforderung wird durch den Prüfschritt
+Die Anforderung wird bereits durch den Prüfschritt
 ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
 <<11.4.1.2 Name-Rolle-Wert verfügbar.adoc#,11.4.1.2 Name, Rolle, Wert verfügbar>>
