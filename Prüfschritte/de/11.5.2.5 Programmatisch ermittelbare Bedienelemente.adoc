@@ -37,9 +37,7 @@ ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
 <<11.4.1.2 Name-Rolle-Wert verfügbar.adoc#,11.4.1.2 Name, Rolle, Wert verfügbar>>
 endif::env_embedded[]
-abgedeckt.
-Dabei müssen Grenzen von Bedienelementen berücksichtigt werden (z. B. Wertebereich eines Eingabefelds).
-Diese Begrenzungen müssen ebenfalls programmatisch verfügbar sein und dementsprechend vom Screenreader vorgelesen werden.
+geprüft. Wenn bei Bedienelementen Auszeichnungsmängel negativ bewertet werden, wird die Bewertung in diesen Prüfschritt übertragen.
 
 == Einordnung des Prüfschritts
 
