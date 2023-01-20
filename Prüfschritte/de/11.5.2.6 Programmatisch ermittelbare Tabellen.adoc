@@ -30,7 +30,7 @@ Die Prüfung erfolgt in Prüfschritt
 ifdef::env_embedded[11.1.3.1b "Datentabellen richtig aufgebaut"]
 ifndef::env_embedded[]
 <<11.1.3.1b Datentabellen richtig aufgebaut.adoc#,11.1.3.1b Datentabellen richtig aufgebaut>>
-endif::env_embedded[].
+endif::env_embedded[]
 Ergebnisse werden in diesen Prüfschritt übertragen.
 
 == Einordnung des Prüfschritts
