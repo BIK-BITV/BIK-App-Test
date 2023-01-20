@@ -37,7 +37,7 @@ ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
 <<11.4.1.2 Name-Rolle-Wert verfügbar.adoc#,11.4.1.2 Name, Rolle, Wert verfügbar>>
 endif::env_embedded[]
-geprüft. Wenn bei Bedienelementen Auszeichnungsmängel negativ bewertet werden, wird die Bewertung in diesen Prüfschritt übertragen.
+geprüft. 11.4.1.2 ist weiter gefasst, denn hier wird explizit verlangt, dass geänderte Werte Hilfsmitteln zur Verfügung stehen. Wenn also bei der Prüfung in 11.4.1.2 bei Bedienelementen Auszeichnungsmängel negativ bewertet werden, wird die Bewertung in diesen Prüfschritt übertragen.
 
 == Einordnung des Prüfschritts
 
