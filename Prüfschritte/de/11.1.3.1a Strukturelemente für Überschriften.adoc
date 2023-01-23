@@ -20,7 +20,7 @@ So können Benutzer die Überschriften-Elemente anwenden:
 
 * Orientierung in umfangreicheren Ansichten
 * Von Überschrift zu Überschrift springen (Screenreader-Nutzende)
-* Weitere Anpassungen sind denkbar, z.B. könnten Screenreader zukünftig Überschriften mit einer anderen Stimme vorlesen, um diese als solche hervorzuheben.
+* Weitere Anpassungen sind denkbar, z.B. könnten Screenreader zukünftig Überschriften mit einer anderen Stimme oder Stimmhöhe vorlesen, um diese als solche hervorzuheben.
 
 == Wie wird geprüft?
 
