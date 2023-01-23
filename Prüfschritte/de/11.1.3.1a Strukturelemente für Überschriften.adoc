@@ -37,7 +37,7 @@ Der Prüfschritt ist anwendbar, wenn es in der App Inhalte gibt, die durch visue
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf Überschriften setzen.
 . Prüfen, ob Inhalte visuell als Überschriften zu erkennen sind und zur Strukturierung eingesetzt werden. 
 . Prüfen, ob diese Überschriften ausgezeichnet sind. 
-. Die Navigationseinstellung des Screenreaders auf "Überschriften" setzen. Anschließend durch all Überschriften der Ansicht navigieren und die Ausgabe des Screenreaders prüfen. 
+. Die Navigationseinstellung des Screenreaders auf "Überschriften" setzen. Anschließend durch alle Überschriften der Ansicht navigieren und die Ausgabe des Screenreaders prüfen. 
 . Der Screenreader gibt eine korrekt ausgezeichnete Überschrift mit dem Wort "Überschrift" aus. 
 . Prüfen, ob die Überschriftensauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich erfolgt.
 
