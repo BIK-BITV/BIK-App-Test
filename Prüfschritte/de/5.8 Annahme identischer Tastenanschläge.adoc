@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 Die die erneute Aktivierung einer Taste auf der Tastatur, die das jeweilige Zeichen wiederholen würde, soll so konfigurierbar sein, dass die wiederholter Eingabe der Taste der zeotraum, in dem diese Eingabe nicht angenommen wird auf mindestens 0,5 Sekunden eingestellt werden kann. Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten.
 
