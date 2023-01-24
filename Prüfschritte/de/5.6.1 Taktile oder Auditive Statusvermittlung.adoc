@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 Wenn es in der App visuell wahrnehmbare Umschalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, etwa einen Schalter zum Feststellen der Bildschirm-Ausrichtung, müssen diese Schalter taktil oder akustisch wahrnehmbar sein. Taktile Wahrnehmung kann etwa über eine Braille-Zeile, akustische Wahrnehmung über einen Screenreader erfolgen. Grundlegend für beides ist die programmatische Ermittelbarkeit des Status.
 
