@@ -10,7 +10,7 @@ Für die Nutzung der App soll es einen Modus der Bedienung geben, der für die B
 Beispiele für simultane Aktionen:
 
 * das gleichzeitige Drücken zweier Tasten auf der Tastatur 
-* das Halten eines Bedienelements auf einem Touchscreen, während ein weiteres Bedienelement über Touch aktiviert wird.
+* das Halten eines Bedienelements auf einem Touchscreen, während ein weiteres Bedienelement über Touch bedient wird.
 
 Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 
