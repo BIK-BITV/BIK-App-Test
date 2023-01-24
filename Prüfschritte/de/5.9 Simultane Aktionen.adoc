@@ -11,6 +11,7 @@ Beispiele für simultane Aktionen:
 
 * das gleichzeitige Drücken zweier Tasten auf der Tastatur 
 * das Halten eines Bedienelements auf einem Touchscreen, während ein weiteres Bedienelement über Touch bedient wird.
+* Das Halten einer Gerätetaste, während eine Spracheingabe erfolgt.
 
 Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 
