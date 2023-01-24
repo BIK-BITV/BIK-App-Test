@@ -3,6 +3,20 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+Für die Nutzung der App soll es einen Modus der Bedienung geben, der keine gleichzeitigen Aktivitäten von Nutzenden für die Bedienung verlangt. Beispiele:
+
+* das gleichzeitige Drücken zweier Tasten auf der Tastatur 
+* das Halten eines Bedienelements auf einem Tochscreen, während ein weiteres Bedienelement aktiviert wird.
+
+
+
+Die Situation ist unterscheidlich für verschieden Eingabemodi:
+
+* *Tastaturbedienung:* iOS hat unter Einstellungen > Bedienungshilfen > Tastaturen > Einfingerbedienung die Einstellungsmöglichkeit, simultane Tasteneingaben so aufzulösen, dass Sondertasten gesetzt werden können, ohne gleichzeitig andere Tassten gedrückt halten zu müssen. In manchen Umgebungen (Android mit Tastatur) gibt es zur Zeit keine Einfingerbedienung. Die Konfigurationsmöglichkeiten für Einfingerbedienung haben Entwickler keinen Einfluss.
+
+* *Touchbedienung:* Das gleichzeitige Eingabe über mehrere Berührungspunkte wird unter 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" geprüft - für Mehrfinger-Gesten muss es Einfinger-bedienbare Eingaben geben.
+
+* *Mausbedienung und andere Zeigereingaben:* Hier gibt es nur einen Cursor (es sei denn bei Multi-User Schnittstellen, die für diese auf Einzelnutzende ausgerichteten Anforderungen nicht in Betracht kommen). Auf die Konfiguration einer Maus mit mehreren Tasten haben Entwickler keinen Einfluss.
 
 == Warum wird das geprüft?
 
