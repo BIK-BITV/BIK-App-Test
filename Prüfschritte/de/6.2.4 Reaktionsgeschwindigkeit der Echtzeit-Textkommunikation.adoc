@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die App Echtzeit-Textkommunikation (RTT, Real-Time Text) unterstützt und Texteingaben entgegennimmt, soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden. Es geht hier also um Systeme, die eingegebene Zeichen unmittelbar nach der Eingabe an den Empfänger weiterleiten. Die Nachricht muss nicht erst wie in den meisten Chat-Systemen nach Eingabe abgeschickt werden, sondern erscheint unmittelbar.
@@ -37,11 +39,13 @@ Die reine Übertragungszeit kann z. B. mit einem "`Ping`" gemessen werden.
 
 Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann, können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue eröffnen].
 
-== Quellen
+== Einordnung des Prüfschritts
+
+===Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.4 RTT responsiveness
-
+==== 6.2.4 RTT responsiveness
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT utilises RTT input, that RTT input shall be transmitted to the ICT
@@ -68,5 +72,4 @@ characters are generated more slowly than 1 per 500 ms.
 NOTE 3:
 A delay of 300 ms, or less, produces a better impression of flow to the user.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.4 "RTT responsiveness")
+____
