@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die App eine Funktion zur Echtzeit Textkommunikation (RTT, Real-Time Text) anbietet, soll die Sende- und Empfangsrichtung programmatisch ermittelbar sein. Das bedeutet konkret, dass Hilfsmittel-Nutzende beim Lesen der Text-Kommunikation die selbst gesendeten Texte von empfangenen Texten unterscheiden können.
@@ -50,11 +52,13 @@ Die Eingaben des Nutzers selbst snd von empfangenen Echtzeit-Texteingaben andere
 
 Es gibt beim Lesen der Echtzeit-Texteingaben einer Kommunikation keine Möglichkeit, programmatisch zwischen eigenen und fremden Eingaben zu unterscheiden.
 
-== Quellen
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.2.2 Programmatically determinable send and receive direction
-
+==== 6.2.2.2 Programmatically determinable send and receive direction
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT has RTT send and receive capabilities, the send/receive direction of
@@ -65,6 +69,5 @@ NOTE:
 This enables screen readers to distinguish between incoming text and outgoing
 text when used with RTT functionality.
 --
+____
 
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.2.2 "Programmatically determinable send
-and receive direction")
