@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Informative Grafiken und Bilder müssen Textalternativen haben. Die Textalternativen ersetzen das Bild, sie sollen (soweit wie möglich) die gleiche Information vermitteln wie das Bild.
@@ -91,44 +93,6 @@ Erforderlich ist also die wechselnde Betrachtung von Grafik/Objekt und zugehöri
 
 == Einordnung des Prüfschritts
 
-=== Abgrenzung zu anderen Prüfkriterien
-
-* Textalternative für verlinkte Grafiken (z.B. Bedienelemente oder 
-  Teaser-Bilder)
-  werden in Prüfschritt
-ifdef::env_embedded[11.1.1.1a "Textalternativen für Bedienelemente"]
-ifndef::env_embedded[]
-  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Textalternativen
-  für Bedienelemente>>
-endif::env_embedded[]
-  geprüft.
-
-* Einfache Animationen oder Videos ohne synchronisierungsbedürftige Tonspur
-  werden in Prüfschritt
-ifdef::env_embedded[11.1.2.1a "Alternativen für Audiodateien und stumme Videos"]
-ifndef::env_embedded[]
-  <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,11.1.2.1
-  Alternativen für Audiodateien und stumme Videos>>
-endif::env_embedded[]
-  geprüft.
-
-* Layout-Grafiken oder dekorative Grafiken werden in
-  Prüfschritt
-ifdef::env_embedded[11.1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
-ifndef::env_embedded[]
-  <<11.1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,11.1.1.1c Leere
-  alt-Attribute für Layout-Grafiken>>
-endif::env_embedded[]
-  geprüft.
-
-* CAPTCHAs werden in Prüfschritt
-ifdef::env_embedded[11.1.1.1d "Alternativen für CAPTCHAs"]
-ifndef::env_embedded[]
-  <<11.1.1.1d Alternativen für CAPTCHAs.adoc#,11.1.1.1d Alternativen für
-  CAPTCHAs>>
-endif::env_embedded[]
-  geprüft.
-
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
@@ -184,6 +148,44 @@ elements, and input elements of type 'image']
   Criterion 1.1.1 and 1.2.1 due to providing long description for non-text content
   that does not serve the same purpose or does not present the same information]
 
+=== Abgrenzung zu anderen Prüfkriterien
+
+* Textalternative für verlinkte Grafiken (z.B. Bedienelemente oder 
+  Teaser-Bilder)
+  werden in Prüfschritt
+ifdef::env_embedded[11.1.1.1a "Textalternativen für Bedienelemente"]
+ifndef::env_embedded[]
+  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Textalternativen
+  für Bedienelemente>>
+endif::env_embedded[]
+  geprüft.
+
+* Einfache Animationen oder Videos ohne synchronisierungsbedürftige Tonspur
+  werden in Prüfschritt
+ifdef::env_embedded[11.1.2.1a "Alternativen für Audiodateien und stumme Videos"]
+ifndef::env_embedded[]
+  <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,11.1.2.1
+  Alternativen für Audiodateien und stumme Videos>>
+endif::env_embedded[]
+  geprüft.
+
+* Layout-Grafiken oder dekorative Grafiken werden in
+  Prüfschritt
+ifdef::env_embedded[11.1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
+ifndef::env_embedded[]
+  <<11.1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,11.1.1.1c Leere
+  alt-Attribute für Layout-Grafiken>>
+endif::env_embedded[]
+  geprüft.
+
+* CAPTCHAs werden in Prüfschritt
+ifdef::env_embedded[11.1.1.1d "Alternativen für CAPTCHAs"]
+ifndef::env_embedded[]
+  <<11.1.1.1d Alternativen für CAPTCHAs.adoc#,11.1.1.1d Alternativen für
+  CAPTCHAs>>
+endif::env_embedded[]
+  geprüft.
+  
 == Quellen
 
 === Alternativtexte sollen denselben Zweck erfüllen wie das Bild
