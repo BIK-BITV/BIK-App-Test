@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die App Videotelefonie unterstützt, soll die Zeitdifferenz zwischen Audio und Video nicht mehr als 100 Millisekunden betragen.
@@ -36,11 +38,14 @@ Um ein belastbares Ergebnis zu erzielen, sollte die Testübertragung wiederholt 
 
 
 Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der Zeitdifferenz, können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zu diesem Prüfschritt eröffnen.
-== Quellen
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
-=== 6.5.4 Synchronization between audio and video
-
+==== 6.5.4 Synchronization between audio and video
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT that provides two-way voice communication includes real-time video
@@ -51,6 +56,6 @@ NOTE:
 Recent research shows that, if audio leads the video, the intelligibility
 suffers much more than the reverse.
 --
-
+____
 (Aus EN 301 549 V3.1.1 Abschnitt 6.5.4 "Synchronization between audio and
 video")
