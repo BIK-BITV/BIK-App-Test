@@ -37,7 +37,7 @@ Der Prüfschritt ist zurzeit nicht anwendbar.
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.
 
 [.BLOCK_LANG_EN]
-=== 5.7 Key repeat
+==== 5.7 Key repeat
 ____
 [.BLOCK_LANG_EN]
 --
