@@ -6,11 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die App Funktionen für die Barrierefreiheit bereithält, die
-spezielle Bedürfnisse von Nutzernenden füllt, soll die Aktivierung dieser
-Funktionen für diese Nutzergruppe barrierefrei möglich sein.
-Das bedeutet, dass die Barrierefreiheitsfunktion für die Nutzergruppe, die
-sie unterstützen soll, selbstständig  aktivierbar sein soll.
+Wenn die App Funktionen für die Barrierefreiheit bereithält, die spezielle Bedürfnisse von Nutzenden erfüllt, soll die Aktivierung dieser Funktionen für diese Nutzergruppe barrierefrei möglich sein. Das bedeutet, dass die Barrierefreiheitsfunktion für die Nutzergruppe, die sie unterstützen soll, selbstständig aktivierbar sein soll.
 
 Beispiele für Barrierefreiheitsfunktionen:
 
@@ -18,11 +14,11 @@ Beispiele für Barrierefreiheitsfunktionen:
 * Kontrasterhöhung, abweichende Farbschemata
 * Anpassung der Schriftgröße, Schriftformatierungen (z. B. Zeilenabstand, Schriftart usw.)
 * Versionen in Leichter Sprache oder Deutscher Gebärdensprache
-* Einstellungen zum Deaktivieren automatischen Abspielens be Animationen, Videos oder Audio
+* Einstellungen zum Deaktivieren automatischen Abspielens bei Animationen, Videos oder Audio
 
 == Warum wird das geprüft?
 
-Barrierefreiheitsfunktionen, die von der zu testenden App, (also nicht vom Betriebssystem) bereitgestellt werden, sollen von ihrer potentiellen Nutzerschaft selbstständig aktivierbar sein.
+Barrierefreiheitsfunktionen, die von der App (also nicht vom Betriebssystem) bereitgestellt werden, sollen von Nutzenden selbstständig aktivierbar sein.
 
 Wenn die App beispielsweise eine Funktion zur Verfügung stellt, mit derer die Kontrastverhältnisse innerhalb der App verbessert werden, müssen sämtliche Bedienelemente, die zur Aktivierung der Funktion bedient werden müssen, auch in der Standardansicht ein ausreichendes Kontrastverhältnis aufweisen. Damit wird sichergestellt, dass auch Nutzende, die mit kontrastarmen Inhalten und Bedienelementen Schwierigkeiten haben (also zur Zielgruppe der Barrierefreiheitsfunktion gehören), die Funktion zur Kontrasterhöhung selbstständig aktivieren können.
 
@@ -35,8 +31,7 @@ Der Prüfschritt ist anwendbar, wenn die zu prüfende App spezielle Barrierefrei
 === 2. Prüfung
 
 . Zu prüfende Ansicht der App öffnen
-. Einstellungen der App aufrufen und auch dort nach entsprechenden
-  Funktionen suchen
+. Einstellungen der App aufrufen und auch dort nach entsprechenden Funktionen suchen
 . Falls Barrierefreiheitsfunktionen angeboten werden:
   * Ist die Barrierefreiheits-Funktion für die Zielgruppe identifizierbar?
   * Ist die Barrierefreiheits-Funktion für die Zielgruppe selbstständig aktivierbar?
@@ -45,7 +40,7 @@ Der Prüfschritt ist anwendbar, wenn die zu prüfende App spezielle Barrierefrei
 
 ==== 3.1 Hinweis zur Bestimmung der Zielgruppe der Barrierefreiheits-Funktion
 
-Viele Menschen mit Behinderung nutzen verschieden Eingabemöglichkeiten. Menschen mit kognitiven Einschränkungen haben zum Teil auch andere Einschränkungen. Bei der Bestimmung der Zielgruppe ist es deshalb wichtig, auch Anforderungen zu berücksichtigen, die nicht direkt mit der Einschränkung zu tun haben, für die die Barrierefreiheits-Funktion gedacht ist.
+Viele Menschen mit Behinderung nutzen verschiedene Eingabemöglichkeiten. Menschen mit kognitiven Einschränkungen haben zum Teil auch weitere Einschränkungen, sehbehinderte Nutzende nutzen oft zusätzlich Screenreader. Bei der Bestimmung der Zielgruppe ist es deshalb wichtig, auch Anforderungen zu berücksichtigen, die nicht in erster Linie mit der Einschränkung zu tun haben, für die die Barrierefreiheits-Funktion gedacht ist. So sollten Elemente zur Aktivierung von Barrierefreiheitsfunktionen generell alle Anforderungen der Barrierefreiheit erfüllen.
 
 ==== 3.2 Hinweis zur Identifizierbarkeit und Aktivierbarkeit
 
@@ -69,17 +64,14 @@ Bedienelemente der Barrierefreiheitsfunktion oder die Funktion selbst verstoßen
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-5.2 "Activation of accessibility features"
-
-== Quellen
-
 [.BLOCK_LANG_EN]
 === 5.2 Activation of accessibility features
+
+____ 
 
 [.BLOCK_LANG_EN]
 Where ICT has documented accessibility features, it shall be possible to
 activate those documented accessibility 
 features that are required to meet a specific need without relying on a method
 that does not support that need.
-
-(Aus EN 301 549 V3.1.1 Abschnitt 5.2)
+____
