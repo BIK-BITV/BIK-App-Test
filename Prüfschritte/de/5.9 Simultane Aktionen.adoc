@@ -13,7 +13,7 @@ Beispiele für simultane Aktionen:
 * das Halten eines Bedienelements auf einem Touchscreen, während ein weiteres Bedienelement über Touch bedient wird.
 * Das Halten einer Gerätetaste, während eine Spracheingabe erfolgt.
 
-Notwendige simultane Aktionen bei der Bedienung der App in einem bestimmten Modus sind kein Fehler im Sinne dieses Prüfschritts, solange es einen anderen Bedienungsmodus gibt, der die Bedienung ohne simulatane Aktioen erlaubt. Dies ist bei der Vielzahl der Eingabemöglichkeiten und Kombinationen unter diesen nur schwer vollständig zu prüfen.
+Notwendige simultane Aktionen bei der Bedienung der App in einem bestimmten Modus sind kein Fehler im Sinne dieses Prüfschritts, solange es einen anderen Bedienungsmodus gibt, der die Bedienung ohne simulatane Aktionen erlaubt. Dies ist bei der Vielzahl der Eingabemöglichkeiten und Kombinationen unter diesen nur schwer vollständig zu prüfen.
 
 Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 
