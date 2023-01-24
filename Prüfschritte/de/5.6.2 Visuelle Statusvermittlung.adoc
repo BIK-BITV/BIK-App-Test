@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 Wenn es in der App Umschalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, müssen diese Schalter auch visuell wahrnehmbar sein.
 
@@ -55,4 +57,3 @@ An example of a locking or toggle control is the "Caps Lock" key found on most k
 --
 ____
 
-(Aus EN 301 549 V3.2.1 Abschnitt 5.6.2 Visual status)
