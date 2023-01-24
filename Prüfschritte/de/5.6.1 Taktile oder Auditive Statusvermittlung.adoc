@@ -40,11 +40,12 @@ App-Entwickler haben auf die genutzten physischen Geräte und Peripherie-Geräte
 === Zur Abgrenzung zu virtuellen Tastaturen 
 Die Feststelltasten bei virtuellen Tastaturen geben ihren Feststell-Status oft nur einmalig bei Aktivierung des Feststellmodus aus: so bei den Android-Tastaturen GBoard und SwiftKey. Bei der iOS-Tastatur wird der Feststell-Modus aktivierungsunabhängig bei Fokussierung ausgegeben. Da App-Entwickler keinen Einfluss auf installierte Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
 
+== Einordnung des Prüfschritts
+
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
-=== 5.6.1 Tactile or auditory status
-
+==== 5.6.1 Tactile or auditory status
 ____
 [.BLOCK_LANG_EN]
 --
