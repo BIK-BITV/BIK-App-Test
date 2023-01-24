@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die App Dokumente in andere Formate konvertiert, sollen vorhandene Barrierefreiheits-Informationen im Zielformat übernommen werden, wenn das Zielformat diese Informationen grundsätzlich unterstützt.
@@ -47,18 +49,13 @@ Grundsätzlich vom Zielformat unterstützte Barrierefreiheits-Informationen des 
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-5.4 Preservation of accessibility information during conversion
-
-== Quellen
-
 [.BLOCK_LANG_EN]
 === 5.4 Preservation of accessibility information during conversion
+____
 
 [.BLOCK_LANG_EN]
 Where ICT converts information or communication it shall preserve all
 documented non-proprietary information that is provided for accessibility, to
 the extent that such information can be contained in or supported by the
 destination format.
-
-(Aus EN 301 549 V3.1.1 Abschnitt 5.4 "Preservation of accessibility
-information")
+____
