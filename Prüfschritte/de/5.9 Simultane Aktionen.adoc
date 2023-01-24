@@ -28,14 +28,14 @@ Menschen mit motorischen Einschränkungen haben oft Probleme, mehrere Aktionen z
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist immer anwendbar, das Egebnis ist aber ggf. aus Prüfschritt 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" übertragen.
+Der Prüfschritt ist immer anwendbar, wenn die Accessibility Baseline Umgebungen einschließt, die bei Tastaturnutzung keine Einfingerbedienung anbietet (z.B. Android). Das Ergebnis ist ggf. aus Prüfschritt 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" übertragen.
 
-Bezüglich Tastasturbedienung wir dieser Prüfschritt nicht geprüft, da Einstellungsmöglichkeiten der Einfingerbedienung Aufgabe des Betriebssystems sind und nicht auf der Ebene der App implementiert werden sollten.
+Bezüglich Tastasturbedienung wir dieser Prüfschritt nicht geprüft, da Einstellungsmöglichkeiten der Einfingerbedienung Aufgabe des Betriebssystems sind und nicht auf der Ebene der App implementiert werden sollten. Lücken in der Unterstützung sind als Mangel der Betriebssytemumgebung zu bewerten, die App-Entwickler nicht kompensieren können.
 
 === 2. Prüfung
-Wenn die Accessibility Baseline Umgebungen einschließt, die bei Tastaturnutzung keine Einfingerbedienung anbietet:
+Wenn die Accessibility Baseline Umgebungen einschließt, die bei Tastaturnutzung keine Einfingerbedienung anbietet (Android):
 
-. Bezüglich der Prüfung von Aktionen bei der Toucheingabe wird das Ergebnis von 11.2.5.1 hierhin übertragen, wenn es Fehler bei der Nutzung von Mehrfingergesten gibt.
+. Bezüglich der Prüfung von Aktionen bei der Toucheingabe wird das Ergebnis von 11.2.5.1 hierhin übertragen, wenn es Fehler durch den Einsatz von Mehrfingergesten ohne Einfiger-bedienbare Alternativen gibt.
 . Bedienung mit Toucheingabe überprüfen. Sind alle Funktionen mit Einfinger-Gesten aktivierbar, ohne das gleichzeitig Gerätetasten gedrückt oder das Gerät bewegt bzw. ausgerichtet werden muss?
 
 === 3. Hinweise
