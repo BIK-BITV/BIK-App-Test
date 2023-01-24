@@ -41,7 +41,7 @@ Für Hinweise, wie dies zuverlässig in der Praxis gemessen werden kann, können
 
 == Einordnung des Prüfschritts
 
-===Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
 ==== 6.2.4 RTT responsiveness
