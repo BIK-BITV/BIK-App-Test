@@ -23,7 +23,7 @@ Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 * *Sprachsteuerung:* Diese funktioniert in der Regel ohne simultane physische Eingaben.
 
 == Warum wird das geprüft?
-Menschen mit motorischen Einschränkungen haben oft Probleme, mehrere Aktionen zur gleichen Zeit auszuführen. Deshalb sollten alle Funktionen über einfache Eingaben möglich sein.
+Menschen mit motorischen Einschränkungen haben oft Probleme, mehrere Aktionen zur gleichen Zeit auszuführen. Deshalb sollten alle Funktionen über einfache Eingaben (ohne simultane Aktionen) möglich sein.
 
 == Wie wird das geprüft?
 
