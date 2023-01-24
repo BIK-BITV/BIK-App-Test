@@ -21,7 +21,7 @@ Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 
 * *Touchbedienung:* Das gleichzeitige Eingabe über mehrere Berührungspunkte wird unter 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" geprüft - für Mehrfinger-Gesten muss es alternativ Einfinger-bedienbare Eingaben geben.
 
-* *Mausbedienung und andere Zeigereingaben:* Hier gibt es nur einen Cursor (es sei denn bei Multi-User Schnittstellen, die für diese auf Einzelnutzende ausgerichteten Anforderungen nicht in Betracht kommen). Problematisch wären bei Mausbedienung ggf. Eingaben mit simultan gedrückten Tasten der Tastatur, ohne das Alternativen ohne simultane Aktionen bzw. Bedienung nur über die Tastatur verfügbar wären.
+* *Mausbedienung und andere Zeigereingaben:* Hier gibt es nur einen Cursor (es sei denn bei Multi-User Schnittstellen, die für diese auf Einzelnutzende ausgerichteten Anforderungen nicht in Betracht kommen). Problematisch wären bei Mausbedienung ggf. Zeiger-Eingaben mit simultan gedrückten Tasten der Tastatur, ohne dass Alternativen ohne simultane Aktionen bzw. die Bedienung nur über die Tastatur verfügbar wären.
 
 * *Sprachsteuerung:* Diese funktioniert in der Regel ohne simultane physische Eingaben.
 
