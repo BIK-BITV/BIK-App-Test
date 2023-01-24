@@ -8,6 +8,10 @@ include::include/attributes.adoc[]
 
 Apps mit Videotelefonie-Funktion sollen mindestens die QVGA-Auflösung für die Videoübertragung unterstützen. Üblicherweise entspricht dies 320 x 240 Pixel. Bei anderen Seitenverhältnissen müssen entsprechend 76.800 Bildpunkte geboten werden.
 
+== Warum wird das geprüft?
+
+Bei zu geringer Auflösung sind wichtige Informationen, z.B. auch Untertitel, schlechter erkennbar.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
