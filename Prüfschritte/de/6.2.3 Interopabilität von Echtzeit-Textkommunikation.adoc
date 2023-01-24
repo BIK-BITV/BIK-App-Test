@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Apps, die (meist zusätzlich zur Sprach-Kommunikation) die Echtzeit-Textkommunikation (RTT, Real-Time Text) mit anderen Anwendungen erlauben, sollen Interoperabilität, also die jeweils relevanten technischen ITU-, IETF-, oder ETSI-Standards für Echtzeit Text-Kommunikation unterstützen.
@@ -36,13 +38,13 @@ EN 301 549 V3.1.1 nennt folgende je nach technischer Umsetzung anwendbare Standa
 
 * Wenn andere Kommunikationsmethoden verwendet werden: Gemeinsame, relevante und veröffentlichte Standards werden unterstützt. Dabei unterstützt der gemeinsame Standard die Anzeige von verlorenen und fehlerhaft übertragenen Zeichen.
 
+== Einordnung des Prüfschritts
 
-
-== Quellen
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
-=== 6.2.3 Interoperability
-
+==== 6.2.3 Interoperability
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT with RTT functionality interoperates with other ICT with RTT
@@ -88,5 +90,4 @@ proprietary or non-proprietary, if the conferencing system also offers
 telephony communication it will also need to support options a or b to ensure
 that RTT is supported over the telephony connection.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.3 "Interoperability")
+____
