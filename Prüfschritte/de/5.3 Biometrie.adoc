@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die App biometrische Merkmale (z.B. Fingerabdruck, Gesichtserkennung, Spracherkennung) für die Nutzeridentifizierung oder die Steuerung nutzt, soll diese sich nicht nur auf ein biometrisches Merkmal beschränken.
@@ -45,12 +47,9 @@ Nutzeridentifizierung oder Steuerung sind nur über ein biometrisches Merkmal m�
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-5.3 Biometrics
-
-== Quellen
-
 [.BLOCK_LANG_EN]
 === 5.3 Biometrics
+____
 
 [.BLOCK_LANG_EN]
 --
@@ -69,5 +68,4 @@ specified biological characteristics.
 Examples of dissimilar biological characteristics are fingerprints, eye
 retinal patterns, voice, and face.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 5.3 "Biometrics")
+____
