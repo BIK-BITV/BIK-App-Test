@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Sind Videos mit synchroner Bild- und Tonspur vorhanden, ist gewährleistet, dass der Videoplayer Untertitel und Ton synchron darstellt.
@@ -41,6 +43,23 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 == Einordnung des Prüfschritts
 
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+[.BLOCK_LANG_EN]
+==== 7.1.2 Captioning synchronization
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT displays captions, the mechanism to display captions shall preserve
+synchronization between the audio and the corresponding captions as follows: 
+
+* Captions in recorded material:
+  within 100 ms of the time stamp of the caption 
+* Live captions:
+  within 100 ms of the availability of the caption to the player.
+--
+____
+
 === Abgrenzung zu anderen Prüfschritten
 
 Inhalte, Qualität und Angemessenheit der Untertitel werden in Prüfschritt
@@ -53,25 +72,3 @@ In diesem Prüfschritt wird geprüft, ob der eingebundene Player grundsätzlich 
 
 Die Prüfung, ob der Player oder die Untertitel-Datei Ursache von nicht-synchronen Untertiteln ist, kann derzeit nicht erfolgen.
 Werden Untertitel nicht synchron dargestellt, erfolgt in beiden Prüfschritten eine negative Bewertung mit dem Hinweis auf eine unklare Ursache.
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-7.1.2 Captioning synchronization
-
-== Quellen
-
-[.BLOCK_LANG_EN]
-=== Captioning synchronization
-
-[.BLOCK_LANG_EN]
---
-Where ICT displays captions, the mechanism to display captions shall preserve
-synchronization between the audio and the corresponding captions as follows: 
-
-* Captions in recorded material:
-  within 100 ms of the time stamp of the caption 
-* Live captions:
-  within 100 ms of the availability of the caption to the player.
---
-
-(Aus EN 301 549 V3.1.1 Abschnitt 7.1.2 "Captioning synchronization")
