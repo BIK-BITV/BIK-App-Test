@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die App Telekommunikationsfunktionen mit Anrufidentifizierung bietet, soll die Identifizierung (auch) in Textform verfügbar und programmatisch
@@ -33,15 +35,16 @@ Für die Prüfung muss die App gegebenenfalls auf zwei Geräten installiert werd
 . Prüfen, wie der Anruf visuell signalisiert bzw. angezeigt wird. Die Anzeige muss den Anrufer in irgendeinerweise in Textform identifizieren, z. B. über
   die Telefonnummer, Name etc.
 
-== Quellen
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
-=== 6.3 Caller ID
-
+==== 6.3 Caller ID
+____
 [.BLOCK_LANG_EN]
 Where ICT provides caller identification or similar telecommunications
 functions, the caller identification and similar telecommunications functions
 shall be available in text form as well as being programmatically
 determinable, unless the functionality is closed.
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.3 "Caller ID")
+____
