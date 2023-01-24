@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die App Echtzeit-Textkommunikation (RTT, Real-time Text) unterstützt und aktive Sprechende über Sprache identifiziert, sollen auch Sprechende, die Echtzeit-Texteingaben nutzen, gleichermaßen identifizierbar sein.
@@ -30,19 +32,13 @@ Bei diesem Test muss eine Video- und Sprachverbindung mit mehreren Teilnehmenden
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-6.2.2 Display of RTT
-
-
-== Quellen
-
-=== EN 301 549 V.3.2.1
-
 [.BLOCK_LANG_EN]
 ==== 6.2.2.3 Speaker identification
-
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT has RTT capabilities, and provides speaker identification for voice, the ICT shall provide speaker identification for RTT.
 
 NOTE: This is necessary to enable both voice and RTT participants to know who is currently communicating, whether it be in RTT or voice.
 --
+____
