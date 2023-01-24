@@ -44,7 +44,6 @@ Kriterium
 
 [.BLOCK_LANG_EN]
 === 5.7 Key repeat
-
 ____
 [.BLOCK_LANG_EN]
 --
@@ -55,5 +54,3 @@ a) the delay before the key repeat shall be adjustable to at least 2 seconds; an
 b) the key repeat rate shall be adjustable down to one character per 2 seconds.
 --
 ____
-
-(Aus EN 301 549 V3.2.1 Abschnitt 5.7 Key repeat)
