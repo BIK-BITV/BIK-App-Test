@@ -18,9 +18,9 @@ Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 
 * *Touchbedienung:* Das gleichzeitige Eingabe über mehrere Berührungspunkte wird unter 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" geprüft - für Mehrfinger-Gesten muss es alternativ Einfinger-bedienbare Eingaben geben.
 
-* *Mausbedienung und andere Zeigereingaben:* Hier gibt es nur einen Cursor (es sei denn bei Multi-User Schnittstellen, die für diese auf Einzelnutzende ausgerichteten Anforderungen nicht in Betracht kommen). Auf die Konfiguration einer Maus mit mehreren Tasten haben Entwickler keinen Einfluss.
+* *Mausbedienung und andere Zeigereingaben:* Hier gibt es nur einen Cursor (es sei denn bei Multi-User Schnittstellen, die für diese auf Einzelnutzende ausgerichteten Anforderungen nicht in Betracht kommen). Problematisch wären bei Mausbedienung ggf. Eingaben mit simultan gedrückten Tasten der Tastatur, ohne das Alternativen ohne simultane Aktionen bzw. Bedienung nur über die Tastatur verfügbar wären.
 
-* *Sprachsteuerung:* Diese funktioniert in der Regel ohne physische Eingaben.
+* *Sprachsteuerung:* Diese funktioniert in der Regel ohne simultane physische Eingaben.
 
 == Warum wird das geprüft?
 Menschen mit motorischen Einschränkungen haben oft Probleme, mehrere Aktionen zur gleichen Zeit auszuführen. Deshalb sollten alle Funktionen über einfache Eingaben möglich sein.
@@ -39,12 +39,12 @@ Wenn die Accessibility Baseline Umgebungen einschließt, die bei Tastaturnutzung
 . Bedienung mit Toucheingabe überprüfen. Sind alle Funktionen mit Einfinger-Gesten aktivierbar, ohne das gleichzeitig Gerätetasten gedrückt oder das Gerät bewegt bzw. ausgerichtet werden muss?
 
 === 3. Hinweise
-ggf. sind außer dem gleichzeitigen Drücken von Gerätetasten oder der Ausrichtuing des Geräts andere hier nicht nährer spezifizierte Aktionen denkbar, die für die erfolgreiche Bedienuung simultan ausgeführt werden, etwa die Auswertung von Gesten über dem Gerät, der Auswertung des Kamera-Bildes, wofür das Gerät gehalten bzw. bewegt werden müsste, usw.
+Ggf. sind bei Touchbedienung außer dem gleichzeitigen Drücken von Gerätetasten oder der Ausrichtuing des Geräts andere, hier nicht nährer spezifizierte Aktionen denkbar, die für die erfolgreiche Bedienuung simultan ausgeführt werden müssten, etwa die Auswertung von Gesten über dem Gerät, der Auswertung des Kamera-Bildes, wofür das Gerät gehalten bzw. bewegt werden müsste, usw.
 
 === 4. Bewertung
 
 ==== Erfüllt:
-Wenn die Accessibility Baseline Umgebungen einschließt, die bei Tastaturnutzung keine Einfingerbedienung anbietet, müssen alle Funktionen der App über Einfinger-Gesten aktivierbar sein.
+Wenn die Accessibility Baseline Umgebungen einschließt, die bei Tastaturnutzung keine Einfingerbedienung anbieten, sind bei Touchbedienung alle Funktionen der App über Einfinger-Gesten aktivierbar.
 
 == Einordnung des Prüfschritts
 
