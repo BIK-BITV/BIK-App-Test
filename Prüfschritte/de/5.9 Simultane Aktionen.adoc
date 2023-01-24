@@ -20,7 +20,7 @@ Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 
 * *Mausbedienung und andere Zeigereingaben:* Hier gibt es nur einen Cursor (es sei denn bei Multi-User Schnittstellen, die für diese auf Einzelnutzende ausgerichteten Anforderungen nicht in Betracht kommen). Auf die Konfiguration einer Maus mit mehreren Tasten haben Entwickler keinen Einfluss.
 
-* *Sprachsteuerung:* Diese funkioniert in der Regel ohne physische Eingaben.
+* *Sprachsteuerung:* Diese funktioniert in der Regel ohne physische Eingaben.
 
 == Warum wird das geprüft?
 Menschen mit motorischen Einschränkungen haben oft Probleme, mehrere Aktionen zur gleichen Zeit auszuführen. Deshalb sollten alle Funktionen über einfache Eingaben möglich sein.
