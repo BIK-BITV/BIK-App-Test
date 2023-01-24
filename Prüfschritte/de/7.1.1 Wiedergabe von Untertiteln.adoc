@@ -69,8 +69,11 @@ Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen,
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 ____
+
 [.BLOCK_LANG_EN]
-=== 7.1.1 Captioning playback
+
+==== 7.1.1 Captioning playback
+
 [.BLOCK_LANG_EN]
 --
 Where ICT displays video with synchronized audio, it shall have a mode of
