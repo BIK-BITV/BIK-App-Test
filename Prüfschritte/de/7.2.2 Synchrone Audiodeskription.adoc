@@ -40,6 +40,17 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 == Einordnung des Prüfschritts
 
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+[.BLOCK_LANG_EN]
+==== 7.2.2 Audio description synchronization
+____
+[.BLOCK_LANG_EN]
+Where ICT has a mechanism to play audio description, it shall preserve the
+synchronization between the audio/visual content and the corresponding audio
+description.
+____
+
 === Abgrenzung zu anderen Prüfschritten
 
 In diesem Prüfschritt wird geprüft, ob der Videoplayer Audiodeskription synchron anzeigt.
@@ -51,14 +62,3 @@ endif::env_embedded[]
 erfolgt hingegen die inhaltliche Prüfung der Audiodeskription.
 Die Prüfung, ob der Player oder die Umsetzung der Audiodeskription fehlerhaft ist, kann derzeit nicht erfolgen.
 Wird Audiodeskription nicht synchron dargestellt, erfolgt in beiden Prüfschritten eine negative Bewertung mit dem Hinweis auf eine unklare Ursache.
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-[.BLOCK_LANG_EN]
-==== 7.2.2 Audio description synchronization
-____
-[.BLOCK_LANG_EN]
-Where ICT has a mechanism to play audio description, it shall preserve the
-synchronization between the audio/visual content and the corresponding audio
-description.
-____
