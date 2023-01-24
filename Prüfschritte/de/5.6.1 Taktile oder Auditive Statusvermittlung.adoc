@@ -40,10 +40,6 @@ Die Feststelltasten bei virtuellen Tastaturen geben ihren Feststell-Status oft n
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-Kriterium
-
-== Quellen
-
 [.BLOCK_LANG_EN]
 === 5.6.1 Tactile or auditory status
 
@@ -60,3 +56,6 @@ An example of a locking or toggle control is the "Caps Lock" key found on most k
 --
 ____
 
+== Quellen
+
+* https://labs.etsi.org/rep/HF/en301549/-/issues/49[5.6.1 and 5.6.1 applicable to on-screen graphic controls?]
