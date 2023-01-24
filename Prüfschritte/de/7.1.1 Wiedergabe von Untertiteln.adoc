@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden dynamisch zuschaltbare, textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden.
@@ -63,15 +65,12 @@ Es geht darum, dass der Autor bei der Erstellung der Untertitel sicherstellen mu
 
 Anforderungen der Video-Bedienelemente bezüglich Kontrast, zugänglichem Namen, Tastaturbedienbarkeit, Fokushervorhebung usw. werden in den entsprechenden Prüfschritten geprüft.
 
+== Einordnung des Prüfschritts
+
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-7.1.1 Captioning playback
-
-== Quellen
-
+____
 [.BLOCK_LANG_EN]
 === 7.1.1 Captioning playback
-
 [.BLOCK_LANG_EN]
 --
 Where ICT displays video with synchronized audio, it shall have a mode of
@@ -90,5 +89,4 @@ NOTE 2:
 If a Braille device is connected, the ICT should provide an option to display
 captions on the Braille device.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 7.1.1 "Captioning playback")
+____
