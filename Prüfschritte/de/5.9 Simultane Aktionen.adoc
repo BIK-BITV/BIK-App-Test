@@ -13,6 +13,8 @@ Beispiele für simultane Aktionen:
 * das Halten eines Bedienelements auf einem Touchscreen, während ein weiteres Bedienelement über Touch bedient wird.
 * Das Halten einer Gerätetaste, während eine Spracheingabe erfolgt.
 
+Notwendige simultane Aktionen bei der bedienung in einem Modus sind kein Fehler im Sinne dieses Prüfschritts, solange es einen anderen Bedienungsmodus gibt, der die bedienung ohne simulatane Aktioben anbietet. Dies ist bei der Vielzahl der Eingabemöglichkeiten und Kombinationen unter diesen nur schwer vollständig zu prüfen.
+
 Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 
 * *Tastaturbedienung:* iOS hat unter Einstellungen > Bedienungshilfen > Tastaturen > Einfingerbedienung die Möglichkeit, simultane Tasteneingaben so aufzulösen, dass Sondertasten gesetzt werden können, ohne gleichzeitig andere Tasten gedrückt halten zu müssen ("sticky keys"). In manchen Umgebungen (Android mit Tastatur) ist zur Zeit keine Einfingerbedienung einstellbar. Auf die Einstellungsmöglichkeiten für Einfingerbedienung haben Entwickler keinen Einfluss.
