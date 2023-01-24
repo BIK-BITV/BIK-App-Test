@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die App Videos mit Audiodeskription überträgt, konvertiert oder aufnimmt, bleibt die Audiodeskription nach dem Vorgang erhalten.
@@ -47,6 +49,17 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 == Einordnung des Prüfschritts
 
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+
+[.BLOCK_LANG_EN]
+==== 7.2.3 Preservation of audio description
+____
+[.BLOCK_LANG_EN]
+Where ICT transmits, converts, or records video with synchronized audio, it
+shall preserve audio description data such that it can be played in a manner
+consistent with clauses 7.2.1 and 7.2.2.
+____
+
 === Abgrenzung zu anderen Prüfschritten
 
 In diesem Prüfschritt wird geprüft, ob es durch die Übertragung, Konvertierung oder Aufnahme zu Problemen hinsichtlich der Ausgabe oder Synchronität von Audiodeskription kommt.
@@ -61,19 +74,3 @@ ifndef::env_embedded[]
 <<7.2.2 Synchrone Audiodeskription.adoc#,7.2.2 Synchrone Audiodeskription>>
 endif::env_embedded[]
 geht es hingegen um Videos, die in der App bereits vorhanden sind. 
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-7.2.3 Preservation of audio description
-
-== Quellen
-
-[.BLOCK_LANG_EN]
-=== 7.2.3 Preservation of audio description
-
-[.BLOCK_LANG_EN]
-Where ICT transmits, converts, or records video with synchronized audio, it
-shall preserve audio description data such that it can be played in a manner
-consistent with clauses 7.2.1 and 7.2.2.
-
-(Aus EN 301 549 V3.1.1 Abschnitt 7.2.3 "Preservation of audio description")
