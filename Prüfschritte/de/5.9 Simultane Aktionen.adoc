@@ -14,7 +14,7 @@ Beispiele für simultane Aktionen:
 
 Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 
-* *Tastaturbedienung:* iOS hat unter Einstellungen > Bedienungshilfen > Tastaturen > Einfingerbedienung die Möglichkeit, simultane Tasteneingaben so aufzulösen, dass Sondertasten gesetzt werden können, ohne gleichzeitig andere Tasten gedrückt halten zu müssen ("sticky keys"). In manchen Umgebungen (Android mit Tastatur) ist zur Zeit keine Einfingerbedienung einstellbar. Die Konfigurationsmöglichkeiten für Einfingerbedienung haben Entwickler keinen Einfluss.
+* *Tastaturbedienung:* iOS hat unter Einstellungen > Bedienungshilfen > Tastaturen > Einfingerbedienung die Möglichkeit, simultane Tasteneingaben so aufzulösen, dass Sondertasten gesetzt werden können, ohne gleichzeitig andere Tasten gedrückt halten zu müssen ("sticky keys"). In manchen Umgebungen (Android mit Tastatur) ist zur Zeit keine Einfingerbedienung einstellbar. Auf die Einstellungsmöglichkeiten für Einfingerbedienung haben Entwickler keinen Einfluss.
 
 * *Touchbedienung:* Das gleichzeitige Eingabe über mehrere Berührungspunkte wird unter 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" geprüft - für Mehrfinger-Gesten muss es Einfinger-bedienbare Eingaben geben.
 
