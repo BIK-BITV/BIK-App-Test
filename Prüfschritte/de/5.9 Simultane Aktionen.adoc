@@ -10,13 +10,15 @@ Für die Nutzung der App soll es einen Modus der Bedienung geben, der keine glei
 
 
 
-Die Situation ist unterscheidlich für verschieden Eingabemodi:
+Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 
 * *Tastaturbedienung:* iOS hat unter Einstellungen > Bedienungshilfen > Tastaturen > Einfingerbedienung die Einstellungsmöglichkeit, simultane Tasteneingaben so aufzulösen, dass Sondertasten gesetzt werden können, ohne gleichzeitig andere Tassten gedrückt halten zu müssen. In manchen Umgebungen (Android mit Tastatur) gibt es zur Zeit keine Einfingerbedienung. Die Konfigurationsmöglichkeiten für Einfingerbedienung haben Entwickler keinen Einfluss.
 
 * *Touchbedienung:* Das gleichzeitige Eingabe über mehrere Berührungspunkte wird unter 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" geprüft - für Mehrfinger-Gesten muss es Einfinger-bedienbare Eingaben geben.
 
 * *Mausbedienung und andere Zeigereingaben:* Hier gibt es nur einen Cursor (es sei denn bei Multi-User Schnittstellen, die für diese auf Einzelnutzende ausgerichteten Anforderungen nicht in Betracht kommen). Auf die Konfiguration einer Maus mit mehreren Tasten haben Entwickler keinen Einfluss.
+
+* *Sprachsteuerung:* Diese funkioniert in der Regel ohne physische Eingaben.
 
 == Warum wird das geprüft?
 
