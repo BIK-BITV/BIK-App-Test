@@ -33,13 +33,9 @@ Der Prüfschritt ist anwendbar, wenn die App Zwei-Wege-Kommunikation und zusätz
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-6.2.1.2 Concurrent voice and text
-
-== Quellen
-
 [.BLOCK_LANG_EN]
-=== 6.2.1.2 Concurrent voice and text
-
+==== 6.2.1.2 Concurrent voice and text
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT provides a means for two-way voice communication and for users to
@@ -79,5 +75,4 @@ communication without the other and are sold as a unit for the voice
 communication function, the local and server-side components are considered a
 single product.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.1.2 "Concurrent voice and text")
+____
