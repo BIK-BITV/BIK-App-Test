@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Ermöglicht die App Zwei-Wege-Kommunikation (eine Sprechverbindung in beide Richtungen, z.B. Sprach- und Videotelefonie), muss es ebenfalls Textkommunikation in Echtzeit (RTT, Real-Time Text) zur Verfügung stellen. Echtzeit bedeutet hier, dass schon die Eingabe einzelner Zeichen übertragen und dem Empfänger angezeigt wird. Die Nutzenden müssen den eingegebenen Text nicht erst aktiv abschicken.
@@ -29,13 +31,9 @@ Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empf
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-6.2.1.1 RTT communication
-
-== Quellen
-
 [.BLOCK_LANG_EN]
-=== 6.2.1.1 RTT communication
-
+==== 6.2.1.1 RTT communication
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT is in a mode that provides a means for two-way voice communication,
@@ -57,5 +55,4 @@ NOTE 3:
 For the purposes of interoperability, support of Recommendation ITU-T T.140
 [i.36] is widely used.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 6.2.1.1 "RTT communication")
+____
