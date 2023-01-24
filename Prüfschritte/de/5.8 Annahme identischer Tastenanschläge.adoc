@@ -3,8 +3,6 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
-
-== Was wird geprüft?
 Die die erneute Aktivierung einer Taste auf der Tastatur, die das jeweilige Zeichen wiederholen würde, soll so konfigurierbar sein, dass die wiederholter Eingabe der Taste der zeotraum, in dem diese Eingabe nicht angenommen wird auf mindestens 0,5 Sekunden eingestellt werden kann. Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten.
 
 Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) unter iOS und Android erfolgt keine Tastenwiederholung. Der Prüfschritt wäre für eine Accessibility Baseline, die Apps nur mit Toucheingabe (ohne Anschluss externer Tastaturen) betrachten wollte, also ohnehin erfüllt. Unter iOS und iPadOS (iPad mit Magic Keyboard) gibt es eine Einstellungsmöglichkeit unter Bedienungshilfen / Tastaturen / Tastenverzögerung, die sich jedoch nicht speziell auf die versehentlich wiederholte Aktivierung der gleichen Taste bezieht.
