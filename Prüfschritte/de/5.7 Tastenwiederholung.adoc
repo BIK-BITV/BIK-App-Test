@@ -34,13 +34,7 @@ Der Prüfschritt ist zurzeit nicht anwendbar.
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-Kriterium
-
-== Quellen
-
-* Android App offering key repeat settings: https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelper&pli=1[External Keyboard Helper Pro]
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.
 
 [.BLOCK_LANG_EN]
 === 5.7 Key repeat
@@ -54,3 +48,7 @@ a) the delay before the key repeat shall be adjustable to at least 2 seconds; an
 b) the key repeat rate shall be adjustable down to one character per 2 seconds.
 --
 ____
+
+== Quellen
+
+* Android App offering key repeat settings: https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelper&pli=1[External Keyboard Helper Pro]
