@@ -42,7 +42,7 @@ Wenn die Accessibility Baseline Umgebungen einschließt, die bei Tastaturnutzung
 . Bedienung mit Toucheingabe überprüfen. Sind alle Funktionen mit Einfinger-Gesten aktivierbar, ohne das gleichzeitig Gerätetasten gedrückt oder das Gerät bewegt bzw. ausgerichtet werden muss?
 
 === 3. Hinweise
-Ggf. sind bei Touchbedienung außer dem gleichzeitigen Drücken von Gerätetasten oder der Ausrichtuing des Geräts andere, hier nicht nährer spezifizierte Aktionen denkbar, die für die erfolgreiche Bedienuung simultan ausgeführt werden müssten, etwa die Auswertung von Gesten über dem Gerät, der Auswertung des Kamera-Bildes, wofür das Gerät gehalten bzw. bewegt werden müsste, usw.
+Ggf. sind bei Touchbedienung außer dem gleichzeitigen Drücken von Gerätetasten oder der Ausrichtuing des Geräts andere, hier nicht näher spezifizierte simultane Aktionen denkbar, die für die erfolgreiche Bedienuung ausgeführt werden müssten, etwa die Auswertung von Handbewegungen über dem Gerät, der Auswertung des Kamera-Bildes, wofür das Gerät gehalten bzw. bewegt werden müsste, usw.
 
 === 4. Bewertung
 
