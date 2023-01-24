@@ -10,7 +10,9 @@ Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) unter iOS und Android erfo
 Unter Android mit externer Tastatur gibt es die Einstellung Tastenverzögerung bei Berühren/Halten.
 
 Da im App-Test nur Aspekte geprüft werden, welche Entwickler direkt in der Gestaltung der App beeinflussen können und sollen, wird diese Anforderung zur Zeit nicht aktiv geprüft, da sie die Betriebssystem-Ebene betrifft.
+
 == Warum wird das geprüft?
+Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie versehentlich unabsichtlich wiederholt Tasten drücken und dann diese Eingaben wieder löschen müssen. Die Möglichkeit der Einstellung einer Tastenverzögerung verringert dieses Risiko.
 
 == Wie wird das geprüft?
 
