@@ -26,7 +26,7 @@ Der Prüfschritt wird nicht geprüft, da Einstellungsmöglichkeiten der Tastenve
 
 Keine Prüfung.
 
-=== 4. Bewertung
+=== 3. Bewertung
 
 ==== Nicht anwendbar:
 
