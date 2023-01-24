@@ -22,12 +22,8 @@ include::include/attributes.adoc[]
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-Kriterium
-
-== Quellen
-
 [.BLOCK_LANG_EN]
-=== 5.9 Simultaneous user actions
+==== 5.9 Simultaneous user actions
 
 ____
 [.BLOCK_LANG_EN]
@@ -38,5 +34,3 @@ NOTE:
 Having to use both hands to open the lid of a laptop, having to press two or more keys at the same time or having to touch a surface with more than one finger are examples of simultaneous user actions.
 --
 ____
-
-(Aus EN 301 549 V3.2.1 Abschnitt 5.9 Simultaneous user actions)
