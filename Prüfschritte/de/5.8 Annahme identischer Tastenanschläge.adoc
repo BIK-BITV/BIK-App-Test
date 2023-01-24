@@ -17,12 +17,12 @@ Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie v
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
+
 Der Prüfschritt wird nicht geprüft, da Einstellungsmöglichkeiten der Tastenverzögerung Aufgabe des Betriebssystems sind und nicht auf der Ebene der App implementiert werden sollten. Selbst wenn Android-App-Entwickler die Tastenverzögerung bei der Nutzung externer Tastaturen erfolgreich implementieren könnten, wäre hieraus keine generelle Anforderung abzuleiten, dies auf der Ebene der App umzusetzen.
 
 === 2. Prüfung
-Keine Prüfung.
 
-=== 3. Hinweise
+Keine Prüfung.
 
 === 4. Bewertung
 
