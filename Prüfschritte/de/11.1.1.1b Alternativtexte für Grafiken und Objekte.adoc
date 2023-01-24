@@ -188,54 +188,6 @@ endif::env_embedded[]
   
 == Quellen
 
-=== Alternativtexte sollen denselben Zweck erfüllen wie das Bild
-
-Um von Nutzen zu sein, muss der Text dieselbe Funktion bzw. denselben Zweck
-erfüllen wie das Bild.
-Nehmen Sie zum Beispiel ein Foto der Erde, aufgenommen aus dem Weltraum. Wenn
-der Zweck des Bildes vorrangig in der Ausschmückung besteht, mag der Text
-"Foto der Erde vom Weltraum aus gesehen" die benötigte Funktion erfüllen.
-Wenn der Zweck des Fotos darin besteht, bestimmte Informationen über
-Geographie zu illustrieren, sollte das Text-Äquivalent diese Information
-enthalten.
-Wenn das Foto dem Benutzer sagen soll, dass er das Bild auswählen soll, um
-Informationen über die Erde zu erhalten (etwa indem er es anklickt), wäre der
-äquivalente Text "Informationen über die Erde".
-D.h. wenn der Text für einen Benutzer mit einer Behinderung dieselbe Funktion
-oder denselben Zweck erfüllt wie das Bild für andere Benutzer, kann er als
-Text-Äquivalent angesehen werden.
-
-* Quelle: http://www.w3.org/Consortium/Offices/Germany/Trans/WAI/webinhalt.html
-
-=== Ausführlichkeit von Alternativtexten
-
-[.BLOCK_LANG_EN]
-If possible, the short text alternative should completely convey the purpose
-and information.
-If it is not possible to do this in a short phrase or sentence, then the short
-text alternative should provide a brief overview of the information.
-A long text alternative would be used in addition to convey the full
-information.
-
-* Quelle: WCAG 2.0 Technik https://www.w3.org/TR/WCAG20-TECHS/G94.html[G94:
-        Providing short text alternative for non-text content that serves the
-        same purpose and presents the same information as the non-text
-        content]
-
-=== Alternativtexte für Schrift in Grafiken
-
-[.BLOCK_LANG_EN]
-When non-text content contains words that are important to understanding the
-content, the alt text should include those words.
-If the text in the image is more than can fit in a short text alternative then
-it should be described in the short text alternative and a long text
-alternative should be provided as well with the complete text.
-
-* Quelle: WCAG 2.0 Technik https://www.w3.org/TR/WCAG20-TECHS/G94.html[G94:
-        Providing short text alternative for non-text content that serves the
-        same purpose and presents the same information as the non-text
-        content]
-
 === Anleitungen zum Erstellen guter Alternativtexte
 
 * W3C Web Accessibility Tutorials:
