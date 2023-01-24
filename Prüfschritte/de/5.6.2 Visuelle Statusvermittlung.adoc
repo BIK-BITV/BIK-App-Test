@@ -42,8 +42,7 @@ Der Status "festgestellt" bei der Shift-Taste virtueller Tastaturen wird bei all
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
-=== 5.6.2 Visual status
-
+==== 5.6.2 Visual status
 ____
 [.BLOCK_LANG_EN]
 --
