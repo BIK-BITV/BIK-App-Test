@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die App Videotelefonie unterstützt, soll  soll sie eine Bildwiederholfrequenz (framerate) von mindestens 20 Bildern pro Sekunde unterstützen. Besser ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde.
@@ -29,14 +31,15 @@ Zur Beurteilung der Konformität mit diesem Prüfschritt müssen derzeit die Ang
 
 Für die Videotelefonie ist eine Bildwiederholfrequenz von 30 Bildern pro Sekunde empfehlenswert, um eine flüssige Darstellung des Bildes zu gewährleisten.
 
-Eine genaue Methode zur Messung der unterstützten Bildwiederholfrequenz ist noch offen. Hinweise zur Weiterentwicklung des Prüfschritts können Sie auf GitHub
-https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue] hinterlassen.
+Eine genaue Methode zur Messung der unterstützten Bildwiederholfrequenz ist noch offen. Hinweise zur Weiterentwicklung des Prüfschritts können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue] hinterlassen.
 
-== Quellen
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
-=== 6.5.3 Framerate
-
+==== 6.5.3 Framerate
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT that provides two-way voice communication includes real-time video
@@ -44,5 +47,5 @@ functionality, the ICT:
 
 * shall support a frame rate of at least 20 frames per second (FPS)
 --
-
+____
 (Aus EN 301 549 V3.1.1 Abschnitt 6.5.3 "Framerate")
