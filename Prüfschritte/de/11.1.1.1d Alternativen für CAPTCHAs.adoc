@@ -6,23 +6,20 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-In bildbasierten CAPTCHAs soll die Textalternative des Bildes den Zweck des CAPTCHAs beschreiben und angeben, wie eine nicht bildbasierte Alternative zu
-finden ist.
+In bildbasierten CAPTCHAs soll die Textalternative des Bildes den Zweck des CAPTCHAs beschreiben und ggf. angeben, wo eine nicht bildbasierte Alternative zu finden ist.
 
-Mindestens eine CAPTCHA-Alternative für ein Grafik-Captcha oder Audio-Captcha muss vorhanden sein.
+Mindestens eine CAPTCHA-Alternative für ein bildbasiertes CAPTCHA muss vorhanden sein.
 
 == Warum wird das geprüft?
 
 In bildbasierten CAPTCHAs werden Bilder von Zeichenfolgen eingesetzt, welche Nutzende als Text eingeben müssen, um bestimmte Bereiche der App zu erreichen.
-Für blinde und sehbehinderte Nutzende sind solche CAPTCHAs nicht zugänglich. Audio-Captchas sind für höreingeschränkte Nutzende nicht zugänglich. Deshalb soll in beiden Fällen mindestens eine CAPTCHA-Alternative angeboten werden.
-
-Bei bildbasierten CAPCHAs soll der Alternativtext den Zweck des CAPTCHAs beschreiben und angeben, wie CAPTCHA-Alternativen zu finden sind.
+Für blinde und sehbehinderte Nutzende sind solche CAPTCHAs nicht zugänglich. Deswegen müssen Alternativen angeboten werden.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn CAPTCHAs vorhanden sind.
+Der Prüfschritt ist anwendbar, wenn bildbasierte CAPTCHAs vorhanden sind.
 
 Die Leserlichkeit der Zeichenfolge in einem bildbasierten CAPTCHA ist nicht Teil der Prüfung und wird nicht bewertet.
 
@@ -35,11 +32,11 @@ Die Leserlichkeit der Zeichenfolge in einem bildbasierten CAPTCHA ist nicht Teil
 . Screenreader starten und Fokus auf das CAPTCHA setzen.
 . Prüfen, ob eine Textalternative vom Screenreader ausgegeben wird und der dort hinterlegte Alternativtext den Zweck des
   CAPTCHAs beschreibt (zum Beispiel: "Geben sie die im Bild dargestellte Zeichenfolge ein").
-  Wenn eine CAPTCHA-Alternative verfügbar ist, sollte die Textalternative außerdem sagen, wie diese zu finden ist.
+  Wenn eine CAPTCHA-Alternative verfügbar ist, sollte die Textalternative außerdem angeben, wo diese zu finden ist.
 
 ==== 2.2 Vorhandensein von CAPTCHA-Alternativen
 
-Prüfen, ob im unmittelbaren Kontext des bildbasierten CAPTCHAs oder Audio-Captchas eine Alternative angeboten wird.
+Prüfen, ob im unmittelbaren Kontext des bildbasierten CAPTCHAs eine Alternative angeboten wird.
 
 === 3. Hinweise
 
@@ -54,7 +51,7 @@ CAPTCHAs sind generell problematisch, da jede Form von CAPTCHA für manche Nutze
 
 ==== Nicht erfüllt:
 
-* Eine Alternative zu bildbasierten CAPTCHAs oder Audio-Captchas ist nicht vorhanden.
+* Eine Alternative zu bildbasierten CAPTCHAs ist nicht vorhanden.
 
 == Einordnung des Prüfschritts
 
