@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation (RTT, Real-Time Text) bietet, soll die Aktivität von Sprechenden in Echtzeit visualisiert werden. Der visuelle Indikator, dass gerade gesprochen wird, soll dabei auch programmatisch ermittelbar sein, sodass auch taubblinde Menschen z. B. über eine Braillezeile über die laufende Audiokommunikation informiert werden. Es wird dabei lediglich in Echtzeit signalisiert, dass Audio-Eingabe stattfindet, die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts.
@@ -27,17 +29,13 @@ Der Prüfschritt ist anwendbar, wenn die App Zwei-Wege-Sprachkommunikation unter
 
 * Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 
-== Einordnung des Prüfschritts nach der EN 301 549 V3.2.1
-  
-6.2.2.4 Visual indicator of Audio with RTT
-  
-== Quellen
+== Einordnung des Prüfschritts
 
-=== EN 301 549 V3.2.1
-
+=== Einordnung des Prüfschritts nach der EN 301 549 V3.2.1
+  
 [.BLOCK_LANG_EN]
 ==== 6.2.2.4 Visual indicator of Audio with RTT
-
+____
 [.BLOCK_LANG_EN]
 --
 Where ICT provides two-way voice communication, and has RTT capabilities, the
@@ -53,3 +51,4 @@ NOTE 2:
 Without this indication a person who lacks the ability to hear does not know
 when someone is talking.
 --
+____
