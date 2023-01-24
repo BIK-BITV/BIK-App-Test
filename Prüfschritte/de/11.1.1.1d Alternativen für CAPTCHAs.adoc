@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 In bildbasierten CAPTCHAs soll die Textalternative des Bildes den Zweck des CAPTCHAs beschreiben und angeben, wie eine nicht bildbasierte Alternative zu
