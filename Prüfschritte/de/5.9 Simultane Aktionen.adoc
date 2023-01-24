@@ -21,6 +21,7 @@ Die Situation ist unterscheidlich für verschiedene Bedienungsmodi:
 * *Sprachsteuerung:* Diese funkioniert in der Regel ohne physische Eingaben.
 
 == Warum wird das geprüft?
+Menschen mit motorischen Einschränkungen haben oft Probleme, mehrere Aktionen zur gleichen Zeit auszuführen. Deshalb sollten alle Funktionen über einfache Eingaben möglich sein.
 
 == Wie wird das geprüft?
 
