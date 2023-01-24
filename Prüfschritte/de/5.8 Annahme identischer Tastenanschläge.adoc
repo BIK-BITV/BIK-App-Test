@@ -22,18 +22,11 @@ include::include/attributes.adoc[]
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-Kriterium
-
-== Quellen
-
 [.BLOCK_LANG_EN]
-=== 5.8 Double-strike key
-
+==== 5.8 Double-strike key
 ____
 [.BLOCK_LANG_EN]
 --
 Where ICT has a keyboard or keypad, the delay after any keystroke, during which an additional key-press will not be accepted if it is identical to the previous keystroke, shall be adjustable up to at least 0,5 seconds.
 --
 ____
-
-(Aus EN 301 549 V3.2.1 Abschnitt 5.8 Double-strike key)
