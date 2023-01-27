@@ -31,21 +31,21 @@ Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt, bei 
 . Dass geänderte Werte nach Eingabe korrekt ausgegeben werden, wird in Prüfschritt 11.4.1.2 erfasst (für Fokusposition und Textauswahl außerdem in Prüfschritt 11.5.2.13).
 
 ==== 2.1 Bearbeitbarkeit von Text prüfen (Android)
-. Eingabefeld über Wischgeste fokussieren, auswählen (Doppeltippen), etwas Text eingeben
-. Auswahlmodus aktivieren (Zwei-Finger Doppeltippen)
-. Text auswählen (Navigationsmodus "Zeichen" oder "Wörter", Auswahl über vertikale Wischgeste vergrößern)
-. Text kopieren (Drei-Finger Doppeltippen)
-. Text ausschneiden (Drei-Finger Doppeltippen und Halten)
-. Text einfügen (Driefinger-Driefachtippen)
+. Eingabefeld über Wischgeste fokussieren, auswählen (Doppel-Tippen), etwas Text eingeben
+. Auswahlmodus aktivieren (Zwei-Finger Doppel-Tippen)
+. Text auswählen (Navigationsmodus "Zeichen" oder "Wörter", Auswahl über vertikale Wischgesten oder physische Lautstärketasten am Gerät vornehmen)
+. Text kopieren (Drei-Finger Doppel-Tippen)
+. Text ausschneiden (Drei-Finger Doppel-Tippen und Halten)
+. Text einfügen (Drei-Finger Dreifach-Tippen)
 
 ==== 2.1 Bearbeitbarkeit von Text prüfen (iOS)
 . Eingabefeld über Wischgeste fokussieren, etwas Text eingeben
 . Rotor auf "Textauswahl" stellen, ggf. durch vertikales Wischen "Zeichenauswahl" wählen
 . Durch horizontales Wischen etwas Text auswählen
 . Rotor auf "Bearbeiten" stellen
-. Text kopieren (über vertikale Wischgeste Option "Kopieren" wählen und mit Doppeltippen ausführen)
-. Text ausschneiden (über vertikale Wischgeste Option "Ausschneiden" wählen und mit Doppeltippen ausführen)
-. Text einfügen (über vertikale Wischgeste Option "Einfügen" wählen und mit Doppeltippen ausführen)
+. Text kopieren (über vertikale Wischgeste Option "Kopieren" wählen und mit Doppel-Tippen ausführen)
+. Text ausschneiden (über vertikale Wischgeste Option "Ausschneiden" wählen und mit Doppel-Tippen ausführen)
+. Text einfügen (über vertikale Wischgeste Option "Einfügen" wählen und mit Doppel-Tippen ausführen)
 
 === 3. Hinweise
 
