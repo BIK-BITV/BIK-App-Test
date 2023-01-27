@@ -27,8 +27,19 @@ Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt, bei 
 
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes interaktive Element setzen.
-. Prüfen, ob sich die Werte von Elementen mit aktiviertem Screenreader ändern lassen: Werte in Schiebereglern lassen sich erhöhen oder verringern, Optionen von Auswahllisten lassen sich ändern, Text in Texteingabefeldern lässt sich ändern, usw.
+. Prüfen, ob sich die Werte von Elementen mit aktiviertem Screenreader ändern lassen: Werte in Schiebereglern lassen sich erhöhen oder verringern, Optionen von Auswahllisten lassen sich ändern.
 . Dass geänderte Werte nach Eingabe korrekt ausgegeben werden, wird in Prüfschritt 11.4.1.2 erfasst (für Fokusposition und Textauswahl außerdem in Prüfschritt 11.5.2.13).
+
+==== 2.1 Bearbeitbarkeit von Text prüfen (Android)
+. Eingabefelder über Wischgeste fokussieren, etwas Text eingeben
+. Auswahlmodus aktivieren (Zwei-Finger Doppeltippen)
+. Text auswählen (Navigationsmodus "Zeichen" oder "Wörter", Auswahl über vertikale Wischgeste vergrößern)
+. Text kopieren (Drei-Finger Doppeltippen)
+. Text ausschneiden (Drei-Finger Doppeltippen und Halten)
+. Text einfügen (Driefinger-Driefachtippen)
+
+==== 2.1 Bearbeitbarkeit von Text prüfen (iOS)
+
 
 === 3. Hinweise
 
