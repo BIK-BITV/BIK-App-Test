@@ -61,7 +61,8 @@ Bei der Beurteilung, ob sich Werte erfolgreich ändern lassen, ist ggf. sehende 
 
 ==== Erfüllt:
 
-Werte von Bedienelementen (einschließlich Textinhalte editierbarer Textfelder) lassen sich mit aktiviertem Screenreader über die vorgesehenen Eingabe-Methoden der jeweiligen Plattform modifizieren.
+* Werte von Bedienelementen (einschließlich Textinhalte editierbarer Textfelder) lassen sich mit aktiviertem Screenreader modifizieren.
+* Text in Textfeldern lässt sich über die vorgesehenen Eingabe-Methoden der jeweiligen Plattform bearbeiten (Auswählen, Kopieren, Ausschneiden, Einfügen)
 
 == Einordnung des Prüfschritts
 
