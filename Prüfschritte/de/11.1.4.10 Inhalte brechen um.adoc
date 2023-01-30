@@ -57,7 +57,7 @@ Anwendung korrekt umbrechen.
 Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software anwendbar.
 Wie dies jedoch umgesetzt werden soll, ist unklar.
 Ggf. gibt es in zukünftigen Versionen der mobilen Betriebssysteme eine
-entsprechende Bedienungshilfe zum umbrechen von Text, die ein- und
+entsprechende Bedienungshilfe zum Umbrechen von Text, die ein- und
 ausgeschaltet werden kann.
 Dann müssen Apps diese Systemschnittstelle unterstützen.
 
