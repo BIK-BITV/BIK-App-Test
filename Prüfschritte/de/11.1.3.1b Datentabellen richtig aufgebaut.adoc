@@ -42,7 +42,7 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 
 ==== 3.1 Allgemeine Hinweise zur Navigation von Tabellen
 * Eine vertikale Screenreader-Navigation der Tabelle über Wischgesten ist in der Regel nicht möglich. 
-* Ggf. wird die Pfeiltastennavigation zwischen Zellen unterstützt. 
+* Ggf. wird bei Nutzung von Tastaturen die Pfeiltastennavigation zwischen Zellen unterstützt. 
 
 ==== 3.2 Erschließen von Tabellen in iOS
 * Vor der Prüfung sicherstellen, dass in den VoiceOver-Einstellungen im Abschnitt "Tabellenausgabe" die Optionen "Tabellentitel" sowie "Zeilen- und Spaltennummern" aktiviert sind.
@@ -54,7 +54,7 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 ==== 3.3 Erschließen von Tabellen in Android
 * Eine explizite Navigationsmöglichkeit zu Tabellen gibt es unter Android zur Zeit nicht.
 
-==== 3.3 Tabellen mit eingesparten Überschriften
+==== 3.4 Tabellen mit eingesparten Überschriften
 Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte Betrag und Währungszeichen.
 
 === 4. Bewertung
