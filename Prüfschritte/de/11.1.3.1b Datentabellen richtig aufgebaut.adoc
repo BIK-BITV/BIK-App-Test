@@ -39,7 +39,6 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 . Alternativ die Zeilen- bzw. Spaltenüberschrift angetippen und prüfen, was der Screenreader ausgibt: Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnlich als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
 
 === 3. Hinweise
-Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte Betrag und Währungszeichen.
 
 ==== 3.1 Allgemeine Hinweise zur Navigation von Tabellen
 * Eine vertikale Screenreader-Navigation der Tabelle über Wischgesten ist in der Regel nicht möglich. 
@@ -56,8 +55,7 @@ Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, 
 * Eine explizite Navigationsmöglichkeit zu Tabellen gibt es unter Android zur Zeit nicht.
 
 ==== 3.3 Tabellen mit eingesparten Überschriften
-
-
+Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte Betrag und Währungszeichen.
 
 === 4. Bewertung
 
