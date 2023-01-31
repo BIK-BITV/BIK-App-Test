@@ -52,6 +52,7 @@ Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, 
 * iOS mit Tastatur: Über Kurzbefehle (bei iOS mit Tastatur, CTR + Option + C) können Spaltenheader ausgegeben werden.
 
 ==== 3.3 Erschließen von Tabellen in Android
+* Eine explizite Navigationsmöglichkeit zu Tabellen gibt es unter Android zur Zeit nicht.
 
 ==== 3.3 Tabellen mit eingesparten Überschriften
 
