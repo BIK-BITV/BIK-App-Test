@@ -34,6 +34,8 @@ Der Prüfschritt wird also nur auf Tableisten und Toolbars (meist im Fußbereich
 === 3. Hinweise
 Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist bzw. bei der Fokussierung eines Kind-Elements nicht der Name oder Rolle des Eltern-Elements ausgegeben wird. Für Eltern-Elemente (List views, Table views, Collections) ist eine solche Ausgabe nicht generell sinnvoll oder ggf. sogar störend.
 
+Android-Prüfung: In den TalkBack-Einstellungen sollte unter "Ausführlichkeit" doe Optionen "Listen- und Rasterinformationen vorlesen" aktiviert sein.
+
 === 4. Bewertung
 ==== 4.1 Eher erfüllt: 
 Elemente in Tableisten, Toolbars oder Reiter-Wigets vermitteln nicht ihre Position innerhalb des Eltern-Elements und die Anzahl der Kind-Elemente in der Leiste (die Verfügbarkeit von Name, Rolle und Wert gehört zu Prüfschritt 11.4.1.2 und wird dort bewertet).
