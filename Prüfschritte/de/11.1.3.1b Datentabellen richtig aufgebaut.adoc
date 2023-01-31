@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.* 
+
 == Was wird geprüft?
 
 Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind plattformspezifisch im Programm-Code ausgezeichnet. Tabellen sind wegen des reduzierten Viewports in nativen Apps eher selten, tauchen aber häufiger in Webviews auf. Zum Teil erscheinen Sie in unterschiedlicher Form abhängig von der Viewportbreite des Ausgabegeräts bzw, der Ausrichtung des Geräts. Gehört die die Püfung auf Tablets zum Umfang des Tests, sind hier also unter Umständen abweichende Ansichten zu berücksichtigen.
