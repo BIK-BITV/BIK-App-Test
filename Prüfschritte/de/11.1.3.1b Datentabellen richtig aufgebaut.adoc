@@ -46,7 +46,8 @@ Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, 
 * Ggf. wird die Pfeiltastennavigation zwischen Zellen unterstützt. 
 
 ==== 3.2 Erschließen von Tabellen in iOS
-* Vor der Prüfung sicherstellen, dass "Tabellen" im Rotor als Navgationsmöglichkeit aktiviert ist.
+* Vor der Prüfung sicherstellen, dass in den VoiceOver-Einstellungen im Abschnitt "Tabellenausgabe" die Optionen "Tabellentitel" sowie "Zeilen- und Spaltennummern" aktiviert sind.
+* Vor der Prüfung sicherstellen,  dass in den VoiceOver-Einstellungen unter "Rotor" die Option "Tabellen" als Navgationsmöglichkeit aktiviert ist.
 * Mit Rotoreinstellung "Tabellen" sind Tabellen über vertikale Wischgeste erreichbar (fokussiert wird die Zelle links oben)
 * iOS mit Tastatur: Über CTR + Option + Pfeiltasten können Tabellenzellen durchlaufen werden. Dabei werden semantisch umgesetzte Spaltenüberschriften ausgegeben.
 * iOS mit Tastatur: Über Kurzbefehle (bei iOS mit Tastatur, CTR + Option + C) können Spaltenheader ausgegeben werden.
