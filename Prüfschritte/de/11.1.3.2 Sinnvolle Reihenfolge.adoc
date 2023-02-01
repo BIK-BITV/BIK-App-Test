@@ -34,7 +34,7 @@ Bei interaktiven Widgets wie der Reiternavigation (Tableiste am unteren oder obe
 * Der Fokus bewegt sich nur innerhalb der Tableiste, und muss über Berührung des Displays oder Screenreader-Navigationsgesten in den Inhaltsbereich versetzt werden.
 * Der Fokus wird nach Aktivierung eines Tabs an den Beginn des eingeblendeten Inhaltsbereichs versetzt.
 
-Diese Konventionen sind in vielen Apps etabliert und prägen damit Erwartungshaltungen und Navigationsverhalten de Nutzenden. Die fehlende Fokusversetzug nach Aktivierung von Tabs hat Vor-und Nachteile und ist deshalb nicht negativ zu bewerten.
+Diese Konventionen sind in vielen Apps etabliert und prägen damit Erwartungshaltungen und Navigationsverhalten der Nutzenden. Eine fehlende Fokusversetzug nach Aktivierung von Tabs hat Vor-und Nachteile und ist deshalb nicht negativ zu bewerten.
 
 === 4. Bewertung
 
