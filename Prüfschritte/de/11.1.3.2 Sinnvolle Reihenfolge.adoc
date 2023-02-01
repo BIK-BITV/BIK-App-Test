@@ -28,12 +28,13 @@ Bei Apps soll die programmatische und durch den Screenreader ausgegebene Element
 . Prüfen, ob die Reihenfolge, in der die Elemente fokussiert und durch den Screenreader ausgegeben werden, sinnvoll und im Wesentlichen der visuellen Reihenfolge entspricht.
 
 === 3. Hinweise
-Bei interaktiven Widgets wie der Reiternavigation (Tabs) gibt es unterschiedliche Konventionen bezüglich der Fokusversetzung in den jeweils eingeblendeten Inhaltsbereich.
+Bei interaktiven Widgets wie der Reiternavigation (Tableiste am unteren oder oberen Bildschirmrand) gibt es unterschiedliche Konventionen bezüglich der Fokusversetzung in den jeweils eingeblendeten Inhaltsbereich.
 
-* Der Fokus wird nach Aktivierung an den Beginn des eingeblendeten Inhaltsbereichs versetzt.
-* Der Fokus bleibt auf dem Tab, und muss über Berührung oder Screenreader-Gesten in den Inhaltsbereich versetzt werden.
+* Der Fokus bleibt auf dem Tab, der Inhaltsbereich kann über horizontale Wischgesten (oder Screenreader-Navigationsgesten) erreicht werden.
+* Der Fokus bewegt sich nur innerhalb der Tableiste, und muss über Berührung des Displays oder Screenreader-Navigationsgesten in den Inhaltsbereich versetzt werden.
+* Der Fokus wird nach Aktivierung eines Tabs an den Beginn des eingeblendeten Inhaltsbereichs versetzt.
 
-Beide Konventionen haben Vor-und Nachteile und sind deshalb nicht negativ zu bewerten.
+Diese Konventionen sind in vielen Apps etabliert und prägen damit Erwartungshaltungen und Navigationsverhalten de Nutzenden. Die fehlende Fokusversetzug nach Aktivierung von Tabs hat Vor-und Nachteile und ist deshalb nicht negativ zu bewerten.
 
 === 4. Bewertung
 
