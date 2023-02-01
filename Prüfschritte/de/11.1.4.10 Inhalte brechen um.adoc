@@ -19,80 +19,40 @@ Ausnahmen von die Anforderung, dass Informationen und Funktionen innerhalb der V
 * Spiele
 * Präsentationen
 * Datentabellen 
-* Anwendungs-Schnittstellen
-+
-In denen die Bearbeitung von Inhalten die permanente Verfügbarkeit von
+* Anwendungs-Schnittstellen, in denen die Bearbeitung von Inhalten die permanente Verfügbarkeit von
 Werkzeugleisten erfordert.
 
-*Hinweis:*
-Dieser Prüfschritt beschränkt sich auf Inhalte, deren primäre
-Schreibrichtung waagerecht ist, wie bei der für die meisten westlichen
-Sprachen benutzten lateinischen Schrift.
-Die zugrunde liegende WCAG-Anforderung gilt in ähnlicher Weise für Inhalte
-mit vertikaler Schreibrichtung.
-
-Bei Software, die für einen horizontalen Bildlauf (z. B. mit vertikalem Text)
-ausgelegt ist, entspricht die Höhe des starting Viewports von 1024 px bei
-400% Zoom.
+*Hinweis:* Dieser Prüfschritt beschränkt sich auf Inhalte, deren primäre Schreibrichtung waagerecht ist, wie bei der für die meisten westlichen
+Sprachen benutzten lateinischen Schrift. Die zugrunde liegende WCAG-Anforderung gilt in ähnlicher Weise für Inhalte mit vertikaler Schreibrichtung.
 
 == Warum wird das geprüft?
 
-Bei mobilen Apps wird mit Systemfunktionen der Bildschirmausschnitt
-vergrößert, hierbei wird jedoch Text nicht umgebrochen und der Prüfschritt
-ist so nicht anwendbar.
-Falls das System eine Nur-Text-Vergrößerung anbietet, sollte der Text in der
-Anwendung korrekt umbrechen.
+Bei mobilen Apps wird mit Systemfunktionen der Bildschirmausschnitt vergrößert, hierbei wird jedoch Text nicht umgebrochen und der Prüfschritt
+ist so nicht anwendbar. Falls das System eine Nur-Text-Vergrößerung anbietet, sollte der Text in der Anwendung korrekt umbrechen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software anwendbar.
-Wie dies jedoch umgesetzt werden soll, ist unklar.
-Ggf. gibt es in zukünftigen Versionen der mobilen Betriebssysteme eine
-entsprechende Bedienungshilfe zum Umbrechen von Text, die ein- und
-ausgeschaltet werden kann.
-Dann müssen Apps diese Systemschnittstelle unterstützen.
+Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software anwendbar. Wie dies jedoch umgesetzt werden soll, ist unklar. Ggf. gibt es in zukünftigen Versionen der mobilen Betriebssysteme eine entsprechende Bedienungshilfe zum Umbrechen von Text, die ein- und ausgeschaltet werden kann. Dann müssen Apps diese Systemschnittstelle unterstützen.
 
-=== Prüfung
+=== 2. Prüfung
 
-Wie dieser Prüfschritt bei nativer Software geprüft werden kann muss noch
-geklärt werden.
-Wenn vom Betriebssystem eine Bedienungshilfe zum umbrechen von Text
-zur Verfügung gestellt wird, sollten Apps mit der entsprechenden Funktion
-umgehen bzw. zugehörige Methoden implementieren, um diese
-systemseitige Funktion zu unterstützen.
+. Gibt es in der App Inhalte, die bei 320px Viewportbreite nicht in den Viewport passen und als Ausnahme gelten können? Falls ja, lassen sich die Inhalte horizontal in den Viewport verschieben, etwa über scrollbare Bereiche oder zugängliche Pfeiltasten?
+. Gibt es in der App Inhalte, die bei 320px Viewportbreite nicht in den Viewport passen und nicht unter die Ausnahmen fallen?
+. Stellt die Apps Elemente oder Einstellungen zum Vergrößern von Text bereit? Falls ja sollen Inhalte umbrechen und auch unter Vergrößerung nutzbar sein.
 
 Für Hinweise zur Prüfpraxis können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zur diesem
 Prüfschritt erstellen.
 
-=== Hinweise
+=== 3. Hinweise
+Falls für die Prüfung kein älteres Gerät mit 320 CSS Pixeln Viewportbreite zur Verfügung steht, wird auf einem gängigen Gerät mit etwas größerer Viewportbreite getestet (etwa ein iPhone 13 min oder ein Samsung Galaxy A12, beide mit it 360 CSS Pixeln).
 
-Bei der alternativen Prüfung mit 1280px Viewport-Breite und 400% Zoom soll
-nicht negativ bewertet werden, wenn fest positionierte Inhalte (etwa
-Ausklappmenüs) aufgrund der sehr geringen verfügbaren Höhe des Viewports
-nicht voll erreichbar sind.
-Geprüft wird allein, ob Inhalte erfolgreich in eine Ansicht umbrechen, die
-nicht horizontal gescrollt werden braucht.
-
-Ausnahmen für die Anforderung, dass horizontales Scrollen nicht erforderlich
-ist, sind Inhalte, deren Nutzung ein zweidimensionales Layout voraussetzen,
-etwa Datentabellen, Bilder, Diagramme, Videos, Spiele oder
-Benutzerschnittstellen mit Werkzeugleisten.
-
-Im Prüfschritt wird nicht geprüft, ob die Zoomvergrößerung auf 400%
-Textinhalte tatsächlich auf 400% oder einen geringeren Wert vergrößert.
-Dies ist Gegenstand von Prüfschritt
-ifdef::env_embedded[]
-11.1.4.4 "Text auf 200% vergrößerbar".
-endif::env_embedded[]
-ifndef::env_embedded[]
-<<11.1.4.4 Text auf 200% vergrößerbar.adoc#,11.1.4.4 Text auf 200%
-vergrößerbar>>.
-endif::env_embedded[]
-
-// === Bewertung
+=== 4. Bewertung
+==== Nicht erfüllt
+Es gibt Inhalte, die nicht unter die Ausnahmen fallen und nicht in den Viewport von 320px (ersatzweise 360 Pixel) passen.
+Es gibt Inhalte, die unter die Ausnahmen fallen, nicht in den Viewport von 320px (ersatzweise 360 Pixel) passen, und sich nicht in den Viewport bewegen lassen.
 
 == Quellen
 
