@@ -23,7 +23,7 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Formularelemente enthält.
 
 . App mit der zu prüfenden Ansicht öffnen.
 . Screenreader starten und mit Hilfe der Wischgeste durch die Formularelement navigieren.
-. Prüfen, ob die Beschriftungen *und* Gruppenbeschriftungen korrekt ausgegeben werden.
+. Prüfen, ob die Feld-Beschriftungen und (wenn vorhanden) Gruppenbeschriftungen korrekt ausgegeben werden.
 
 === 3. Hinweise
 
