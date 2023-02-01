@@ -23,11 +23,18 @@ Der Prüfschritt ist immer anwendbar.
 Bei Apps soll die programmatische und durch den Screenreader ausgegebene Element-Reihenfolge auf der Ansicht im Wesentlichen die visuelle Reihenfolge abbilden.
 
 . App mit der zu prüfenden Ansicht öffnen.
-. Screenreader starten und mit Hilfe der Wischgeste (Wischen nach links oder rechts) durch alle Elemente der Ansicht navigieren, dabei werden auch nicht interaktive Elemente
+. Screenreader starten und mit Hilfe der horizontalen Wischgeste durch alle Elemente der Ansicht navigieren. Dabei werden auch nicht interaktive Elemente
   fokussiert.
 . Prüfen, ob die Reihenfolge, in der die Elemente fokussiert und durch den Screenreader ausgegeben werden, sinnvoll und im Wesentlichen der visuellen Reihenfolge entspricht.
 
-=== 3. Bewertung
+=== 3. Hinweise
+Bei interaktiven Widgets wie der Reiternavigation (Tabs) gibt es unterschiedliche Konventionen bezüglich der Fokusversetzung in den jeweils eingeblendeten Inhaltsbereich.
+* Der Fokus wird nach Aktivierung an den Beginn des eingeblendeten Inhaltsbereichs versetzt.
+* Der Fokus bleibt auf dem Tab, und muss über Berührung oder Screenreader-Gesten in den Inhaltsbereich versetzt werden.
+
+Beide Konventionen haben Vor-und Nachteile und sind deshalb nicht negativ zu bewerten.
+
+=== 4. Bewertung
 
 ==== Nicht voll erfüllt
 
