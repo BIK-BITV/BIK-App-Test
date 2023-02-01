@@ -34,7 +34,7 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes grafische Bedienelement setzen.
 . Prüfen, ob für die Bedienelemente Textalternativen ausgegeben werden und diese (auch) das Ziel bzw. die Funktion des Bedienelements beschreiben.
 . Falls die Grafik zusammen mit aussagekräftigem Text als Bedienelement auftaucht, prüfen ob die Grafik vor dem Screenreader versteckt wird (keine unnötigen und redundanten Ausgaben durch den Screenreader aufgrund der Grafik). 
-. Bei aktivierbaren informationstragenden Grafiken wird der Inhalt benannt und Linkziel bzw. Aktion beschrieben (etwa: "Portraitfoto Helga Müller - öffnet vergrößerte Ansicht").
+. Bei aktivierbaren informationstragenden Grafiken wird der Inhalt benannt und Linkziel bzw. Aktion beschrieben (etwa: "Porträtfoto Helga Müller - öffnet vergrößerte Ansicht").
 
 ==== 2.2 Gleichwertige (äquivalente) Alternativtexte
 
