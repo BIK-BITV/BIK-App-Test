@@ -2,22 +2,15 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
-Inhalte sollen bei einer Viewport-Breite von 1280 Pixeln und 400%
-Zoomvergrößerung so umbrechen, dass alle Informationen und Funktionen
-verfügbar sind, ohne dass Nutzer horizontal scrollen müssen.
+Inhalte sollen bei einer Viewport-Breite von 320 CSS Pixeln so angezeigt werden, dass alle Informationen und Funktionen verfügbar sind, ohne dass Nutzer horizontal scrollen müssen.  Die Inhalte mobiler Aps sind meist standardmäßig für die Ansicht im Hochkantformat optimiert, auch wenn die heute verbreiteten Mobilgeräte meist einen größere Viewportbreite als 320 px haben. Damit ist dieser Prüfschritt in der Regel erfüllt. 
 
-Es wird dabei nicht verlangt, dass alle Inhalte in gleicher Weise in der
-responsiven Ansicht verfügbar sind.
-So sind die sichtbaren Navigationsmenüs einer Standard-Ansicht auf dem
-Desktop häufig nach dem Hereinzoomen (oder bei Nutzung des Angebots auf einem
-Smartphone-Display) nur über eine Ausklappnavigation zugänglich.
-Inhalte können auch in Ausklappbereichen oder über Links auf andere Seiten
-oder Ansichten verfügbar sein.
+Native Apps, auch die gängigen Browser, verfügen in der Regel nicht über die Möglichkeit, innerhalb der App die Textgröße zu ändern, wie dies über die Zoom-Funktion in Desktop-Browsern geschieht und damit oft den Umburch in eine andere Darstellung auslöst. Manche Apps zeigen einen anderen Umbruch der Inhalte, wenn das Gerät ins Querformat gedreht wird oder wenn die App auf einem Tablet mit größerer Viewportbreite angezeigt wird. Aus dem normativen Text ist jedoch keine Verpflichtung abzuleiten, dass für größere Viewportbreiten eine an diese angepasste Ansicht geboten werden muss.
 
-Ausnahmen gelten für Inhalte, für deren Nutzung ein zweidimensionales Layout
-erforderlich ist, z.B.:
+Ausnahmen von die Anforderung, dass Informationen und Funktionen innerhalb der Viewportbreite vpn 320px verfügbar sind, gibt es für Inhalte, für deren Nutzung ein zweidimensionales Layout erforderlich ist und die ggf. auf Viewportbreite verkleinert nicht sinnvoll nutzbar sind, z.B.:
 
 * Bilder
 * Landkarten
