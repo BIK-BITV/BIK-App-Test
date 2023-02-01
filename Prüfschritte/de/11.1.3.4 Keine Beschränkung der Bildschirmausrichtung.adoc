@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 App-Inhalte sollen sich an die nutzergewählte Ausrichtung von Ausgabegeräten anpassen. Sie sollten sowohl im Hochformat als auch im Querformat dargestellt werden und
