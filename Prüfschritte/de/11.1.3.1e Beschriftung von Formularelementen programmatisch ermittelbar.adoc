@@ -9,7 +9,7 @@ include::include/attributes.adoc[]
 Beschriftungen von Formularelementen (z.B. Eingabefelder, Checkboxen oder Auswahlschalter) müssen programmatisch verfügbar sein.
 
 == Warum wird das geprüft?
-Wenn Apps Formularelemente verwenden, tragen diese in der Regel eine visuelle Beschriftung, die Nutzwenden sagt, was hier eingetragen werden soll. Für Hilfsmittelnutzende muss diese Beschriftung auch nicht-visuell, also programmatisch, ermittelbar sein. Eingabefeld und Beschriftung sollten bei Wischgesten-Bedienung mit aktiviertem Screenreader im besten Fall nur ein Fokuspunkt sein. Der Screenreader liest dann bei Fokussierung des Eingabefeldes die hinterlegte oder verknüpfte Feld-Beschriftung vor.
+Wenn Apps Formularelemente verwenden, tragen diese in der Regel eine visuelle Beschriftung, die Nutzenden sagt, was hier eingetragen oder aktiviert werden soll. Für Hilfsmittelnutzende muss diese Beschriftung auch nicht-visuell, also programmatisch, ermittelbar sein. Formularelement und Beschriftung sollten bei Wischgesten-Bedienung mit aktiviertem Screenreader im besten Fall nur ein Fokuspunkt sein. Der Screenreader liest dann bei Fokussierung des Eingabefeldes die hinterlegte oder verknüpfte Formularelementen-Beschriftung vor.
 
 Wenn Gruppen von Formularelementen eine Überschrift haben, sollte diese in der linearen Navigation über horizontale Wischgesten vor den Formularelementen fokussiert werden und muss programmatisch zugänglich sein, also vom Screenreader ausgegeben werden (siehe auch 3. Hinweise).
 
@@ -23,23 +23,24 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Formularelemente enthält.
 
 . App mit der zu prüfenden Ansicht öffnen.
 . Screenreader starten und mit Hilfe der horizontalen Wischgeste durch die Ansicht navigieren.
-. Prüfen, ob bei Fokussierung von Feldern oder anderen Formularelementen die Feld-Beschriftungen und (wenn vorhanden) Gruppenbeschriftungen korrekt ausgegeben werden.
+. Prüfen, ob bei Fokussierung von Formularelementen die jeweiligen Beschriftungen und (wenn vorhanden) Gruppenbeschriftungen korrekt ausgegeben werden.
 
 === 3. Hinweise
 
 ==== 3.1 Kombinierte Eingabeelemente
 
-Bei kombinierten Eingabeelementen hat nicht immer jedes Formularelement eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einer passenden (nicht notwendiger Weise sichtbaren) Bezeichnung für Screenreader versehen werden. Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einer erklärenden Bezeichnung für Screenreader versehen. Diese Bezeichnungen sind dann nur von der Hilfstechnologie auswertbar.
+Bei kombinierten Formularelementen hat nicht immer jedes Element eine sichtbare zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einer passenden (nicht notwendiger Weise sichtbaren) Bezeichnung für Screenreader versehen werden. Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einer erklärenden Bezeichnung für Screenreader versehen. Diese Bezeichnungen sind dann nur von der Hilfstechnologie auswertbar.
 
-Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen"). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen eine aussagekräftige (nicht sichtbare) Bezeichnung für den Screenreader
-haben, da für Screenreader-Nutzende der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
+Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Schalter besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen"). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen eine aussagekräftige (nicht sichtbare) Bezeichnung für den Screenreader haben, da für Screenreader-Nutzende der nachfolgende Schalter nicht gleichermaßen als Beschriftung taugt.
 
 ==== 3.2 Gruppenbeschriftungen
-In manchen Fällen gibt es für Gruppen von Bedienelementen (z.B. eine Gruppe von Radio-Inputs oder Checkboxen, bei iOS als Schalter umgesetzt) eine Gruppenüberschrift, die zum Verständnis der Einzel-Beschriftungen wichtig sein kann. Solche Gruppenüberschriften lassen sich in nativen Umgebungen nicht auf die gleiche Weise umsetzen, wie dies in HTML über das `fieldset/legend` Konstrukt möglich ist. Die Gruppenbeschriftung in Apps muss in der Lesereihenfolge direkt vor der Gruppe stehen und im normalen Navigationsmodus über horizontale Wischgesten programmatisch ausgegeben werden (vergl. Prüfschritte 11.1.3.1c Text programmatisch verfügbar 11.1.3.2 Sinnvolle Reihenfolge). Ist sie visuell eine Überschrift, sollte sie auch als Überschrift ausgezeichnet sein (vergl. Prüfschritt 11.1.3.1a Überschriften). Es ist nicht erforderlich, dass im Navigationmodus über Elemente (etwa "Steuerelemente" unter Android) bei Fokussierung der Steuerelemente in der Gruppe die Gruppenbeschriftung mit ausgegeben wird, da sich dies nicht in gleicher Weise dynamisch umsetzen lässt wie in HTML. Die Alternative, der Einschluss der Gruppenbeschriftung in jede Einzelbeschriftung, wäre zwar möglich, aber auch sehr redundant und dadurch störend, auch weil das unterscheidende Element erst der ggf. längeren, immer gleichen Gruppenbeschriftug ausgegeben würde.
+In manchen Fällen gibt es für Gruppen von Formularelementen (z.B. eine Gruppe von Radio-Inputs oder Checkboxen, bei iOS als Schalter umgesetzt) eine Gruppenüberschrift, die zum Verständnis der Einzel-Beschriftungen wichtig sein kann. Solche Gruppenüberschriften lassen sich in nativen Umgebungen nicht auf die gleiche Weise umsetzen, wie dies in HTML über das `fieldset/legend` Konstrukt möglich ist. Die Gruppenbeschriftung in Apps muss in der Lesereihenfolge direkt vor der Gruppe stehen und im normalen Navigationsmodus über horizontale Wischgesten programmatisch ausgegeben werden (vergl. Prüfschritte 11.1.3.1c Text programmatisch verfügbar 11.1.3.2 Sinnvolle Reihenfolge). Ist sie visuell eine Überschrift, sollte sie auch als Überschrift ausgezeichnet sein (vergl. Prüfschritt 11.1.3.1a Überschriften). 
+
+Es ist nicht erforderlich, dass im Navigationmodus über Elemente (etwa "Steuerelemente" unter Android) bei Fokussierung der Formularelemente in der Gruppe die Gruppenbeschriftung mit ausgegeben wird, da sich dies nicht in gleicher Weise dynamisch umsetzen lässt wie in HTML. Die Alternative, der Einschluss der Gruppenbeschriftung in jede einzelne Beschriftung, ist zwar technisch umsetzbar, aber auch redundant und dadurch störend, auch weil das unterscheidende Element erst der ggf. längeren, immer gleichen Gruppenbeschriftung ausgegeben würde.
 
 ==== 3.3 Programmatische Verknüpfung von Label und Formularelment
 
-In der Praxis kommt es immer wieder vor, dass Label und dessen Bedienelement getrennt voneinander vorgelesen werden. Dies ist meist dann der Fall, wenn Bedienelement und Label keine programmatische Verbindung haben bzw. nicht gruppiert wurden. Um die Verbindung programmatisch herzustellen, bieten die Plattformen unterschiedliche Mögglichkeiten an.
+In der Praxis kommt es immer wieder vor, dass Beschriftung und Formularelement getrennt voneinander vorgelesen werden. Dies ist meist dann der Fall, wenn Formularelementen und Beschriftung keine programmatische Verbindung haben bzw. nicht gruppiert wurden. Um die Verbindung programmatisch herzustellen, bieten die Plattformen unterschiedliche Mögglichkeiten an.
 Bei iOS / iPadOS können diese Elemente
 https://developer.apple.com/documentation/uikit/accessibility/delivering_an_exceptional_accessibility_experience#3542986[
 gruppiert werden], sodass sie für den Screenreader als eine Einheit agieren.
@@ -51,7 +52,8 @@ Sind Eingabefelder nur über Platzhaltertexte beschriftet, muss die programmatis
 
 === 4. Bewertung
 ==== Eher erfüllt:
-* Bei linearer Wischgesten-Navigation wird die sichtbare Beschriftung vor dem Eingabefeld ausgegeben, beide sind jedoch nicht gruppiert (es gibt zwei Fokuspunkte, auf der Beschriftung und auf dem Formularelement).
+
+* Bei linearer Wischgesten-Navigation wird die sichtbare Beschriftung vor unmittelbar folgenden Eingabefeld ausgegeben, beide sind jedoch nicht gruppiert (es gibt zwei Fokuspunkte, auf der Beschriftung und auf dem Formularelement).
 
 ==== Nicht erfüllt:
 
