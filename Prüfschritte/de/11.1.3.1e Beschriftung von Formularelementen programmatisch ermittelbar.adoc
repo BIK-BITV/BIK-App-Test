@@ -46,11 +46,14 @@ gruppiert werden], sodass sie für den Screenreader als eine Einheit agieren.
 Bei Android gibt es dazu https://developer.android.com/guide/topics/ui/accessibility/principles[
 vergleichbare Ansätze].
 
+==== 3.4. Platzhaltertexte
+Sind Eingabefelder programmatisch nur über Platzhaltertexte beschriftet, muss die programmatische Beschriftung das Feld verständlich bezeichnen. Die Ausgabe muss auch erfolgen, wenn Nutzereingaben vorgenommen wurden, die den Plazuhaltertext ersetzen. Vergl. hierzu aber Prüfschritt 11.3.3.2 "Beschriftungen von Formularelementen vorhanden" (fie wird doe permanente Sichtbarkeit einer Beschriftung gefordert).
+
 === 4. Bewertung
 
 ==== Nicht erfüllt:
 
-* Beschriftungen sind nicht korrekt mit den dazugehörigen Eingabefeldern verknüpft.
+* Bei Eingabefeldern wird nicht die Beschriftung ausgegeben.
 
 == Einordnung des Prüfschritts
 
