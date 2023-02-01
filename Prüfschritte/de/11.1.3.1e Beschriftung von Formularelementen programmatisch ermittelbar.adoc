@@ -9,7 +9,7 @@ include::include/attributes.adoc[]
 Beschriftungen von Eingabefeldern sollen programmatisch (d.h. über die entsprechende Auszeichnung im Code) verfügbar sein.
 
 == Warum wird das geprüft?
-Wenn Appps Eingabefelder verwenden, müssen diese nicht nut viosuell beschriftet sein. Für Screenreader-Nutzende ist es wichtig, dass das Label programmatisch verfügbar ist Eingabefeld ind label sollten dafür im besten Fall nur einmal fokussiert werden. Das funktioniert, denn das Feld eine programmatische Beschriftung enthält die dem visuellen Label entspricht. Der Screenreader liest die jeweileige Feld-Beschriftung vor, wenn der Benutzer durch die Formularelemente navigiert.
+Wenn Apps Eingabefelder verwenden, müssen diese nicht nut viosuell beschriftet sein. Für Screenreader-Nutzende ist es wichtig, dass das Label programmatisch verfügbar ist Eingabefeld ind label sollten dafür im besten Fall nur einmal fokussiert werden. Das funktioniert, denn das Feld eine programmatische Beschriftung enthält die dem visuellen Label entspricht. Der Screenreader liest die jeweileige Feld-Beschriftung vor, wenn der Benutzer durch die Formularelemente navigiert.
 
 Wenn Gruppen von Formularelementen eine Überschrift haben, sollte diese in der linearen Navigation über horizontale Wischgesten vor den Formularelementen fokussiert werden und muss programmatisch zugänglich sein (siehe auch 3. Hinweise).
 
