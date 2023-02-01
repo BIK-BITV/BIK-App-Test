@@ -10,7 +10,7 @@ Beschriftungen sollen programmatisch (d.h. über die entsprechende Auszeichnung 
 
 Visuell voneinander abgesetzte Gruppen von Formularelementen sind z. B. mithilfe von Überschriften sinnvoll strukturiert.
 
-Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte die Verfügbarkeit sichergestellt werden.
+Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte deren programmatische Verfügbarkeit sichergestellt werden.
 
 == Warum wird das geprüft?
 
