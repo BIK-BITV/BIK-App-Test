@@ -6,12 +6,12 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Beschriftungen von Eingabefeldern sollen programmatisch (d.h. über die entsprechende Auszeichnung im Code) verfügbar sein.
+Beschriftungen von Formularelementen (z.B. Eingabefelder, Checkboxen oder Auswahlschalter) müssen programmatisch verfügbar sein.
 
 == Warum wird das geprüft?
-Wenn Apps Eingabefelder verwenden, müssen diese nicht nut viosuell beschriftet sein. Für Screenreader-Nutzende ist es wichtig, dass das Label programmatisch verfügbar ist Eingabefeld ind label sollten dafür im besten Fall nur einmal fokussiert werden. Das funktioniert, denn das Feld eine programmatische Beschriftung enthält die dem visuellen Label entspricht. Der Screenreader liest die jeweileige Feld-Beschriftung vor, wenn der Benutzer durch die Formularelemente navigiert.
+Wenn Apps Formularelemente verwenden, tragen diese in der Regel eine visuelle Beschriftung, die Nutzwenden sagt, was hier eingetragen werden soll. Für Hilfsmittelnutzende muss diese Beschriftung auch nicht-visuell, also programmatisch, ermittelbar sein. Eingabefeld und Beschriftung sollten bei Wischgesten-Bedienung mit aktiviertem Screenreader im besten Fall nur ein Fokuspunkt sein. Der Screenreader liest dann bei Fokussierung des Eingabefeldes die hinterlegte oder verknüpfte Feld-Beschriftung vor.
 
-Wenn Gruppen von Formularelementen eine Überschrift haben, sollte diese in der linearen Navigation über horizontale Wischgesten vor den Formularelementen fokussiert werden und muss programmatisch zugänglich sein (siehe auch 3. Hinweise).
+Wenn Gruppen von Formularelementen eine Überschrift haben, sollte diese in der linearen Navigation über horizontale Wischgesten vor den Formularelementen fokussiert werden und muss programmatisch zugänglich sein, also vom Screenreader ausgegeben werden (siehe auch 3. Hinweise).
 
 == Wie wird geprüft?
 
@@ -22,8 +22,8 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Formularelemente enthält.
 === 2. Prüfung
 
 . App mit der zu prüfenden Ansicht öffnen.
-. Screenreader starten und mit Hilfe der Wischgeste durch die Ansicht navigieren.
-. Prüfen, ob die Feld-Beschriftungen und (wenn vorhanden) Gruppenbeschriftungen korrekt ausgegeben werden.
+. Screenreader starten und mit Hilfe der horizontalen Wischgeste durch die Ansicht navigieren.
+. Prüfen, ob bei Fokussierung von Feldern oder anderen Formularelementen die Feld-Beschriftungen und (wenn vorhanden) Gruppenbeschriftungen korrekt ausgegeben werden.
 
 === 3. Hinweise
 
