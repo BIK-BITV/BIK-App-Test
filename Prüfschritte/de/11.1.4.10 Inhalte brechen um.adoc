@@ -6,9 +6,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Inhalte sollen bei einer Viewport-Breite von 320 CSS Pixeln so angezeigt werden, dass alle Informationen und Funktionen verfügbar sind, ohne dass Nutzer horizontal scrollen müssen.  Die Inhalte mobiler Aps sind meist standardmäßig für die Ansicht im Hochkantformat optimiert, auch wenn die heute verbreiteten Mobilgeräte meist einen größere Viewportbreite als 320 px haben. Damit ist dieser Prüfschritt in der Regel erfüllt. 
+Inhalte sollen bei einer Viewport-Breite von 320 CSS Pixeln so angezeigt werden, dass alle Informationen und Funktionen verfügbar sind, ohne dass Nutzer horizontal scrollen müssen. Die Inhalte mobiler Aps sind meist standardmäßig für die Ansicht im Hochkant-Format optimiert, auch wenn die heute verbreiteten Mobilgeräte meist einen größere Viewportbreite als 320 px haben. Damit ist dieser Prüfschritt in der Regel erfüllt. 
 
-Native Apps, auch die gängigen Browser, verfügen in der Regel nicht über die Möglichkeit, innerhalb der App die Textgröße zu ändern, wie dies über die Zoom-Funktion in Desktop-Browsern geschieht und damit oft den Umburch in eine andere Darstellung auslöst. Manche Apps zeigen einen anderen Umbruch der Inhalte, wenn das Gerät ins Querformat gedreht wird oder wenn die App auf einem Tablet mit größerer Viewportbreite angezeigt wird. Aus dem normativen Text ist jedoch keine Verpflichtung abzuleiten, dass für größere Viewportbreiten eine an diese angepasste Ansicht geboten werden muss.
+Native Apps, auch die gängigen Browser, verfügen in der Regel nicht über die Möglichkeit, innerhalb der App die Textgröße zu ändern, wie dies über die Zoom-Funktion in Desktop-Browsern geschieht. Dort führt das Hineinzoomen bei responsiven Sites zum Umburch in eine andere Darstellung. Manche Apps zeigen einen anderen Umbruch der Inhalte, wenn das Gerät ins Querformat gedreht wird oder wenn die App auf einem Tablet mit größerer Viewportbreite angezeigt wird. Aus dem normativen Text ist jedoch keine Verpflichtung abzuleiten, dass für größere Viewportbreiten eine an diese angepasste Ansicht geboten werden muss.
 
 Ausnahmen von die Anforderung, dass Informationen und Funktionen innerhalb der Viewportbreite vpn 320px verfügbar sind, gibt es für Inhalte, für deren Nutzung ein zweidimensionales Layout erforderlich ist und die ggf. auf Viewportbreite verkleinert nicht sinnvoll nutzbar sind, z.B.:
 
@@ -22,9 +22,6 @@ Ausnahmen von die Anforderung, dass Informationen und Funktionen innerhalb der V
 * Anwendungs-Schnittstellen, in denen die Bearbeitung von Inhalten die permanente Verfügbarkeit von
 Werkzeugleisten erfordert.
 
-*Hinweis:* Dieser Prüfschritt beschränkt sich auf Inhalte, deren primäre Schreibrichtung waagerecht ist, wie bei der für die meisten westlichen
-Sprachen benutzten lateinischen Schrift. Die zugrunde liegende WCAG-Anforderung gilt in ähnlicher Weise für Inhalte mit vertikaler Schreibrichtung.
-
 == Warum wird das geprüft?
 
 Bei mobilen Apps wird mit Systemfunktionen der Bildschirmausschnitt vergrößert, hierbei wird jedoch Text nicht umgebrochen und der Prüfschritt
@@ -34,7 +31,7 @@ ist so nicht anwendbar. Falls das System eine Nur-Text-Vergrößerung anbietet, 
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software anwendbar. Wie dies jedoch umgesetzt werden soll, ist unklar. Ggf. gibt es in zukünftigen Versionen der mobilen Betriebssysteme eine entsprechende Bedienungshilfe zum Umbrechen von Text, die ein- und ausgeschaltet werden kann. Dann müssen Apps diese Systemschnittstelle unterstützen.
+Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit für mobile Apps anwendbar. In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind, auch wenn sie nicht "umbrechen". Die Prüfung beschränkt sich somit auf Inhalte, die nicht in den Hochkant-Viewport passen (der in der Regel bei verfügbaren aktuellen Testgeräten breiter ist als die 320 CSS-Pixel der normativen Anforderung).
 
 === 2. Prüfung
 
@@ -47,12 +44,22 @@ https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zur diesem
 Prüfschritt erstellen.
 
 === 3. Hinweise
-Falls für die Prüfung kein älteres Gerät mit 320 CSS Pixeln Viewportbreite zur Verfügung steht, wird auf einem gängigen Gerät mit etwas größerer Viewportbreite getestet (etwa ein iPhone 13 min oder ein Samsung Galaxy A12, beide mit it 360 CSS Pixeln).
+
+==== 3.1 Praktische Aspekte der Prüfung: Geräte
+Oft wird für die Prüfung kein Gerät mit 320 CSS Pixeln Viewportbreite und aktuellem Betriebssystem zur Verfügung stehen. Deshalb ist es unvermeidlich, auf einem gängigen Gerät mit etwas größerer Viewportbreite zu testen (etwa ein iPhone 13 min oder ein Samsung Galaxy A12, beide mit 360 CSS Pixeln Viewport-Breite).
+
+==== 3.2 Apps mit Größen-Einstellungen für Inhalte
+Falls Apps selbst Einstellungen zum Vergrößern der Inhalte bieten, sollte der Umbruch funktionieren. Dies ist jedoch kaum anzutreffen. Der Dolphin-Browsxer unter Android bildet eine Ausnahme. Unklar ist jedoch, was für ein Vergrößerungsfaktor bei eine, ohnehin schmalen Display noch realistisch ist. Dies würde von der Ausgangsgröße der Inhalte abhängen. 
+
+==== 3.3 Lese- und Schreibrichtung
+Dieser Prüfschritt beschränkt sich auf Inhalte, deren primäre Schreibrichtung waagerecht ist, wie bei der für die meisten westlichen
+Sprachen benutzten lateinischen Schrift. Die zugrunde liegende WCAG-Anforderung gilt in ähnlicher Weise für Inhalte mit vertikaler Schreibrichtung.
 
 === 4. Bewertung
 ==== Nicht erfüllt
-Es gibt Inhalte, die nicht unter die Ausnahmen fallen und nicht in den Viewport von 320px (ersatzweise 360 Pixel) passen.
-Es gibt Inhalte, die unter die Ausnahmen fallen, nicht in den Viewport von 320px (ersatzweise 360 Pixel) passen, und sich nicht in den Viewport bewegen lassen.
+
+* Es gibt Inhalte, die nicht unter die Ausnahmen fallen und nicht in den Viewport von 320px (ersatzweise 360 Pixel) passen.
+* Es gibt Inhalte, die unter die Ausnahmen fallen und nicht in den Viewport von 320px (ersatzweise 360 Pixel) passen, und deren abgeschnittene Inhalte sich nicht in den Viewport bewegen lassen.
 
 == Quellen
 
