@@ -42,7 +42,7 @@ In manchen Fällen gibt es für Gruppen von Bedienelementen (z.B. eine Gruppe vo
 
 ==== Programmatische Verknüpfung von Label und Formularelment
 
-In der Praxis kommt es immer wieder vor, dass Label und dessen Bedienelement getrennt voneinander vorgelesen werden. Dies ist meist dann der Fall, wenn Bedienelement und Label keine programmatische Verbindung haben. Um die Verbindung programmatisch herzustellen, bieten die Plattformen unterschiedliche Mögglichkeiten an.
+In der Praxis kommt es immer wieder vor, dass Label und dessen Bedienelement getrennt voneinander vorgelesen werden. Dies ist meist dann der Fall, wenn Bedienelement und Label keine programmatische Verbindung haben bzw. nicht gruppiert wurden. Um die Verbindung programmatisch herzustellen, bieten die Plattformen unterschiedliche Mögglichkeiten an.
 Bei iOS / iPadOS können diese Elemente
 https://developer.apple.com/documentation/uikit/accessibility/delivering_an_exceptional_accessibility_experience#3542986[
 gruppiert werden], sodass sie für den Screenreader als eine Einheit agieren.
