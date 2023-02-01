@@ -27,7 +27,7 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Formularelemente enthält.
 
 === 3. Hinweise
 
-==== Kombinierte Eingabeelemente
+==== 3.1 Kombinierte Eingabeelemente
 
 Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einer passenden (nicht sichtbaren)
 Bezeichnung für Screenreader versehen werden. Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr).
@@ -37,10 +37,10 @@ Diese Bezeichnungen sind dann nur von der Hilfstechnologie auswertbar, die entsp
 Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen"). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen eine aussagekräftige (nicht sichtbare) Bezeichnung für den Screenreader
 haben, da für Screenreader-Nutzende der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
 
-==== Gruppenbeschriftungen
+==== 3.2 Gruppenbeschriftungen
 In manchen Fällen gibt es für Gruppen von Bedienelementen (z.B. eine Gruppe von Radio-Inputs oder Checkboxen, bei iOS als Schalter umgesetzt) eine Gruppenüberschrift, die zum Verständnis der Einzel-Beschriftungen wichtig sein kann. Solche Gruppenüberschriften lassen sich in nativen Umgebungen nicht auf die gleiche Weise umsetzen, wie dies in HTML über das `fieldset/legend` Konstrukt möglich ist. Die Gruppenbeschriftung in Apps muss in der Lesereihenfolge direkt vor der Gruppe stehen und im normalen Navigationsmodus über horizontale Wischgesten programmatisch ausgegeben werden (vergl. Prüfschritte 11.1.3.1c Text programmatisch verfügbar 11.1.3.2 Sinnvolle Reihenfolge). Ist sie visuell eine Überschrift, sollte sie auch als Überschrift ausgezeichnet sein (vergl. Prüfschritt 11.1.3.1a Überschriften). Es ist nicht erforderlich, dass im Navigationmodus über Elemente (etwa "Steuerelemente" unter Android) bei Fokussierung der Steuerelemente in der Gruppe die Gruppenbeschriftung mit ausgegeben wird, da sich dies nicht in gleicher Weise dynamisch umsetzen lässt wie in HTML. Die Alternative, der Einschluss der Gruppenbeschriftung in jede Einzelbeschriftung, wäre zwar möglich, aber auch sehr redundant und dadurch störend, auch weil das unterscheidende Element erst der ggf. längeren, immer gleichen Gruppenbeschriftug ausgegeben würde.
 
-==== Programmatische Verknüpfung von Label und Formularelment
+==== 3.3 Programmatische Verknüpfung von Label und Formularelment
 
 In der Praxis kommt es immer wieder vor, dass Label und dessen Bedienelement getrennt voneinander vorgelesen werden. Dies ist meist dann der Fall, wenn Bedienelement und Label keine programmatische Verbindung haben bzw. nicht gruppiert wurden. Um die Verbindung programmatisch herzustellen, bieten die Plattformen unterschiedliche Mögglichkeiten an.
 Bei iOS / iPadOS können diese Elemente
