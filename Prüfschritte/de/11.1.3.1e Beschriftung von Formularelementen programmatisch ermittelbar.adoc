@@ -89,6 +89,9 @@ geprüft.
   labels to maximize predictability of relationships]
 
 == Quellen
+* https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/labelling-form-controls/[Allgemeine Informationen der BBC, 
+Accessibility for Products: Labeling form controls]
+
 === iOS
 * https://developer.apple.com/documentation/uikit/accessibility/delivering_an_exceptional_accessibility_experience#3542986[
   Apple Developer Documentation: Group Labels]
@@ -98,4 +101,4 @@ geprüft.
 * https://developer.android.com/guide/topics/ui/accessibility/custom-views[
 Android Developers: Make custom views more accessible]
 * https://developer.android.com/guide/topics/ui/accessibility/principles[Android Developers: Principles for improving app accessibility]
-* https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/labelling-form-controls/[Allgemeine Informationen der BBC Mobile Accessibility Guidelines: Labeling form controls] (sehr gut lesbare Beschreibung)
+
