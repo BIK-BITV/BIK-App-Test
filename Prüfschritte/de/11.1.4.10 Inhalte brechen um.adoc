@@ -49,7 +49,7 @@ Prüfschritt erstellen.
 Oft wird für die Prüfung kein Gerät mit 320 CSS Pixeln Viewportbreite und aktuellem Betriebssystem zur Verfügung stehen. Deshalb ist es unvermeidlich, auf einem gängigen Gerät mit etwas größerer Viewportbreite zu testen (etwa ein iPhone 13 min oder ein Samsung Galaxy A12, beide mit 360 CSS Pixeln Viewport-Breite).
 
 ==== 3.2 Apps mit Größen-Einstellungen für Inhalte
-Falls Apps selbst Einstellungen zum Vergrößern der Inhalte bieten, sollte der Umbruch funktionieren. Dies ist jedoch kaum anzutreffen. Der Dolphin-Browsxer unter Android bildet eine Ausnahme. Unklar ist jedoch, was für ein Vergrößerungsfaktor bei eine, ohnehin schmalen Display noch realistisch ist. Dies würde von der Ausgangsgröße der Inhalte abhängen. 
+Falls Apps selbst Einstellungen zum Vergrößern der Inhalte bieten, sollte der Umbruch funktionieren. Dies ist jedoch kaum anzutreffen. Der Dolphin-Browser (Android) bildet eine Ausnahme. Unklar ist jedoch, was für ein Vergrößerungsfaktor bei einem ohnehin schmalen Display noch realistisch ist. Dies würde von der Ausgangsgröße der Inhalte abhängen. 
 
 ==== 3.3 Lese- und Schreibrichtung
 Dieser Prüfschritt beschränkt sich auf Inhalte, deren primäre Schreibrichtung waagerecht ist, wie bei der für die meisten westlichen
