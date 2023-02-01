@@ -47,7 +47,7 @@ Bei Android gibt es dazu https://developer.android.com/guide/topics/ui/accessibi
 vergleichbare Ansätze].
 
 ==== 3.4. Platzhaltertexte
-Sind Eingabefelder programmatisch nur über Platzhaltertexte beschriftet, muss die programmatische Beschriftung das Feld verständlich bezeichnen. Die Ausgabe muss auch erfolgen, wenn Nutzereingaben vorgenommen wurden, die den Plazuhaltertext ersetzen. Vergl. hierzu aber Prüfschritt 11.3.3.2 "Beschriftungen von Formularelementen vorhanden" (fie wird doe permanente Sichtbarkeit einer Beschriftung gefordert).
+Sind Eingabefelder nur über Platzhaltertexte beschriftet, muss die programmatische Beschriftung das Feld verständlich bezeichnen. Die Ausgabe muss auch noch erfolgen, wenn Nutzereingaben vorgenommen wurden, die den visuellen Platzhaltertext ersetzen. Vergl. hierzu auch Prüfschritt 11.3.3.2 "Beschriftungen von Formularelementen vorhanden" (hier wird die permanente Sichtbarkeit der Beschriftung gefordert).
 
 === 4. Bewertung
 
