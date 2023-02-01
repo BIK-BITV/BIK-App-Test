@@ -11,7 +11,7 @@ Beschriftungen von Eingabefeldern sollen programmatisch (d.h. über die entsprec
 == Warum wird das geprüft?
 Wenn Appps Eingabefelder verwenden, müssen diese nicht nut viosuell beschriftet sein. Für Screenreader-Nutzende ist es wichtig, dass das Label programmatisch verfügbar ist Eingabefeld ind label sollten dafür im besten Fall nur einmal fokussiert werden. Das funktioniert, denn das Feld eine programmatische Beschriftung enthält die dem visuellen Label entspricht. Der Screenreader liest die jeweileige Feld-Beschriftung vor, wenn der Benutzer durch die Formularelemente navigiert.
 
-Wenn Gruppen von Formularelementen eine Überschrift haben, sollte diese in der linearen navigation übe rhorizontale Wischgesten vo den Formularelementen fokussiert werden und muss programmatisch zugänglich sein (siehe auch 3. Hinweise).
+Wenn Gruppen von Formularelementen eine Überschrift haben, sollte diese in der linearen Navigation über horizontale Wischgesten vor den Formularelementen fokussiert werden und muss programmatisch zugänglich sein (siehe auch 3. Hinweise).
 
 == Wie wird geprüft?
 
@@ -50,6 +50,8 @@ vergleichbare Ansätze].
 Sind Eingabefelder nur über Platzhaltertexte beschriftet, muss die programmatische Beschriftung das Feld verständlich bezeichnen. Die Ausgabe muss auch noch erfolgen, wenn Nutzereingaben vorgenommen wurden, die den visuellen Platzhaltertext ersetzen. Vergl. hierzu auch Prüfschritt 11.3.3.2 "Beschriftungen von Formularelementen vorhanden" (hier wird die permanente Sichtbarkeit der Beschriftung gefordert).
 
 === 4. Bewertung
+==== Eher erfüllt:
+* Bei linearer Wischgesten-Navigation wird die sichtbare Beschriftung vor dem Eingabefeld ausgegeben, beide sind jedoch nicht gruppiert (es gibt zwei Fokuspunkte, auf der Beschriftung und auf dem Formularelement).
 
 ==== Nicht erfüllt:
 
