@@ -10,8 +10,7 @@ include::include/attributes.adoc[]
 
 == Warum wird das geprüft?
 
-Ausschließlich über Farben vermittelte Informationen sind für blinde Nutzende nicht zugänglich. Auch farbfehlsichtige Nutzende, die unter Umständen mit eigenen Farbschemata
-arbeiten, können Farben nicht oder nur eingeschränkt identifizieren und unterscheiden.
+Ausschließlich über Farben vermittelte Informationen sind für blinde Nutzende nicht zugänglich. Auch farbfehlsichtige Nutzende können Farben nicht oder nur eingeschränkt identifizieren und unterscheiden.
 
 == Wie wird geprüft?
 
