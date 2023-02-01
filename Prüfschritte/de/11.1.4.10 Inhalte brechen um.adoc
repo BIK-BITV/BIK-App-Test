@@ -24,20 +24,21 @@ Werkzeugleisten erfordert.
 
 == Warum wird das geprüft?
 
-Bei mobilen Apps wird mit Systemfunktionen der Bildschirmausschnitt vergrößert, hierbei wird jedoch Text nicht umgebrochen und der Prüfschritt
-ist so nicht anwendbar. Falls das System eine Nur-Text-Vergrößerung anbietet, sollte der Text in der Anwendung korrekt umbrechen.
+Im Kontext von Desktop-Browsern hilft die Anforderung sehbehinderten Nutzern, die eine vergrößerte Darstellung brauchen und deshalb über den Desktop-Browser-Zoom die Inhalte vergrößern. Dadurch kommt es häufig zu einem Umbruch in eine einspaltige Ansicht bei der normativ festgelegten CSS Viewport-Breite von 320 Pixeln (beim Vergrößern veringert sich schrittweise die ausgegebene Breite in CSS-Pixeln). In der Desktop-Zoom-Ansicht sind Texte meist deutlich größer und für sehbehinderte Nutzende zum Teil nun erst lesbar. Im Kontext mobiler Apps mit meist ohnehin viel kleinerem Display kommen eher systemseitige Methoden der Textvergrößerung zum Tragen, so die Einstellung größerer Schrift, die sich auf die Darstellung auswirkt, wenn Entwickler in der App dynamische Fonts verwenden, und die Bedienungshilfe Zuum oder Vergrößerung (Android) bzw. Zoom (iOS) die nicht zu einem Umbruch führt. 
+
+Werden Apps auf Tablets mit größeren Viewport-Breiten angezeigt, wäre die Zoomvergrößerung hier ebenso hilfreich wie auf dem Desktop, wird aber von mobilen Browsern und nativen Apps zurzeit kaum angeboten.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit für mobile Apps anwendbar. In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind, auch wenn sie nicht "umbrechen". Die Prüfung beschränkt sich somit auf Inhalte, die nicht in den Hochkant-Viewport passen (der in der Regel bei verfügbaren aktuellen Testgeräten breiter ist als die 320 CSS-Pixel der normativen Anforderung).
+Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit für mobile Apps anwendbar. In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind, auch wenn sie nicht "umbrechen". Die Prüfung beschränkt sich somit auf Inhalte, die nicht in den Hochkant-Viewport passen (der in der Regel bei verfügbaren aktuellen Testgeräten breiter ist als die 320 CSS-Pixel der normativen Anforderung), und auf mögliche Ausnahmen von Apps, die selbst eine Zoomfunktion implementieren.
 
 === 2. Prüfung
 
 . Gibt es in der App Inhalte, die bei 320px Viewportbreite nicht in den Viewport passen und als Ausnahme gelten können? Falls ja, lassen sich die Inhalte horizontal in den Viewport verschieben, etwa über scrollbare Bereiche oder zugängliche Pfeiltasten?
 . Gibt es in der App Inhalte, die bei 320px Viewportbreite nicht in den Viewport passen und nicht unter die Ausnahmen fallen?
-. Stellt die Apps Elemente oder Einstellungen für die Zoom-Vergrößerung von Inhalten bereit? Falls ja, die App auf einem Display mit größerer Viewport-Breite laden (auf einem Tablet oder im Querformat des Smartphones) und Zoom-Vergrößerung aktivieren. Falls sich Inhalte an den breiteren Display anpassen, also seine Breite für ein anderes Layout ausnutzen, sollten sie bei einer über Zoom-Vergrößerung erreichten Viewportbreite von 320 Pixeln umbrechen.
+. Stellt die App Elemente oder Einstellungen für die Zoom-Vergrößerung von Inhalten bereit? Falls ja, die App auf einem Display mit größerer Viewport-Breite laden (auf einem Tablet oder im Querformat des Smartphones) und Zoom-Vergrößerung aktivieren. Falls sich Inhalte an den breiteren Display anpassen, also seine Breite für ein anderes Layout ausnutzen, sollten sie bei einer über Zoom-Vergrößerung erreichten Viewportbreite von 320 Pixeln umbrechen. Alle Inhalte und Funktionen sollten dann weiter nutzbar sein.
 
 Für Hinweise zur Prüfpraxis können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zur diesem
