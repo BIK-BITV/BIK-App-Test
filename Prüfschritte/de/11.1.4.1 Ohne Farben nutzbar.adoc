@@ -134,18 +134,3 @@ Gleiches gilt für die Kennzeichnung der aktuellen Menüposition: Wird die aktue
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F81.html[F81: Failure of
   Success Criterion 1.4.1 due to identifying required or error fields using
   color differences only]
-
-
-== Fragen zu diesem Prüfschritt
-
-=== Besuchte Links
-
-Häufig werden besuchte Links in einer anderen Farbe dargestellt. Fällt das auch unter diesen Prüfschritt?
-
-Die Unterscheidung besuchter und nicht besuchter Links ist hilfreich. Der Benutzer kann gleich sehen, welche Seiten er schon besucht hat.
-Ideal wäre es daher, wenn besuchte Links zum Beispiel zusätzlich durch eine andere Unterstreichung markiert würden.
-
-Aber die verfügbaren Gestaltungsmöglichkeiten sind begrenzt. Und zu viele unterschiedliche Kennzeichnungen von Links können auch
-Verwirrung stiften.
-
-In diesem Prüfschritt des BITV-Tests wird die Kennzeichnung besuchter Links nicht berücksichtigt, sie ist für die Bewertung nicht relevant.
