@@ -95,6 +95,7 @@ geprüft.
 * https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[iOS accessibilityLabel] 
 
 === Android
-* https://developer.android.com/guide/topics/ui/accessibility/custom-views[Make custom views more accessible]
+* https://developer.android.com/guide/topics/ui/accessibility/custom-views[
+Android Developers: Make custom views more accessible]
 * https://developer.android.com/guide/topics/ui/accessibility/principles[Android Developers: Principles for improving app accessibility]
 * https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/labelling-form-controls/[Allgemeine Informationen der BBC Mobile Accessibility Guidelines: Labeling form controls] (sehr gut lesbare Beschreibung)
