@@ -75,8 +75,7 @@ Für Fließtext-Links gilt ein deutlicher Kontrast (mindestens 3,0:1) der Linkfa
 
 ==== Abgrenzung zum Prüfschritt 11.1.3.3 "Ohne Bezug auf sensoriesche Merkmale nutzbar"
 
-In diesem Prüfschritt geht es nicht um die Prüfung von Verweisen auf
-Seiteninhalte mit Hilfe der Angabe von Farben.
+In diesem Prüfschritt geht es nicht um die Prüfung von Verweisen auf Seiteninhalte mit Hilfe der Angabe von Farben.
 Die sinnesunabhängige Bereitstellung von Verweisen auf Inhalte wird im
 Prüfschritt
 ifdef::env_embedded[11.1.3.3 "Ohne Bezug auf sensorische Merkmale nutzbar"]
@@ -90,10 +89,10 @@ geprüft.
 
 In diesem Prüfschritt 1.4.1a geht es um die Farbunabhängigkeit vorhandener UI-Elemente.
 
-Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Text nur durch die Farbe (und nicht zusätzlich durch Unterstreichung, Fettung oder vorangestellte Markierung) gekennzeichnet sind.
-Wenn Links im Text überhaupt nicht gekennzeichnet sind, ist dies zwar nicht nutzerfreundlich, aber wird in diesem Prüfschritt nicht negativ bewertet.
+Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Fließext nur durch die Farbe (und nicht zusätzlich durch Unterstreichung, Fettung oder vorangestellte Markierung) gekennzeichnet sind und der Kontrastunterschied zum umgebenden Test weinger als 3:1 beträgt.
+Wenn Links im Text überhaupt nicht gekennzeichnet sind, ist dies ein Problem für alle Nutzenden und keines der mangelnden Barrierefreiheit. Deshalb wird dies hier nicht negativ bewertet.
 
-Entsprechend bei der Kennzeichnung der aktuellen Menüposition: Wird die aktuelle Position überhaupt nicht anzeigt, verstößt dies noch nicht gegen diesen Prüfschritt 11.1.4.1.
+Gleiches gilt für die Kennzeichnung der aktuellen Menüposition: Wird die aktuelle Position überhaupt nicht anzeigt, ist dies kein Fehler in diesem Prüfschritt.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -136,47 +135,6 @@ Entsprechend bei der Kennzeichnung der aktuellen Menüposition: Wird die aktuell
   Success Criterion 1.4.1 due to identifying required or error fields using
   color differences only]
 
-== Quellen
-
-=== Use of Color: Understanding SC 1.4.1
-
-[.BLOCK_LANG_EN]
---
-The intent of this Success Criterion is to ensure that all users can access
-information that is conveyed by color differences, that is, by the use of
-color where each color has a meaning assigned to it.
-If the information is conveyed through color differences in an image (or other
-non-text format), the color may not be seen by users with color deficiencies.
-In this case, providing the information conveyed with color through another
-visual means ensures users who cannot see color can still perceive the
-information.
-
-Color is an important asset in design of Web content, enhancing its aesthetic
-appeal, its usability, and its accessibility.
-However, some users have difficulty perceiving color.
-People with partial sight often experience limited color vision, and many
-older users do not see color well.
-In addition, people using text-only, limited-color or monochrome displays and
-browsers will be unable to access information that is presented only in color.
-
-Examples of information conveyed by color differences:
-
-* "required fields are red"
-* "error is shown in red"
-* "Mary's sales are in red, Tom's are in blue"
-
-Examples of indications of an action include:
-using color to indicate that a link will open in a new window or that a
-database entry has been updated successfully.
-An example of prompting a response would be:
-using highlighting on form fields to indicate that a required field had been
-left blank.
-
-Note: This should not in any way discourage the use of color on a page, or
-even color coding if it is redundant with other visual indication.
---
-
-Quelle: https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html
 
 == Fragen zu diesem Prüfschritt
 
