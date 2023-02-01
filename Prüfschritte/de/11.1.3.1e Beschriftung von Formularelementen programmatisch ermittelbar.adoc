@@ -6,11 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Beschriftungen sollen programmatisch (d.h. über die entsprechende Auszeichnung im Code) mit den zugehörigen Eingabefeldern verknüpft sein.
-
-Visuell voneinander abgesetzte Gruppen von Formularelementen sind z. B. mithilfe von Überschriften sinnvoll strukturiert.
-
-Ist bei Gruppen von Formularelementen eine Gruppenbeschriftung für das Verständnis der Beschriftung der einzelnen Formularelemente nötig, sollte deren programmatische Verfügbarkeit sichergestellt werden.
+Beschriftungen von Eingabefeldern sollen programmatisch (d.h. über die entsprechende Auszeichnung im Code) verfügbar sein.
 
 == Warum wird das geprüft?
 
