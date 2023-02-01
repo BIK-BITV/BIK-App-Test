@@ -29,10 +29,7 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Formularelemente enthält.
 
 ==== 3.1 Kombinierte Eingabeelemente
 
-Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einer passenden (nicht sichtbaren)
-Bezeichnung für Screenreader versehen werden. Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr).
-Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einer erklärenden Bezeichnung für Screenreader versehen.
-Diese Bezeichnungen sind dann nur von der Hilfstechnologie auswertbar, die entsprechenden Bezeichnungen sind in manchen Fällen nicht sichtbar.
+Bei kombinierten Eingabeelementen hat nicht immer jedes Formularelement eine zugeordnete Beschriftung. In diesem Fall sollen Elemente mit einer passenden (nicht notwendiger Weise sichtbaren) Bezeichnung für Screenreader versehen werden. Beispiel: In einem Formular werden für die Eingabe eines Datums drei Auswahllisten angeboten (Tag, Monat und Jahr). Die drei Auswahllisten haben eine gemeinsame Beschriftung: Datum. Die Auswahllisten für Tag, Monat und Jahr sind mit einer erklärenden Bezeichnung für Screenreader versehen. Diese Bezeichnungen sind dann nur von der Hilfstechnologie auswertbar.
 
 Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button besteht, ist oftmals keine sichtbare Beschriftung notwendig. Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen"). Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen eine aussagekräftige (nicht sichtbare) Bezeichnung für den Screenreader
 haben, da für Screenreader-Nutzende der nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
