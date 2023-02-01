@@ -28,7 +28,7 @@ Bei Apps soll die programmatische und durch den Screenreader ausgegebene Element
 . Prüfen, ob die Reihenfolge, in der die Elemente fokussiert und durch den Screenreader ausgegeben werden, sinnvoll und im Wesentlichen der visuellen Reihenfolge entspricht.
 
 === 3. Hinweise
-Bei interaktiven Widgets wie der Reiternavigation (Tableiste am unteren oder oberen Bildschirmrand) gibt es unterschiedliche Konventionen bezüglich der Fokusversetzung in den jeweils eingeblendeten Inhaltsbereich, die damit auch die Lesereihenfolge prägen.
+Bei der Reiternavigation (Tableiste am unteren oder oberen Bildschirmrand) gibt es unterschiedliche Konventionen bezüglich der Fokusversetzung in den Inhaltsbereich bei Aktivierung, die damit auch die Lesereihenfolge prägen.
 
 * Der Fokus bleibt auf dem Tab, der Inhaltsbereich kann über horizontale Wischgesten (oder Screenreader-Navigationsgesten) erreicht werden.
 * Der Fokus bewegt sich nur innerhalb der Tableiste, und muss über Berührung des Displays oder Screenreader-Navigationsgesten in den Inhaltsbereich versetzt werden.
