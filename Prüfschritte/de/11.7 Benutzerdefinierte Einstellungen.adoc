@@ -21,7 +21,7 @@ Im Einzelnen sind dies:
 * Schriftgrößen
 * Darstellung des Fokuscursors
 
-Die App kann darüberhinaus eigene Werte für diese Einstellungen anbieten,
+Die App kann darüber hinaus eigene Werte für diese Einstellungen anbieten,
 die systemweiten Einstellungen müssen jedoch voreingestellt sein.
 
 == Wie wird geprüft?
