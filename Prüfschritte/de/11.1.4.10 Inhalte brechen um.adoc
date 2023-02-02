@@ -32,13 +32,16 @@ Werden Apps auf Tablets mit größeren Viewport-Breiten angezeigt, wäre die Zoo
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit für mobile Apps anwendbar. In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind, auch wenn sie nicht "umbrechen". Die Prüfung beschränkt sich somit auf Inhalte, die nicht in den Hochkant-Viewport passen (der in der Regel bei verfügbaren aktuellen Testgeräten breiter ist als die 320 CSS-Pixel der normativen Anforderung), und auf mögliche Ausnahmen von Apps, die selbst eine Zoomfunktion implementieren.
+Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit für mobile Apps anwendbar. In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind, auch wenn sie nicht "umbrechen". 
+
+Die Prüfung ist somit beschränkt auf Apps, die ein Layout für breitere Viewports, z.B. Tablets anbieten *und* außerdem eine Zoomfunktion implementieren.
 
 === 2. Prüfung
 
-. Gibt es in der App Inhalte, die bei 320px Viewportbreite nicht in den Viewport passen und als Ausnahme gelten können? Falls ja, lassen sich die Inhalte horizontal in den Viewport verschieben, etwa über scrollbare Bereiche oder zugängliche Pfeiltasten?
-. Gibt es in der App Inhalte, die bei 320px Viewportbreite nicht in den Viewport passen und nicht unter die Ausnahmen fallen?
-. Stellt die App Elemente oder Einstellungen für die Zoom-Vergrößerung von Inhalten bereit? Falls ja, die App auf einem Display mit größerer Viewport-Breite laden (auf einem Tablet oder im Querformat des Smartphones) und Zoom-Vergrößerung aktivieren. Falls sich Inhalte an den breiteren Display anpassen, also seine Breite für ein anderes Layout ausnutzen, sollten sie bei einer über Zoom-Vergrößerung erreichten Viewportbreite von 320 Pixeln umbrechen. Alle Inhalte und Funktionen sollten dann weiter nutzbar sein.
+. Hat die App eine Zoomfunktion?
+. Stellt sie Inhlate auf geräten mit breiteren Viewports in einem anderen Layout dar als auf Smartphones im Hochkant-Format?
+. Falls beides zutrifft, die Inhlate soweit vergrößern bis näherungsweise eine Viewport-Breite von 320 px erreicht ist.
+. Gibt es in der App Informationen oder Funktionen, die nun nicht mehr verfügbar sind oder abgeschnitten werden und die nicht unter die Ausnahmen fallen?
 
 Für Hinweise zur Prüfpraxis können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zur diesem
@@ -47,7 +50,8 @@ Prüfschritt erstellen.
 === 3. Hinweise
 
 ==== 3.1 Praktische Aspekte der Prüfung: Geräte
-Oft wird für die Prüfung kein Gerät mit 320 CSS Pixeln Viewportbreite und aktuellem Betriebssystem zur Verfügung stehen. Deshalb ist es unvermeidlich, auf einem gängigen Gerät mit etwas größerer Viewportbreite zu testen (etwa ein iPhone 13 min oder ein Samsung Galaxy A12, beide mit 360 CSS Pixeln Viewport-Breite).
+Oft wird für die Prüfung kein Gerät mit exakt 320 CSS Pixeln Viewportbreite und aktuellem Betriebssystem zur Verfügung stehen. Deshalb ist es unvermeidlich, auf einem gängigen Gerät mit etwas größerer Viewportbreite zu testen (etwa ein iPhone 13 min oder ein Samsung Galaxy A12, beide mit 360 CSS Pixeln Viewport-Breite).
+
 
 ==== 3.2 Apps mit Größen-Einstellungen für Inhalte
 Falls Apps selbst Einstellungen zum Vergrößern der Inhalte bieten, sollte der Umbruch funktionieren. Dies ist jedoch kaum anzutreffen. Der Dolphin-Browser (Android) bildet eine Ausnahme. Unklar ist jedoch, was für ein Vergrößerungsfaktor bei einem ohnehin schmalen Display noch realistisch ist. Dies würde von der Ausgangsgröße der Inhalte abhängen. 
