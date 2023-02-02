@@ -2,19 +2,19 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
-Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt oder Funktionalität verloren geht. Eine der folgenden Voraussetzungen soll erfüllt sein:
+Die Textgröße soll um bis zu 200 Prozent vergrößert werden können, ohne dass dabei Inhalt oder Funktionalität verloren gehen. 
+Sowohl iOS / iPadOS als auch Android bieten in den Bedienungshilfen eine Zoomvergrößerungsfunktion. Sie heißt Zoom (iOS) bzw. Vergrößerung (Android). Gesten erlauben die Aktivierung der vergrößerten Ansicht und eine Änderung des Zoomfaktors. Der Prüfschritt ist damit grundsätzlich erfüllt, wenn bei Nutzung der App die diese Bedienungshilfen nutzbar sind.
 
-* Mit der Zoom-Funktion des Betriebssystems kann das gesamte Layout proportional zur Schriftgröße vergrößert werden.
-* Mit der Nur-Text-Vergrößerung des Betriebssystems kann der Text vergrößert werden.
-* Über ein Bedienelement der App-Ansicht kann die Schriftgröße vergrößert werden.
-
-Da die gängigen mobilen Plattformen wie iOS / iPadOS und Android Bedienungshilfen mit Vergrößerungsfunktionalitäten anbieten, ist dieser Prüfschritt erfüllt, wenn die Software ordungsgemäß mit diesen Systemfunktionen nutzbar ist.
+Die Verfügbarkeit einer systemseitigen Zoomfunktion ist gut, aber das Lesen von vergrößertem Text ist bei Vergrößerung sehr mühsam, da der sichtbare Ausschnitt verschoben werden muss, um den Text zu lesen oder andere Bereiche der Ansicht über Ziehgesten in diesen Ausschnitt zu bewegen. Deshalb ist der Einsatz von Systemschriften (bei iOS Dynamit Fonts) hilfreich, die bei einer geänderten System-Einstellung der Schriftgröße die Schrift auch in der App größer darstellen. Selbst in Apps, die Systemschriften einsetzen und die eingestellte Vergrößerung übernehmen, werden meist nicht alle Textelemente dynamisch umgesetzt, da dies häufig entweder dazu führen würde, dass entweder Zusammenhang und Übersichtlichkeit durch den Umbruch von Inhalten verschlechtert wird oder dazu, dass Textinhalte abgeschnitten bzw. durch Elipsen abgekürzt werden müssten. Eine läckenlose Anwenduing des eingestellten Schriftvergrößerung aud allen Inhalten ist deshlab nicht praktikabel.
+Der Einsatz von Systemschriften ist überall empfehlenswert, wo Umbrüche gut möglich sind, etwa bei Fließtexten. Die Nichtumsetzung wird kedoch in diesem Prüfschritt nicht negastiv bewertet, solange die systemseitige Zoomvergrößerung der bedineungshilfen erwartungsgemäß funktioniert.
 
 == Warum wird das geprüft?
 
-Nutzende sollen die Schriftgröße nach ihren Bedürfnissen einstellen können. Die gängigen Betriebssysteme bieten zwei verschiedene Vergrößerungsmöglichkeiten: die klassische Nur-Text-Vergrößerung und die Zoom-Vergrößerung des gesamten Bildschirminhalts.
+Nutzende sollen die Schriftgröße nach ihren Bedürfnissen einstellen können. besonders ältere Menschen aber auch Menschen mit leichten Sehbehinderungen, brauchen einen vergrößerten Text. Die geforderten 200% reichen für viele stärker sehbehinderte Menschen nicht aus. Hier muss dann ohnehin die Zooomvergrößerung genutzt werden, die bis zu 500% vergrößert.
 
 == Wie wird geprüft?
 
@@ -28,19 +28,27 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält.
 
 . Zoom-Funktionalität in den Bedienungshilfen von iOS / iPadOS bzw. Android aktivieren
 . App mit zu prüfender Ansicht öffnen
-. Ansicht mittels der Zoomfunktion des Betriebssystems um 200% vergrößern und dabei prüfen, ob dies Probleme bei der zu prüfenden Ansicht hervorruft.
+. Ansicht mittels der Zoomfunktion des Betriebssystems um 200% vergrößern. Ist die Funktion verfügbar? 
+
+==== 2.2 Prüfung der Übernahme von systemseitigen Einstellungen vergrößerter Schrift
+
+===== iOS
+. Schriftgröße über Einstellungen / Bedienungshilfen / Anzeige & Textgröße / Größerer Text auf einen deutlich größeren Wert (ca. doppelt so groß) stellen. (Der genaue Vergößerungsfaktor wird ggf. nicht angezeigt). Wirkt sich die Vergrößerung auf Texte der App aus?
+
+===== Android
+. Schriftgröße bei Einstellungen / Eingabehilfe / Verbesserungen der Sichtbarkeit / Schriftgröße und -Stil auf einen deutlich größeren Wert (ca. doppelt so groß) stellen. (Der genaue Vergößerungsfaktor wird ggf. nicht angezeigt). Wirkt sich die Vergrößerung auf Texte der App aus?
 
 ==== 2.2 Prüfung der Schriftvergrößerung durch Bedienelemente in der App
 
-Wenn die Software eigene Bedienelemente bereithält, um die Schriftgröße zu vergrößern:
-
-Muss nur geprüft werden, wenn die Systemfunktion zum vergrößern nicht vorhanden ist oder diese mit der App zu Problemen führt.
+Wenn die Software eigene Bedienelemente bereithält, um die Schriftgröße zu vergrößern
 
 . Prüfen, ob die Bedienelemente für Schriftvergrößerung deutlich sichtbar im oberen Bereich der Ansicht angeboten werden.
 . Prüfen, ob die Schrift mit Hilfe der auf der Ansicht angebotenen Bedienelemente schrittweise vergrößert werden kann (wie stark die Vergrößerung ist spielt dabei keine  Rolle).
 . Prüfen, ob sich über die angebotenen Bedienelemente die Ausgangsschriftgröße wiederherstellen lässt.
 
 === 3. Hinweise
+
+3.1 Wenn 2.1 erfüllt ist, änder diese Prüfung nicht das Ergebnis (die Anforderung ist erfüllt). Die Prüfung ist dennoch sinnvoll, um Hinweise auf Verbesserungsmöglichkeiten tzu geben. Dies betrifft alle Inhlatsbereiche, die bei Vergößerung problmlos umberechen sollten, z.B. Fließtexte.
 
 Werden Apps getestet, kommen die Funktionen Zoomen und / oder Nur-Text-Vergrößerung des Betriebssystems zum Einsatz:
 
