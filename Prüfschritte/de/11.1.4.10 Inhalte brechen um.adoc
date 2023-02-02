@@ -25,7 +25,7 @@ Werkzeugleisten erfordert.
 
 == Warum wird das geprüft?
 
-Alle Inhalte, die gut umbrechen können, sollen in den Viewport mit Breite von 320 CSS-Pixeln passen, um die mühsame Bedienung über horizontales Scrollen oder Verschieben über Ziehgesten zu vermeiden. Zu solchen Inhalten zählen nicht nur Fließtexte, sondern auch Formulare.
+Alle Inhalte, die gut umbrechen können, sollen in den Viewport mit Breite von 320 CSS-Pixeln passen, um die mühsame Bedienung über horizontales Scrollen oder Verschieben über Ziehgesten zu vermeiden. Zu solchen Inhalten, die gut umbrechen können, zählen nicht nur Fließtexte, sondern auch Formulare.
 
 Wenn native Appps ähnlich wie Desktop-Browser eine Zoomfunktion anbieten, hilft dies sehbehinderten Nutzern, die eine vergrößerte Darstellung brauchen, z.B. um Text überhaupt lesen zu können. Wenn so eine Zoom-Funktion in der App geboten wird, wäre zu prüfen, ob nach Hineinzoomen auf eine Viewport-Breite von 320 CSS-Pixel noch alle Informationen und Funktionen verfügbar sind.
 
