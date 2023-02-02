@@ -33,10 +33,10 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält.
 ==== 2.2 Prüfung der Übernahme von systemseitigen Einstellungen vergrößerter Schrift
 
 ===== iOS
-. Schriftgröße über Einstellungen / Bedienungshilfen / Anzeige & Textgröße / Größerer Text auf einen deutlich größeren Wert (ca. doppelt so groß) stellen. Wirkt sich die Vergrößerung auf Texte der App aus?
+* Schriftgröße über Einstellungen / Bedienungshilfen / Anzeige & Textgröße / Größerer Text auf einen deutlich größeren Wert (ca. doppelt so groß) stellen. Wirkt sich die Vergrößerung auf Texte der App aus?
 
 ===== Android
-. Schriftgröße bei Einstellungen / Eingabehilfe / Verbesserungen der Sichtbarkeit / Schriftgröße und -Stil auf einen deutlich größeren Wert (ca. doppelt so groß) stellen. Wirkt sich die Vergrößerung auf Texte der App aus?
+* Schriftgröße bei Einstellungen / Eingabehilfe / Verbesserungen der Sichtbarkeit / Schriftgröße und -Stil auf einen deutlich größeren Wert (ca. doppelt so groß) stellen. Wirkt sich die Vergrößerung auf Texte der App aus?
 
 ==== 2.3 Prüfung der Schriftvergrößerung über Bedienelemente in der App (optional)
 
