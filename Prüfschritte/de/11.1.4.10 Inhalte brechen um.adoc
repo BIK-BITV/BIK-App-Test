@@ -50,7 +50,7 @@ Prüfschritt erstellen.
 === 3. Hinweise
 
 ==== 3.1 Praktische Aspekte der Prüfung: Geräte
-Oft wird für die Prüfung kein Gerät mit exakt 320 CSS Pixeln Viewportbreite und aktuellem Betriebssystem zur Verfügung stehen. Deshalb ist es unvermeidlich, auf einem gängigen Gerät mit etwas größerer Viewportbreite zu testen (etwa ein iPhone 13 min oder ein Samsung Galaxy A12, beide mit 360 CSS Pixeln Viewport-Breite).
+Oft wird für die Prüfung kein Gerät mit exakt 320 CSS Pixeln Viewportbreite und aktuellem Betriebssystem zur Verfügung stehen. Deshalb ist es unvermeidlich, auf einem gängigen Gerät mit etwas größerer Viewportbreite zu testen (etwa ein iPhone 13 mini, oder ein Samsung Galaxy A12, beide mit 360 CSS Pixeln Viewport-Breite).
 
 ==== 3.2 Vergrößerung aud Viewportbreite von 320 px
 Abhängig vcom genutzten Testgerät kann die Breite von 320 px kann ggf. nur näherungsweise erreicht werden. Bei einer Vergrößerungsstufe von 200% wäre die Viewportbreite in CSS-Pixeln halbiert. Je nach Gerät müsste als verschieden stark vergrößert werden, um 320 CSS-Pixel zu erreichen. Bei einem iPad Air (2020) mit 1112 CSS-Pixeln Breite wäre z.B. eine Vergrößerung um 347,5% notwendig um exakt 320 CSS-Pixel Viewportbreite zu erreichen. ISt dieViewportbreite des Displays nitcht bekannt lässt diese sich in der Regel aus der physischen Auflösung des Displays und dem genutzten Pixel-Verhältnis  (pixel ratio) berechnen. Die meisten aktuellen Geräte haben heute eine pixel ratio zwischen 3 und 4. So hat etwa sin Samsung note 8 eine physische Auflösung von 1440 x 2960 Geräte-Pixeln, was bei einem Faktor 4 zu einer Auslösung von 360 x 740 CSS-Pixeln führt. Hier müsste also auf 230% vergrößert werden um näherungsweeise die Viewport-Breite von 320 CSS-Pixeln einzustellen.
