@@ -32,7 +32,7 @@ Werden Apps auf Tablets mit größeren Viewport-Breiten angezeigt, wäre die Zoo
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit für mobile Apps anwendbar. In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind, auch wenn sie nicht "umbrechen". 
+Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit auch auf mobile Apps anwendbar. In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind, auch wenn sie nicht "umbrechen". 
 
 Die Prüfung ist somit beschränkt auf Apps, die ein Layout für breitere Viewports, z.B. Tablets anbieten *und* außerdem eine Zoomfunktion implementieren.
 
