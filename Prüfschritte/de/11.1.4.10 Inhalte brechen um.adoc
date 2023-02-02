@@ -37,9 +37,10 @@ Der Prüfschritt ist immer anwendbar.
 Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit auch auf mobile Apps anwendbar. In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind. 
 
 === 2. Prüfung
-2.1 Standard-Hochkant-Ansicht mit Viewportbreite von 320 CSS-Pixeln
+==== 2.1 Standard-Hochkant-Ansicht mit Viewportbreite von 320 CSS-Pixeln
+Gibt es in der Hochkant Ansicht (kleines Smartphone idealerweise eines mit Viewport-Breite von 320 CCS-Pixeln) Informationen oder Funktionen, die nicht unter die Ausnahmen falen und die nicht verfügbar sind bzw. nur über horizontzales Scropllen / Verschieben erreihbar sind? 
 
-2.2 Prüfung von Apps mit beiterem layout und Zoomfunktion
+==== 2.2 Prüfung von Apps mit beiterem layout und Zoomfunktion
 . Vorbedingung 1: Hat die App selbst eine Zoomfunktion (es geht nicht um den Zoom bzw. die Vergrößerung über Bedienungshilfen)
 . Vorbedingung 2: Stellt die App Inhalte auf Geräten mit breiteren Viewports (oder nach Drehen des Smartphones ins Querformat) in einem anderen Layout dar als auf dem Smartphones im Hochkant-Format?
 . Ist eine der Vorbedingungen nicht erfüllt, wird die Prüfung sbgebrochen.
