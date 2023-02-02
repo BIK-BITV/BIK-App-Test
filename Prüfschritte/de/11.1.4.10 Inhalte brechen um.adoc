@@ -62,7 +62,7 @@ Prüfschritt erstellen.
 ==== 3.2 Vergrößerung auf Viewportbreite von 320 CSS-Pixel
 
 * Die Textgröße in den Einstellungen des Betriebssystem (und falls vorhanden in der App selbst) sollte auf dem Default stehen (100%).
-* Abhängig vom genutzten Testgerät kann beim Hineinzoomen die Breite von 320 CCS-Pixeln ggf. nur näherungsweise erreicht werden. Bei einer Vergrößerungsstufe von 200% wäre die Viewportbreite in CSS-Pixeln halbiert. Je nach genutztem Gerät muss also verschieden stark vergrößert werden, um 320 CSS-Pixel zu erreichen. 
+* Abhängig vom genutzten Testgerät kann beim Hineinzoomen die Breite von 320 CCS-Pixeln ggf. nur näherungsweise erreicht werden. Bei einer Vergrößerungsstufe von 200% wäre die Viewportbreite in CSS-Pixeln halbiert. Je nach genutztem Gerät muss also verschieden stark vergrößert werden, um 320 CSS-Pixel näherungsweise zu erreichen. 
 * *Beispiel:* Bei einem iPad Air (2020) mit 1112 CSS-Pixeln Breite wäre z.B. eine Vergrößerung um 347,5% notwendig, um exakt 320 CSS-Pixel Viewportbreite zu erreichen. Ist die CSS-Viewportbreite des Displays nicht bekannt, lässt diese sich in der Regel aus der physischen Auflösung des Displays und dem genutzten Pixel-Verhältnis  (pixel ratio) berechnen. Die meisten aktuellen Geräte haben heute eine pixel ratio zwischen 3 und 4. So hat etwa ein Samsung Note 8 eine physische Auflösung von 1440 x 2960 Geräte-Pixeln, was bei einem Faktor 4 zu einer Auflösung von 360 x 740 CSS-Pixeln führt. Hier müsste also auf 230% vergrößert werden, um näherungsweise die Viewport-Breite von 320 CSS-Pixeln einzustellen. 
 * Sind 320 CSS-Pixel nicht exakt einstellbar, sollte der nächsthöhere Stufenwert der Zoom-Vergrößerung verwendet werden.
 
