@@ -66,15 +66,15 @@ Prüfschritt erstellen.
 * *Beispiel:* Bei einem iPad Air (2020) mit 1112 CSS-Pixeln Breite wäre z.B. eine Vergrößerung um 347,5% notwendig, um exakt 320 CSS-Pixel Viewportbreite zu erreichen. Ist die CSS-Viewportbreite des Displays nicht bekannt, lässt diese sich in der Regel aus der physischen Auflösung des Displays und dem genutzten Pixel-Verhältnis  (pixel ratio) berechnen. Die meisten aktuellen Geräte haben heute eine pixel ratio zwischen 3 und 4. So hat etwa ein Samsung Note 8 eine physische Auflösung von 1440 x 2960 Geräte-Pixeln, was bei einem Faktor 4 zu einer Auflösung von 360 x 740 CSS-Pixeln führt. Hier müsste also auf 230% vergrößert werden, um näherungsweise die Viewport-Breite von 320 CSS-Pixeln einzustellen. 
 * Sind 320 CSS-Pixel nicht exakt einstellbar, sollte der nächsthöhere Stufenwert der Zoom-Vergrößerung verwendet werden.
 
-==== 3.3 Lese- und Schreibrichtung
+==== 3.3 Zoomfunktion auch bei Apps?
+Im Kontext mobiler Apps mit der Ausgabe auf einem meist viel kleinerem Display kommen für sehbehinderte Nutzende heute meist systemseitige Methoden der Textvergrößerung zum Tragen: Einmal die Einstellung größerer Schrift in den Bedienungshilfen, die sich auf die Darstellung auswirkt, wenn Entwickler in der App dynamische Fonts verwenden, und dann die Bedienungshilfen Vergrößerung (Android) bzw. Zoom (iOS), deren Nutzung nicht zu einem Umbruch der Inhalte führt. Eine Ausnahme ist der Dolphin-Browser (Android), der Textumbruch umsetzt. Werden Apps auf Tablets mit größeren Viewport-Breiten angezeigt, wäre die Zoomvergrößerung hier ebenso hilfreich wie auf dem Desktop. Sie wird aber von nativen Apps (einschließlich mobilen Browsern) zurzeit kaum angeboten.
+
+==== 3.4 Angepasste Ansichten für breitere Viewports
+Aus dem normativen Text ist keine Verpflichtung abzuleiten, dass für größere Viewportbreiten ein angepasstes Layout angeboten werden muss.
+
+==== 3.5 Lese- und Schreibrichtung
 Dieser Prüfschritt beschränkt sich auf Inhalte, deren primäre Schreibrichtung waagerecht ist, wie bei der für die meisten westlichen
 Sprachen benutzten lateinischen Schrift. Die zugrunde liegende WCAG-Anforderung gilt in ähnlicher Weise für Inhalte mit vertikaler Schreibrichtung.
-
-==== 3.4 Zoomfunktion auch bei Apps?
-Im Kontext mobiler Apps mit der Ausgabe auf einem meist viel kleinerem Display kommen für sehbeninderte Nutzende eher systemseitige Methoden der Textvergrößerung zum Tragen: Einmal die Einstellung größerer Schrift in den Bedienungshilfen, die sich auf die Darstellung auswirkt, wenn Entwickler in der App dynamische Fonts verwenden, und dann die Bedienungshilfen Vergrößerung (Android) bzw. Zoom (iOS), deren Nutzung nicht zu einem Umbruch der Inhalte führt. Werden Apps auf Tablets mit größeren Viewport-Breiten angezeigt, wäre die Zoomvergrößerung hier ebenso hilfreich wie auf dem Desktop. Sie wird aber von nativen Apps (einschließlich mobilen Browsern) zurzeit kaum angeboten.
-
-==== 3.5 Angepasste Ansichten für breitere Viewports
-Aus dem normativen Text ist keine Verpflichtung abzuleiten, dass für größere Viewportbreiten ein angepasstes Layout angeboten werden muss.
 
 === 4. Bewertung
 ==== Nicht erfüllt
