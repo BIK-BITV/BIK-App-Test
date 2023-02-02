@@ -40,8 +40,8 @@ Die Prüfung ist somit beschränkt auf Apps, die ein Layout für breitere Viewpo
 
 . Vorbedingung 1: Hat die App eine Zoomfunktion?
 . Vorbedingung 2: Stellt sie Inhalte auf Geräten mit breiteren Viewports (oder nach Drehen des Smartphones ins Querformat) in einem anderen Layout dar als auf dem Smartphones im Hochkant-Format?
-. Ist eine de rVorbedingungen nicht erfüllt, wird die Prüfung sbgebrochen, der Prüfschritt ist dann erfüllt.
-. Falls beide Vorbedingungen zutreffen: die Inhalte soweit vergrößern, bis näherungsweise eine Viewport-Breite von 320 px erreicht ist.
+. Ist eine der Vorbedingungen nicht erfüllt, wird die Prüfung sbgebrochen, der Prüfschritt ist dann erfüllt.
+. Falls beide Vorbedingungen erfüllt sind: die Inhalte soweit vergrößern, bis näherungsweise eine Viewport-Breite von 320 px erreicht ist.
 . Gibt es in der App Informationen oder Funktionen, die nun nicht mehr verfügbar sind oder abgeschnitten werden und die nicht unter die Ausnahmen fallen?
 
 Für Hinweise zur Prüfpraxis können Sie auf GitHub
@@ -68,8 +68,7 @@ Sprachen benutzten lateinischen Schrift. Die zugrunde liegende WCAG-Anforderung 
 === 4. Bewertung
 ==== Nicht erfüllt
 
-* Es gibt Inhalte, die nicht unter die Ausnahmen fallen und nicht in den Viewport von 320px (ersatzweise 360 Pixel) passen.
-* Es gibt Inhalte, die unter die Ausnahmen fallen und nicht in den Viewport von 320px (ersatzweise 360 Pixel) passen, und deren abgeschnittene Inhalte sich nicht in den Viewport bewegen lassen.
+* Die App hat eine Zoomfunktion. Beim Zoomen auf 320 CSS Pixel Viewportbreite gibt es Informationen oder Funktionen, die nicht mehr verfügbar sind oder abgeschnitten werden, und die nicht unter die Ausnahmen fallen.
 
 == Quellen
 
