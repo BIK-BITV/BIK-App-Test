@@ -30,7 +30,7 @@ Formularelemente enthält.
 
 === 3. Hinweise
 
-Besonders in fachspezifischen Apps gibt es Labels und Überschriften, die für die Zielgruppe bestimmten, etablierten Vokabularen entsprechen einschließlich viel genutzter Abkürzungen). Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
+Besonders in fachspezifischen Apps gibt es Labels und Überschriften, die für die Zielgruppe bestimmten, etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen). Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
 
 == Einordnung des Prüfschritts
 
