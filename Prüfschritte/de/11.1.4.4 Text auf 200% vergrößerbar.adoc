@@ -28,7 +28,7 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält.
 
 . Zoom-Funktionalität in den Bedienungshilfen von iOS / iPadOS bzw. Android aktivieren
 . App mit zu prüfender Ansicht öffnen
-. Ansicht mittels der Zoomfunktion des Betriebssystems um 200% vergrößern. Wirkt sich die Funktion auf die Darstellung der App aus? Es wird nicht negativ bewertet wenn Inhalte bei Zoomvergrößerung nicht mehr voll in den Viewport pasen oder nur durc hVerscheiben des Ausschnitss erreichbar sind - nur, dass der Zoom überhaupt funktioniert. Das ist in der Regel der Fall. 
+. Ansicht mittels der Zoomfunktion des Betriebssystems um 200% vergrößern. Wirkt sich die Funktion auf die Darstellung der App aus? Es wird hierbei nicht negativ bewertet, wenn Inhalte bei Zoomvergrößerung nicht mehr voll in den Viewport passen oder nur durch Verschieben des Ausschnitss erreichbar sind - nur, dass die Zoom-Funktion überhaupt auf der App funktioniert. Das ist in der Regel der Fall. 
 
 ==== 2.2 Prüfung der Übernahme von systemseitigen Einstellungen vergrößerter Schrift
 
