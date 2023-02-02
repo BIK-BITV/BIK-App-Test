@@ -39,7 +39,7 @@ Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit auc
 
 === 2. Prüfung
 ==== 2.1 Standard-Hochkant-Ansicht mit Viewportbreite von 320 CSS-Pixeln
-Gibt es in der Hochkant Ansicht (kleines Smartphone idealerweise eines mit Viewport-Breite von 320 CCS-Pixeln) Informationen oder Funktionen, die nicht unter die Ausnahmen fallen und die nicht verfügbar sind bzw. nur über horizontales Scropllen / Verschieben erreichbar sind? 
+Gibt es in der Hochkant Ansicht (kleines Smartphone idealerweise eines mit Viewport-Breite von 320 CCS-Pixeln) Informationen oder Funktionen, die nicht unter die Ausnahmen fallen und die nicht verfügbar sind bzw. nur über horizontales Scrollen / Verschieben erreichbar sind? 
 
 ==== 2.2 Prüfung von Apps mit beiterem Layout und Zoomfunktion
 . Vorbedingung 1: Hat die App selbst eine Zoomfunktion (es geht nicht um den Zoom bzw. die Vergrößerung über Bedienungshilfen)
