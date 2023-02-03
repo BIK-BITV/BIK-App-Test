@@ -77,7 +77,7 @@ Ansicht erfolgt nur unter folgenden Bedingungen:
 * Die alternative kontrastreichere Ansicht muss dieselben Informationen und dieselbe Funktionalität aufweisen wie die Ausgangsansicht.
 
 ==== 3.5 Dark Mode Ansichten
-Die Prüfung erfolgt in der Standardeinstellung des Betriebssystems. Wenn auf Wunsch des Auftraggebers der Dark mode mitgetestet werden soll, ist das natürlich möglich, die Ergebnisse können zusätzlich vrermerk werden. Ausschlaggebend für die Konformität ist aber die Standardansicht.
+Die Prüfung erfolgt in der Standardeinstellung des Betriebssystems. Wenn auf Wunsch des Auftraggebers ein Dark Mode mitgetestet werden soll, ist das natürlich möglich, die Ergebnisse können zusätzlich vrermerk werden. Ausschlaggebend für die Konformität ist aber die Standardansicht.
 Die Darkmode ansicht würde bei de rFeststellung der Konfdormität nur berücksichtigt, wenn sie explizit als Kontrastversion in der App selbst auswählbar ist uns das Bedienelement selbst alle Barrierefreiheitsanforderungen erfüllt.
 
 ==== 3.6 Berücksichtigung betriebssystemseitiger Einstellungen
