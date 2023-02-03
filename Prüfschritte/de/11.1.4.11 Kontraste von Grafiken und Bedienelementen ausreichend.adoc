@@ -43,9 +43,7 @@ Nicht anwendbar ist der Prüfschritt auf Fotos, Logos, Flaggen, Screenshots,
 Diagramme mit Farben, die nicht geändert werden dürfen, und
 Datenvisualisierungen mit Farbabstufungen wie etwa Heatmaps.
 
-Ebenfalls nicht anwendbar ist der Prüfschritt auf native grafische
-Bedienelemente, die in ihrem Erscheinungsbild nicht durch den Autor
-beeinflusst wurden, etwa native Checkboxen, sowie auf inaktive Bedienelemente,
+Ebenfalls nicht anwendbar ist der Prüfschritt auf inaktive Bedienelemente,
 also solche, die zustandsabhängig für die Interaktion nicht zur Verfügung
 stehen.
 
