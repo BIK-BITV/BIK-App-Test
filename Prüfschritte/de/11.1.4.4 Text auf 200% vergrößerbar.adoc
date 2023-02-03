@@ -111,7 +111,7 @@ endif::env_embedded[]
 * https://appt.org/en/guidelines/wcag/success-criterion-1-4-4[
 Support text scaling]: Die Appt Guidelines enthalten Code-Beispiele für die Umsetzung vergrößerbarer Schrift für iOS, Android, Flutter, React Native und Xamarin.
 * https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/content-resizing/[
-BBC Accessibility for Ptroducts: Mobile Accessibility Guidelines: Content Resizing]: Beispiele für die Umsetzung anpassbarer Schriftgrößen mit bneispieln für in iOS, Android und HTML
+BBC Accessibility for Products, Mobile Accessibility Guidelines, Content Resizing]: Beispiele für die Umsetzung anpassbarer Schriftgrößen mit Beispielen für iOS, Android und HTML.
 
 === Android
 https://a11y-guidelines.orange.com/en/mobile/android/development/magnification/[
