@@ -134,17 +134,11 @@ Umrisslinien bei der Kontrastprüfung vernachlässigt werden.
 
 ==== 3.3 Kontrast-Differenz bei Zuständen
 
-Nicht verlangt wird ein Kontrast von 3:1 für die Differenz zwischen
-verschiedenen funktionalen Zuständen des gleichen Bedienelements (etwa
-Umschalter aktiviert/ nicht aktiviert).
+Nicht verlangt wird ein Kontrast von 3:1 für die Differenz zwischen verschiedenen *funktionalen Zuständen* des gleichen Bedienelements (etwa
+Umschalter aktiviert/ nicht aktiviert) wenn es auch andere unterscheidende Merkmale gibt (ein Haken wird gesetzt, Ein Schalter verschiebt sich von links nach rechts, o.ä.)
 
-Ebenfalls nicht verlangt wird hier ein Kontrast von 3:1 für die Differenz
-zwischen verschiedenen Interaktions-Zuständen des gleichen Bedienelements
-(etwa fokussiert / nicht fokussiert).
-Wenn jedoch der Interaktions-Zustand lediglich über einen Farbwechsel
-angezeigt wird (also nicht auch anders, etwa durch eine Änderung der Form,
-Wechsel von beigestelltem Text, Umrandung oder ähnlich) dann sollte der
-Kontrast der einen Farbe zur anderen mindestens 3:1 betragen.
+Ebenfalls nicht verlangt wird hier ein Kontrast von 3:1 für die Differenz zwischen verschiedenen *Interaktions-Zuständen* des gleichen Bedienelements
+(etwa fokussiert / nicht fokussiert). Wenn jedoch der Interaktions-Zustand lediglich über einen Farbwechsel angezeigt wird (also nicht auch anders, etwa durch eine Änderung der Form, Wechsel von beigestelltem Text, Umrandung oder ähnlich) dann sollte der Kontrastabstand der Zustände mindestens 3:1 betragen.
 Dies ist Gegenstand der Prüfung in Prüfschritt
 ifdef::env_embedded[]
 11.2.4.7 "Aktuelle Position des Fokus sichtbar".
@@ -154,12 +148,11 @@ ifndef::env_embedded[]
 des Fokus deutlich>>.
 endif::env_embedded[]
 
-Verlangt wird der Kontrast dagegen für jeden einzelnen Zustand zur jeweils
-angrenzenden Farbe.
+Verlangt wird der Kontrast dagegen für jeden einzelnen Zustand zur jeweils angrenzenden Farbe.
 
 ==== 3.4 Dark Mode Ansichten
-Die Prüfung erfolgt in der Standardeinstellung des Betriebssystems. Wenn auf Wunsch des Auftraggebers ein Dark Mode mitgetestet werden soll, ist das natürlich möglich, die Ergebnisse können zusätzlich vrermerk werden. Ausschlaggebend für die Konformität ist aber die Standardansicht.
-Eine Dark Mode Ansicht wird bei der Feststellung der Konformität nur berücksichtigt wenn sie explizit als Kontrastversion in der App selbst auswählbar ist und das Bedienelement selbst alle Barrierefreiheitsanforderungen erfüllt, und die Dark Mode Ansicht nicht selbst Kontrastmängel aufweist.
+Die Prüfung erfolgt in der Standardeinstellung des Betriebssystems. Wenn auf Wunsch des Auftraggebers ein Dark Mode mitgetestet werden soll, ist das natürlich möglich, die Ergebnisse können zusätzlich vermerkt werden. Ausschlaggebend für die Konformität ist aber die Standardansicht.
+Eine Dark Mode Ansicht wird bei der Feststellung der Konformität nur berücksichtigt, wenn sie explizit als Kontrastversion in der App selbst auswählbar ist, das Bedienelement selbst alle Barrierefreiheitsanforderungen erfüllt, und die Dark Mode Ansicht nicht selbst Kontrastmängel aufweist.
 
 ==== 3.5 Berücksichtigung betriebssystemseitiger Einstellungen
 Die Ansichten werde ohne die Aktivierung von betriebssystemseitigen Einstellungen wie "Kontrast erhöhen" (iOS) oder "Text mit hohem Kontrast" (Android), also mit Standard-Einstellungen getestet. Die zusätzlichen Einstellungen sind hilfreich, viele Nutzende wissen jedoch nicht, dass es sie gibt. Auch native Schalter wie iOS Switches lassen sich in der Farbe anpassen, damit sie ausreichend kontrastreich sind.
