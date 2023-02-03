@@ -122,24 +122,3 @@ Ansicht erfolgt nur unter folgenden Bedingungen:
 === W3C zum Zusammenhang zwischen px und pt:
 
 * https://www.w3.org/TR/css3-values/#absolute-lengths[CSS Values and Units Module Level 3: 5.2 Absolute Lengths]
-
-== Fragen zu diesem Prüfschritt
-
-=== Subjektiver Eindruck
-
-Das Ergebnis der WCAG 2.1 Formel zur Messung des Kontrastverhältnisses
-entspricht oft nicht dem subjektiven Eindruck.
-Wie zuverlässig ist es?
-
-Zwei Punkte sind hier zu beachten:
-
-* Der Helligkeitskontrast ist nur einer von drei Einflussgrößen für den Gesamtkontrast. Insofern ist klar, dass das Ergebnis für den Helligkeitskontrast nicht dem
-  subjektiven Eindruck entspricht. Es soll gar nicht dem subjektiven Gesamteindruck entsprechen, denn schließlich geht es darum, ob die Helligkeitsunterschiede der 
-  Farben für sich genommen ausreichend kontrastieren. Wenn man normalsichtig ist, entspricht der subjektive Eindruck der Graustufenansicht dagegen schon eher dem 
-  Formelergebnis.
-* Farben benachbarter Flächen beeinflussen die Wahrnehmung, kleine und dünne Schriften erscheinen kontrastärmer, es gibt Überstrahleffekte, möglicherweise werden die
-  Kontraste durch Schriftenglättung abgeschwächt. Die Formel berücksichtigt all diese Faktoren nicht. Zumindest wenn es um Texte geht, ist dies auch angemessen. Denn 
-  die genannten Einflüsse stehen nicht fest, sie hängen zum Beispiel von der gewählten Schriftgröße ab.
-
-Für die Prüfung bedeutet das:
-Wer mit der formelbasierten Bewertung von Helligkeitskontrasten noch keine Erfahrungen hat, kann sich nicht auf seinen subjektiven Eindruck verlassen. Er muss die Formel fast auf alle Farbkombinationen anwenden.
