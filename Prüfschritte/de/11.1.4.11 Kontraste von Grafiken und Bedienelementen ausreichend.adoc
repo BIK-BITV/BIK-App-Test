@@ -49,6 +49,8 @@ Ebenfalls nicht anwendbar ist der Prüfschritt auf inaktive Bedienelemente,
 also solche, die zustandsabhängig für die Interaktion nicht zur Verfügung
 stehen.
 
+Es ist zurzeit unklar, ob die Kontrastanforderung auch für native Bedienelemente wie iOS toggle switches gilt, oder ob für diese das Äquivalwent der Ausnahme for Bedienelemente gilt deren Aussehen durch den User Agent (den Browser) bestimmt wird. Wir haben hierzu ein https://github.com/w3c/wcag2ict/issues/94[Issue bei der WCAG2ICT Taskforce] angelegt.
+
 === 2. Prüfung
 
 Hinweis: Für die aufgeführten Prüfungen ist eine Sichtprüfung ausreichend,
