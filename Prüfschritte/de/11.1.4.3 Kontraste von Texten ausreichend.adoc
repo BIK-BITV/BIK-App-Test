@@ -81,7 +81,7 @@ Die Prüfung erfolgt in der Standardeinstellung des Betriebssystems. Wenn auf Wu
 Die Darkmode ansicht würde bei de rFeststellung der Konfdormität nur berücksichtigt, wenn sie explizit als Kontrastversion in der App selbst auswählbar ist uns das Bedienelement selbst alle Barrierefreiheitsanforderungen erfüllt.
 
 ==== 3.6 Berücksichtigung betriebssystemseitiger Einstellungen
-Die Ansichten werde ohne die Aktivierung von betriebssystemseitigen Einstellungen wie "Kontrast erhöhen" (iOS) oder Schaltflächen hervorheben" (Android), also mit Standard-Einstellungen getestet. Die zusätzlichen Einstellungen sind hilfreich, viele Nutzende wissen jedoch nicht, dass es sie gibt. Auch native Schalter wie iOS Switches lassen sich in der Farbe anpassen, damit sie ausreichend kontrastreich sind.
+Die Ansichten werde ohne die Aktivierung von betriebssystemseitigen Einstellungen wie "Kontrast erhöhen" (iOS) oder "Text mit hohem Kontrast" (Android), also mit Standard-Einstellungen getestet. Die zusätzlichen Einstellungen sind hilfreich, viele Nutzende wissen jedoch nicht, dass es sie gibt. Auch native Schalter wie iOS Switches lassen sich in der Farbe anpassen, damit sie ausreichend kontrastreich sind.
 
 === 4. Bewertung
 
