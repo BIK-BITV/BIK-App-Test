@@ -118,7 +118,7 @@ https://a11y-guidelines.orange.com/en/mobile/android/development/magnification/[
 Orange Digital Accessibility Guidelines: Android develop - Element magnification]. Code-Beispiele für den Einsatz von Scale-independent Pixels für die Textvergrößerung und Anpassung der Containergröper basierend auf Nutzereinstellungen.
 
 === iOS
-* Aopole UIKit Dokumentation: https://developer.apple.com/documentation/uikit/uifont/scaling_fonts_automatically[
+* Apple UIKit Dokumentation: https://developer.apple.com/documentation/uikit/uifont/scaling_fonts_automatically[
 Scaling Fonts Automatically: Scale text in your interface automatically using Dynamic Type]: Beschreibt den Einsatz von Dynamic Type in iOS.
 * https://a11y-guidelines.orange.com/en/mobile/ios/development/[
 Orange Digital Accessibility Guidelines: iOS Developer GuideText size]: Unter dem Eintrag "text size", Reiter Details gibt es Code-Beispiele für die Entwicklung in Objective C und Swift.
