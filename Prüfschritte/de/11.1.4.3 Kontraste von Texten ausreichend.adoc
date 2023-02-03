@@ -30,9 +30,8 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält. Grafische Sc
  * iOS/iPadOS und Android: Gerät mittels USB-Kabel an den Rechner anschließen und im Datei-Explorer auswählen.	
 . Sind die Schriftkontraste stark genug? Screenshots am PC öffnen und im Zweifel mit dem Contrast-Analyzer untersuchen:
  * Im Bereich *Vordergrund* mit der Pipette die Vordergrundfarbe auswählen, dann im Bereich *Hintergrund* die Hintergrundfarbe.
-. Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter  Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt.
-. Für große Schriften ist ein Mindestkontrastverhältnis von nur 3:1 gefordert. Die Schriftgrößen-Unterscheidung ist derzeit jedoch aufgrund fehlender Werkzeuge nicht 
-  oder nur ungenau möglich.
+. Für Schriftgrößen unter 24 px (beziehungsweise 18,7 px bei fetter Schrift) prüfen, ob das Kontrastverhältnis bei 4,5:1 oder größer liegt (zur Bestimmung der Schriftgröße siehe Abschnitt 3.2).
+. Für große Schriften ist ein Mindestkontrastverhältnis von nur 3:1 gefordert (zur Bestimmung der Schriftgröße siehe wiederum Abschnitt 3.2).
 
 ==== 2.2. Prüfung der Textkontraste der alternativen kontrastreicheren Ansicht (Styleswitcher-Prüfung)
 
@@ -44,12 +43,25 @@ Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die Ansi
 . Screenshots erstellen und an den PC übertragen.
 . Textkontraste der alternativen Ansicht prüfen (entsprechend Prüfung der Textkontraste der Standardversion).
 
-=== 3.1 Hinweise auf Messungenauigkeiten
-* Screenshots geben die tatsächlichen Farben nicht immer richtig wieder (siehe https://webaim.org/discussion/mail_thread?thread=10162[Disskusionsfaden in Webaim Mailing List]).
-* Bei Messungen mittels der Pipette des Color Contrast Analyzers kann es bei kleineren Schriften zu Fehlmessungen kommen: Der Randbreich der Schriften ist wegen des Anti-Aliasings oft näher am Kontrastwert des Hintergrundes, der Wert scheint dann ungenügend, obwohl er normativ ggf. ausreicht. Bei App-Screenshots ist es nicht wie bei Web-Angeboten möglich, vor der Messung hineinzuzoomen, um bei einer besseren Strichstärke der Schrift eine zuverlässigere Messung vorzunehmen. Gegebenenfalls ist aber bei dynamischen Schriften die Erhöhung der Schriftgröße über die Einstellungen in den Bedienungshilfen sinnvoll. Messungen im Grenzbereich der geforderten Kontrastwerte sollten diese Unsicherheitsfaktoren berücksichtigen und ggf. benennen.
-* Für große und kleine Schriften gelten unterschiedliche Richtwerte. Bei Apps ist die Schriftgrößen-Unterscheidung derzeit nur bedingt anwendbar. Die Ermittlung genauer Schriftgrößen ist bei Apps aufgrund fehlender Werkzeuge nicht oder nur ungenau möglich. Prüfende Personen müssen an dieser Stelle anhand ihrer Erfahrung urteilen. Falls Ihnen geeignete Werkzeuge und Methoden bekannt sind, weisen Sie uns gerne in einem https://github.com/BIK-BITV/BIK-App-Test/issues[GitHub Issue] darauf hin.
+=== 3. Hinweise
 
-==== 3.2 Allgemeine Hinweise
+==== 3.1 Hinweise zu Messungenauigkeiten
+* Screenshots geben die tatsächlichen Farben nicht immer richtig wieder (siehe https://webaim.org/discussion/mail_thread?thread=10162[Disskusionsfaden in Webaim Mailing List]).
+* Bei Messungen mittels der Pipette des Color Contrast Analyzers kann es bei kleineren Schriften zu Fehlmessungen kommen: Der Randbreich der Schriften ist wegen des Anti-Aliasings oft näher am Kontrastwert des Hintergrundes. Der Wert scheint dann ungenügend, obwohl er normativ gegebenenfalls ausreicht. Bei App-Screenshots ist es nicht wie bei Web-Angeboten möglich, vor der Messung hineinzuzoomen, um bei einer besseren Strichstärke der Schrift eine zuverlässigere Messung vorzunehmen. Bei dynamischen Schriften kann die Erhöhung der Schriftgröße über die Einstellungen in den Bedienungshilfen sinnvoll sein. Liegen die gemessenen Werte im Grenzbereich der geforderten Kontrastwerte, sollten diese Unsicherheitsfaktoren berücksichtigen und gegebenenfalls benennen.
+
+
+==== 3.2 Hinweise zur Berechnung der Schriftgröße
+
+Für große und kleine Schriften gelten unterschiedliche Richtwerte. Im Zweifelsfall kann die Schriftgröße annäherend auf folgendem Weg bestimmt werden:
+
+. Viewport-Größe (bzw. physische Auflösung und Device Pixel Ratio) des eingesetzen Geräts beispielsweise über die Dokumentation der Spezifikation ermitteln. Beispiel: Ein iPhone 11 hat eine Auflösung von 828 x 1792 pysischen Pixeln und eine Device Pixel Ratio von 2. Der physische Breiten-Wert von 828px wird also übersetzt in eine Viewport-Breite von 828 / 2 = 414 CSS Pixel.
+. Screenshot in einem Grafik-Programm laden, den Screenshot auf die errechnete CSS Viewport-Breite verkleinern (für das genannte Beispiel 414 CSS Pixel).
+. Mit Auswahlrechteck des Grafikprogramms die Schrift umschließen - ausschlaggebend sind am besten Großbuchstaben. Unterlängen von Kleinbuchstaben nicht berücksichtigen.
+. Auf geeignete Weise Höhe des Auswahlrechtecks bestimmen (in Photoshop etwa über Kopieren, dann Datei > Neu, Bearbeiten > Einfügen. Erneut Auswählen. Im Dialog "Bildgröße" (Bild > Bildgröße) wird die Größe des Auswahlrechtecks als Bildgröße vorgeschlagen, die Höhe steht im Feld "Höhe").
+. Die so ausgewiesene Höhe entspricht ungefähr dem Schriftgrad in Pixeln. Ist sie bei gefetteten Schriften über 18,7 px, muss die Schrift nur einen Kontrast von 3:1 oder besser haben. Bei nicht gefetteten Schriften liegt dieser Schwellenwert bei 24 px.
+
+==== 3.3 Allgemeine Hinweise
+
 * Elemente, die unterschiedliche Zustände haben können, sollten immer ausreichend kontrastieren. Das bedeutet, auch die farblich hervorgehobene, aktuell ausgewählte
   Menüoption oder Links, die in anderen Zuständen in einer anderen Farbe dargestellt werden.
 * Schwache Kontraste können zweckmäßig sein, sie können den Umgang mit einer App erleichtern. Ein Beispiel: Funktionen, die prinzipiell vorgesehen, aktuell aber nicht
@@ -57,7 +69,7 @@ Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die Ansi
   ist. Der Prüfschritt ist daher auf die Beschriftungen ausgeblendeter, deaktivierter Bedienelemente in der Regel nicht anwendbar.
 * Der Farbkontrast von Textvorbelegungen von Formularfeldern muss die Mindest-Anforderung von 4,5:1 erfüllen. Ausgenommen sind Textvorbelegungen, wenn eine redundante sichtbare Beschriftung die Kontrastanforderung erfüllt. Als Beschriftung zählt bei Suchfeldern auch ein konventionelles Icon, das die Anforderung für Grafikkontraste erfüllt (vergl. Prüfschritt 9.1.4.11). Wenn zusätzliche Informationen (etwa Datumsformat) im Platzhalter-Text stehen, gilt diese Ausnahme nicht, der Platzhalter-Text muss dann den Kontrast von 4,5:1 erfüllen.
 
-==== 3.3 Hinweise zur Prüfung von Ansichten mit Styleswitcher
+==== 3.4 Hinweise zur Prüfung von Ansichten mit Styleswitcher
 
 Die Kontrastprüfung auf durch Styleswitcher aufgerufenen kontrastreicheren
 Ansicht erfolgt nur unter folgenden Bedingungen:
