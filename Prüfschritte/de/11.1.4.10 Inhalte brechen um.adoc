@@ -109,5 +109,8 @@ Sprachen benutzten lateinischen Schrift. Die zugrunde liegende WCAG-Anforderung 
 
 == Quellen
 
-https://www.w3.org/WAI/WCAG21/Understanding/reflow.html[Understanding Reflow]
+* WCAG 1.4.10 Reflow, Understanding https://www.w3.org/WAI/WCAG21/Understanding/reflow.html[Understanding Reflow]
 (zur Zeit nur auf Englisch verfügbar)
+* Appt Guidelines https://appt.org/en/guidelines/wcag/success-criterion-1-4-10[
+Reflow]. Beispiele für die Umsetzung vergrößerbaren umbrechenden Texts in den Umgebungen Android, iOS, Flutter, React Native und Xamarin. Hier wird Reflow auf das Verhalten von Text bei Übernahme nutzerdefinierter Systemeinstellungen bezogen.
+
