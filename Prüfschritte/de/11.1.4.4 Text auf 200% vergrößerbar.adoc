@@ -115,7 +115,7 @@ Mobile Accessibility Guidelines, Content Resizing]. Beispiele für die Umsetzung
 
 === Android
 Orange Digital Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/android/development/magnification/[
-Android develop - Element magnification]. Code-Beispiele für den Einsatz von Scale-independent Pixels für die Textvergrößerung und Anpassung der Containergröper basierend auf Nutzereinstellungen.
+Android develop - Element magnification]. Code-Beispiele für den Einsatz von Scale-independent Pixels für die Textvergrößerung und Anpassung der Containergröße basierend auf Nutzereinstellungen.
 
 === iOS
 * Apple UIKit Dokumentation: https://developer.apple.com/documentation/uikit/uifont/scaling_fonts_automatically[
