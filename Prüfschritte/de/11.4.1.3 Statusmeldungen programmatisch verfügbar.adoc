@@ -35,7 +35,7 @@ zu müssen.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App Statusmeldungen generiert, die nicht den Fokus erhaltenEr ist nicht anwendbar, wenn Meldungen im Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem Abschicken eines Formulars (vom Nutzer initiiert) die Ansicht neulädt und dann vor dem Formular eine Fehlermeldung erscheint.
+Der Prüfschritt ist anwendbar, wenn die App Statusmeldungen generiert, die nicht den Fokus erhalten. Er ist nicht anwendbar, wenn Meldungen im Zusammenhang mit Kontextänderungen erscheinen, zum Beispiel, wenn nach dem Abschicken eines Formulars (vom Nutzer initiiert) die Ansicht neulädt und dann vor dem Formular eine Fehlermeldung erscheint.
 
 === 2. Prüfung
 
