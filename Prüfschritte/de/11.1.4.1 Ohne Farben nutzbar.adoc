@@ -53,7 +53,7 @@ Ebenfalls nicht als einfache Farbunterschiede gelten:
 
 === 3. Bewertung
 ==== Erfüllt:
-Information wird nicht nur über die Farbe vermittelt, sondern auch über andere Merkmale die Form, zusätzliche Merkmale wir Unterstreichung oder Einrückung, oder beigestellten Text
+Information wird nicht nur über die Farbe vermittelt, sondern auch über andere zusätzliche Merkmale, etwa die Form, der Rahmen, eine Textauszeichnung oder Einrückung, oder beigestellten Text.
 
 ==== Nicht erfüllt:
 Information wird ausschließlich über Farbe vermittelt. Der Kontrastunterscheid der für die Unterscheidung relevanten Farben liegt unter 3:1.
