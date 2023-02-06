@@ -51,6 +51,13 @@ Ebenfalls nicht als einfache Farbunterschiede gelten:
 * die farbige Hinterlegung von Elementen (denn eine Form kommt dazu oder ändert sich)
 * der Austausch von Vorder- und Hintergrundfarbe (denn wenn überhaupt ein Unterschied von Vorder- und Hintergrund wahrgenommen wird, ist auch der Austausch wahrnehmbar)
 
+=== 3. Bewertung
+==== Erfüllt:
+Informationen sind nicht nur über die Farbe vermittelt, sondern auch über andere Merkmale die Form, zusätzliche Merkmale wir Unterstreichung oder Einrückung, oder beigestellten Text
+
+==== Nicht erfüllt:
+Information wird ausschließlich über Farbe vermittelt. Der Kontrastunterscheid der für die Unterscheidung relevanten Farben liegt unter 3:1.
+
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfkriterien
@@ -87,9 +94,9 @@ geprüft.
 
 ==== Abgrenzung zu fehlenden Hervorhebungen
 
-In diesem Prüfschritt 1.4.1a geht es um die Farbunabhängigkeit vorhandener UI-Elemente.
+In diesem Prüfschritt 11.1.4.1a geht es um die Farbunabhängigkeit vorhandener UI-Elemente.
 
-Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Fließext nur durch die Farbe (und nicht zusätzlich durch Unterstreichung, Fettung oder vorangestellte Markierung) gekennzeichnet sind und der Kontrastunterschied zum umgebenden Test weinger als 3:1 beträgt.
+Eine negative Bewertung ist also beispielsweise angebracht, wenn Links im Fließtext nur durch die Farbe (und nicht zusätzlich durch Unterstreichung, Fettung oder vorangestellte Markierung) gekennzeichnet sind und der Kontrastunterschied zum umgebenden Test weinger als 3:1 beträgt.
 Wenn Links im Text überhaupt nicht gekennzeichnet sind, ist dies ein Problem für alle Nutzenden und keines der mangelnden Barrierefreiheit. Deshalb wird dies hier nicht negativ bewertet.
 
 Gleiches gilt für die Kennzeichnung der aktuellen Menüposition: Wird die aktuelle Position überhaupt nicht anzeigt, ist dies kein Fehler in diesem Prüfschritt.
