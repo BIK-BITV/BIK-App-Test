@@ -24,7 +24,7 @@ Darüber hinaus kann die Auszeichnung des Zwecks Eingabevorschläge für das Fel
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn Formular-Eingabefelder vorhanden sind, die sich auf Nutzerdaten beziehen (etwa Login / Anmeldung, Kontaktformulare,
 oder Ansichten zum Anlegen eines Nutzerprofils).
@@ -32,17 +32,17 @@ Für eine Prüfung, die Konformität bzw. Nicht-Konformität feststellen würde,
 In den Einstellungen zur Barrierefreiheit von Android und iOS müsste außerdem eine Einstellung auftauchen, mit der die Anzeige des Eingabezwecks
 ein- und ausgeschaltet werden kann. Beides ist zur Zeit (Januar 2023) nicht der Fall.
 
-=== Prüfung
+=== 2. Prüfung
 
 Bei Apps ist die Prüfung eingeschränkt möglich. Hier kann über eine Sichtprüfung z. B. festgestellt werden, ob bei Eingabefeldern für E-Mail-Adressen, Pin-Codes, URLs usw. auch die dafür optimierte Tastatur eingeblendet wird.
 Auf der Tastatur für Email-Adressen erscheint dann z. B. prominent das „``@``“-Zeichen und der Punkt ist verfügbar, ohne erst auf die Symboltastatur wechseln zu müssen.
 
-=== Hinweis
+=== 3. Hinweise
 
 Die Anforderung gilt nur für Felder, die sich auf den Nutzer selbst beziehen. Sie gilt nicht für Seiten bzw. Ansichten, auf denen die Eingabe von
 persönlichen Daten mehrerer Personen möglich ist und die Felder für den Nutzer selbst nicht besonders gekennzeichnet sind. Ein Beispiel dafür sind Ticketbuchungsseiten / -Apps von Fluglinien. Hier sind die Eingabefelder für den Nutzer nicht von den Feldern für Mitreisende unterscheidbar.
 
-=== Bewertung
+=== 4. Bewertung
 
 ==== Erfüllt:
 
