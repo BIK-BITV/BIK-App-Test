@@ -28,9 +28,9 @@ Darüber hinaus kann die Auszeichnung des Zwecks Eingabevorschläge für das Fel
 
 Der Prüfschritt ist anwendbar, wenn Formular-Eingabefelder vorhanden sind, die sich auf Nutzerdaten beziehen (etwa Login / Anmeldung, Kontaktformulare,
 oder Ansichten zum Anlegen eines Nutzerprofils).
-Für eine Prüfung, die Konformität buzw. Nichtkonformität feststellen würde, müsste die App bzw. Betriebssystem die Auszeichnung der Eingabezwecke unterstützen, die in Abschnitt https://www.w3.org/TR/WCAG21/#input-purposes[7. Input Purposes for User Interface Components] der WCAG festgelegt sind.
+Für eine Prüfung, die Konformität bzw. Nicht-Konformität feststellen würde, müsste die App bzw. das Betriebssystem die Auszeichnung der Eingabezwecke unterstützen, die in Abschnitt https://www.w3.org/TR/WCAG21/#input-purposes[7. Input Purposes for User Interface Components] der WCAG festgelegt sind.
 In den Einstellungen zur Barrierefreiheit von Android und iOS müsste außerdem eine Einstellung auftauchen, mit der die Anzeige des Eingabezwecks
-ein- und ausgeschaltet werden kann. Beides ist zur Zeit (Juni 2022) nicht der Fall.
+ein- und ausgeschaltet werden kann. Beides ist zur Zeit (Januar 2023) nicht der Fall.
 
 === Prüfung
 
