@@ -17,12 +17,11 @@ Hinweise zu diesem Prüfschritt haben.
 
 == Warum wird das geprüft?
 
-Die Festlegung des Eingabezwecks (sobald dies möglioch ist) erlaubt es neuartigen Hilfsmitteln, bei Formularfeldern, welche sich auf Daten des Nutzers beziehen, zusätzliche Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten Beschriftung des Feldes und unabhängig von der natürlichen Sprache des Angebots.
+Die Festlegung des Eingabezwecks (sobald dies möglich ist) wirde Bedienungshilfen-Einstellungen ermöglichen, die bei Formularfeldern, die sich auf Daten der Nutzenden selbstbeziehen, zusätzliche Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten Beschriftung des Feldes und unabhängig von der natürlichen Sprache des Angebots.
 
-Zusätzliche Informationen können etwa Bilder bzw. Icons sein, die über eine zukünftige assistive Technologie bereitgestellt werden köntte und über bzw.
-vor dem jeweiligen Eingabefeld angezeigt werden, etwa wenn Nutzer eine bestimmte Tastenkombination drücken. Für Menschen, die Schwierigkeiten mit dem Lesen haben oder bevorzugt über Bilder kommunizieren, erleichtert dies eine Identifizierung von nutzerbezogenen Feldern in Formularen.
+Zusätzliche Informationen könnten etwa Bilder bzw. Icons sein, die über bzw. vor dem jeweiligen Eingabefeld angezeigt würden, etwa wenn Nutzende dies voreinstellen. Für Menschen, die Schwierigkeiten mit dem Lesen haben oder bevorzugt über Bilder kommunizieren, erleichtert dies eine Identifizierung von nutzerbezogenen Feldern in Formularen.
 
-Darüber hinaus bietet die Auszeichnung des Zwecks Eingabevorschläge für das Feld, welche Nutzer einfach übernehmen können, und bietet ggf. an die Art der Eingabe angepasste Tastaturen an. Das erleichtert die Texteingabe.
+Darüber hinaus kann die Auszeichnung des Zwecks Eingabevorschläge für das Feld bieten, welche Nutzende einfach übernehmen können. An die Art des Eingabefeldes angepasste Tastaturen erleichtern außerdem die Texteingabe.
 
 == Wie wird geprüft?
 
