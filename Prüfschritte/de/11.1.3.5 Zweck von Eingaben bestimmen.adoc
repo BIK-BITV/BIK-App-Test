@@ -83,13 +83,13 @@ Mitreisende unterscheidbar.
 
 ==== Erfüllt:
 
-* Eingabefelder, die sich klar auf Nutzende selbst beziehen, unterstützen indirekt das Verständis des Zweck des Eingabezwecks, z.B. über die Anzeige einer anderen Tastatur oder Textvorschläge (Autofill).
+* Eingabefelder, die sich klar auf Nutzende selbst beziehen, unterstützen indirekt das Verständis des Zweck des Eingabezwecks, z.B. ggf. über die Anzeige einer anderen Tastatur oder Textvorschläge (Autofill).
 
 ==== Eher erfüllt: 
-* Eingabefelder generieren keine Eingabevorschläge und zeigen keine abweichende Tastatur an.
+* Eingabefelder, die sich klar auf Nutzende selbst beziehen, generieren keine Eingabevorschläge und zeigen keine abweichende Tastatur an (etwa für E-Mail-Felder).
 
 ==== Nicht anwendbar:
-* Eingabefelder beziehen sich eindeutig auf die Nutzenden selbst.
+* Eingabefelder beziehen sich nicht eindeutig auf die Nutzenden selbst.
 
 == Einordnung des Prüfschritts
 
@@ -112,10 +112,12 @@ Mitreisende unterscheidbar.
 Understanding Success Criterion 1.3.5: Identify Input Purpose (zur Zeit nur auf
 Englisch verfügbar)]
 
+=== Android
 * Android Developer Resources: https://developer.android.com/guide/topics/text/autofill-optimize[Optimize your app for autofill (zur Zeit nur auf
 Englisch verfügbar)]
 
+=== iOS
 * [BLOCK_LANG_EN]#Apple Developer Resources#: https://developer.apple.com/documentation/security/password_autofill/[Password AutoFill (zur Zeit nur auf
 Englisch verfügbar)] Die unterstützten Arten von Autofill-Daten sind sehr begrenzt und dienen zur Zeit hauptsächlich dazu, die Tastatur dynamisch anzupassen. Siehe auch https://developer.apple.com/documentation/uikit/uitextinputtraits/1649656-textcontenttype[textContentType:
-The semantic meaning for a text input area]. (zur Zeit nur auf
-Englisch verfügbar)
+The semantic meaning for a text input area]. (zur Zeit nur auf Englisch verfügbar)
+* https://developer.apple.com/documentation/uikit/uikeyboardtype[UIKeyBoardType: Verfügbare angepasste Tastaturen fpr bestimmte EIngabefelder]
