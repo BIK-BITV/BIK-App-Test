@@ -35,7 +35,7 @@ ein- und ausgeschaltet werden kann. Beides ist zur Zeit (Januar 2023) nicht der 
 === 2. Prüfung
 
 Bei Apps ist die Prüfung eingeschränkt möglich. Hier kann über eine Sichtprüfung z. B. festgestellt werden, ob bei Eingabefeldern für E-Mail-Adressen, Pin-Codes, URLs usw. auch die dafür optimierte Tastatur eingeblendet wird.
-Auf der Tastatur für Email-Adressen erscheint dann z. B. prominent das „``@``“-Zeichen und der Punkt ist verfügbar, ohne erst auf die Symboltastatur wechseln zu müssen.
+Auf der Tastatur für Email-Adressen erscheint dann z.B. prominent das „``@``“-Zeichen und der Punkt ist verfügbar, ohne erst auf die Symboltastatur wechseln zu müssen.
 
 === 3. Hinweise
 
