@@ -8,7 +8,7 @@ include::include/attributes.adoc[]
 
 Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine semantisch eindeutige, sprachunabhängige Bestimmung ihres Zweckes ermöglichen.
 
-In iOS/iPadOS und Android können Eingabefelder teilweise für einen bestimmten Zweck ausgezeichnet werden. Z. B. für die Eingabe einer E-Mail-Adresse, Nummern für PIN-Code-Eingabe, URL, usw. Hier kann dann das Betriebssystem u. a. eine optimierte Tastatur einblenden.
+In iOS/iPadOS und Android können Eingabefelder teilweise für einen bestimmten Zweck ausgezeichnet werden, etwa für die Eingabe einer E-Mail-Adresse, für ein PIN-Code-Eingabe oder eine URL. Für solche Eingabefelder kann das Betriebssystem eine optimierte Tastatur einblenden.
 Dies unterstützt die Identifizierung des Eingabezwecks, deckt sich jedoch nicht der Intention der Anforderung.
 
 Auf GitHub können Sie zu diesem Prüfschritt ein
