@@ -81,12 +81,15 @@ Mitreisende unterscheidbar.
 
 === Bewertung
 
-*Prüfschritt erfüllt:*
+==== Erfüllt:
 
-* Alle Eingabefelder, die sich klar auf den Nutzer selbst beziehen vermitteln
-  den Zweck des jeweiligen Feldes.
-  Da dies zur Zeit ggf. technisch nicht für alle Felder möglich ist, ist
-  dieser Prüfschritt dann nicht anwendbar.
+* Eingabefelder, die sich klar auf Nutzende selbst beziehen, unterstützen indirekt das Verständis des Zweck des Eingabezwecks, z.B. über die Anzeige einer anderen Tastatur oder Textvorschläge (Autofill).
+
+==== Eher erfüllt: 
+* Eingabefelder generieren keine Eingabevorschläge und zeigen keine abweichende Tastatur an.
+
+==== Nicht anwendbar:
+* Eingabefelder beziehen sich eindeutig auf die Nutzenden selbst.
 
 == Einordnung des Prüfschritts
 
