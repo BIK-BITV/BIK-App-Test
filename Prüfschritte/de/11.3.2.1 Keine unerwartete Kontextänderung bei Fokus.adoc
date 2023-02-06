@@ -57,7 +57,7 @@ und Datenverlust führen.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar, wenn die App interaktive Elemente enthält.
 
 === Prüfung
 
