@@ -77,15 +77,3 @@ durch Bezug auf sensorische Merkmale vermitteln (vergleiche Failure F13).
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F26.html[F26: Failure of
   Success Criterion 1.3.3 due to using a graphical symbol alone to convey
   information]
-
-==  Quellen
-
-=== Sensory Characteristics: Understanding SC 1.3.3
-
-[.BLOCK_LANG_EN]
-People who are blind and people who have low vision may not be able to
-understand information if it is conveyed by shape and/or location.
-Providing additional information other than shape and/or location will
-allow them to understand the information conveyed by shape and/or alone.
-
-Quelle: https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html
