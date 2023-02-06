@@ -8,8 +8,7 @@ include::include/attributes.adoc[]
 
 Eingabefelder, die sich auf den Nutzer selbst beziehen, sollten eine semantisch eindeutige, sprachunabhängige Bestimmung ihres Zweckes ermöglichen.
 
-In iOS/iPadOS und Android können Eingabefelder teilweise für einen bestimmten Zweck ausgezeichnet werden, etwa für die Eingabe einer E-Mail-Adresse, für ein PIN-Code-Eingabe oder eine URL. Für solche Eingabefelder kann das Betriebssystem eine optimierte Tastatur einblenden.
-Dies unterstützt die Identifizierung des Eingabezwecks, deckt sich jedoch nicht der Intention der Anforderung.
+In iOS/iPadOS und Android können Eingabefelder teilweise für bestimmte spezifische Eingabe-Typen ausgezeichnet werden, etwa für die Eingabe einer E-Mail-Adresse, für einen PIN-Code-Eingabe oder für eine URL. Für diese spezifischen Eingabefelder kann das Betriebssystem dann eine optimierte Tastatur einblenden. Dies unterstützt die Identifizierung des Eingabezwecks, deckt sich jedoch nicht der vollen Intention der Anforderung.
 
 Auf GitHub können Sie zu diesem Prüfschritt ein
 https://github.com/BIK-BITV/BIK-App-Test/issues[Issue eröffnen], falls Sie
@@ -17,9 +16,9 @@ Hinweise zu diesem Prüfschritt haben.
 
 == Warum wird das geprüft?
 
-Die Festlegung des Eingabezwecks (sobald dies möglich ist) wirde Bedienungshilfen-Einstellungen ermöglichen, die bei Formularfeldern, die sich auf Daten der Nutzenden selbstbeziehen, zusätzliche Informationen anzuzeigen, und zwar unabhängig vom der jeweils gewählten Beschriftung des Feldes und unabhängig von der natürlichen Sprache des Angebots.
+Die Festlegung des Eingabezwecks (sobald dies möglich ist) würde neue Bedienungshilfen-Einstellungen ermöglichen. Bei Formularfeldern, die sich auf Daten der Nutzenden selbstbeziehen, könnten damit zusätzliche Informationen angezeigt werden, und zwar unabhängig vom der jeweils gewählten Beschriftung des Feldes und unabhängig von der natürlichen Sprache des Angebots.
 
-Zusätzliche Informationen könnten etwa Bilder bzw. Icons sein, die über bzw. vor dem jeweiligen Eingabefeld angezeigt würden, etwa wenn Nutzende dies voreinstellen. Für Menschen, die Schwierigkeiten mit dem Lesen haben oder bevorzugt über Bilder kommunizieren, erleichtert dies eine Identifizierung von nutzerbezogenen Feldern in Formularen.
+Solche zusätzlichen Informationen könnten etwa Bilder bzw. Icons sein, die über bzw. vor dem jeweiligen Eingabefeld angezeigt werden, wenn Nutzende dies voreinstellen oder definierte Befehle aufrufen. Für Menschen, die Schwierigkeiten mit dem Lesen haben oder bevorzugt über Bilder kommunizieren, kann dies eine Identifizierung von nutzerbezogenen Feldern in Formularen erleichtern.
 
 Darüber hinaus kann die Auszeichnung des Zwecks Eingabevorschläge für das Feld bieten, welche Nutzende einfach übernehmen können. An die Art des Eingabefeldes angepasste Tastaturen erleichtern außerdem die Texteingabe.
 
