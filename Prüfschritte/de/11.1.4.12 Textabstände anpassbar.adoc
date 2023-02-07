@@ -41,7 +41,8 @@ Eine Prüfung der Anforderung findet zur Zeit nicht statt.
 Es ist vorstellbar, dass die verschiedenen Betriebssysteme zukünftig entsprechende Funktionen zur Veränderung des Textabstands anbieten werden. Ist dies der Fall, muss die App mit den systemseitig einstellbaren, von der Anforderung festlegten Abständen funktionieren.
 
 === 3. Bewertung
-Der Prüfschritt ist nicht anwendbar.
+==== Nicht anwendbar:
+Der Prüfschritt ist zurzeit nicht anwendbar.
 
 === 4. Hinweise
 Falls Apps selbst Einstellungen für die Textspreizung bieten, sind dies von Autoren vorgesehene und implementierte Einstellungen, es geht also nicht um die generelle Anpassbarkeit von App-Inhalten an Einstellungen von Nutzenden. Solche Einstellungen, falls vorhanden, fallen deshalb nicht unter diesen Prüfschritt. Ihre Resultate sind als zusätzliche, alternative Versionen zur konformen Version zu verstehen.
