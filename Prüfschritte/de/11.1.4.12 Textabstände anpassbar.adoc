@@ -2,8 +2,10 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
-Diese Anforderung kann zur Zeit auf Inhalte in mobilen Apps nicht angewandt werden und ist deshalb zur Zeit nicht anwendbar.
+Diese Anforderung kann zur Zeit auf Inhalte in mobilen Apps nicht angewandt werden. Der Prüfschritt ist deshalb zur Zeit nicht anwendbar.
 
 Wenn die zugrunde liegende Plattform Mark-Up-Sprachen nutzt und Anpssungsmöglichkeiten für Zeilen-, Absatz-, Wort- und Buchstaben-Abstände bietet, soll die App diese Einstellungen übernehmen. Bei den Anforderungen für Web-Inhalte (hier ist die Platform der Browser) sind solche Anpassungen sowohl über Browser-Plugins als auch über User Stylesheets möglich. Bei nativen Apps ist die Plattform das Betriebssystem. Hier gibt es solche Anpassungsmöglichkeiten zur Zeit nicht in den allgemeinen Einstellungen bzw. den Bedienungshilfen. Auch bei Webviews, die Markup-Sprachen verwenden und für die die Anforderung deshalb gelten könnte, gibt es sowohl durch die Einbindung in die App als auch das Fehlen von Einstellungen in mobilen Browsern keine Möglichkeit der Anpassung über Plugins oder User Stylesheets.
 
@@ -22,14 +24,9 @@ Anpassungen nicht zum Abschneiden von Text oder Verlust von Funktionalitäten f�
 
 == Warum wird das geprüft?
 
-Menschen mit Sehbehinderungen können die Lesbarkeit von Texten verbessern,
-wenn sie über Werkzeuge die Abstände zwischen Zeilen, Absätzen, Zeichen und
-Worten anpassen können.
-Solche Anpassungen führen dazu, das Texte ggf. mehr Platz brauchen und
-Container dementsprechend dynamisch angelegt sein müssen, um den längeren
-Text ohne Verlust zu zeigen.
-Zur Zeit sind keine Werkzeuge / systemseitige Bedienungshilfen bekannt, die
-eine solche Funktionalität für die mobilen Plattformen iOS / iPadOS und
+Menschen mit Sehbehinderungen können die Lesbarkeit von Texten verbessern, wenn sie über Werkzeuge die Abstände zwischen Zeilen, Absätzen, Zeichen und
+Worten anpassen können. Solche Anpassungen führen dazu, das Texte ggf. mehr Platz brauchen und Container dementsprechend dynamisch angelegt sein müssen, um den längeren Text ohne Verlust zu zeigen.
+Zur Zeit sind keine Werkzeuge / systemseitige Bedienungshilfen bekannt, die eine solche Funktionalität für die mobilen Plattformen iOS / iPadOS und
 Android zu Verfügung stellen.
 
 == Wie wird geprüft?
