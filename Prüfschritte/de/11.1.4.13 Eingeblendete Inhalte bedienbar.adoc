@@ -21,21 +21,14 @@ Die meisten mobilen Apps blenden beim Darüberfahren mit dem Zeiger (Hover) oder
 
 == Warum wird das geprüft?
 
-Für sehbehinderte Nutzer, die mit starker Zoomvergrößerung arbeiten, sind zusätzliche Inhalte, die bei Zeiger- oder Tastatur-Fokussierung eingeblendet
+Für sehbehinderte Nutzende, die mit starker Zoomvergrößerung arbeiten, sind zusätzliche Inhalte, die bei Zeiger- oder Tastatur-Fokussierung eingeblendet
 werden, aus mehreren Gründen problematisch:
 
-* Inhalte sind wegen des starken Zoomfaktors oft nur teilweise sichtbar.
-  Nutzer müssen in der Lage sein, den Zeiger von dem auslösenden Element
-  über den eingeblendeten Inhalt zu bewegen (was meist den sichtbaren
-  Ausschnitt verschiebt), ohne dass der eingeblendete Inhalt schließt.
-* Eingeblendete Inhalte verdecken häufig andere Inhalte.
-  Nutzer müssen in der Lage sein, den eingeblendeten Inhalt wieder zu
-  schließen, ohne den Fokus zu bewegen (was passieren würde, wenn etwa nach
-  einem Schließen-Element gesucht werden müsste).
-  Die Escape-Taste oder ein Aktivieren des auslösenden Elements, das zur Zeit
-  den Fokus hat, sollte den eingeblendeten Inhalt schließen.
+* Inhalte sind wegen des starken Zoomfaktors oft nur teilweise sichtbar. Nutzende müssen in der Lage sein, den Zeiger von dem auslösenden Element
+  über den eingeblendeten Inhalt zu bewegen (was ggf. den sichtbaren Ausschnitt verschiebt), ohne dass der eingeblendete Inhalt schließt.
+* Eingeblendete Inhalte verdecken häufig andere Inhalte. Nutzende müssen in der Lage sein, den eingeblendeten Inhalt wieder zu schließen, ohne den Fokus zu bewegen (was passieren würde, wenn etwa nach einem Schließen-Element gesucht werden müsste). Die Escape-Taste (falls vorhanden) oder ein Aktivieren des auslösenden Elements, das zur Zeit den Fokus hat, sollte den eingeblendeten Inhalt schließen.
 
-Sehbehinderte Nutzer brauchen ggf. mehr Zeit, Inhalte zu lesen. Eingeblendete Inhalte sollten deshalb solange zur Verfügung stehen, bis sie vom Nutzer geschlossen werden (etwa über Weiter-Tabben, Wegbewegen des Zeigers von auslösenden Element und eingeblendetem Inhalt, oder explizites Schließen über die Tastatur).
+Sehbehinderte Nutzer brauchen ggf. mehr Zeit, Inhalte zu lesen. Eingeblendete Inhalte sollten deshalb solange zur Verfügung stehen, bis sie von Nutzenden geschlossen werden (etwa über Weiter-Tabben, Wegbewegen des Zeigers von auslösenden Element und eingeblendetem Inhalt, oder explizites Schließen über die Tastatur).
 
 == Wie wird geprüft?
 
@@ -47,19 +40,18 @@ Der Prüfschritt ist grundsätzlich anwendbar, auch wenn bisher in der Prüfprax
 
 ==== 2.1 Zeiger-Hover-Prüfung
 
-Wenn sich zusätzliche Inhalte sich durch Hinüberbewegen des Zeigers (z.B. Maus-Hover) über ein Element einblenden lassen:
+Durch Überfahren interaktiver Elemene mit dem Maus-Zeiger prüfen, ob sich irgendwo zusätzliche Inhalte einblenden lassen. Falls ja:
 
 . Inhalt durch Hover über dem Element einblenden
 . Abwarten, ob der eingeblendete Inhalt sichtbar bleibt, also nicht nach kurzer Zeit selbsttätig schließt. Ausgenommen sind Fälle, bei denen der eingeblendete Inhalt nicht länger gültig ist.
 . Prüfen, ob sich der eingeblendete Inhalt durch die Escape-Taste oder ein Aktivieren des die Einblendung auslösenden Elements (Klicken, Tippen) schließen lässt. Ausgenommen sind hier Fälle, bei denen der eingeblendete Inhalt eine Fehlermeldung ist oder keine anderen Inhalte verdeckt oder ersetzt.
-. Inhalt erneut über Hover einblenden und den Zeiger über den neu eingeblendeten Inhalt bewegen. Der Inhalt sollte weiter sichtbar sein.
+. Inhalt erneut über Hover einblenden und den Zeiger über den neu eingeblendeten Inhalt bewegen. Der eingeblendete Inhalt sollte dabei weiter sichtbar bleiben.
 
 ==== 2.2 Tastaturfokus-Prüfung
 
-Wenn sich zusätzliche Inhalte durch die Tastaturfokussierung von Elementen einblenden lassen:
+Mit der Tastatur fokussierbare Elemente durchlaufen und prüfen ob Inhalte durch eingeblendet werden. Falls ja:
 
-. Mit der Tastatur fokussierbare Elemente durchlaufen und prüfen ob Inhalte durch eingeblendet werden.
-. Prüfen, ob der eingeblendete Inhalt sichtbar bleibt, also nicht nach kurzer Zeit selbsttätig schließt. Ausgenommen sind Fälle. bei denen der eingeblendete Inhalt nicht länger gültig ist.
+. Prüfen, ob der eingeblendete Inhalt sichtbar bleibt, also nicht nach kurzer Zeit selbsttätig schließt. Ausgenommen sind Fälle, bei denen der eingeblendete Inhalt nicht länger gültig ist.
 . Prüfen, ob sich der eingeblendete Inhalt über die Escape-Taste oder ein Aktivieren des die Einblendung auslösenden Elements (Enter) schließen
   lässt. Ausgenommen sind hier Fälle, bei denen der eingeblendete Inhalt eine Fehlermeldung ist oder keine anderen Inhalte verdeckt oder ersetzt.
 
@@ -70,6 +62,16 @@ Bei Inhalten, die durch Tastaturfokussierung von Elementen eingeblendet werden, 
 Wenn die Aktivierung des Elements, das den Inhalt einblendet, zum Schließen des eingeblendeten Inhalts benutzt wird, soll der Nutzer-Kontext bestehen
 bleiben (also nicht eine weitere Aktion, die den Kontext ändert, ausgelöst werden, etwa das Aktivieren eines Links).
 
+=== 4. Bewertung
+==== Erfüllt:
+Eingeblendete Inhalte schließen nicht selbsttätig, lassen sich ohne Verschieben des Fokus wieder schließen, und lassen sich nach Hover-Einblendung mit der Maus überfahren, ohne zu schließen.
+
+==== Nicht erfüllt:
+Eingeblendete Inhalte schließen  selbsttätig, oder lassen sich nicht ohne Verschieben des Fokus wieder schließen, oder schließen sich nach Hover-Einblendung selbsttätig bei dem Versuch, sie mit dem Zeiger zu überfahren.
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
 Wenn Inhalte durch Hover eingeblendet werden, sollten sie in der Regel auch bei Tastaturfokus eingeblendet werden, falls sie nicht alternativ zur Verfügung gestellt werden.
 Dies wird in Prüfschritt
 ifdef::env_embedded[]
@@ -79,8 +81,6 @@ ifndef::env_embedded[]
   <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
 endif::env_embedded[]
 geprüft.
-
-== Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
