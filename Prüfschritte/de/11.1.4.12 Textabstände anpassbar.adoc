@@ -34,7 +34,7 @@ Worten anpassen können. Solche Anpassungen führen dazu, das Texte ggf. mehr Pl
 
 Zur Zeit bieten die mobilen Betriebssysteme iOS / iPadOS und Android keine Einstellungen für Textspreizung an, daher ist dieser Prüfschritt zur Zeit generell nicht anwendbar.
 
-Falls Apps selbst Einstellungen für die Textspreizung bieten, sind dies von Autoren vorgesehene und implementierte Einstellungen, es geht also nicht um die generelle Anpassbarkeit autor-definierter Inhalte an Einstellungen von Nutzenden. Solche Einstellungen fallen deshlb nicht unter diesen Prüfschritt, sondern sind als alternative Versionen zur konformen Version zu bewerten.
+Falls Apps selbst Einstellungen für die Textspreizung bieten, sind dies von Autoren vorgesehene und implementierte Einstellungen, es geht also nicht um die generelle Anpassbarkeit von App-Inhalten an Einstellungen von Nutzenden. Solche Einstellungen fallen deshlb nicht unter diesen Prüfschritt, sondern sind als alternative Versionen zur konformen Version zu bewerten.
 
 === Prüfung
 
