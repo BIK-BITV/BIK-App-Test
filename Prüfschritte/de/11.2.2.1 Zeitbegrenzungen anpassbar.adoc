@@ -19,7 +19,7 @@ Dies betrifft etwa:
 Für jedes von der Software festgelegte Zeitlimit gilt mindestens eine der
 folgenden Bedingungen:
 
-* Ausschalten: Der Benutzer darf das Zeitlimit ausschalten, bevor er darauf
+* Ausschalten: Der Benutzer kann das Zeitlimit ausschalten, bevor er darauf
   stößt
 * Anpassen: Der Benutzer kann das Zeitlimit anpassen, bevor er es in einem
   langen Zeitraum feststellt, der mindestens zehnmal so lang ist wie die
