@@ -91,7 +91,7 @@ Im BITV-Test wird nur geprüft, ob Text in Form von Text verfügbar ist. Zusätz
 
 === Was ist mit auf Fotos abgebildeten Schriften?
 
-Schriftgrafiken sollen nicht verwendet werden, weil die Darstellung des Textes dann nicht mehr flexibel ist. Bei abgebildeten Schriften, also zum Beispiel bei Fotos mit Ladenschildern sind Inhalt und Darstellung zusammengehörig. Dieser Prüfschritt ist also nicht anwendbar.
+Schriftgrafiken sollen nicht verwendet werden, weil die Darstellung des Textes dann nicht mehr flexibel ist. Bei Bildern, in denen Schrift vorkommt, zum Beispiel bei Fotos mit Ladenschildern oder Verkehrszeichen, sind Inhalt und Darstellung zusammengehörig. Dieser Prüfschritt ist auf solche Bilder nicht anwendbar.
 
 Davon ausgenommen sind allerdings Abbildungen, die wie Schriftgrafiken verwendet werden, also zum Beispiel als Überschriften dienen.
 
