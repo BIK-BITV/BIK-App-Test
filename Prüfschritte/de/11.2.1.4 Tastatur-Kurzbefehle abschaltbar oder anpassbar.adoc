@@ -15,11 +15,11 @@ problematisch. Spracheingaben können unerwartet Befehle für Funktionen auslös
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
 
-=== Prüfung
+=== 2. Prüfung
 
 . App Ansicht neu laden.
   Wenn dies den Fokus auf ein Interface-Element setzt (z.B. auf ein Eingabefeld), auf einen leeren Bereich der Software tippen, oder tabben, bis der Rahmen der Ansicht fokussiert ist, um sicherzustellen, dass keine Interface-Elemente fokussiert sind.
@@ -30,12 +30,12 @@ Der Prüfschritt ist immer anwendbar.
 Falls einzelne Tasten Funktionen auslösen, prüfen, ob die App Einstellungen bereithält, um diese Tastaturkurzbefehle über Einzeltasten abzuschalten oder
 auf Tastaturkurzbefehle mit einer Modifikator-Taste zu mappen.
 
-=== Hinweise
+=== 3. Hinweise
 
 Die Anforderung gilt nicht, wenn die Tastaturkurzbefehle nur aktiv sind, sobald bestimmte Interface-Elemente den Fokus haben, etwa ein
 Auswahllisten-Element bzw. select. Hier dient z.B. das Drücken einer Buchstabentaste zur schnellen Navigation innerhalb der Auswahllisten-Optionen.
 
-=== Bewertung
+=== 4. Bewertung
 
 ==== Erfüllt:
 
