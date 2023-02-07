@@ -3,20 +3,22 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+Diese Anforderung kann zur Zeit auf Inhalte in mobilen Apps nicht angewandt werden und ist deshalb zur Zeit nicht anwendbar.
 
-Die Anpassung der Zeilenhöhe auf das 1,5-fache der Textgröße, des Abstands
-nach Absätzen auf das 2-fache der Textgröße, von Buchstabenabständen auf
-das 0,12-fache der Textgröße und von Wortabständen auf das 0,16-fache der
-Textgröße führt nicht zu einem Verlust an Inhalten oder Funktionalitäten,
-zum Beispiel durch das Abschneiden von Inhalten in Elementen, deren Größe
-sich bei Einstellung größerer Textabstände und dadurch erfolgender
+Wenn die zugrunde liegende Plattform Mark-Up-Sprachen nutzt und Anpssungsmöglichkeiten für Zeilen-, Absatz-, Wort- und Buchstaben-Abstände bietet, soll die App diese Einstellungen übernehmen. Bei den Anforderungen für Web-Inhalte (hier ist die Platform der Browser) sind solche Anpassungen sowohl über Browser-Plugins als auch über User Stylesheets möglich. Bei nativen Apps ist die Plattform das Betriebssystem. Hier gibt es solche Anpassungsmöglichkeiten zur Zeit nicht in den allgemeinen Einstellungen bzw. den Bedienungshilfen. Auch bei Webviews, die Markup-Sprachen verwenden und für die die Anforderung deshalb gelten könnte, gibt es sowohl durch die Einbindung in die App als auch das Fehlen von Einstellungen in mobilen Browsern keine Möglichkeit der Anpassung über Plugins oder User Stylesheets.
+
+Die Anforderung verlangt grundsätzlich die Anpassbarkeit 
+* der Zeilenhöhe auf das 1,5-fache der Textgröße
+* des Abstands nach Absätzen auf das 2-fache der Textgröße
+* von Buchstabenabständen auf das 0,12-fache der Textgröße 
+* und von Wortabständen auf das 0,16-fache der Textgröße 
+
+Wenn eine Anpassung etwa über Einstellungen in de rPlatform möglich ist, soll es nicht zu einem Verlust an Inhalten oder Funktionalitäten kommen, zum Beispiel durch das Abschneiden von Inhalten in Elementen, deren Größe sich bei Einstellung größerer Textabstände und dadurch erfolgender
 Textspreizungen oder Umbrüche nicht dynamisch anpasst.
 
 *Anmerkung:*
-Die Anforderung verlangt *nicht* von Autoren, die genannten Werte bei Ihren
-Inhalten umzusetzen, sondern lediglich, dass von Nutzern vorgenommene
-Anpassungen nicht zum Abschneiden von Text oder Verlust von Funktionalitäten
-führt.
+Die Anforderung verlangt *nicht* von Autoren, die genannten Werte bei Ihren Inhalten umzusetzen, sondern lediglich, dass von Nutzern vorgenommene
+Anpassungen nicht zum Abschneiden von Text oder Verlust von Funktionalitäten führt.
 
 == Warum wird das geprüft?
 
@@ -30,34 +32,19 @@ Zur Zeit sind keine Werkzeuge / systemseitige Bedienungshilfen bekannt, die
 eine solche Funktionalität für die mobilen Plattformen iOS / iPadOS und
 Android zu Verfügung stellen.
 
-Der Prüfschritt wird von der EN 301 549 Version 3.1.1 gefordert.
-Für die Umsetzung der Prüfung gibt es leider wenig Hinweise durch die EN.
-Vom Nutzer anpassbare Textabstände sind bei Software zur Zeit kaum verbreitet.
-Da die mobilen Plattformen keine entsprechende Bedienungshilfe bereitstellen,
-ist dieser Prüfschritt zur Zeit nicht anwendbar.
-
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
-Zur Zeit bieten die mobilen Systeme keine Bedienungshilfe zur Textspreizung in
-Apps an, daher ist dieser Prüfschritt noch nicht anzuwenden.
-Dies kann sich in Zukunft ändern, dann gelten die folgenden Bedingungen:
+Zur Zeit bieten die mobilen Betriebssysteme keine Einstellungen für Textspreizung an, daher ist dieser Prüfschritt zur Zeit generell nicht anwendbar.
 
-* Der Prüfschritt ist anwendbar, wenn die Software echten Text enthält (also
-  Text, der nicht über eine Grafik bereitgestellt wird).
-* Wenn die Software keinen Inhalts-Layout-Bereich mit fester Größe hat, der
-  für die übermittelte Information von wesentlicher Bedeutung ist.
+Falls Apps selbst Einstellungen für die Textspreizung bieten, sind dies von Autoren vorgesehene und implementierte Einstellungen, es geht also nicht um die generelle Anpassbarkeit autor-definierter Inhalte an Einstellungen von Nutzenden. Solche Einstellungen fallen deshlb nicht unter diesen Prüfschritt, sondern sind als alternative Versionen zur konformen Version zu bewerten.
 
 === Prüfung
 
-Bei Software kann lediglich geprüft werden, ob es Funktionen gibt, mit denen
-die geforderten Abstände eingestellt werden können.
+Eine Prüfung der Anforderung findet zur Zeit nicht statt.
 
-Es ist vorstellbar, dass die verschiedenen Betriebssysteme zukünftig
-entsprechende Funktionen zur Veränderung des Textabstands anbieten werden.
-Ist dies der Fall, muss die Software mit den systemseitig eingestellten
-Abständen funktionieren.
+Es ist vorstellbar, dass die verschiedenen Betriebssysteme zukünftig entsprechende Funktionen zur Veränderung des Textabstands anbieten werden. Ist dies der Fall, muss die App mit den systemseitig einstellbaren, von der Anforderung festlegten Abständen funktionieren.
 
 == Quellen
 
