@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Die App soll auch ohne Maus- und Touch-Eingaben, also ausschließlich mit der Tastatur zu benutzen sein.
