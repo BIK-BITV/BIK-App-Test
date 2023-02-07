@@ -74,3 +74,14 @@ Auswahllisten-Element bzw. select. Hier dient z.B. das Drücken einer Buchstaben
 * https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[
   Understanding Success Criterion 2.1.4: Character Key Shortcuts]
   (zur Zeit nur auf Englisch verfügbar)
+
+== Fragen zu diesem Prüfschritt
+=== Unsere App ist auf die mobile Nutzung unterwegs ausgelegt, da hat man doch keine Tastatur. Gilt dann dieser Prüfschritt trotzdem?
+Ja, er gilt. Viele Apps für unterwegs werden auch zuhause oder am Arbeitsplatz genutzt, z.B. bei einer App für den öffentlichen Nahverkehr:
+
+* um Reisen vorab zu planen, Wege und Anschlüsse zu recherchieren
+* um Meldungen zu Baustellen, Umleitungen oder Verkehrsbehinderungen vorab zu checken
+* um nutzerdefinierte Voreinstellungen vorzunehmen (z.B. häufige Ziele oder häufige Routen festlegen)
+* um sich zu registrieren oder Profildaten zu ändern
+
+Die Anforderungen an Tastaturnutzbarkeit gelten also generell. Die BITV bzw. die zugrunde liegende EN 301 549 sehen hier keine Ausnahmen vor. 
