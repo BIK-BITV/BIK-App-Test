@@ -121,12 +121,9 @@ endif::env_embedded[]
 Alle Betriebssysteme zeigen dem Tastaturnutzer in irgendeiner Weise, wo der
 Fokus ist, wenn diese Anzeige nicht aktiv unterdrückt wird.
 
-Dennoch ist die Anzeige des Fokus nicht allein Sache des Betriebssystems.
-Die App legt fest, wie sie aussehen soll.
-Sie ändert etwa die Farben fokussierter Bedienelemente und Hintergründe von
-Bedienelementen oder setzt andere Gestaltungselemente ein.
-In dieser von der App festgelegten Umgebung muss der Fokus für Tastaturnutzer
-gut sichtbar sein.
+Dennoch ist die Anzeige des Fokus nicht allein Sache des Betriebssystems. Bei den mobilen Betriebssystmen ist die Standatrdanzeige nicht kontradtreich genug und für Menschen mut Sehbehinderungen nicht oder nur schlecht wahrnwehmbar.
+
+Die App kann festlegen, wie die Fokushervorhebung aussehen soll. Der Fokus muss für Tastaturnutzer gut sichtbar sein.
 
 === Unsere App ist auf die mobile Nutzung unterwegs ausgelegt, da hat man doch keine Tastatur. Gilt dann dieser Prüfschritt trotzdem?
 Ja, er gilt. Viele Apps für unterwegs werden auch zuhause oder am Arbeitsplatz genutzt, z.B. bei einer App für den öffentlichen Nahverkehr:
