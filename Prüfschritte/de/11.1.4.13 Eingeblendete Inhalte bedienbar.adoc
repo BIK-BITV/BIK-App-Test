@@ -17,7 +17,7 @@ sollten drei Anforderungen erfüllen:
 === Hinweis: ===
 Die Anforderung gilt nicht für eingeblendete Inhalte, deren Verhalten durch das Betriebssystem bestimmt wird.
 
-Die meisten mobilen Apps bieten keine Inhalte bei Fokusierung über Hover oder Tastatur, da meist für die Touchbedienung als dominante Nutzungsweise entwickelt wird. Dennoch sind solche Inhlate bei Nutzung mit gekoppelter Maus odr Tastatur möglich.
+Die meisten mobilen Apps blenden beim Darüberfahren mit dem Zeiger (Hover) oder bei Tastaturfokussierung keine zusätzlichen Inhalte ein, da die App meist für die Touchbedienung als dominante Nutzungsweise entwickelt wird - und hier gibt es kein Hover. Dennoch sind solche Inhalte bei Nutzung mit gekoppelter Maus oder Tastatur möglich.
 
 == Warum wird das geprüft?
 
