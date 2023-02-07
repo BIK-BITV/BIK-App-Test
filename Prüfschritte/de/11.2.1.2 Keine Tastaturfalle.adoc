@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Kann der Tastaturfokus auf ein Element der Ansicht bewegt werden, muss er auch von diesem Element wieder wegbewegt werden können. Der Inhalt darf keine Tastaturfalle erzeugen.
@@ -73,3 +75,14 @@ nicht erfüllt.
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F10[F10: Failure of
   Success Criterion 2.1.2 and Conformance Requirement 5 due to combining
   multiple content formats in a way that traps users inside one format type]
+  
+== Fragen zu diesem Prüfschritt
+=== Unsere App ist auf die mobile Nutzung unterwegs ausgelegt, da hat man doch keine Tastatur. Gilt dann dieser Prüfschritt trotzdem?
+Ja, er gilt. Viele Apps für unterwegs werden auch zuhause oder am Arbeitsplatz genutzt, z.B. bei einer App für den öffentlichen Nahverkehr:
+
+* um Reisen vorab zu planen, Wege und Anschlüsse zu recherchieren
+* um Meldungen zu Baustellen, Umleitungen oder Verkehrsbehinderungen vorab zu checken
+* um nutzerdefinierte Voreinstellungen vorzunehmen (z.B. häufige Ziele oder häufige Routen festlegen)
+* um sich zu registrieren oder Profildaten zu ändern
+
+Die Anforderungen an Tastaturnutzbarkeit gelten also generell. Die BITV bzw. die zugrunde liegende EN 301 549 sehen hier keine Ausnahmen vor. 
