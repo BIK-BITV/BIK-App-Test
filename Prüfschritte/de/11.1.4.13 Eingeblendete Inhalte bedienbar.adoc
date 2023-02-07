@@ -2,7 +2,7 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
 
