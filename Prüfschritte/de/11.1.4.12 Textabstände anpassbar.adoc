@@ -9,7 +9,7 @@ Diese Anforderung kann zur Zeit auf Inhalte in mobilen Apps nicht angewandt werd
 
 Wenn die zugrunde liegende Plattform Mark-Up-Sprachen nutzt und Anpssungsmöglichkeiten für Zeilen-, Absatz-, Wort- und Buchstaben-Abstände bietet, soll die App diese Einstellungen übernehmen. 
 
-Bei den Anforderungen für Web-Inhalte (hier ist die Platform der Browser) sind solche Anpassungen sowohl über Browser-Plugins als auch über User Stylesheets möglich. Bei nativen Apps ist die Plattform das Betriebssystem. Hier gibt es solche Anpassungsmöglichkeiten zur Zeit nicht in den allgemeinen Einstellungen bzw. den Bedienungshilfen. Auch bei Webviews, die Markup-Sprachen verwenden und für die die Anforderung deshalb gelten könnte, gibt es sowohl durch die Einbindung in die App als auch das Fehlen von Einstellungen in mobilen Browsern keine Möglichkeit der Anpassung über Plugins oder User Stylesheets.
+Bei den Anforderungen für Web-Inhalte (hier ist die Plattform der Browser) sind solche Anpassungen sowohl über Browser-Plugins als auch über User Stylesheets möglich. Bei nativen Apps ist die Plattform das Betriebssystem. Hier gibt es solche Anpassungsmöglichkeiten zur Zeit nicht in den allgemeinen Einstellungen bzw. den Bedienungshilfen. Auch bei Webviews, die Markup-Sprachen verwenden und für die die Anforderung deshalb gelten könnte, gibt es sowohl durch die Einbindung in die App als auch das Fehlen von Einstellungen in mobilen Browsern keine Möglichkeit der Anpassung über Plugins oder User Stylesheets.
 
 Die Anforderung verlangt grundsätzlich die Anpassbarkeit 
 * der Zeilenhöhe auf das 1,5-fache der Textgröße
