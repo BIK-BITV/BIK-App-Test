@@ -27,14 +27,12 @@ Die Anforderung verlangt *nicht* von Autoren, die genannten Werte bei Ihren Inha
 
 Menschen mit Sehbehinderungen können die Lesbarkeit von Texten verbessern, wenn sie über Werkzeuge die Abstände zwischen Zeilen, Absätzen, Zeichen und
 Worten anpassen können. Solche Anpassungen führen dazu, das Texte ggf. mehr Platz brauchen und Container dementsprechend dynamisch angelegt sein müssen, um den längeren Text ohne Verlust zu zeigen.
-Zur Zeit sind keine Werkzeuge / systemseitige Bedienungshilfen bekannt, die eine solche Funktionalität für die mobilen Plattformen iOS / iPadOS und
-Android zu Verfügung stellen.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Zur Zeit bieten die mobilen Betriebssysteme keine Einstellungen für Textspreizung an, daher ist dieser Prüfschritt zur Zeit generell nicht anwendbar.
+Zur Zeit bieten die mobilen Betriebssysteme iOS / iPadOS und Android keine Einstellungen für Textspreizung an, daher ist dieser Prüfschritt zur Zeit generell nicht anwendbar.
 
 Falls Apps selbst Einstellungen für die Textspreizung bieten, sind dies von Autoren vorgesehene und implementierte Einstellungen, es geht also nicht um die generelle Anpassbarkeit autor-definierter Inhalte an Einstellungen von Nutzenden. Solche Einstellungen fallen deshlb nicht unter diesen Prüfschritt, sondern sind als alternative Versionen zur konformen Version zu bewerten.
 
