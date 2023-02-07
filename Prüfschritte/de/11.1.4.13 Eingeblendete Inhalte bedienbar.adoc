@@ -63,6 +63,9 @@ Wenn die Aktivierung des Elements, das den Inhalt einblendet, zum Schließen des
 bleiben (also nicht eine weitere Aktion, die den Kontext ändert, ausgelöst werden, etwa das Aktivieren eines Links).
 
 === 4. Bewertung
+==== Nicht anwendbar:
+Es gibt keine Elemente die bei Hover oder Tastaturfokussierung eingeblendet werden.
+
 ==== Erfüllt:
 Eingeblendete Inhalte schließen nicht selbsttätig, lassen sich ohne Verschieben des Fokus wieder schließen, und lassen sich nach Hover-Einblendung mit der Maus überfahren, ohne zu schließen.
 
