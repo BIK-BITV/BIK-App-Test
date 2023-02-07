@@ -64,10 +64,10 @@ bleiben (also nicht eine weitere Aktion, die den Kontext ändert, ausgelöst wer
 
 === 4. Bewertung
 ==== Nicht anwendbar:
-Es gibt keine Elemente die bei Hover oder Tastaturfokussierung eingeblendet werden.
+Es gibt keine Elemente, die bei Zeiger-Hover oder Tastaturfokussierung eingeblendet werden.
 
 ==== Erfüllt:
-Eingeblendete Inhalte schließen nicht selbsttätig, lassen sich ohne Verschieben des Fokus wieder schließen, und lassen sich nach Hover-Einblendung mit der Maus überfahren, ohne zu schließen.
+Eingeblendete Inhalte schließen nicht selbsttätig, lassen sich ohne Verschieben des Fokus wieder schließen, und lassen sich nach Hover-Einblendung mit dem Zeiger überfahren, ohne zu schließen.
 
 ==== Nicht erfüllt:
 Eingeblendete Inhalte schließen  selbsttätig, oder lassen sich nicht ohne Verschieben des Fokus wieder schließen, oder schließen sich nach Hover-Einblendung selbsttätig bei dem Versuch, sie mit dem Zeiger zu überfahren.
