@@ -128,7 +128,6 @@ Bedienelementen oder setzt andere Gestaltungselemente ein.
 In dieser von der App festgelegten Umgebung muss der Fokus für Tastaturnutzer
 gut sichtbar sein.
 
-== Fragen zu diesem Prüfschritt
 === Unsere App ist auf die mobile Nutzung unterwegs ausgelegt, da hat man doch keine Tastatur. Gilt dann dieser Prüfschritt trotzdem?
 Ja, er gilt. Viele Apps für unterwegs werden auch zuhause oder am Arbeitsplatz genutzt, z.B. bei einer App für den öffentlichen Nahverkehr:
 
