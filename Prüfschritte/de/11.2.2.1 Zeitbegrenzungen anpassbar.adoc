@@ -29,7 +29,7 @@ Für jedes von der App festgelegte Zeitlimit gilt mindestens eine der folgenden 
 
 == Warum wird das geprüft?
 Die Anforderung stellt sicher, dass Nutzende Aufgaben ohne Zeitbegrenzungen oder unerwartete Änderungen des Inhalts oder des Kontexts ausführen können. Wenn Zeitbegrenzungen sich nicht abschalten oder verlängern lassen, können Nutzer, die mehr Zeit für Eingaben brauchen, Online-Transaktionen oft nicht
-rechtzeitig abschließen. Eine andere Form der Zeitbegrenzung ist die Auto-Aktualisierung von Inhalten durch das Neu-Laden einer Ansicht. Für Screenreader-Nutzer bedeutet Auto-Aktualisierung, dass das Vorlesen der Inhalte plötzlich unterbrochen wird und unvermittelt von vorne beginnt. Der Lese- bze. Nutzungskontext geht verloren.
+rechtzeitig abschließen. Eine andere Form der Zeitbegrenzung ist die Auto-Aktualisierung von Inhalten durch das Neu-Laden einer Ansicht. Für Screenreader-Nutzer bedeutet Auto-Aktualisierung, dass das Vorlesen der Inhalte plötzlich unterbrochen wird und unvermittelt von vorne beginnt. Der Lese- bzw. Nutzungskontext geht verloren.
 
 Bei zeitverzögerten Weiterleitungen sollen Nutzer etwas lesen, bevor sie automatisch auf eine andere Ansicht weitergeleitet werden.
 Die kurz zwischendurch angezeigte Ansicht ist für viele Nutzende nicht zugänglich und die Tatsache der Weiterleitung damit nicht verständlich.
