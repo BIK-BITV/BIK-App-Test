@@ -124,7 +124,7 @@ Ja, er gilt. Viele Apps für unterwegs werden auch zuhause oder am Arbeitsplatz 
 
 * um Reisen vorab zu planen, Wege und Anschlüsse zu recherchieren
 * um Meldungen zu Baustellen, Umleitungen ofder Verkehrsbehinderungen vorab zu checken
-* um nutzerdefinierte Voreinstellungen vorzunehmen (z.B. häufige Ziele oder häufige Routen definieren)
+* um nutzerdefinierte Voreinstellungen vorzunehmen (z.B. häufige Ziele oder häufige Routen festlegen)
 * um sich zu registrieren oder Profildaten zu ändern
 
 Die Anforderungen an Tastaturnutzbarkeit gelten generell. Die BITV bzw. die zugrunde liegende EN 301 549 sehen hier keine Ausnahmen vor. 
