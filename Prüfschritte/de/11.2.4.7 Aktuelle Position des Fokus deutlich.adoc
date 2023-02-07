@@ -121,7 +121,7 @@ endif::env_embedded[]
 Alle Betriebssysteme zeigen dem Tastaturnutzer in irgendeiner Weise, wo der
 Fokus ist, wenn diese Anzeige nicht aktiv unterdrückt wird.
 
-Dennoch ist die Anzeige des Fokus nicht allein Sache des Betriebssystems. Bei den mobilen Betriebssystmen ist die Standatrdanzeige nicht kontradtreich genug und für Menschen mut Sehbehinderungen nicht oder nur schlecht wahrnwehmbar.
+Dennoch ist die Anzeige des Fokus (leider) nicht allein Sache des Betriebssystems. Bei den mobilen Betriebssystmen ist die Standard.Fokushervorhebung nicht kontrastreich genug und für Menschen mut Sehbehinderungen nicht oder nur schlecht wahrnwehmbar.
 
 Die App kann festlegen, wie die Fokushervorhebung aussehen soll. Der Fokus muss für Tastaturnutzer gut sichtbar sein.
 
