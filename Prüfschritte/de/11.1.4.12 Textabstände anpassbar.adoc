@@ -18,7 +18,7 @@ Die Anforderung verlangt grundsätzlich die Anpassbarkeit der Inhalte für folge
 * Vergrößerung von Buchstaben-Abständen auf das 0,12-fache der Textgröße 
 * Vergrößerung von Wortabständen auf das 0,16-fache der Textgröße 
 
-Wenn eine Anpassung, etwa über Einstellungen in der Platform möglich ist, soll es nicht zu einem Verlust an Inhalten oder Funktionalitäten kommen, zum Beispiel durch das Abschneiden von Inhalten in Elementen, deren Größe sich bei Einstellung größerer Textabstände und dadurch erfolgender
+Wenn diese Einstellungen in der Platform vorgenommen werden, soll es nicht zu einem Verlust an Inhalten oder Funktionalitäten kommen, zum Beispiel durch das Abschneiden von Inhalten in Elementen, deren Größe sich bei Einstellung größerer Textabstände und dadurch erfolgender
 Textspreizungen oder Umbrüche nicht dynamisch anpasst.
 
 *Anmerkung:*
