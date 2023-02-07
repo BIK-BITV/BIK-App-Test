@@ -2,27 +2,26 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.
+
 == Was wird geprüft?
 
-Zusätzliche Inhalte, die angezeigt werden, wenn Elemente den Zeiger- oder
-Tastaturfokus erhalten, z.B. benutzerdefinierte Tooltips oder Ausklapp-Menüs,
+Zusätzliche Inhalte, die angezeigt werden, wenn Elemente den Zeiger- oder Tastaturfokus erhalten, z.B. benutzerdefinierte Tooltips oder Ausklapp-Menüs,
 sollten drei Anforderungen erfüllen:
 
-* Wenn zusätzliche Inhalte durch Darüberfahren mit dem Zeiger erscheinen,
-  können Benutzer den Zeiger über diesen Inhalt bewegen, ohne dass er verschwindet.
-* Es gibt die Möglichkeit, einen eingeblendeten Inhalt zu schließen, ohne
-  den Fokus zu verschieben (z.B. durch Drücken der Escape-Taste oder durch
+* Wenn zusätzliche Inhalte durch Darüberfahren mit dem Zeiger erscheinen, können Benutzer den Zeiger über diesen Inhalt bewegen, ohne dass er verschwindet.
+* Es gibt die Möglichkeit, einen eingeblendeten Inhalt zu schließen, ohne den Fokus zu verschieben (z.B. durch Drücken der Escape-Taste oder durch
   Aktivieren des Elements, dessen Fokussierung den Inhalt einblendet).
 * Der Inhalt schließt nicht selbsttätig nach einer gewissen Zeitspanne.
 
-*Hinweis:*
-Die Anforderung gilt nicht für eingeblendete Inhalte, deren Verhalten durch
-das Betriebssystem bestimmt wird.
+=== Hinweis: ===
+Die Anforderung gilt nicht für eingeblendete Inhalte, deren Verhalten durch das Betriebssystem bestimmt wird.
+
+Die meisten mobilen Apps bieten keine Inhalte bei Fokusierung über Hover oder Tastatur, da meist für die Touchbedienung als dominante Nutzungsweise entwickelt wird. Dennoch sind solche Inhlate bei Nutzung mit gekoppelter Maus odr Tastatur möglich.
 
 == Warum wird das geprüft?
 
-Für sehbehinderte Nutzer, die mit starker Zoomvergrößerung arbeiten, sind
-zusätzliche Inhalte, die bei Zeiger- oder Tastatur-Fokussierung eingeblendet
+Für sehbehinderte Nutzer, die mit starker Zoomvergrößerung arbeiten, sind zusätzliche Inhalte, die bei Zeiger- oder Tastatur-Fokussierung eingeblendet
 werden, aus mehreren Gründen problematisch:
 
 * Inhalte sind wegen des starken Zoomfaktors oft nur teilweise sichtbar.
