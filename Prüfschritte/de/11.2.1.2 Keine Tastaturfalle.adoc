@@ -8,7 +8,7 @@ include::include/attributes.adoc[]
 
 Kann der Tastaturfokus auf ein Element der Ansicht bewegt werden, muss er auch von diesem Element wieder wegbewegt werden können. Der Inhalt darf keine Tastaturfalle erzeugen.
 
-Wenn mehr als Pfeil- oder Tabulatortasten oder andere Standard-Beendigungsmethoden erforderlich sind, wird Der Benutzer auf die benötigte Methode zum Wegbewegen des Fokus hingewiesen.
+Wenn mehr als Pfeil- oder Tabulatortasten oder andere Standard-Beendigungsmethoden erforderlich sind, gibt es für Nutzende einen Hinweis auf die benötigte Methode zum Wegbewegen des Fokus.
 
 
 == Warum wird das geprüft?
