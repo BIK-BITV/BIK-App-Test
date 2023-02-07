@@ -157,3 +157,15 @@ endif::env_embedded[]
   Success Criterion 2.4.3 due to using tabindex to create a tab order that does not preserve meaning and operability]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F85.html[F85: Failure of
   Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order]
+  
+== Fragen zu diesem Prüfschritt
+=== Unsere App ist auf die mobile Nutzung unterwegs ausgelegt, da hat man doch keine Tastatur. Gilt dann dieser Prüfschritt trotzdem?
+Ja, er gilt. Viele Apps für unterwegs werden auch zuhause oder am Arbeitsplatz genutzt, z.B. bei einer App für den öffentlichen Nahverkehr:
+
+* um Reisen vorab zu planen, Wege und Anschlüsse zu recherchieren
+* um Meldungen zu Baustellen, Umleitungen ofder Verkehrsbehinderungen vorab zu checken
+* um nutzerdefinierte Voreinstellungen vorzunehmen (z.B. häufige Ziele oder häufige Routen festlegen)
+* um sich zu registrieren oder Profildaten zu ändern
+
+Die Anforderungen an Tastaturnutzbarkeit gelten generell. Die BITV bzw. die zugrunde liegende EN 301 549 sehen hier keine Ausnahmen vor. 
+
