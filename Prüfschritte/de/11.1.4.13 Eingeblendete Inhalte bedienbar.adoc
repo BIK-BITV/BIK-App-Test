@@ -49,7 +49,7 @@ Durch Überfahren interaktiver Elemene mit dem Maus-Zeiger prüfen, ob sich irge
 
 ==== 2.2 Tastaturfokus-Prüfung
 
-Mit der Tastatur fokussierbare Elemente durchlaufen und prüfen ob Inhalte durch eingeblendet werden. Falls ja:
+Mit der Tastatur fokussierbare Elemente durchlaufen und prüfen, ob dadurch irgendwo Inhalte eingeblendet werden. Falls ja:
 
 . Prüfen, ob der eingeblendete Inhalt sichtbar bleibt, also nicht nach kurzer Zeit selbsttätig schließt. Ausgenommen sind Fälle, bei denen der eingeblendete Inhalt nicht länger gültig ist.
 . Prüfen, ob sich der eingeblendete Inhalt über die Escape-Taste oder ein Aktivieren des die Einblendung auslösenden Elements (Enter) schließen
