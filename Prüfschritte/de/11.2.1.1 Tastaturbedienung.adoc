@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Die App soll auch ohne Maus- oder Touch-Eingaben, also ausschließlich mit der Tastatur zu benutzen sein.
+Die App soll auch ohne Maus- oder Touch-Eingaben, also ausschließlich mit der Tastatur, zu benutzen sein.
 
 == Warum wird das geprüft?
 
