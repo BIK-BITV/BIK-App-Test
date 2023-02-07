@@ -19,17 +19,15 @@ regeln lässt.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn nach dem starten einer App bzw. beim Wechsel auf die zu prüfende Ansicht Tonelemente automatisch länger als drei Sekunden abgespielt werden.
+Der Prüfschritt ist anwendbar, wenn nach dem Starten einer App bzw. beim Wechsel auf eine Ansicht Tonelemente automatisch länger als drei Sekunden abgespielt werden.
 
 === 2. Prüfung
 
-Wenn nach Starten der App bzw. beim Wechsel auf die zu prüfende Ansicht
-ein Tonelement automatisch abgespielt wird:
+Wenn nach Starten der App bzw. beim Wechsel auf die zu prüfende Ansicht ein Tonelement automatisch abgespielt wird:
 
 * Prüfen, ob der Ton länger als 3 Sekunden dauert.
 
-* Wenn das der Fall ist: Prüfen, ob sich am Beginn der Ansicht ein Mechanismus (Button, Link, oder Lautstärke-Regler) befindet, mit dem sich der Ton abschalten oder unabhängig
-von der Systemlautstärke herunter regeln lässt.
+* Wenn das der Fall ist: Prüfen, ob sich am Beginn der Ansicht ein Mechanismus (Button, Link, oder Lautstärke-Regler) befindet, mit dem sich der Ton abschalten oder unabhängig von der Systemlautstärke herunterregeln lässt.
 
 * Den Mechanismus bedienen und den Ton abschalten.
 
@@ -37,7 +35,7 @@ Wenn sich die Lautstärke regeln lässt:
 
 * die Systemlautstärke darf durch den Regler in der App nicht verändert werden.
 
-Hier kann z. B. vor und nach einem Test ein Vergleichs-Sound abgespielt werden, um zu beurteilen, ob eine Veränderung der Systemlautstärke stattgefunden hat.
+Hier kann z.B. vor und nach einem Test ein Vergleichs-Sound abgespielt werden, um zu beurteilen, ob eine Veränderung der Systemlautstärke stattgefunden hat.
 
 === 3. Hinweise
 
@@ -57,12 +55,16 @@ Hier kann z. B. vor und nach einem Test ein Vergleichs-Sound abgespielt werden, 
 
 ==== Erfüllt:
 
-* Automatisch abgespielte Töne dauern nicht länger als drei Sekunden oder sind über einen barrierefreien Mechanismus in jeder Ansicht, in der Ton abgespielt wird, leicht abschaltbar.
+* Automatisch abgespielte Ton-Elemente dauern nicht länger als drei Sekunden oder sind über einen barrierefreien Mechanismus in jeder Ansicht, in der Ton abgespielt wird, leicht abschaltbar.
+
+==== Nicht erfüllt:
+
+* Das Ton-Element wird automatisch abgespieltm dauer trlänger als drei Sekunden, und ist nicht abschaltbar. 
 
 ==== Nicht voll erfüllt:
 
-* Automatisch abgespielter Ton enthält von Beginn an längere Sprachpassagen oder andere laute und störende Ton-Ereignisse. Die Sprachausgabe des Abschaltmechanismus kann deshalb nur schlecht wahrgenommen werden.
-* Der Mechanismus zum Abschalten des Tons befindet sich nicht auf der Ansicht, in der Ton abgespielt wird.
+* Automatisch abgespielte Ton-Elemente enthalten von Beginn an längere Sprachpassagen oder andere laute und störende Ton-Ereignisse. Die Sprachausgabe des Abschaltmechanismus kann deshalb nur schlecht wahrgenommen werden.
+* Es befindet sich kein Mechanismus zum Abschalten des Tons auf der Ansicht, in der Ton abgespielt wird.
 * Es gibt lediglich eine Erklärung, wie der Ton mittels Tastatur abschaltbar ist.
 
 == Einordnung des Prüfschritts
