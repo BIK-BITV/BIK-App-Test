@@ -119,8 +119,8 @@ bewertet
   keyboard navigation]
 
 == Fragen zu diesem Prüfschritt
-=== Unsere App auf die mobile Nutzung unterwegs ausgelegt, da hat man doch keine Tastatur. Ist dann nicht dieser Prüfschritt einfach nicht anwendbar?
-Viele Apps für unterwegs werden auch zuhause oder am Arbeitsplatz genutzt, z.B. bei einer App für den öffentlichen Nahverkehr:
+=== Unsere App ist auf die mobile Nutzung unterwegs ausgelegt, da hat man doch keine Tastatur. Gilt dann dieser Prüfschritt trotzdem?
+Ja, er gilt. Viele Apps für unterwegs werden auch zuhause oder am Arbeitsplatz genutzt, z.B. bei einer App für den öffentlichen Nahverkehr:
 
 * um Reisen vorab zu planen, Wege und Anschlüsse zu recherchieren
 * um Meldungen zu Baustellen, Umleitungen ofder Verkehrsbehinderungen vorab zu checken
