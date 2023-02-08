@@ -12,7 +12,7 @@ Bewegte oder automatisch aktualisierte Inhalte, z. B. periodisch wechselnde Nach
 
 == Warum wird das geprüft?
 
-Nutzende haben Schwierigkeiten, Apps zu nutzen, die mit blinkenden oder sich bewegenden Elementen (zum Beispiel Werbung) ausgestattet sind. Solche Elemente lenken ab. Der Benutzer kann sich möglicherweise nicht auf andere Inhalte konzentrieren.
+Nutzende haben Schwierigkeiten, Apps zu nutzen, die mit blinkenden oder sich bewegenden Elementen ausgestattet sind, Beispiele sind animierte Werbung und Videos, die bei Laden der Ansicht automatisch starten. Solche Elemente lenken ab. Der Benutzer kann sich möglicherweise nicht auf andere Inhalte konzentrieren.
 
 Viele Nutzende haben außerdem Schwierigkeiten, blinkende oder bewegte Inhalte zu lesen, etwa bei Newstickern.
 
