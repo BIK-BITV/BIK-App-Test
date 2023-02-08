@@ -25,11 +25,11 @@ Der Prüfschritt ist immer anwendbar.
 
 === 3. Hinweise Zur Einschätzung der Größe des flackernden Bereichs kann, wenn nötig, die
 WCAG 2.1
-http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G176#smallsafe1[Formel 1]
+http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G176#smallsafe1[Formel 1, https://www.w3.org/WAI/WCAG21/Techniques/general/G176.html#smallsafe1]
 herangezogen werden.
 
 === 4. Bewertung
-Die Ansicht enthält Elemente, die häufiger als dreimal pro Sekunde flackern.
+Die Ansicht enthält Elemente, die häufiger als dreimal pro Sekunde flackern und größer sind als die definierte https://www.w3.org/WAI/WCAG21/Techniques/general/G176.html#smallsafe1[Small Safe Area for Web Content].
 
 == Einordnung des Prüfschritts
 
