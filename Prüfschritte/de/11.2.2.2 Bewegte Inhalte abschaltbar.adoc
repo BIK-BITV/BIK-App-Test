@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Ablenkung durch blinkende oder sich bewegende Elemente soll vermieden werden, auf 5 Sekunden begrenzt sein oder abschaltbar sein.
+Ablenkung durch blinkende oder sich bewegende Elemente soll vermieden werden, auf 5 Sekunden begrenzt sein, oder die Bewegung soll abschaltbar sein.
 
 Bewegte oder automatisch aktualisierte Inhalte, z. B. periodisch wechselnde Nachrichten-Aufmacher (Teaser) sollen zum Lesen anhaltbar sein.
 
