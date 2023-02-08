@@ -38,11 +38,10 @@ Auswahllisten-Element bzw. select. Hier dient z.B. das Drücken einer Buchstaben
 
 ==== Erfüllt:
 
-* Durch das Drücken der Tasten geschehen keinerlei Änderungen des Inhalts
-  oder des Kontexts.
-* Es gibt Tastatur-Kurzbefehle über Einzeltasten, aber diese sind über
-  Einstellungen der App abschaltbar oder auf Tastenkombinationen mit
+* Durch das Drücken der Tasten geschehen keinerlei Änderungen des Inhalts oder des Kontexts.
+* Es gibt Tastatur-Kurzbefehle über Einzeltasten, aber diese sind über Einstellungen der App abschaltbar oder auf Tastenkombinationen mit
   Modifikator-Tasten umstellbar.
+* Tastaturkurzbefehle über Einzeltasten sind nur wirksam, wenn bestimmte interaktive Elemente den Fokus haben (z.B. Auswahllisten).
 
 == Einordnung des Prüfschritts
 
