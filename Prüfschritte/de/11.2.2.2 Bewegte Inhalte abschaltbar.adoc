@@ -56,20 +56,15 @@ Kontext des bewegten Inhalts platziert sein.
 
 === Abgrenzung der Prüfschritte 11.2.2.1 und 11.2.2.2
 
-Dieser Prüfschritt 11.2.2.2 betrifft bewegte Inhalte, die Benutzer ablenken
-oder durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Benutzer
-schwierig wahrnehmbar sind.
-Hier wird geprüft, ob Benutzer die Möglichkeit haben, bewegte Inhalte
-anzuhalten oder auszublenden.
+Dieser Prüfschritt 11.2.2.2 betrifft bewegte Inhalte, die Benutzer ablenken oder durch ihren vorgegebenen zeitlichen Ablauf für bestimmte Benutzer
+schwierig wahrnehmbar sind. Hier wird geprüft, ob Benutzer die Möglichkeit haben, bewegte Inhalte anzuhalten oder auszublenden.
 
 * Der Prüfschritt
 ifdef::env_embedded[11.2.2.1 "Zeitbegrenzungen anpassbar"]
 ifndef::env_embedded[]
   <<11.2.2.1 Zeitbegrenzungen anpassbar.adoc#,11.2.2.1 Zeitbegrenzungen anpassbar>>
 endif::env_embedded[]
-betrifft Zeitbegrenzungen, welche die ganze Seite betreffen, unabhängig
-davon, ob die zeitbegrenzten Inhalte bewegt sind (also ablenken) oder nicht.
-Geprüft wird, ob solche Zeitbegrenzungen abschaltbar oder verlängerbar sind.
+betrifft Zeitbegrenzungen, welche die ganze Ansicht betreffen, unabhängig davon, ob die zeitbegrenzten Inhalte bewegt sind (also ablenken) oder nicht. Geprüft wird, ob solche Zeitbegrenzungen abschaltbar oder verlängerbar sind.
 
 * Zur Abgrenzung von Blinken und Flackern siehe Abschnitt "Quellen" bei
   Prüfschritt
