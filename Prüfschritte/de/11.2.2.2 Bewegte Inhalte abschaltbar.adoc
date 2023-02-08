@@ -38,8 +38,8 @@ Zusätzlich sollte geprüft werden, ob das erneute Aktivieren der Schaltfläche 
 
 === 3. Hinweise
 
-* Die Schaltfläche oder die Anweisung, mit der man die Bewegung anhalten kann, muss eindeutig sein und deutlich sichtbar am Beginn der Ansicht oder direkt
-oberhalb des bewegten Inhalts platziert sein.
+* Die Schaltfläche oder die Anweisung, mit der man die Bewegung anhalten kann, muss eindeutig sein und deutlich sichtbar am Seitenbeginn oder im direkten
+Kontext des bewegten Inhalts platziert sein.
 
 * Alle Inhalte müssen nach dem Anhalten der Bewegung verfügbar bleiben.
 
@@ -49,7 +49,8 @@ oberhalb des bewegten Inhalts platziert sein.
 
 ==== Nicht voll erfüllt:
 
-* Bewegung endet nicht von allein, bewegte und automatisch aktualisierte Inhalte können nicht angehalten, ausgeblendet oder in ihrer Aktualisierungsfrequenz angepasst werden.
+* Die Bewegung von Inhalten endet nicht nach spätestens 5 Sekunden, bewegte und automatisch aktualisierte Inhalte können nicht angehalten, ausgeblendet oder in ihrer Aktualisierungsfrequenz angepasst werden.
+* Das Element zum Anhalten der Bewegung befindet sich nicht im unmittelbaren Kontext des sich bewegenden Elements oder am Beginn der Seite, oder erfüllt nicht alle Anforderungen der Barrierefreiheit.
 
 == Einordnung des Prüfschritts
 
