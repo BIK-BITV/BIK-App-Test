@@ -184,7 +184,7 @@ endif::env_embedded[]
 
 === iOS
 
-* https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[Apple Accessibility for UIKit: accessibiliyLabel]
+* https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[Apple Accessibility for UIKit: accessibilityLabel]
 * https://appt.org/en/docs/ios/samples/accessibility-label[Appt.org: Accessibility label on iOS]
 
 === Anleitungen zum Erstellen guter Alternativtexte
