@@ -183,7 +183,9 @@ endif::env_embedded[]
 * https://a11y-guidelines.orange.com/en/mobile/android/development/vocal-navigation/[Orange Digital Accessibility: Vocal Naviation]
 
 === iOS
-https://appt.org/en/docs/ios/samples/accessibility-label[Appt.org: Accessibility label on iOS]
+
+* https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[Apple Accessibility for UIKit: accessibiliyLabel]
+* https://appt.org/en/docs/ios/samples/accessibility-label[Appt.org: Accessibility label on iOS]
 
 === Anleitungen zum Erstellen guter Alternativtexte
 
