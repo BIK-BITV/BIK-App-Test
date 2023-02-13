@@ -80,7 +80,7 @@ Wenn die Textalternative kein angemessener Ersatz für die Grafik oder das Bild 
 * technische Zeichnungen
 * Anfahrtspläne
 
-Zum Kontext einer Grafik oder eines Bildes gehört: der dazugehörige (vorangehende, folgende) Text und eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar benannte Textalternative. Nicht alle Informationen können in jedem Fall im Text wiedergegeben werden. So ist bei einer Karte die die Umgebung eines Standortes zeigt, mehr Information enthalten als in einer Auflistung der Anfahrtswege einschließlich Infos zum öffentlichen Nahverkehr. Dennoch ist diese als Textalternative für die Karte akzeptabel. 
+Zum Kontext einer Grafik oder eines Bildes gehört: der dazugehörige (vorangehende, folgende) Text und eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar benannte Textalternative. Nicht alle Informationen können in jedem Fall im Text wiedergegeben werden. So sind in einer Karte, die die Umgebung eines Standortes zeigt, oft mehr Information enthalten als in einer Auflistung der Anfahrtswege einschließlich Infos zum öffentlichen Nahverkehr. Dennoch ist so eine Auflistung als Textalternative für die Karte eines Anfahrtsweges akzeptabel. 
 
 Für technische Zeichnungen, Grundrisse, Katasteramtskarten u.ä. sind detaillierte Alternativtexte oft nicht möglich bzw. sinnvoll, das Bild selbst sollte aber so benannt sein, dass Art des Bildes und Gegenstand genannt sind, einschließlich Informationen für die Bezugnahme auf das jeweilige Dokument (Codes, Nummern, technische Bezeichnungen usw).
 
