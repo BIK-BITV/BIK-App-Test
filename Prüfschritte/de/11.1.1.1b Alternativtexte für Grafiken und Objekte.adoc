@@ -190,6 +190,7 @@ endif::env_embedded[]
 
 === Anleitungen zum Erstellen guter Alternativtexte
 
+* Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/ios/wwdc/2019/#writing-great-accessibility-labels[Writing great accessibility labels]
 * W3C Web Accessibility Tutorials: https://www.w3.org/WAI/tutorials/images/[Images Concepts]
 * WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
-* Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/ios/wwdc/2019/#writing-great-accessibility-labels[Writing great accessibility labels]
+
