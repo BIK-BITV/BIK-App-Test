@@ -56,3 +56,6 @@ For the purposes of interoperability, support of Recommendation ITU-T T.140
 [i.36] is widely used.
 --
 ____
+
+== Quellen
+* https://w3c.github.io/webrtc-pc/[WebRTC 1.0: Real-Time Communication Between Browsers.] W3C Editor's Draft 06 February 2023
