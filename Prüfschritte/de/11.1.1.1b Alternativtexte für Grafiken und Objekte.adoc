@@ -187,6 +187,11 @@ endif::env_embedded[]
   geprüft.
   
 == Quellen
+=== Android
+https://appt.org/en/docs/android/samples/accessibility-label[Appt.org: Accessibility label on Android]
+
+=== iOS
+https://appt.org/en/docs/ios/samples/accessibility-label[Appt.org: Accessibility label on iOS]
 
 === Anleitungen zum Erstellen guter Alternativtexte
 
