@@ -29,7 +29,7 @@ Als informative Grafiken gelten:
 * Illustrationen, die einen Gegenstand, ein Konzept oder einen Prozess vorstellen, verdeutlichen oder veranschaulichen sollen (etwa Diagramme)
 * Symbole
 
-Dekorative Grafiken und Bilder sind Grenzfälle. Sie stellen (im Unterschied zu Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen Bezug zum Thema der App-Ansicht. Ihr Informationsgehalt und ihr Nutzen für das Verständnis ist aber nicht klar. Sie können daher als dekorativ gekennzeichnet werden, der Prüfschritt ist dann nicht anwendbar.
+Dekorative Grafiken und Bilder sind Grenzfälle. Sie stellen (im Unterschied zu Layoutgrafiken) etwas dar, der dargestellte Gegenstand hat auch meist einen Bezug zum Thema der App-Ansicht. Ihr Informationsgehalt und ihr Nutzen für das Verständnis ist aber nicht klar. Sie können daher als dekorativ gekennzeichnet werden. Der Alternativtext sollte dann leer sein.
 
 Wenn Logo-artige Elemente, in denen Grafik und Schrift verbunden sind, auftauchen, sind diese fast nie als bloße Schmuckgrafik anzusehen und brauchen deshalb eine Textalternative. Dies ermöglicht blinden und sehenden Nutzern, sich gemeinsam auf diese Elemente zu beziehen. Die Textalternative muss aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich ist.
 
@@ -44,7 +44,7 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 . Screenreader starten und Fokus auf jede informationstragende Grafik setzen.
 . Prüfen, ob der Screenreader informationstragende Grafiken aussagekräftigen Alternativtext ausgibt.
 . Bei komplexen Grafiken prüfen, ob der Alternativtext Inhalt knapp nennt und auf ausführliche Textalternativen im Kontext der Grafik verweist. Diese können etwa unterhalb der Grafik, in einem Ausklappbereich oder in einer verlinkten Ansicht vorgehalten werden.
-. Prüfen, ob Schmuckgrafiken Alternativtexte tragen. Bei Grenzfällen (Grafiken haben einen beschreibbaren Inhalt mit Bezug zum Thema, sind aber zum Verständnis der Inhalte nicht wichtig) können sowohl Alternativtexte als das Fehlen von Alternativtext akzeptiert werden.
+. Prüfen, ob Schmuckgrafiken Alternativtexte tragen. Bei Grenzfällen (Grafiken haben einen beschreibbaren Inhalt mit Bezug zum Thema, sind aber zum Verständnis der Inhalte nicht wichtig) können sowohl Alternativtexte als leere Alternativtexte akzeptiert werden.
 
 === 3. Hinweise
 
@@ -54,6 +54,8 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
 * iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
 * iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern
+
+===  Hinweise zu Schmuckbildern
 
 
 ==== Angemessene Alternativtexte
@@ -69,6 +71,7 @@ In der Regel bedeutet das:
 * Bei Diagrammen oder technischen Zeichnungen sind unter Umständen ausführlichere Erläuterungen erforderlich.
   Textalternativen sind dafür nicht geeignet, sie sollen in der Regel 80 Zeichen nicht überschreiten. In der Textalternative steht dann nur, was dargestellt ist und wo (etwa: "Details im anschließenden Text"). Die ausführliche Textalternative soll sich in Kontext des Bildes befinden. Der Kontext kann zum Beispiel ein unmittelbar folgender Inhalt (Text oder Tabelle), ein Ausklappbereich oder auch ein Link zu einer Ansicht sein, die die ausführliche Alternative enthält.
 * Bei Objekten, die nicht angezeigt werden können, sollen die Textalternative oder Text im unmittelbaren Kontext des Objekts (etwa eine vorangehende Überschrift oder nachfolgende Legende) eine kurze Beschreibung oder Identifizierung bieten und, falls vorhanden, auf eine Medienalternative verweisen.
+* Schmuckbilder sollten leere Alternativtexte haben, bei Android etwa über `android:contentDescription="@null"`. Es ist außerdem sinnvoll, dass Schmuckbilder keinen Screenreader-Fokus erhalten (bei Android etwa über `android:focusable="false"`).
 
 Generell gilt: Textalternativen sollen kurz sein. Ausführliche Beschreibungen von Abbildungen sollen nicht in die Textalternative, sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
@@ -167,16 +170,6 @@ ifndef::env_embedded[]
   <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,11.1.2.1
   Alternativen für Audiodateien und stumme Videos>>
 endif::env_embedded[]
-  geprüft.
-
-* Layout-Grafiken oder dekorative Grafiken werden in
-  Prüfschritt
-ifdef::env_embedded[11.1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
-ifndef::env_embedded[]
-  <<11.1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,11.1.1.1c Leere
-  alt-Attribute für Layout-Grafiken>>
-endif::env_embedded[]
-  geprüft.
 
 * CAPTCHAs werden in Prüfschritt
 ifdef::env_embedded[11.1.1.1d "Alternativen für CAPTCHAs"]
@@ -190,7 +183,7 @@ endif::env_embedded[]
 === Android
 
 * https://appt.org/en/docs/android/samples/accessibility-label[Appt.org: Accessibility label on Android]
-* https://a11y-guidelines.orange.com/en/mobile/android/development/vocal-navigation/#do-not-vocalize-the-decorative-and-hidden-elements[Orange Digital Accessibility: Do not vocalize the decorative and hidden elements]
+* https://a11y-guidelines.orange.com/en/mobile/android/development/vocal-navigation/[Orange Digital Accessibility: Vocal Naviation]
 
 === iOS
 https://appt.org/en/docs/ios/samples/accessibility-label[Appt.org: Accessibility label on iOS]
