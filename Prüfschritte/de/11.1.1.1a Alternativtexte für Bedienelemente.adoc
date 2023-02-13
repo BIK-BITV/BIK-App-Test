@@ -159,11 +159,21 @@ endif::env_embedded[]
   Dort geht es um die allgemeine Aussagekraft, in diesem Prüfschritt 11.1.1.1a
   geht es dagegen nur um die Gleichwertigkeit von Textalternative und grafischem
   Link.
-  
-== Quellen
 
-==== Anleitungen zum Erstellen guter Textalternativen
+== Quellen
+=== Android
+
+* https://appt.org/en/docs/android/samples/accessibility-label[Appt.org: Accessibility label on Android]
+* https://a11y-guidelines.orange.com/en/mobile/android/development/vocal-navigation/[Orange Digital Accessibility: Vocal Naviation]
+
+=== iOS
+
+* https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[Apple Accessibility for UIKit: accessibilityLabel]
+* https://appt.org/en/docs/ios/samples/accessibility-label[Appt.org: Accessibility label on iOS]
+
+=== Anleitungen zum Erstellen guter Alternativtexte
 
 * W3C Web Accessibility Tutorials:
   https://www.w3.org/WAI/tutorials/images/[Images Concepts]
 * WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
+* Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/ios/wwdc/2019/#writing-great-accessibility-labels[Writing great accessibility labels]
