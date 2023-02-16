@@ -2,110 +2,71 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
-Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem
-direkten Kontext des Links ermittelbar sein.
+Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem direkten Kontext des Links ermittelbar sein.
 
-Falls Links nicht auf andere Ansichten der App verweisen, soll der Link über
-das Dateiformat des Zieldokuments informieren.
+Falls Links nicht auf andere Ansichten der App verweisen, soll der Link über das Dateiformat des Zieldokuments informieren.
 
-Wenn Links in Anwendungen nicht erwartbar auf Ressourcen außerhalb der
-Software verweisen, sollte der Linktext auch hier einen zusätzlichen Hinweis
-auf das Ziel(format) geben.
-Z. B. „öffnet in Browser“ etc.
+Wenn Links in Anwendungen nicht erwartbar auf Ressourcen außerhalb der Software verweisen, sollte der Linktext auch hier einen zusätzlichen Hinweis auf das Ziel(format) geben. Z. B. „öffnet in Browser“ etc.
 
 == Warum wird das geprüft?
 
-Blinde Nutzer, die von Link zu Link tabben / navigieren, bekommen die
-Linktexte vorgelesen und können bei aussagekräftigen Linktexten leicht
-entscheiden, ob sie einem Link folgen möchten.
+Blinde Nutzer, die von Link zu Link tabben / navigieren, bekommen die Linktexte vorgelesen und können bei aussagekräftigen Linktexten leicht entscheiden, ob sie einem Link folgen möchten.
 
-Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare
-Kontext für Screenreader-Nutzer wenigstens leicht ermittelbar sein.
+Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare Kontext für Screenreader-Nutzer wenigstens leicht ermittelbar sein.
 
-Screenreader bieten die Möglichkeit der Auflistung bzw.
-direkter Anspringbarkeit sämtlicher Links der App-Ansicht und damit auch
-einen schnellen Überblick, selbst wenn die Software ansonsten schlecht
-zugänglich ist.
-Diese Technik funktioniert allerdings nicht, wenn alle Linktexte gleich sind
-und nicht ausreichend Auskunft über das Linkziel geben.
+Screenreader bieten die Möglichkeit der Auflistung bzw. direkter Anspringbarkeit sämtlicher Links der App-Ansicht und damit auch einen schnellen Überblick, selbst wenn die Software ansonsten schlecht zugänglich ist. Diese Technik funktioniert allerdings nicht, wenn alle Linktexte gleich sind und nicht ausreichend Auskunft über das Linkziel geben.
 
-Für Angebote außerhalb der App (zum Beispiel PDF- oder Word-Dokumente)
-benötigt der Benutzer zusätzliche Apps oder Plugins, die aber nicht jeder
-installiert hat.
-Manche Apps arbeiten schlecht mit Screenreadern oder anderen Hilfsanwendungen
-zusammen, manche Dateiformate sind nicht oder nur schlecht zugänglich.
-Für viele Benutzer ist es wichtig zu wissen, in welchem Format
-Informationen angeboten werden, bevor sie einen Link aktivieren.
+Für Angebote außerhalb der App (zum Beispiel PDF- oder Word-Dokumente) benötigt der Benutzer zusätzliche Apps oder Plugins, die aber nicht jeder
+installiert hat. Manche Apps arbeiten schlecht mit Screenreadern oder anderen Hilfsanwendungen zusammen, manche Dateiformate sind nicht oder nur schlecht zugänglich. Für viele Benutzer ist es wichtig zu wissen, in welchem Format Informationen angeboten werden, bevor sie einen Link aktivieren.
 
-Ein weiterer Grund, weshalb die Vorab-Information über den Typ des Links
-wichtig ist: Der Benutzer weiß dann, was auf ihn zukommt.
-Er ist nicht überrascht oder irritiert, wenn plötzlich Funktionen nicht mehr
-vorhanden sind oder der E-Mail-Client geöffnet wird.
+Ein weiterer Grund, weshalb die Vorab-Information über den Typ des Links wichtig ist: Der Benutzer weiß dann, was auf ihn zukommt. Er ist nicht überrascht oder irritiert, wenn plötzlich Funktionen nicht mehr vorhanden sind oder der E-Mail-Client geöffnet wird.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Software Links enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
-==== Prüfung von Linktexten
+==== 2.1 Prüfung der Aussagekraft von Linktexten (eischließlich Kontext)
 
 . Anwendung mit zu testender Ansicht öffnen.
-. Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder
-  im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
-. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist
-  (z. B. "mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der
-  folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
+. Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
+. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z. B. "mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der  folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
 +
-  * durch einen verständlichen Link am Beginn der Software-Ansicht, der
-    Linktexte auf der Seite erweitert
-  * durch den Alternativtext einer verlinkten Grafik, entsprechend Software
-    mit Screenreader testen
-  * durch den Text der umschließenden Tabellenzelle und der dazugehörigen
-    Überschriftenzellen, entsprechend Software mit Screenreader testen
-  * durch den Text der vorangehenden Überschrift, entsprechend Software mit
-    Screenreader testen
+  * durch einen verständlichen Link am Beginn der Software-Ansicht, der Linktexte auf der Seite erweitert
+  * durch den Alternativtext einer verlinkten Grafik, entsprechend Software mit Screenreader testen
+  * durch den Text der umschließenden Tabellenzelle und der dazugehörigen Überschriftenzellen, entsprechend Software mit Screenreader testen
+  * durch den Text der vorangehenden Überschrift, entsprechend Software mit Screenreader testen
 
-==== Prüfung von Links auf andere Dateiformate
+==== 2.2 Prüfung von Links auf andere Dateiformate
 
-Bei der Prüfung von Software müssen die Links stichprobenartig auf externe
-Ressourcen wie PDF-Dateien geprüft werden.
-hier muss zusätzlich geprüft werden, ob im Kontext des Links ein Hinweis auf
-das Ziel(format) gegeben wird z. B. mittels PDF-Symbols oder Überschriften,
-die das Ziel eindeutig kennzeichnen.
+Bei der Prüfung von Apps sollten Links stichprobenartig auf externe Ressourcen wie PDF-Dateien oder Websiten im LInk oder im Kontext des Links einen Hinweis auf das Ziel(format) geben wird z. B. mittels PDF-Symbols oder Überschriften. Solche Hinweis sind sinvoll. aber aus Konformitätssicht nicht zwingend erforderlich.
 
-=== Hinweise
+=== 3. Hinweise
 
-Bei verlinkten Grafiken ist der Linktext der Wert des Alternativtextes
-
-Der Linktext kann auch aus dem Alternativtext einer oder mehrerer Grafiken und
-einfachem Text zusammengesetzt sein.
-
-Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element
-einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der
-Auflistung hervorgeht.
-
-Bei Software kann mit aktiviertem Screenreader geprüft werden, was dieser bei
-verlinkten Grafiken ausgibt.
+* Bei verlinkten Grafiken ist der Linktext der Wert des Alternativtextes.
+* Der Linktext kann auch aus dem Alternativtext einer oder mehrerer Grafiken und einfachem Text zusammengesetzt sein.
+* Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der Auflistung hervorgeht.
+* Bei Apps kann mit aktiviertem Screenreader geprüft werden, was bei verlinkten Grafiken ausgegeben wird.
 
 === Bewertung
 
 *Erfüllt:*
 
-* Alle Links benennen im Linktext oder im direkten Kontext Linkziel oder
-  Linkzweck.
-* Alle Links auf Angebote / Ressourcen außerhalb der App geben Auskunft über
-  das Dateiformat oder das externe Ziel. (öffnet im Browser, …)
+* Alle Links benennen im Linktext oder im direkten Kontext Linkziel oder Linkzweck.
+* Alle Links auf Angebote / Ressourcen außerhalb der App geben im Linktext selbst oder im unmittelbaren Kontext Auskunft über das Dateiformat oder das externe Ziel. (öffnet im Browser, …)
 
 *Nicht voll erfüllt:*
 
 * Ziel oder Zweck des Links ist nicht eindeutig oder missverständlich.
 
-== Einordnung des Prüfschritts
+== 4. Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfkriterien
 
@@ -116,24 +77,6 @@ ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
 ifndef::env_embedded[]
   <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Alternativtexte
   für Bedienelemente>>
-endif::env_embedded[]
-
-In diesem Prüfschritt wird nur geprüft, ob die Information über das
-Dateiformat überhaupt vorhanden ist.
-Das ist der Fall, wenn das Dateiformat in einer Grafik, im Linktext oder im
-accessible name des Elements angegeben wird.
-
-Nicht geprüft wird, ob die Information auch gut zugänglich ist.
-Dafür reicht die alleinige Anzeige als Grafik nicht aus.
-Wenn das Dateiformat mit einer Grafik angezeigt wird, muss geprüft werden, ob
-diese Information auch als Text verfügbar ist.
-
-* Alternativer Text für blinde Nutzer:
-  Prüfschritt
-ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
-ifndef::env_embedded[]
-  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a
-  Alternativtexte für Bedienelemente>>
 endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
