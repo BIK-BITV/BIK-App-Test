@@ -55,7 +55,7 @@ Bei Prüfungen von Software-Ansichten muss mit Screenshots gearbeitet werden. Di
 
 Grafische Bedienelemente (etwa Icons) in der Ansicht identifizieren, die keinen nebenstehenden Text haben, der dessen Bedeutung und ggf. auch wechselnde Zustände nach Interaktion identifiziert.
 
-Sind die Kontraste zu angrenzenden Farben klar ausreichend (3:1 oder besser)?
+Sind die Kontraste zu angrenzenden Farben klar ausreichend (3:1 oder besser)? Eine Ausnahme besteht für native Bedienelemente, deren Aussehen vom Betreibssystem bestimmt wird.
 
 Bedienelemente mit Rahmen (etwa Schaltflächen oder Texteingabefelder) identifizieren. Wenn das Bedienelement nur über den Rahmen (oder einen Teil des Rahmens) identifizierbar ist (der Rahmen also keinen Text oder Symbol umschließt), muss der Rahmen einen Kontrast von mindestens 3:1 haben.
 
@@ -74,7 +74,10 @@ ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
 
 === 3. Hinweise
 
-==== 3.1 Zur Identifizierung notwendige Teile von Bedienelementen
+==== 3.1 Zur Identifizierung von nativen Bedienelementen, die von der Anforderung ausgenommen sind
+Auch native Schalter wie iOS Switches lassen sich in der Farbe anpassen, damit sie ausreichend kontrastreich sind - und diese sollte als Best Practice empfohlen werden. Dennoch gibt es in der Anforderung eine Ausnahme für native (vom Entwickler unveränderte) Bedienelemente. In einer Prüfung ohne Quelltextzugang ist nicht sicher festzustellen, ob Autoren die native Darstellung übernehmen oder Elemente angepasst haben. Wenn die Darstellung der Elemente genau der Darstellung im jeweiligen Betriebssystem entspricht, kann davon ausgegangen werden, dass native Elemente Einsatz kamen. Für diese gibt es keine Kontrastanforderung.
+
+==== 3.2 Zur Identifizierung notwendige Teile von Bedienelementen
 
 Bei den zur Identifizierung notwendigen Teile von Bedienelementen handelt es sich um visuell sichtbare Elemente (z.B. Element-Rahmen, aktivierter Zustand
 eines Elements, informationstragender Teil eines Icons) die wichtige Informationen enthalten, also etwa den Umriss, den Wert, oder den Zustand eines Bedienelements anzeigen. Beispiele:
@@ -88,11 +91,11 @@ Visuelle Beispiele dazu finden sich im Dokument
 https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[
 Understanding Success Criterion 1.4.11: Non-text Contrast].
 
-==== 3.2 Vernachlässigbare Rahmen und Umrisslinien
+==== 3.3 Vernachlässigbare Rahmen und Umrisslinien
 
 Wenn die Farbe eines Elements (etwa die innere Hintergrundfarbe eines Schalters oder das Segment eines Kuchendiagramms) ausreichend Kontrast zum Hintergrund hat, auf dem sich das Element befindet, können Rahmen bzw. Umrisslinien bei der Kontrastprüfung vernachlässigt werden.
 
-==== 3.3 Kontrast-Differenz bei Zuständen
+==== 3.4 Kontrast-Differenz bei Zuständen
 
 Nicht verlangt wird ein Kontrast von 3:1 für die Differenz zwischen verschiedenen *funktionalen Zuständen* des gleichen Bedienelements (etwa
 Umschalter aktiviert/ nicht aktiviert) wenn es auch andere unterscheidende Merkmale gibt (ein Haken wird gesetzt, Ein Schalter verschiebt sich von links nach rechts, o.ä.)
@@ -110,12 +113,12 @@ endif::env_embedded[]
 
 Verlangt wird der Kontrast dagegen für jeden einzelnen Zustand zur jeweils angrenzenden Farbe.
 
-==== 3.4 Dark Mode Ansichten
+==== 3.5 Dark Mode Ansichten
 Die Prüfung erfolgt in der Standardeinstellung des Betriebssystems. Wenn auf Wunsch des Auftraggebers ein Dark Mode mitgetestet werden soll, ist das natürlich möglich, die Ergebnisse können zusätzlich vermerkt werden. Ausschlaggebend für die Konformität ist aber die Standardansicht.
 Eine Dark Mode Ansicht wird bei der Feststellung der Konformität nur berücksichtigt, wenn sie explizit als Kontrastversion in der App selbst auswählbar ist, das Bedienelement selbst alle Barrierefreiheitsanforderungen erfüllt, und die Dark Mode Ansicht nicht selbst Kontrastmängel aufweist.
 
-==== 3.5 Berücksichtigung betriebssystemseitiger Einstellungen
-Die Ansichten werde ohne die Aktivierung von betriebssystemseitigen Einstellungen wie "Kontrast erhöhen" (iOS) oder "Text mit hohem Kontrast" (Android), also mit Standard-Einstellungen getestet. Die zusätzlichen Einstellungen sind hilfreich, viele Nutzende wissen jedoch nicht, dass es sie gibt. Auch native Schalter wie iOS Switches lassen sich in der Farbe anpassen, damit sie ausreichend kontrastreich sind.
+==== 3.6 Berücksichtigung betriebssystemseitiger Einstellungen
+Die Ansichten werde ohne die Aktivierung von betriebssystemseitigen Einstellungen wie "Kontrast erhöhen" (iOS) oder "Text mit hohem Kontrast" (Android), also mit Standard-Einstellungen getestet. Die zusätzlichen Einstellungen sind hilfreich, viele Nutzende wissen jedoch nicht, dass es sie gibt.
 
 
 ==  Einordnung des Prüfschritts
