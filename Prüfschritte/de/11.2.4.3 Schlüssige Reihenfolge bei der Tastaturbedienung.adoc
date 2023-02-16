@@ -12,17 +12,10 @@ nachvollziehbar sein.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich sein.
-Das bedeutet:
-Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur
-möglich sein.
-Denn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie ein
-Zeiger.
+Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur
+möglich sein. Denn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie ein Zeiger.
 
-Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der
-Nutzer arbeitet mit Touch-Gesten, daher wird oft nur an die gedacht.
-Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch
-eingeschränkte Menschen oder blinde Nutzer.
+Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Gesten, daher wird oft nur an die gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder blinde Nutzer.
 
 Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die
 Tastaturbedienbarkeit erheblich beeinträchtigt werden.
