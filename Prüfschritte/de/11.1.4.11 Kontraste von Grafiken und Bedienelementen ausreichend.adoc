@@ -67,7 +67,7 @@ Bei Prüfungen von App-Ansichten muss mit Screenshots gearbeitet werden. Diese w
 === 3. Hinweise
 
 ==== 3.1 Zur Identifizierung von nativen Bedienelementen, die von der Anforderung ausgenommen sind
-Auch native Schalter wie iOS Switches lassen sich in der Farbe anpassen, damit sie ausreichend kontrastreich sind - und diese sollte als Best Practice empfohlen werden. Dennoch gibt es in der Anforderung eine Ausnahme für native (vom Entwickler unveränderte) Bedienelemente. In einer Prüfung ohne Quelltextzugang ist nicht sicher festzustellen, ob Autoren die native Darstellung übernehmen oder Elemente angepasst haben. Wenn die Darstellung der Elemente genau der Darstellung im jeweiligen Betriebssystem entspricht, kann davon ausgegangen werden, dass native Elemente Einsatz kamen. Für diese gibt es keine Kontrastanforderung.
+Auch native Schalter wie iOS Switches lassen sich in der Farbe anpassen, damit sie ausreichend kontrastreich sind - und dies sollte als "Best Practice" empfohlen werden. Dennoch gibt es in der Anforderung eine Ausnahme für native (vom Entwickler unveränderte) Bedienelemente. In einer Prüfung ohne Quelltextzugang ist nicht sicher festzustellen, ob Autoren die native Darstellung übernehmen oder Elemente angepasst haben. Wenn die Darstellung der Elemente genau der Darstellung im jeweiligen Betriebssystem entspricht, kann davon ausgegangen werden, dass native Elemente Einsatz kamen. Für diese gibt es keine Kontrastanforderung.
 
 ==== 3.2 Zur Identifizierung notwendige Teile von Bedienelementen
 
