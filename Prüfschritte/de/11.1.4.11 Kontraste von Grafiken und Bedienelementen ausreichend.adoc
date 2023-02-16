@@ -55,7 +55,7 @@ Bei Prüfungen von Software-Ansichten muss mit Screenshots gearbeitet werden. Di
 
 Grafische Bedienelemente (etwa Icons) in der Ansicht identifizieren, die keinen nebenstehenden Text haben, der dessen Bedeutung und ggf. auch wechselnde Zustände nach Interaktion identifiziert.
 
-Sind die Kontraste zu angrenzenden Farben klar ausreichend (3:1 oder besser)? Eine Ausnahme besteht für native Bedienelemente, deren Aussehen vom Betriebssystem bestimmt wird.
+Sind die Kontraste zu angrenzenden Farben klar ausreichend (3:1 oder besser)? Eine Ausnahme besteht für native Bedienelemente, deren Aussehen vom Betriebssystem bestimmt wird (siehe 3. Hinweise, 3.1 Zur Identifizierung von nativen Bedienelementen, die von der Anforderung ausgenommen sind).
 
 Bedienelemente mit Rahmen (etwa Schaltflächen oder Texteingabefelder) identifizieren. Wenn das Bedienelement nur über den Rahmen (oder einen Teil des Rahmens) identifizierbar ist (der Rahmen also keinen Text oder Symbol umschließt), muss der Rahmen einen Kontrast von mindestens 3:1 haben.
 
