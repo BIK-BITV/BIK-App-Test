@@ -42,35 +42,27 @@ Ebenfalls nicht anwendbar ist der Prüfschritt auf inaktive Bedienelemente, also
 Eine Ausnahme gilt für native Bedienelemente wie iOS toggle switches, da hier die _platform software_ (also das mobile Betriebssystem) für den Browser (_user agent_) steht, für dessen unveränderte Darstellung von Bedienelementen es in den Web-Anforderungen https://www.w3.org/TR/WCAG21/#x1-4-11-non-text-contrast[eine Ausnahme] gibt. Wir haben um Bestätigung dieser Position in einem bestehenden https://github.com/w3c/wcag2ict/issues/82[Issue bei der WCAG2ICT Taskforce] gebeten.
 
 === 2. Prüfung
+Hinweis: Für die aufgeführten Prüfungen ist eine Sichtprüfung ausreichend, wenn der Kontrast sehr deutlich über 3:1 liegt. Im Zweifelsfall immer den Color Contrast Analyzer auf Screenshots einsetzen.
 
-Hinweis: Für die aufgeführten Prüfungen ist eine Sichtprüfung ausreichend, wenn der Kontrast sehr deutlich über 3:1 liegt. Im Zweifelsfall immer den Color Contrast Analyzer einsetzen.
+==== 2.1 Erstellung von Screenshots
+Bei Prüfungen von App-Ansichten muss mit Screenshots gearbeitet werden. Diese werden dann regulär mit dem Contrast-Analyzer überprüft. Falls es schwierig ist, Einzelheiten mit der Contrast-Analyzer-Pipette zu erfassen, kann vor der Erstellung des Screenshots die entsprechende Ansicht in der Software mit der Zoomfunktion des Systems vergrößert werden.
 
-Bei Prüfungen von Software-Ansichten muss mit Screenshots gearbeitet werden. Diese werden dann regulär mit dem Contrast-Analyzer überprüft. Falls es schwierig ist, Einzelheiten mit der Contrast-Analyzer-Pipette zu erfassen, kann vor der Erstellung des Screenshots die entsprechende Ansicht in der Software mit der Zoomfunktion des Systems vergrößert werden.
-
-. Screenshots erstellen (ggf. vorher Zoomfunktion nutzen)
-. Bei der Kontrastmessung zu berücksichtigen sind ggf. auch wechselnde Zustände nach Fokussierung oder Interaktion. Elemente bedienen bzw. fokussieren. Ändert sich der Kontrast, ggf. zusätzliche Screenshots erstellen.
+. Screenshots von Grafischen Bedienelementen und Informationsgrafiken erstellen (ggf. vorher Zoomfunktion nutzen)
+. Bei der Kontrastmessung zu berücksichtigen sind bei bedienelementen ggf. auch wechselnde Zustände nach Fokussierung mit der Tastatur. Elemente fokussieren. Ändert sich der Kontrast, ggf. zusätzliche Screenshots erstellen.
+. Bei der Kontrastmessung zu berücksichtigen sind ggf. auch verschiedene funktionale Zustände (etwa Checkboxen, Radio-Buttons, Reiter in Registerbereichen). Auch für solche Zustände ggf. Screenshots erstellen.
 . Screenshots an den PC übertragen.
 . Screenshots am PC öffnen und mit dem Contrast-Analyzer untersuchen.
 
-==== 2.1 Prüfung von Bedienelementen in der Ausgangsansicht
+==== 2.2 Prüfung von grafischen Bedienelementen
 
 . Grafische Bedienelemente (etwa Icons) in der Ansicht identifizieren, die keinen nebenstehenden Text haben, der dessen Bedeutung zusätzlich identifiziert. Wenn bei grafischen Bedienelementen mit nebenstehendem Text der Textkontrast nicht ausreicht (gefordert ist hier 4,5:1), muss das Element selbst die Anforderung von 3:1 erfüllen.
-. Sind bei den identifizierten Elementen die Kontraste zu angrenzenden Farben ausreichend (3:1 oder besser)? Eine Ausnahme besteht für native Bedienelemente, deren Aussehen vom Betriebssystem bestimmt wird.
+. Sind bei den identifizierten Elementen und ggf. deren Zuständen nach Aktivierung und Fokussierung die Kontraste zu angrenzenden Farben ausreichend (3:1 oder besser)? Eine Ausnahme besteht für native Bedienelemente, deren Aussehen vom Betriebssystem bestimmt wird.
 . Bedienelemente mit Rahmen (etwa Schaltflächen oder Texteingabefelder) identifizieren. Wenn das Bedienelement nur über den Rahmen (oder einen Teil des Rahmens) identifizierbar ist (der Rahmen also keinen Text oder Symbol umschließt), muss der Rahmen einen Kontrast von mindestens 3:1 haben.
-
-
-==== 2.2 Prüfung von Bedienelement-Zuständen nach Fokussierung
-
-Bedienelemente mit einer angeschlossenen Tastatur und falls möglich der Maus fokussieren. Ist der Kontrast der Fokushervorhebung zu angrenzenden Farben klar ausreichend (3:1 oder besser)?
-
-Bei Bedienelementen, die verschiedene funktionale Zustände haben (etwa Checkboxen, Radio-Buttons, Reiter in Registerbereichen) die verfügbaren anderen Zustände aufrufen. Ist der Kontrast der informationstragenden Teile der Bedienelemente zu angrenzenden Farben klar ausreichend (3:1 oder besser)?
 
 ==== 2.3 Prüfung von Informationsgrafiken
 
-Informationstragende Grafiken identifizieren, bei denen die Information nur über die Grafik und nicht (oder nicht ausreichend) über beigefügten Text vermittelt wird.
-
-Wenn es in Bereichen der Grafik Farbverläufe gibt, Anteile mit einem Kontrast von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch
-ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
+. Informationstragende Grafiken identifizieren, bei denen die Information nur über die Grafik und nicht (oder nicht ausreichend) über beigefügten Text vermittelt wird.
+. Wenn es in Bereichen der Grafik Farbverläufe gibt, Anteile mit einem Kontrast von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
 
 === 3. Hinweise
 
@@ -79,8 +71,7 @@ Auch native Schalter wie iOS Switches lassen sich in der Farbe anpassen, damit s
 
 ==== 3.2 Zur Identifizierung notwendige Teile von Bedienelementen
 
-Bei den zur Identifizierung notwendigen Teile von Bedienelementen handelt es sich um visuell sichtbare Elemente (z.B. Element-Rahmen, aktivierter Zustand
-eines Elements, informationstragender Teil eines Icons) die wichtige Informationen enthalten, also etwa den Umriss, den Wert, oder den Zustand eines Bedienelements anzeigen. Beispiele:
+Bei den zur Identifizierung notwendigen Teilen von Bedienelementen handelt es sich um visuell sichtbare Elemente (z.B. Element-Rahmen, aktivierter Zustand eines Elements, informationstragender Teil eines Icons) die wichtige Informationen enthalten, also etwa den Umriss, den Wert, oder den Zustand eines Bedienelements anzeigen. Beispiele:
 
 * Die Fokushervorhebung eines Bedienelements
 * Der Aktivierungszustand einer Registerkarte
@@ -98,7 +89,7 @@ Wenn die Farbe eines Elements (etwa die innere Hintergrundfarbe eines Schalters 
 ==== 3.4 Kontrast-Differenz bei Zuständen
 
 Nicht verlangt wird ein Kontrast von 3:1 für die Differenz zwischen verschiedenen *funktionalen Zuständen* des gleichen Bedienelements (etwa
-Umschalter aktiviert/ nicht aktiviert) wenn es auch andere unterscheidende Merkmale gibt (ein Haken wird gesetzt, Ein Schalter verschiebt sich von links nach rechts, o.ä.)
+Umschalter aktiviert/ nicht aktiviert) wenn es auch andere unterscheidende Merkmale gibt (ein Haken wird gesetzt, Ein Schalter verschiebt sich von links nach rechts, o.ä.).
 
 Ebenfalls nicht verlangt wird hier ein Kontrast von 3:1 für die Differenz zwischen verschiedenen *Interaktions-Zuständen* des gleichen Bedienelements
 (etwa fokussiert / nicht fokussiert). Wenn jedoch der Interaktions-Zustand lediglich über einen Farbwechsel angezeigt wird (also nicht auch anders, etwa durch eine Änderung der Form, Wechsel von beigestelltem Text, Umrandung oder ähnlich) dann sollte der Kontrastabstand der Zustände mindestens 3:1 betragen.
