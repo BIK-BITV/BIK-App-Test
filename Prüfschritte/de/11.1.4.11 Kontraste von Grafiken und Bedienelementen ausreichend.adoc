@@ -42,7 +42,7 @@ Ebenfalls nicht anwendbar ist der Prüfschritt auf inaktive Bedienelemente, also
 Eine Ausnahme gilt für native Bedienelemente wie iOS toggle switches, da hier die _platform software_ (also das mobile Betriebssystem) für den Browser (_user agent_) steht, für dessen unveränderte Darstellung von Bedienelementen es in den Web-Anforderungen https://www.w3.org/TR/WCAG21/#x1-4-11-non-text-contrast[eine Ausnahme] gibt. Wir haben um Bestätigung dieser Position in einem bestehenden https://github.com/w3c/wcag2ict/issues/82[Issue bei der WCAG2ICT Taskforce] gebeten.
 
 === 2. Prüfung
-Hinweis: Für Grafiken und Bedienelemente ist eine Sichtprüfung ausreichend, wenn der Kontrast *sehr deutlich* über 3:1 liegt. Im Zweifelsfall immer den Color Contrast Analyzer auf Screenshots einsetzen.
+Hinweis: Für Grafiken und Bedienelemente ist eine Sichtprüfung ausreichend, wenn der Kontrast *sehr deutlich* über 3:1 liegt. Im Zweifelsfall immer den Color Contrast Analyzer auf Screenshots einsetzen. Die Prüfung ist zum Teil komplex. Bitte Abschnitt 3. Hinweise beachten.
 
 ==== 2.1 Erstellung von Screenshots
 Bei Prüfungen von App-Ansichten muss mit Screenshots gearbeitet werden. Diese werden dann regulär mit dem Contrast-Analyzer überprüft. Falls es schwierig ist, Einzelheiten mit der Contrast-Analyzer-Pipette zu erfassen, kann vor der Erstellung des Screenshots die entsprechende Ansicht in der Software mit der Zoomfunktion des Systems vergrößert werden.
