@@ -36,7 +36,7 @@ Der Prüfschritt ist anwendbar, wenn die Software Links enthält.
 App-Ansicht öffnen. Da visuell nicht offensichtlich ist, ob Bedienelemente als Schalter oder Links oder ohne Rolle umgesetzt wurden, können Links über die Navigationseinstellung "Links" aufgespürt werden. 
 
 ===== Links identifizieren: Android
-. Über die vertikale Drei-Finger-Wischgeste (oder die äqivalente vertikale Ein-Finger-Wischgeste Nach-oben-dann-nach-unten bzw. umgekehrt) die Option "Links" einstellen
+. Über die vertikale Drei-Finger-Wischgeste (oder die äqivalente vertikale Ein-Finger-Wischgeste Nach-oben-dann-nach-unten bzw. umgekehrt) die Navigationsoption "Links" einstellen
 . Mit verikaler Ein-Finger Geste die Links (wenn verfügbar) durchlaufen. Sind keine vorhanden, erfolgt die Ausgabe "keine weiteren Links" bzw. "keine vorherigen Links". Die Prüfung ist dann nicht anwendbar. 
 . Achtung: Sind Webviews vorhanden, muss ggf. der Fokus über Antippen erst in diesen Bereich versetzt werden. 
 . Ob vorhandene Links wirksam fokussiert werden, kann vom Scrollstatus der Ansicht abhängig sein, also davon, ob Links im Viewport liegen oder außerhalb davon. Ggf. Ansicht scrollen und erneut probieren.
