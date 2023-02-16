@@ -6,11 +6,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem direkten Kontext des Links ermittelbar sein.
+Links spielen in nativen Apps vor allem in Webviews eine Rolle. Ziel oder Zweck des Links sollen aus dem Linktext hervorgehen oder aus dem direkten Kontext des Links ermittelbar sein.
 
-Falls Links nicht auf andere Ansichten der App verweisen, soll der Link über das Dateiformat des Zieldokuments informieren.
-
-Wenn Links in Anwendungen nicht erwartbar auf Ressourcen außerhalb der Software verweisen, sollte der Linktext auch hier einen zusätzlichen Hinweis auf das Ziel(format) geben. Z. B. „öffnet in Browser“ etc.
+Falls Links nicht auf andere Ansichten der App verweisen, soll der Link zusätzlich zum aussagekräftigen Linktext einen  Hinweis auf das Ziel(format) geben, z.B. "öffnet in Browser" oder "PDF".
 
 == Warum wird das geprüft?
 
