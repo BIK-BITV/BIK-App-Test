@@ -36,10 +36,16 @@ Der Prüfschritt ist anwendbar, wenn die Software Links enthält.
 App-Ansicht öffnen. Da visuell nicht offensichtlich ist, ob Bedienelemente als Schalter oder Links oder ohne Rolle umgesetzt wurden, können Links über die Navigationseinstellung "Links" aufgespürt werden. 
 
 ===== Links identifizieren: Android
-Über die vertikale Drei-Finger-Wischgeste (oder die äqivalente vertikale Ein-Finger-Wischgeste Nach-oben-dann-nach-unten bzw. umgekehrt) die Option "Links" einstellen, dann mit verikaler Ein-Finger Geste die Links (wenn verfügbar) durchlaufen. Sind keine vorhanden, erfolgt die Ausgabe "keine weiteren Links" bzw. "keine vorherigen Links". Die Prüfung ist dann nicht anwendbar. Achtung: Sind Webviews vorhanden, muss ggf. der Fokus über Antippen erst in diesen Bereich versetzt werden. Ob vorhandene Links wirksam fokussiert werden,kann vom Scrollstatus der Ansicht abhängig sein, also davon, ob Links im Viewport liegen oder außerhalb davon. Ggf. Ansicht scrollen und erneut probieren.
+. Über die vertikale Drei-Finger-Wischgeste (oder die äqivalente vertikale Ein-Finger-Wischgeste Nach-oben-dann-nach-unten bzw. umgekehrt) die Option "Links" einstellen
+. Mit verikaler Ein-Finger Geste die Links (wenn verfügbar) durchlaufen. Sind keine vorhanden, erfolgt die Ausgabe "keine weiteren Links" bzw. "keine vorherigen Links". Die Prüfung ist dann nicht anwendbar. 
+. Achtung: Sind Webviews vorhanden, muss ggf. der Fokus über Antippen erst in diesen Bereich versetzt werden. 
+. Ob vorhandene Links wirksam fokussiert werden, kann vom Scrollstatus der Ansicht abhängig sein, also davon, ob Links im Viewport liegen oder außerhalb davon. Ggf. Ansicht scrollen und erneut probieren.
 
 ===== Links identifizieren: iOS
-Über den wiederholten Aufruf des Rotors (Zwei-Finger-Drehgeste) die Navigationsoption "Links" einstellen ("Links" muss dafür in den VoiceOver-Voreinstellungen im Abschnitt "Rotor" aktiviert sein). Achtung: Sind Webviews vorhanden, muss ggf. der Fokus über Antippen des Webviews oder die Navigationsoption "vertikale Navigation" erst in diesen Bereich versetzt werden. Taucht "Links" in den Rotor-Navigationsoptionen gar nicht auf, ist davon auszugehen, dass die Ansicht keine Links enthält. Falls die Rotor-Option Links vorhanden ist: Über vertikale Ein-Finger-Wischgeste die Links, falls vorhanden, durchlaufen.
+. Über den wiederholten Aufruf des Rotors (Zwei-Finger-Drehgeste) die Navigationsoption "Links" einstellen ("Links" muss dafür in den VoiceOver-Voreinstellungen im Abschnitt "Rotor" aktiviert sein). 
+. Mit verikaler Ein-Finger Geste die Links (wenn verfügbar) durchlaufen.
+. Achtung: Sind Webviews vorhanden, muss ggf. der Fokus über Antippen des Webviews oder die Navigationsoption "vertikale Navigation" erst in diesen Bereich versetzt werden. 
+. Taucht "Links" in den Rotor-Navigationsoptionen gar nicht auf, ist davon auszugehen, dass die Ansicht keine Links enthält.
 
 ===== Prüfung der Aussagekraft
  
