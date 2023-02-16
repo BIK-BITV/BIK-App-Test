@@ -48,8 +48,8 @@ Hinweis: Für Grafiken und Bedienelemente ist eine Sichtprüfung ausreichend, we
 Bei Prüfungen von App-Ansichten muss mit Screenshots gearbeitet werden. Diese werden dann regulär mit dem Contrast-Analyzer überprüft. Falls es schwierig ist, Einzelheiten mit der Contrast-Analyzer-Pipette zu erfassen, kann vor der Erstellung des Screenshots die entsprechende Ansicht in der Software mit der Zoomfunktion des Systems vergrößert werden.
 
 . Screenshots von grafischen Bedienelementen und Informationsgrafiken erstellen (ggf. vorher Zoomfunktion nutzen)
-. Bei der Kontrastmessung zu berücksichtigen sind bei bedienelementen ggf. auch wechselnde Zustände nach Fokussierung mit der Tastatur. Elemente fokussieren. Ändert sich der Kontrast, ggf. zusätzliche Screenshots erstellen.
-. Bei der Kontrastmessung zu berücksichtigen sind ggf. auch verschiedene funktionale Zustände (etwa Checkboxen, Radio-Buttons, Reiter in Registerbereichen). Auch für solche Zustände ggf. Screenshots erstellen.
+. Bei der Kontrastmessung zu berücksichtigen sind bei Bedienelementen ggf. auch wechselnde Zustände nach Fokussierung mit der Tastatur. Elemente fokussieren. Ändert sich der Kontrast, ggf. zusätzliche Screenshots erstellen.
+. Bei der Kontrastmessung zu berücksichtigen sind ggf. auch verschiedene funktionale Zustände (etwa bei Checkboxen, Radio-Buttons, Reiter in Registerbereichen). Auch für solche Zustände ggf. Screenshots erstellen.
 . Screenshots an den PC übertragen.
 . Screenshots am PC öffnen und mit dem Contrast-Analyzer untersuchen.
 
