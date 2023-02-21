@@ -6,18 +6,17 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Werden Bedienelementen mit der Tastatur fokussiert, dann soll sich der Tastaturfokus deutlich von der
-ausgewählten Hintergrundfarbe abheben.
+Werden Bedienelementen mit der Tastatur fokussiert, dann soll sich der Tastaturfokus deutlich von der ausgewählten Hintergrundfarbe abheben.
 
 Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 
 == Warum wird das geprüft?
 
-Für Tastaturbenutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, welches Bedienelement also ausgelöst wird, wenn sie die Enter-Taste drücken.
+Für Tastaturbenutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, welches Bedienelement also ausgelöst wird, wenn es aktiviert wird (z.B. über ENTER oder Leertaste) oder welches Element Ausgangspunkt einer Pfeiltasten-Auswahl wird (etwa bei tab panels oder Auswahllisten).
 
-Wenn Apps allein durch die Tastatur bedient werden, muss das fokussierte Bedienelement für den Nutzende deutlich hervorgehoben sein. Eine sichere Bedienung der Anwendung ist für visuelle Nutzer andernfalls kaum möglich ist.
+Wenn Apps allein durch die Tastatur bedient werden, muss das fokussierte Bedienelement für den Nutzende deutlich hervorgehoben sein. Eine Bedienung der Anwendung ist für visuelle Nutzer sonst kaum möglich.
 
-Die vom Betriebssystem vorgesehene Kennzeichnung des Tastaturfokus hebt sich von dunklen Seitenhintergründen meist nicht so gut ab. Das muss dann durch eine entsprechende Gestaltung des Fokusindikators ausgeglichen werden.
+Die von mobilen Betriebssystemen vorgesehene Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar. Ausgewählte Elemente werden z.B. blass hellgrau hinterlegt. Dabei sollte der Kontrast zum nichtaktivierten Zustand des Elements mindestens 3:1 betragen. Die schlechte native Fokushervorhebung sollte durch eine entsprechende Gestaltung des Fokusindikators korrigiert werden.
 
 == Wie wird geprüft?
 
@@ -29,22 +28,19 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht interaktive Elemente enthä
 
 . Tastatur über Bluetooth-Kopplung oder USB-Kabel anschließen.
 . Zu prüfende Ansicht der App öffnen.
-. Mit der Tabulatortaste zu allen interaktiven Elementen navigieren.
-. Prüfen, ob sie mit grafischen Veränderungen auf den Fokus reagieren (zum Beispiel mit
-  Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
-. Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht, prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt.
-. Bei Bedienelementen, die sich im Fokus nicht verändern, prüfen, ob der
-  Tastaturfokus (Systemkranz) an dieser Stelle vor hellem Hintergrund dargestellt ist, also gut zu erkennen ist.
-  In Zweifelsfällen gemäß Prüfschritt
+. Mit der Tabulatortaste zu allen interaktiven Elementen navigieren. Wo diese weitere Auswahlen zulassen, etw bei  Tabpanels, Menüs oder Auswhallisten, mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren.
+. Prüfen, ob Elemente mit grafischen Veränderungen auf den Fokus reagieren (zum Beispiel mit Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
+. Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht, prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt. In Zweifelsfällen gemäß Prüfschritt
 ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend"]
 ifndef::env_embedded[]
   <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
   ausreichend>>
 endif::env_embedded[]
-  ermitteln, ob die Farbe Schwarz vor dem gewählten Hintergrund ausreichend
-  kontrastiert.
+  auch prüfen, ob die Farbe der Fokushervorhebung vor dem jeweiligen Hintergrund ausreichend kontrastiert (3:1 oder besser).
 
 === 3. Hinweise
+
+* Falls das Betriebssystem Einstellungen zur verbesserten Sichtbarkeit der Fokushervorhebung bietet, sollten diese beim Prüfen nicht berücksichtigt werden, denn viele. Nutzende kennen diese Einstellungen nicht.
 
 * Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturfokus sichtbar ist.
 Dann ist eventuell auch Prüfschritt
