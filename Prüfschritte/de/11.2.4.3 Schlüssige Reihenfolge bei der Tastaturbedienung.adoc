@@ -13,15 +13,14 @@ nachvollziehbar sein. Sie soll der visuellen Reihenfolge entsprechen.
 
 Apps sollen für alle Nutzenden zugänglich sein. Das heißt, das sie verschiedene Arten der Eingabe unterstützen müssen: nicht nur Touch, sondern auch die Tastaturbedienung, Switch-Steuerung oder Sprachsteuerung. Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Eingaben; daher wird oft nur an diese gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder blinde Nutzer. Damit assistive Technologien funktionieren, ist Tastaturnutzbarkeit häufig eine Voraussetzung. 
 
-Bei Apps soll die Fokus-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Bedienelemente abbilden. Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
+Wenn die Fokus-Reihenfolge bei Tastaturbedienung der visuellen Reihenfolge nicht entspricht, ist das verwirrend. Nutzende verlieren ihren Fokus und müssen danach suchen. Die Tastaturbedienbarkeit kann so erheblich beeinträchtigt werden - vor allem, wenn die Fokus-Hervorhebung gleichzeitig schwach ist oder (stellenweise) ganz fehlt.
 
-Wenn in der Ansicht dynamische Elemente wie etwa modale Dialoge, Popup- bzw. Schubladen-Menüs oder Fehlermeldungen vorkommen, muss der Tastaturfokus in diese ersetzt werden, damit Tastaturnutzende mit diesen interagieren können. Beim Schließen dynamischer eingefügter Elemente muss der Fokus auf das auslösende Element zurückversetzt werden.
+Wenn in der Ansicht dynamische Elemente wie etwa modale Dialoge, Popup- bzw. Schubladen-Menüs oder Fehlermeldungen vorkommen, muss der Tastaturfokus in diese ersetzt werden, damit Tastaturnutzende mit diesen überhaupt interagieren können. Beim Schließen dynamischer eingefügter Elemente muss der Fokus auf das auslösende Element zurückversetzt werden.
 
 === Zusätzliche Bedarfe von Screenreader-Nutzenden 
-Für Nutzende von Sceenreadern, die die Tastaturbediennung einsetzen, gibt es zusätzliche Probleme beim Einsatz dynamisch eingefüger Inhalte. Während solche Änderungen für sehende Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzern gar nicht wahrgenommen, wenn der Fokus nicht in diese Elemente versetzt wird.
+Für Nutzende von Sceenreadern, die die Tastaturbedienung einsetzen, gibt es zusätzliche Probleme beim Einsatz dynamisch eingefüger Inhalte. Während solche Änderungen für sehende Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzenden gar nicht wahrgenommen, wenn der Fokus nicht in diese Elemente versetzt wird.
 
-Werden durch die Interaktion mit der App weitere Elemente in die Ansicht eingefügt, sollte diese Einfügung unterhalb des auslösenden Elements geschehen,
-damit Screenreader auf die hinzugefügten Elemente stoßen und diese ausgeben. Werden dynamische Inhalte zusätzlich auf der Ansicht eingefügt, so dass sie andere Inhalte adecken, muss die App dafür sorgen, dass der Fokus dorthin versetzt wird und so auch blinde Nutzer die Änderung mitbekommen.
+Werden durch die Interaktion mit der App weitere Elemente in die Ansicht eingefügt, etwa bei Formularen, die im Ausfüllen zusätzliche Optionen einblenden, sollte diese Einfügung unterhalb des auslösenden Elements geschehen, damit Screenreader auf die hinzugefügten Elemente stoßen und diese ausgeben. Werden dynamische Inhalte zusätzlich auf der Ansicht eingefügt, so dass sie andere Inhalte adecken, muss die App dafür sorgen, dass der Fokus auf diee Inhalte versetzt wird und so auch blinde Nutzer die Änderung mitbekommen.
 
 == Wie wird geprüft?
 
