@@ -34,7 +34,7 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Bedienelemente wie Links, T
 . Wenn es Bereiche oder Elemente gibt, in denen sich der Fokus statt mit dem Tabulator über Pfeiltasten bewegen lässt, wird die Reihenfolge mit Pfeiltasten geprüft.
 . Ist die sequenzielle Tab- bzw. Pfeiltasten-Reihenfolge der Elemente sinnvoll und entspricht im Wesentlichen der visuellen Reihenfolge?
 . Gibt es unsichtbare Fokusstationen?
-. Interaktive Elemente sollten nach Fokussierung aktiviert werden, um auch jene Elemente zu erfassen, die Unteransichten (etwa Ausklappbereiche, Menüs, Dialoge usw.) aufrufen, denn die Fokus-Reihenfolge muss auch in diesen geprüft werden. Hierbei kommen fallweise Tabulator oder Pfeiltasten, auch im Wechsel, zum Einsatz.
+. Interaktive Elemente sollten nach Fokussierung aktiviert werden, um auch jene Elemente zu erfassen, die weitere Inhalte aufrufen (etwa Ausklappbereiche, Menüs, Dialoge usw.) aufrufen, denn die Fokus-Reihenfolge muss auch in diesen geprüft werden. Hierbei kommen fallweise Tabulator oder Pfeiltasten, auch im Wechsel, zum Einsatz.
 . Falls dynamische Inhalte (Dialoge, Popovers, Menüs) eingefügt werden: Wird nach Aufruf der Fokus an den Beginn des zusätzlichen Inhalts versetzt?
 . Ist die Fokus-Reihenfolge bei Bedienelementen in eingefügten Inhalten sinnvoll?
 
