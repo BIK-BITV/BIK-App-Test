@@ -50,7 +50,7 @@ ifdef::env_embedded[11.2.1.1 "Tastaturbedienung"]
 ifndef::env_embedded[]
   <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
 endif::env_embedded[]
-nicht erfüllt! (bzw. Ohne Touch-Gesten bedienbar?)
+nicht erfüllt.
 
 === 4. Bewertung
 
