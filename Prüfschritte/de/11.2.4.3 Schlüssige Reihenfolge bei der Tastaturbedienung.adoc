@@ -97,8 +97,9 @@ unsichtbare ausführbare Elemente geht.
   
 == Quellen
 === iOS
-* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#focus-an-element[iOS developer guide - focus an element] - code examples
-* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#focus-an-element[Modify the focus area of VoiceOver] - code examples
+* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#focus-an-element[iOS developer guide - focus an element] - Code-Bispiele
+* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#focus-an-element[Modify the focus area of VoiceOver] - Code-Bispiele
+* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#modal-view[Modal view] - Fokus auf Inhalte modaler Dialoge reduzieren
 * Appt.org: https://appt.org/en/docs/ios/samples/accessibility-focus[Accessibility focus on iOS] - how to move the focus to modals or popover views.
 
 === Android
