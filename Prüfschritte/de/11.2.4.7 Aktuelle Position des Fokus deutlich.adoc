@@ -28,7 +28,7 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht interaktive Elemente enthä
 
 . Tastatur über Bluetooth-Kopplung oder USB-Kabel anschließen.
 . Zu prüfende Ansicht der App öffnen.
-. Mit der Tabulatortaste zu allen interaktiven Elementen navigieren. Wo diese weitere Auswahlen zulassen, etw bei  Tabpanels, Menüs oder Auswhallisten, mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren.
+. Mit der Tabulatortaste zu allen interaktiven Elementen navigieren. Wo diese weitere Auswahlen zulassen, etwa bei Tabpanels, Menüs oder Auswhallisten, mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren.
 . Prüfen, ob Elemente mit grafischen Veränderungen auf den Fokus reagieren (zum Beispiel mit Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 . Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht, prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt. In Zweifelsfällen gemäß Prüfschritt
 ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend"]
@@ -40,7 +40,7 @@ endif::env_embedded[]
 
 === 3. Hinweise
 
-* Falls das Betriebssystem Einstellungen zur verbesserten Sichtbarkeit der Fokushervorhebung bietet, sollten diese beim Prüfen nicht berücksichtigt werden, denn viele. Nutzende kennen diese Einstellungen nicht.
+* Falls das Betriebssystem Einstellungen zur verbesserten Sichtbarkeit der Fokushervorhebung bietet, sollten diese deaktiviert sein, denn viele Nutzende kennen diese Einstellungen nicht.
 
 * Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturfokus sichtbar ist.
 Dann ist eventuell auch Prüfschritt
