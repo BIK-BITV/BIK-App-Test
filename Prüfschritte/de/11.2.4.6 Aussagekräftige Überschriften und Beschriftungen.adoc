@@ -4,14 +4,14 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Überschriften beschreiben den folgenden Inhalt, Beschriftungen sind sinngebend.
+Überschriften beschreiben den folgenden Inhalt, Beschriftungen sind aussagekräftig.
 
 == Warum wird das geprüft?
 
 Visuell werden Inhalte von App-Ansichten durch Überschriften strukturiert. Dank dieser Strukturierung wissen Nutzende, was zusammengehört, können die
 Inhalte leicht überblicken und gezielt auf Inhalte zugreifen, die sie interessieren.
 
-Wenn Formularelemente sinngebend beschriftet sind, können Sie von Nutzenden als solche erkannt und bedient werden.
+Wenn Formularelemente aussagekräftig beschriftet sind, wissen Nutzende, was eingegeben werden soll oder ausgewählt werden kann. Zusätzliche Hinweise zum Eingabeformat helfen, Fehler zu vermeiden.
 
 == Wie wird geprüft?
 
@@ -38,8 +38,8 @@ Besonders in fachspezifischen Apps gibt es Labels und Überschriften, die für d
 
 * In diesem Prüfschritt geht es um die Aussagekraft von Überschriften und
   Beschriftungen.
-  Die programmatische Ermittelbarkeit durch Assistive Technologien ist den
-  Prüfkriterien
+  Die programmatische Ermittelbarkeit durch wssistive Technologien wid in den
+  Prüfschritten
 ifdef::env_embedded[11.1.3.1a "Strukturelemente für Überschriften"]
 ifndef::env_embedded[]
   <<11.1.3.1a Strukturelemente für Überschriften.adoc#,11.1.3.1a Strukturelemente
@@ -51,7 +51,7 @@ ifndef::env_embedded[]
   <<11.1.3.1e Beschriftung von Formularelementen programmatisch ermittelbar.adoc#,
   11.1.3.1e Beschriftung von Formularelementen programmatisch ermittelbar>>
 endif::env_embedded[]
-  zugeordnet.
+  geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
