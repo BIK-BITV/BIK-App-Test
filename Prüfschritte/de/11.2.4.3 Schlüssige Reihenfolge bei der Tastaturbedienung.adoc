@@ -97,10 +97,10 @@ unsichtbare ausführbare Elemente geht.
   
 == Quellen
 === iOS
-* https://appt.org/en/docs/ios/samples/accessibility-focus[Accessibility focus on iOS] - how to move the focus to modals or popover views.
+* Appt.org: https://appt.org/en/docs/ios/samples/accessibility-focus[Accessibility focus on iOS] - how to move the focus to modals or popover views.
 
 === Android
-* https://appt.org/en/docs/android/samples/accessibility-focus[Accessibility focus on Android] - how to move the focus to modals or popover views.
+* Appt.org: https://appt.org/en/docs/android/samples/accessibility-focus[Accessibility focus on Android] - how to move the focus to modals or popover views.
 
 
 == Einordnung des Prüfschritts
