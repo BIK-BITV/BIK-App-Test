@@ -13,7 +13,7 @@ nachvollziehbar sein.
 == Warum wird das geprüft?
 
 Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur
-möglich sein. Denn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie ein Zeiger.
+möglich sein. Denn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie ein Zeiger. Bei Apps soll die Tab-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Bedienelemente abbilden.
 
 Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Gesten, daher wird oft nur an die gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder blinde Nutzer.
 
@@ -31,24 +31,14 @@ damit Screenreader auf die hinzugefügten Elemente stoßen und diese ausgeben. W
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente
-oder Objekte enthält.
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente oder Objekte enthält.
 
 === 2. Prüfung
 
-Bei Apps soll die Tab-Reihenfolge im Wesentlichen die visuelle Reihenfolge der
-Steuerelemente abbilden.
-Bei den meisten mobilen Systemen kann dies mittels (Bluetooth-) Tastatur
-getestet werden.
-Der Tastatur-Fokus wird dazu auf das erste Steuerelement gesetzt.
-Zur Prüfung springt man dann mittels Tab-Taste von Steuerelement zu
-Steuerelement.
-Hierbei wird beurteilt ob die Tab-Reihenfolge der Elemente sinnvoll und im
-Wesentlichen der visuellen Reihenfolge entspricht.
-Falls dynamische Inhalte eingefügt werden können, wird geprüft, ob die
-Reihenfolge nach der Einfügung noch immer sinnvoll ist.
-
-Auf Touch-Geräten muss ggf. eine Bluetooth-Tastatur zum Einsatz kommen.
+. Der Tastatur-Fokus wird mittels Tab-Taste von Steuerelement zu Steuerelement bewegt.
+. Ist die Tab-Reihenfolge der Elemente sinnvoll und entspricht im Wesentlichen der visuellen Reihenfolge?
+. Falls dynamische Inhalte (Dialoge, Popovers, Menüs) eingefügt werden: Wird der Fokus in den zusätzlichen Inhalt versetzt?
+. Ist die Reihenfolge in eingefügten Inhalten sinnvoll?
 
 === 3. Hinweise
 
@@ -63,24 +53,17 @@ unsichtbare ausführbare Elemente geht.
 
 === 4. Bewertung
 
-*Erfüllt:*
+==== Erfüllt:
 
-* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der
-  Tabulatortaste angesteuert werden, ist im Wesentlichen nachvollziehbar und
+* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste angesteuert werden, ist im Wesentlichen nachvollziehbar und
   schlüssig.
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
-* Die Tabulatorreihenfolge ist nicht schlüssig, sie weicht ohne
-  nachvollziehbaren Grund von der visuellen Anordnung ab oder der Tastaturfokus
-  ist über mehr als drei aufeinanderfolgende Stationen in der App-Ansicht nicht
-  sichtbar.
+* Die Tabulatorreihenfolge ist nicht schlüssig, sie weicht ohne nachvollziehbaren Grund von der visuellen Anordnung ab 
+* Der Tastaturfokus ist über mehr als drei aufeinanderfolgende Stationen in der App-Ansicht nicht sichtbar
+* Der Fokus wird nicht auf eingeblendete Inhalte (Dialoge, Popover, Menüs) versetzt, sondern wandert durch den abgedeckten Hintergrund
 
-*Nicht erfüllt:*
-
-* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der
-  Tabulatortaste angesteuert werden, ist nicht nachvollziehbar und erschwert die
-  Bedienung mit der Tastatur erheblich.
   
 == Quellen
 === iOS
