@@ -127,6 +127,13 @@ ifndef::env_embedded[]
   <<11.2.4.4 Aussagekräftige Linktexte.adoc#,11.2.4.4 Aussagekräftige Linktexte>>
 endif::env_embedded[]
   geprüft.
+  
+  
+=== Quellen
+==== iOS
+* https://appt.org/en/docs/ios/samples/accessibility-focus[Accessibility focus on iOS] - how to move the focus when modals or popover views appear.
+
+==== Android
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
