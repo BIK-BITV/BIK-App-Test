@@ -23,14 +23,20 @@ Formularelemente enthält.
 === 2. Prüfung
 
 . App mit zu prüfender Ansicht starten.
-. Screenreader starten und Fokus mit Hilfe der Wischgeste auf Überschriften und Formularelemente setzen.
-. Prüfen, ob die Überschriften im Zusammenhang mit den durch sie strukturierten Inhalten aussagekräftig sind.
+. Prüfen, ob Überschriften im Zusammenhang mit dem folgenden Text aussagekräftig sind.
 . Prüfen, ob Beschriftungen von Formularelementen aussagekräftig sind.
 . Wenn Formularelemente eine Gruppenbeschriftung haben: Sind Gruppenbeschriftung und Beschriftung des Formularelements im Zusammenhang aussagekräftig?
 
 === 3. Hinweise
 
 Besonders in fachspezifischen Apps gibt es Labels und Überschriften, die für die Zielgruppe bestimmten, etablierten Vokabularen entsprechen (einschließlich viel genutzter Abkürzungen). Die Verwendung in Interfaces bringt Vorteile mit (Wiedererkennbarkeit, Präzision, Kürze), kann aber auch dazu führen, dass sie nicht unbedingt für jeden aussagekräftig oder anschaulich sind, was aber nicht zu einer negativen Bewertung führen soll.
+
+==== 3.1 Hinweise für die Teamprüfung
+Mit dem Screenreader können mittels der Wischgeste Überschriften und Formularelemente mit ihren Beschriftungen durchlaufen werden. Häufig sind visuelle Überschriften nicht programmatisch als Überschriften, sondern als einfacher Text umgesetzt. Es ist sogar möglich, das visuelle Überschriften überhaupt nicht vom Screenreader erreicht werden. Auch für solche Überschriften wird die Aussagekraft in diesem Prüfschitt beurteilt. 
+
+Blinde Prüfende sollten beim Durchlaufen der Ansichten zusammen mit der sehenden Assistenz festhalten, welche Inhalte visuell als Überschriften umgesetzt sind und demnach auf Aussagekraft hin zu prüfen sind. Sind Inhalte programmatisch als Überschrift umgesetzt, die visuell gar nicht als Überschrift hervorgehoben sind, ist dieser Mangel nicht hier, sondern in Prüfschrtt 11.1.3.1a "Strukturelemente für Überschriften" zu bewerten.
+
+Ähnliches gilt für Beschriftungen von Formular-Elementen. Häufig sind Beschriftungen nicht programmatisch den Formularelementen zugeordnet, sondern stehen einfach davor oder danach. Dann fokussiert die Wischgeste die Beschriftung unabhängig vom Formularelement. Das Formularelement hat dann entweder keine programmatisch ermittelbare Beschriftung oder diese wiederholt die getrennte Beschriftung (oder ist ggf. auch abweichend). Solche Mängel sind Gegenstand des Prüfschritts 11.1.3.1e "Beschriftung von Formularelementen programmatisch ermittelbar". In diesem Prüfschritt wird lediglich die Aussagekraft beurteilt.
 
 == Einordnung des Prüfschritts
 
