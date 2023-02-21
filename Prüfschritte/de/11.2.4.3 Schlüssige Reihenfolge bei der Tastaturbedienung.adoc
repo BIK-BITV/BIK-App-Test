@@ -38,7 +38,7 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Bedienelemente wie Links, T
 . Gibt es unsichtbare Fokusstationen?
 . Interaktive Elemente sollten nach Fokussierung aktiviert werden, um auch jene Elemente zu erfassen, die Unteransichten (etwa Ausklappbereiche, Menüs, Dialoge usw.) aufrufen, denn die Fokusreihenfolge muss auch in diesen geprüft werden. Hierbei kommen fallweise Tabulator oder Pfeiltasten, auch im Wechsel, zum Einsatz.
 . Falls dynamische Inhalte (Dialoge, Popovers, Menüs) eingefügt werden: Wird nach Aufruf der Fokus an den Beginn des zusätzlichen Inhalts versetzt?
-. Ist die Reihenfolge in eingefügten Inhalten sinnvoll?
+. Ist die Fokus-Reihenfolge bei Bedienelementen in eingefügten Inhalten sinnvoll?
 
 === 3. Hinweise
 
