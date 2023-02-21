@@ -9,7 +9,7 @@ include::include/attributes.adoc[]
 Wenn Apps mit der Tastatur bedient werden, soll die Fokus-Reihenfolge auf Bedienelementen (Links, Formularelementen oder Objekten) schlüssig und
 nachvollziehbar sein. Die Fokus-Reihenfolge sollte im Wesentlichen der visuellen Anordnung der Bedienelemente auf dem Bildschirm folgen. Kleinere Abweichungen sind kein Problem. Manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend abzuleiten.
 
-Wenn in der Ansicht dynamische Inhalte wie etwa modale Dialoge, Popovers, Aufklapp-Menüs oder Fehlermeldungen vorkommen, muss der Tastaturfokus nach Aufruf in diese gesetzt werden, damit Tastaturnutzende mit diesen Inhalten interagieren können. Beim Schließen dynamischer eingefügter Inhalte sollte der Fokus auf das auslösende Element zurückversetzt werden.
+Wenn in der Ansicht dynamische Inhalte wie etwa modale Dialoge, Popovers, Aufklapp-Menüs oder Fehlermeldungen vorkommen, muss der Tastaturfokus nach Aufruf in diese gesetzt werden, damit Tastaturnutzende mit diesen Inhalten interagieren können. Beim Schließen zusätzlich aufgerufener Inhalte über der Ansicht sollte der Fokus auf das aufrufende Element in der Ansicht zurückversetzt werden.
 
 == Warum wird das geprüft?
 
