@@ -6,9 +6,8 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die Software mit der Tastatur bedient wird, soll die Reihenfolge, in der
-Links, Formularelemente und Objekte angesteuert werden, schlüssig und
-nachvollziehbar sein.
+Wenn Apps mit der Tastatur bedient werden, soll die Fokus-Reihenfolge auf Bedienelementen (Links, Formularelementen oder Objekten) schlüssig und
+nachvollziehbar sein. Sie soll der visuellen Reihenfolge entsprechen.
 
 == Warum wird das geprüft?
 
