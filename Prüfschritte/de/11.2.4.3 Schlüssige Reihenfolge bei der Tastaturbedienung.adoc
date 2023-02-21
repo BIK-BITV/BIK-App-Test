@@ -11,7 +11,7 @@ nachvollziehbar sein. Sie soll der visuellen Reihenfolge entsprechen.
 
 == Warum wird das geprüft?
 
-Apps sollen für alle Nutzenden zugänglich sein. Das heißt, das sie verschiedene Arten der Eingabe unterstützen müssen: nicht nur Touch, sondern auch Tastaturbedienung, Switch-Steuerung oder Sprachsteuerung. Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Eingaben, daher wird oft nur an diese gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder blinde Nutzer. Für assistive Technologien ist die Tastaturnutzbarkeit häufig eine Voraussetzung. 
+Apps sollen für alle Nutzenden zugänglich sein. Das heißt, das sie verschiedene Arten der Eingabe unterstützen müssen: nicht nur Touch, sondern auch die Tastaturbedienung, Switch-Steuerung oder Sprachsteuerung. Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Eingaben; daher wird oft nur an diese gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder blinde Nutzer. Damit assistive Technologien funktionieren, ist Tastaturnutzbarkeit häufig eine Voraussetzung. 
 
 Bei Apps soll die Fokus-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Bedienelemente abbilden. Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
 
