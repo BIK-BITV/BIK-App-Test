@@ -29,7 +29,7 @@ Werden durch die Interaktion mit der App weitere Elemente in die Ansicht eingef�
 Der Prüfschritt ist anwendbar, wenn die App-Ansicht Bedienelemente wie Links, Tasten, Formularelemente oder Objekte enthält.
 
 === 2. Prüfung
-
+. iOS: Vor der Prüfung sicherstellen, dass in den Bedienungshilfen unter "Tastaturen" der Auswahlschalter "Tastatursteuerung" aktiviert ist.
 . Der Tastatur-Fokus wird mittels Tabulator-Taste von Bedienelement zu Bedienelement bewegt.
 . Wenn es Bereiche oder Elemente gibt, in denen sich der Fokus statt mit dem Tabulator über Pfeiltasten bewegen lässt, wird die Reihenfolge mit Pfeiltasten geprüft.
 . Ist die sequenzielle Tab- bzw. Pfeiltasten-Reihenfolge der Elemente sinnvoll und entspricht im Wesentlichen der visuellen Reihenfolge?
@@ -40,10 +40,10 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Bedienelemente wie Links, T
 
 === 3. Hinweise
 
-=== 3.1 Zur Fokussierung mit Tabulator und Pfeiltasten
+==== 3.1 Zur Fokussierung mit Tabulator und Pfeiltasten
 In manchen Apps sind Bedienelemente nicht durchgängig mit dem Tabulator erreichbar: sobald ein bestimmter Bereich den Fokus erhält, lassen sich Bedienelemente in diesem Bereich manchmal nur mit Pfeiltasten erreichen. Manche Elemente sind nur erreichbar, wenn der Fokus mit Pfeiltasten wie in einer zweidimensionalen Matrix gezielt zu ihnen bewegt wird. Sie sind jedoch ggf. in sequenzieller Navigation (Pfeiltasten links und rechts) zu erreichen. Für nicht-visuelle Nutzende ist dann nicht nachzuvollziehen, wie solche Elemente außerhalb der sequenziellen Reihenfolge überhaupt zu erreichen sind, selbst wenn sie mit viueller Unterstützung über eine Navigation mit Pfeiltasten mit der Tastatur erreichbar sind. Dies ist als Mangel in diesm Prüfschritt zu bewerten.
 
-=== 3.2 Akzeptable Varianten beim Fokus-Verhalten von Tab-Leisten
+==== 3.2 Akzeptable Varianten beim Fokus-Verhalten von Tab-Leisten
 iOS: Bei den gängigen Reiter-Navigationen bzw. Tab-Leisten (tab panels) im Fußbereich bleibt der Fokus häufig nach Aktivierung eines Tabs auf diesem Tab und wird nicht an den Beginn des darüber eingeblendeten Panels versetzt. Dies ist ein in vielen Apps etabliertes iOS-Pattern und sollte deshalb nicht negativ bewertet werden.
 
 ==== 3.3 Hinweise zur Prüfung von Webviews
