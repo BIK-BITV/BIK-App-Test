@@ -42,12 +42,12 @@ Nutzer die Änderung mitbekommen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente
 oder Objekte enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
 Bei Apps soll die Tab-Reihenfolge im Wesentlichen die visuelle Reihenfolge der
 Steuerelemente abbilden.
@@ -63,7 +63,7 @@ Reihenfolge nach der Einfügung noch immer sinnvoll ist.
 
 Auf Touch-Geräten muss ggf. eine Bluetooth-Tastatur zum Einsatz kommen.
 
-=== Hinweise
+=== 3. Hinweise
 
 Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf
 dem Bildschirm folgen.
@@ -74,7 +74,7 @@ abzuleiten.
 Die Tabulatorreihenfolge ist schwer nachzuvollziehen, wenn sie über
 unsichtbare ausführbare Elemente geht.
 
-=== Bewertung
+=== 4. Bewertung
 
 *Erfüllt:*
 
@@ -131,9 +131,10 @@ endif::env_embedded[]
   
 === Quellen
 ==== iOS
-* https://appt.org/en/docs/ios/samples/accessibility-focus[Accessibility focus on iOS] - how to move the focus when modals or popover views appear.
+* https://appt.org/en/docs/ios/samples/accessibility-focus[Accessibility focus on iOS] - how to move the focus to modals or popover views.
 
 ==== Android
+* https://appt.org/en/docs/android/samples/accessibility-focus[Accessibility focus on Android] - how to move the focus to modals or popover views.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
