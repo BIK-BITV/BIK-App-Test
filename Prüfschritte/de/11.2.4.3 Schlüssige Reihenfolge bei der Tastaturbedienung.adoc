@@ -29,7 +29,8 @@ Werden durch die Interaktion mit der App weitere Elemente in die Ansicht eingef�
 Der Pr체fschritt ist anwendbar, wenn die App-Ansicht Bedienelemente wie Links, Tasten, Formularelemente oder Objekte enth채lt.
 
 === 2. Pr체fung
-. iOS: Vor der Pr체fung sicherstellen, dass in den Bedienungshilfen unter "Tastaturen" der Auswahlschalter "Tastatursteuerung" aktiviert ist.
+iOS: Vor der Pr체fung sicherstellen, dass in den Bedienungshilfen unter "Tastaturen" der Auswahlschalter "Tastatursteuerung" aktiviert ist.
+
 . Der Tastatur-Fokus wird mittels Tabulator-Taste von Bedienelement zu Bedienelement bewegt.
 . Wenn es Bereiche oder Elemente gibt, in denen sich der Fokus statt mit dem Tabulator 체ber Pfeiltasten bewegen l채sst, wird die Reihenfolge mit Pfeiltasten gepr체ft.
 . Ist die sequenzielle Tab- bzw. Pfeiltasten-Reihenfolge der Elemente sinnvoll und entspricht im Wesentlichen der visuellen Reihenfolge?
