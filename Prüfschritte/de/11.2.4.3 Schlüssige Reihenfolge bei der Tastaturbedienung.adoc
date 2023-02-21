@@ -12,44 +12,41 @@ nachvollziehbar sein.
 
 == Warum wird das geprüft?
 
-Die Bedienung soll geräteunabhängig möglich sein. Das bedeutet: Sie muss sowohl mit einem Zeiger (Maus, Touch-Geste) als auch mit der Tastatur
-möglich sein. Denn auch andere Spezialgeräte verhalten sich so wie eine Maus oder wie ein Zeiger. Bei Apps soll die Tab-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Bedienelemente abbilden.
+Die Bedienung soll verschiedene Arten der Eingabe unterstützen: nicht nur Touch, sondern auch Tastaturbedienung, Switch-Steuerung oder Sprachsteuerung. Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Eingaben, daher wird oft nur an diese gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder blinde Nutzer. Für assistive Technologien ist die Tastaturnutzbarkeit häufig eine Voraussetzung. 
 
-Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Gesten, daher wird oft nur an die gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder blinde Nutzer.
+Bei Apps soll die Fokus-Reihenfolge im Wesentlichen die visuelle Reihenfolge der Bedienelemente abbilden. Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
 
-Durch eine nicht nachvollziehbare Reihenfolge der Bedienelemente kann die Tastaturbedienbarkeit erheblich beeinträchtigt werden.
-
-Wenn in der Ansicht dynamische Elemente wie etwa modale Dialoge, Popup- bzw. Schubladen-Menüs oder Fehlermeldungen vorkommen, muss der Tastaturfokus in diese ersetzt werden. Beim Schließen dieser Elemente muss der Fokus auf das auslösende Element zurückversetzt werden.
+Wenn in der Ansicht dynamische Elemente wie etwa modale Dialoge, Popup- bzw. Schubladen-Menüs oder Fehlermeldungen vorkommen, muss der Tastaturfokus in diese ersetzt werden, damit Tastaturnutzende mit diesen interagieren können. Beim Schließen dynamischer eingefügter Elemente muss der Fokus auf das auslösende Element zurückversetzt werden.
 
 === Zusätzliche Bedarfe von Screenreader-Nutzenden 
 Für Nutzende von Sceenreadern, die die Tastaturbediennung einsetzen, gibt es zusätzliche Probleme beim Einsatz dynamisch eingefüger Inhalte. Während solche Änderungen für sehende Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzern gar nicht wahrgenommen, wenn der Fokus nicht in diese Elemente versetzt wird.
 
 Werden durch die Interaktion mit der App weitere Elemente in die Ansicht eingefügt, sollte diese Einfügung unterhalb des auslösenden Elements geschehen,
-damit Screenreader auf die hinzugefügten Elemente stoßen und diese ausgeben. Werden Elemente an anderer Stelle, z. B. am unteren Rand der App-Ansicht, eingefügt (das ist oft bei modalen Dialogen der Fall), muss die App dafür sorgen, dass der Fokus dorthin versetzt wird und so auch blinde Nutzer die Änderung mitbekommen.
+damit Screenreader auf die hinzugefügten Elemente stoßen und diese ausgeben. Werden dynamische Inhalte zusätzlich auf der Ansicht eingefügt, so dass sie andere Inhalte adecken, muss die App dafür sorgen, dass der Fokus dorthin versetzt wird und so auch blinde Nutzer die Änderung mitbekommen.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App-Ansicht Links, Formularelemente oder Objekte enthält.
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht Bedienelemente wie Links, Tasten, Formularelemente oder Objekte enthält.
 
 === 2. Prüfung
 
-. Der Tastatur-Fokus wird mittels Tab-Taste von Steuerelement zu Steuerelement bewegt.
-. Wenn es Bereiche oder Elemente gibt, wo der Fokus sich statt mit dem Tabulator über Pfeiltasten bewegen lässt, wird die Reihenfolge mit Pfeiltasten geprüft.
-. Ist die Tab-Reihenfolge der Elemente sinnvoll und entspricht im Wesentlichen der visuellen Reihenfolge?
+. Der Tastatur-Fokus wird mittels Tabulator-Taste von Bedienelement zu Bedienelement bewegt.
+. Wenn es Bereiche oder Elemente gibt, in denen sich der Fokus statt mit dem Tabulator über Pfeiltasten bewegen lässt, wird die Reihenfolge mit Pfeiltasten geprüft.
+. Ist die sequenzielle Tab- bzw. Pfeiltasten-Reihenfolge der Elemente sinnvoll und entspricht im Wesentlichen der visuellen Reihenfolge?
+. Gibt es unsichtbare Fokusstationen?
 . Falls dynamische Inhalte (Dialoge, Popovers, Menüs) eingefügt werden: Wird der Fokus an den Beginn des zusätzlichen Inhalts versetzt?
 . Ist die Reihenfolge in eingefügten Inhalten sinnvoll?
 
 === 3. Hinweise
 
-Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf dem Bildschirm folgen.
-Kleinere Abweichungen sind kein Problem, manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend
+Die Tabulatorreihenfolge sollte im Wesentlichen der visuellen Anordnung auf dem Bildschirm folgen. Kleinere Abweichungen sind kein Problem, manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend
 abzuleiten.
 
-In manchen Apps sind Bedienelemente nicht durchgängig mit dem Tabulator erreichbar: sobsld ein bestimmter Bereich den Fokus erhält, lassen sich Bedienelemente in diesem Bereich mit Pfeiltasten erreichen. Manche Elemente sind visuell erreichbar, wenn der Fokus mit Pfeiltasten wie in einer zweidimensionalen Matrix gezielt zu ihnen bewegt wird. Sie sind jedoch in sequenzieller Nnavigation (Pfeiltasten links und rechts) zu erreichen. Für nicht visuelle Nutzende ist dann nicht nachzuvollziehen, wie Elemente außerhalb dieser sequenziellen Reihenfolge überhaupt zu erreichen sind, selbst wenn sie mit viueller Unterstützung über eine Navigation mit Pfeiltasten mit der Tastatur erreichbar wären.
+In manchen Apps sind Bedienelemente nicht durchgängig mit dem Tabulator erreichbar: sobald ein bestimmter Bereich den Fokus erhält, lassen sich Bedienelemente in diesem Bereich manchmal nur mit Pfeiltasten erreichen. Manche Elemente sind visuell erreichbar, wenn der Fokus mit Pfeiltasten wie in einer zweidimensionalen Matrix gezielt zu ihnen bewegt wird. Sie sind jedoch in sequenzieller Navigation (Pfeiltasten links und rechts) zu erreichen. Für nicht visuelle Nutzende ist dann nicht nachzuvollziehen, wie Elemente außerhalb dieser sequenziellen Reihenfolge überhaupt zu erreichen sind, selbst wenn sie mit viueller Unterstützung über eine Navigation mit Pfeiltasten mit der Tastatur erreichbar wären.
 
-Die Tabulatorreihenfolge ist schwer nachzuvollziehen, wenn sie über unsichtbare ausführbare Elemente geht.
+iOS: Für Reiter-Navigationen (tab panels) im Fußbereich bleibt der Fokus häufig nach Aktivierung eines Tabs auf diesem Tab und wird nicht an den Beginn des eingeblendeten Panels versetzt. Dies ist ein in vielen Apps etabliertes iOS-Pattern und sollte deshalb nicht negativ bewertet werden.
 
 === 4. Bewertung
 
@@ -57,13 +54,14 @@ Die Tabulatorreihenfolge ist schwer nachzuvollziehen, wenn sie über unsichtbare
 
 * Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste angesteuert werden, ist im Wesentlichen nachvollziehbar und
   schlüssig.
+* Der Fokus wird an den Beginn eingeblendeter dynamischer Elemente (Dialoge, Popover, Menüs) gesetzt.
 
 ==== Nicht voll erfüllt:
 
 * Die Tabulator-Reihenfolge ist nicht schlüssig, sie weicht ohne nachvollziehbaren Grund von der visuellen Anordnung ab 
 * Der Tastaturfokus ist über mehr als drei aufeinanderfolgende Stationen in der App-Ansicht nicht sichtbar
 * Nicht alle Bedienelemente sind in sequenzieller Navigation über Tabulator oder Pfeiltasten erreichbar
-* Der Tastatur-Fokus wird nicht auf eingeblendete Inhalte (Dialoge, Popover, Menüs) versetzt, sondern wandert durch den abgedeckten Hintergrund
+* Der Tastatur-Fokus wird nicht auf eingeblendete dynamische Inhalte (Dialoge, Popover, Menüs) versetzt, sondern wandert durch den abgedeckten Hintergrund der Ansicht
   
 == Quellen
 === iOS
