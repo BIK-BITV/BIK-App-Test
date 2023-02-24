@@ -50,16 +50,16 @@ Es wird überprüft, ob es Bedienelemente gibt, deren Funktionen durch
 Down-Events ausgelöst werden.
 
 . Auf dem Smartphone Bedienelemente (Links, Schalter) berühren, den Finger
-  kurz liegen lassen
+  kurz liegen lassen.
 . Beobachten, ob nun schon eine Funktion ausgeführt wird, dies geschieht
-  wahrscheinlich aufgrund eines Down-Events
+  wahrscheinlich aufgrund eines Down-Events.
 . Wenn keine Funktion ausgelöst wird, Finger vom Punkt der Berührung
-  wegbewegen und loslassen, Dadurch wird in der Regel der Aufruf des Links
+  wegbewegen und loslassen. Dadurch wird in der Regel der Aufruf des Links
   oder der Funktion vermieden, selbst wenn der berührte Punkt dem Finger
-  folgt (die Ansicht gescrollt wird)
+  folgt (die Ansicht gescrollt wird).
 . Wenn Funktionen beim Down-Event ausgelöst werden, prüfen, ob die Funktion
   abgebrochen oder rückgängig gemacht werden kann oder beim Up-Event wieder
-  rückgängig gemacht wird
+  rückgängig gemacht wird.
 
 === Hinweise
 
@@ -72,17 +72,14 @@ Das Gleiche gilt für Fließtextlinks.
 
 Als Zeiger-Down-Events gelten mousedown, touchstart und pointerdown.
 
+Zu beachten ist, dass virtuelle Keypads eine Ausnahme darstellen. Ausnahmen gelten auch frü Fääle, in denen es essentiell ist, auf das Key-Down-Event zu reagieren.
+
 === Bewertung
 
-*Erfüllt:*
+==== Erfüllt:
 
-* Keine Funktionen werden beim Down-Event ausgelöst
-* Funktionen, die beim Down-Event ausgelöst werden, können abgebrochen,
-  zurückgenommen oder beim Up-Event in den alten Zustand zurückversetzt
-  werden, zu beachten ist, dass nachgebildete Keypads eine ausnahme darstellen,
-  hier und bei ähnlich gelagerten Fällen, bei denen es essentiell ist, auf
-  das Key-Down-Event zu reagieren, kann von der generellen Regelung abgewichen
-  werden.
+* Beim Down-Event werden keine Funktionen ausgelöst. 
+* Funktionen, die beim Down-Event ausgelöst werden, können abgebrochen, zurückgenommen oder beim Up-Event in den alten Zustand zurückversetzt werden. 
 
 == Einordnung des Prüfschritts
 
