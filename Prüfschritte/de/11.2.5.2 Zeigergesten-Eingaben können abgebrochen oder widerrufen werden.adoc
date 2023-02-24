@@ -41,7 +41,7 @@ Der Prüfschritt ist anwendbar, wenn auf der App-Ansicht Bedienelemente vorhande
 
 * Die Anforderung bezieht sich auf von Entwicklern in der App definierte Funktionen. Gesten bzw. Eingaben, die vom Betriebssystem oder von assistiven Technologien bzw. Bedienungshilfen der Plattform definiert sind, fallen nicht unter diese Anforderung. 
 * Virtuelle Tastaturen oder Keypads sind vcn der Anforderung ausgenommen.
-* Ausnahmen gelten auch für Fälle, in denen es essentiell ist, auf das Key-Down-Event zu reagieren, etwa bei einer virtuellen Klaviertastatur oder in Spielen.
+* Eine Ausnahme gilt auch, wenn es essentiell ist, dass die App auf das Key-Down-Event reagiert, etwa bei einer virtuellen Klaviertastatur oder in manchen Spielen.
 
 ==== 3.2 Praktische Hinweise fürs Prüfen
 Es ist in der Regel nicht notwendig (und wäre bei umfangreichen Ansichten sehr zeitaufwändig), jedes einzelne Bedienelement aufzurufen, wenn eine stichprobenartige Prüfung zeigt, dass die Umsetzung gleichartig ist. Für ein Menü reicht es dann z.B., bei jeder Art von Menüeintrag (etwa Hauptmenü- und Untermenü-Einträge) ein Element zu testen. Das Gleiche gilt für gleichartige Schaltflächen und LInks.
