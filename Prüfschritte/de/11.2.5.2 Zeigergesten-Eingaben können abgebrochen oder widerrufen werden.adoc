@@ -40,7 +40,7 @@ Der Prüfschritt ist anwendbar, wenn auf der App-Ansicht Bedienelemente vorhande
 ==== 3.1 Ausnahmen
 
 * Die Anforderung bezieht sich auf von Entwicklern in der App definierte Funktionen. Gesten bzw. Eingaben, die vom Betriebssystem oder von assistiven Technologien bzw. Bedienungshilfen der Plattform definiert sind, fallen nicht unter diese Anforderung. 
-* Virtuelle Tastaturen oder Keypads sind vcon der Anforderung ausgenommen.
+* Virtuelle Tastaturen oder Keypads sind vcn der Anforderung ausgenommen.
 * Ausnahmen gelten auch für Fälle, in denen es essentiell ist, auf das Key-Down-Event zu reagieren, etwa bei einer virtuellen Klaviertastatur oder in Spielen.
 
 ==== 3.2 Praktische Hinweise fürs Prüfen
