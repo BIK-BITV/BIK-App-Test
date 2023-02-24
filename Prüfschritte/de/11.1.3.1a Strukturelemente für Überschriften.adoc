@@ -105,7 +105,7 @@ To facilitate navigation and understanding of overall document structure,
 authors should use headings that are properly nested (e.g., h1 followed by h2,
 h2 followed by h2 or h3, h3 followed by h3 or h4, etc.)..
 
-https://www.w3.org/WAI/WCAG21/Techniques/general/G141[WCAG 2.1, G141: Organizing a page using headings]
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Techniques/general/G141[G141: Organizing a page using headings]
 
 ==== Überschriften-Elemente und CSS-Auszeichnungen nicht missbrauchen
 
@@ -117,8 +117,7 @@ Conversely, while applying bold format, or even class="heading", can result in
 the visual display of a heading, assistive technologies will not recognize
 such text as headings.
 
-https://www.w3.org/WAI/WCAG21/Techniques/html/H42.html[WCAG 2.1, H42: Using
-h1-h6 to identify headings]
+* WCAG 2.1:  https://www.w3.org/WAI/WCAG21/Techniques/html/H42.html[H42: Using h1-h6 to identify headings]
 
 == Einordnung des Prüfschritts
 
