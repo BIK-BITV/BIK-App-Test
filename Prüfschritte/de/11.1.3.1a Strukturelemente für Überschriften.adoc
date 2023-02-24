@@ -87,10 +87,9 @@ Element als Überschrift auszuzeichnen.
 
 === iOS
 
-* Apple Developer Documentation:
-  https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
+* Apple Developer Documentation: https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
   UI Accessibility Traits / Header]
-* https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[Hierarchische Überschriften in iOS]
+* Apple Developer Documentation: https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[Hierarchische Überschriften in iOS]
 
 === Android
 
