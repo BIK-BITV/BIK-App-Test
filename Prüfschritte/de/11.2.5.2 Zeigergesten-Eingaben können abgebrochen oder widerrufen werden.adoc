@@ -33,7 +33,7 @@ Der Prüfschritt ist anwendbar, wenn auf der App-Ansicht Bedienelemente vorhande
 === 2. Prüfung
 
 . Auf einem Gerät mit Touchscreen die Bedienelemente (Links, Schalter) berühren, den Finger kurz liegen lassen.
-. Beobachten, ob nun schon eine Funktion ausgelöst wird (z.B. Aufruf einer anderen Ansicht, eines EInblendbereichs oder eines Dialogs).
+. Beobachten, ob nun schon eine Funktion ausgelöst wird (z.B. Aufruf einer anderen Ansicht, eines Einblendbereichs oder eines Dialogs).
 . Wenn keine Funktion ausgelöst wird, Finger vom Punkt der Berührung wegbewegen und dann loslassen. Dadurch wird in der Regel der Aufruf des Links
   oder der Funktion vermieden, selbst wenn der berührte Punkt dem Finger folgt (die Ansicht gescrollt wird).
 . Wenn Funktionen beim Down-Event ausgelöst werden, prüfen, ob die Funktion abgebrochen oder rückgängig gemacht werden kann oder beim Up-Event wieder
