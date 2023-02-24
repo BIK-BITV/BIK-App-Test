@@ -82,6 +82,7 @@ Die Assistenz braucht bei Prüfung an zwei Orten ein zweites, möglichst gleiche
 === Android
 * Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/android/development/focus-navigation/[Android develop - Keyboard navigation & Switch Access]
 * Appt.org: https://appt.org/en/docs/android/samples/accessibility-focus[Accessibility focus on Android] - how to move the focus to modals or popover views.
+* Appt.org: https://appt.org/en/docs/android/samples/element-focus-change[Element focus change on Android]
 
 
 == Einordnung des Prüfschritts
