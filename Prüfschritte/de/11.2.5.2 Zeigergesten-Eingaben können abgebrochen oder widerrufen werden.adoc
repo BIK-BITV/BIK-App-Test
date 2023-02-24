@@ -54,6 +54,11 @@ Es ist in der Regel nicht notwendig (und wäre bei umfangreichen Ansichten sehr 
 * Beim Down-Event werden keine Funktionen ausgelöst. 
 * Funktionen, die beim Down-Event ausgelöst werden, können abgebrochen, zurückgenommen oder beim Up-Event in den alten Zustand zurückversetzt werden. 
 
+== Quellen
+=== Android
+
+* Appt.org: https://appt.org/en/docs/android/samples/input-cancellation[Input cancellation on Android]
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
