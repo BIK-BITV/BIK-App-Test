@@ -66,6 +66,17 @@ Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 
 * Das informationstragende, visuelle Video hat keine Audiodeskription.
 
+== Quellen
+
+=== BIK für Alle: Leitfaden barrierefreie Online-Videos
+
+* http://www.bik-fuer-alle.de/audiodeskription.html[Audiodeskription]
+* https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded[Extended Audio-Deskription]
+
+=== Blogartikel von Terrill Thompson zu Audio Description (Stand 03/2017):
+
+* http://terrillthompson.com/blog/813[My Audio Description Talk @ CSUN]
+
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
@@ -102,8 +113,3 @@ bewertet.
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G203.html[G203: Using a
   static text alternative to describe a talking head video]
 
-== Quellen
-
-=== Blogartikel von Terrill Thompson zu Audio Description (Stand 03/2017):
-
-* http://terrillthompson.com/blog/813[My Audio Description Talk @ CSUN]
