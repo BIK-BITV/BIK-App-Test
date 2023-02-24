@@ -165,7 +165,7 @@ elements, and input elements of type 'image']
   Criterion 1.1.1 and 1.2.1 due to providing long description for non-text content
   that does not serve the same purpose or does not present the same information]
 
-=== Abgrenzung zu anderen Prüfkriterien
+=== Abgrenzung zu anderen Prüfschritten
 
 * Textalternative für verlinkte Grafiken (z.B. Bedienelemente oder 
   Teaser-Bilder)
