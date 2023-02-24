@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Visuell dargestellte Hierarchien (Eltern-Kind Beziehungen) sollten grundsätzlich auch für den Screenreader-Nutzer erfahrbar sein.
-Der Einsatz programmatisch ermittelbarer hierarchischer Strukturen ist allerdings bei Apps recht beschränkt.
+Der Einsatz programmatisch ermittelbarer Eltern-Kind Strukturen ist allerdings bei mobilen Apps recht beschränkt.
 
 Die am häufigsten anzutreffende programmatisch ausgegebene Hierarchie, sowohl bei Android als auch iOS, ist die von Tab-Leisten (Tabs für die Navigation zu App-Bereichen) bzw. Werkzeugleisten (Toolbars) zum Aufruf von Funktionen, sowie von Reiter-Widgets (Tab Panels).
 
