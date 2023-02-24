@@ -58,11 +58,7 @@ wird die entsprechende Überschriftenebene ausgegeben. Die Hierarchie der Übers
 
 ==== 3.1. Hinweise für Entwicklungs-Teams:
 
-* Für native Apps unter iOS / iPadOS das 
-https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
-``"header"``-Property] der
-https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits[
-`UIAccessibilityTraits`] für die Auszeichnung von Überschriften verwendet.
+
 
 * Für nativen Apps unter Android das Attribut
 https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[
@@ -92,7 +88,8 @@ Element als Überschrift auszuzeichnen.
 * Apple Developer Documentation: https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[Hierarchische Überschriften in iOS]
 
 === Android
-
+* Android Developer: https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[
+`"android:accessibilityHeading"` für UI-Elemente
 * Android Developer:
   https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[
   Headings within text]
