@@ -69,8 +69,11 @@ Auswahllisten-Element bzw. select. Hier dient z.B. das Drücken einer Buchstaben
 
 
 == Quellen
+=== iOS
+* Appt.org: https://appt.org/en/docs/ios/samples/keyboard-shortcuts[Keyboard shortcuts on iOS]
 
-* https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[
+=== Allgemeine Quellen
+* WCAG: https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[
   Understanding Success Criterion 2.1.4: Character Key Shortcuts]
   (zur Zeit nur auf Englisch verfügbar)
 
