@@ -45,9 +45,17 @@ geprüft.
 
 * Live-Übertragungen sind ohne Untertitel.
 
+== Quellen
+
+=== iOS
+* Appt.org: https://appt.org/en/docs/ios/samples/live-captions[Live captions on iOS]
+
+=== Android
+* Appt.org: https://appt.org/en/docs/android/samples/live-captions[Live captions on Android]
+
 == Einordnung des Prüfschritts
 
-=== Abgrenzung zu anderen Prüfkriterien
+=== Abgrenzung zu anderen Prüfschritten
 
 ==== Aufgezeichnete Videos
 
