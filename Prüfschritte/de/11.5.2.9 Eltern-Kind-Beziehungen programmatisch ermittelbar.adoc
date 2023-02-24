@@ -33,12 +33,13 @@ Der Prüfschritt wird also nur auf Tableisten und Toolbars (meist im Fußbereich
 
 === 3. Hinweise
 Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist bzw. bei der Fokussierung eines Kind-Elements nicht der Name oder Rolle des Eltern-Elements ausgegeben wird. Für Eltern-Elemente (List views, Table views, Collections) ist eine solche Ausgabe nicht generell sinnvoll oder ggf. sogar störend.
+Der Screenreader VoiceOver im MacOs/Safari Browser und unter iOS/Safari unterdrückt die Listensemantik, wenn die Liste nicht über Listenpunkte oder Nummerierung auch visuell als Liste gestaltet ist. Einiges spricht dafür, dass die Gestalung hier die semantische Ausgabe beeinflusst, einiges spricht dagegen (vergl. den Artikel _"Fixing" Lists_ in den Quellen). Dafür spricht, dass eine möglicherweise lästige und nicht nützliche Screenreader-Ausgabe unterbleibt. In anderen Fällen (und für andere Nutzende) kann es relevant sein, die Anzahl der Listenelemente zu mitgeteilt zu bekommen. Das Fehlen von Listenauszeichung auf Elementen, die nicht visuell als Liste ausgezeichnet sind, sollte in diesem Püfschritt nicht negstiv bewertet werden.
 
 Android-Prüfung: In den TalkBack-Einstellungen sollte unter "Ausführlichkeit" doe Optionen "Listen- und Rasterinformationen vorlesen" aktiviert sein.
 
 === 4. Bewertung
 ==== 4.1 Eher erfüllt: 
-Elemente in Tableisten, Toolbars oder Reiter-Wigets vermitteln nicht ihre Position innerhalb des Eltern-Elements und die Anzahl der Kind-Elemente in der Leiste (die Verfügbarkeit von Name, Rolle und Wert gehört zu Prüfschritt 11.4.1.2 und wird dort bewertet).
+Elemente in Listen, Tableisten, Toolbars oder Reiter-Wigets vermitteln nicht ihre Position innerhalb des Eltern-Elements und die Anzahl der Kind-Elemente in der Leiste (die Verfügbarkeit von Name, Rolle und Wert gehört zu Prüfschritt 11.4.1.2 und wird dort bewertet).
 
 ==== 4.2 Nicht erfüllt:
 Schalter in Tableisten vermitteln unrichtige Informationen zu Eltern-Kind Beziehungen - z.B. "Suchen, Tab, 1 von 1", obwohl mehrere Tabs in der Tableiste vorhanden sind. (Fehlende Namen, Rollen und Werte sind ansonsten bei 11.4.1.2 zu bewerten.)
@@ -47,6 +48,7 @@ Schalter in Tableisten vermitteln unrichtige Informationen zu Eltern-Kind Bezieh
 == Quellen
 
 * https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[Hierarchische Überschriften in iOS]
+* https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html["Fixing" Lists] (Blog artikel von Scott o'Hara, aktualisiert am 30.01.2023)
 
 === Auszug EN 301 549
 
