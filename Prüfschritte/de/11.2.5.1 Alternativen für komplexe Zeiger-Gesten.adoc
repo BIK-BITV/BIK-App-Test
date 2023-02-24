@@ -2,11 +2,13 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn Apps Funktionen implementieren, die über pfadbasierte Zeiger-Gesten (etwa Streich- oder Zieh-Gesten) oder über Mehrpunktgesten bedient werden können, gibt es Alternativen für die Aktivierung mittels einer einfachen Zeigereingabe.
 
-"Zeiger" schließt dabei indirekte Eingaben mittels Mauszeiger ebenso wie direkte Eingaben ein, etwa mit dem Finger auf einem Touchscreen oder mit dem Stift auf einem Grafiktablett.
+Bei iOs- und Android-Apps ist "Zeiger" meist der Finger auf dem Touchscreen. "Zeiger" schließt aber auch indirekte Eingaben mittels einer gekoppelten Maus, mittels Stift auf einem Grafiktablett, oder mittels Laser-Pointer ein.
 
 Ausgenommen sind Fälle, in denen die pfadbasierte oder Mehrpunkt-Eingabe essenziell wichtig ist - etwa bei der Handschrifterkennung. Drag-and-Drop-Aktionen gelten nicht als pfadbasierte Geste im Sinne dieser Anforderung.
 
