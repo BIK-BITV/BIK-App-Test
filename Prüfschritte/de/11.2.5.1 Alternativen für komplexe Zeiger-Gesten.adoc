@@ -64,7 +64,7 @@ kann, dass sich die Software auf jeder Plattform exakt gleich verhält.
 == Quellen
 === Android 
 
-*https://appt.org/en/docs/android/samples/input-gestures[Input gestures on Android]
+* https://appt.org/en/docs/android/samples/input-gestures[Input gestures on Android]
 
 === Allgemeine Quellen (WCAG)
 
