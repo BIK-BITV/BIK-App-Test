@@ -56,9 +56,19 @@ Statt Links auf Inhalte können auch andere Bedienelemente genutzt werden. Konfo
 * Es gibt eine Medienalternative, aber der Bezug zu der entsprechenden Audiodatei oder stummen Videodatei ist nicht deutlich.
 * Es gibt eine Medienalternative, aber die Inhalte der Audio- oder stummen Videodatei sind darin nicht vollständig wiedergegeben.
 
+== Quellen
+
+=== EN 301549 V3.2.1
+
+==== 11.1.2.1.1 Audio-only and video-only (pre-recorded -open functionality)
+
+Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading and where pre-recorded auditory information is not needed to enable the use of closed functions of ICT, it shall satisfy the WCAG 2.1 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded). 
+
+NOTE: The alternative can be provided directly in the software - or provided in an alternate version that meets the success criterion.
+
 == Einordnung des Prüfschritts
 
-=== Abgrenzung zu anderen Prüfkriterien
+=== Abgrenzung zu anderen Prüfschritten
 
 im Fall von zeitbasierten Medien geht es im Prüfschritt
 ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
@@ -66,7 +76,6 @@ ifndef::env_embedded[]
   <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
   Alternativtexte für Grafiken und Objekte>>.
 um die Bereitstellung von kurzen beschreibenden Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt werden können, diese kurz identifizieren.
-
 
 In diesem Prüfschritt 11.1.2.1 Alternativen für Audiodateien und stumme Videos geht es dagegen um die Bereitstellung von gleichwertigen Alternativen für reine Audio- oder Videoinhalte.
 
@@ -100,13 +109,3 @@ Dort geht es also um **zusätzliche** akustische Informationen über Bildinhalte
   alternative for time-based media for audio-only content]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G159[G159: Providing an
   alternative for time-based media for video-only content]
-
-== Quellen
-
-=== EN 301549 V3.2.1
-
-==== 11.1.2.1.1 Audio-only and video-only (pre-recorded -open functionality)
-
-Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading and where pre-recorded auditory information is not needed to enable the use of closed functions of ICT, it shall satisfy the WCAG 2.1 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded). 
-
-NOTE: The alternative can be provided directly in the software - or provided in an alternate version that meets the success criterion.
