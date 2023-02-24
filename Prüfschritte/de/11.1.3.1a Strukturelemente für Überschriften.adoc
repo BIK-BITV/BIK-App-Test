@@ -117,11 +117,15 @@ Element als Überschrift auszuzeichnen.
 
 == Quellen
 
-=== UI-Elemente als Überschrift auszeichnen
+=== iOS
 
 * Apple Developer Documentation:
   https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
   UI Accessibility Traits / Header]
+* https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[Hierarchische Überschriften in iOS]
+
+=== Android
+
 * Android Developer:
   https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[
   Headings within text]
