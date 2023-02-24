@@ -38,7 +38,7 @@ Der Prüfschritt ist anwendbar, wenn auf der App-Ansicht Bedienelemente vorhande
   oder der Funktion vermieden, selbst wenn der berührte Punkt dem Finger folgt (die Ansicht gescrollt wird).
 . Wenn Funktionen beim Down-Event ausgelöst werden, prüfen, ob die Funktion abgebrochen oder rückgängig gemacht werden kann oder beim Up-Event wieder
   rückgängig gemacht wird.
-. Prüfen, ob festgestellte Down-Events als esseziell auszunehmen sind (siehe 3. Hinweise, 3.1 Ausnahmen)
+. Prüfen, ob festgestellte Down-Events als essenziell auszunehmen sind (siehe 3. Hinweise, 3.1 Ausnahmen)
 
 === 3. Hinweise
 ==== 3.1 Ausnahmen
