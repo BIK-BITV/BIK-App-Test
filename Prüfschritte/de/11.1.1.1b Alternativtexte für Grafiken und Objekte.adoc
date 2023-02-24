@@ -112,9 +112,7 @@ Erforderlich ist also die wechselnde Betrachtung von Grafik/Objekt und zugehöri
 
 === Abgrenzung zu anderen Prüfschritten
 
-* Textalternative für verlinkte Grafiken (z.B. Bedienelemente oder 
-  Teaser-Bilder)
-  werden in Prüfschritt
+* Textalternativen für verlinkte Grafiken (z.B. Bedienelemente oder Teaser-Bilder) werden in Prüfschritt
 ifdef::env_embedded[11.1.1.1a "Textalternativen für Bedienelemente"]
 ifndef::env_embedded[]
   <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Textalternativen
@@ -122,8 +120,7 @@ ifndef::env_embedded[]
 endif::env_embedded[]
   geprüft.
 
-* Einfache Animationen oder Videos ohne synchronisierungsbedürftige Tonspur
-  werden in Prüfschritt
+* Einfache Animationen oder Videos ohne synchronisierungsbedürftige Tonspur werden in Prüfschritt
 ifdef::env_embedded[11.1.2.1a "Alternativen für Audiodateien und stumme Videos"]
 ifndef::env_embedded[]
   <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,11.1.2.1
