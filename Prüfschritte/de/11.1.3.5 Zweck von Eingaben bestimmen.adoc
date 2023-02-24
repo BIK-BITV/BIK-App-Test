@@ -54,6 +54,25 @@ persönlichen Daten mehrerer Personen möglich ist und die Felder für den Nutze
 ==== Nicht anwendbar:
 * Eingabefelder beziehen sich nicht eindeutig auf die Nutzenden selbst.
 
+== Quellen
+
+=== Android
+* Appt.org: https://appt.org/en/docs/android/samples/input-keyboard-type[Input keyboard type on Android]
+* Android Developer Resources: https://developer.android.com/guide/topics/text/autofill-optimize[Optimize your app for autofill (zur Zeit nur auf
+Englisch verfügbar)]
+
+=== iOS
+* [BLOCK_LANG_EN]#Apple Developer Resources#: https://developer.apple.com/documentation/security/password_autofill/[Password AutoFill (zur Zeit nur auf
+Englisch verfügbar)] Die unterstützten Arten von Autofill-Daten sind sehr begrenzt und dienen zur Zeit hauptsächlich dazu, die Tastatur dynamisch anzupassen. Siehe auch https://developer.apple.com/documentation/uikit/uitextinputtraits/1649656-textcontenttype[textContentType:
+The semantic meaning for a text input area]. (zur Zeit nur auf Englisch verfügbar)
+* https://developer.apple.com/documentation/uikit/uikeyboardtype[UIKeyBoardType: Verfügbare angepasste Tastaturen fpr bestimmte EIngabefelder]
+
+=== Allgemeine Quaellen (WCAG)
+
+* https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html[
+Understanding Success Criterion 1.3.5: Identify Input Purpose (zur Zeit nur auf
+Englisch verfügbar)]
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -69,18 +88,3 @@ persönlichen Daten mehrerer Personen möglich ist und die Felder für den Nutze
 * https://www.w3.org/TR/WCAG21/#identify-input-purpose[1.3.5 Identify Input
   Purpose (Level AA)]
 
-== Quellen
-
-* https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html[
-Understanding Success Criterion 1.3.5: Identify Input Purpose (zur Zeit nur auf
-Englisch verfügbar)]
-
-=== Android
-* Android Developer Resources: https://developer.android.com/guide/topics/text/autofill-optimize[Optimize your app for autofill (zur Zeit nur auf
-Englisch verfügbar)]
-
-=== iOS
-* [BLOCK_LANG_EN]#Apple Developer Resources#: https://developer.apple.com/documentation/security/password_autofill/[Password AutoFill (zur Zeit nur auf
-Englisch verfügbar)] Die unterstützten Arten von Autofill-Daten sind sehr begrenzt und dienen zur Zeit hauptsächlich dazu, die Tastatur dynamisch anzupassen. Siehe auch https://developer.apple.com/documentation/uikit/uitextinputtraits/1649656-textcontenttype[textContentType:
-The semantic meaning for a text input area]. (zur Zeit nur auf Englisch verfügbar)
-* https://developer.apple.com/documentation/uikit/uikeyboardtype[UIKeyBoardType: Verfügbare angepasste Tastaturen fpr bestimmte EIngabefelder]
