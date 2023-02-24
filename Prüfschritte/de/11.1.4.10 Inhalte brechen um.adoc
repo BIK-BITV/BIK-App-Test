@@ -109,7 +109,7 @@ Sprachen benutzten lateinischen Schrift. Die zugrunde liegende WCAG-Anforderung 
 
 == Quellen
 === Android
-Appt.org: https://appt.org/en/docs/android/samples/reflow[Reflow on Android]
+* Appt.org: https://appt.org/en/docs/android/samples/reflow[Reflow on Android]
 
 === Allgemeine Quellen (WCAG)
 
