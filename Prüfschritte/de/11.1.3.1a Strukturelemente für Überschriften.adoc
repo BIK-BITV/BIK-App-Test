@@ -82,7 +82,7 @@ wird die entsprechende Überschriftenebene ausgegeben. Die Hierarchie der Übers
 * Android Developer: https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[`android:accessibilityHeading` für UI-Elemente]
 * Android Developer: https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[Headings within text]
 
-=== Allgemeine Quellen (WCAG)
+=== Allgemeine Quellen
 ==== Überschriften richtig schachteln
 
 [.BLOCK_LANG_EN]
