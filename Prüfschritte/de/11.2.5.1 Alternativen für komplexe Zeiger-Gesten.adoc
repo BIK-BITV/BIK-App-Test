@@ -61,6 +61,17 @@ kann, dass sich die Software auf jeder Plattform exakt gleich verhält.
 
 * Für alle in der App implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den Umgebungen, die in die Prüfung gemäß Accessibility Baseline einbezogen sind.
 
+== Quellen
+=== Android 
+
+*https://appt.org/en/docs/android/samples/input-gestures[Input gestures on Android]
+
+=== Allgemeine Quellen (WCAG)
+
+* https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[
+  Understanding Success Criterion 2.5.1: Pointer Gestures]
+  (zur Zeit nur auf Englisch verfügbar)
+  
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -89,13 +100,3 @@ kann, dass sich die Software auf jeder Plattform exakt gleich verhält.
   Success Criterion 2.5.1 due to providing functionality via a path-based
   gesture without simple pointer alternative]
 
-== Quellen
-=== Android 
-
-*https://appt.org/en/docs/android/samples/input-gestures[Input gestures on Android]
-
-=== Allgemeine Quellen (WCAG)
-
-* https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[
-  Understanding Success Criterion 2.5.1: Pointer Gestures]
-  (zur Zeit nur auf Englisch verfügbar)
