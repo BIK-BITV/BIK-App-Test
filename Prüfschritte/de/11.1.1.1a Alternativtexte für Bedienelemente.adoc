@@ -128,10 +128,9 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
   Success Criterion 1.1.1 and 1.2.1 due to using text alternatives that are
   not alternatives]
   
-=== Abgrenzung zu anderen Prüfkriterien
+=== Abgrenzung zu anderen Prüfschritten
 
-Grafische Bedienelemente sind stets in diesem Prüfschritt zu bewerten.
-Das gilt auch dann, wenn die Grafiken neben der Information über das Linkziel
+Grafische Bedienelemente sind stets in diesem Prüfschritt zu bewerten. Das gilt auch dann, wenn die Grafiken neben der Information über das Linkziel
 auch noch eine andere Information vermitteln sollen.
 
 * Einzige Ausnahme:
