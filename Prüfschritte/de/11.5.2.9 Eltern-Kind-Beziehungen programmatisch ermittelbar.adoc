@@ -47,7 +47,6 @@ Schalter in Tableisten vermitteln unrichtige Informationen zu Eltern-Kind Bezieh
 
 == Quellen
 
-* https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[Hierarchische Überschriften in iOS]
 * https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html["Fixing" Lists] (Blog-Artikel von Scott o'Hara, aktualisiert am 30.01.2023)
 
 === Auszug EN 301 549
