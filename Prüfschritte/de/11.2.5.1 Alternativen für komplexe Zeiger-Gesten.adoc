@@ -90,6 +90,11 @@ kann, dass sich die Software auf jeder Plattform exakt gleich verhält.
   gesture without simple pointer alternative]
 
 == Quellen
+=== Android 
+
+*https://appt.org/en/docs/android/samples/input-gestures[Input gestures on Android]
+
+=== Allgemeine Quellen (WCAG)
 
 * https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[
   Understanding Success Criterion 2.5.1: Pointer Gestures]
