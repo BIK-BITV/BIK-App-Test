@@ -59,6 +59,15 @@ Es ist in der Regel nicht notwendig (und wäre bei umfangreichen Ansichten sehr 
 
 * Appt.org: https://appt.org/en/docs/android/samples/input-cancellation[Input cancellation on Android]
 
+===  Allgemeine Quellen (WCAG und Spezifikationen)
+
+* https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation[
+  Understanding Success Criterion 2.5.2: Pointer Cancellation]
+  (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/TR/pointerevents/[Spezifikation PointerEvents]
+* https://www.w3.org/TR/touch-events/[Spezifikation TouchEvents]
+* https://www.w3.org/TR/uievents/[Spezifikation UIEvents]
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -87,11 +96,3 @@ Es ist in der Regel nicht notwendig (und wäre bei umfangreichen Ansichten sehr 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F101[F101: Failure of
   Success Criterion 2.5.2 due to activating a control on the down-event]
 
-==  Quellen
-
-* https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation[
-  Understanding Success Criterion 2.5.2: Pointer Cancellation]
-  (zur Zeit nur auf Englisch verfügbar)
-* https://www.w3.org/TR/pointerevents/[Spezifikation PointerEvents]
-* https://www.w3.org/TR/touch-events/[Spezifikation TouchEvents]
-* https://www.w3.org/TR/uievents/[Spezifikation UIEvents]
