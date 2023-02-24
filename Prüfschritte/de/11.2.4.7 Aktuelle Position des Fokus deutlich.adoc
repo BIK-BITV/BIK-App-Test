@@ -16,7 +16,12 @@ Für Tastaturbenutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus gera
 
 Wenn Apps allein durch die Tastatur bedient werden, muss das fokussierte Bedienelement für den Nutzende deutlich hervorgehoben sein. Eine Tastaturbedienung ist für visuelle Nutzer sonst kaum möglich.
 
-Die von mobilen Betriebssystemen vorgesehene Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar. Ausgewählte Elemente werden z.B. blass hellgrau hinterlegt. Dabei sollte der Kontrast zum nichtaktivierten Zustand des Elements mindestens 3:1 betragen. Die schlechte native Fokushervorhebung sollte durch eine entsprechende Gestaltung des Fokusindikators korrigiert werden.
+Die von mobilen Betriebssystemen vorgesehene Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar:
+
+* iOS: Die Standard-Hervorhebung von über Tabulator erreichbaren Bereichen ist recht gut (deutlicher blauer Rahmen), bei über Pfeiltasten erreichbaren Einträgen innerhalb fokussierter Bereiche ist die Hervorhebung aber schlecht: hellblau auf weiß mit einem sehr geringen Kontrast von nur 1,2:1. (Nach Auswahl von "Kontrast erhöhen" in den iOS Bedienungshifen verbesert sich der Kontrast nur sehr geringfügig auf 1,3:1.)
+* Android: Die Standard-Hervrhebung ist hellgrau auf weiß  mit einem sehr geringen Kontrast von nur 1,2:1.
+
+Der Kontrast zum nichtaktivierten Zustand des Elements mindestens 3:1 betragen. Die schlechte native Fokushervorhebung sollte durch eine entsprechende Gestaltung des Fokusindikators korrigiert werden.
 
 == Wie wird geprüft?
 
