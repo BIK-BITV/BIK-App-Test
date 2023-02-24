@@ -63,6 +63,14 @@ Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, 
 
 * Für Datentabellen wird keine Tabellensemantik verwendet.
 
+== Quellen
+=== iOS
+* iOS / iPadOS: https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
+  UIAccessibilityContainerDataTable]
+  
+=== Android
+* Android: https://developers.google.com/chart/interactive/docs/datatables_dataviews[DataTables und DataViews] (developers.google.com)
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -86,11 +94,3 @@ Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, 
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[G140: Separating
   information and structure from presentation to enable different presentations]
 
-== Quellen
-
-
-=== Informationen für Entwickler
-
-* iOS / iPadOS: https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
-  UIAccessibilityContainerDataTable]
-* Android: https://developers.google.com/chart/interactive/docs/datatables_dataviews[DataTables und DataViews] (developers.google.com)
