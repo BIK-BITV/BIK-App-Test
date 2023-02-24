@@ -56,15 +56,6 @@ wird die entsprechende Überschriftenebene ausgegeben. Die Hierarchie der Übers
 
 * Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein WebView, der auf HTML basiert. Überschriften sollten dann korrekt geschachtelt sein (`h1` gefolgt von `h2` gefolgt von `h3`, und so weiter), um die Gliederung der Inhalte abzubilden. Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
 
-==== 3.1. Hinweise für Entwicklungs-Teams:
-
-
-
-* Für nativen Apps unter Android das Attribut
-https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[
-`"android:accessibilityHeading"`] für UI-Elemente auf `true` setzen, um ein
-Element als Überschrift auszuzeichnen.
-
 === 4. Bewertung
 
 ==== Erfüllt:
@@ -88,11 +79,8 @@ Element als Überschrift auszuzeichnen.
 * Apple Developer Documentation: https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[Hierarchische Überschriften in iOS]
 
 === Android
-* Android Developer: https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[
-`"android:accessibilityHeading"` für UI-Elemente
-* Android Developer:
-  https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[
-  Headings within text]
+* Android Developer: https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[`android:accessibilityHeading` für UI-Elemente]
+* Android Developer: https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[Headings within text]
 
 === Allgemeine Quellen (WCAG)
 ==== Überschriften richtig schachteln
