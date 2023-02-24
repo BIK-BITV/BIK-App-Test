@@ -78,7 +78,7 @@ nicht erfüllt bis nicht erfüllt in Betracht.
 
 == Einordnung des Prüfschritts
 
-=== Abgrenzung zu anderen Prüfkriterien
+=== Abgrenzung zu anderen Prüfschritten
 
 ==== Live-Videos
 
