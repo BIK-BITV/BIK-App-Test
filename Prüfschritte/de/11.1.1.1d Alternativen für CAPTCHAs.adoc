@@ -68,6 +68,19 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 geprüft.
 
+== Quellen
+
+=== EN 301 549 V.3.2.1 Text
+
+==== 11.1.1.1.1 Non-text content (open functionality)
+
+* NOTE: CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.
+
+=== Allgemeine Quellen
+
+* http://www.karlgroves.com/2012/04/03/captcha-less-security/[CAPTCHA-less
+  Security by Karl Groves, 2012]
+
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
@@ -98,15 +111,3 @@ geprüft.
   Criterion 1.1.1 due to omitting the alt attribute on img elements, area
   elements, and input elements of type 'image']
 
-== Quellen
-
-=== EN 301 549 V.3.2.1 Text
-
-==== 11.1.1.1.1 Non-text content (open functionality)
-
-* NOTE: CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.
-
-=== Andere Quellen
-
-* http://www.karlgroves.com/2012/04/03/captcha-less-security/[CAPTCHA-less
-  Security by Karl Groves, 2012]
