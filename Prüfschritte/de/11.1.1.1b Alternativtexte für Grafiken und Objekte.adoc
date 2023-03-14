@@ -8,7 +8,7 @@ include::include/attributes.adoc[]
 
 Informative Grafiken und Bilder müssen Textalternativen haben. Die Textalternativen ersetzen das Bild, sie sollen (soweit wie möglich) die gleiche Information vermitteln wie das Bild.
 
-Bei eingebundenen Multimedia-Objekten, Video- beziehungsweise Audio-Dateien soll die Textalternative zumindest eine beschreibende Identifizierung des Inhalts ermöglichen.
+Bei eingebundenen Multimedia-Objekten (z.B Video- oder Audio-Dateien) soll die Textalternative zumindest eine beschreibende Identifizierung des Inhalts ermöglichen.
 
 == Warum wird das geprüft?
 
