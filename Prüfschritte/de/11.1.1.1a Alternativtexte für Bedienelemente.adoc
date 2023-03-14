@@ -63,7 +63,6 @@ Generell gilt:
 Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:    
 
 - iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
-- iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern.
 
 === 4. Bewertung
 
