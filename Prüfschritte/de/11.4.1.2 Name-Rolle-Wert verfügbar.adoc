@@ -40,7 +40,7 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 === 3. Hinweise
 Der Name identifiziert und bezeichnet ein Element näher. Nutzende von Spracheingabe-Software können beispielsweise eine Schaltfläche mit Hilfe des zugänglichen Namens (der Beschriftung) gezielt ansprechen und bedienen. Ein Screenreader gibt den zugänglichen Namen aus, wenn er das Element fokussiert. Er ist meist gleichlautend mit dem Label des Bedienelements. Z. B. "Nachname" für ein Eingabefeld.
 
-Beispiele für Rollen sind u.a. "Taste" bzw. "Schaltfläche", "Eingabefeld" bzw. "Bearbeitungsfeld", "Suchfeld", "Ausklappliste", und "Markierungsfeld" bzw. "Kästchen".
+Beispiele für Rollen sind u.a. "Taste" bzw. "Schalter" oder "Schaltfläche", "Eingabefeld" bzw. "Bearbeitungsfeld", "Suchfeld", "Ausklappliste", und "Markierungsfeld" bzw. "Kästchen".
 
 Der Wert beschreibt z. B. den Inhalt des Bedienelements z. B. "Müller" bei einem Eingabefeld für Nachnamen. Er vermittelt aber auch den Zustand eines Elements (sofern es unterschiedliche Zustände haben kann), z. B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
 
