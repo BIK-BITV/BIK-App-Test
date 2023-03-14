@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Grafische Bedienelemente müssen Textalternativen haben. Textalternativen für grafische Schaltflächen oder Teaserbilder mit hinterlegter Aktion oder Ziel sollen Aktion bzw. Ziel bezeichnen.
+Grafische Bedienelemente müssen Textalternativen haben. Textalternativen für interaktive Schaltflächen oder Teaserbilder sollen deren Aktion bzw. Ziel bezeichnen.
 
 == Warum wird das geprüft?
 
