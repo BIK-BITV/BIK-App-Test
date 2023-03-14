@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.* 
+
 == Was wird geprüft?
 
 Alle Bedienelemente einer App (also etwa Tasten, oder Formularelemente wie Checkboxen oder Eingabefelder) müssen semantische Informationen (Name, Rolle, Wert) programmatisch bereitstellen. Dies ermöglicht Hilfsmitteln wie Screenreadern, die Bedeutung und Funktion der Elemente zu kommunizieren. Nutzende können auf diese Weise die Elemente verstehen und bedienen. Bei nativen Elementen, also solchen, die mit den Standardelementen der Entwicklungsumgebungen umgesetzt sind, ist dies in der Regel ohne weiteres Zutun gegeben. 
