@@ -62,7 +62,7 @@ Generell gilt:
 ==== Einstellungen für die Prüfung mit VoiceOver / iOS
 Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:    
 
-- iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
+- iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt). Hier Bildbeschreibungen, Bildschirmerkennnung und Texterkennung ausstellen.
 
 === 4. Bewertung
 
