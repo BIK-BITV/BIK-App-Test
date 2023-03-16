@@ -65,6 +65,7 @@ kann, dass sich die Software auf jeder Plattform exakt gleich verhält.
 === Allgemein
 * WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[Understanding Success Criterion 2.5.1: Pointer Gestures]
   (zur Zeit nur auf Englisch verfügbar)
+* Apppt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-5-1#provide-alternatives-for-gestures[Pointer Gestures: Provide altenatives for gestures] (mehrere Entwicklungsumgebungen)
   
 === iOS
 * Appt.org: https://appt.org/en/docs/ios/samples/input-gestures[Input gestures on iOS]
