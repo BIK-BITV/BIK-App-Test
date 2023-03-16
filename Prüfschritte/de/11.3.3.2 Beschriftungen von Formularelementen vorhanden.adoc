@@ -83,6 +83,10 @@ einzelnen Eingabefeld.
 
 * Beschriftungen werden nur als Formularfeld-Vorbelegung bereitgestellt.
 
+== Quellen
+=== Android
+* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/android/development/form/[Android develop - Input screen: Explicitly label input fields]
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
