@@ -2,8 +2,9 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Was wird geprüft?
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
+== Was wird geprüft?
 Wenn die Tonspur eines aufgezeichneten Videos Informationen enthält, müssen Untertitel als Alternative bereitgestellt werden.
 
 == Warum wird das geprüft?
@@ -69,6 +70,9 @@ nicht erfüllt bis nicht erfüllt in Betracht.
 * Aufgezeichnete Videos sind ohne Untertitel, eine Textalternative ist ebenfalls nicht verhanden.
 
 == Quellen
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded[Understanding SC 1.2.2 Captions (Prerecorded)]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-2-2#add-captions[Captions (Prerecorded): Add captions] (mehrere Entwicklungsumgebungen)
 
 === iOS
 * Appt.org: https://appt.org/en/docs/ios/samples/captions[Captions on iOS]
