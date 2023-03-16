@@ -63,11 +63,11 @@ kann, dass sich die Software auf jeder Plattform exakt gleich verhält.
 
 == Quellen
 === Allgemein
-* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[
-  Understanding Success Criterion 2.5.1: Pointer Gestures]
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[Understanding Success Criterion 2.5.1: Pointer Gestures]
   (zur Zeit nur auf Englisch verfügbar)
   
 === iOS
+* Appt.org: https://appt.org/en/docs/ios/samples/input-gestures[Input gestures on iOS]
 
 === Android 
 * Appt.org: https://appt.org/en/docs/android/samples/input-gestures[Input gestures on Android]
