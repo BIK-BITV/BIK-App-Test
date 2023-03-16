@@ -20,7 +20,7 @@ Native Inhalte von Apps fallen nicht unter diese Anforderung. Sie wäre anwendba
 
 == Warum wird das geprüft?
 
-Es wird inhaltlich nicht geprüft. Die Prüfung der zugrundeliegenden Erfolgskriteriums selbst wird nicht länger als sinnvoll erachtet, da die modernen, in Webviews transparent genutzten User Agents (Browser) Syntax-Fehler auf einheitliche Weise automatisch korrigieren und Probleme, die Verletzungen des HTML Content Models auftreten, in anderen Prüfschritten identifiziert und bewertet werden können. Eine praktische Prüfung ist im Kontexts nativer Apps nicht möglich, es sei denn, die HTML-Quellen von Webviews wären dokumentiert würden außerhalb der App in einem Verfahren für Web-Zugänglichkeit geprüft. 
+Es findet keine inhaltliche Prüfung statt. Die Prüfung der zugrundeliegenden Erfolgskriteriums selbst wird nicht länger als sinnvoll erachtet, da die modernen, in Webviews transparent genutzten User Agents (Browser) Syntax-Fehler auf einheitliche Weise automatisch korrigieren und Probleme, die Verletzungen des HTML Content Models auftreten, in anderen Prüfschritten identifiziert und bewertet werden können. Eine praktische Prüfung ist im Kontexts nativer Apps wegen fehlendem Quelltextzugang nicht möglich, es sei denn, die HTML-Quellen von Webviews wären dokumentiert und würden außerhalb der App in einem Verfahren für Web-Zugänglichkeit geprüft. 
 
 == Wie wird geprüft?
 
