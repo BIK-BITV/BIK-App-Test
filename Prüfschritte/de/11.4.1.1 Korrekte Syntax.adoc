@@ -16,11 +16,11 @@ Das veraltete Erfolgskriterium hinter diesem Prüfschritt verlangte, dass Inhalt
 * sie enthalten keine doppelten Attribute
 * alle ihre IDs sind eindeutig, außer dort wo die Spezifikationen etwas anderes erlauben
 
-Native Inhalte von Apps fallen nicht unter diese Anforderung. Sie wäre anwendbar auf Inhalte in Webviews, ist dort aber in der Regel nicht überprüfbar. Die Anforderung wird außerdem heute als grundsätzlich erfüllt betrachtet, da moderne User Agents auf einheitliche Weise Codierungsfehler des Quellcodes korrigieren, so dass bei Fehlern bezüglich der genannten Anforderungen keine Barrieren entstehen.
+Native Inhalte von Apps fallen nicht unter diese Anforderung. Sie wäre anwendbar auf Inhalte in Webviews, ist dort aber in der Regel nicht überprüfbar. 
 
 == Warum wird das geprüft?
 
-Es wird inhaltlich nicht geprüft. Die Prüfung der zugrundeliegenden Erfolgskriteriums selbst wird nicht länger als sinnvoll erachtet, da die modernen, in Webviews transparent genutzten User Agents (Browser) Syntax-Fehler automatisch korrigieren und Probleme, die Verletzungen des HTML Content Models auftreten, in anderen Prüfschritten identifiziert und bewertet werden können. Eine praktische Prüfung ist im Kontexts nativer Apps nicht möglich, es sei denn, die HTML-Quellen von Webviews wären dokumentiert würden außerhalb der App in einem Verfahren für Web-Zugänglichkeit geprüft. 
+Es wird inhaltlich nicht geprüft. Die Prüfung der zugrundeliegenden Erfolgskriteriums selbst wird nicht länger als sinnvoll erachtet, da die modernen, in Webviews transparent genutzten User Agents (Browser) Syntax-Fehler auf einheitliche Weise automatisch korrigieren und Probleme, die Verletzungen des HTML Content Models auftreten, in anderen Prüfschritten identifiziert und bewertet werden können. Eine praktische Prüfung ist im Kontexts nativer Apps nicht möglich, es sei denn, die HTML-Quellen von Webviews wären dokumentiert würden außerhalb der App in einem Verfahren für Web-Zugänglichkeit geprüft. 
 
 == Wie wird geprüft?
 
