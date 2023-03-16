@@ -66,6 +66,10 @@ Der Prüfschritt ist anwendbar, wenn die Ansicht Formulare enthält, welche bei 
   erneut ausgefüllt werden.
 Ausnahme: Das Löschen bereits gemachter Eingaben ist sinnvoll bei
   sicherheitsrelevanten Daten wie Passwörtern oder Benutzernamen.
+  
+== Quellen
+=== Allgemein
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-3-3-1#show-errors[Error Identification: Show errors] <(mehrere Entwicklungsumgebungen)
 
 ==  Einordnung des Prüfschritts
 
