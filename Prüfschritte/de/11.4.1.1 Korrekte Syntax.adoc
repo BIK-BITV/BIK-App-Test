@@ -25,15 +25,14 @@ Es findet keine inhaltliche Prüfung statt. Die Prüfung der zugrundeliegenden E
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts:
-Der Prüfschritt ist prinzipiell nur anwendbar, wenn die App Inhlate in Markup-Sprachen (Webviews) enthält.
+Der Prüfschritt ist prinzipiell nur anwendbar, wenn die App Inhalte in Markup-Sprachen (in der Regel in Webviews) enthält.
 
 === Prüfung
-Es wird lediglich geprüft, ob die App Webviews enthält. Ist das der Fall, ist der Prüfschritt erfüllt.
-Sind keine Webviews vorhansden, ist der Prüfschritt nicht anwendbar.
+Es wird lediglich geprüft, ob die App Webviews enthält. Ist das der Fall, ist der Prüfschritt erfüllt. Sind keine Webviews vorhanden, ist der Prüfschritt nicht anwendbar.
 
 === Hinweise
 
-* Wenn nicht eindeutig festzustellen ist, ob de iApp Webviews enthäht, sollte der Prüfschritt mit "nicht anwendbar" bewertet werden.
+* Wenn nicht eindeutig festzustellen ist, ob die App Webviews enthäht, sollte der Prüfschritt mit "nicht anwendbar" bewertet werden.
 
 === Bewertung
 
@@ -41,8 +40,7 @@ Sind keine Webviews vorhansden, ist der Prüfschritt nicht anwendbar.
 * Die App enthält Webviews. Der Prüfschritt ist dann immer erfüllt.
 
 ==== Nicht anwendbar:
-* Die App enthält keine Webviews (Inhalte in Markup-Sprachen).
-
+* Die App enthält keine Webviews (Inhalte in Markup-Sprachen wie HTML).
 
 == Einordnung des Prüfschritts
 
