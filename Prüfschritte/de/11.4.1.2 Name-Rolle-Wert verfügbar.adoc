@@ -67,7 +67,7 @@ Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom
 * Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-4-1-2#set-accessibility-state[Set accessibility state] (mehrere Entwicklungsumgebungen)
 
 === iOS
-* https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits[UIAccessibilityTraits]
+* Apple Developer UIKit: https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits[UIAccessibilityTraits]
 * https://developer.apple.com/documentation/swiftui/accessibilitytraits[AccessibilityTraits]
 
 ==== Android
