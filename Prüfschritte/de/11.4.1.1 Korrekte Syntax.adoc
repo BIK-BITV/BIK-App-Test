@@ -42,6 +42,10 @@ Wenn nicht eindeutig festzustellen ist, ob die App Webviews enthält, sollte der
 ==== Nicht anwendbar:
 * Die App enthält keine Webviews (Inhalte in Markup-Sprachen wie HTML).
 
+== Quellen
+=== Allgemein
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-4-1-1[Parsing: Make use of linting] (mehrere Entwicklungsumgebungen)
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
