@@ -9,7 +9,7 @@ Es wird nur geprüft, ob die App über Markup-Sprachen umgesetzte Inhalte enthä
 
 Eine inhaltliche Prüfung findet nicht statt.
 
-Die veraltete Anforderung verlangte, dass Inhalte, die über Markup-Sprachen umgesetzt werden, folgende Anforderungen erfüllen:
+Das veraltete Erfolgskriterium hinter diesem Prüfschritt verlangte, dass Inhalte, die über Markup-Sprachen umgesetzt werden, folgende Anforderungen erfüllen:
 
 * sie besitzen vollständige Start- und Endtags
 * sie sind gemäß Spezifikation korrekt verschachtelt
