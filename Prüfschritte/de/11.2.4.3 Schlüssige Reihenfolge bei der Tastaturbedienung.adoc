@@ -73,6 +73,11 @@ Die Assistenz braucht bei Prüfung an zwei Orten ein zweites, möglichst gleiche
 * Der Tastatur-Fokus wird nicht auf eingeblendete dynamische Inhalte (Dialoge, Popover, Menüs) versetzt, sondern wandert durch den abgedeckten Hintergrund der Ansicht
   
 == Quellen
+=== Allgemein
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-4-3#move-accessibility-focus[Move accessibility focus]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-4-3#adjust-order-for-keyboard[Adjust order for keyboard] (Mehrere Entwicklungsumgebungen)
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-4-3#adjust-order-for-assistive-technologies[Adjust order for assistive technologies] (Mehrere Entwicklungsumgebungen)
+
 === iOS
 * Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#focus-an-element[iOS developer guide - focus an element] - Code-Beispiele
 * Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#focus-an-element[Modify the focus area of VoiceOver] - Code-Beispiele
