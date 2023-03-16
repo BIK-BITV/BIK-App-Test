@@ -20,7 +20,7 @@ Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt werden können, we
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn informative Grafiken oder, Bilder, Video- oder Audio-Dateien oder Multimedia-Objekte vorhanden sind.
+Der Prüfschritt ist anwendbar, wenn informative Grafiken, Bilder, Video- / Audio-Dateien oder andere informative Multimedia-Objekte vorhanden sind.
 
 Als informative Grafiken gelten:
 
@@ -37,14 +37,14 @@ Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente 
 
 === 2. Prüfung
 
-Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen ausgeschaltet sein (siehe "3. Hinweise").
+Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen ausgeschaltet sein (siehe <<3. Hinweise>>).
 
 . App mit zu prüfender Ansicht starten.
 . Prüfen, ob unverlinkte Grafiken oder Multimedia-Inhalte vorhanden sind.
 . Screenreader starten und Fokus auf jede informationstragende Grafik setzen.
 . Prüfen, ob der Screenreader bei informationstragenden Grafiken einen aussagekräftigen Alternativtext ausgibt.
-. Bei komplexen Grafiken prüfen, ob der Alternativtext Inhalt knapp nennt und auf ausführliche Textalternativen im Kontext der Grafik verweist. Diese können etwa unterhalb der Grafik, in einem Ausklappbereich oder in einer verlinkten Ansicht vorgehalten werden.
-. Prüfen, ob Schmuckgrafiken Alternativtexte tragen. Bei Grenzfällen (Grafiken haben einen beschreibbaren Inhalt mit Bezug zum Thema, sind aber zum Verständnis der Inhalte nicht wichtig) können sowohl Alternativtexte als leere Alternativtexte akzeptiert werden.
+. Bei komplexen Grafiken prüfen, ob der Alternativtext den Inhalt knapp nennt und auf ausführliche Textalternativen im Kontext der Grafik verweist. Diese können etwa unterhalb der Grafik, in einem Ausklappbereich oder in einer verlinkten Ansicht vorgehalten werden.
+. Prüfen, ob Schmuckgrafiken Alternativtexte tragen. Bei Grenzfällen (Grafiken haben einen beschreibbaren Inhalt mit Bezug zum Thema, sind aber zum Verständnis der Inhalte nicht wichtig) können sowohl Alternativtexte als auch leere Alternativtexte akzeptiert werden.
 
 === 3. Hinweise
 
@@ -52,8 +52,7 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 
 Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
-* iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
-* iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern
+- iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt). Hier Bildbeschreibungen, Bildschirmerkennnung und Texterkennung deaktivieren.
 
 ==== Angemessene Alternativtexte
 
@@ -112,7 +111,7 @@ Erforderlich ist also die wechselnde Betrachtung von Grafik/Objekt und zugehöri
 
 === Abgrenzung zu anderen Prüfschritten
 
-* Textalternativen für verlinkte Grafiken (z.B. Bedienelemente oder Teaser-Bilder) werden in Prüfschritt
+* Textalternativen für verlinkte Grafiken (z.B. Bedienelemente oder Vorschaubilder) werden in Prüfschritt
 ifdef::env_embedded[11.1.1.1a "Textalternativen für Bedienelemente"]
 ifndef::env_embedded[]
   <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Textalternativen
