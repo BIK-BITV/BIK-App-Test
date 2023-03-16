@@ -62,15 +62,17 @@ kann, dass sich die Software auf jeder Plattform exakt gleich verhält.
 * Für alle in der App implementierten komplexen Gesten gibt es alternative Eingabemöglichkeiten über einfache Zeiger-Gesten in den Umgebungen, die in die Prüfung gemäß Accessibility Baseline einbezogen sind.
 
 == Quellen
-=== Android 
-
-* Appt.org: https://appt.org/en/docs/android/samples/input-gestures[Input gestures on Android]
-
-=== Allgemeine Quellen (WCAG)
-
-* https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/pointer-gestures.html[
   Understanding Success Criterion 2.5.1: Pointer Gestures]
   (zur Zeit nur auf Englisch verfügbar)
+  
+=== iOS
+
+=== Android 
+* Appt.org: https://appt.org/en/docs/android/samples/input-gestures[Input gestures on Android]
+
+
   
 == Einordnung des Prüfschritts
 
