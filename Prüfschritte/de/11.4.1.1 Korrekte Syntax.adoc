@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.* 
+
 == Was wird geprüft?
 Es wird nur geprüft, ob die App über Markup-Sprachen umgesetzten Inhalte enthält. In diesem Fall ist der Prüfschritt automatisch erfüllt. Gibt es nur native Inhalte (keine Webviews) ist der Prüfschritt nicht anwendbar.
 
