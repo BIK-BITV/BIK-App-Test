@@ -58,7 +58,7 @@ Statt Links auf Inhalte können auch andere Bedienelemente genutzt werden. Konfo
 
 == Quellen
 === Allgemein
-* WCAG 2.1 https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded[Understanding SC 1.2.1: Audio-only and Video-only (prerecorded)]
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded[Understanding SC 1.2.1: Audio-only and Video-only (prerecorded)]
 * Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-2-1[Audio-only and Video-only (Prerecorded): Add a transcript] (mehrere Entwicklungsumgebungen)
 
 == Einordnung des Prüfschritts
