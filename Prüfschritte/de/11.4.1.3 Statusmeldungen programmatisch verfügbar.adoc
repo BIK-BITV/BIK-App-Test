@@ -2,13 +2,15 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.* 
+
 == Was wird geprüft?
 
 Eine Statusmeldung ist eine Nachricht, die der Ansicht der App dynamisch hinzugefügt wird. Sie informiert Nutzenden beispielsweise über den Erfolg oder das Ergebnis einer Aktion, über den Fortschritt eines Prozesses oder über das Vorkommen von Fehlern.
 
-Wenn Apps Statusmeldungen erzeugen, sollen visuell eingeblendete Statusmeldungen mit geeigneten Rollen und Eigenschaften ausgezeichnet und programmatisch ermittelbar sein, das bedeutet die Statusmeldungen werden Nutzenden von assistiven Technologien (Screenreader) präsentiert, ohne dass sie den Fokus erhalten.
+Wenn Apps visuell eingeblendete Statusmeldungen anzeigen, sollen diese über geeignete Techniken für Nutzenden von assistiven Technologien (Screenreader) ausgegeben werden, ohne dass sie den Fokus erhalten.
 
-Geeignete Rollen und Eigenschaften sind bei nativen Anwendungen Plattformspezifisch (iOS / iPadOS / Android).
+Geeignete Rollen und Eigenschaften sind bei nativen Anwendungen Plattform-spezifisch (iOS / iPadOS / Android).
 
 Beispiele für Statusmeldungen:
 
