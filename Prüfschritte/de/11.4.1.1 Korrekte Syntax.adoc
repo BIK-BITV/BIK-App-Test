@@ -28,7 +28,7 @@ Es findet keine inhaltliche Prüfung statt. Die Prüfung der zugrundeliegenden E
 Der Prüfschritt ist prinzipiell nur anwendbar, wenn die App Inhalte in Markup-Sprachen (in der Regel in Webviews) enthält.
 
 === Prüfung
-Es wird lediglich geprüft, ob die App Webviews enthält. Ist das der Fall, ist der Prüfschritt erfüllt. Sind keine Webviews vorhanden, ist der Prüfschritt nicht anwendbar.
+Es wird lediglich geprüft, ob die App Webviews enthält. Ein Anzeichen dafür ist die Ausgabe "Webview" bei Fokussierung des Webviews sein, ebenso die Ausgabe von Elementen, die in nativen Apps in de Regel nicht vorkommen, z.B. Überschriften auf verschiedenen Ebenen. 
 
 === Hinweise
 
