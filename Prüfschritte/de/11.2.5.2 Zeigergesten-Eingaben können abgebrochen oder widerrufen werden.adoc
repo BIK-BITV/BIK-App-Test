@@ -57,7 +57,7 @@ Es ist in der Regel nicht notwendig (und wäre bei umfangreichen Ansichten sehr 
 == Quellen
 === Allgemein
 * WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html[Understanding SC 2.5.2 Pointer Cancellation] (zur Zeit nur auf Englisch verfügbar)
-* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-5-2#support-input-cancellation[Pointer Cancellation: Support inout cancellation] (mehrere Entwickungsumgebungen)
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-5-2#support-input-cancellation[Pointer Cancellation: Support input cancellation] (mehrere Entwickungsumgebungen)
 * W3C: https://www.w3.org/TR/pointerevents/[Spezifikation PointerEvents]
 * W3C: https://www.w3.org/TR/touch-events/[Spezifikation TouchEvents]
 * W3C: https://www.w3.org/TR/uievents/[Spezifikation UIEvents]
