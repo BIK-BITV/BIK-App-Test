@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn die Tonspur einer Live-Übertragung Informationen enthält, müssen Untertitel als Alternative bereitgestellt werden.
@@ -46,6 +48,9 @@ geprüft.
 * Live-Übertragungen sind ohne Untertitel.
 
 == Quellen
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/captions-live[Understanding SC 1.2.4: Captions (Live)]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-2-4#add-live-captions[Captions (Live): Add live captions] (mehrere Entwicklungsumgebungen)
 
 === iOS
 * Appt.org: https://appt.org/en/docs/ios/samples/live-captions[Live captions on iOS]
