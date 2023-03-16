@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Für informationstragende visuelle Videoinhalte muss eine Audiodeskription
@@ -67,15 +69,11 @@ Deskription angehört, um stichprobenartig festzustellen, ob sie nutzbar ist.
 * Das informationstragende, visuelle Video hat keine Audiodeskription.
 
 == Quellen
-
-=== BIK für Alle: Leitfaden barrierefreie Online-Videos
-
-* http://www.bik-fuer-alle.de/audiodeskription.html[Audiodeskription]
-* https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded[Extended Audio-Deskription]
-
-=== Blogartikel von Terrill Thompson zu Audio Description (Stand 03/2017):
-
-* http://terrillthompson.com/blog/813[My Audio Description Talk @ CSUN]
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded[Understanding SC 1.2.5:Audio Description (Prerecorded)]
+* BIK für Alle: Leitfaden barrierefreie Online-Videos http://www.bik-fuer-alle.de/audiodeskription.html[Audiodeskription]
+* BIK für Alle: Leitfaden barrierefreie Online-Videos https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded[Extended Audio-Deskription]
+* Blogartikel von Terrill Thompson zu Audio Description (Stand 03/2017): http://terrillthompson.com/blog/813[My Audio Description Talk @ CSUN]
 
 == Einordnung des Prüfschritts
 
