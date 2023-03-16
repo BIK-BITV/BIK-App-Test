@@ -73,16 +73,3 @@ Wenn nicht eindeutig festzustellen ist, ob die App Webviews enthält, sollte der
   attribute markup]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F77.html[F77: Failure of
   Success Criterion 4.1.1 due to duplicate values of type ID]
-
-== Quellen
-
-[.BLOCK_LANG_EN]
-Validation will usually eliminate ambiguities (and more) because an essential
-step in validation is to check for proper use of that technology's markup (in
-a markup language) or code (in other technologies).
-Validation does not necessarily check for full conformance with a
-specification but it is the best means for automatically checking content
-against its specification.
-
-(https://www.w3.org/WAI/WCAG21/Techniques/general/G134[WCAG 2.1
-  Technik G134: Validating web pages])
