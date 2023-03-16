@@ -77,22 +77,22 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
   unbrauchbar.
   
 == Quellen
-=== Android
-
-* Appt.org: https://appt.org/en/docs/android/samples/accessibility-label[Accessibility label on Android]
-* Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/android/development/vocal-navigation/[Vocal Naviation]
-
-=== iOS
-
-* Apple Accessibility for UIKit: https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[accessibilityLabel]
-* Appt.org: https://appt.org/en/docs/ios/samples/accessibility-label[Accessibility label on iOS]
-
-=== Anleitungen zum Erstellen guter Alternativtexte
-
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/non-text-content[Understanding SC 1.1.1 Non-Text Content]
 * Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/ios/wwdc/2019/#writing-great-accessibility-labels[Writing great accessibility labels]
 * W3C Web Accessibility Tutorials:
   https://www.w3.org/WAI/tutorials/images/[Images Concepts]
 * WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
+
+=== iOS
+* Apple Accessibility for UIKit: https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[accessibilityLabel]
+* Appt.org: https://appt.org/en/docs/ios/samples/accessibility-label[Accessibility label on iOS]
+
+=== Android
+* Appt.org: https://appt.org/en/docs/android/samples/accessibility-label[Accessibility label on Android]
+* Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/android/development/vocal-navigation/[Vocal Naviation]
+
+
 
 == Einordnung des Prüfschritts
 
