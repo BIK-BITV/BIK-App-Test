@@ -82,6 +82,14 @@ endif::env_embedded[]
 
 * Der System-Fokus wird unterdrückt, bei Tastaturnutzung wird kein Fokus
   angezeigt.
+  
+== Quellen
+=== Allgemein
+
+=== iOS
+* Appt.org: https://appt.org/en/docs/ios/samples/accessibility-focus-indicator[Accessibility focus indicator on iOS]
+=== Android
+* Appt.org: https://appt.org/en/docs/android/samples/accessibility-focus-indicator[Accessibility focus indicator on Android]
 
 == Einordnung des Prüfschritts
 
