@@ -22,29 +22,20 @@ Dies erleichtert den Nutzern, Eingaben zu korrigieren.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Ansicht der Software Formulare
-enthält, welche bei inkorrektem Ausfüllen Fehlermeldungen erzeugen.
-Dies kann schon während der Eingabe oder erst nach dem Abschicken des
-Formulars geschehen.
+Der Prüfschritt ist anwendbar, wenn die Ansicht Formulare enthält, welche bei inkorrektem Ausfüllen Fehlermeldungen erzeugen. Dies kann schon während der Eingabe oder erst nach dem Abschicken des Formulars geschehen.
 
 === 2. Prüfung
 
-. Formular unvollständig oder fehlerhaft ausfüllen, etwa durch
-  das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht
+. Formular unvollständig oder fehlerhaft ausfüllen, etwa durch das Leerlassen von Pflichtfeldern oder das Eingeben syntaktisch nicht
   korrekter Email-Adressen.
-. Falls das Abschicken des Formulars eine Fehlermeldung erzeugt:
-  Prüfen, ob die betroffenen Felder identifiziert sind. Dies kann, auch abhängig von der Länge des Formulars auf verschiedene Art geschehen:
+. Falls das Abschicken des Formulars eine Fehlermeldung erzeugt: Prüfen, ob die betroffenen Felder identifiziert sind. Dies kann, auch abhängig von der Länge des Formulars auf verschiedene Art geschehen:
 
-* Bei Neuanzeige des Formulars werden am Beginn der Ansicht fehlerhaft
-  ausgefüllte Felder identifiziert.
+* Bei Neuanzeige des Formulars werden am Beginn der Ansicht fehlerhaft ausgefüllte Felder identifiziert.
 * Fehlerhaft ausgefüllte Felder werden zusätzlich deutlich hervorgehoben.
-* Die Labeltexte fehlerhaft ausgefüllter Felder ändern sich, um auf die
-  Fehler darstellungsunabhängig hinzuweisen.
-* Fehlermeldungen werden mit Hilfe von Live-Regionen oder Benachrichtigungen
-  (alertdialog) bereitgestellt.
+* Die Labeltexte fehlerhaft ausgefüllter Felder ändern sich oder werden erweitert, um auf die Fehler darstellungsunabhängig hinzuweisen.
+* Fehlermeldungen werden mit geeigneten Techniken bereitgestellt.
 
-. Prüfen, ob nach Korrektur der Eingaben und erneutem Abschicken des
-  Formulars zuvor angezeigte Fehlermeldungen verschwinden.
+. Prüfen, ob nach Korrektur der Eingaben und erneutem Abschicken des Formulars zuvor angezeigte Fehlermeldungen verschwinden.
 
 === 3. Hinweise
 
