@@ -81,6 +81,7 @@ wird die entsprechende Überschriftenebene ausgegeben. Die Hierarchie der Übers
 === Android
 * Android Developer: https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[`android:accessibilityHeading` für UI-Elemente]
 * Android Developer: https://developer.android.com/guide/topics/ui/accessibility/principles#headings_within_text[Headings within text]
+* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/android/development/vocal-navigation/#enable-header-navigation[Enable header navigation]
 
 === Allgemeine Quellen
 ==== Überschriften richtig schachteln
