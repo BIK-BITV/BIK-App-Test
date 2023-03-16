@@ -32,12 +32,12 @@ Es wird lediglich geprüft, ob die App Webviews enthält. Ist das der Fall, ist 
 
 === Hinweise
 
-* Wenn nicht eindeutig festzustellen ist, ob die App Webviews enthäht, sollte der Prüfschritt mit "nicht anwendbar" bewertet werden.
+Wenn nicht eindeutig festzustellen ist, ob die App Webviews enthält, sollte der Prüfschritt mit "nicht anwendbar" bewertet werden.
 
 === Bewertung
 
 ==== Erfüllt:
-* Die App enthält Webviews. Der Prüfschritt ist dann immer erfüllt.
+* Die App enthält Webviews. 
 
 ==== Nicht anwendbar:
 * Die App enthält keine Webviews (Inhalte in Markup-Sprachen wie HTML).
