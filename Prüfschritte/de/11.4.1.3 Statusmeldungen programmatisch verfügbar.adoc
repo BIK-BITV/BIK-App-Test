@@ -61,6 +61,13 @@ Nicht als Statusmeldung gelten:
 
 * Alle Statusmeldungen sind richtig ausgezeichnet und damit programmatisch verfügbar.
 
+== Quellen
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-4-1-3[Use Status Messages]
+
+=== iOS
+=== Android
+Use accessibility announcements#
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
