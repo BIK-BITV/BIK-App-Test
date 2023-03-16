@@ -91,21 +91,21 @@ Um die Angemessenheit der Textalternative einschätzen zu können, muss die Text
 Erforderlich ist also die wechselnde Betrachtung von Grafik/Objekt und zugehörige Textalternative.
 
 == Quellen
-=== Android
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/non-text-content[Understanding SC 1.1.1 Non-Text Content]
+* Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/ios/wwdc/2019/#writing-great-accessibility-labels[Writing great accessibility labels]
+* W3C Web Accessibility Tutorials:
+  https://www.w3.org/WAI/tutorials/images/[Images Concepts]
+* WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-1-1#set-accessibility-label[Non-text Content: Set accessibility label] (mehrere Entwicklungsumgebungen)
 
+=== Android
 * Appt.org: https://appt.org/en/docs/android/samples/accessibility-label[Accessibility label on Android]
 * Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/android/development/vocal-navigation/[Vocal Naviation]
 
 === iOS
-
 * Apple Accessibility for UIKit: https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[accessibilityLabel]
 * Appt.org: https://appt.org/en/docs/ios/samples/accessibility-label[Accessibility label on iOS]
-
-=== Anleitungen zum Erstellen guter Alternativtexte
-
-* Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/ios/wwdc/2019/#writing-great-accessibility-labels[Writing great accessibility labels]
-* W3C Web Accessibility Tutorials: https://www.w3.org/WAI/tutorials/images/[Images Concepts]
-* WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
 
 == Einordnung des Prüfschritts
 
