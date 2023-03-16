@@ -42,6 +42,10 @@ auf GitHub].
 
 * Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z. B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit beispielsweise englischer Text mit einer deutschen Stimme vorgelesen wird.
 
+== Quellen
+=== Allgemein
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-3-1-1[Set a language]
+
 ==  Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
