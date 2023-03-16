@@ -63,7 +63,7 @@ Es ist in der Regel nicht notwendig (und wäre bei umfangreichen Ansichten sehr 
 * W3C: https://www.w3.org/TR/uievents/[Spezifikation UIEvents]
 
 === iOS
-* Appt.org: https://appt.org/en/docs/ios/samples/input-cancellation[>INout cancellation on iOS]
+* Appt.org: https://appt.org/en/docs/ios/samples/input-cancellation[Input cancellation on iOS]
 
 === Android
 * Appt.org: https://appt.org/en/docs/android/samples/input-cancellation[Input cancellation on Android]
