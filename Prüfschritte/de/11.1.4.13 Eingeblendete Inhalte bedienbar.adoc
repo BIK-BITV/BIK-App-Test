@@ -76,7 +76,6 @@ Eingeblendete Inhalte schließen  selbsttätig, oder lassen sich nicht ohne Vers
 == Quellen
 === Allgemein
 * WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus[Understanding SC 1.4.13: Content on Hover or Focus] (zur Zeit nur auf Englisch verfügbar)
-* Appt.org: 
   
 == Einordnung des Prüfschritts
 
