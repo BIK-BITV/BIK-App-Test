@@ -85,7 +85,7 @@ Erfolgreiche Eingaben sollten nach dem Abschicken bestätigt werden.
   
 == Quellen
 === Allgemein
-* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-3-3-4#use-a-dialog-for-confirmation[Error Prevention (Legal, Financial, Data): Use a dialog for confirmation]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-3-3-4#use-a-dialog-for-confirmation[Error Prevention (Legal, Financial, Data): Use a dialog for confirmation] (mehrere Entwicklungsumgebungen)
 
 == Einordnung des Prüfschritts
 
