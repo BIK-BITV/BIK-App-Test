@@ -86,8 +86,8 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 * Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-1-1#set-accessibility-label[Non-text Content: Set accessibility label] (mehrere Entwicklungsumgebungen)
 
 === iOS
-* Apple Accessibility for UIKit: https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[accessibilityLabel]
 * Appt.org: https://appt.org/en/docs/ios/samples/accessibility-label[Accessibility label on iOS]
+* Apple Accessibility for UIKit: https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[accessibilityLabel]
 
 === Android
 * Appt.org: https://appt.org/en/docs/android/samples/accessibility-label[Accessibility label on Android]
