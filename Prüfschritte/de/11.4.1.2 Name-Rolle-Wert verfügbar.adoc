@@ -72,7 +72,7 @@ Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom
 
 ==== Android
 * Android Developers: https://developer.android.com/guide/topics/ui/accessibility/apps[Make apps more accessible]
-* Android Developers:https://developer.android.com/reference/android/accessibilityservice/package-summary[android.accessibilityservice]
+* Android Developers: https://developer.android.com/reference/android/accessibilityservice/package-summary[android.accessibilityservice]
 * Medium article: https://medium.com/google-developer-experts/state-descriptions-on-android-b2029283871f[State Descriptions on Android]
 * Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/android/development/vocal-navigation/#vocalize-the-state-of-the-elements[Vocalize the state of the elements]
 
