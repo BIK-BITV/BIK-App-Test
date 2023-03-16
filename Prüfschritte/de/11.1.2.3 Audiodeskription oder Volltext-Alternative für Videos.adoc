@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Für informationstragende visuelle Videoinhalte muss eine Audiodeskription oder Volltext-Alternative bereitgestellt werden.
@@ -52,30 +54,26 @@ Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichti
 
 === 4. Bewertung
 
-*Eher erfüllt:*
+==== Eher erfüllt:
 
 * Bildinhalte fehlen in der Audiodeskription bzw. der Tonspur, es gibt jedoch keine Pausen bei den sprechenden Personen, in denen die Information eingesprochen werden könnte. Hier ließe sich den Anforderung nur durch eine erweiterte Audiodeskription erfüllen, diese jedoch wird in der EN 301 549 nicht verlangt. 
 
-
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
 * Es wird keine Audiodeskription angeboten, informationstragende Bilddinhalte sind nicht vollständig in der angebotenen Volltextalternative enthalten.
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 * Das informationstragende, visuelle Video hat weder eine Audiodeskription noch
   eine Volltextalternative.
   
 == Quellen
-
-=== BIK für Alle: Leitfaden barrierefreie Online-Videos
-
-* http://www.bik-fuer-alle.de/audiodeskription.html[Audiodeskription]
-* https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded[Extended Audio-Deskription]
-
-=== Blogartikel von Terrill Thompson zu Audio Description (Stand 03/2017):
-
-* http://terrillthompson.com/blog/813[My Audio Description Talk @ CSUN]
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded[Understanding SC 1.2.3: Audio Description or Media Alternative (Prerecorded)]
+* BIK für Alle: Leitfaden barrierefreie Online-Videos http://www.bik-fuer-alle.de/audiodeskription.html[Audiodeskription]
+* BIK für Alle: Leitfaden barrierefreie Online-Videos https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded[Extended Audio-Deskription]
+* Blogartikel von Terrill Thompson zu Audio Description (Stand 03/2017): http://terrillthompson.com/blog/813[My Audio Description Talk @ CSUN]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-2-3#add-audio-description[Audio Description or Media Alternative (Prerecorded): Add audio description] (mehrere Umgebungen)
 
 == Einordnung des Prüfschritts
 
