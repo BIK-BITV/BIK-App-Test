@@ -69,7 +69,7 @@ Ausnahme: Das Löschen bereits gemachter Eingaben ist sinnvoll bei
   
 == Quellen
 === Allgemein
-* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-3-3-1#show-errors[Error Identification: Show errors] <(mehrere Entwicklungsumgebungen)
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-3-3-1#show-errors[Error Identification: Show errors] (mehrere Entwicklungsumgebungen)
 
 ==  Einordnung des Prüfschritts
 
