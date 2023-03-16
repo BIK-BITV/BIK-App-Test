@@ -61,6 +61,10 @@ Seitwärtsbewegungen.
 * Von der Software definierte Bewegungseingaben haben eine alternative
   Eingabemöglichkeit über zugängliche Bedienelemente oder lassen sich von
   Nutzenden wirkungsvoll deaktivieren (ggf. über Einstellungen des Betriebssystems).
+  
+== Quellen
+=== Allgemein
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-5-4[Motion Actuation: Add alternatives for motion activated actions]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
