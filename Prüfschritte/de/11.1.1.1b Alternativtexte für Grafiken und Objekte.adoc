@@ -129,9 +129,9 @@ endif::env_embedded[]
   geprüft.
 
 * CAPTCHAs werden in Prüfschritt
-ifdef::env_embedded[11.1.1.1d "Alternativen für CAPTCHAs"]
+ifdef::env_embedded[11.1.1.1c "Alternativen für CAPTCHAs"]
 ifndef::env_embedded[]
-  <<11.1.1.1d Alternativen für CAPTCHAs.adoc#,11.1.1.1d Alternativen für
+  <<11.1.1.1c Alternativen für CAPTCHAs.adoc#,11.1.1.1c Alternativen für
   CAPTCHAs>>
 endif::env_embedded[]
   geprüft.
