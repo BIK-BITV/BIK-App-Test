@@ -72,6 +72,12 @@ Eingeblendete Inhalte schließen nicht selbsttätig, lassen sich ohne Verschiebe
 ==== Nicht erfüllt:
 Eingeblendete Inhalte schließen  selbsttätig, oder lassen sich nicht ohne Verschieben des Fokus wieder schließen, oder schließen sich nach Hover-Einblendung selbsttätig bei dem Versuch, sie mit dem Zeiger zu überfahren.
 
+
+== Quellen
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus[Understanding SC 1.4.13: Content on Hover or Focus] (zur Zeit nur auf Englisch verfügbar)
+* Appt.org: 
+  
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
@@ -107,8 +113,3 @@ geprüft.
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F95[F95: Failure of
   Success Criterion 1.4.13 due to content shown on hover not being hoverable]
 
-== Quellen
-
-* https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus[
-  Understanding Success Criterion 1.4.13: Content on Hover or Focus]
-  (zur Zeit nur auf Englisch verfügbar)
