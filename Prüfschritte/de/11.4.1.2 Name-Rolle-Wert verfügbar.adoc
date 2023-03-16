@@ -117,14 +117,18 @@ endif::env_embedded[]
 
 == Quellen
 
-=== Ressourcen für Entwickler
+=== Allgemein 
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-4-1-2#set-accessibility-name[Set accessibility name] (mehrere Entwicklungsumgebungen)
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-4-1-2#set-accessibility-role[Set accessibility role] (mehrere Entwicklungsumgebungen)
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-4-1-2#set-accessibility-value[Set accessibility value] (mehrere Entwicklungsumgebungen)
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-4-1-2#set-accessibility-state[Set accessibility state] (mehrere Entwicklungsumgebungen)
 
-==== iOS Developer: ====
+=== iOS
 
 * https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits[UIAccessibilityTraits]
 * https://developer.apple.com/documentation/swiftui/accessibilitytraits[AccessibilityTraits]
 
-==== Android Developer: ====
+==== Android
 * https://developer.android.com/guide/topics/ui/accessibility/apps[Make apps more accessible]
 * https://developer.android.com/reference/android/accessibilityservice/package-summary[android.accessibilityservice]
 * https://medium.com/google-developer-experts/state-descriptions-on-android-b2029283871f[State Descriptions on Android]
