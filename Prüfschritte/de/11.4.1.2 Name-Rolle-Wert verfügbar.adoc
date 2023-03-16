@@ -68,7 +68,7 @@ Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom
 
 === iOS
 * Apple Developer UIKit: https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits[UIAccessibilityTraits]
-* https://developer.apple.com/documentation/swiftui/accessibilitytraits[AccessibilityTraits]
+* Apple Developer SwiftUI: https://developer.apple.com/documentation/swiftui/accessibilitytraits[AccessibilityTraits]
 
 ==== Android
 * Android Developers: https://developer.android.com/guide/topics/ui/accessibility/apps[Make apps more accessible]
