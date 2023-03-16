@@ -44,7 +44,7 @@ auf GitHub].
 
 == Quellen
 === Allgemein
-* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-3-1-1[Set a language]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-3-1-1[Language of Page: Set a language]
 
 ==  Einordnung des Prüfschritts
 
