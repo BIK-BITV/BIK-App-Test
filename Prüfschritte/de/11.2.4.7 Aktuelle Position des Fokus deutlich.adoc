@@ -85,9 +85,11 @@ endif::env_embedded[]
   
 == Quellen
 === Allgemein
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-4-7#add-accessibility-focus-indicator[Focus Visible: Add accessibility focus indicator]
 
 === iOS
 * Appt.org: https://appt.org/en/docs/ios/samples/accessibility-focus-indicator[Accessibility focus indicator on iOS]
+
 === Android
 * Appt.org: https://appt.org/en/docs/android/samples/accessibility-focus-indicator[Accessibility focus indicator on Android]
 
