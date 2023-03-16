@@ -3,52 +3,44 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+Es wird nur geprüft, ob die App über Markup-Sprachen umgesetzten Inhalte enthält. In diesem Fall ist der Prüfschritt automatisch erfüllt. Gibt es nur native Inhalte (keine Webviews) ist der Prüfschritt nicht anwendbar.
 
-Die verwendete Markup-Sprache, auf Webseiten bspw. HTML, muss korrekt
-eingesetzt werden.
-Dabei muss für jedes Element folgendes gewährleistet sein:
+Eine inhaltliche Prüfung findet nicht statt.
+
+Inhalte, die über Markup-Sprachen umgesetzt werden, sollen folgende Anforderungen erfüllen:
 
 * sie besitzen vollständige Start- und Endtags
 * sie sind gemäß Spezifikation korrekt verschachtelt
 * sie enthalten keine doppelten Attribute
-* alle ihre IDs sind eindeutig, außer dort wo die Spezifikationen etwas
-  anderes erlauben
+* alle ihre IDs sind eindeutig, außer dort wo die Spezifikationen etwas anderes erlauben
+
+Native Inhalte von Apps fallen nicht unter diese Anforderung. Sie wäre anwendbar auf Inhalte in Webviews, ist dort aber in der Regel nicht überprüfbar. Die Anforderung wird außerdem heute als grundsätzlich erfüllt betrachtet, da moderne User Agents auf einheitliche Weise Codierungsfehler des Quellcodes korrigieren, so dass bei Fehlern bezüglich der genannten Anforderungen keine Barrieren entstehen.
 
 == Warum wird das geprüft?
 
-Eine saubere Markup-Syntax hilft in Einzelfällen der Hilfstechnologie im
-Umgang mit der App.
+Es wird inhaltlich nicht geprüft. Die Prüfung der zugrundeliegenden Erfolgskriteriums selbst wird nicht länger als sinnvoll erachtet, da die modernen, in Webviews transparent genutzten User Agents (Browser) Syntax-Fehler automatisch korrigieren und Probleme, die Verletzungen des HTML Content Models auftreten, in anderen Prüfschritten identifiziert und bewertet werden können. Eine praktische Prüfung ist im Kontexts nativer Apps nicht möglich, es sei denn, die HTML-Quellen von Webviews wären dokumentiert würden außerhalb der App in einem Verfahren für Web-Zugänglichkeit geprüft. 
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts:
-
-Bei Anwendungssoftware muss die Software Markup-Sprachen so einsetzen, dass
-das Markup separat exponiert und für Hilfstechnologien und
-Zugänglichkeitsmerkmale der Software oder für einen vom Nutzer definierbaren
-User-Agent verfügbar ist.
-Andernfalls ist der Prüfschritt nicht anwendbar.
+Der Prüfschritt ist prinzipiell nur anwendbar, wenn die App Inhlate in Markup-Sprachen (Webviews) enthält.
 
 === Prüfung
-
-Ein genaues Prüfverfahren steht für diesen Prüfschritt noch nicht zur
-Verfügung.
-Je nach Markup-Sprache kann ggf. analog zur HTML-Prüfung ein Online-Validator
-für das entsprechende Format genutzt werden.
-
-Für Hinweise zur Prüfpraxis, können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein
-Issue anlegen].
+Es wird lediglich geprüft, ob die App Webviews enthält. Ist das der Fall, ist der Prüfschritt erfüllt.
+Sind keine Webviews vorhansden, ist der Prüfschritt nicht anwendbar.
 
 === Hinweise
 
-* Wenn die Prüfung aufgrund einer fehlenden doctype-Definition nicht
-  ausgeführt werden kann, dann validiert die App nicht, der Prüfschritt ist
-  dann nicht bestanden. Der doctype soll nicht manuell eingetragen werden!
+* Wenn nicht eindeutig festzustellen ist, ob de iApp Webviews enthäht, sollte der Prüfschritt mit "nicht anwendbar" bewertet werden.
 
 === Bewertung
 
-Noch nicht festgelegt.
-Mehrheitlich für Apps wahrscheinlich nicht anwendbar.
+==== Erfüllt:
+* Die App enthält Webviews. Der Prüfschritt ist dann immer erfüllt.
+
+==== Nicht anwendbar:
+* Die App enthält keine Webviews (Inhalte in Markup-Sprachen).
+
 
 == Einordnung des Prüfschritts
 
