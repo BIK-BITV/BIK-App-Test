@@ -12,7 +12,7 @@ Mindestens eine CAPTCHA-Alternative für ein bildbasiertes CAPTCHA muss vorhande
 
 == Warum wird das geprüft?
 
-In bildbasierten CAPTCHAs werden Bilder von Zeichenfolgen eingesetzt, welche Nutzende als Text eingeben müssen, um bestimmte Bereiche der App zu erreichen.
+In bildbasierten CAPTCHAs werden z.B. Bilder von Zeichenfolgen eingesetzt, welche Nutzende als Text eingeben müssen, um bestimmte Bereiche der App zu erreichen.
 Für blinde und sehbehinderte Nutzende sind solche CAPTCHAs nicht zugänglich. Deswegen müssen Alternativen angeboten werden.
 
 == Wie wird geprüft?
@@ -28,7 +28,7 @@ Die Leserlichkeit der Zeichenfolge in einem bildbasierten CAPTCHA ist nicht Teil
 ==== 2.1 Prüfung der Alternativtexte von CAPTCHA-Bildern
 
 . App mit zu prüfender Ansicht starten.
-. Prüfen ob CAPTCHAs eingesetzt werden.
+. Prüfen ob bildbasierte CAPTCHAs eingesetzt werden.
 . Screenreader starten und Fokus auf das CAPTCHA setzen.
 . Prüfen, ob eine Textalternative vom Screenreader ausgegeben wird und der dort hinterlegte Alternativtext den Zweck des
   CAPTCHAs beschreibt (zum Beispiel: "Geben sie die im Bild dargestellte Zeichenfolge ein").
