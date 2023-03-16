@@ -83,6 +83,7 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 * W3C Web Accessibility Tutorials:
   https://www.w3.org/WAI/tutorials/images/[Images Concepts]
 * WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-1-1#set-accessibility-label[Non-text Content: Set accessibility label] (mehrere Entwicklungsumgebungen)
 
 === iOS
 * Apple Accessibility for UIKit: https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[accessibilityLabel]
