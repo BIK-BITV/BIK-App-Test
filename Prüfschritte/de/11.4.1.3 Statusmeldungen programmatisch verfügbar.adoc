@@ -63,7 +63,7 @@ Nicht als Statusmeldung gelten:
 
 == Quellen
 
-=== Technische Umsetzung allgemein
+=== WCAG und technische Umsetzung allgemein
 * WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html[Understanding Success Criterion 4.1.3 Status Messages] (zur Zeit nur auf Englisch verfügbar)
 * WCAG 2.1, Definition einer Statusmeldung: https://www.w3.org/TR/WCAG/#dfn-status-messages[Status Message]
 * Appt.org (Mehrere Entwicklungsumgebungen): https://appt.org/en/guidelines/wcag/success-criterion-4-1-3[Use Status Messages]
