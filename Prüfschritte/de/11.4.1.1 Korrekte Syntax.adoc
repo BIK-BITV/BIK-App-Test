@@ -16,7 +16,7 @@ Das veraltete Erfolgskriterium hinter diesem Prüfschritt verlangte, dass Inhalt
 * sie enthalten keine doppelten Attribute
 * alle ihre IDs sind eindeutig, außer dort wo die Spezifikationen etwas anderes erlauben
 
-Native Inhalte von Apps fallen nicht unter diese Anforderung. Sie wäre anwendbar auf Inhalte in Webviews, ist dort aber in der Regel nicht überprüfbar. 
+Native Inhalte von Apps fallen nicht unter diese Anforderung. Sie wäre prinzipiell anwendbar auf Inhalte in Webviews innerhalb nativer Apps, ist dort aber in der Regel nicht überprüfbar. 
 
 == Warum wird das geprüft?
 
