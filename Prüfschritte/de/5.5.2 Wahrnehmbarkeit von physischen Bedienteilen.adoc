@@ -1,0 +1,56 @@
+= 5.5.2 Wahrnehmbarkeit von physischen Bedienteilen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+*Achtung: Dieser Prüfschritt ist im Regelfall nicht für mobile Apps anwendbar.*
+
+== Was wird geprüft?
+
+Wenn die IKT physisch bedienbare Teile hat, müssen die physisch bedienbaren Elemente als solche erkennbar sein, ohne dass Sehvermögen zwingend erforderlich ist.
+Um das physische Bedienelement als solches zu erkennen, darf es außerdem nicht erforderlich sein, dass Element auszulösen bzw. zu bedienen.
+
+== Warum wird das geprüft?
+
+Physische Bedienelemente eines Informations- und Kommunikationssystems sollen auch durch Menschen mit Sehbehinderung als solche erkennbar sein.
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist für die Prüfung von mobilen Apps für iOS und Android im Regelfall nicht anwendbar.
+Ist die zu prüfende App für die Nutzung zusammen mit physischem Spezialzubehör gedacht, findet der Prüfschritt jedoch ggf. Anwendung.
+
+=== 2. Prüfung
+
+=== 3. Hinweise
+
+Eine Möglichkeit, diese Anforderung zu erfüllen, besteht darin, die physisch bedienbaren Teile taktil wahrnehmbar zu machen.
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
+
+Kriterium 5.5.2 Operable parts discernibility
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 5.5.2 Operable parts discernibility
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT has operable parts, it shall provide a means to discern each operable part, without requiring vision and without performing the action associated with the operable part.
+
+NOTE:
+One way of meeting this requirement is by making the operable parts tactilely discernible.
+--
+____
+
+(Aus EN 301 549 V3.2.1 Abschnitt 5.5.2 Operable parts discernibility)
