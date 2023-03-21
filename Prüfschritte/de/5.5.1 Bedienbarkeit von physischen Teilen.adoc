@@ -1,0 +1,50 @@
+= 5.5.1 Bedienbarkeit von physischen Teilen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+*Achtung: Dieser Prüfschritt ist im Regelfall nicht für mobile Apps anwendbar.*
+
+== Was wird geprüft?
+
+Wenn die ICT bedienbare Teile hat, die ein Greifen, Einklemmen oder Verdrehen des Handgelenks erfordern, muss eine zugängliche alternative Bedienmöglichkeit zur Verfügung gestellt werden, die diese Handlungen nicht erfordert.
+
+== Warum wird das geprüft?
+
+Menschen mit motorischen Einschränkungen sollen physische Informations- und Kommunikationssysteme selbstständig nutzen können.
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist für die Prüfung von mobilen Apps für iOS und Android im Regelfall nicht anwendbar.
+Ist die zu prüfende App für die Nutzung zusammen mit physischem Spezialzubehör gedacht, findet der Prüfschritt jedoch ggf. Anwendung.
+
+=== 2. Prüfung
+
+=== 3. Hinweise
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
+
+Kriterium 5.5.1 Means of operation
+
+== Quellen
+
+[.BLOCK_LANG_EN]
+=== 5.5.1 Means of operation
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT has operable parts that require grasping, pinching, or twisting of the wrist to operate, an accessible alternative means of operation that does not require these actions shall be provided.
+--
+____
+
+(Aus EN 301 549 V3.2.1 Abschnitt 5.5.1 Means of operation)
