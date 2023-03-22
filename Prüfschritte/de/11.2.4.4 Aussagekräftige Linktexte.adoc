@@ -50,7 +50,7 @@ App-Ansicht öffnen. Da visuell nicht offensichtlich ist, ob Bedienelemente als 
 ===== Prüfung der Aussagekraft
  
 . Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
-. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z. B. "mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der  folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
+. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z.B. "mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der  folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
 +
   * durch einen verständlichen Link am Beginn der Software-Ansicht, der Linktexte auf der Seite erweitert
   * durch den Alternativtext einer verlinkten Grafik, entsprechend Software mit Screenreader testen

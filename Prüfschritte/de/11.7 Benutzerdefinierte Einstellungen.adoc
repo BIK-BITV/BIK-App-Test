@@ -15,7 +15,7 @@ Die App soll Systemweite Einstellungen berücksichtigen.
 Im Einzelnen sind dies:
 
 * Messeinheiten
-* Farben (z. B. Darkmode)
+* Farben (z.B. Darkmode)
 * Kontraste
 * Schriftarten
 * Schriftgrößen

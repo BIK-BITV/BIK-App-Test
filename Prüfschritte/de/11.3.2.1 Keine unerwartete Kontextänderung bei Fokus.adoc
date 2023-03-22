@@ -14,13 +14,13 @@ einer unerwarteten Kontextänderung führen.
 
 Einige zusammengesetzte Dokumente und ihre User-Agents bieten je nach dem, mit
 welchem Teil des zusammengesetzten Dokuments interagiert wird, erheblich
-unterschiedliche Anzeige- und Bearbeitungsfunktionen (z. B. eine Präsentation
+unterschiedliche Anzeige- und Bearbeitungsfunktionen (z.B. eine Präsentation
 mit einer eingebetteten Tabelle, in der sich die Menüs und Symbolleisten des
 Programms ändern je nachdem, ob der Benutzer mit dem Präsentationsinhalt
 oder dem eingebetteten Tabellenkalkulationsinhalt interagiert).
 Wenn der Benutzer einen anderen Mechanismus als die Fokussierung auf den Teil
 des zusammengesetzten Dokuments verwendet, mit dem er interagieren möchte
-(z. B. durch eine Menüauswahl oder eine spezielle Tastaturgeste), unterliegt
+(z.B. durch eine Menüauswahl oder eine spezielle Tastaturgeste), unterliegt
 eine resultierende Änderung des Kontexts nicht diesem Erfolgskriterium,
 da dies nicht durch einen Fokuswechsel verursacht wurde.
 

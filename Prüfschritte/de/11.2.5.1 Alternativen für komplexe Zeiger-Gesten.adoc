@@ -41,7 +41,7 @@ Der Prüfschritt ist anwendbar, wenn die App Eventhandler implementiert, die auf
 === 2. Prüfung
 
 . App mit zu prüfender Ansicht öffnen
-. Sichtprüfung und Ausprobieren, ob Inhalte komplexe Gesten implementieren (z. B. auf Karussels, Slidern), lassen sich Slider durch Streichgesten bewegen, Werden durch Streichgesten vom Rand her Menüs oder andere Inhalte eingeblendet, Reagieren bestimmte Elemente (etwa Karten) auf die Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
+. Sichtprüfung und Ausprobieren, ob Inhalte komplexe Gesten implementieren (z.B. auf Karussels, Slidern), lassen sich Slider durch Streichgesten bewegen, Werden durch Streichgesten vom Rand her Menüs oder andere Inhalte eingeblendet, Reagieren bestimmte Elemente (etwa Karten) auf die Zwei-Finger-Spreizgeste zum Ändern des Zoomfaktors?
 . Prüfen, ob die über komplexe Zeigergesten auslösbare Funktion auch über einfache Zeiger-Gesten wie Tippen, Doppeltippen oder Tippen-und-Halten ausgelöst werden kann, etwa durch Aktivierung von alternativen statischen Elementen (z.B. Tasten, die Slider bewegen, Werte erhöhen oder verringern, oder Menüs einblenden)
 
 === 3. Hinweise

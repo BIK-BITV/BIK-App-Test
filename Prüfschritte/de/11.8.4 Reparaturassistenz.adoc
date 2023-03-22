@@ -15,11 +15,11 @@ Autorenwerkzeuge sollen Inhalte in den jeweiligen Zielformaten erzeugen, die bar
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkzeugs ist oder eine Autorenfunktion enthält (etwa eine Kommentarfunktion). Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten können aufgezeigt werden (z. B. "Bitte vergeben Sie eine Überschrift" oder "Wenn Sie ein informationstragendes Bild einfügen, vergeben Sie bitte einen passenden Alternativtext").
+Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkzeugs ist oder eine Autorenfunktion enthält (etwa eine Kommentarfunktion). Barrierefreiheits-Fehler in den erstellten Dokumenten bzw. Inhalten können aufgezeigt werden (z.B. "Bitte vergeben Sie eine Überschrift" oder "Wenn Sie ein informationstragendes Bild einfügen, vergeben Sie bitte einen passenden Alternativtext").
 
 === 2. Prüfung
 
-. Mit der Autorenfunkiton Inhalte erstellen und dabei vorhandene Auszeichnungsmöglichkeiten nicht nutzen, z. B.:
+. Mit der Autorenfunkiton Inhalte erstellen und dabei vorhandene Auszeichnungsmöglichkeiten nicht nutzen, z.B.:
 
 * Vorhandene Felder für Überschriften leer lassen, Überschriftenauszeichung von Text-Editoren nicht nutzen
 
@@ -29,7 +29,7 @@ Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkz
 
 . Inhalt sichern oder abschicken und prüfen, ob eine Überprüfung auf Fehler stattfindet.
 
-. Falls eine Fehlerprüfung stattfindet (z. B. wenn das Sichern oder Abschicken nicht möglich ist bzw. fehlerhafte oder fehlende Eingaben grafisch hervorgehoben werden), prüfen, ob Hinweise für die Korrektur der Fehler gegeben werden.
+. Falls eine Fehlerprüfung stattfindet (z.B. wenn das Sichern oder Abschicken nicht möglich ist bzw. fehlerhafte oder fehlende Eingaben grafisch hervorgehoben werden), prüfen, ob Hinweise für die Korrektur der Fehler gegeben werden.
 
 === 3. Hinweise
 

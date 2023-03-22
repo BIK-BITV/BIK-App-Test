@@ -10,7 +10,7 @@ Audiodateien und stumme Videodateien, die Informationen vermitteln, müssen mit 
 
 == Warum wird das geprüft?
 
-Audiodateien (z. B. ein Audio-Podcast) sind für hörbehinderte Nutzer nicht oder nur eingeschränkt zugänglich, deshalb brauchen sie eine Transkription. Stumme Videodateien (etwa eine Film- oder Animationsequenz, die ohne Audio-Kommentare zeigt, wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzer nicht verfügbar. Sie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
+Audiodateien (z.B. ein Audio-Podcast) sind für hörbehinderte Nutzer nicht oder nur eingeschränkt zugänglich, deshalb brauchen sie eine Transkription. Stumme Videodateien (etwa eine Film- oder Animationsequenz, die ohne Audio-Kommentare zeigt, wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzer nicht verfügbar. Sie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
 
 == Wie wird geprüft?
 
@@ -24,7 +24,7 @@ Der Prüfschritt ist anwendbar, wenn Audiodateien oder stumme Videodateien in de
 
 . App mit zu prüfender Ansicht öffnen.
 . Die Audiodatei abspielen. 
-. Prüfen, ob Informationen vermittelt werden (z. B. über eine Kommentarstimme). Dann ist eine Transkription erforderlich.
+. Prüfen, ob Informationen vermittelt werden (z.B. über eine Kommentarstimme). Dann ist eine Transkription erforderlich.
 . Prüfen, ob eine Transkription angeboten wird.
 . Transkription aufrufen und prüfen, ob sie die gleichen Inhalte wie die Audiodatei vermittelt.
   Bei Audiodateien mit verschiedenen Stimmen gibt es in der Transkription eine Kennzeichnung der sprechenden Person.

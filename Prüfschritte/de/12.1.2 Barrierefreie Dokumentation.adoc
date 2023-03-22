@@ -45,7 +45,7 @@ das https://bitvtest.de/start.html[BIK-BITV-Test-Verfahren] gegeben werden.
 ==== Hinweise
 
 Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate
-anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z. B.
+anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z.B.
 Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache 
 für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
 

@@ -18,11 +18,11 @@ Für jedes von der App festgelegte Zeitlimit gilt mindestens eine der folgenden 
 
 * *Ausschalten:* Der Benutzer kann das Zeitlimit ausschalten, bevor er darauf stößt
 * *Anpassen:* Der Benutzer kann das gesetzte Zeitlimit auf mindestens den zehnfachen Wert der Standard-Einstellung anpassen 
-* *Verlängern:* Der Benutzer wird vor Ablauf der Zeit gewarnt und erhält mindestens 20 Sekunden Zeit, um das Zeitlimit mit einer einfachen Aktion (z. B. "Drücken Sie die Leertaste") zu verlängern.
+* *Verlängern:* Der Benutzer wird vor Ablauf der Zeit gewarnt und erhält mindestens 20 Sekunden Zeit, um das Zeitlimit mit einer einfachen Aktion (z.B. "Drücken Sie die Leertaste") zu verlängern.
 
 *Ausnahmen:*
 
-* *Echtzeit-Ausnahme:* Das Zeitlimit ist ein erforderlicher Bestandteil eines Echtzeitereignisses (z. B. einer Auktion), und es ist keine Alternative zum
+* *Echtzeit-Ausnahme:* Das Zeitlimit ist ein erforderlicher Bestandteil eines Echtzeitereignisses (z.B. einer Auktion), und es ist keine Alternative zum
   Zeitlimit möglich
 * *Wesentliche Ausnahme:* Das Zeitlimit ist wesentlich und eine Verlängerung würde die Aktivität ungültig machen
 * *20-Stunden-Ausnahme:* Das Zeitlimit ist länger als 20 Stunden

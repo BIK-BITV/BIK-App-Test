@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Für Layouttabellen darf keine strukturelle Tabellen-Auszeichnung verwendet werden (z. B. Zeilen- und Spaltenüberschriften). 
+Für Layouttabellen darf keine strukturelle Tabellen-Auszeichnung verwendet werden (z.B. Zeilen- und Spaltenüberschriften). 
 
 == Wie wird geprüft?
 

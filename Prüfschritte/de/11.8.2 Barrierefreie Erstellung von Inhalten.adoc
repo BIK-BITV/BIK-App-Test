@@ -29,7 +29,7 @@ Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
 Sie auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
-In der App wird mittels des Autorenwerkzeugs (z. B. Kommentarfunktion) eine
+In der App wird mittels des Autorenwerkzeugs (z.B. Kommentarfunktion) eine
 Ausgabe generiert.
 Die Ansicht der App, in der die Ausgabe angezeigt wird, muss dann bei der
 Prüfung berücksichtigt werden.

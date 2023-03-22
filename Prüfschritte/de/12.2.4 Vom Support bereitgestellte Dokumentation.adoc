@@ -34,7 +34,7 @@ Wenn eine zusätzliche technische Dokumentation im HTML-Format bereitgestellt wi
 
 Dokumentation bezieht sich in diesem Prüfschritt auf alle Dokumente, die dem Nutzer auf Anfrage durch den Support zur Verfügung gestellt werden.
 
-Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z. B. Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
+Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z.B. Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
 
 Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch nicht vollständig geklärt. Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue eröffnen].

@@ -23,7 +23,7 @@ Der Prüfschritt ist anwendbar, wenn die App Echtzeit-Textkommunikation (RTT, Re
 . Zu prüfende Ansicht der App öffnen.
 . Prüfen, ob die App das Senden und Empfangen von Echtzeit Textkommunikation
   anbietet.
-. Prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich voneinander unterscheidbar sind und separat angezeigt werden, z. B.:
+. Prüfen, ob die gesendeten und empfangenen Textnachrichten deutlich voneinander unterscheidbar sind und separat angezeigt werden, z.B.:
 * Rahmen für Textnachricht (mit gutem Kontrast nach außen)
 * Positionierung der eigenen Nachrichten rechtsbündig und der Gesprächsteilnehmer linksbündig oder umgekehrt
 * Nennung des Namens vor Beginn der Nachricht

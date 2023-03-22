@@ -13,7 +13,7 @@ Checkboxen.
 
 == Warum wird das geprüft?
 
-Nutzende von Spracheingabe können Bedienelemente wie Links, Tasten oder Eingabefelder aktivieren, indem sie den sichtbaren Namen sagen, auch in der Verbindung mit Befehlen (z. B. Klick "Abschicken"). Wenn die sichtbare Beschriftung nicht in dem hinterlegten zugänglichen Namen des Bedienelements (also dem Text, der programmatisch als Beschriftung ermittelt wird) vorkommt, lässt sich das Bedienelement gegebenenfalls nicht oder nur über Umwege mittels Spracheingabe aktivieren.
+Nutzende von Spracheingabe können Bedienelemente wie Links, Tasten oder Eingabefelder aktivieren, indem sie den sichtbaren Namen sagen, auch in der Verbindung mit Befehlen (z.B. Klick "Abschicken"). Wenn die sichtbare Beschriftung nicht in dem hinterlegten zugänglichen Namen des Bedienelements (also dem Text, der programmatisch als Beschriftung ermittelt wird) vorkommt, lässt sich das Bedienelement gegebenenfalls nicht oder nur über Umwege mittels Spracheingabe aktivieren.
 
 Bedienelemente haben manchmal einen zugänglichen Namen, der von der sichtbaren Beschriftung abweicht, weil er über nicht sichtbare Attribute festgelegt wird. So könnte etwa die sichtbare Beschriftung "AGB akzeptieren" durch den hinterlegten zugänglichen Namen "Allgemeine Geschäftsbedingungen annehmen" ersetzt werden. Wenn Spracheingabenutzer nun Klicke "AGB akzeptieren" diktieren, kommt dieser Text so nicht im zugänglichen Namen vor, die Eingabe schlägt deshalb fehl.
 

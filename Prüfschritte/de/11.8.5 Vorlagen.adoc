@@ -28,7 +28,7 @@ Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist und
 Vorlagen für die Dokumente, die es erstellt, anbietet.
 Das App-Test-Verfahren prüft jedoch keine Dokumente.
 Im Rahmen dieses Verfahrens können lediglich Autorenwerkzeuge getestet werden,
-dessen Ausgabe in der gleichen App stattfindet (z. B. Kommentarfunktion in
+dessen Ausgabe in der gleichen App stattfindet (z.B. Kommentarfunktion in
 einer Social-Media-App).
 Für komplexere Werkzeuge, dessen Ausgaben nicht nur in der App selbst
 stattfinden, muss ein extra Auftrag erteilt werden, da hier die Ausgabe-Dateien

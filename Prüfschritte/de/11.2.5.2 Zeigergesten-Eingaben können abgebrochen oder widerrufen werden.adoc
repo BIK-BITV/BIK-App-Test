@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Funktionen von Bedienelementen sollen nicht bereits durch den Down-Event eines Zeigers (z. B. Finger-Berührung, Drücken der Maustaste, des Trackpad-Zeigers oder Eingabestift) auf einem Bedienelement ausgeführt werden. Wenn dies doch geschieht, muss es eine Möglichkeit geben, die ausgelöste Funktion entweder abzubrechen oder rückgängig zu machen.
+Funktionen von Bedienelementen sollen nicht bereits durch den Down-Event eines Zeigers (z.B. Finger-Berührung, Drücken der Maustaste, des Trackpad-Zeigers oder Eingabestift) auf einem Bedienelement ausgeführt werden. Wenn dies doch geschieht, muss es eine Möglichkeit geben, die ausgelöste Funktion entweder abzubrechen oder rückgängig zu machen.
 
 Als Zeiger-Down-Events gelten mousedown, touchstart und pointerdown.
 

@@ -12,7 +12,7 @@ Beispiele für Barrierefreiheitsfunktionen:
 
 * Vorlesefunktion
 * Kontrasterhöhung, abweichende Farbschemata
-* Anpassung der Schriftgröße, Schriftformatierungen (z. B. Zeilenabstand, Schriftart usw.)
+* Anpassung der Schriftgröße, Schriftformatierungen (z.B. Zeilenabstand, Schriftart usw.)
 * Versionen in Leichter Sprache oder Deutscher Gebärdensprache
 * Einstellungen zum Deaktivieren automatischen Abspielens bei Animationen, Videos oder Audio
 
@@ -26,7 +26,7 @@ Wenn die App beispielsweise eine Funktion zur Verfügung stellt, mit derer die K
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die zu prüfende App spezielle Barrierefreiheits-Funktionen bereithält. Nicht berücksichtigt werden systemseitige Bedienungshilfen (z. B. vom Browser oder Betriebssystem).
+Der Prüfschritt ist anwendbar, wenn die zu prüfende App spezielle Barrierefreiheits-Funktionen bereithält. Nicht berücksichtigt werden systemseitige Bedienungshilfen (z.B. vom Browser oder Betriebssystem).
 
 === 2. Prüfung
 

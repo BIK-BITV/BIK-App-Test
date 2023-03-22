@@ -41,7 +41,7 @@ Wenn die App Videos mit Untertiteln konvertiert oder aufnimmt, Video anschließe
 
 === 3. Hinweise
 
-Wenn gestalterische Aspekte der Untertitel (z. B. Position, Farbe, Fettung oder kursive Darstellung) informationstragend sind, sollten sie nach Möglichkeit erhalten bleiben.
+Wenn gestalterische Aspekte der Untertitel (z.B. Position, Farbe, Fettung oder kursive Darstellung) informationstragend sind, sollten sie nach Möglichkeit erhalten bleiben.
 
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue hinterlassen].
 
