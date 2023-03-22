@@ -2,9 +2,11 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.* 
+
 == Was wird geprüft?
 
-Wenn die App ein Video mit einem Orginalton enthält, der nicht der Hauptsprache der App entspricht, sollen zuschaltbaren bzw. programmatisch ermittelbaren Untertitel, die in der Hauptsprache angeboten werden, als akustische Ausgabe zugänglich sein, z.B. über eine eigene Tonspur, die den Untertiteln entspricht, oder über eine gnerierte Sprachausgabe der Untertitel. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
+Wenn die App ein Video mit einem Orginalton enthält, der nicht der Hauptsprache der App entspricht, sollen zuschaltbaren bzw. programmatisch ermittelbaren Untertitel, die in der Hauptsprache angeboten werden, als akustische Ausgabe zugänglich sein, z.B. über eine eigene Tonspur, die den Untertiteln entspricht, oder über eine generierte Sprachausgabe der Untertitel. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
 
 == Warum wird das geprüft?
 
@@ -22,7 +24,7 @@ Der Prüfschritt ist anwendbar:
 
 === 2. Prüfung
 
-. App öffnen.
+. App-Ansicht öffnen.
 . Prüfen, ob der Originalton des Videos von der Hauptsprache der App abweicht.
 . Prüfen, ob für Videos mit fremdsprachiger Tonspur Untertitel in der Hauptsprache der App angeboten werden.
 . Prüfen, ob sich eine alternative Tonspur in der Hauptsprache des Angebots oder eine generierte Sprachausgabe der Untertitel aktivieren lässt.
@@ -38,7 +40,7 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 ==== Nicht erfüllt:
 
-* Bei Videos mit fremdsprachiger Tonspur und zuschaltbaren Untertiteln in der Hauptsprache, sind die Untertitel nicht als akustische Ausgabe zugänglich.
+* Bei Videos mit fremdsprachiger Tonspur und zuschaltbaren Untertiteln in der Hauptsprache sind die Untertitel nicht als akustische Ausgabe zugänglich.
 
 == Einordnung des Prüfschritts
 
@@ -54,6 +56,9 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 [.BLOCK_LANG_EN]
 --
+____
 Where ICT displays video with synchronized audio, it shall have a mode of operation to provide a spoken output of the available captions, except where the content of the displayed captions is not programmatically determinable.
 
 NOTE 1: Being able to manage speech output range for spoken subtitles independently from general ICT speech is preferable for most users. That is possible when the audio file with spoken subtitle is delivered in a separate audio track and mixed in the end users device.
+____
+
