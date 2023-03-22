@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wenn Videos mit synchroner Bild- und Tonspur vorhanden sind und eine alternative Version mit Audiodeskription verfügbar ist, gibt es einen Mechanismus für die Auswahl und Wiedergabe der verfügbaren Audiodeskription.
@@ -60,15 +62,13 @@ Wird 9.1.2.5 negativ bewertet (eine notwendige Audiodeskripiton ist nicht vorhan
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-7.2.1 Audio Description Playback
-
-== Quellen
 
 [.BLOCK_LANG_EN]
-=== 7.2.1 Audio description playback
+==== 7.2.1 Audio description playback
 
 [.BLOCK_LANG_EN]
 --
+____
 Where ICT displays video with synchronized audio, it shall provide a mechanism
 to select and play available audio description to the default audio channel. 
 
@@ -85,6 +85,7 @@ Audio descriptions in digital media sometimes include information to allow
 descriptions that are longer than the gaps between dialogue.
 Support in digital media players for this "extended audio description" feature
 is useful, especially for digital media that is viewed personally.
+____
 --
 
 (Aus EN 301 549 V3.1.1 Abschnitt 7.2.1 "Audio description playback")
