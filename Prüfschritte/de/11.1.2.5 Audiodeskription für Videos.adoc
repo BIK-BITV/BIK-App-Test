@@ -47,7 +47,7 @@ Gebärdensprachvideos brauchen keine Audiodeskription.
 * Die Audiodeskription ist bereits in der normalen Tonspur enthalten.
 * Eine weitere Version des Videos mit Audiodeskription wird angeboten.
   Diese Version wird geprüft.
-  Ein funktionierender Link zu dieser Version muss im unmittelbaren Kontext des
+  Ein funktionierender Link (oder vergleichbares Bedienelement) zu dieser Version muss im unmittelbaren Kontext des
   Videos angeboten werden, ebenso wie ein Zurück-Link.
   Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription.
   Diese Spur wird zusätzlich geschaltet.
