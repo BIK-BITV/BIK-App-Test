@@ -38,7 +38,7 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 == Quellen
 === Allgemein
-* ITU T.701.25: https://www.itu.int/rec/T-REC-T.701.25-202203-I/en[T.701.25 : Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text (itu.int)]. Empfehlungen für die Audio-Darstellung von Text in Videos, einschließlich Untertitel und andere Texte im Bild (ITU Version, Englisch, kostenlos)
+* ITU T.701.25: https://www.itu.int/rec/T-REC-T.701.25-202203-I/en[Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text (itu.int)]. Empfehlungen für die Audio-Darstellung von Text in Videos, einschließlich Untertitel und andere Texte im Bild (ITU Version, Englisch, kostenlos)
 
 == Einordnung des Prüfschritts
 
