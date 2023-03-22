@@ -30,7 +30,7 @@ die systemweiten Einstellungen müssen jedoch voreingestellt sein.
 
 Der Prüfschritt ist nahezu immer anwendbar.
 Die einzige Ausnahme besteht, wenn die App komplett isoliert vom
-Betriebssystem läuft, z. B. innerhalb einer virtuellen Maschine.
+Betriebssystem läuft, z.B. innerhalb einer virtuellen Maschine.
 
 === Prüfung
 

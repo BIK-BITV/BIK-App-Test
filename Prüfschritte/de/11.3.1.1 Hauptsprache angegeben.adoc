@@ -40,7 +40,7 @@ auf GitHub].
 
 ==== Nicht erfüllt:
 
-* Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z. B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit beispielsweise englischer Text mit einer deutschen Stimme vorgelesen wird.
+* Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z.B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit beispielsweise englischer Text mit einer deutschen Stimme vorgelesen wird.
 
 == Quellen
 === Allgemein

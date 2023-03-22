@@ -39,7 +39,7 @@ Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden.
 
 Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von
 anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen.
-Das könnte z. B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln
+Das könnte z.B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln
 sein.
 
 == Quellen

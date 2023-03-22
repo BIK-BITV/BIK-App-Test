@@ -14,7 +14,7 @@ Bei eingebundenen Multimedia-Objekten (z.B Video- oder Audio-Dateien) soll die T
 
 Für blinde Benutzer sind Grafiken und Bilder nicht zugänglich. Die Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik inhaltlich ersetzen können.
 
-Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt werden können, weil sie z. B. nicht geladen werden können, sollen kurze beschreibende Textalternativen dem Nutzer eine Identifikation der Inhalte ermöglichen.
+Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt werden können, weil sie z.B. nicht geladen werden können, sollen kurze beschreibende Textalternativen dem Nutzer eine Identifikation der Inhalte ermöglichen.
 
 == Wie wird das geprüft?
 

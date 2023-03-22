@@ -18,7 +18,7 @@ Diese Anforderung gilt nur für Zeiger-Gesten, die direkt Apps interpretiert und
 
 * Streichgeste, etwa zum Bewegen etwa von Slider-Bereichen
 * Ziehen eines Sliders/Range
-* Zeichnen eines Pfads, z. B. ein 'Z' zum Widerrufen
+* Zeichnen eines Pfads, z.B. ein 'Z' zum Widerrufen
 
 *Beispiele für Mehrpunkt Gesten:*
 

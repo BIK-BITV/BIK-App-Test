@@ -34,7 +34,7 @@ Ob eine Ausgabe auf allen Elementen durchgängig erfolgt, ob also bei Fokussieru
 
 "Barrierefreiheitsdienste- und Schnittstellen" beziehen sich jedoch nicht nur auf die Umsetzung von Steuerelementen.
 Auch  eingebaute Sprachausgaben oder Vergrößerungsfunktionen sind  solche Dienste.
-Eine App, die z. B. ohne besonderem Grund selbstsprechend ist (eingebaute Sprachausgabe), ohne dass diese App auch mit der System-Sprachausgabe-Software (z. B. VoiceOver und TalkBack) funktioniert, würde diesen Prüfschritt nicht bestehen.
+Eine App, die z.B. ohne besonderem Grund selbstsprechend ist (eingebaute Sprachausgabe), ohne dass diese App auch mit der System-Sprachausgabe-Software (z. B. VoiceOver und TalkBack) funktioniert, würde diesen Prüfschritt nicht bestehen.
 
 === 3. Hinweise
 

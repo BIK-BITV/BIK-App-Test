@@ -37,7 +37,7 @@ Um ein belastbares Ergebnis zu erzielen, sollte die Testübertragung wiederholt 
 * Um Latenzen der Netzwerk-Infrastruktrur zu minimieren, sollten beide Geräte über eine stabile Internetverbindung mit ausreichend Bandbreite verbunden sein.
 
 
-Für Hinweise zu diesem Prüfschritt, z. B. für die genaue Messung der Zeitdifferenz, können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zu diesem Prüfschritt eröffnen.
+Für Hinweise zu diesem Prüfschritt, z.B. für die genaue Messung der Zeitdifferenz, können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue] zu diesem Prüfschritt eröffnen.
 
 == Einordnung des Prüfschritts
 

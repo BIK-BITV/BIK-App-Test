@@ -24,7 +24,7 @@ Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist und Funktio
 
 === 2. Prüfung
 
-. Ansicht mit Information im Ausgangsformat öffnen. Wenn z. B. ein Autorenwerkzeug eine Umkodierungs-Transformation von HTML nach PDF bietet, wäre das etwa eine HTML-Datei in einem Webview.
+. Ansicht mit Information im Ausgangsformat öffnen. Wenn z.B. ein Autorenwerkzeug eine Umkodierungs-Transformation von HTML nach PDF bietet, wäre das etwa eine HTML-Datei in einem Webview.
 . Ansicht in das Zielformat umgewandeln.
 . Zielformat überprüfen. Je nach Dokumententyp erfordert dies Überprüfungen, die nicht im Rahmen des BITV-Tests selbst vorgenommen werden können. Ein Beispiel wäre die Transformation eines HTML-Dokuments in ein PDF-Dokument:
 

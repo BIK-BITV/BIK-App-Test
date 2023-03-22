@@ -37,7 +37,7 @@ in der Dokumentation aufgelistet und erklärt werden.
 Die Dokumentation kann dabei mit der Software mitgeliefert werden oder separat
 verfügbar sein.
 
-Die Dokumentation kann dabei z. B. folgende Informationen enthalten:
+Die Dokumentation kann dabei z.B. folgende Informationen enthalten:
 
 * Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102
 * Einzelheiten zu Features für die Barrierefreiheit

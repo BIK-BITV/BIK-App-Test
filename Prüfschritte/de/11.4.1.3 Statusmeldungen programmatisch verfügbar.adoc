@@ -53,7 +53,7 @@ Der Prüfschritt ist anwendbar, wenn die App Statusmeldungen generiert, die nich
 Nicht als Statusmeldung gelten:
 
 * Fehlermeldung über Dialog (Kontextänderung durch Fokusumsetzung)
-* Die Hinzufügung von Bedienelementen, wie z. B. zusätzliche Formularelelemente
+* Die Hinzufügung von Bedienelementen, wie z.B. zusätzliche Formularelelemente
 
 === Bewertung
 

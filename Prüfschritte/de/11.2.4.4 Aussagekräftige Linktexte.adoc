@@ -59,7 +59,7 @@ App-Ansicht öffnen. Da visuell nicht offensichtlich ist, ob Bedienelemente als 
 
 ==== 2.2 Prüfung von Links auf andere Dateiformate
 
-Bei der Prüfung von Apps sollten Links stichprobenartig auf externe Ressourcen wie PDF-Dateien oder Websiten im LInk oder im Kontext des Links einen Hinweis auf das Ziel(format) geben wird z. B. mittels PDF-Symbols oder Überschriften. Solche Hinweis sind sinvoll. aber aus Konformitätssicht nicht zwingend erforderlich.
+Bei der Prüfung von Apps sollten Links stichprobenartig auf externe Ressourcen wie PDF-Dateien oder Websiten im LInk oder im Kontext des Links einen Hinweis auf das Ziel(format) geben wird z.B. mittels PDF-Symbols oder Überschriften. Solche Hinweis sind sinvoll. aber aus Konformitätssicht nicht zwingend erforderlich.
 
 === 3. Hinweise
 

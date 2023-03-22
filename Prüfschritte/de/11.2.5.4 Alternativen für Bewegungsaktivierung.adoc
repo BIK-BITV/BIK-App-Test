@@ -13,7 +13,7 @@ vorhanden sein, und die Bewegungseingabe soll vom Nutzer abgeschaltet werden
 können.
 
 Der Prüfschritt gilt nicht für Bewegungseingaben, die für die Funktion
-wesentlich sind, z. B. wenn ein Bewegungssensor die Schritte einer Person
+wesentlich sind, z.B. wenn ein Bewegungssensor die Schritte einer Person
 aufzeichnet, oder wenn die Bewegung Teil einer zugänglichkeits-unterstützten
 Hilfsmitteleingabe ist.
 

@@ -16,7 +16,7 @@ Menschen, die nicht Sprache nutzen können oder wollen, sollen die Möglichkeit 
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die zu testende App Zwei-Wege-Kommunikation ermöglicht. Dies umfasst z. B. webbasierte Sprach- und Videotelefonie.
+Der Prüfschritt ist anwendbar, wenn die zu testende App Zwei-Wege-Kommunikation ermöglicht. Dies umfasst z.B. webbasierte Sprach- und Videotelefonie.
 
 === 2. Prüfung
 
