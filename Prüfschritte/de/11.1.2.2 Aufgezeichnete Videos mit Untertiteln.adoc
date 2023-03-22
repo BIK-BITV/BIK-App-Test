@@ -23,7 +23,7 @@ Aufgezeichnete Videos ohne Tonspur brauchen keine Untertitel, der Prüfschritt i
 Alternativen für Videos ohne Tonspur werden in Prüfschritt
 ifdef::env_embedded[11.1.2.1 "Alternativen für Audiodateien und stumme Videos"]
 ifndef::env_embedded[]
-  <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,1.2.1a
+  <<11.1.2.1 Alternativen für Audiodateien und stumme Videos.adoc#,1.2.1
   Alternativen für Audiodateien und stumme Videos>>
 endif::env_embedded[]
 geprüft.
