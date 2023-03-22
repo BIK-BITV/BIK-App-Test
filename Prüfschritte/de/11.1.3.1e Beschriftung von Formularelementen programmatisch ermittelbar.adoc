@@ -59,6 +59,17 @@ Sind Eingabefelder nur über Platzhaltertexte beschriftet, muss die programmatis
 
 * Bei Eingabefeldern wird nicht die Beschriftung ausgegeben.
 
+== Quellen
+* BBC, Accessibility for Products: https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/labelling-form-controls/[Labeling form controls]
+
+=== iOS
+* Apple Developer Documentation: https://developer.apple.com/documentation/uikit/accessibility/delivering_an_exceptional_accessibility_experience#3542986[Group Labels]
+* Apple Developer Documentation: https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[iOS accessibilityLabel] 
+
+=== Android
+* Android Developers: https://developer.android.com/guide/topics/ui/accessibility/custom-views[Make custom views more accessible]
+* Android Developers: https://developer.android.com/guide/topics/ui/accessibility/principles[Principles for improving app accessibility]
+
 == Einordnung des Prüfschritts
 
 === Abgrenzung von anderen Prüfkriterien
@@ -91,18 +102,4 @@ geprüft.
 .General Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G162.html[G162: Positioning
   labels to maximize predictability of relationships]
-
-== Quellen
-* https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/labelling-form-controls/[Allgemeine Informationen der BBC, 
-Accessibility for Products: Labeling form controls]
-
-=== iOS
-* https://developer.apple.com/documentation/uikit/accessibility/delivering_an_exceptional_accessibility_experience#3542986[
-  Apple Developer Documentation: Group Labels]
-* https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[iOS accessibilityLabel] 
-
-=== Android
-* https://developer.android.com/guide/topics/ui/accessibility/custom-views[
-Android Developers: Make custom views more accessible]
-* https://developer.android.com/guide/topics/ui/accessibility/principles[Android Developers: Principles for improving app accessibility]
 
