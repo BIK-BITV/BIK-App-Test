@@ -87,5 +87,3 @@ Support in digital media players for this "extended audio description" feature
 is useful, especially for digital media that is viewed personally.
 ____
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 7.2.1 "Audio description playback")
