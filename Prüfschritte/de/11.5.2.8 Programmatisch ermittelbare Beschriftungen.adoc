@@ -40,6 +40,7 @@ Der Prüfschritt ist anwendbar, wenn Bedienelemente eingesetzt werden, die ledig
 * Ein gleichwertiger, programmatisch hinterlegter Name wird bei Fokussierung des Bedienelements ausgegeben. 
 
 == Quellen
+=== Allgemein
 * BBC, Accessibility for Products: https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/labelling-form-controls/[Labeling form controls]
 * Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-3-1#group-elements[Group Elements] (mehrere Entwicklungsumgebungen)
 
