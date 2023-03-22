@@ -36,6 +36,10 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 
 * Bei zuschaltbaren Untertiteln (closed captions) git es keinerlei Anpassungsmöglichkeiten für Position, Textgröße, Text-Vorder- und Hintergrundfarbe, Textstil oder Text-Font.
 
+== Quellen
+=== Allgemein
+* ITU T.701.25: https://www.itu.int/rec/T-REC-T.701.25-202203-I/en[T.701.25 : Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text (itu.int)]. Empfehlungen für die Audio-Darstellung von Text in Videos, einschließlich Untertitel und andere Texte im Bild (ITU Version, Englisch, kostenlos)
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach EN 301 549 v.3.2.1
@@ -53,11 +57,4 @@ NOTE 1: Defining the background and foreground colour of subtitles, font type, s
 NOTE 2: Subtitles that are bitmap images are examples of unmodifiable characters.
 ____
 --
-=== ITU T.701.25 
 
-==== Empfehlungen für die Audio-Darstellung von Text in Videos, einschließlich Untertitel und andere Texte im Bild (ITU Version, Englisch, kostenlos)
-
-[.BLOCK_LANG_EN]
---
-* https://www.itu.int/rec/T-REC-T.701.25-202203-I/en[T.701.25 : Guidance on the audio presentation of text in videos, including captions, subtitles and other on-screen text (itu.int)]
---
