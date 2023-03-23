@@ -88,7 +88,7 @@ Dort geht es also um **zusätzliche** akustische Informationen über Bildinhalte
 === Einordnung des Prüfschritts nach EN 301549 V3.2.1
 
 [.BLOCK_LANG_EN]
-==== 11.1.2.1.1 Audio-only and video-only (pre-recorded -open functionality)
+==== 11.1.2.1.1 Audio-only and video-only (pre-recorded - open functionality)
 
 ____
 [.BLOCK_LANG_EN]
