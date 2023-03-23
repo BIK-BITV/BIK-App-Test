@@ -57,7 +57,7 @@ endif::env_embedded[]
 
 ==== Teilweise erfüllt
 
-* Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben keine Untertitel, aber folgende Bedingung ist erfüllt: Es gibt im unmittelbaren Kontext des Videos eine vollständige Textalternative (Transkription) oder einen klar bezeichneten Link zu einer vollständigen Textalternative.
+* Aufgezeichnete Videos mit synchroner Bild- und Tonspur haben keine Untertitel, es gibt aber im unmittelbaren Kontext des Videos eine vollständige Textalternative (Transkription) oder einen klar bezeichneten Link zu einer vollständigen Textalternative.
 Wenn das Videobild Inhalte hat, die nicht in der Transkription vorkommen oder nicht adäquat darstellbar sind, kommen die Abstufungen der Bewertung von eher nicht erfüllt bis nicht erfüllt in Betracht.
 * Bei Medienalternativen fehlt die direkte Nachbarschaft oder der klar bezeichnete Link auf das primäre Medium, dass die Medienalternative ersetzt.
 
