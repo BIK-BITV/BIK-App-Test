@@ -81,6 +81,16 @@ Sprachen benutzten lateinischen Schrift. Die zugrunde liegende WCAG-Anforderung 
 
 * Die App hat eine Zoomfunktion. Beim Zoomen auf 320 CSS Pixel Viewportbreite gibt es Informationen oder Funktionen, die nicht mehr verfügbar sind oder abgeschnitten werden, und die nicht unter die Ausnahmen fallen.
 
+== Quellen
+
+=== Allgemein
+* WCAG 1.4.10 Reflow: https://www.w3.org/WAI/WCAG21/Understanding/reflow.html[Understanding Reflow]
+(zur Zeit nur auf Englisch verfügbar)
+* Appt.org Guidelines: https://appt.org/en/guidelines/wcag/success-criterion-1-4-10[
+Reflow]. Beispiele für die Umsetzung vergrößerbaren umbrechenden Texts in den Umgebungen Android, iOS, Flutter, React Native und Xamarin. Hier wird Reflow auf das Verhalten von Text bei Übernahme nutzerdefinierter Systemeinstellungen bezogen.
+
+=== Android
+* Appt.org: https://appt.org/en/docs/android/samples/reflow[Reflow on Android]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -106,15 +116,4 @@ Sprachen benutzten lateinischen Schrift. Die zugrunde liegende WCAG-Anforderung 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F102[
   F102: Failure of Success Criterion 1.4.10 due to content disappearing and
   not being available when content has reflowed]
-
-== Quellen
-=== Android
-* Appt.org: https://appt.org/en/docs/android/samples/reflow[Reflow on Android]
-
-=== Allgemeine Quellen (WCAG)
-
-* WCAG 1.4.10 Reflow: https://www.w3.org/WAI/WCAG21/Understanding/reflow.html[Understanding Reflow]
-(zur Zeit nur auf Englisch verfügbar)
-* Appt.org Guidelines: https://appt.org/en/guidelines/wcag/success-criterion-1-4-10[
-Reflow]. Beispiele für die Umsetzung vergrößerbaren umbrechenden Texts in den Umgebungen Android, iOS, Flutter, React Native und Xamarin. Hier wird Reflow auf das Verhalten von Text bei Übernahme nutzerdefinierter Systemeinstellungen bezogen.
 
