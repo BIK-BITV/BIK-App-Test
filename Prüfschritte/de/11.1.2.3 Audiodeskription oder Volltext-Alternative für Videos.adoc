@@ -58,14 +58,13 @@ Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichti
 
 * Bildinhalte fehlen in der Audiodeskription bzw. der Tonspur, es gibt jedoch keine Pausen bei den sprechenden Personen, in denen die Information eingesprochen werden könnte. Hier ließe sich den Anforderung nur durch eine erweiterte Audiodeskription erfüllen, diese jedoch wird in der EN 301 549 nicht verlangt. 
 
-==== Nicht voll erfüllt:
+==== Teilweise erfüllt:
 
-* Es wird keine Audiodeskription angeboten, informationstragende Bilddinhalte sind nicht vollständig in der angebotenen Volltextalternative enthalten.
+* Für wichtige informationstragende Bilddinhalte wird trotz verfügbarem Platz in der Tonspur keine Audiodeskription angeboten, bzw. die Beschreibung wichtiger informationstragende Bilddinhalte ist nicht in der angebotenen Volltextalternative enthalten.
 
 ==== Nicht erfüllt:
 
-* Das informationstragende, visuelle Video hat weder eine Audiodeskription noch
-  eine Volltextalternative.
+* Ein Video mit wichtige informationstragenden Bilddinhalten hat weder eine Audiodeskription noch eine Volltextalternative.
   
 == Quellen
 === Allgemein
@@ -104,3 +103,7 @@ Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichti
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G203[G203: Using a static
   text alternative to describe a talking head video]
 
+== Fragen zu diesem Prüfschrtt
+=== Was sind "wichtige informationstragende Bildinhalte"? 
+* Sehr häufig tauchen in Videos eingeblendete Texte auf, die etwa Sprecher oder Sprecherin bzw. deren Rolle benennen. Ohne diese Information ist für nicht-visuelle Nutzer unklar, wer da eigentlich spricht oder interviewt wird. Wenn es eher unwichtig ist, wie die Person heißt, die spricht (z.B. in Passantenbefragungen) sind solche Einblendungen nicht als "wichtige informationstragende Bildinhalte" zu betrachten.
+* Oft sind Videos auch über visuelle Zwischentitel oder eingeblendete Fragen strukturiert. Hier ist zu prüfen, inwieweit die Informationen auch ohne Audiodeskrition oder Transkription der Bidinhalte sinnvoll und verständlich sind - zum Beispiel weil ein Sprecherton in der Folge ausreichend Kontext liefert.
