@@ -1,4 +1,4 @@
-= 11.5.2.3 Unterstützung von Barrierefreiheitsdiensten
+= 11.5.2.3 Verwendung von Barrierefreiheitsdiensten
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
