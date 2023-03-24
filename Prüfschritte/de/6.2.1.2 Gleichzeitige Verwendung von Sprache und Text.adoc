@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.1.2 Gleichzeitige Sprache und Text
+= Prüfschritt 6.2.1.2 Gleichzeitige Verwendung von Sprache und Text
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
