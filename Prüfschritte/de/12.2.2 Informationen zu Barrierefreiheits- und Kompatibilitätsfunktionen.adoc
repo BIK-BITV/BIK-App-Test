@@ -1,4 +1,4 @@
-= Prüfschritt 12.2.2 Technischer Support
+= Prüfschritt 12.2.2 Informationen zu Barrierefreiheits- und Kompatibilitätsfunktionen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
