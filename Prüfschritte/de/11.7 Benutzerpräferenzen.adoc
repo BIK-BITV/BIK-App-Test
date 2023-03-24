@@ -1,4 +1,4 @@
-= Prüfschritt 11.7 Benutzerdefinierte Einstellungen
+= Prüfschritt 11.7 11.7 Benutzerpräferenzen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
