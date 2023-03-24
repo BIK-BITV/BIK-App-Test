@@ -1,4 +1,4 @@
-= 5.5.2 Wahrnehmbarkeit von physischen Bedienteilen
+= 5.5.2 Unterscheidbarkeit der bedienbaren Elemente
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
