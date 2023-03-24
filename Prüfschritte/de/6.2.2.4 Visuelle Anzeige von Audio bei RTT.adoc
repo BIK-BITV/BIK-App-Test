@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.2.4 Echtzeitindikation von Sprach-Kommunikation
+= Prüfschritt 6.2.2.4 Visuelle Anzeige von Audio bei RTT
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
