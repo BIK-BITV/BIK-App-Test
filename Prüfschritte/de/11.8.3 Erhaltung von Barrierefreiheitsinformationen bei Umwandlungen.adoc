@@ -1,4 +1,4 @@
-= Prüfschritt 11.8.3 Erhaltung von Barrierefreiheitsinformationen bei Transformation
+= Prüfschritt 11.8.3 Erhaltung von Barrierefreiheitsinformationen bei Umwandlungen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
