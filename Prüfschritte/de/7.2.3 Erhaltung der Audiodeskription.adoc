@@ -1,4 +1,4 @@
-= Prüfschritt 7.2.3 Erhaltung von Audiodeskription
+= Prüfschritt 7.2.3 Erhaltung der Audiodeskription
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
