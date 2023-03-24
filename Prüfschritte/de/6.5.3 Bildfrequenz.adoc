@@ -1,4 +1,4 @@
-= Prüfschritt 6.5.3 Bildwiederholfrequenz bei Videotelefonie bei Videotelefonie
+= Prüfschritt 6.5.3 Bildfrequenz
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
