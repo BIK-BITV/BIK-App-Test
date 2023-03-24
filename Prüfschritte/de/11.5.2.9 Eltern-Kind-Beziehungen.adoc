@@ -1,4 +1,4 @@
-= Prüfschritt 11.5.2.9 Eltern-Kind-Beziehungen programmatisch ermittelbar
+= Prüfschritt 11.5.2.9 Eltern-Kind-Beziehungen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
