@@ -1,4 +1,4 @@
-= Prüfschritt 11.5.2.11 Aktionen programmatisch ermittelbar
+= Prüfschritt 11.5.2.11 Liste der verfügbaren Handlungen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
