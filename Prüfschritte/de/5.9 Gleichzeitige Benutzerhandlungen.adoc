@@ -1,4 +1,4 @@
-= Simultane Aktionen
+= Gleichzeitige Benutzerhandlungen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
