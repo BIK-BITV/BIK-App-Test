@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.1.1 Textkommunikation in Echtzeit
+= Prüfschritt 6.2.1.1 RTT Kommunikation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
