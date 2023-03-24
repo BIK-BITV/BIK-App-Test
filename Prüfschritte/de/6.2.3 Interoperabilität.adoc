@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.3 Interopabilität von Echtzeit-Kommunikation
+= Prüfschritt 6.2.3 Interoperabilität
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
