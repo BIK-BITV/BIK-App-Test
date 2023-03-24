@@ -1,4 +1,4 @@
-= 11.6.2 Keine Unterbrechung der Barrierefreiheitsfunktionen
+= Prüfschritt 11.6.2 Keine Unterbrechung der Barrierefreiheitsfunktionen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
