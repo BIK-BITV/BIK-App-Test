@@ -1,4 +1,4 @@
-= 11.5.2.6 Programmatisch ermittelbare Tabellen
+= 11.5.2.6 Zeile, Spalte und Kopfzeilen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
