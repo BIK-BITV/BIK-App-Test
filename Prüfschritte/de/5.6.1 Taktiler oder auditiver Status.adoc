@@ -1,4 +1,4 @@
-= 5.6.1 Taktile oder auditive Statusvermittlung
+= 5.6.1 Taktiler oder auditiver Status
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
