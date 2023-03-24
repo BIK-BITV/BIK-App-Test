@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.4 Reaktionsgeschwindigkeit der Echtzeit-Textkommunikation
+= Prüfschritt 6.2.4 Reaktionsfähigkeit von RTT
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
