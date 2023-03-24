@@ -1,4 +1,4 @@
-= 11.5.2.8 Programmatisch ermittelbare Beschriftungen
+= 11.5.2.8 Label-Beziehungen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
