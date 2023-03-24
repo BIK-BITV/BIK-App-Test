@@ -1,4 +1,4 @@
-= 5.8 Annahme identischer Tastenanschläge
+= 5.8 Annahme eines zweifachenTastenanschlags
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
