@@ -1,4 +1,4 @@
-= 11.5.2.17 Bearbeitung von Text und anderen Werten
+= Prüfschritt 11.5.2.17 Änderungen von Werten und Text
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
