@@ -1,4 +1,4 @@
-= Prüfschritt 12.2.4 Vom Support bereitgestellte Dokumentation
+= Prüfschritt 12.2.4 Barrierefreie Dokumentation (vom Support)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
