@@ -1,4 +1,4 @@
-= 11.5.2.5 Objektinformationen
+= Prüfschritt 11.5.2.5 Objektinformationen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
