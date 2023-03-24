@@ -1,4 +1,4 @@
-= 11.5.2.16 Programmatisch steuerbare Stati und Eigenschaften
+= Prüfschritt 11.5.2.16 Änderungen von Zuständen und Eigenschaften
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
