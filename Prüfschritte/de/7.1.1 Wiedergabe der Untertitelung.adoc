@@ -1,4 +1,4 @@
-= Prüfschritt 7.1.1 Wiedergabe von Untertiteln
+= Prüfschritt 7.1.1 Wiedergabe der Untertitelung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
