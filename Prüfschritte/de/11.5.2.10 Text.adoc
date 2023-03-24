@@ -1,4 +1,4 @@
-= Prüfschritt 11.5.2.10 Textinhalte und –Attribute zugänglich
+= Prüfschritt 11.5.2.10 Text
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
