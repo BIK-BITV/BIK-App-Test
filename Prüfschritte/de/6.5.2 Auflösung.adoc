@@ -1,4 +1,4 @@
-= Prüfschritt 6.5.2 Auflösung bei Videotelefonie
+= Prüfschritt 6.5.2 Auflösung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
