@@ -1,4 +1,4 @@
-= Prüfschritt 6.2.2.2 Programmatisch unterscheidbare Anzeige von Echtzeit-Textnachrichten
+= Prüfschritt 6.2.2.2 Durch Software bestimmbare Sende- und Empfangsrichtung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
