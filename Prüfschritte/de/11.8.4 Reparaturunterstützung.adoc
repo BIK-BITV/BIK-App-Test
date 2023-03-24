@@ -1,4 +1,4 @@
-= Prüfschritt 11.8.4 Reparaturassistenz
+= Prüfschritt 11.8.4 Reparaturunterstützung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
