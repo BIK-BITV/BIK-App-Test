@@ -1,4 +1,4 @@
-= 11.5.2.14 Programmatisch steuerbare Texteinfügemarke und Selektion
+= Prüfschritt 11.5.2.14 Änderung des Fokus und der Auswahlattribute
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
