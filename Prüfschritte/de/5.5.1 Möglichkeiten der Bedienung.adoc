@@ -1,4 +1,4 @@
-= 5.5.1 Bedienbarkeit von physischen Teilen
+= 5.5.1 Möglichkeiten der Bedienung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
