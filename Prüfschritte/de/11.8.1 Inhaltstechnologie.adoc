@@ -1,4 +1,4 @@
-= 11.8.1 Autorenwerkzeuge
+= 11.8.1 Inhaltstechnologie
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
