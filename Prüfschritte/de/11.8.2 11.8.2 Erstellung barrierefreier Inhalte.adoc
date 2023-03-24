@@ -1,4 +1,4 @@
-= Prüfschritt 11.8.2 Barrierefreie Erstellung von Inhalten
+= Prüfschritt 11.8.2 Erstellung barrierefreier Inhalte
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
