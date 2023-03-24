@@ -1,4 +1,4 @@
-= Prüfschritt 11.5.2.12 Verfügbare Aktionen ausführbar
+= Prüfschritt 11.5.2.12 Ausführung der verfügbaren Handlungen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
