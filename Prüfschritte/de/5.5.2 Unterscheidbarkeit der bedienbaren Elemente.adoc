@@ -4,8 +4,6 @@ include::include/attributes.adoc[]
 
 *Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
-*Achtung: Dieser Prüfschritt ist im Regelfall nicht für mobile Apps anwendbar.*
-
 == Was wird geprüft?
 
 Wenn die IKT physisch bedienbare Teile hat, müssen die physisch bedienbaren Elemente als solche erkennbar sein, ohne dass Sehvermögen zwingend erforderlich ist.
