@@ -25,8 +25,8 @@ Der Prüfschritt ist nur anwendbar, wenn in der App Bedienelemente vorkommen, di
 . Falls das zutrifft: Mittels Sichtprüfung für jedes dieser Bedienelemente prüfen, ob es sichtbar ist und sein jeweiliger Status visuell ermittelbar ist.
 
 === 3. Bewertung
-==== Nicht erfüllt:
-In der App ist ein Bedienelement vorhanden, dass den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand ist nicht visuell ermittelbar ist.
+==== Nicht erfüllt
+* In der App ist ein Bedienelement vorhanden, dass den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand ist nicht visuell ermittelbar ist.
 
 == Einordnung des Prüfschritts
 
