@@ -39,11 +39,11 @@ auf GitHub].
 
 ==== Erfüllt
 
-Das Zielformat enthält alle Barrierefreiheits-Informationen des Ausgangsformats, die grundsätzlich unterstützt werden.
+* Das Zielformat enthält alle Barrierefreiheits-Informationen des Ausgangsformats, die grundsätzlich unterstützt werden.
 
-==== Nicht voll erfüllt
+==== Teilweise erfüllt oder schlechter
 
-Grundsätzlich vom Zielformat unterstützte Barrierefreiheits-Informationen des Ausgangsformats gehen bei der Konvertierung verloren.
+* Grundsätzlich vom Zielformat unterstützte Barrierefreiheits-Informationen des Ausgangsformats gehen bei der Konvertierung verloren.
 
 == Einordnung des Prüfschritts
 
