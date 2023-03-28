@@ -56,7 +56,7 @@ Bedienelemente für Barrierefreiheits-Funktionen sollen grundsätzlich alle Barr
 
 Die Barrierefreiheits-Funktion ist barrierefrei identifizierbar und aktivierbar.
 
-==== Nicht voll erfüllt
+==== Teilweise erfüllt oder schlechter
 
 Bedienelemente der Barrierefreiheitsfunktion oder die Funktion selbst verstoßen gegen Anforderungen der EN.
 
