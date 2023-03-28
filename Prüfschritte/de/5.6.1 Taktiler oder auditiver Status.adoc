@@ -28,7 +28,7 @@ Der Prüfschritt ist nur anwendbar, wenn in der App Bedienelemente vorkommen, di
 Falls die Accessibility-Baseline eines Tests nur Geräte einbezieht, bei der sich der Status von Einstellungen, die den Kontext der Ausgabe oder Eingabe betreffen, an physischen Schaltern ablesen lässt, wäre dieser Prüfschritt erfüllt, auch wenn sich der Status an evtl. vorhandenen redundanten virtuellen Bedienelementen nicht ablesen ließe. In der Regel wäre dann aber dennoch 11.4.1.2 "Name, Rolle, Wert verfügbar" nicht erfüllt.
 
 === 4. Bewertung
-==== Nicht erfüllt:
+==== Nicht erfüllt
 * In der App ist ein Bedienelement vorhanden, dass den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand nicht programmatisch ermittelbar ist. In diesem Fall sind sowohl dieser Prüfschritt als auch 11.4.1.2 "Name, Rolle, Wert verfügbar" nicht erfüllt.
 
 == Einordnung des Prüfschritts
