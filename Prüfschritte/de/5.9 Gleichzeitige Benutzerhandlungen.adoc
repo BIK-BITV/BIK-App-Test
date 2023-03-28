@@ -46,8 +46,8 @@ Ggf. sind bei Touchbedienung außer dem gleichzeitigen Drücken von Gerätetaste
 
 === 4. Bewertung
 
-==== Erfüllt:
-Wenn die Accessibility Baseline Umgebungen einschließt, die bei Tastaturnutzung keine Einfingerbedienung anbieten, sind bei Touchbedienung alle Funktionen der App über Einfinger-Gesten aktivierbar.
+==== Erfüllt
+* Wenn die Accessibility Baseline Umgebungen einschließt, die bei Tastaturnutzung keine Einfingerbedienung anbieten, sind bei Touchbedienung alle Funktionen der App über Einfinger-Gesten aktivierbar.
 
 == Einordnung des Prüfschritts
 
