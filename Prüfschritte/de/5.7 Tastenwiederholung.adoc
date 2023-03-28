@@ -28,7 +28,7 @@ Keine Prüfung.
 
 === 3. Bewertung
 
-==== Nicht anwendbar:
+==== Nicht anwendbar
 Der Prüfschritt ist zurzeit nicht anwendbar.
 
 == Einordnung des Prüfschritts
