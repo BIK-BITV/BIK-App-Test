@@ -8,20 +8,32 @@ include::include/attributes.adoc[]
 
 Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind plattformspezifisch im Programm-Code ausgezeichnet. Tabellen sind wegen des reduzierten Viewports in nativen Apps eher selten, tauchen aber häufiger in Webviews auf. Zum Teil erscheinen Sie in unterschiedlicher Form abhängig von der Viewportbreite des Ausgabegeräts bzw, der Ausrichtung des Geräts. Gehört die die Püfung auf Tablets zum Umfang des Tests, sind hier also unter Umständen abweichende Ansichten zu berücksichtigen.
 
+In diesem Prüfschritt wird außerdem geprüft, ob Layouttabellen eingesetzt werden.
+Programmatische Tabellenstrukturen, die eigentlich für Datentabellen vorgesehen sind, dürfen nicht missbräuchlich für Layoutzwecke eingesetzt werden.
+
 == Warum wird das geprüft?
 
-Sehbehinderte und blinde Nutzende erschließen sich Datentabellen analytisch und entwickeln anhand der Spalten- und ggf. Zeilen-Überschriften eine Vorstellung vom Aufbau der Tabelle. Wenn es solche semantischen Überschriften gibt (oft sind diese auch visuell hervorgehoben) und Zelleninhalte nur mit diesen zusammen aussagekräftig sind, sollen sie beim Navigieren der Tabellenzellen verfügbar sein. Bei jedem Wechsel zur nächsten Zelle wird dann die jeweils neue Spalten- oder Zeilenüberschrift ausgegeben. 
+Sehbehinderte und blinde Nutzende erschließen sich Datentabellen analytisch und entwickeln anhand der Spalten- und ggf. Zeilen-Überschriften eine Vorstellung vom Aufbau der Tabelle.
+Wenn es solche semantischen Überschriften gibt (oft sind diese auch visuell hervorgehoben) und Zelleninhalte nur mit diesen zusammen aussagekräftig sind, sollen sie beim Navigieren der Tabellenzellen verfügbar sein.
+Bei jedem Wechsel zur nächsten Zelle wird dann die jeweils neue Spalten- oder Zeilenüberschrift ausgegeben. 
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden sind.
+Dies schließt Layouttabellen ein.
 
 === 2. Prüfung
-Die Screenreader-Navigation und Ausgabe von Datentabellen in Apps, besonders in Webviews, is oft uneinheitlich. Es kommt vor, dass Tabellen unter manchen Bedingungen fokussierbar und navigierbar sind und unter anderen nicht, selbst auf dem gleichen Gerät. Semantisch richtig aufgebaute Datentabellen können ggf. in responsiven Ansichten nicht zugänglich sein, zum Beispiel nicht im Lesemodus erreichbar sein, obwohl sie semantisch korrekt umgesetzt sind. Dies kann an der App selbst liegen oder auch auf einen Bug des Betriebssystems, des in Webviews transparent genutzten Browsers, oder des Screenreaders hindeuten. Das ist ohne Quelltextzugang nicht immer klar zu entscheiden. Ggf. während der Prüfung die App neu laden, Ansichten neu aufrufen, Screenreader deaktiveren und wieder reaktivieren, Geräte neu starten. Das Ziel ist, die programmatische Umsetzung der App zu bewerten und *nicht* Lücken oder Bugs in der Hilfsmittelunterstützung. Bei Webviews hift es, wenn die Quelle identifizierbar ist, im Desktop-Browser aufgerufen werden kann und dort mit Bordmtteln untersucht werden kann.
+Die Screenreader-Navigation und Ausgabe von Datentabellen in Apps, besonders in Webviews, is oft uneinheitlich.
+Es kommt vor, dass Tabellen unter manchen Bedingungen fokussierbar und navigierbar sind und unter anderen nicht, selbst auf dem gleichen Gerät.
+Semantisch richtig aufgebaute Datentabellen können ggf. in responsiven Ansichten nicht zugänglich sein, zum Beispiel nicht im Lesemodus erreichbar sein, obwohl sie semantisch korrekt umgesetzt sind.
+Dies kann an der App selbst liegen oder auch auf einen Bug des Betriebssystems, des in Webviews transparent genutzten Browsers, oder des Screenreaders hindeuten.
+Das ist ohne Quelltextzugang nicht immer klar zu entscheiden.
+Ggf. während der Prüfung die App neu laden, Ansichten neu aufrufen, Screenreader deaktivieren und wieder reaktivieren, Geräte neu starten.
+Das Ziel ist, die programmatische Umsetzung der App zu bewerten und *nicht* Lücken oder Bugs in der Hilfsmittelunterstützung.
 
-Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android in Abschnitt 3.
+Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android in Abschnitt <<3. Hinweise>>.
 
 ==== 2.1 Werden Tabellen für tabellarische Daten verwendet?
 
@@ -30,13 +42,21 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 . Visuelle Prüfung: Erste Zelle (oben links) antippen, prüfen, ob nach Ausgabe des Zellen-Inhalts sowie Zeilen- und Spaltennummern "Anfang der Tabelle" (iOS) oder "In Tabelle" (Android) ausgegeben wird. 
 . Über horizontale Wischgesten die Zellen der Tabelle linear durchlaufen. Falls Spalten-Überschriften vorhanden sind, prüfen, ob diese bei Fokussierung der Datenzelle ausgegeben werden. (Eine vertikale Wischgesten-Navigation ist meist nicht in gleicher Weise möglich, weil diese Geste vom Screenreader "verbraucht" oder auf die horizontale Navigation gemappt wird.)
 
-==== 2.2 Prüfung der Auszeichnung von Tabellen
+==== 2.2 Werden Tabellen für Layoutzwecke eingesetzt?
+
+. App mit zu prüfender Ansicht starten.
+. Prüfen, ob es Inhalte gibt, die visuell tabellenartig gestaltet sind aber keine tabellarischen Daten widerspiegeln.
+. Screenreader starten.
+.  Werden diese Inhalte angetippt, werden bei Layouttabellen Tabelleninformationen durch den Screenreader ausgegeben.
+  Die Screenreader geben dann z.B. aus, dass es sich um eine Tabelle handelt, geben Zeilen- und Spaltennummer aus oder nennen Zeilen- und Spaltenüberschriften.
+
+==== 2.3 Prüfung der Auszeichnung von Tabellen
 
 . App mit zu prüfender Ansicht öffnen.
 . Prüfen, ob die App-Ansicht eine Datentabelle enthält.
 . Screenreader starten und mit Hilfe der Wischgeste durch die Tabelle navigieren.
 . Prüfen, ob alle Spalten- und Zeilenüberschriften zusammen mit der Datenzelle ausgegeben werden. 
-. Alternativ die Zeilen- bzw. Spaltenüberschrift angetippen und prüfen, was der Screenreader ausgibt: Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnlich als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
+. Alternativ die Zeilen- bzw. Spaltenüberschrift antippen und prüfen, was der Screenreader ausgibt: Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnlich als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
 
 === 3. Hinweise
 
@@ -58,6 +78,10 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte Betrag und Währungszeichen.
 
 === 4. Bewertung
+
+==== Nicht erfüllt:
+
+* Bei Layouttabellen bzw. Rastern gibt der Screenreader Informationen zu Tabellen bzw. Rastern aus.
 
 ==== Nicht voll erfüllt:
 
