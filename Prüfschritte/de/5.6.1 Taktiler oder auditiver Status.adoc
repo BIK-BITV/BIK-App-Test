@@ -23,8 +23,8 @@ Wenn zusätzliche Hardware bei der Nutzung von Apps erforderlich ist, soll auch 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist nur anwendbar, die App zusammen mit gekoppelter hardware geprüft wird. 
-Dazu gehören Handscanner oder Kartenlesegerät.
+Der Prüfschritt ist nur anwendbar, die App zusammen mit gekoppelter Hardware geprüft wird. 
+Dazu gehören z.B. Handscanner oder Kartenlesegerät.
 
 === 2. Prüfung
 . Gibt es in der zusammen mit der App verwendeten Hardware 
