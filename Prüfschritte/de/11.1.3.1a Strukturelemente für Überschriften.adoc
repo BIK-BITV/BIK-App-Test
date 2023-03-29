@@ -8,15 +8,19 @@ include::include/attributes.adoc[]
 
 Überschriften, die zur Beschreibung von Inhalten eingesetzt werden, müssen auch semantisch als Überschriften ausgezeichnet sein. 
 
-Die eingesetzten Überschriften sollten die strukturelle Hierarchie des Inhalts richtig wiedergeben. Aktuell können jedoch unterschiedliche Überschriftsebenen unter iOS / iPadOS und Android lediglich in WebViews mit Web-Techniken (`h1` - `h6` bzw. durch den Einsatz von ARIA-Rollen und -Attributen) realisiert werden.
+Die eingesetzten Überschriften sollten die strukturelle Hierarchie des Inhalts richtig wiedergeben.
+Aktuell können jedoch unterschiedliche Überschriftsebenen unter Android lediglich in WebViews mit Web-Techniken (`h1` - `h6` bzw. durch den Einsatz von ARIA-Rollen und -Attributen) realisiert werden.
+Aufgrund technischer Begrenzungen können Umsetzende hier nur ein UI-Element als einfache Überschrift auszeichnen.
 
-In nativen Ansichten können derzeit Überschriften nicht programmatisch in Ebenen unterteilt werden. Aufgrund technischer Begrenzungen können Umsetzende nur ein UI-Element als einfache Überschrift auszeichnen.
+Unter iOS und iPadOS lassen sich , zusätzlich zur Auszeichnung in Webviews, Überschriftsebenen auch in nativen Ansichten auszeichnen, siehe dazu <<3. Hinweise>>.
 
 == Warum wird das geprüft?
 
-Visuell können Inhalte durch Überschriften strukturiert werden. Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der Ansicht leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.
+Visuell können Inhalte durch Überschriften strukturiert werden.
+Dank dieser Strukturierung weiß der Benutzer, was zusammengehört, kann die Inhalte der Ansicht leicht überblicken und gezielt auf Inhalte zugreifen, die ihn interessieren.
 
-Nutzende, denen diese visuelle Ordnung nicht zur Verfügung steht, zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar ist. Die Verwendung von semantischen Überschriften ist dafür eine wichtige Voraussetzung.
+Nutzende, denen diese visuelle Ordnung nicht zur Verfügung steht, zum Beispiel, weil sie blind sind oder nur einen kleinen Ausschnitt der Seite sehen können, sind darauf angewiesen, dass die Struktur unabhängig von der Darstellung auf dem Bildschirm zugänglich und nutzbar ist.
+Die Verwendung von semantischen Überschriften ist dafür eine wichtige Voraussetzung.
 
 So können Benutzer die Überschriften-Elemente anwenden:
 
@@ -28,33 +32,44 @@ So können Benutzer die Überschriften-Elemente anwenden:
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn es in der App Inhalte gibt, die durch visuelle Überschriften strukturiert werden. Das ist bei informationsorientierten Apps häufig der Fall.
+Der Prüfschritt ist anwendbar, wenn es in der App Inhalte gibt, die durch visuelle Überschriften strukturiert werden.
+Das ist bei informationsorientierten Apps häufig der Fall.
 
 === 2. Prüfung
 
 ==== 2.1 Prüfung von nativen Inhalten
 . App mit zu prüfender Ansicht starten.
-. Screenreader starten und Fokus mit Hilfe der Wischgeste auf Überschriften setzen.
 . Prüfen, ob Inhalte visuell als Überschriften zu erkennen sind und zur Strukturierung eingesetzt werden. 
 . Prüfen, ob diese Überschriften ausgezeichnet sind. 
-. Die Navigationseinstellung des Screenreaders auf "Überschriften" setzen. Anschließend durch alle Überschriften der Ansicht navigieren und die Ausgabe des Screenreaders prüfen. 
-. Der Screenreader gibt eine korrekt ausgezeichnete Überschrift mit dem Wort "Überschrift" aus. 
-. Prüfen, ob die Überschriftensauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich erfolgt.
+. Screenreader starten.
+. Die Navigationseinstellung des Screenreaders auf "Überschriften" setzen.
+  Anschließend durch alle Überschriften der Ansicht navigieren und die Ausgabe des Screenreaders prüfen.
+  Funktioniert das Navigieren zwischen den Überschriften mit Gesten nicht, können die Überschriften auch einzeln angetippt werden.
+. Der Screenreader gibt eine korrekt ausgezeichnete Überschrift mit dem Wort "Überschrift" aus.
+  Ist zusätzlich die Überschriftsebene ausgezeichnet, wird auch diese ausgegeben.
+. Prüfen, ob die Überschriftsauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich erfolgt.
 
 ==== 2.2 Prüfung von WebViews
-. Auf Webviews kann zwischen Überschriftsebenen unterschieden werden.
-. Werden Überschriften mit den entsprechenden Web-Techniken (`h1`- `h6`, alternativ durch den Einsatz von ARIA-Rollen und -Attribute) ausgezeichnet, 
-wird die entsprechende Überschriftenebene ausgegeben. Die Hierarchie der Überschriften soll dann der Gliederung der Inhalte entsprechen. 
-. Der Aufruf des Rotors (iOS) bzw. von Kontextmenü / Navigation (Android) gibt einen Hinweis, ob es sich um ein Webview oder eine native Ansicht handelt. Bei Webviews werden in der Regel mehr Navigationsmöglichkeiten angezeigt.
-. Prüfen, ob die Überschriftensauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich erfolgt.
+
+. Auf Webviews kann unter iOS, iPadOS und Android zwischen Überschriftsebenen unterschieden werden.
+. Werden Überschriften mit den entsprechenden Web-Techniken (`h1`- `h6`, alternativ durch den Einsatz von ARIA-Rollen und -Attributen) ausgezeichnet, wird die entsprechende Überschriftenebene ausgegeben.
+  Die Hierarchie der Überschriften soll dann der Gliederung der Inhalte entsprechen. 
+. Der Aufruf des Rotors (iOS) bzw. von Kontextmenü / Navigation (Android) gibt einen Hinweis, ob es sich um ein Webview oder eine native Ansicht handelt.
+  Bei Webviews werden in der Regel mehr Navigationsmöglichkeiten angezeigt.
+. Prüfen, ob die Überschriftsauszeichnung lediglich zur Erzeugung unterschiedlicher Schriftgrößen eingesetzt wird und damit die Auszeichnung missbräuchlich erfolgt.
 
 === 3. Hinweise
 
 * Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil der Überschriften den jeweiligen Inhalten angemessen sind.
-
-* App-Entwickler haben derzeit keine Möglichkeit unterschiedliche Überschriftsebenen in nativen Ansichten auszuzeichnen. Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht* negativ bewertet.
-
-* Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich um ein WebView, der auf HTML basiert. Überschriften sollten dann korrekt geschachtelt sein (`h1` gefolgt von `h2` gefolgt von `h3`, und so weiter), um die Gliederung der Inhalte abzubilden. Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
+* Android-Entwickler haben derzeit keine Möglichkeit unterschiedliche Überschriftsebenen in nativen Ansichten auszuzeichnen.
+  Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht* negativ bewertet.
+* Unter iOS und iPadOS können seit iOS / iPadOS 15 auch in nativen Apps Überschriftsebenen ausgezeichnet werden.
+  Die Verbreitung der Auszeichnung von Überschriftsebenen ist jedoch sehr gering.
+  Da Android bisher keine Möglichkeit der Auszeichnung von Überschriftsebenen bietet, wird derzeit auch eine fehlende Auszeichnung unter iOS und iPadOS nicht negativ bewertet.
+* Wird vom Screenreader zusätzlich zur Rolle "Überschrift" auch die Überschriftenebene ausgegeben, handelt es sich in der Praxis derzeit meist um ein WebView, der auf HTML basiert.
+  Überschriften sollten dann korrekt geschachtelt sein (`h1` gefolgt von `h2` gefolgt von `h3`, und so weiter), um die Gliederung der Inhalte abzubilden.
+  Das Auslassen von Hierarchie-Ebenen muss aber kein Fehler sein, wenn dies durch die Gliederung der Inhalte gerechtfertigt ist.
+* Falls es sich um eine iOS oder iPadOS App handelt und die Ansicht Potenziell durch die Auszeichnung von Überschriftsebenen profitieren würde, sollten Entwickler auf die Möglichkeit der Auszeichnung von Überschriftsebenen in nativen Ansichten in der Bewertung hingewiesen werden.
 
 === 4. Bewertung
 
@@ -64,19 +79,22 @@ wird die entsprechende Überschriftenebene ausgegeben. Die Hierarchie der Übers
 
 ==== Nicht voll erfüllt:
 
-* Es werden Auszeichnungen für Überschriften eingesetzt. Bei WebViews (siehe "3. Hinweise") ist die Verschachtelung der Hierarchie-Ebenen jedoch irreführend und entspricht nicht der inhaltlichen Gliederung.
+* Es werden Auszeichnungen für Überschriften eingesetzt.
+  Bei WebViews (siehe <<3. Hinweise>>) ist die Verschachtelung der Hierarchie-Ebenen jedoch irreführend und entspricht nicht der inhaltlichen Gliederung.
 
 ==== Nicht erfüllt:
 
-* Es gibt auf der Ansicht gegliederte Inhalte. Überschriften werden nicht als solche semantisch ausgezeichnet.
+* Es gibt auf der Ansicht gegliederte Inhalte.
+  Überschriften werden jedoch nicht als solche semantisch ausgezeichnet.
 
 == Quellen
 
 === iOS
 
-* Apple Developer Documentation: https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620170-header[
-  UI Accessibility Traits / Header]
-* Apple Developer Documentation: https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[Hierarchische Überschriften in iOS]
+* Apple Developer Documentation: https://developer.apple.com/documentation/swiftui/accessibilitytraits/isheader[
+  Accessibility Traits / isHeader]
+* Apple Developer Documentation: https://developer.apple.com/documentation/swiftui/text/accessibilityheading(_:)[
+  Hierarchische Überschriften in iOS]
 
 === Android
 * Android Developer: https://developer.android.com/reference/android/view/View#attr_android:accessibilityHeading[`android:accessibilityHeading` für UI-Elemente]
