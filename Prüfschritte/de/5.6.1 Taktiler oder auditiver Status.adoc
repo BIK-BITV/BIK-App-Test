@@ -8,7 +8,7 @@ include::include/attributes.adoc[]
 Manche Apps können zusammen mit spezieller Hardware genutzt werden. 
 Ein Beispiel ist eine App, die das Einscannen von Produkten über einen Handscanner erlaubt. 
 Ein weiteres Beispiel wäre eine App, die die Authentifizierung von Nutzenden über ein Kartenlesegerät ermöglicht. 
-Wenn es in Hardware, die zusammen mit der App genutzt wird, visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch akustisch oder taktil zu erfassen. 
+Wenn es in Hardware, die zusammen mit der App genutzt wird, visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch akustisch oder taktil (also durch Fühlen mit den Fingern) zu erfassen. 
 Dies gilt für Schalter mit zwei oder drei Zuständen.
 Beispiele wären:
 
@@ -27,15 +27,15 @@ Der Prüfschritt ist nur anwendbar, die App zusammen mit gekoppelter Hardware ge
 Dazu gehören z.B. Handscanner oder Kartenlesegerät.
 
 === 2. Prüfung
-. Gibt es in der zusammen mit der App verwendeten Hardware 
-
+. Wird die App zusammen mit zusätzliche Hardware genutzt?
+. ist der Zustand physische Umschalter an der Hardware mit zwei oder drei Positionen taktil oder akustisch ermittelbar?
 
 === 3. Hinweise
 Wenn die App einen Modus hat, der die gleiche Funktionalität auch ohne gekoppelte Hardware bietet oder der Schalter-Zustand der Hardware auch in der App sowohl visuell als auch programmatisch ermittelbar ist, wäre der Prüfschritt erfüllt.
 
 === 4. Bewertung
 ==== Nicht erfüllt
-* In der mit der App zusammen genutzten Hardware ist ein Umschalter vorhanden, dessen Zustand nicht haptisch oder über Tonsignal ermittelbar ist. 
+* In der mit der App zusammen genutzten Hardware ist ein Umschalter vorhanden, dessen Zustand nicht taktil oder über Tonsignal ermittelbar ist. 
 
 == Einordnung des Prüfschritts
 
