@@ -127,10 +127,10 @@ ifndef::env_embedded[]
   <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
 endif::env_embedded[]
   oder
-ifdef::env_embedded[11.1.3.1e "Beschriftung von Formularelementen programmatisch ermittelbar").]
+ifdef::env_embedded[11.1.3.1d "Beschriftung von Formularelementen programmatisch ermittelbar").]
 ifndef::env_embedded[]
-  <<11.1.3.1e Beschriftung von Formularelementen programmatisch ermittelbar.adoc#,
-  11.1.3.1e Beschriftung von Formularelementen programmatisch ermittelbar>>).
+  <<11.1.3.1d Beschriftung von Formularelementen programmatisch ermittelbar.adoc#,
+  11.1.3.1d Beschriftung von Formularelementen programmatisch ermittelbar>>).
 endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
