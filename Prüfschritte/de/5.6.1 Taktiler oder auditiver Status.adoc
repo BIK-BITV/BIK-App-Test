@@ -5,40 +5,46 @@ include::include/attributes.adoc[]
 *Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
-Wenn es in der App visuell wahrnehmbare Umschalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, etwa einen Schalter zum Feststellen der Bildschirm-Ausrichtung, müssen diese Schalter taktil oder akustisch wahrnehmbar sein. Taktile Wahrnehmung kann etwa über eine Braille-Zeile, akustische Wahrnehmung über einen Screenreader erfolgen. Grundlegend für beides ist die programmatische Ermittelbarkeit des Status.
+Manche Apps können zusammen mit spezieller Harware genutzt werden. 
+Ein Beispiel ist eine App, die das Einscannen von Produkten über einen Handscanner erlaubt. 
+Ein weiteres Beispiel wäre eine App, die die Authentifizierung von Nutzenden über ein Kartenlesegerät vorsieht. 
+Wenn es in Hardware, die zusammen mit der App genutzt wird, visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch akustisch oder taktil zu erfassen. 
+Dies gilt für Schalter mit zwei oder drei Zuständen.
+Beispiele wären:
 
-Die Intention dieser Anforderung ist die Einbeziehung von physischen Schaltern an Geräten, welche Zustände der Ausgabe (etwa Lautstärke) oder Eingabe (etwa Großbuchstaben) mittles Umschalter oder dreiwertigem Schalter feststellen. Dazu gehören etwa Großbuchstaben-Feststelltaste oder dreiwertige Lautstärke-Taste. Im Kontext von Mobilgeräten ist insbesondere die Feststelltaste für die Bildschirmausrichtung relevant, für die sich zum Teil auch physische Tasten finden (etwa beim iPhone). Es lässt sich also ableiten, dass es hier speziell um Bedienelemente geht, die nicht Funktionen der App selbst betreffen, sondern den Kontext der Eingabe oder Ausgabe.
-
-Da sich der Test auf die Prüfung der App selbst beschränkt und Peripherie nicht einbezieht (siehe "Einordnung des Prüfschritts" unten), werden in diesem Prüfschritt nur virtualisierte Schalter erfasst, die den Kontext der Ausgabe oder Eingabe betreffen. Dazu würden zum Beispiel ein Schalter zum Sperren der Ausrichtung oder auch ein Schalter zum Stumm-Stellen gehören, da sie den Gesamtkontext der Ausgabe betreffen. Bei solchen Schaltern muss der Status programmatisch ermittelbar sein, ohne den jeweiligen Schalter bedienen / aktivieren zu müssen.
+* An/Aus Schalter an einem Kartenlesegerät oder Hand-Scanner
+* Umschalttaste für Ton an/Ton aus an einem Eingabegerät
+* Voreinstellungs-Schalter für drei verschiedene Lautstärke-Stufen für die aktustische Ausgabe an einem Gerät
 
 == Warum wird das geprüft?
 
-Von der App implementierte Schalter, die den Kontext der Ein- oder Ausgabe ändern, können dazu führen, dass App-Inhalte nicht oder nur in einer für Nutzende unvertrauten Form erscheinen.  Beispiel Ausrichtungssperre: Bei manchen Apps sind Layout und direkte Verfügbarkeit von Inhalten von der Viewportbreite des Displays in Hoch- oder Querformat abhängig. Viele Apps bieten ihre Inhalte ausschließlich im Hochformat. Die Feststellung einer nicht gewünschten Orientierung, die von Nutzenden nicht programmatisch zu ermitteln ist, kann unter Umständen also eine schwere Barriere darstellen. Der Status solcher Einstellungen muss also programmatisch (und damit takil für die Braillezeile, und auditiv für den Screenreader) verfügbar sein.
+Wenn zusätzliche Hardware bei der Nutzung von Apps erforderlich ist, soll auch der Zustand physischer Bedienelemente wahrnehmbar sein. Dazu gehört, das der Zustand nicht nur visuell, sondern auch mit dem Finger fühlbar oder aber akustisch ermittelbar ist.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist nur anwendbar, wenn in der App Bedienelemente vorkommen, die generell den Kontext der Ausgabe oder Eingabe beeinflussen. Dazu gehören etwa Schalter zum Feststellen der Bildschirmausrichtung oder zum Stummschalten. Andere Schalter für Darstellungsoptionen der App-Inhalte selbst, etwa Kontrastschalter, genereller Ausklappstatus von Disclosure-Widgets, erweiterte Linktexte oder Ähnliches, werden in Prüfschritt 11.4.1.2 bewertet.
+Der Prüfschritt ist nur anwendbar, die App zusammen mit gekoppelter hardware geprüft wird. 
+Dazu gehören Handscanner oder Kartenlesegerät.
 
 === 2. Prüfung
-. Gibt es in der App Bedienelemente für Einstellungen, die generell den Kontext der Ausgabe oder Eingabe beeinflussen (z.B. die Bildschirm-Ausrichtung feststellen oder den Ton stumm schalten)?
-. Falls das zutrifft: Mittels Quelltextanalyse oder Screenreader-Ausgabe für jedes dieser Bedienelemente prüfen, ob dessen Status programmatisch ermittelbar ist.
+. Gibt es in der zusammen mit der App verwendeten Hardware 
+
 
 === 3. Hinweise
-Falls die Accessibility-Baseline eines Tests nur Geräte einbezieht, bei der sich der Status von Einstellungen, die den Kontext der Ausgabe oder Eingabe betreffen, an physischen Schaltern ablesen lässt, wäre dieser Prüfschritt erfüllt, auch wenn sich der Status an evtl. vorhandenen redundanten virtuellen Bedienelementen nicht ablesen ließe. In der Regel wäre dann aber dennoch 11.4.1.2 "Name, Rolle, Wert verfügbar" nicht erfüllt.
+Wenn die App einen Modus hat, der die gleiche Funktionalität auch ohne gekoppelte Hardware bietet oder der Schalter-Zustand der Hardware auch in der App sowohl visuell als auch programmatisch ermittelbar ist, wäre der Prüfschritt erfüllt.
 
 === 4. Bewertung
 ==== Nicht erfüllt
-* In der App ist ein Bedienelement vorhanden, dass den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand nicht programmatisch ermittelbar ist. In diesem Fall sind sowohl dieser Prüfschritt als auch 11.4.1.2 "Name, Rolle, Wert verfügbar" nicht erfüllt.
+* In der mit der App zusammen genutzten Hardware ist ein Umschalter vorhanden, dessen Zustand nicht haptisch oder über Tonsignal ermittelbar ist. 
 
 == Einordnung des Prüfschritts
 
-=== Zur Abgrenzung zu physischen Schaltern und solchen auf Betriebssystem-Ebene 
+=== Abgrenzung zu virtuellen Schaltern in der App 
+Die programmatische Ermittelbarkeit des Zustandes von virtuellen Umschaltern wird in Prüfschritt 11.4.1.2 "Name, Rolle, Wert" sowie 11.5.2.16 "Änderungen von Zuständen und Eigenschaften" geprüft.
 
-App-Entwickler haben auf die genutzten physischen Geräte und Peripherie-Geräte wie Tastaturen keinerlei Einfluss. Ebensowenig können sie beeinflussen, ob die defaultmäßig oder von Nutzenden installierten virtuellen Tastaturen die Anforderung erfüllen. Die dominanten mobilen Betriebssysteme bieten Bedienelemente zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand is bei beiden programmatisch zugänglich und damit über eine Braillzeile taktil und über eine Screenreader-Ausgabe akustisch wahrnehmbar. 
-
-=== Zur Abgrenzung zu virtuellen Tastaturen 
-Die Feststelltasten bei virtuellen Tastaturen geben ihren Feststell-Status oft nur einmalig bei Aktivierung des Feststellmodus aus: so bei den Android-Tastaturen GBoard und SwiftKey. Bei der iOS-Tastatur wird der Feststell-Modus aktivierungsunabhängig bei Fokussierung ausgegeben. Da App-Entwickler keinen Einfluss auf installierte Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
+=== Abgrenzung zu Tastaturen 
+Die Feststelltasten bei ggf. gekoppelten Tastaturen geben ihren Feststell-Status bei entsprechender Voreistellung im Betriebssystem oft nur einmalig bei Aktivierung und Deaktivierung des Feststellmodus aus. 
+Da App-Entwickler keinen Einfluss auf das Verhalten der Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
 
 == Einordnung des Prüfschritts
 
