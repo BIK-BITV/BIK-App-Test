@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 *Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
-Manche Apps können zusammen mit spezieller Harware genutzt werden. 
+Manche Apps können zusammen mit spezieller Hardware genutzt werden. 
 Ein Beispiel ist eine App, die das Einscannen von Produkten über einen Handscanner erlaubt. 
 Ein weiteres Beispiel wäre eine App, die die Authentifizierung von Nutzenden über ein Kartenlesegerät vorsieht. 
 Wenn es in Hardware, die zusammen mit der App genutzt wird, visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch akustisch oder taktil zu erfassen. 
