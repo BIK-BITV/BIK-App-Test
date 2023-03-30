@@ -6,7 +6,10 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind plattformspezifisch im Programm-Code ausgezeichnet. Tabellen sind wegen des reduzierten Viewports in nativen Apps eher selten, tauchen aber häufiger in Webviews auf. Zum Teil erscheinen Sie in unterschiedlicher Form abhängig von der Viewportbreite des Ausgabegeräts bzw, der Ausrichtung des Geräts. Gehört die die Püfung auf Tablets zum Umfang des Tests, sind hier also unter Umständen abweichende Ansichten zu berücksichtigen.
+Datentabellen sind strukturell richtig aufgebaut, Zeilen- und Spaltenüberschriften sind plattformspezifisch im Programm-Code ausgezeichnet.
+Tabellen sind wegen des reduzierten Viewports in nativen Apps eher selten, tauchen aber häufiger in Webviews auf.
+Zum Teil erscheinen Sie in unterschiedlicher Form abhängig von der Viewportbreite des Ausgabegeräts bzw, der Ausrichtung des Geräts.
+Gehört die Prüfung auf Tablets zum Umfang des Tests, sind hier also unter Umständen abweichende Ansichten zu berücksichtigen.
 
 In diesem Prüfschritt wird außerdem geprüft, ob Layouttabellen eingesetzt werden.
 Programmatische Tabellenstrukturen, die eigentlich für Datentabellen vorgesehen sind, dürfen nicht missbräuchlich für Layoutzwecke eingesetzt werden.
@@ -25,6 +28,7 @@ Der Prüfschritt ist immer anwendbar, wenn Tabellen in der App-Ansicht vorhanden
 Dies schließt Layouttabellen ein.
 
 === 2. Prüfung
+
 Die Screenreader-Navigation und Ausgabe von Datentabellen in Apps, besonders in Webviews, is oft uneinheitlich.
 Es kommt vor, dass Tabellen unter manchen Bedingungen fokussierbar und navigierbar sind und unter anderen nicht, selbst auf dem gleichen Gerät.
 Semantisch richtig aufgebaute Datentabellen können ggf. in responsiven Ansichten nicht zugänglich sein, zum Beispiel nicht im Lesemodus erreichbar sein, obwohl sie semantisch korrekt umgesetzt sind.
@@ -40,7 +44,8 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 . Prüfen, ob die App-Ansicht Datentabellen enthält (d.h. Daten stehen in einer logischen Beziehung zueinander und sind rasterartig organisiert).
 . iOS: Alternativ mit aktiviertem Screenreader und Rotor-Einstellung "Tabelle" über vertikale Wischgesten erkunden, ob Datentabellen gefunden werden. 
 . Visuelle Prüfung: Erste Zelle (oben links) antippen, prüfen, ob nach Ausgabe des Zellen-Inhalts sowie Zeilen- und Spaltennummern "Anfang der Tabelle" (iOS) oder "In Tabelle" (Android) ausgegeben wird. 
-. Über horizontale Wischgesten die Zellen der Tabelle linear durchlaufen. Falls Spalten-Überschriften vorhanden sind, prüfen, ob diese bei Fokussierung der Datenzelle ausgegeben werden. (Eine vertikale Wischgesten-Navigation ist meist nicht in gleicher Weise möglich, weil diese Geste vom Screenreader "verbraucht" oder auf die horizontale Navigation gemappt wird.)
+. Über horizontale Wischgesten die Zellen der Tabelle linear durchlaufen (Eine vertikale Wischgesten-Navigation ist meist nicht in gleicher Weise möglich, weil diese Geste vom Screenreader "verbraucht" oder auf die horizontale Navigation gemappt wird).
+  Falls Spalten-Überschriften vorhanden sind, prüfen, ob diese bei Fokussierung der Datenzelle ausgegeben werden.
 
 ==== 2.2 Werden Tabellen für Layoutzwecke eingesetzt?
 
@@ -56,26 +61,36 @@ Zur Tabellennavigation mit dem Screenreader, siehe Hinweise für iOS und Android
 . Prüfen, ob die App-Ansicht eine Datentabelle enthält.
 . Screenreader starten und mit Hilfe der Wischgeste durch die Tabelle navigieren.
 . Prüfen, ob alle Spalten- und Zeilenüberschriften zusammen mit der Datenzelle ausgegeben werden. 
-. Alternativ die Zeilen- bzw. Spaltenüberschrift antippen und prüfen, was der Screenreader ausgibt: Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnlich als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
+. Alternativ die Zeilen- bzw. Spaltenüberschrift antippen und prüfen, was der Screenreader ausgibt:
+  Wenn der Screenreader "Zeilenüberschrift", "Spaltenüberschrift" oder ähnlich als Zusatz spricht, sind die entsprechenden Überschriften korrekt ausgezeichnet.
 
 === 3. Hinweise
 
 ==== 3.1 Allgemeine Hinweise zur Navigation von Tabellen
+
 * Eine vertikale Screenreader-Navigation der Tabelle über Wischgesten ist in der Regel nicht möglich. 
 * Ggf. wird bei Nutzung von Tastaturen die Pfeiltastennavigation zwischen Zellen unterstützt. 
 
 ==== 3.2 Erschließen von Tabellen in iOS
-* Vor der Prüfung sicherstellen, dass in den VoiceOver-Einstellungen im Abschnitt "Tabellenausgabe" die Optionen "Tabellentitel" sowie "Zeilen- und Spaltennummern" aktiviert sind.
-* Vor der Prüfung sicherstellen,  dass in den VoiceOver-Einstellungen unter "Rotor" die Option "Tabellen" als Navgationsmöglichkeit aktiviert ist.
-* Mit Rotoreinstellung "Tabellen" sind Tabellen über vertikale Wischgeste erreichbar (fokussiert wird die Zelle links oben)
-* iOS mit Tastatur: Über CTR + Option + Pfeiltasten können Tabellenzellen durchlaufen werden. Dabei werden semantisch umgesetzte Spaltenüberschriften ausgegeben.
-* iOS mit Tastatur: Über Kurzbefehle (bei iOS mit Tastatur, CTR + Option + C) können Spaltenheader ausgegeben werden.
+
+* Vor der Prüfung sicherstellen, dass in den VoiceOver-Einstellungen unter "Ausführlichkeit" im Abschnitt "Tabellenausgabe" die Optionen "Tabellentitel" sowie "Zeilen- und Spaltennummern" aktiviert sind.
+* Vor der Prüfung sicherstellen,  dass in den VoiceOver-Einstellungen unter "Rotor" die Option "Tabellen" als Navigationsmöglichkeit aktiviert ist.
+* Mit der Rotoreinstellung "Tabellen" sind Tabellen über vertikale Wischgeste erreichbar (fokussiert wird die Zelle links oben).
+* iOS mit Tastatur:
+** Über CTR + Option + Pfeiltasten können Tabellenzellen durchlaufen werden.
+   Dabei werden semantisch umgesetzte Spaltenüberschriften ausgegeben.
+** Über Kurzbefehle (bei iOS mit Tastatur, CTR + Option + C) können Spaltenheader ausgegeben werden.
 
 ==== 3.3 Erschließen von Tabellen in Android
+
 * Eine explizite Navigationsmöglichkeit zu Tabellen gibt es unter Android zur Zeit nicht.
 
 ==== 3.4 Tabellen mit eingesparten Überschriften
-Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht. Ein typisches Beispiel dafür sind Preislisten: in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte Betrag und Währungszeichen.
+
+Tabellen-Überschriften werden nicht generell verlangt.
+Sie sind überflüssig, wenn in den Zellen neben den Einzelwerten auch deren Bedeutung angegeben ist oder wenn die Bedeutung der Einzelwerte sich von selbst versteht.
+Ein typisches Beispiel dafür sind Preislisten:
+in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, in der rechten Spalte Betrag und Währungszeichen.
 
 === 4. Bewertung
 
@@ -88,11 +103,14 @@ Tabellen-Überschriften werden nicht generell verlangt. Sie sind überflüssig, 
 * Für Datentabellen wird keine Tabellensemantik verwendet.
 
 == Quellen
+
 === iOS
+
 * iOS / iPadOS: https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable[
   UIAccessibilityContainerDataTable]
   
 === Android
+
 * Android: https://developers.google.com/chart/interactive/docs/datatables_dataviews[DataTables und DataViews] (developers.google.com)
 
 == Einordnung des Prüfschritts
