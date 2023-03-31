@@ -8,14 +8,24 @@ include::include/attributes.adoc[]
 
 Wenn in der App Funktionen (bzw. Aktionen) angeboten werden, müssen diese auch für Screenreader-Nutzende ermittelbar sein.
 
-Für einfache interaktive Elemente ist die primäre Aktion in der Regel über Beschriftung und Rolle ausreichend klar, etwas "Senden - Schaltfläche" oder "Nutzungsbedingungen - Link". Bei manchen Elementen sind weitere Aktrionen verfügbar, besonders bei gruppierten Elementen. Für diese ist zu prüfen, welche Aktionen grundsätzlich auf dem Element durchführbar sind, und ob diese  Aktionen auch über den Screnreader ausgegeben werden. (Im Prüfschritt 11.5.2.12 wird erfasst, ob sie auch aktivierbar, also ausführbar sind.) 
+Für einfache interaktive Elemente ist die primäre Aktion in der Regel über Beschriftung und Rolle ausreichend klar, etwas "Senden - Schaltfläche" oder "Nutzungsbedingungen - Link". 
+Bei manchen Elementen sind weitere Aktrionen verfügbar, besonders bei gruppierten Elementen. 
+Für diese ist zu prüfen, welche Aktionen grundsätzlich auf dem Element durchführbar sind, und ob diese  Aktionen auch über den Screnreader ausgegeben werden. 
+(Im Prüfschritt 11.5.2.12 wird erfasst, ob sie auch aktivierbar, also ausführbar sind.) 
 
-* Ein Beispiel für ein Element mit verschiedenen Aktionen ist ein Listeneintrag in einer Mail-App. Während die primäre Aktion die jeweilige Mail anzeigt, können  die einzelnen Mails in der Liste z.B. durch Wischgesten gelöscht, markiert oder archiviert werden. Die gleiche Funktionen müssen über Screenreader-Nutzende verfügbar sein - zum Beispiel über die Auswahl aus angebotenen Aktionen über verikale Wischbewegungen, gefolgt von Doppeltippen.
-* Ein anders Beispiel: Eine Karte mit gruppierten Inhalten - etwa eine Nahverkehrsverbindung mit Abfahrtszeit, Fahrtdauer, Verkehrsmittel, und Ticketpreis - wird als ein Fokuspunkt vom Screenreader erreicht. Doppeltipp-Aktivieren geht zu einer Detail-Ansicht der Verbindung. Über den Aufruf einer hinterlegten Aktion kann aber auch ein Ticken-Kaufen-Ansicht erreicht werden, der in der Ansicht ohne Screenreader durch Antippen des Preises innerhalb der Karte erreicht wird.
-* Ein drittes Beispiel: Bei Fokussierung von Text in Eingabefeldern gibt es Bearbeitungsoptionen (z.B. Text auswählen, Kopieren, Ausschnieden, Einfügen). Diese Funktionen müssen auch für den Screenreader erreichbar sein: das heißt, angesagt werden und damit zur Aktivierung angeboten werden.
+* Ein Beispiel für ein Element mit verschiedenen Aktionen ist ein Listeneintrag in einer Mail-App. 
+Während die primäre Aktion die jeweilige Mail anzeigt, können  die einzelnen Mails in der Liste z.B. durch Wischgesten gelöscht, markiert oder archiviert werden. 
+Die gleiche Funktionen müssen über Screenreader-Nutzende verfügbar sein - zum Beispiel über die Auswahl aus angebotenen Aktionen über verikale Wischbewegungen, gefolgt von Doppeltippen.
+* Ein anders Beispiel: Eine Karte mit gruppierten Inhalten - etwa eine Nahverkehrsverbindung mit Abfahrtszeit, Fahrtdauer, Verkehrsmittel, und Ticketpreis - wird als ein Fokuspunkt vom Screenreader erreicht. 
+Doppeltipp-Aktivieren geht zu einer Detail-Ansicht der Verbindung. 
+Über den Aufruf einer hinterlegten Aktion kann aber auch ein Ticken-Kaufen-Ansicht erreicht werden, der in der Ansicht ohne Screenreader durch Antippen des Preises innerhalb der Karte erreicht wird.
+* Ein drittes Beispiel: Bei Fokussierung von Text in Eingabefeldern gibt es Bearbeitungsoptionen (z.B. Text auswählen, Kopieren, Ausschneiden, Einfügen).
+Diese Funktionen müssen auch für den Screenreader erreichbar sein: 
+das heißt, angesagt werden und damit zur Aktivierung angeboten werden.
 
 == Warum wird das geprüft?
-Screenreader-Nutzende sollen den gleichen Funktionsumfang zur Verfügung haben wir andere Nutzende. Dazu müssen nicht nur die primären Funktionen, etwa Aufrufen einer Detailansicht, sondern auch sekundäre Funktionen wie Löschen, Markieren, Liken, Ablegen, Verschieben, Teilen, Editieren usw. verfügbar sein.
+Screenreader-Nutzende sollen den gleichen Funktionsumfang zur Verfügung haben wir andere Nutzende. 
+Dazu müssen nicht nur die primären Funktionen, etwa Aufrufen einer Detailansicht, sondern auch sekundäre Funktionen wie Löschen, Markieren, Liken, Ablegen, Verschieben, Teilen, Editieren usw. verfügbar sein.
 
 == Wie wird geprüft?
 
