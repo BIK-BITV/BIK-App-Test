@@ -27,7 +27,8 @@ Von der Anforderung ausgenommen sind Inhalte der Ansicht, für deren Nutzung ein
 Alle Inhalte, die gut umbrechen können, sollen in den Viewport mit Breite von 320 CSS-Pixeln passen, um die mühsame Bedienung über horizontales Scrollen oder Verschieben über Ziehgesten zu vermeiden. 
 Zu solchen Inhalten, die gut umbrechen können, zählen nicht nur Fließtexte, sondern z.B. auch Formulare und Menüs. 
 
-Wenn Apps angepasste Layouts für breitere Viewports bieten, sollten sich das Layout an schmale Viewports anpassen, etwa, wenn Apps nebeneinander in Splitscreen-Ansichten dargestellt werden, Wenn die AUsrichtung des Geräts geändert wird. 
+Wenn Apps angepasste Layouts für breitere Viewports bieten, soll sich das Layout an schmalere Viewport-Breiten anpassen, etwa, wenn Apps nebeneinander in Splitscreen-Ansichten dargestellt werden. Die Viewport-Breite ändert sich auch, wenn die Ausrichtung des Geräts geändert wird und sich Inhalte an die neue Ausrichtung anpassen. 
+
 Normativ verlangt wird jedoch nur eine Darstellung bei 320 CSS Pixeln Breite, ohne dass ein Scrollen in beide Richtungen notwendig ist.
 
 == Wie wird geprüft?
