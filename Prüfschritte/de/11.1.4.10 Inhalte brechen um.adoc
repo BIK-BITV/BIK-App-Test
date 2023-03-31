@@ -36,11 +36,15 @@ Normativ verlangt wird jedoch nur eine Darstellung bei 320 CSS Pixeln Breite, oh
 
 Der Prüfschritt ist immer anwendbar.
 
-Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit auch auf mobile Apps anwendbar. In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind. 
+Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit auch auf mobile Apps anwendbar. 
+In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind. 
+Der Viewport auch kleinerer aktueller Smartphones ist allerdings in der Regel breiter als 320 CSS Pixel. 
+So hat das iPhone 14 pro eine Viewportbreite von 393 CSS Pixeln. 
 
 === 2. Prüfung
-==== 2.1 Standard-Hochkant-Ansicht mit Viewportbreite von 320 CSS-Pixeln
-Gibt es in der Hochkant Ansicht (kleines Smartphone idealerweise eines mit Viewport-Breite von 320 CCS-Pixeln) Informationen oder Funktionen, die nicht unter die Ausnahmen fallen und die nicht verfügbar sind bzw. nur über horizontales Scrollen / Verschieben erreichbar sind? 
+==== 2.1 Standard-Hochkant-Ansicht mit Viewportbreite von 320 CSS-Pixeln 
+* Wenn kein geeignetes Gerät mit exakt 320 CSS Pixeln Viewportbreite vorhanden ist, wird die Prüfung auf einem anderen möglichst kleinen Smartphone durchgeführt.
+* Gibt es in der Hochkant Ansicht Informationen oder Funktionen, die nicht unter die Ausnahmen fallen und die nicht verfügbar sind bzw. nur über horizontales Scrollen / Verschieben erreichbar sind? 
 
 ==== 2.2 Prüfung von Apps mit breiterem Layout und Zoomfunktion
 . *Vorbedingung 1:* Hat die App selbst eine Zoomfunktion (es geht nicht um den Zoom bzw. die Vergrößerung über die Bedienungshilfen des Betriebssystems)?
