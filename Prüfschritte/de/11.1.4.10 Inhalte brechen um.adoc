@@ -20,14 +20,15 @@ Von der Anforderung ausgenommen sind Inhalte der Ansicht, für deren Nutzung ein
 * Spiele
 * Präsentationen
 * Datentabellen 
-* Anwendungs-Schnittstellen, in denen die Bearbeitung von Inhalten die permanente Verfügbarkeit von
-Werkzeugleisten erfordert.
+* Anwendungs-Schnittstellen, in denen die Bearbeitung von Inhalten die permanente Verfügbarkeit von Werkzeugleisten erfordert.
 
 == Warum wird das geprüft?
 
-Alle Inhalte, die gut umbrechen können, sollen in den Viewport mit Breite von 320 CSS-Pixeln passen, um die mühsame Bedienung über horizontales Scrollen oder Verschieben über Ziehgesten zu vermeiden. Zu solchen Inhalten, die gut umbrechen können, zählen nicht nur Fließtexte, sondern z.B. auch Formulare und Menüs.
+Alle Inhalte, die gut umbrechen können, sollen in den Viewport mit Breite von 320 CSS-Pixeln passen, um die mühsame Bedienung über horizontales Scrollen oder Verschieben über Ziehgesten zu vermeiden. 
+Zu solchen Inhalten, die gut umbrechen können, zählen nicht nur Fließtexte, sondern z.B. auch Formulare und Menüs. 
 
-Wenn native Appps ähnlich wie Desktop-Browser eine Zoomfunktion anbieten, hilft dies sehbehinderten Nutzern, die eine vergrößerte Darstellung brauchen, z.B. um Text überhaupt lesen zu können. Wenn so eine Zoom-Funktion in der App geboten wird, wäre zu prüfen, ob nach Hineinzoomen auf eine Viewport-Breite von 320 CSS-Pixel noch alle Informationen und Funktionen verfügbar sind.
+Wenn Apps angepasste Layouts für breitere Viewports bieten, sollten sich das Layout an schmale Viewports anpassen, etwa, wenn Apps nebeneinander in Splitscreen-Ansichten dargestellt werden, Wenn die AUsrichtung des Geräts geändert wird. 
+Normativ verlangt wird jedoch nur eine Darstellung bei 320 CSS Pixeln Breite, ohne dass ein Scrollen in beide Richtungen notwendig ist.
 
 == Wie wird geprüft?
 
