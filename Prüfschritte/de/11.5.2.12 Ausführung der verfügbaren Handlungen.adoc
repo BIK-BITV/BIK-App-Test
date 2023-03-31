@@ -15,12 +15,19 @@ genannten Aktionen müssen auch mittels Hilfstechnologie ausführbar sein.
 
 Wenn in der App Funktionen (bzw. Aktionen) ermittelbar sind, müssen diese auch für Screenreader-Nutzende aktivierbar sein.
 
-* Ein Beispiel für ein Element mit verschiedenen Aktionen ist ein Listeneintrag in einer Mail-App. Während die primäre Aktion die jeweilige Mail anzeigt, können für die einzelnen Mails in der Liste auch weitere Aktioben, wie Löschen, Markieren oder Archivieren, aufgerufen werden, z.B. durch vertikale Wischgesten. Wenn eine solche Aktion ausgegeben wird, muss sie auch mit dem Screenreader aktivierbar sein, z.B  Doppeltippen.
-* Ein anders Beispiel: Eine Liste von gruppierten Inhalten - etwa eine Nahverkehrsverbindung mit Abfahrtszeit, Fahrtdauer, Verkehrsmittel, und Ticketpreis - wird als ein Fokuspunkt vom Screenreader erreicht. Doppeltipp-Aktivieren geht zu einer Detail-Ansicht der Verbindung. Über den Aufruf einer hinterlegten Aktion, zum Beispiel über vertikale Wischgesten, wird eine Ticken-Kaufen-Ansicht ausgegeben, die in der Ansicht ohne Screenreader durch Antippen des Preises erreicht wird. Diese muss nach Ausgabe der Aktion auch aktivierbar sein, etwa durch Doppeltippen.
-* Ein drittes Beispiel: Bei Fokussierung von Text in Eingabefeldern gibt es Bearbeitungsoptionen (z.B. Text auswählen, Kopieren, Ausschneiden, Einfügen). Diese Funktionen müssen nach Ausgabe auch für Screenreader-Nutzende aktivierbar sein.
+* Ein Beispiel für ein Element mit verschiedenen Aktionen ist ein Listeneintrag in einer Mail-App. 
+Während die primäre Aktion die jeweilige Mail anzeigt, können für die einzelnen Mails in der Liste auch weitere Aktioben, wie Löschen, Markieren oder Archivieren, aufgerufen werden, z.B. durch vertikale Wischgesten. 
+Wenn eine solche Aktion ausgegeben wird, muss sie auch mit dem Screenreader aktivierbar sein, z.B  Doppeltippen.
+* Ein anders Beispiel: Eine Liste von gruppierten Inhalten - etwa eine Nahverkehrsverbindung mit Abfahrtszeit, Fahrtdauer, Verkehrsmittel, und Ticketpreis - wird als ein Fokuspunkt vom Screenreader erreicht. 
+Doppeltipp-Aktivieren geht zu einer Detail-Ansicht der Verbindung. 
+Über den Aufruf einer hinterlegten Aktion, zum Beispiel über vertikale Wischgesten, wird eine Ticken-Kaufen-Ansicht ausgegeben, die in der Ansicht ohne Screenreader durch Antippen des Preises erreicht wird. 
+Diese muss nach Ausgabe der Aktion auch aktivierbar sein, etwa durch Doppeltippen.
+* Ein drittes Beispiel: Bei Fokussierung von Text in Eingabefeldern gibt es Bearbeitungsoptionen (z.B. Text auswählen, Kopieren, Ausschneiden, Einfügen).
+Diese Funktionen müssen nach Ausgabe auch für Screenreader-Nutzende aktivierbar sein.
 
 == Warum wird das geprüft?
-Screenreader-Nutzende sollen den gleichen Funktionsumfang zur Verfügung haben wir andere Nutzende. Dazu gehören nicht nur die primären Funktionen, etwa Aufrufen einer Detailansicht, sondern auch sekundäre Funktionen wie Löschen, Markieren, Liken, Ablegen, Verschieben, Teilen oder Editieren.
+Screenreader-Nutzende sollen den gleichen Funktionsumfang zur Verfügung haben wir andere Nutzende. 
+Dazu gehören nicht nur die primären Funktionen, etwa Aufrufen einer Detailansicht, sondern auch sekundäre Funktionen wie Löschen, Markieren, Liken, Ablegen, Verschieben, Teilen oder Editieren.
 
 == Wie wird geprüft?
 
@@ -30,12 +37,14 @@ Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält b
 === 2. Prüfung
 
 ==== 2.1 iOS
-. Die Prüfung ergänzt den in Prüfschritt 11.5.2.11 beschriebenen Ablauf. Alle von Voiceover ausgegebenen Aktionen müssen auch aktivierbar sein, in der Regel durch Doppeltippen an beliebiger Stelle auf dem Display.
+. Die Prüfung ergänzt den in Prüfschritt 11.5.2.11 beschriebenen Ablauf. 
+Alle von Voiceover ausgegebenen Aktionen müssen auch aktivierbar sein, in der Regel durch Doppeltippen an beliebiger Stelle auf dem Display.
 . Wird die programmatisch verfügbare Funktion nach Aktivierung auch ausgeführt? 
 
 ==== 2.2 Android
 
-. Die Prüfung ergänzt den in Prüfschritt 11.5.2.11 beschriebenen Ablauf. Alle von Talkback ausgegebenen Aktionen müssen auch aktivierbar sein, zum Beispiel durch Doppeltippen an beliebiger Stelle auf dem Display.
+. Die Prüfung ergänzt den in Prüfschritt 11.5.2.11 beschriebenen Ablauf. 
+Alle von Talkback ausgegebenen Aktionen müssen auch aktivierbar sein, zum Beispiel durch Doppeltippen an beliebiger Stelle auf dem Display.
 . Manchmal sind mehrere Aktivierungsgesten verfügbar die bei Fokussierung des Elements ausgegeben werden, etwa "Zum Auswählen doppeltippen, Zum Tickets kaufen doppeltippen und halten".
 . Wird die programmatisch verfügbare Funktion nach der entsprechenden Aktivierung auch ausgeführt? 
 
