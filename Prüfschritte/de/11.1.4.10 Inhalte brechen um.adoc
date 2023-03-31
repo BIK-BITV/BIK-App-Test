@@ -36,7 +36,7 @@ Normativ verlangt wird jedoch nur eine Darstellung bei 320 CSS Pixeln Breite, oh
 
 Der Prüfschritt ist immer anwendbar.
 
-Laut EN 301 549 Version 3.1.1 ist dieser Prüfschritt auf Software und damit auch auf mobile Apps anwendbar. 
+Laut EN 301 549 Version 3.2.1 ist dieser Prüfschritt auf Software und damit auch auf mobile Apps anwendbar. 
 In der Regel ist er schon dadurch erfüllt, dass alle Inhalte auf die Ausgabe innerhalb des Hochkant-Viewports optimiert sind. 
 Der Viewport auch kleinerer aktueller Smartphones ist allerdings in der Regel breiter als 320 CSS Pixel. 
 So hat das iPhone 14 eine Viewportbreite von 390 CSS-Pixeln. Das Samsung Galaxy S21 Ultra hat eine Viewportbreite von 384 CSS-Pixeln.
