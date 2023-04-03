@@ -19,11 +19,13 @@ Menschen mit motorischen Einschränkungen sollen physische Informations- und Kom
 Der Prüfschritt ist anwendbar, wenn die zu prüfende App zusammen mit physischem Zubehör genutzt wird und dieses Szenario geprüft wird. Beispiele für physisches Zubehör wären etwa ein Handscanner oder ein Kartenlesegerät zur Authentifizierung.
 
 === 2. Prüfung
-. Prüfen, ob während der Nutzung des Zubehörs  bei der Bedienung phyischer Schalter, Regler oder Drehknöpfe ein physisches Greifen, ein Zusammendrücken oder eine Drehung des Handgelenks erforderlich ist. Ein einfaches Drücken einer Taste (etwa die Taste eines Nummernblocks) fällt nicht unter die genannten Aktionen.
+. Prüfen, ob während der Nutzung des Zubehörs  bei der Bedienung phyischer Teile (etwa Schalter, Regler oder Drehknöpfe) ein physisches Greifen, ein Zusammendrücken, oder eine Drehung des Handgelenks erforderlich sind.
 . Falls ja: Gibt es für den Prozess eine alternative Bedienmethode ohne diese Aktionen?
 
 === 3. Hinweise
-Wenn es eine alternative Bedienmethode gibt, müssen alle erforderlichen Schritte dieser Methode voll barrierefrei sein.
+
+* Wenn es eine alternative Bedienmethode gibt, müssen alle erforderlichen Schritte dieser Methode voll barrierefrei sein.
+* Ein einfaches Drücken einer Taste (etwa die Taste eines Nummernblocks) fällt nicht unter die genannten physischen Aktionen.
 
 === 4. Bewertung
 
