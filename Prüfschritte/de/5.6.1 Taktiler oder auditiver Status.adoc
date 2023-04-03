@@ -31,22 +31,26 @@ Dazu gehören z.B. Handscanner oder Kartenlesegerät.
 . ist der Zustand physische Umschalter an der Hardware mit zwei oder drei Positionen taktil oder akustisch ermittelbar?
 
 === 3. Hinweise
-Wenn die App einen Modus hat, der die gleiche Funktionalität auch ohne gekoppelte Hardware bietet oder der Schalter-Zustand der Hardware auch in der App sowohl visuell als auch programmatisch ermittelbar ist, wäre der Prüfschritt erfüllt.
+* Wenn die App einen Modus hat, der die gleiche Funktionalität auch ohne gekoppeltes Zubehör bietet oder der Schalter-Zustand des Zubehörs auch in der App sowohl visuell als auch programmatisch ermittelbar ist, wäre der Prüfschritt erfüllt.
+* Die Feststelltasten bei ggf. gekoppelten Tastaturen geben ihren Feststell-Status bei entsprechender Voreistellung im Betriebssystem oft nur einmalig bei Aktivierung und Deaktivierung des Feststellmodus aus. 
+Da App-Entwickler keinen Einfluss auf das Verhalten der Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
 
 === 4. Bewertung
 ==== Nicht erfüllt
 * In der mit der App zusammen genutzten Hardware ist ein Umschalter vorhanden, dessen Zustand nicht taktil oder über Tonsignal ermittelbar ist. 
 
-== Einordnung des Prüfschritts
+== Quellen
 
-=== Abgrenzung zu virtuellen Schaltern in der App 
-Die programmatische Ermittelbarkeit des Zustandes von virtuellen Umschaltern wird in Prüfschritt 11.4.1.2 "Name, Rolle, Wert" sowie 11.5.2.16 "Änderungen von Zuständen und Eigenschaften" geprüft.
-
-=== Abgrenzung zu Tastaturen 
-Die Feststelltasten bei ggf. gekoppelten Tastaturen geben ihren Feststell-Status bei entsprechender Voreistellung im Betriebssystem oft nur einmalig bei Aktivierung und Deaktivierung des Feststellmodus aus. 
-Da App-Entwickler keinen Einfluss auf das Verhalten der Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
+* ETSI Labs Issue #49: https://labs.etsi.org/rep/HF/en301549/-/issues/49[5.6.1 and 5.6.2 applicable to on-screen graphic controls?]
 
 == Einordnung des Prüfschritts
+=== Abgrenzung zu anderen Prüfschritten
+In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über verschiedene andere Prüfschritte der En abgedeckt, besonders durch:
+
+* 11.1.4.11 Kontraste von Grafiken und Bedienelementen ausreichend
+* 11.4.1.2 Name, Rolle, Wert verfügbar
+* 11.5.2.15 Änderungsbenachrichtigung
+* 11.5.2.16 Änderungen von Zuständen und Eigenschaften
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
@@ -64,7 +68,3 @@ NOTE 2:
 An example of a locking or toggle control is the "Caps Lock" key found on most keyboards. Another example is the volume button on a pay telephone, which can be set at normal, loud, or extra loud volume.
 --
 ____
-
-== Quellen
-
-* ETSI Labs Issue #49: https://labs.etsi.org/rep/HF/en301549/-/issues/49[5.6.1 and 5.6.2 applicable to on-screen graphic controls?]
