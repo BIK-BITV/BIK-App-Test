@@ -70,12 +70,12 @@ Bei der Prüfung von Apps sollten Links stichprobenartig auf externe Ressourcen 
 
 === 4. Bewertung
 
-*Erfüllt:*
+==== Erfüllt:
 
 * Alle Links benennen im Linktext oder im direkten Kontext Linkziel oder Linkzweck.
 * Alle Links auf Angebote / Ressourcen außerhalb der App geben im Linktext selbst oder im unmittelbaren Kontext Auskunft über das Dateiformat oder das externe Ziel. (öffnet im Browser, …)
 
-*Nicht voll erfüllt:*
+==== Teilweise erfüllt oder schlechter:
 
 * Ziel oder Zweck des Links ist nicht eindeutig oder missverständlich.
 
