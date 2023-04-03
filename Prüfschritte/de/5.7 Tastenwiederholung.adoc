@@ -31,6 +31,10 @@ Keine Prüfung.
 ==== Nicht anwendbar
 * Der Prüfschritt ist zurzeit nicht anwendbar.
 
+== Quellen
+
+* Android App offering key repeat settings: https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelper&pli=1[External Keyboard Helper Pro]
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.
@@ -48,6 +52,3 @@ b) the key repeat rate shall be adjustable down to one character per 2 seconds.
 --
 ____
 
-== Quellen
-
-* Android App offering key repeat settings: https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelper&pli=1[External Keyboard Helper Pro]
