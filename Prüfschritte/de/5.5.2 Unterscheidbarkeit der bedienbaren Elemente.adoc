@@ -32,6 +32,15 @@ Eine Möglichkeit, diese Anforderung zu erfüllen, besteht darin, die physisch b
 
 == Einordnung des Prüfschritts
 
+=== Abgrenzung von anderen Prüfschritten
+
+In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über verschiedene andere Prüfschritte der En abgedeckt, besonders durch:
+
+* 11.1.4.11 Kontraste von Grafiken und Bedienelementen ausreichend
+* 11.4.1.2 Name, Rolle, Wert verfügbar
+* 11.5.2.15 Änderungsbenachrichtigung
+* 11.5.2.16 Änderungen von Zuständen und Eigenschaften
+
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
