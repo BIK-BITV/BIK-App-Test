@@ -53,11 +53,12 @@ Wenn Formulare keine Fehlermeldungen erzeugen, ist dies nicht negativ zu bewerte
 
 === Abgrenzung von anderen Prüfkriterien
 
-* Die Identifizierung und Benennung des Fehlers, ist Gegenstand des Prüfschritts
+* Die Identifizierung und Benennung des Fehlers ist Gegenstand des Prüfschritts
 ifdef::env_embedded[11.3.3.1 "Fehlererkennung".]
 ifndef::env_embedded[]
   <<11.3.3.1 Fehlererkennung.adoc#,11.3.3.1 Fehlererkennung>>.
 endif::env_embedded[]
+Hier geht es um die Angemessenheit und Verständlichkeit der Fehlermeldung(en) selbst.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
