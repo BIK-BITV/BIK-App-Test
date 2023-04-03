@@ -82,7 +82,7 @@ Bei der Prüfung von Apps sollten Links stichprobenartig auf externe Ressourcen 
 == Quellen
 
 === Allgemein
-
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-4-4#mark-links[Mark links] (mehrere Entwicklungsumgebungen)
 
 == Einordnung des Prüfschritts
 
