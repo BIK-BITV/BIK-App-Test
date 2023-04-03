@@ -34,13 +34,8 @@ Eine Möglichkeit, diese Anforderung zu erfüllen, besteht darin, die physisch b
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
-Kriterium 5.5.2 Operable parts discernibility
-
-== Quellen
-
 [.BLOCK_LANG_EN]
-=== 5.5.2 Operable parts discernibility
-
+==== 5.5.2 Operable parts discernibility
 ____
 [.BLOCK_LANG_EN]
 --
@@ -50,5 +45,3 @@ NOTE:
 One way of meeting this requirement is by making the operable parts tactilely discernible.
 --
 ____
-
-(Aus EN 301 549 V3.2.1 Abschnitt 5.5.2 Operable parts discernibility)
