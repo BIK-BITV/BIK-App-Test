@@ -45,7 +45,7 @@ Da App-Entwickler keinen Einfluss auf das Verhalten der Tastaturen haben, werden
 
 == Einordnung des Prüfschritts
 === Abgrenzung zu anderen Prüfschritten
-In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über verschiedene andere Prüfschritte der En abgedeckt, besonders durch:
+In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über andere Prüfschritte abgedeckt, besonders durch:
 
 * 11.1.4.11 Kontraste von Grafiken und Bedienelementen ausreichend
 * 11.4.1.2 Name, Rolle, Wert verfügbar
