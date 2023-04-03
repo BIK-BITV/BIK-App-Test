@@ -44,6 +44,7 @@ ____
 --
 Where ICT has RTT capabilities, and provides speaker identification for voice, the ICT shall provide speaker identification for RTT.
 
-NOTE: This is necessary to enable both voice and RTT participants to know who is currently communicating, whether it be in RTT or voice.
+NOTE: 
+This is necessary to enable both voice and RTT participants to know who is currently communicating, whether it be in RTT or voice.
 --
 ____
