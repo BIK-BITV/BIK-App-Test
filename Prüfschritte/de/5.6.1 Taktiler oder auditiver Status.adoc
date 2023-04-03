@@ -67,4 +67,4 @@ ____
 
 == Quellen
 
-* ETSI Labs Issue #49: https://labs.etsi.org/rep/HF/en301549/-/issues/49[5.6.1 and 5.6.1 applicable to on-screen graphic controls?]
+* ETSI Labs Issue #49: https://labs.etsi.org/rep/HF/en301549/-/issues/49[5.6.1 and 5.6.2 applicable to on-screen graphic controls?]
