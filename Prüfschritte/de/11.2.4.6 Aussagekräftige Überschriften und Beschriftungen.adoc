@@ -45,7 +45,7 @@ Blinde Prüfende sollten beim Durchlaufen der Ansichten zusammen mit der sehende
 
 * Überschriften passen zu den ihnen folgenden Inhalten, Beschriftungen von Formularelementen sind aussagekräftig.
 
-==== Nicht voll erfüllt:
+==== Teilweise erfüllt oder schlechter:
 * Überschriften oder Beschriftungen sind obskur oder schwer verständlich (z.B. unübersetzt)
 * Durch Flüchtigkeits- oder Kopierfehler haben Formularelemente unrichtige, nicht zutreffende Beschriftungen
 * Bestimmte Eingabeformate sind für valide Eingaben erforderlich, werden aber nicht über zusätzliche Beschriftungen vermittelt
