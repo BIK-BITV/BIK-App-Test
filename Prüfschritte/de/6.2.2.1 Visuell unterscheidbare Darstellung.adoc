@@ -40,7 +40,17 @@ Der Prüfschritt ist anwendbar, wenn die App Echtzeit-Textkommunikation (RTT, Re
 
 * Der Prüfschritt verlangt nur die Unterscheidung von gesendeten (auch Nutzersicht also eignen) und empfangenen Äußerungen, nicht die Unterscheidung verschiedener empfangener Äußerungen.
 
+
+== Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[ETSI TR 103 708 V1.1.1: Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling (PDF)]
+* RFC 8865 T.140 https://www.rfc-editor.org/rfc/rfc8865.pdf[Real-Time Text Conversation over WebRTC]
+* https://w3c.github.io/webrtc-pc/[WebRTC 1.0: Real-Time Communication Between Browsers.] W3C Editor's Draft 06 February 2023
+
 == Einordnung des Prüfschritts
+
+
+=== Abgrenzung zu anderen Prüfschritten
+Wenn Nachrichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 11.1.4.1a "Ohne Farbe nutzbar" nicht erfüllt. Andere Anforderungen (etwa, dass der Text selbst oder auch der Rahmen oder andere grafische Elemente zur Unterscheidung kontrastreich genug sind) werden außerdem in den dafür zuständigen Prüfschritten bewertet.
 
 === Einordnung des Prüschritts nach der EN 301 549 V3.1.1
 
@@ -61,6 +71,3 @@ text appear in the sequential way that they may need or prefer.
 --
 ____
 
-=== Abgrenzung zu anderen Prüfschritten
-
-Wenn Nachrichten des Senders und des Empfängers nur über die Farbe des Textes unterschieden werden können und der Kontrastunterschied beider Arten von Nachricht unter 3:1 liegt, sind sowohl dieser Prüfschritt als auch Prüfschritt 11.1.4.1a "Ohne Farbe nutzbar" nicht erfüllt. Andere Anforderungen (etwa, dass der Text selbst oder auch der Rahmen oder andere grafische Elemente zur Unterscheidung kontrastreich genug sind) werden außerdem in den dafür zuständigen Prüfschritten bewertet.
