@@ -8,7 +8,7 @@ include::include/attributes.adoc[]
 
 Ziel oder Zweck von Links sollen aus dem Linktext hervorgehen oder aus dem direkten Kontext des Links ermittelbar sein. 
 
-Links spielen in nativen Apps vor bei Verweisen auf externe Webinhalte und innerhalb von Webviews eine Rolle, denn für de Navigation innerhalb von Apps werden üblicherweise Schaltflächen (Android) bzw. Tasten (iOS) verwendet. In Webviews laden Links die verlinkten Seiten in den gleichen Webview-Container. Hier gelten die gleichen Kriterien wie bei der Prüfung von Webseiten: Der Link soll entweder in sich aussagekräftig sein oder über den programmatisch ermittelbaren Kontext. 
+Links spielen in nativen Apps vor bei Verweisen auf externe Webinhalte und innerhalb von Webviews eine Rolle, denn für die Navigation innerhalb von Apps werden üblicherweise Schaltflächen (Android) bzw. Tasten (iOS) verwendet. In Webviews laden Links die verlinkten Seiten in den gleichen Webview-Container. Hier gelten die gleichen Kriterien wie bei der Prüfung von Webseiten: Der Link soll entweder in sich aussagekräftig sein oder über den programmatisch ermittelbaren Kontext. 
 
 Tauchen Links in nativen Apps auf, ist dies meist ein Zeichen, das der App-Kontext verlassen wird und das Dokument in einer anderen Anwendung aufgerufen wird, die zusätzlich geöffnet wird. Deshalb sollten solche Links zusätzlich zum aussagekräftigen Linktext einen Hinweis auf das Ziel(format) geben, z.B. "öffnet in Browser" oder "PDF".
 
