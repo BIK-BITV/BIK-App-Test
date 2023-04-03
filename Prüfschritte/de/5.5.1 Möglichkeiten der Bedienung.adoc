@@ -35,6 +35,15 @@ Der Prüfschritt ist anwendbar, wenn die zu prüfende App zusammen mit physische
 
 == Einordnung des Prüfschritts
 
+=== Abgrenzung von anderen Prüfschritten
+*In diesem Prüfschritt geht es um die Bedienbarkeit von Apps mit zusätzlichem Zubehör durch menschen mit motorischen Einschränkungen. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über verschiedene andere Prüfschritte der En abgedeckt, besonders durch:
+
+* 11.2.1.1 Tastatur
+* 11.2.1.4 Tastatur-Kurzbefehle abschaltbar oder anpassbar
+* 11.2.5.1 Alternativen für komplexe Zeigergesten
+* 11.2.5.2 Zeigergesten-Eingaben können abgebrochen oder widerrufen werden
+* 11.4.1.2 Name, Rolle, Wert verfügbar
+
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
