@@ -30,7 +30,7 @@ Der Prüfschritt ist anwendbar, wenn die zu prüfende App zusammen mit physische
 === 4. Bewertung
 
 ==== Erfüllt:
-* Zur Nutzung des Zubehörs sind weder ein physisches Greifen, noch ein Zusammendrücken oder eine Drehung des Handgelenks erforderlich.
+* Zur Nutzung des Zubehörs sind physisches Greifen, Zusammendrücken, und eine Drehung des Handgelenks nicht erforderlich.
 *  Es gibt eine barrierefreie Alternative, alle erforderliche Aktionen zur Nutzung der App mit Zubehör ohne die physischen Aktionen (Greifen, Zusammendrückenm Drehung des Handgelenks) auszuführen.
 
 == Einordnung des Prüfschritts
