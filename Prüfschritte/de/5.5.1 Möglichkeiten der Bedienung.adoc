@@ -42,7 +42,6 @@ In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör d
 * 11.2.1.4 Tastatur-Kurzbefehle abschaltbar oder anpassbar
 * 11.2.5.1 Alternativen für komplexe Zeigergesten
 * 11.2.5.2 Zeigergesten-Eingaben können abgebrochen oder widerrufen werden
-* 11.4.1.2 Name, Rolle, Wert verfügbar
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
