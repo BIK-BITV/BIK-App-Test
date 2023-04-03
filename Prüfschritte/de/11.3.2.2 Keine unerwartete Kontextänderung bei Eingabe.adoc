@@ -37,21 +37,16 @@ Formularelemente enthält.
 === Prüfung
 
 . App mit zu prüfender Ansicht starten
-. Formularelemente (Checkboxes, Radio Buttons, Auswahllisten)
-  ausprobieren, Werden unerwartete und nicht angekündigte Kontextänderungen
-  erzeugt?
-. Überprüfen, ob Inhaltsänderungen hervorgerufen werden (etwa Einblendungen
-  zusätzlicher Formularfelder). Sind die Inhaltsänderungen begrenzt und gut
-  nachvollziehbar oder werden vor dem auslösenden Element angekündigt bzw. erklärt?
-. Prüfen, ob Inhaltsänderungen unterhalb des Elements, das sie auslöst,
-  hervorgerufen werden.
-. Prüfen, ob durch Formulareingaben hervorgerufene Kontextänderungen (etwa
-  dynamisch eingeblendete Elemente) den aktuellen Fokus versetzen
+. Formularelemente (Checkboxes, Radio Buttons, Auswahllisten)  aktivieren. 
+Werden unerwartete und nicht angekündigte Kontextänderungen erzeugt?
+. Überprüfen, ob Inhaltsänderungen hervorgerufen werden (etwa Einblendungen zusätzlicher Formularfelder). 
+  Sind die Inhaltsänderungen begrenzt und gut nachvollziehbar oder werden vor dem auslösenden Element angekündigt bzw. erklärt?
+. Prüfen, ob Inhaltsänderungen unterhalb des Elements, das sie auslöst, hervorgerufen werden.
+. Prüfen, ob durch Formulareingaben hervorgerufene Kontextänderungen (etwa dynamisch eingeblendete Elemente) den aktuellen Fokus versetzen,
 
 === Hinweise
 
-Dynamische Änderungen, etwa die automatische Einblendung von Vorschlägen
-unterhalb des Texteingabefelds einer Such-Funktion, sollen nicht den aktuellen
+Dynamische Änderungen, etwa die automatische Einblendung von Vorschlägen unterhalb des Texteingabefelds einer Such-Funktion, sollen nicht den aktuellen
 Fokus versetzen.
 
 *Zur Abgrenzung von Kontextänderungen und Inhaltsänderungen:*
