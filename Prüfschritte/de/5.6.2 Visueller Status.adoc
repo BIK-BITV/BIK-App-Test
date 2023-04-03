@@ -28,11 +28,19 @@ Der Prüfschritt ist nur anwendbar, wenn in der App Bedienelemente vorkommen, di
 ==== Nicht erfüllt
 * In der App ist ein Bedienelement vorhanden, dass den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand ist nicht visuell ermittelbar ist.
 
+== Quellen
+
+* ETSI Labs Issue #49: https://labs.etsi.org/rep/HF/en301549/-/issues/49[5.6.1 and 5.6.2 applicable to on-screen graphic controls?]
+
 == Einordnung des Prüfschritts
+=== Abgrenzung zu anderen Prüfschritten
+In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über andere Prüfschritte abgedeckt, besonders durch:
 
-=== Zur Abgrenzung zu physischen Schaltern und solchen auf Betriebssystem-Ebene 
+* 11.1.4.11 Kontraste von Grafiken und Bedienelementen ausreichend
 
-App-Entwickler haben auf die genutzten physischen Geräte und Peripherie-Geräte wie Tastaturen keinerlei Einfluss. Ebensowenig können sie beeinflussen, ob die defaultmäßig oder von Nutzenden installierten virtuellen Tastaturen die Anforderung erfüllen. Die dominanten mobilen Betriebssysteme bieten Bedienelemente zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand ist bei beiden visuell zugänglich. 
+=== Zur Abgrenzung zu Einstellungen auf Betriebssystem-Ebene 
+
+Die dominanten mobilen Betriebssysteme bieten Bedienelemente zum Arretieren der Ausrichtung: "Ausrichtungssperre" (iOS) und "Bildschirm automatisch drehen" (Android). Der Zustand ist bei beiden visuell zugänglich. 
 
 === Zur Abgrenzung zu virtuellen Tastaturen 
 Der Status "festgestellt" bei der Shift-Taste virtueller Tastaturen wird bei allen uns bekannten Tastaturen visuell vermittelt. Da App-Entwickler keinen Einfluss auf installierte Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
