@@ -91,14 +91,10 @@ ifndef::env_embedded[]
   ausreichend>>.
 endif::env_embedded[]
 
-*Nicht voll erfüllt:*
+==== Teilweise erfüllt oder schlechter:
 
 * Sprunglinks bleiben bei Fokuserhalt versteckt.
-
-*Nicht erfüllt:*
-
-* Der System-Fokus wird unterdrückt, bei Tastaturnutzung wird kein Fokus
-  angezeigt.
+* Der System-Fokus wird unterdrückt, bei Tastaturnutzung wird kein Fokus angezeigt.
   
 == Quellen
 === Allgemein
