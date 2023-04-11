@@ -8,9 +8,9 @@ include::include/attributes.adoc[]
 
 Werden Bedienelementen mit der Tastatur fokussiert, 
 dann soll sich der Tastaturfokus-Indikator deutlich vom Hintergrund abheben (mindestens 3:1 Kontrastabstand).
-Der Fokus-Indikator muss außerdem einen Kontrastunterscheid von mindestens 3:1 zwischen fokussiertem und nicht fokussiertem Zustand haben. 
+Der Fokus-Indikator muss außerdem einen Kontrastunterschied von mindestens 3:1 zwischen fokussiertem und nicht fokussiertem Zustand haben. 
 Meist ist das einfach der Kontrast zwischen dem Fokus-Indikator und dem Hintergrund. 
-Wenn jedoch der Fokuszustand durch die Änderung der Farbe einer Schaltfläche angezeigt wird, 
+Wenn jedoch die Fokussierung durch die Änderung der Farbe einer Schaltfläche angezeigt wird, 
 ist es der Kontrast zwischen der Farbe der Fläche im fokussierten und im nicht fokussierten Zustand. 
 
 Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
