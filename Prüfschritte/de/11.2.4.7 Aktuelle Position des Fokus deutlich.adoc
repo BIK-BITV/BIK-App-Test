@@ -6,15 +6,20 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Werden Bedienelementen mit der Tastatur fokussiert, dann soll sich der Tastaturfokus deutlich von der ausgewählten Hintergrundfarbe abheben.
+Werden Bedienelementen mit der Tastatur fokussiert, 
+dann soll sich der Tastaturfokus deutlich von der ausgewählten Hintergrundfarbe abheben.
 
 Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 
 == Warum wird das geprüft?
 
-Für Tastaturbenutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, welches Bedienelement also ausgelöst wird, wenn es aktiviert wird (z.B. über ENTER oder Leertaste) oder welches Element Ausgangspunkt einer Pfeiltasten-Auswahl wird (etwa bei tab panels oder Auswahllisten).
+Für Tastaturbenutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, 
+welches Bedienelement also ausgelöst wird, wenn es aktiviert wird (z.B. über ENTER oder Leertaste) 
+oder welches Element Ausgangspunkt einer Pfeiltasten-Auswahl wird (etwa bei tab panels oder Auswahllisten).
 
-Wenn Apps allein durch die Tastatur bedient werden, muss das fokussierte Bedienelement für den Nutzende deutlich hervorgehoben sein. Eine Tastaturbedienung ist für visuelle Nutzer sonst kaum möglich.
+Wenn Apps allein durch die Tastatur bedient werden, 
+muss das fokussierte Bedienelement für den Nutzende deutlich hervorgehoben sein. 
+Eine Tastaturbedienung ist für visuelle Nutzer sonst kaum möglich.
 
 Die von mobilen Betriebssystemen vorgesehene Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar:
 
@@ -35,11 +40,18 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht interaktive Elemente enthä
 
 === 2. Prüfung
 
-. Tastatur über das Andocken einer Tastatur an ein Tablet oder Verbindung über Bluetooth-Kopplung oder USB-Kabel anschließen.
+. Tastatur über das Andocken einer Tastatur an ein Tablet
+oder Verbindung über Bluetooth-Kopplung oder USB-Kabel anschließen.
 . Zu prüfende Ansicht der App öffnen.
-. Mit der Tabulatortaste zu allen interaktiven Elementen navigieren. Wo diese weitere Auswahlen zulassen, etwa bei Tabpanels, Menüs oder Auswahllisten, mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren.
-. Prüfen, ob alle Elemente mit grafischen Veränderungen auf den Fokus reagieren (zum Beispiel mit Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
-. Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht, prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt. In Zweifelsfällen gemäß Prüfschritt
+. Mit der Tabulatortaste zu allen interaktiven Elementen navigieren.
+Wo diese weitere Auswahlen zulassen, etwa bei Tabpanels, Menüs oder Auswahllisten, 
+mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren.
+. Prüfen, ob alle Elemente mit grafischen Veränderungen auf den Fokus reagieren 
+(zum Beispiel mit Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). 
+Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
+. Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht, 
+prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt. 
+In Zweifelsfällen gemäß Prüfschritt
 ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend"]
 ifndef::env_embedded[]
   <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
@@ -68,9 +80,11 @@ Die Fokussierung interaktiver Elemente ist visuell wahrnehmbar:
 
 * Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche Markierungen werden bei Tastaturfokussierung eingesetzt.
 
-* Wenn die Fokussierung von Links oder Buttons nur über die Änderung der Text- oder Hintergrundfarbe vermittelt wird, beträgt deren Kontrastabstand zum unfokussierten Zustand mindestens 3:1.
+* Wenn die Fokussierung von Links oder Buttons nur über die Änderung der Text- oder Hintergrundfarbe vermittelt wird, 
+beträgt deren Kontrastabstand zum unfokussierten Zustand mindestens 3:1.
 
-*  Wenn nur der System-Tastaturfokus angezeigt wird, ist dieser vor gestalteten Hintergründen ausreichend sichtbar, er erfüllt den Prüfschritt
+*  Wenn nur der System-Tastaturfokus angezeigt wird, ist dieser vor gestalteten Hintergründen ausreichend sichtbar, 
+er erfüllt den Prüfschritt
 ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend".]
 ifndef::env_embedded[]
   <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
