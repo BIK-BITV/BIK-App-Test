@@ -6,8 +6,8 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-App-Inhalte sollen sich an die nutzergewählte Ausrichtung von Ausgabegeräten anpassen. Sie sollten sowohl im Hochformat als auch im Querformat dargestellt werden und
-nutzbar sein, es sei denn, eine bestimmte Ausrichtung des Inhalts ist unerlässlich.
+App-Inhalte sollen sich an die nutzergewählte Ausrichtung von Ausgabegeräten anpassen.
+Sie sollten sowohl im Hochformat als auch im Querformat dargestellt werden und nutzbar sein, es sei denn, eine bestimmte Ausrichtung des Inhalts ist unerlässlich.
 
 Beispiele für Inhalte, bei denen die Ausrichtung unerlässlich sein können, sind:
 
@@ -17,13 +17,16 @@ Beispiele für Inhalte, bei denen die Ausrichtung unerlässlich sein können, si
 * Inhalte eine Virtual-Reality (VR) Anwendung bei der es keine binäre
   Ausrichtung gibt (also nicht: entweder Hoch- oder Querformat)
 
-Es wird nicht verlangt, dass in beiden Ausrichtungen Inhalte und Funktionen in der gleichen Form angeboten werden. So können in einer anderen Orientierung Inhalte ggf. erst nach Aktivierung von Ausklappbereichen oder mittels Links oder Buttons auf andere Seiten angeboten werden.
+Es wird nicht verlangt, dass in beiden Ausrichtungen Inhalte und Funktionen in der gleichen Form angeboten werden.
+So können in einer anderen Orientierung Inhalte ggf. erst nach Aktivierung von Ausklappbereichen oder mittels Links oder Buttons angeboten werden.
 
 == Warum wird das geprüft?
 
-Für Menschen mit Behinderung ist es oft besonders wichtig, ein Ausgabegerät (z.B. ein Smartphone) in einer bestimmten Ausrichtung nutzen zu können. Wenn beispielsweise Text stark vergrößert wird, bietet die Verwendung des Querformats oft ein besseres Leseerlebnis, da mehr Wörter in eine Zeile passen.
+Für Menschen mit Behinderung ist es oft besonders wichtig, ein Ausgabegerät (z.B. ein Smartphone) in einer bestimmten Ausrichtung nutzen zu können.
+Wenn beispielsweise Text stark vergrößert wird, bietet die Verwendung des Querformats oft ein besseres Leseerlebnis, da mehr Wörter in eine Zeile passen.
 
-Außerdem haben einige Benutzer ihre Geräte in einer festen Ausrichtung montiert (z.B. am Arm eines Elektrorollstuhls). Daher sollten Anwendungen die Darstellung von Inhalten nicht auf eine Ausrichtung einschränken.
+Außerdem haben einige Benutzer ihre Geräte in einer festen Ausrichtung montiert (z.B. am Arm eines Elektrorollstuhls).
+Daher sollten Anwendungen die Darstellung von Inhalten nicht auf eine Ausrichtung einschränken.
 
 == Wie wird geprüft?
 
@@ -37,11 +40,12 @@ Der Prüfschritt ist immer anwendbar.
 . Sicherstellen, dass auf dem mobilen Prüfgerät die Ausrichtung nicht hardware- oder betriebssystemseitig festgestellt bzw. arretiert ist.
 . Zu prüfende Ansicht der App öffnen.
 . Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
-. Der zu prüfende Inhalt in der anderen Ausrichtung neu laden.
-. Prüfen, ob Inhalte dargestellt werden und nutzbar sind. Treten Beschränkungen beim Wechsel der Ausrichtung auf, etwa Meldungen, welche zur Nutzung der jeweils anderen Ausrichtung auffordern?
+. Den zu prüfenden Inhalt in der anderen Ausrichtung neu laden.
+. Prüfen, ob Inhalte dargestellt werden und nutzbar sind.
+  Treten Beschränkungen beim Wechsel der Ausrichtung auf, etwa Meldungen, welche zur Nutzung der jeweils anderen Ausrichtung auffordern?
 . Wenn nur eine Ausrichtung unterstützt wird und in der anderen Ausrichtung entweder der Inhalt nicht erscheint, um 90 Grad gedreht erscheint, oder aber
   eine Meldung ausgegeben wird, dass die andere Ausrichtung zu nutzen ist: 
-  . Prüfen, ob die die unterstützte Ausrichtung für den Inhalt unbedingt erfordlich ist, die Inhalte in der nicht unterstützten Ausrichtung also nicht oder nur schlecht dargestellt werden können.
+  . Prüfen, ob die unterstützte Ausrichtung für den Inhalt unbedingt erforderlich ist, die Inhalte in der nicht unterstützten Ausrichtung also nicht oder nur schlecht dargestellt werden können.
 
 === 3. Hinweise
 
@@ -66,8 +70,7 @@ hervorgerufen werden.
 Dies ist Gegenstand von Prüfschritt
 ifdef::env_embedded[11.1.4.4 "Text auf 200% vergrößerbar"]
 ifndef::env_embedded[]
-  <<11.1.4.4 Text auf 200% vergrößerbar.adoc#,11.1.4.4 Text auf 200%
-  vergrößerbar>>
+  <<11.1.4.4 Text auf 200% vergrößerbar.adoc#,11.1.4.4 Text auf 200% vergrößerbar>>
 endif::env_embedded[]
 und
 ifdef::env_embedded[11.1.4.10 "Inhalte brechen um".]
