@@ -40,12 +40,10 @@ Beispiele für Bezugnahmen, die nur sensorische Merkmale nennen:
 * In der breiten Spalte steht...
 * Die rechtsbündigen Absätze zeigen..
 
-Solche Bezugnahmen sind ohne die Wahrnehmung sensorischer Merkmale nicht
-nachzuvollziehen.
+Solche Bezugnahmen sind ohne die Wahrnehmung sensorischer Merkmale nicht nachzuvollziehen.
 
 Dies gilt auch für Alternativtexte von Informationsgrafiken:
-sie sollen alle für das Verständnis relevanten Informationen nicht allein
-durch Bezug auf sensorische Merkmale vermitteln (vergleiche Failure F13).
+sie sollen alle für das Verständnis relevanten Informationen nicht allein durch Bezug auf sensorische Merkmale vermitteln (vergleiche Failure F13).
 
 == Einordnung des Prüfschritts
 
