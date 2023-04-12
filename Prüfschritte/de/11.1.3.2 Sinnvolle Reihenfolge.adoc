@@ -6,11 +6,14 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Inhalte sollten unabhängig von der Darstellung in einer sinnvollen Reihenfolge stehen. Was inhaltlich zusammengehört (etwa eine Überschrift und die dazugehörigen Inhalte darunter) soll nicht auseinandergerissen werden.
+Inhalte sollten unabhängig von der Darstellung in einer sinnvollen Reihenfolge stehen.
+Was inhaltlich zusammengehört (etwa eine Überschrift und die dazugehörigen Inhalte darunter) soll nicht auseinandergerissen werden.
 
 == Warum wird das geprüft?
 
-Screenreader lesen die Elemente, die auf dem Bildschirm in der Fläche angeordnet sind linear, d.h.nacheinander vor - und zwar in der Reihenfolge, in der sie im Quellcode stehen. Die Reihenfolge der dargestellten Elemente muss also gut verständlich und nutzbar sein.
+Screenreader lesen die Elemente, die auf dem Bildschirm in der Fläche angeordnet sind linear, d.h.nacheinander vor.
+Die Reihenfolge der dargestellten Elemente muss also gut verständlich und nutzbar sein.
+In der Regel sollte die vom Screenreader ausgegebene Elementfolge auch der sichtbaren Folge entsprechen.
 
 == Wie wird geprüft?
 
@@ -23,18 +26,20 @@ Der Prüfschritt ist immer anwendbar.
 Bei Apps soll die programmatische und durch den Screenreader ausgegebene Element-Reihenfolge auf der Ansicht im Wesentlichen die visuelle Reihenfolge abbilden.
 
 . App mit der zu prüfenden Ansicht öffnen.
-. Screenreader starten und mit Hilfe der horizontalen Wischgeste durch alle Elemente der Ansicht navigieren. Dabei werden auch nicht interaktive Elemente
-  fokussiert.
+. Screenreader starten und mit Hilfe der horizontalen Wischgeste durch alle Elemente der Ansicht navigieren.
+  Dabei werden auch nicht interaktive Elemente fokussiert.
 . Prüfen, ob die Reihenfolge, in der die Elemente fokussiert und durch den Screenreader ausgegeben werden, sinnvoll und im Wesentlichen der visuellen Reihenfolge entspricht.
 
 === 3. Hinweise
+
 Bei der Reiternavigation (Tableiste am unteren oder oberen Bildschirmrand) gibt es unterschiedliche Konventionen bezüglich der Fokusversetzung in den Inhaltsbereich bei Aktivierung, die damit auch die Lesereihenfolge prägen.
 
 * Der Fokus bleibt auf dem Tab, der Inhaltsbereich kann über horizontale Wischgesten (oder Screenreader-Navigationsgesten) erreicht werden.
 * Der Fokus bewegt sich nur innerhalb der Tableiste, und muss über Berührung des Displays oder Screenreader-Navigationsgesten in den Inhaltsbereich versetzt werden.
 * Der Fokus wird nach Aktivierung eines Tabs an den Beginn des eingeblendeten Inhaltsbereichs versetzt.
 
-Diese Konventionen sind in vielen Apps etabliert und prägen damit Erwartungshaltungen und Navigationsverhalten der Nutzenden. Eine fehlende Fokusversetzug nach Aktivierung von Tabs hat Vor-und Nachteile und ist deshalb nicht negativ zu bewerten.
+Diese Konventionen sind in vielen Apps etabliert und prägen damit Erwartungshaltungen und Navigationsverhalten der Nutzenden.
+Eine fehlende Fokusversetzug nach Aktivierung von Tabs hat Vor-und Nachteile und ist deshalb nicht negativ zu bewerten.
 
 === 4. Bewertung
 
@@ -48,23 +53,20 @@ Diese Konventionen sind in vielen Apps etabliert und prägen damit Erwartungshal
 
 Custom controls, werden bereits in einer Reihe von bestehenden Prüfkriterien
 implizit geprüft, etwa
-ifdef::env_embedded[11.2.4.7 "Aktuelle Position des Fokus deutlich",]
+ifdef::env_embedded[11.2.4.7 "Aktuelle Position des Fokus deutlich"]
 ifndef::env_embedded[]
-  <<11.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,11.2.4.7 Aktuelle Position
-  des Fokus deutlich>>,
+  <<11.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,11.2.4.7 Aktuelle Position des Fokus deutlich>>
 endif::env_embedded[]
 und
 ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert verfügbar".]
 ifndef::env_embedded[]
-  <<11.4.1.2 Name-Rolle-Wert verfügbar.adoc#,11.4.1.2 Name, Rolle, Wert
-  verfügbar>>.
+  <<11.4.1.2 Name-Rolle-Wert verfügbar.adoc#,11.4.1.2 Name, Rolle, Wert verfügbar>>.
 endif::env_embedded[]
 
 Die korrekte Reihenfolge im Quelltext bei eingeblendeten Elementen ist Gegenstand von Prüfschritt
 ifdef::env_embedded[11.2.4.3 "Schlüssige Reihenfolge bei der Tastaturbedienung".]
 ifndef::env_embedded[]
-  <<11.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung.adoc#,11.2.4.3
-  Schlüssige Reihenfolge bei der Tastaturbedienung>>.
+  <<11.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung.adoc#,11.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung>>.
 endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -94,4 +96,3 @@ endif::env_embedded[]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F34.html[F34: Failure of
   Success Criterion 1.3.1 and 1.3.2 due to using white space characters to
   format tables in plain text content]
-
