@@ -7,20 +7,30 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Die Textgröße der App soll auf bis zu 200 Prozent vergrößert werden können, ohne dass dabei Inhalt oder Funktionalität verloren gehen. 
-iOS / iPadOS biteten hierfür die systemseitige Bedienungshilfe Zoom, Android nennt diese Funktion Vergrößerung. Beide bis zu 500% Zoom, also deutlich mehr als 200%. Sie heißt Zoom (iOS) bzw. Vergrößerung (Android). Gesten erlauben die Aktivierung der vergrößerten Ansicht und eine Änderung des Zoomfaktors. Der Prüfschritt ist damit grundsätzlich erfüllt, wenn bei Nutzung der App die diese Bedienungshilfen nutzbar sind.
+iOS / iPadOS bietet hierfür die systemseitige Bedienungshilfe Zoom, Android nennt diese Funktion Vergrößerung.
+Beide Varianten bieten eine Vergrößerung auf bis zu 500%, deutlich mehr als gefordert.
+Gesten erlauben die Aktivierung der vergrößerten Ansicht und eine Änderung des Zoomfaktors.
+Der Prüfschritt ist grundsätzlich erfüllt, wenn bei Nutzung der App diese Bedienungshilfen nutzbar sind.
 
-Die Verfügbarkeit einer systemseitigen Zoomfunktion ist gut, aber das Lesen von vergrößertem Text ist bei Vergrößerung sehr mühsam, da der sichtbare Ausschnitt verschoben werden muss, um den Text zu lesen oder andere Bereiche der Ansicht über Ziehgesten in diesen Ausschnitt zu bewegen. Deshalb ist der Einsatz von Systemschriften (bei iOS Dynamit Fonts) hilfreich, die bei einer geänderten System-Einstellung der Schriftgröße die Schrift auch in der App größer darstellen. Selbst in Apps, die Systemschriften einsetzen und die eingestellte Vergrößerung übernehmen, werden meist nicht alle Textelemente dynamisch umgesetzt, da dies häufig entweder dazu führen würde, dass entweder Zusammenhang und Übersichtlichkeit durch den Umbruch von Inhalten verschlechtert wird oder dazu, dass Textinhalte abgeschnitten bzw. durch Ellipsen (...) abgekürzt werden müssten. Eine lückenlose Anwendung der eingestellten Schriftvergrößerung auf allen Inhalten ist deshalb nicht praktikabel.
-Der Einsatz von Systemschriften ist überall empfehlenswert, wo Umbrüche gut möglich sind, etwa bei Fließtexten. Die Nichtumsetzung führt jedoch in diesem Prüfschritt nicht zu einem nicht-konformen Ergebnis, solange die systemseitige Zoomvergrößerung ober die systemseitigen Bedienungshilfen erwartungsgemäß funktioniert.
+Die Verfügbarkeit einer systemseitigen Zoomfunktion ist gut, aber das Lesen von vergrößertem Text ist bei Vergrößerung sehr mühsam, da der sichtbare Ausschnitt verschoben werden muss, um den Text zu lesen oder andere Bereiche der Ansicht über Ziehgesten in diesen Ausschnitt zu bewegen.
+Deshalb ist der Einsatz von Systemschriften (bei iOS Dynamic Fonts) hilfreich, die bei einer geänderten Systemeinstellung der Schriftgröße die Schrift auch in der App größer darstellen.
+Selbst in Apps, die Systemschriften einsetzen und die eingestellte Vergrößerung übernehmen, werden meist nicht alle Textelemente dynamisch umgesetzt, da dies häufig entweder dazu führen würde, dass entweder Zusammenhang und Übersichtlichkeit durch den Umbruch von Inhalten verschlechtert wird oder dazu, dass Textinhalte abgeschnitten bzw. durch Ellipsen (...) abgekürzt werden müssten.
+Eine lückenlose Anwendung der eingestellten Schriftvergrößerung auf allen Inhalten ist deshalb nicht praktikabel.
+Der Einsatz von Systemschriften ist überall empfehlenswert, wo Umbrüche gut umsetzbar sind, etwa bei Fließtexten.
+Die Nichtumsetzung führt jedoch in diesem Prüfschritt nicht zu einem nicht-konformen Ergebnis, solange die systemseitige Zoomvergrößerung  erwartungsgemäß funktioniert.
 
 Siehe hierzu auch den https://w3c.github.io/wcag2ict/#x6-1-4-4-resize-text[Hinweis zu 1.4.4 Text size] im Entwurf des Dokuments WCAG2ICT:
-____
 
+____
 This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of content or functionality or that the application works with the platform features that meet this requirement.
 ____
 
 == Warum wird das geprüft?
 
-Nutzende sollen die Schriftgröße nach ihren Bedürfnissen einstellen können. besonders ältere Menschen, aber auch Menschen mit leichten Sehbehinderungen, brauchen einen vergrößerten Text. Die geforderten 200% reichen für viele stärker sehbehinderte Menschen nicht aus. Hier muss dann ohnehin die Zooomvergrößerung genutzt werden, die stärker vergrößert. 
+Nutzende sollen die Schriftgröße nach ihren Bedürfnissen einstellen können.
+besonders ältere Menschen, aber auch Menschen mit leichten Sehbehinderungen, brauchen einen vergrößerten Text.
+Die geforderten 200% reichen für viele stärker sehbehinderte Menschen nicht aus.
+Hier muss dann ohnehin die Zooomvergrößerung genutzt werden, die stärker vergrößert. 
 
 == Wie wird geprüft?
 
@@ -34,15 +44,23 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält.
 
 . Zoom-Funktion in den Bedienungshilfen von iOS / iPadOS bzw. Android aktivieren
 . App mit zu prüfender Ansicht öffnen
-. Ansicht mittels der Zoom-Funktion des Betriebssystems um 200% vergrößern. Wirkt sich die Funktion auf die Darstellung der App aus? Es wird hierbei nicht negativ bewertet, wenn Inhalte bei Zoomvergrößerung nicht mehr voll in den Viewport passen oder nur durch Verschieben des Ausschnitts erreichbar sind - nur, dass die Zoom-Funktion überhaupt auf der App funktioniert. Das ist in der Regel der Fall. 
+. Ansicht mittels der Zoom-Funktion des Betriebssystems um 200% vergrößern.
+  Wirkt sich die Funktion auf die Darstellung der App aus?
+  Es wird hierbei nicht negativ bewertet, wenn Inhalte bei Zoomvergrößerung nicht mehr voll in den Viewport passen oder nur durch Verschieben des Ausschnitts erreichbar sind.
+  Die Zoom-Funktion muss jedoch grundsätzlich in der App funktionieren.
+  Das ist in der Regel der Fall. 
 
 ==== 2.2 Prüfung der Übernahme von systemseitigen Einstellungen vergrößerter Schrift
 
 ===== iOS
-Schriftgröße über Einstellungen / Bedienungshilfen / Anzeige & Textgröße / Größerer Text auf einen deutlich größeren Wert (ca. doppelt so groß) stellen. Wirkt sich die Vergrößerung auf Texte der App aus?
+
+Schriftgröße über Einstellungen / Bedienungshilfen / Anzeige & Textgröße / Größerer Text auf einen deutlich größeren Wert (ca. doppelt so groß) stellen.
+Wirkt sich die Vergrößerung auf Texte der App aus?
 
 ===== Android
-Schriftgröße bei Einstellungen / Eingabehilfe / Verbesserungen der Sichtbarkeit / Schriftgröße und -Stil auf einen deutlich größeren Wert (ca. doppelt so groß) stellen. Wirkt sich die Vergrößerung auf Texte der App aus?
+
+Schriftgröße bei Einstellungen / Eingabehilfe / Verbesserungen der Sichtbarkeit / Schriftgröße und -Stil auf einen deutlich größeren Wert (ca. doppelt so groß) stellen.
+Wirkt sich die Vergrößerung auf Texte der App aus?
 
 ==== 2.3 Prüfung der Schriftvergrößerung über Bedienelemente in der App (optional)
 
@@ -54,8 +72,14 @@ Falls die Software eigene Bedienelemente bereithält, um die Schriftgröße zu v
 === 3. Hinweise
 
 * Je nach Gerätehersteller können Bedienungshilfen und deren Funktionen unter Android auch abweichende Namen tragen.
-* Wenn die Prüfung unter 2.2 ergibt, dass die App systemseitige Nutzer-Einstellungen vergrößerter Schrift nicht übernimmt, sollte dies angemerkt werden. Der Prüfschritt ist aber dennoch erfüllt, wenn die Zoomvergrößerung funktioniert.  Die Prüfung ist dennoch sinnvoll, um Entwicklern Hinweise auf Verbesserungsmöglichkeiten zu geben. Die Unterstützung von Systemschriften / dynamic fonts ist für alle Inhaltsbereiche sinnvoll, die bei Vergrößerung problemlos umberechen können, z.B. Fließtexte. In anderen Fällen ist die Umsetzbarkeit abhängig vom generellen Layout-Konzept der Anwendung. Passen etwa fünf Reiter mit Text in eine Reiterleiste am Seitenfuß, wäre es ggf. nicht gut möglich, diese dynamisch vergrößerbar zu machen, ohne dass ein Umbruch der Reiterleiste stattfände oder Texte abgekürzt würden.
-* Wenn die Prüfung unter 2.3 ergibt, dass die eigene Textvergrößerungseinstellungen der App nicht gut funktionieren, sollte dies angemerkt werden. Der Prüfschritt ist aber dennoch erfüllt, wenn die Zoomvergrößerung funktioniert.
+* Wenn die Prüfung unter 2.2 ergibt, dass die App systemseitige Nutzer-Einstellungen vergrößerter Schrift nicht übernimmt, sollte dies angemerkt werden.
+  Der Prüfschritt ist aber dennoch erfüllt, wenn die Zoomvergrößerung funktioniert. 
+  Die Prüfung ist dennoch sinnvoll, um Entwicklern Hinweise auf Verbesserungsmöglichkeiten zu geben.
+  Die Unterstützung von Systemschriften / dynamic fonts ist für alle Inhaltsbereiche sinnvoll, die bei Vergrößerung problemlos umbrechen können, z.B. Fließtexte.
+  In anderen Fällen ist die Umsetzbarkeit abhängig vom generellen Layout-Konzept der Anwendung.
+  Passen etwa fünf Reiter mit Text in eine Reiterleiste am Seitenfuß, wäre es ggf. nicht gut möglich, diese dynamisch vergrößerbar zu machen, ohne dass ein Umbruch der Reiterleiste stattfände oder Texte abgekürzt würden.
+* Wenn die Prüfung unter 2.3 ergibt, dass die eigene Textvergrößerungseinstellungen der App nicht gut funktionieren, sollte dies angemerkt werden.
+  Der Prüfschritt ist aber dennoch erfüllt, wenn die systemseitige Zoomvergrößerung funktioniert.
 
 === 4. Bewertung
 
@@ -64,19 +88,36 @@ Falls die Software eigene Bedienelemente bereithält, um die Schriftgröße zu v
 * Die Ansicht lässt sich mittels der systemseitigen Zoom-Funktion in den Bedienungshilfen auf 200 % vergrößern.
 
 ==== Eher erfüllt:
+
 * Bei der App erfolgt keine Übernahme von systemseitigen Einstellungen vergrößerter Schrift bei Elementen, wo diese nützlich und gut umsetzbar wäre, etwa Fließtext.
 * Eigene Schriftvergrößerungsfunktionen der App weisen Probleme auf.
 
 == Quellen
+
 === Allgemein
-* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-4-4#support-text-scaling[Resize Text: Support text scaling] (mehrere Entwicklungsumgebungen)
+
+*  Appt Guidelines: https://appt.org/en/guidelines/wcag/success-criterion-1-4-4[
+  Support text scaling].
+  Die Appt Guidelines enthalten Code-Beispiele für die Umsetzung vergrößerbarer Schrift für iOS, Android, Flutter, React Native und Xamarin.
+* BBC Accessibility for Products: https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/content-resizing/[
+  Mobile Accessibility Guidelines, Content Resizing].
+  Beispiele für die Umsetzung anpassbarer Schriftgrößen mit Beispielen für iOS, Android und HTML.
 
 === iOS
+
 * Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#large-content-viewer[large Content Viewer]
 * Orange Accessibility Guidelines:  https://a11y-guidelines.orange.com/en/mobile/ios/development/#text-size[Text Size] (Dynamische Textgröße, Größe folgt den Systemeinstellungen auf dem Gerät)
+* Apple UIKit Dokumentation: https://developer.apple.com/documentation/uikit/uifont/scaling_fonts_automatically[
+Scaling Fonts Automatically: Scale text in your interface automatically using Dynamic Type]. Beschreibt den Einsatz von Dynamic Type in iOS.
+* Orange Digital Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/[
+  iOS Developer GuideText size].
+  Unter dem Eintrag "text size", Reiter Details gibt es Code-Beispiele für die Entwicklung in Objective C und Swift.
 
 === Android
-* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/android/development/magnification/[Android develop - Element magnification: Enlarge texts without loss of information]
+
+* Orange Digital Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/android/development/magnification/[
+  Android develop - Element magnification].
+  Code-Beispiele für den Einsatz von Scale-independent Pixels für die Textvergrößerung und Anpassung der Containergröße basierend auf Nutzereinstellungen.
 
 == Einordnung des Prüfschritts
 
@@ -86,8 +127,7 @@ Mangelnde Vergrößerbarkeit von Schriftgrafiken:
 siehe Prüfschritt
 ifdef::env_embedded[11.1.4.5 "Verzicht auf Schriftgrafiken".]
 ifndef::env_embedded[]
-  <<11.1.4.5 Verzicht auf Schriftgrafiken.adoc#,11.1.4.5 Verzicht auf
-  Schriftgrafiken>>.
+  <<11.1.4.5 Verzicht auf Schriftgrafiken.adoc#,11.1.4.5 Verzicht auf Schriftgrafiken>>.
 endif::env_embedded[]
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -121,23 +161,3 @@ endif::env_embedded[]
   percent causes the text, image or controls to be clipped, truncated or obscured]
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F80.html[F80: Failure of
   Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200%]
-
-== Quellen
-
-=== Allgemein
-*  Appt Guidelines: https://appt.org/en/guidelines/wcag/success-criterion-1-4-4[
-Support text scaling]. Die Appt Guidelines enthalten Code-Beispiele für die Umsetzung vergrößerbarer Schrift für iOS, Android, Flutter, React Native und Xamarin.
-* BBC Accessibility for Products: https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/content-resizing/[
-Mobile Accessibility Guidelines, Content Resizing]. Beispiele für die Umsetzung anpassbarer Schriftgrößen mit Beispielen für iOS, Android und HTML.
-
-=== Android
-Orange Digital Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/android/development/magnification/[
-Android develop - Element magnification]. Code-Beispiele für den Einsatz von Scale-independent Pixels für die Textvergrößerung und Anpassung der Containergröße basierend auf Nutzereinstellungen.
-
-=== iOS
-* Apple UIKit Dokumentation: https://developer.apple.com/documentation/uikit/uifont/scaling_fonts_automatically[
-Scaling Fonts Automatically: Scale text in your interface automatically using Dynamic Type]. Beschreibt den Einsatz von Dynamic Type in iOS.
-* Orange Digital Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/[
-iOS Developer GuideText size]. Unter dem Eintrag "text size", Reiter Details gibt es Code-Beispiele für die Entwicklung in Objective C und Swift.
-
-
