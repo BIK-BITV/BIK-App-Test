@@ -20,7 +20,7 @@ Damit die Bedienung von Apps mittels assistiver Software möglichst konsistent u
 Der Prüfschritt ist immer anwendbar. Es wird hier stichprobenartig geprüft, ob der Barrierefreiheitsdienst Screenreader bei Nutzung der App generell in seinen Funktionen zur Verfügung steht - nicht, ob einzelne Elemente korrekt ausgezeichnet sind, so dass der Screenreader bei Fokussierung Name und gegebenenfalls Rolle und Wert ausgibt. Dies ist Gegenstand von anderen Prüfschritten, insbesondere 11.4.1.2 Name, Rolle, Wert verfügbar".
 
 === 2. Prüfung
-==== 2. Generelle Prüfung
+==== 2.1 Generelle Prüfung
 . Screenreader aktivieren.
 . Mittels Wischgesten durch die Elemente der App navigieren. Erfolgt eine Ausgabe im Screenreader?
 . Gibt es im Standardzustand (also ohne explizite Aktivierung durch Nutzende aktive) Sprachausgaben, Vergrößerungsfunktionen oder andere in der App implementierte Funkionen, welche die die Nutzung von Barrierefreiheitsdienste des Betriebssystems beeinträchtigen? 
