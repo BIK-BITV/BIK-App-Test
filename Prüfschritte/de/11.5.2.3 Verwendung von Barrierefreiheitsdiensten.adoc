@@ -29,18 +29,16 @@ Der Prüfschritt ist immer anwendbar. Es wird hier stichprobenartig geprüft, ob
 Falls Webviews vorhanden sind: 
 . Wenn möglich, die Quellen der Webviews im mobilen Standard-Browser öffnen und prüfen, ob hier vorhandene Auszeichnungen (etwa Überschriften) auch in der Webview-Ansicht der gleichen Quelle ausgegeben werden.
 
-=== 3. Hinweis
+=== 3. Hinweise
 Ob eine Ausgabe auf allen Elementen durchgängig erfolgt, ob also bei Fokussierung interaktiver Elemente Name Rolle und Wert ausgegeben werden, fällt in andere Prüfschritte, insbesondere 11.4.1.2 Name Rolle Wert verfügbar, 11.1.3.1 Informationen und Beziehungen, und 11.1.1.1a Alternativtexte für grafische Bedienelemente und 11.1.1.1b Alternativtexte für Grafiken.
 
 "Barrierefreiheitsdienste- und Schnittstellen" beziehen sich jedoch nicht nur auf die Umsetzung von Steuerelementen.
 Auch  eingebaute Sprachausgaben oder Vergrößerungsfunktionen sind  solche Dienste.
 Eine App, die z.B. ohne besonderem Grund selbstsprechend ist (eingebaute Sprachausgabe), ohne dass diese App auch mit der System-Sprachausgabe-Software (z.B. VoiceOver und TalkBack) funktioniert, würde diesen Prüfschritt nicht bestehen.
 
-=== 3. Hinweise
-
 === 4. Bewertung
-
 ==== Erfüllt:
+* Barrierefreiheitsdienste wie Screenreader sind mit der App generell nutzbar.
 
 == Einordnung des Prüfschritts
 
