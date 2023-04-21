@@ -56,7 +56,7 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 ===== 2.2.2 Prüfung Textauswahl in Android / Talkback
 
 . Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert bzw. wieder deaktiviert. Eine Alternative ist die Auswahl über das Talkback-Menü (Aufruf: mit drei Fingern tippen) über Auswahl von "Aktionen", dann Auswahl von "Auswahlmodus starten oder beenden").
-. Der Text lässt sich nun durch vertikale Einfinger-Wischgesten zeichenweise oder auch wortweise auswählen. Über die vertikale Dreifinger-Wischgeste lässt sich der jeweilige Auswahlmodus ändern.
+. Der Text sollte sich nun durch vertikale Einfinger-Wischgesten zeichenweise oder auch wortweise auswählen lassen. Über die vertikale Dreifinger-Wischgeste lässt sich der jeweilige Auswahlmodus ändern.
 
 === 3. Hinweise
 
