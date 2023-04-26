@@ -14,6 +14,8 @@ Außerdem müssen Screenreader-Nutzende herausfinden können, welche Information
 
 Texte in einer App müssen nicht nur sichtbar, sondern auch für Hilfsmittel-Nutzende zugänglich sein. Wenn eine App Möglichkeiten der Textverarbeitung bietet, sollen  Hilfsmittel-Nutzende Textattribute erkennen, also auslesen können.
 
+Die Appp soll sowohl sequenziell als auch pber direkte Touchberührung bedienbar sein, z.B. wenn der Ort von Bedienelementen bekann ist und so die Navigation abgekürzt werden kann. Dafür ist es wichtig, das sequenziell erreichte Inhalte auch im Viewport angezeigt werden so dass sie über Touch erreichbar sind.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
@@ -27,6 +29,8 @@ Der Prüfschritt ist anwendbar, wenn Apps Texte enthalten. Die zusätzliche Prü
 . Screenreader aktivieren
 . Vom Beginn der Ansicht bis zum Ende alle Textinhalte  mit Wischgesten durchlaufen
 . Prüfen, ob alle sichtbaren Elemente auch vom Screenreader ausgegeben werden
+. Prüfen, ob im Fortgang der Fokusversetzung über Wischgeste die Ansicht ggf. scrollt, um die Inhalte bei Fokussierung im Viewport anzuzeigen. 
+(Der Screenreader-Fokus sollte immer im Viewport sichtbar bleiben).
 . Auf Geräten mit Touch-Display können die sichtbaren Textinhalte angetippt werden, die Ausgabe des Screenreaders sollte dem sichtbaren Textinhalt entsprechen. 
 
 ==== 2.2 Prüfung der Textauszeichnung
