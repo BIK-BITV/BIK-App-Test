@@ -24,10 +24,10 @@ Der Prüfschritt ist auf Ansichten mit Formularen anwendbar.
 Eingabe-Grenzen können auch implizit vermittelt werden. So ist etwa bei Reglern, die nach dem Wert "Prozent" ausgeben, klar, dass Werte auf den Bereich von 0% - 100% eingegrenzt sind.
 
 === 4. Bewertung
-==== 4.1 Erfüllt:
+==== Erfüllt:
 Bei Fokussierung des Eingabefelds oder des Reglers werden Grenzen explizit oder mittelbar (etwa über die Ausgabe von Prozent) ausgegeben.
 
-==== 4.2 Eher erfüllt:
+==== Eher erfüllt:
 Eine getrennt fokussierbare, vom Screenreader ausgegebene Beschriftung unmittelbar vor dem Eingabefeld oder Regler informiert über minimale bzw. maximale Eingabe-Werte.
 
 == Quellen
