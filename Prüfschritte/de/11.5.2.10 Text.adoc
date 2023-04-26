@@ -14,7 +14,7 @@ Außerdem müssen Screenreader-Nutzende herausfinden können, welche Information
 
 Texte in einer App müssen nicht nur sichtbar, sondern auch für Hilfsmittel-Nutzende zugänglich sein. Wenn eine App Möglichkeiten der Textverarbeitung bietet, sollen  Hilfsmittel-Nutzende Textattribute erkennen, also auslesen können.
 
-Die Appp soll sowohl sequenziell als auch pber direkte Touchberührung bedienbar sein, z.B. wenn der Ort von Bedienelementen bekann ist und so die Navigation abgekürzt werden kann. Dafür ist es wichtig, das sequenziell erreichte Inhalte auch im Viewport angezeigt werden so dass sie über Touch erreichbar sind.
+Die App soll sowohl sequenziell als auch über direkte Touchberührung bedienbar sein, z.B. wenn der Ort von Bedienelementen bekannt ist und so die Navigation abgekürzt werden kann. Dafür ist es wichtig, dass sequenziell erreichte Inhalte auch im Viewport angezeigt werden, so dass sie über Touch erreichbar sind.
 
 == Wie wird geprüft?
 
