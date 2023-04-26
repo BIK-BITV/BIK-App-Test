@@ -59,7 +59,7 @@ Falls die Software grundsätzlich Möglichkeiten bietet, Text-Attribute zu ände
 
 === 3. Bewertung
 ==== Nicht erfüllt:
-* Sichbbare informative Text-Inhalte werden nicht vom Screenreasder ausgegeben.
+* Sichtbare informative Text-Inhalte werden nicht vom Screenreasder ausgegeben.
 * Screenreader-fokussierte Inhalte werden nicht im Viewport angezeigt.
 
 == Einordnung des Prüfschritts
