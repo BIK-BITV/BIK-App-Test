@@ -62,10 +62,8 @@ Falls die Software grundsätzlich Möglichkeiten bietet, Text-Attribute zu ände
 * Sichbbare informative Text-Inhalte werden nicht vom Screenreasder ausgegeben.
 * Screenreader-fokussierte Inhalte werden nicht im Viewport angezeigt.
 
-
-== Quellen
-
-=== Auszug EN 301 549 V.3.2.1
+== Einordnung des Prüfschritts
+=== EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.10 Text 
