@@ -16,6 +16,8 @@ Texte in einer App müssen nicht nur sichtbar, sondern auch für Hilfsmittel-Nut
 
 Die App soll sowohl sequenziell als auch über direkte Touchberührung bedienbar sein, z.B. wenn der Ort von Bedienelementen bekannt ist und so die Navigation abgekürzt werden kann. Dafür ist es wichtig, dass sequenziell erreichte Inhalte auch im Viewport angezeigt werden, so dass sie über Touch erreichbar sind.
 
+Wenn screenreader-fokussierte Inhalte auch gleichzeitig im Viewport sichtbar sind, erleichtert das auch die Kommunikation mit sehenden Nutzenden, zum Beispiel in einem schulischen oder Ausbildungskontext.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
@@ -54,6 +56,12 @@ Falls die Software grundsätzlich Möglichkeiten bietet, Text-Attribute zu ände
 .. Wenn in der App vorhanden, Bedienelement für Textauszeichnung fokussieren (etwa "B" für "fett") und überprüfen, ob der Zustand richtig ausgegeben wird. 
 .. Über Talkback-Menü > Aktionen > "Formatierung der aktuellen Auswahl vorlesen" prüfen, ob der Stil des Textes korrekt ausgegeben wird.
 . Falls nein, Prüfung abbrechen.
+
+=== 3. Bewertung
+==== Nicht erfüllt:
+* Sichbbare informative Text-Inhalte werden nicht vom Screenreasder ausgegeben.
+* Screenreader-fokussierte Inhalte werden nicht im Viewport angezeigt.
+
 
 == Quellen
 
