@@ -19,7 +19,9 @@ Solche Dienste sind etwa Screenreader oder Spracheingabe.
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
-Es wird hier stichprobenartig geprüft, ob der Barrierefreiheitsdienst Screenreader bei Nutzung der App generell in seinen Funktionen zur Verfügung steht - nicht, ob einzelne Elemente korrekt ausgezeichnet sind, so dass der Screenreader bei Fokussierung Name und gegebenenfalls Rolle und Wert ausgibt.
+Es wird hier stichprobenartig geprüft, ob der Barrierefreiheitsdienst Screenreader bei Nutzung der App generell in seinen Funktionen zur Verfügung steht.
+Es wird *nicht* geprüft, ob einzelne Elemente korrekt ausgezeichnet sind.
+Die korrekte Ausgabe von Name, Rolle und Wert muss hier entsprechend *nicht* erfüllt werden.
 Dies ist Gegenstand von anderen Prüfschritten, insbesondere
 ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert verfügbar".]
 ifndef::env_embedded[]
@@ -68,13 +70,13 @@ Eine App, die z.B. ohne besonderem Grund selbstsprechend ist (eingebaute Spracha
 
 * Barrierefreiheitsdienste wie Screenreader sind mit der App generell nutzbar.
 
+==== Nicht erfüllt:
+
+* Eine in der App eingesetzte Sprachausgabe verhindert oder beeinträchtigt die Nutzung des nativen Screenreaders.
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
-
-11.5.2.3 Use of accessibility services
-
-== Quellen
 
 [.BLOCK_LANG_EN]
 === 11.5.2.3 Use of accessibility services
