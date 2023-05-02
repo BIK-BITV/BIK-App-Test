@@ -1,4 +1,4 @@
-= Prüfschritt 1.3.1c Text programmatisch verfügbar
+= Prüfschritt 1.3.1c Info und Beziehungen (Text)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
