@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.2.3 Audiodeskription oder Volltext-Alternative für Videos
+= Prüfschritt 11.1.2.3 Audiodeskription oder MedienAlternative (aufgezeichnet)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
