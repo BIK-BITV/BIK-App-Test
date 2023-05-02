@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.2.5 Audiodeskription für Videos
+= Prüfschritt 11.1.2.5 Audiodeskription (aufgezeichnet)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
