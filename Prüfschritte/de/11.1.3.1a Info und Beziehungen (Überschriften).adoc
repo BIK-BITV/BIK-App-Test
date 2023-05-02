@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.3.1a Strukturelemente für Überschriften
+= Prüfschritt 11.1.3.1a Info und Beziehungen (Überschriften)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
