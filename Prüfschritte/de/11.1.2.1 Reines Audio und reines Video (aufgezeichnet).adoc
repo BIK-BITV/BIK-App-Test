@@ -1,4 +1,4 @@
-= 11.1.2.1 Alternativen für Audiodateien und stumme Videos
+= 11.1.2.1 Reines Audio und reines Video (aufgezeichnet)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
