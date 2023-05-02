@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.2.2 Aufgezeichnete Videos mit Untertiteln
+= Prüfschritt 11.1.2.2 Untertitel (aufgezeichnet)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
