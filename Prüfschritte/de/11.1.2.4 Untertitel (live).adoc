@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.2.4 Videos (live) mit Untertiteln
+= Prüfschritt 11.1.2.4 Untertitel (live)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
