@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.4.4 Text auf 200% vergrößerbar
+= Prüfschritt 11.1.4.4 Textgröße ändern
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
