@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.2.2 Bewegte Inhalte abschaltbar
+= Prüfschritt 11.2.2.2 Pausieren, Stoppen, Ausblenden
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
