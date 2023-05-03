@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.4.12 Textabstände anpassbar
+= Prüfschritt 11.1.4.12 Textabstand
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
