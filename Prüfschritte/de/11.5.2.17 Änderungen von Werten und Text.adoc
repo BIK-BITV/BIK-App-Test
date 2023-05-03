@@ -7,30 +7,50 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 Interaktive Elemente, die verschiedene Werte haben können, sollen auch mit eingeschaltetem Screenreader bedienbar sein. Für Standard-Elemente ist dies in der Regel gegeben. Das Augenmerk bei der Prüfung liegt deshalb hauptsächlich auf Custom-Elementen und Custom-Widgets. 
 
-Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar". Hier wird speziell geprüft, ob sich *Werte* von Bedienelementen und *modifizierbarer Text*, etwa bei Eingabefeldern, auch bei aktivierten Hilfsmitteln modifizieren lassen. Beispiele:
+Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt
+ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert".]
+ifndef::env_embedded[]
+  <<11.4.1.2 Name-Rolle-Wert.adoc#,11.4.1.2 Name, Rolle, Wert>>.
+endif::env_embedded[]
+Hier wird speziell geprüft, ob sich *Werte* von Bedienelementen und *modifizierbarer Text*, etwa bei Eingabefeldern, auch bei aktivierten Hilfsmitteln modifizieren lassen.
 
-* der Wert eines Textfelds lässt sich im Bearbeitungsmodeus ändern
+Beispiele:
+* der Wert eines Textfelds lässt sich im Bearbeitungsmodus ändern
 * eine Option einer Ausklappliste lässt sich fokussieren und aktivieren
 * der Wert eines interaktiven Reglers (z.B zur Einstellung von Lautstärke, Preisspanne, Zeitraum usw.) lässt sich ändern
 
 == Warum wird das geprüft?
 
-Hilfsmittel-Nutzenden soll es möglich sein, alle Werte von Bedienelementen zu ändern, die sich ohne die Nutzung von Hilfsmitteln ändern lassen. Selbst-gestaltete interaktive Elemente (Custom-Elemente und -Widgets) sollen sich ebenso bedienen lassen wie native Elemente.
+Hilfsmittel-Nutzenden soll es möglich sein, alle Werte von Bedienelementen zu ändern, die sich ohne die Nutzung von Hilfsmitteln ändern lassen.
+Selbstgestaltete interaktive Elemente (Custom-Elemente und -Widgets) sollen sich ebenso bedienen lassen wie native Elemente.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt, bei denen sich Werte (z.B. der Wert eines Reglers oder Textinhalte) ändern lassen. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwickler:innen selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert werden und der Wert muss geändert werden, um festzustellen, ob Zustandsänderungen auch bei aktiviertem Screenreader möglich sind.
+Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt, bei denen sich Werte (z.B. der Wert eines Reglers oder Textinhalte) ändern lassen.
+Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (die damit quasi von Haus aus zugänglich sind) oder von Entwickler:innen selbst definiert wurden.
+Eine Sichtprüfung reicht deshalb *nicht* aus.
+Bedienelemente müssen mit dem Screenreader fokussiert werden und der Wert muss geändert werden, um festzustellen, ob Zustandsänderungen auch bei aktiviertem Screenreader möglich sind.
 
 === 2. Prüfung
 
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes interaktive Element setzen.
 . Prüfen, ob sich die Werte von Elementen mit aktiviertem Screenreader ändern lassen: Werte in Schiebereglern lassen sich erhöhen oder verringern, Optionen von Auswahllisten lassen sich ändern.
-. Dass geänderte Werte nach Eingabe korrekt ausgegeben werden, wird in Prüfschritt 11.4.1.2 erfasst (für Fokusposition und Textauswahl außerdem in Prüfschritt 11.5.2.13).
+. Dass geänderte Werte nach Eingabe korrekt ausgegeben werden, wird in Prüfschritt
+ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert"]
+ifndef::env_embedded[]
+  <<11.4.1.2 Name-Rolle-Wert.adoc#,11.4.1.2 Name, Rolle, Wert>>
+endif::env_embedded[]
+  erfasst (für Fokusposition und Textauswahl außerdem in Prüfschritt
+ifdef::env_embedded[11.5.2.13 "Nachverfolgung des Fokus und der Auswahlattribute").]
+ifndef::env_embedded[]
+  <<11.5.2.13 Nachverfolgung des Fokus und der Auswahlattribute.adoc#,11.5.2.13 Nachverfolgung des Fokus und der Auswahlattribute>>).
+endif::env_embedded[]
 
 ==== 2.1 Bearbeitbarkeit von Text prüfen (Android)
+
 . Eingabefeld über Wischgeste fokussieren, auswählen (Doppel-Tippen), etwas Text eingeben
 . Auswahlmodus aktivieren (Zwei-Finger Doppel-Tippen und Halten)
 . Text auswählen (Navigationsmodus "Zeichen" oder "Wörter", Auswahl über vertikale Wischgesten oder physische Lautstärketasten am Gerät vornehmen)
@@ -39,6 +59,7 @@ Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt, bei 
 . Text einfügen (Drei-Finger Dreifach-Tippen)
 
 ==== 2.1 Bearbeitbarkeit von Text prüfen (iOS)
+
 . Eingabefeld über Wischgeste fokussieren, etwas Text eingeben
 . Rotor auf "Textauswahl" stellen, ggf. durch vertikales Wischen "Zeichenauswahl" wählen
 . Durch horizontales Wischen etwas Text auswählen
@@ -51,11 +72,19 @@ Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt, bei 
 
 ==== 3.1 Prüfung zugänglicher alternativer Versionen
 
-Wenn ein Bedienelement vorhanden sind, das in der Nutzung ohne Screenreader Wert-Änderungen zulässt, für Screenreader jedoch nicht programmatisch verfügbar ist, ist zu prüfen, ob es im Kontext eine äquivalente zugängliche Möglichkeit für die Änderung des Wertes gibt. Beispiel: Ein Schieberegler ist für Screenreader nicht programmatisch ermittelbar, es gibt darunter jedoch eine zugängliches Bedienelement, über das der Wert eingestellt werden kann. Wenn Elemente programmatisch verfügbar sind, müssen sie auch bedienbar sein, also Änderungen des Werts unterstützen.
+Wenn ein Bedienelement vorhanden ist, das in der Nutzung ohne Screenreader Wert-Änderungen zulässt, für Screenreader jedoch nicht programmatisch verfügbar ist, ist zu prüfen, ob es im Kontext eine äquivalente zugängliche Möglichkeit für die Änderung des Wertes gibt.
+Beispiel: Ein Schieberegler ist für Screenreader nicht programmatisch ermittelbar, es gibt darunter jedoch ein zugängliches Bedienelement, über das der Wert eingestellt werden kann.
+Wenn Elemente programmatisch verfügbar sind, müssen sie auch bedienbar sein, also Änderungen des Werts unterstützen.
 
 ==== 3.2 Hinweise zur Teamprüfung
 
-Bei der Beurteilung, ob sich Werte erfolgreich ändern lassen, ist ggf. sehende Assistenz nötig, nämlich dann, wenn sich ein Wert bei Aktivierung mit eingeschaltetem Screenreader zwar ändert, der geänderte Wert selbst aber nicht programmatisch ermittelbar ist. Dies ist dann ein Mangel, der im Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar" zu erfassen wäre. 
+Bei der Beurteilung, ob sich Werte erfolgreich ändern lassen, ist ggf. sehende Assistenz nötig, nämlich dann, wenn sich ein Wert bei Aktivierung mit eingeschaltetem Screenreader zwar ändert, der geänderte Wert selbst aber nicht programmatisch ermittelbar ist.
+Dies ist dann ein Mangel, der im Prüfschritt
+ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert"]
+ifndef::env_embedded[]
+<<11.4.1.2 Name-Rolle-Wert.adoc#,11.4.1.2 Name, Rolle, Wert>>
+endif::env_embedded[]
+zu erfassen wäre. 
 
 === 4. Bewertung
 
@@ -66,20 +95,14 @@ Bei der Beurteilung, ob sich Werte erfolgreich ändern lassen, ist ggf. sehende 
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-11.5.2.17 Modifications of values and text
-
-== Quellen
-
-=== Auszug EN 301 549 V.3.2.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.17 Modifications of values and text
 
-____
+
 [.BLOCK_LANG_EN]
---
+____
 Where permitted by security requirements, software that provides a user interface shall, by using the services as described in clause 11.5.2.3, allow assistive technologies to modify values and text of user interface elements using the input methods of the platform, where a user can modify these items without the use of assistive technology.
 
 NOTE 1:
@@ -88,6 +111,4 @@ Examples of systems under strict security requirements are systems dealing with 
 
 NOTE 2:
 Assistive technologies may be required to maintain the same level of security as the standard input mechanisms supported by the platform.
---
 ____
-
