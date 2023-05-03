@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.4.10 Inhalte brechen um
+= Prüfschritt 11.1.4.10 Automatischer Umbruch (Reflow)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
