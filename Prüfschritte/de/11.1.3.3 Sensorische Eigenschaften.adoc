@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.3.3 Ohne Bezug auf sensorische Merkmale nutzbar
+= Prüfschritt 11.1.3.3 Sensorische Eigenschaften
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
