@@ -1,4 +1,4 @@
-= Prüfschritt 11.4.1.2 Name, Rolle, Wert verfügbar
+= Prüfschritt 11.4.1.2 Name, Rolle, Wert
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
