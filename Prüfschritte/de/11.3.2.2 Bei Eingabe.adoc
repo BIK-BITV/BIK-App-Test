@@ -1,4 +1,4 @@
-= Prüfschritt 11.3.2.2 Keine unerwartete Kontextänderung bei Eingabe
+= Prüfschritt 11.3.2.2 Bei Eingabe
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
