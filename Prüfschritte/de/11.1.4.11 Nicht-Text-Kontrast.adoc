@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.4.11 Kontraste von Grafiken und Bedienelementen ausreichend
+= Prüfschritt 11.1.4.11 Nicht-Text-Kontrast
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
