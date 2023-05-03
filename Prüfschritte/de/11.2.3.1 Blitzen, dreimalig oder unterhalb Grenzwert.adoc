@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.3.1 Verzicht auf Flackern
+= Prüfschritt 11.2.3.1 Blitzen, dreimalig oder unterhalb Grenzwert
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
