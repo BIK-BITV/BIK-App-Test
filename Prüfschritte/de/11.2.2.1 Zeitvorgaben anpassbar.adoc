@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.2.1 Zeitbegrenzungen anpassbar
+= Prüfschritt 11.2.2.1 Zeitvorgaben anpassbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
