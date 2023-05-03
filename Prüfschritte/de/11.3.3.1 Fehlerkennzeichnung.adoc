@@ -1,4 +1,4 @@
-= Prüfschritt 11.3.3.1 Fehlererkennung
+= Prüfschritt 11.3.3.1 Fehlerkennzeichnung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
