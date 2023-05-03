@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.4.3 Schlüssige Reihenfolge bei der Tastaturbedienung
+= Prüfschritt 11.2.4.3 Fokus-Reihenfolge
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
