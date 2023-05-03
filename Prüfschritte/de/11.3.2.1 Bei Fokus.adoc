@@ -1,4 +1,4 @@
-= Prüfschritt 11.3.2.1 Keine unerwartete Kontextänderung bei Fokus
+= Prüfschritt 11.3.2.1 Bei Fokus
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
