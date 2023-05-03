@@ -1,0 +1,109 @@
+= Prüfschritt 11.3.2.1 Bei Fokus
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+== Was wird geprüft?
+
+Wenn irgendeine Komponente der Ansicht den Fokus erhält, soll dies nicht zu
+einer unerwarteten Kontextänderung führen.
+
+*Hinweis zur Anwendung des Kriteriums 3.2.1 auf Software aus der EN 301 549
+(V2.1.2):*
+
+Einige zusammengesetzte Dokumente und ihre User-Agents bieten je nach dem, mit
+welchem Teil des zusammengesetzten Dokuments interagiert wird, erheblich
+unterschiedliche Anzeige- und Bearbeitungsfunktionen (z.B. eine Präsentation
+mit einer eingebetteten Tabelle, in der sich die Menüs und Symbolleisten des
+Programms ändern je nachdem, ob der Benutzer mit dem Präsentationsinhalt
+oder dem eingebetteten Tabellenkalkulationsinhalt interagiert).
+Wenn der Benutzer einen anderen Mechanismus als die Fokussierung auf den Teil
+des zusammengesetzten Dokuments verwendet, mit dem er interagieren möchte
+(z.B. durch eine Menüauswahl oder eine spezielle Tastaturgeste), unterliegt
+eine resultierende Änderung des Kontexts nicht diesem Erfolgskriterium,
+da dies nicht durch einen Fokuswechsel verursacht wurde.
+
+*Originaltext:*
+
+[.BLOCK_LANG_EN]
+Note: Some compound documents and their user agents are designed to provide
+significantly different viewing and editing functionality depending upon what
+portion of the compound document is being interacted with
+(e.g. a presentation that contains an embedded spreadsheet, where the menus
+and toolbars of the user agent change depending upon whether the user is
+interacting with the presentation content, or the embedded spreadsheet content).
+If the user uses a mechanism other than putting focus on that portion of the
+compound document with which they mean to interact (e.g. by a menu choice or
+special keyboard gesture), any resulting change of context would not be
+subject to this success criterion because it was not caused by a change of
+focus.
+
+==  Warum wird das geprüft?
+
+Unerwartete und unangekündigte Kontextänderungen bei Fokussierung einer
+Komponente (z.B. das automatische Abschicken von Formularen), können die
+Orientierung von Nutzenden beeinträchtigen.
+Kontextänderungen in der App können Nutzende ablenken und verwirren oder auch
+unbemerkt bleiben und dadurch für Verwirrung sorgen.
+Sie sollten deshalb erwartet und klar nachvollziehbar sein.
+
+Das Öffnen neuer Ansichten bei Fokussierung einer Komponente kann die
+Orientierung der Nutzenden ebenfalls beeinträchtigen.
+Das gilt ganz besonders für blinde und sehbehinderte Nutzende.
+Sie bemerken möglicherweise nicht, dass sich der Kontext geändert hat.
+Der Überblick kann verloren gehen, dies kann zu Fehlbedienungen, Fehleingaben
+und Datenverlust führen.
+
+==  Wie wird geprüft?
+
+=== Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die App interaktive Elemente enthält.
+
+=== Prüfung
+
+. Tastatur über Bluetooth-Kopplung oder USB-Kabel anschließen.
+. App mit zu prüfender Ansicht aufrufen
+. Mit der Tab-Taste alle Elemente in der Ansicht durchgehen und dabei prüfen, ob es eine unerwartete
+  Kontextänderung gibt (etwa Pop-up-Fenster oder automatisches Abschicken von Formularen)
+
+=== Hinweise
+
+Der Prüfschritt bezieht sich nur auf das Öffnen von neuen Ansichten, nicht
+auf Elemente, die den Inhalt überlagern (Stichwort modaler Dialog).
+
+Das Öffnen von Custom Tooltips, also nicht modalen Fenstern, die sich beim
+Weitertabben oder Touch-Eingaben selbständig schließen, gilt dabei nicht als
+Kontextänderung.
+
+==  Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#predictable[Guideline 3.2 Predictable: Make
+  Web pages appear and operate in predictable ways]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#on-focus[3.2.1 on Focus (Level A)]
+
+==== Techniques
+
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G107.html[G107: Using
+  "activate" rather than "focus" as a trigger for changes of context]
+
+.Advisory Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G200.html[G200: Opening new
+  windows and tabs from a link only when necessary]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G201.html[G201: Giving
+  users advanced warning when opening a new window]
+
+==== Failures
+
+* https://www.w3.org/TR/WCAG20-TECHS/F52.html[F52: Failure of Success Criterion
+  3.2.1 due to opening a new window as soon
+  as a new page is loaded]

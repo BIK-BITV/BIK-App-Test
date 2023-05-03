@@ -32,7 +32,7 @@ Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt, bei 
 
 ==== 2.1 Bearbeitbarkeit von Text prüfen (Android)
 . Eingabefeld über Wischgeste fokussieren, auswählen (Doppel-Tippen), etwas Text eingeben
-. Auswahlmodus aktivieren (Zwei-Finger Doppel-Tippen)
+. Auswahlmodus aktivieren (Zwei-Finger Doppel-Tippen und Halten)
 . Text auswählen (Navigationsmodus "Zeichen" oder "Wörter", Auswahl über vertikale Wischgesten oder physische Lautstärketasten am Gerät vornehmen)
 . Text kopieren (Drei-Finger Doppel-Tippen)
 . Text ausschneiden (Drei-Finger Doppel-Tippen und Halten)

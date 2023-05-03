@@ -1,0 +1,123 @@
+= 11.1.2.1 Reines Audio und reines Video (aufgezeichnet)
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+== Was wird geprüft?
+
+Audiodateien und stumme Videodateien, die Informationen vermitteln, müssen mit gleichwertigen Medienalternativen versehen werden - es sei denn, es handelt sich bei Ihnen bereits um Medienalternativen für Text.
+
+== Warum wird das geprüft?
+
+Audiodateien (z.B. ein Audio-Podcast) sind für hörbehinderte Nutzer nicht oder nur eingeschränkt zugänglich, deshalb brauchen sie eine Transkription. Stumme Videodateien (etwa eine Film- oder Animationsequenz, die ohne Audio-Kommentare zeigt, wie ein Gerät zusammengesetzt wird) sind für blinde und sehbehinderte Nutzer nicht verfügbar. Sie brauchen deshalb eine vollwertige Medienalternative (Text oder Audiodatei).
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn Audiodateien oder stumme Videodateien in der App-Ansicht eingebunden sind.
+
+=== 2. Prüfung
+
+==== 2.1 Transkription für Audiodateien
+
+. App mit zu prüfender Ansicht öffnen.
+. Die Audiodatei abspielen. 
+. Prüfen, ob Informationen vermittelt werden (z.B. über eine Kommentarstimme). Dann ist eine Transkription erforderlich.
+. Prüfen, ob eine Transkription angeboten wird.
+. Transkription aufrufen und prüfen, ob sie die gleichen Inhalte wie die Audiodatei vermittelt.
+  Bei Audiodateien mit verschiedenen Stimmen gibt es in der Transkription eine Kennzeichnung der sprechenden Person.
+
+==== 2.2 Medienalternative für stumme Film- oder Bildsequenzen
+
+. App mit zu prüfender Ansicht öffnen.
+. Die stumme Videodatei abspielen. 
+. Prüfen, ob Informationen vermittelt werden.
+. Prüfen, ob eine Medienalternative angeboten wird. Dies kann eine Textversion (direkt oder über einen Link), eine alternative Tonspur oder eine zusätzliche Audiodatei sein.
+. Medienalternative aufrufen und prüfen, ob sie die gleichen Inhalte wie die stumme Film- oder Bildsequenz vermittelt.
+
+==== 2.3 Prüfung der Erreichbarkeit der Transkription bzw. Medienalternative
+
+. App mit zu prüfender Ansicht öffnen.
+. Prüfen, ob die Medienalternative im unmittelbaren Kontext der Audio- oder Videodatei angeboten wird.
+. Falls die Medienalternative in einer anderen Ansicht zur Verfügung steht: gibt es zu ihr einen aussagekräftigen Link im unmittelbaren Kontext der Audio- oder Videodatei?
+
+==== 3. Hinweise
+
+Eine Medienalternative ist nicht nötig, wenn Audio- oder Videodateien selbst als ergänzende Medienalternative angeboten werden (etwa eine schriftliche Montageanleitung, die durch eine Bildsequenz der beschriebenen Schritte ergänzt wird). Der Bezug muss dabei klar sein, etwa durch unmittelbare Nachbarschaft der beiden Medienalternativen oder durch einen aussagekräftigen Link.
+
+Eine genaue Entsprechung der Audio- oder stummen Videodatei und ihrer Medienalternative ist nicht erforderlich, es sollen aber nachvollziehbar dieselben Inhalte wiedergegeben werden. Bei Transkriptionen von mehreren Stimmen (etwa Dialogen) sollen die sprechenden Personen im Text identifiziert sein.
+
+Statt Links auf Inhalte können auch andere Bedienelemente genutzt werden. Konformität besteht auch dann, wenn eine spezielle Version der Software angeboten wird, die die Anforderungen erfüllt.
+
+=== 4. Bewertung
+
+==== Nicht voll erfüllt:
+
+* Es gibt eine Medienalternative, aber der Bezug zu der entsprechenden Audiodatei oder stummen Videodatei ist nicht deutlich.
+* Es gibt eine Medienalternative, aber die Inhalte der Audio- oder stummen Videodatei sind darin nicht vollständig wiedergegeben.
+
+== Quellen
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded[Understanding SC 1.2.1: Audio-only and Video-only (prerecorded)]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-2-1[Audio-only and Video-only (Prerecorded): Add a transcript] (mehrere Entwicklungsumgebungen)
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+im Fall von zeitbasierten Medien geht es im Prüfschritt
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifndef::env_embedded[]
+  <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>.
+um die Bereitstellung von kurzen beschreibenden Alternativtexten, die immer dann, wenn zeitbasierten Medien nicht angezeigt werden können, diese kurz identifizieren.
+
+In diesem Prüfschritt 11.1.2.1 Alternativen für Audiodateien und stumme Videos geht es dagegen um die Bereitstellung von gleichwertigen Alternativen für reine Audio- oder Videoinhalte.
+
+Im Prüfschritt
+ifdef::env_embedded[11.1.2.3 "Audiodeskription oder Volltext-Alternative für Videos"]
+ifndef::env_embedded[]
+  <<11.1.2.3 Audiodeskription oder Volltext-Alternative für Videos.adoc#,
+  11.1.2.3 Audiodeskription oder Volltext-Alternative für Videos>>
+endif::env_embedded[]
+geht es schließlich um die Bereitstellung von zusätzlichen Audiodeskriptionen für synchronisierte Videos (also Videos mit Bild- und Tonspur).
+Dort geht es also um **zusätzliche** akustische Informationen über Bildinhalte, die nicht bereits über die synchrone Tonspur vermittelt werden.
+
+=== Einordnung des Prüfschritts nach EN 301549 V3.2.1
+
+[.BLOCK_LANG_EN]
+==== 11.1.2.1.1 Audio-only and video-only (pre-recorded - open functionality)
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is non-web software that provides a user interface and that supports access to assistive technologies for screen reading and where pre-recorded auditory information is not needed to enable the use of closed functions of ICT, it shall satisfy the WCAG 2.1 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded). 
+
+NOTE:
+The alternative can be provided directly in the software - or provided in an alternate version that meets the success criterion.
+--
+____
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#time-based-media[Guideline 1.2 Time-based
+  Media: Provide alternatives for time-based media]
+
+==== Success criteria
+
+* https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded[1.2.1
+  Audio-only and Video-only (Prerecorded) (Level A)]
+
+==== Techniques
+
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G166[G166: Providing audio
+  that describes the important video content and describing it as such]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G158[G158: Providing an
+  alternative for time-based media for audio-only content]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G159[G159: Providing an
+  alternative for time-based media for video-only content]

@@ -1,0 +1,181 @@
+= Prüfschritt 11.1.1.1a Nicht-Text-Inhalt (Bedienelemente)
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+== Was wird geprüft?
+
+Grafische Bedienelemente müssen Textalternativen haben. Textalternativen für  Schaltflächen oder interaktive Vorschaubilder sollen deren Aktion bzw. Ziel bezeichnen.
+
+== Warum wird das geprüft?
+
+Für Screenreader-Nutzende sind Grafiken nicht zugänglich. Die Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik ersetzen und bei Bedienelementen das Linkziel bzw. die ausführbare Aktion bezeichnen.
+
+Entwicklerinnen und Entwickler müssen Grafiken mit passenden Text ergänzen, damit Hilfsmittelsoftware den Text anstelle der Grafik z.B. in Braille und Sprache ausgeben kann. Das UI-Element wird dabei um ein Accessibility-Label ergänzt.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn Grafiken als Bedienelemente (z.B., Icons in Menüs oder Werkzeugleisten, Logos, Vorschaubilder) eingesetzt werden.
+
+=== 2. Prüfung
+
+Falls ein Bedienelement aus einer (Symbol-)Grafik sowie einem Text besteht, der den Zweck des Bedienelements wiedergibt, dann gilt dieser Text als Alternative für die Grafik. Es ist dann ggf. sinnvoll, die Grafik selbst mit einer geeigneten Technik für Screenreader zu verstecken.
+
+Handelt es sich dabei um eine Grafik ohne visuell sichtbaren Text (alleinstehendes Icon oder Symbol), so sollte eine Textalternative vorhanden sein, die das Ziel bzw. die Aktion, die ausgeführt wird, beschreibt. In der Praxis ist dies Text, der über ein Accessibility-Label bereitgestellt wird.
+
+==== 2.1 Prüfung von Textalternativen
+
+Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen ausgeschaltet sein (siehe <<3. Hinweise>>).
+
+. App mit zu prüfender Ansicht öffnen.
+. Screenreader starten und Fokus mit Hilfe der horizontalen Wischgeste auf jedes grafische Bedienelement setzen.
+. Prüfen, ob für die Bedienelemente Textalternativen ausgegeben werden und diese (auch) das Ziel bzw. die Funktion des Bedienelements beschreiben.
+. Falls die Grafik zusammen mit aussagekräftigem Text als Bedienelement auftaucht, prüfen, ob die Grafik vor dem Screenreader versteckt wird (keine unnötigen und redundanten Ausgaben durch den Screenreader aufgrund der Grafik). 
+. Bei aktivierbaren informationstragenden Grafiken wird der Inhalt benannt und Linkziel bzw. Aktion beschrieben (etwa: "Porträtfoto Helga Müller - öffnet vergrößerte Ansicht").
+
+==== 2.2 Gleichwertige (äquivalente) Alternativtexte
+
+Entscheidend ist: die App soll benutzbar sein, wenn Grafiken, oder Bilder oder Objekte durch die entsprechenden Textalternativen ersetzt sind.
+
+In der Regel bedeutet das:
+
+* Bei Schriftgrafiken soll die Textalternative den Text der Schriftgrafik wiederholen.
+* Bei Symbolen soll die Textalternative das Symbol nicht beschreiben, sondern ersetzen. Also zum Beispiel die Textalternative "Suchen" für ein Lupen-Symbol, das einen Dialog mit Sucheingabefeld öffnet.
+
+Bei verlinkten Abbildungen gibt es folgende Möglichkeiten:
+
+* Der abgebildete Gegenstand wird in der Textalternative beschrieben (wenn der abgebildete Gegenstand wichtig ist und daraus das Linkziel hervorgeht, zum
+  Beispiel Logo).
+* Das Ziel des Links wird über die Textalternative vermittelt.
+* Der abgebildete Gegenstand und das Ziel des Links bzw. die Aktion werden über die Textalternative vermittelt (wenn beides wichtig ist).
+
+Generell gilt:
+
+* Textalternativen sollen kurz sein.
+* Ausführliche Beschreibungen von Abbildungen sollen nicht in die Textalternative, sondern im Kontext der Abbildung zur Verfügung gestellt werden (etwa direkt darunter, in einem Ausklappbereich, oder auch in einem Link zu einer Ansicht, die die Alternative enthält).
+
+=== 3. Hinweise
+
+==== Einstellungen für die Prüfung mit VoiceOver / iOS
+Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:    
+
+- iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt). Hier Bildbeschreibungen, Bildschirmerkennnung und Texterkennung deaktivieren.
+
+=== 4. Bewertung
+
+*Nicht voll erfüllt:*
+
+* Die Textalternative fehlt bei einem für die Benutzung der App weniger wichtigen Bedienelement.
+* Textalternativen sind missverständlich, undeutlich oder extrem lang.
+
+*Nicht erfüllt:*
+
+* Die Textalternative für ein wichtiges Bedienelement fehlt oder er ist
+  unbrauchbar.
+  
+== Quellen
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/non-text-content[Understanding SC 1.1.1 Non-Text Content]
+* Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/ios/wwdc/2019/#writing-great-accessibility-labels[Writing great accessibility labels]
+* W3C Web Accessibility Tutorials:
+  https://www.w3.org/WAI/tutorials/images/[Images Concepts]
+* WebAIM: https://webaim.org/techniques/alttext/[Alternative Text]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-1-1#set-accessibility-label[Non-text Content: Set accessibility label] (mehrere Entwicklungsumgebungen)
+
+=== iOS
+* Appt.org: https://appt.org/en/docs/ios/samples/accessibility-label[Accessibility label on iOS]
+* Apple Accessibility for UIKit: https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619577-accessibilitylabel[accessibilityLabel]
+
+=== Android
+* Appt.org: https://appt.org/en/docs/android/samples/accessibility-label[Accessibility label on Android]
+* Orange Digital Accessibility: https://a11y-guidelines.orange.com/en/mobile/android/development/vocal-navigation/[Vocal Naviation]
+
+
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Grafische Bedienelemente sind stets in diesem Prüfschritt zu bewerten. Das gilt auch dann, wenn die Grafiken neben der Information über das Linkziel
+auch noch eine andere Information vermitteln sollen.
+
+* Einzige Ausnahme:
+  Grafik und danebenstehender Text sind ein zusammengehöriger Link
+  (zusammengesetztes Bedienelement).
+  Die Textalternative bezieht sich dann nur auf die Grafik, die Prüfkriterien
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte"]
+ifndef::env_embedded[]
+  <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>
+endif::env_embedded[]
+  oder
+ifdef::env_embedded[11.1.1.1c "Leere alt-Attribute für Layoutgrafiken"]
+ifndef::env_embedded[]
+  <<11.1.1.1c Leere alt-Attribute für Layout-Grafiken.adoc#,11.1.1.1c Leere
+  alt-Attribute für Layout-Grafiken>>
+endif::env_embedded[]
+  sind anzuwenden.
+
+* Textalternativen für grafische Überschriften:
+  siehe Prüfschritt
+ifdef::env_embedded[11.1.1.1b "Alternativtexte für Grafiken und Objekte".]
+ifndef::env_embedded[]
+  <<11.1.1.1b Alternativtexte für Grafiken und Objekte.adoc#,11.1.1.1b
+  Alternativtexte für Grafiken und Objekte>>.
+endif::env_embedded[]
+
+* CAPTCHAs werden im Prüfschritt
+ifdef::env_embedded[11.1.1.1c "Alternativen für CAPTCHAs"]
+ifndef::env_embedded[]
+  <<11.1.1.1c Alternativen für CAPTCHAs.adoc#,11.1.1.1c Alternativen für
+  CAPTCHAs>>
+endif::env_embedded[]
+  geprüft.
+
+* Linktexte sind auch in Prüfschritt
+ifdef::env_embedded[11.2.4.4 "Aussagekräftige Linktexte"]
+ifndef::env_embedded[]
+  <<11.2.4.4 Aussagekräftige Linktexte.adoc#,11.2.4.4 Aussagekräftige
+  Linktexte>>
+endif::env_embedded[]
+  Thema.
+  Dort geht es um die allgemeine Aussagekraft, in diesem Prüfschritt 11.1.1.1a
+  geht es dagegen nur um die Gleichwertigkeit von Textalternative und grafischem
+  Link.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#text-alternatives[Guideline 1.1 Text
+  Alternatives:
+  Provide text alternatives for any non-text content so that it can be changed
+  into other forms people need, such as large print, braille, speech, symbols
+  or simpler language.]
+
+==== Success criterion
+
+* http://www.w3.org/TR/WCAG21/#x1-1-1-non-text-content[1.1.1 Non-text Content]
+  (Level A)
+
+==== Techniques
+
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G94[G94: Providing short
+  text alternative for non-text content that serves the same purpose and
+  presents the same information as the non-text content]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F20[F20: Failure of
+  Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when
+  changes to non-text content occur]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F30[F30: Failure of
+  Success Criterion 1.1.1 and 1.2.1 due to using text alternatives that are
+  not alternatives]
+  
+
+

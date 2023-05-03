@@ -1,0 +1,176 @@
+= Prüfschritt 11.1.4.11 Nicht-Text-Kontrast
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+== Was wird geprüft?
+
+Die für die Identifizierung notwendige visuelle Information von informationstragenden Grafiken und grafischen Bedienelementen sowie deren Zuständen soll einen Kontrast von mindestens 3:1 zu angrenzenden Farben haben.
+
+In vielen Fällen, wie etwa bei einfarbigen Icons, bedeutet das einfach, dass der Kontrast zwischen der Farbe des Elements und der Hintergrundfarbe gemessen wird.
+
+Bei mehrfarbigen oder abgetönten Elementen gilt die Kontrastanforderung für jene visuelle Information, über die das Element (oder dessen Zustand) hinreichend klar identifizierbar ist.
+Es müssen also nicht sämtliche Bereiche einer Grafik die Kontrastanforderung erfüllen.
+
+Wenn grafische Elemente zusätzlich eingesetzt werden, ein Text also das Bedienelement bzw. dessen Zustand hinreichend kennzeichnet, müssen grafische Elemente die Kontrastanforderung nicht erfüllen.
+
+== Warum wird das geprüft?
+
+Viele Menschen mit Sehbehinderungen brauchen gute Kontraste, um grafische Bedienelemente bzw. deren Zustände oder Elemente in informationstragenden Grafiken, etwa statistischen Diagrammen oder Schaubildern, wahrnehmen zu können.
+Die Forderung nach einem Minimalkontrast für informationstragende Grafiken hilft diesen Menschen.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn informationstragende grafische Bedienelemente, die nicht lediglich ergänzend (etwa zu Text) eingesetzt werden, oder informationstragende Grafiken vorhanden sind.
+
+Nicht anwendbar ist der Prüfschritt auf Fotos, Logos, Flaggen, Screenshots, Diagramme mit Farben, die nicht geändert werden dürfen, und Datenvisualisierungen mit Farbabstufungen wie etwa Heatmaps.
+
+Ebenfalls nicht anwendbar ist der Prüfschritt auf inaktive Bedienelemente, also solche, die zustandsabhängig für die Interaktion nicht zur Verfügung stehen.
+
+Eine Ausnahme gilt für native Bedienelemente wie iOS toggle switches, da hier die _platform software_ (also das mobile Betriebssystem) für den Browser (_user agent_) steht, für dessen unveränderte Darstellung von Bedienelementen es in den Web-Anforderungen https://www.w3.org/TR/WCAG21/#x1-4-11-non-text-contrast[eine Ausnahme] gibt.
+Wir haben um Bestätigung dieser Position in einem bestehenden https://github.com/w3c/wcag2ict/issues/82[Issue bei der WCAG2ICT Taskforce] gebeten.
+
+=== 2. Prüfung
+
+Hinweis: Für Grafiken und Bedienelemente ist eine Sichtprüfung ausreichend, wenn der Kontrast *sehr deutlich* über 3:1 liegt.
+Im Zweifelsfall immer den Color Contrast Analyzer auf Screenshots einsetzen.
+Die Prüfung ist zum Teil komplex.
+Bitte Abschnitt <<3. Hinweise>> beachten.
+
+==== 2.1 Erstellung von Screenshots
+
+Bei Prüfungen von App-Ansichten muss mit Screenshots gearbeitet werden.
+Diese werden dann regulär mit dem Contrast-Analyzer überprüft.
+Falls es schwierig ist, Einzelheiten mit der Contrast-Analyzer-Pipette zu erfassen, kann vor der Erstellung des Screenshots die entsprechende Ansicht in der Software mit der Zoomfunktion des Systems vergrößert werden.
+
+. Screenshots von grafischen Bedienelementen und Informationsgrafiken erstellen (ggf. vorher Zoomfunktion nutzen)
+. Bei der Kontrastmessung zu berücksichtigen sind bei Bedienelementen ggf. auch wechselnde Zustände nach Fokussierung mit der Tastatur.
+  Elemente fokussieren.
+  Ändert sich der Kontrast, ggf. zusätzliche Screenshots erstellen.
+. Bei der Kontrastmessung zu berücksichtigen sind ggf. auch verschiedene funktionale Zustände (etwa bei Checkboxen, Radio-Buttons, Reiter in Registerbereichen).
+  Auch für solche Zustände ggf. Screenshots erstellen.
+. Screenshots an den PC übertragen.
+. Screenshots am PC öffnen und mit dem Contrast-Analyzer untersuchen.
+
+==== 2.2 Prüfung von grafischen Bedienelementen
+
+. Grafische Bedienelemente (etwa Icons) in der Ansicht identifizieren, die keinen nebenstehenden Text haben, der dessen Bedeutung zusätzlich identifiziert.
+Wenn bei grafischen Bedienelementen mit nebenstehendem Text der Textkontrast nicht ausreicht (gefordert ist hier 4,5:1), muss das Element selbst die Anforderung von 3:1 erfüllen.
+. Sind bei den identifizierten Elementen und ggf. deren Zuständen nach Aktivierung und Fokussierung die Kontraste zu angrenzenden Farben ausreichend (3:1 oder besser)?
+  Eine Ausnahme besteht für native Bedienelemente, deren Aussehen vom Betriebssystem bestimmt wird.
+. Bedienelemente mit Rahmen (etwa Schaltflächen oder Texteingabefelder) identifizieren.
+  Wenn das Bedienelement nur über den Rahmen (oder einen Teil des Rahmens) identifizierbar ist (der Rahmen also keinen Text oder Symbol umschließt), muss der Rahmen einen Kontrast von mindestens 3:1 haben.
+
+==== 2.3 Prüfung von Informationsgrafiken
+
+. Informationstragende Grafiken identifizieren, bei denen die Information nur über die Grafik und nicht (oder nicht ausreichend) über beigefügten Text vermittelt wird.
+. Wenn es in Bereichen der Grafik Farbverläufe gibt, Anteile mit einem Kontrast von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
+
+=== 3. Hinweise
+
+==== 3.1 Zur Identifizierung von nativen Bedienelementen, die von der Anforderung ausgenommen sind
+
+Auch native Schalter wie iOS Switches lassen sich in der Farbe anpassen, damit sie ausreichend kontrastreich sind - und dies sollte als "Best Practice" empfohlen werden.
+Dennoch gibt es in der Anforderung eine Ausnahme für native (vom Entwickler unveränderte) Bedienelemente.
+In einer Prüfung ohne Quelltextzugang ist nicht sicher festzustellen, ob Autoren die native Darstellung übernehmen oder Elemente angepasst haben.
+Wenn die Darstellung der Elemente genau der Darstellung im jeweiligen Betriebssystem entspricht, kann davon ausgegangen werden, dass native Elemente zum Einsatz kamen.
+Für diese gibt es keine Kontrastanforderung.
+
+==== 3.2 Zur Identifizierung notwendige Teile von Bedienelementen
+
+Bei den zur Identifizierung notwendigen Teilen von Bedienelementen handelt es sich um visuell sichtbare Elemente (z.B. Element-Rahmen, aktivierter Zustand eines Elements, informationstragender Teil eines Icons) die wichtige Informationen enthalten, also etwa den Umriss, den Wert, oder den Zustand eines Bedienelements anzeigen.
+
+Beispiele:
+
+* Die Fokushervorhebung eines Bedienelements
+* Der Aktivierungszustand einer Registerkarte
+* Die Ränder eines Eingabefelds oder eines Buttons
+* Der Haken einer Custom-Checkbox
+
+Visuelle Beispiele dazu finden sich im Dokument
+https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[
+Understanding Success Criterion 1.4.11: Non-text Contrast].
+
+==== 3.3 Vernachlässigbare Rahmen und Umrisslinien
+
+Wenn die Farbe eines Elements (etwa die innere Hintergrundfarbe eines Schalters oder das Segment eines Kuchendiagramms) ausreichend Kontrast zum Hintergrund hat, auf dem sich das Element befindet, können Rahmen bzw. Umrisslinien bei der Kontrastprüfung vernachlässigt werden.
+
+==== 3.4 Kontrast-Differenz bei Zuständen
+
+Nicht verlangt wird ein Kontrast von 3:1 für die Differenz zwischen verschiedenen *funktionalen Zuständen* des gleichen Bedienelements (etwa
+Umschalter aktiviert/ nicht aktiviert) wenn es auch andere unterscheidende Merkmale gibt (ein Haken wird gesetzt, Ein Schalter verschiebt sich von links nach rechts, o.ä.).
+
+Ebenfalls nicht verlangt wird hier ein Kontrast von 3:1 für die Differenz zwischen verschiedenen *Interaktions-Zuständen* des gleichen Bedienelements (etwa fokussiert / nicht fokussiert).
+Wenn jedoch der Interaktions-Zustand lediglich über einen Farbwechsel angezeigt wird (also nicht auch anders, etwa durch eine Änderung der Form, Wechsel von beigestelltem Text, Umrandung oder ähnlich) dann sollte der Kontrastabstand der Zustände mindestens 3:1 betragen.
+Dies ist Gegenstand der Prüfung in Prüfschritt
+ifdef::env_embedded[11.2.4.7 "Aktuelle Position des Fokus sichtbar".]
+ifndef::env_embedded[]
+<<11.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,11.2.4.7 Aktuelle Position des Fokus deutlich>>.
+endif::env_embedded[]
+
+Verlangt wird der Kontrast dagegen für jeden einzelnen Zustand zur jeweils angrenzenden Farbe.
+
+==== 3.5 Dark Mode Ansichten
+
+Die Prüfung erfolgt in der Standardeinstellung des Betriebssystems.
+Wenn auf Wunsch des Auftraggebers ein Dark Mode mitgetestet werden soll, ist das natürlich möglich, die Ergebnisse können zusätzlich vermerkt werden.
+Ausschlaggebend für die Konformität ist aber die Standardansicht.
+Eine Dark Mode Ansicht wird bei der Feststellung der Konformität nur berücksichtigt, wenn sie explizit als Kontrastversion in der App selbst auswählbar ist, das Bedienelement selbst alle Barrierefreiheitsanforderungen erfüllt, und die Dark Mode Ansicht nicht selbst Kontrastmängel aufweist.
+
+==== 3.6 Berücksichtigung betriebssystemseitiger Einstellungen
+
+Die Ansichten werde *ohne* die Aktivierung von betriebssystemseitigen Einstellungen wie "Kontrast erhöhen" (iOS) oder "Text mit hohem Kontrast" (Android), also mit Standard-Einstellungen getestet.
+Die zusätzlichen Einstellungen sind hilfreich, viele Nutzende wissen jedoch nicht, dass es sie gibt.
+
+
+==  Einordnung des Prüfschritts
+
+=== Abgrenzung von anderen Prüfschritten
+
+In diesem Prüfschritt geht es um die Kontraste von Grafiken und grafischen Attributen wie Umrisslinien.
+Der Kontrast von Schrift, einschließlich der von Schriftgrafiken, wird in Prüfschritt
+ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend"]
+ifndef::env_embedded[]
+  <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten ausreichend>>
+endif::env_embedded[]
+bewertet.
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#distinguishable[Guideline 1.4 Distinguishable:
+  Make it easier for users to see and hear content including separating
+  foreground from background]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#non-text-contrast[1.4.11 Non-Text Contrast
+  (Level AA)]
+
+==== Sufficient Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G174[G174: Providing a
+  control with a sufficient contrast ratio that allows users to switch to a
+  presentation that uses sufficient contrast]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G195.html[G195: Using an
+  author-supplied, highly visible focus indicator]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html[G207: Ensuring
+  that a contrast ratio of 3:1 is provided for icons]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html[G209: Provide
+  sufficient contrast at the boundaries between adjoining colors]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F78[F78: Failure of
+  Success Criterion 2.4.7 due to styling element outlines and borders in a way
+  that removes or renders non-visible the visual focus indicator]
+
+== Quellen
+
+* https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html[
+  Understanding Success Criterion 1.4.11: Non-text Contrast]
+(zur Zeit nur auf Englisch verfügbar)

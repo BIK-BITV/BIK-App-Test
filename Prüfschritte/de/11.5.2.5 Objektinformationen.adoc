@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Die Eigenschaften von Bedienelementen der App sollen programmatisch ermittelbar sein.
-Dann können die zum Beispiel von einen Screenreader sinnvoll ausgegeben werden.
+Dann können diese zum Beispiel von einen Screenreader sinnvoll ausgegeben werden.
 
 Im Einzelnen sollen die folgenden Eigenschaften programmatisch ermittelbar sein:
 
@@ -37,7 +37,9 @@ ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
 <<11.4.1.2 Name-Rolle-Wert verfügbar.adoc#,11.4.1.2 Name, Rolle, Wert verfügbar>>
 endif::env_embedded[]
-geprüft. Jener Prüfschritt ist weiter gefasst, denn dort wird auch verlangt, dass über Nutzereingaben oder programmatisch *geänderte* Werte den Hilfsmitteln zur Verfügung stehen. Wenn also bei der Prüfung in 11.4.1.2 bei Bedienelementen im Ausgangszustand Auszeichnungsmängel negativ bewertet werden, wird die Bewertung in diesen Prüfschritt übertragen. 
+geprüft.
+Jener Prüfschritt ist weiter gefasst, denn dort wird auch verlangt, dass über Nutzereingaben oder programmatisch *geänderte* Werte den Hilfsmitteln zur Verfügung stehen.
+Wenn also bei der Prüfung in 11.4.1.2 bei Bedienelementen im Ausgangszustand Auszeichnungsmängel negativ bewertet werden, wird die Bewertung in diesen Prüfschritt übertragen. 
 
 Die in diesem Prüfschritt über Name, Rolle und Wert hinaus genannten Wertgrenzen werden bezüglich ihrer programmatischen Verfügbarkeit explizit in Prüfschritt 11.5.2.7 "Minimale und maximale Werte programmatisch ermittelbar" geprüft.
 

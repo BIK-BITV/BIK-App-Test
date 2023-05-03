@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Bei Interface-Elementen der App, die Texteingaben und Textbearbeitung vorsehen, muss die Position des Fokus bzw. der Texteinfügemarke und sowie die Textauswahl auch für Hilfsmitteltechnologien änderbar sein. Geprüft wird dies mithilfe der integrierten Screenreader VoiceOver (iOS) und TalkBack (Android) und der Aktivierung der jeweiligen Gesten-Befehle für Fokusversetzung und Textauswahl. 
+Bei Interface-Elementen der App, die eine Textauswahl (etwa zum Kopieren), Texteingaben oder Textbearbeitung vorsehen, muss die Position des Fokus bzw. der Texteinfügemarke und sowie die Textauswahl auch für Hilfsmitteltechnologien änderbar sein. Geprüft wird dies mithilfe der integrierten Screenreader VoiceOver (iOS) und TalkBack (Android) und der Aktivierung der jeweiligen Gesten-Befehle für Fokusversetzung und Textauswahl. 
 
 Ob die geänderte Cursor-Position bzw. Textauswahl programmatisch ausgegeben wird, ist Gegenstand des Prüfschritts 11.5.2.13. Beide Prüfschritte gehören eng zusammen, die Prüfung ist im Wesentlichen identisch.
 
@@ -56,7 +56,7 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 ===== 2.2.2 Prüfung Textauswahl in Android / Talkback
 
 . Der Bearbeitungsmodus wird durch 2-Finger-Doppeltippen und Halten aktiviert bzw. wieder deaktiviert. Eine Alternative ist die Auswahl über das Talkback-Menü (Aufruf: mit drei Fingern tippen) über Auswahl von "Aktionen", dann Auswahl von "Auswahlmodus starten oder beenden").
-. Der Text lässt sich nun durch vertikale Einfinger-Wischgesten zeichenweise oder auch wortweise auswählen. Über die vertikale Dreifinger-Wischgeste lässt sich der jeweilige Auswahlmodus ändern.
+. Der Text sollte sich nun durch vertikale Einfinger-Wischgesten zeichenweise oder auch wortweise auswählen lassen. Über die vertikale Dreifinger-Wischgeste lässt sich der jeweilige Auswahlmodus ändern.
 
 === 3. Hinweise
 

@@ -1,0 +1,162 @@
+= Prüfschritt 11.2.4.3 Fokus-Reihenfolge
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+== Was wird geprüft?
+
+Wenn Apps mit der Tastatur bedient werden, soll die Fokus-Reihenfolge auf Bedienelementen (Links, Formularelementen oder Objekten) schlüssig und
+nachvollziehbar sein. Die Fokus-Reihenfolge sollte im Wesentlichen der visuellen Anordnung der Bedienelemente auf dem Bildschirm folgen. Kleinere Abweichungen sind kein Problem. Manchmal ist es ja auch gar nicht möglich, aus der Anordnung auf dem Bildschirm eine Reihenfolge zwingend abzuleiten.
+
+Wenn in der Ansicht dynamische Inhalte wie etwa modale Dialoge, Popovers, Aufklapp-Menüs oder Fehlermeldungen vorkommen, muss der Tastaturfokus nach Aufruf in diese gesetzt werden, damit Tastaturnutzende mit diesen Inhalten interagieren können. Beim Schließen zusätzlich aufgerufener Inhalte über der Ansicht sollte der Fokus auf das aufrufende Element in der Ansicht zurückversetzt werden.
+
+== Warum wird das geprüft?
+
+Apps sollen für alle Nutzenden zugänglich sein. Das heißt, das sie verschiedene Arten der Eingabe unterstützen müssen: nicht nur Touch, sondern auch die Tastaturbedienung, Switch-Steuerung oder Sprachsteuerung. Probleme gibt es meistens mit der Tastaturbedienung, denn die Mehrzahl der Nutzer arbeitet mit Touch-Eingaben; daher wird oft nur an diese gedacht. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte Menschen oder blinde Nutzer. Damit assistive Technologien funktionieren, ist Tastaturnutzbarkeit häufig eine Voraussetzung. 
+
+Wenn die Fokus-Reihenfolge bei Tastaturbedienung der visuellen Reihenfolge nicht entspricht, ist das verwirrend. Nutzende verlieren ihren Fokus und müssen danach suchen. Die Tastaturbedienbarkeit kann dann erheblich beeinträchtigt sein - vor allem, wenn die Fokus-Hervorhebung gleichzeitig schwach ist oder (stellenweise) ganz fehlt.
+
+=== Zusätzliche Bedarfe von Screenreader-Nutzenden 
+Für Nutzende von Sceenreadern, die die Tastaturbedienung einsetzen, gibt es zusätzliche Probleme beim Einsatz dynamisch eingefüger Inhalte. Während solche Änderungen für sehende Nutzer unmittelbar wahrnehmbar sind, werden sie oft von Screenreader-Nutzenden gar nicht wahrgenommen, wenn der Fokus nicht in diese Elemente versetzt wird.
+
+Werden durch die Interaktion mit der App weitere Elemente in die Ansicht eingefügt, etwa bei Formularen, die im Ausfüllen zusätzliche Optionen einblenden, sollte diese Einfügungen unterhalb des auslösenden Elements geschehen, damit Screenreader auf die hinzugefügten Elemente stoßen und diese ausgeben. Werden dynamische Inhalte zusätzlich auf der Ansicht eingefügt, so dass sie die Ansicht ganz oder teilweise abdecken, muss die App dafür sorgen, dass der Fokus auf diese Inhalte versetzt wird und so auch blinde Nutzer die Änderung mitbekommen.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht Bedienelemente wie Links, Tasten, Formularelemente oder Objekte enthält.
+
+=== 2. Prüfung
+iOS: Vor der Prüfung sicherstellen, dass in den Bedienungshilfen unter "Tastaturen" der Auswahlschalter "Tastatursteuerung" aktiviert ist.
+
+. Der Tastatur-Fokus wird mittels Tabulator-Taste von Bedienelement zu Bedienelement bewegt.
+. Wenn es Bereiche oder Elemente gibt, in denen sich der Fokus statt mit dem Tabulator über Pfeiltasten bewegen lässt, wird die Reihenfolge mit Pfeiltasten geprüft.
+. Ist die sequenzielle Tab- bzw. Pfeiltasten-Reihenfolge der Elemente sinnvoll und entspricht im Wesentlichen der visuellen Reihenfolge?
+. Gibt es unsichtbare Fokusstationen?
+. Interaktive Elemente sollten nach Fokussierung aktiviert werden, um auch jene Elemente zu erfassen, die weitere Inhalte aufrufen (etwa Ausklappbereiche, Menüs, oder Dialoge), denn die Fokus-Reihenfolge muss auch in diesen geprüft werden. Hierbei kommen fallweise Tabulator oder Pfeiltasten, auch im Wechsel, zum Einsatz.
+. Falls dynamische Inhalte (Dialoge, Popovers, Menüs) über der Ansicht aufgerufen werden: Wird nach Aufruf der Fokus an den Beginn des zusätzlichen Inhalts versetzt?
+. Ist die Fokus-Reihenfolge bei Bedienelementen in aufgerufenen Inhalten sinnvoll?
+
+=== 3. Hinweise
+
+==== 3.1 Zur Fokussierung mit Tabulator und Pfeiltasten
+In manchen Apps sind Bedienelemente nicht durchgängig mit dem Tabulator erreichbar: sobald ein bestimmter Bereich den Fokus erhält, lassen sich Bedienelemente in diesem Bereich manchmal nur mit Pfeiltasten erreichen. Manche Elemente sind nur erreichbar, wenn der Fokus mit Pfeiltasten wie in einer zweidimensionalen Matrix gezielt zu ihnen bewegt wird. Sie sind jedoch ggf. in sequenzieller Navigation (Pfeiltasten links und rechts) zu erreichen. Für nicht-visuelle Nutzende ist dann nicht nachzuvollziehen, wie solche Elemente außerhalb der sequenziellen Reihenfolge überhaupt zu erreichen sind, selbst wenn sie mit viueller Unterstützung über eine Navigation mit Pfeiltasten mit der Tastatur erreichbar sind. Dies ist als Mangel in diesm Prüfschritt zu bewerten.
+
+==== 3.2 Akzeptable Varianten beim Fokus-Verhalten von Tab-Leisten
+iOS: Bei den gängigen Reiter-Navigationen bzw. Tab-Leisten (tab panels) im Fußbereich bleibt der Fokus häufig nach Aktivierung eines Tabs auf diesem Tab und wird nicht an den Beginn des darüber eingeblendeten Panels versetzt. Dies ist ein in vielen Apps etabliertes iOS-Pattern und sollte deshalb nicht negativ bewertet werden.
+
+==== 3.3 Hinweise zur Prüfung von Webviews
+Die Prüfung der Tastatur-Zugänglichkeit von Webviews stellt Prüfende vor besondere Herausforderungen, denn ob Webviews erfolgreich mit der Tastatur fokussiert und genutzt werden können, ist oft kontext- bzw. situationsabhängig, ohne dass sich immer die genauen Umstände ermitteln lassen, unter denen Fehler auftreten. Hier sollte im Zweifelsfall dennoch festgehalten werden, welche Probleme auftraten, wenn möglich unter welchen Bedingungen (z.B. beim Erstaufruf einer Ansicht). Es sollte auch festgehalten werden, wenn Probleme nicht eindeutig reproduzierbar sind. Um Probleme zu reproduzieren, kann es hilfreich sein, die zu prüfende Ansicht erneut von einer anderen Ansicht her anzusteuern, oder sogar die App zu deinstallieren und erneut zu installieren.
+
+==== 3.4 Hinweise für die Teamprüfung
+Bei der Prüfung der Fokusreihenfolge im Team aus blinden Prüfenden mit sehender Assistenz sollten Ansichten grundsätzlich gemeinsam analysiert werden. Prüfende und Assistenz durchlaufen im engen Austausch über den Zustand der jeweiligen Ansicht sorgfältig sämtliche Bedienelemente, wobei die sehende Assistenz darauf achtet, dass keine visuell verfügbaren Bedienelemente bei der Tastaturnutzung übersprungen werden oder gar nicht erreicht werden können. Fehlen auf Fokuspunkten zugängliche Namen oder Rollen, können diese Mängel parallel in den entsprechenden Prüfschritten festgehalten werden. 
+
+Die Prüfung kann am gleichen Ort im gemeinsamen Blick auf ein Gerät oder auch auf zwei Geräte vorgenommen werden, wobei die sehende Assistenz möglichst genaue Rückmeldung über sichtbare Elemente, deren Position, sowie ggf. über den Verlauf der visuellen Fokussierung geben sollte, damit beide die gleiche Ansicht und die gleichen Zustände analysieren. Die Teamprüfung kann aber auch an unterschiedlichen Orten über einer Videokonferenz erfolgen, in der sehbehinderte Prüfende ihren Bildschirm mit der Assistenz teilen. 
+
+Die Assistenz braucht bei Prüfung an zwei Orten ein zweites, möglichst gleiches Endgerät, um die Erreichbarkeit nicht tastaturzugänglicher Elemente mittels Touchbedienung zu verifizieren. So sind, ggf. über Hilfestellung durch die Assistenz, auch eingeblendete Inhalte oder Ansichten aufrufbar und dann hinsichtlich Tastaturbedienung prüfbar, die ohne Toucheingaben ggf. nicht erreichbar waren.
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+* Die Reihenfolge, in der Links, Formularelemente und Objekte mit der Tabulatortaste angesteuert werden, ist im Wesentlichen nachvollziehbar und
+  schlüssig.
+* Der Fokus wird an den Beginn eingeblendeter dynamischer Elemente (Dialoge, Popover, Menüs) gesetzt.
+
+==== Nicht voll erfüllt:
+
+* Die Tabulator-Reihenfolge ist nicht schlüssig, sie weicht ohne nachvollziehbaren Grund von der visuellen Anordnung ab 
+* Der Tastaturfokus ist über mehr als drei aufeinanderfolgende Stationen in der App-Ansicht nicht sichtbar
+* Nicht alle Bedienelemente sind in sequenzieller Navigation über Tabulator oder Pfeiltasten erreichbar
+* Der Tastatur-Fokus wird nicht auf eingeblendete dynamische Inhalte (Dialoge, Popover, Menüs) versetzt, sondern wandert durch den abgedeckten Hintergrund der Ansicht
+  
+== Quellen
+=== Allgemein
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-4-3#move-accessibility-focus[Move accessibility focus] (Mehrere Entwicklungsumgebungen)
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-4-3#adjust-order-for-keyboard[Adjust order for keyboard] (Mehrere Entwicklungsumgebungen)
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-4-3#adjust-order-for-assistive-technologies[Adjust order for assistive technologies] (Mehrere Entwicklungsumgebungen)
+
+=== iOS
+* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#focus-an-element[iOS developer guide - focus an element] - Code-Beispiele
+* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#focus-an-element[Modify the focus area of VoiceOver] - Code-Beispiele
+* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/ios/development/#modal-view[Modal view] - Fokus auf Inhalte modaler Dialoge reduzieren - Code-Beispiele
+* Appt.org: https://appt.org/en/docs/ios/samples/accessibility-focus[Accessibility focus on iOS] - how to move the focus to modals or popover views.
+
+=== Android
+* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/android/development/focus-navigation/[Android develop - Keyboard navigation & Switch Access]
+* Orange Accessibility Guidelines: https://a11y-guidelines.orange.com/en/mobile/android/development/focus-navigation/#keyboard-navigation-order[Keyboard navigation order]
+* Appt.org: https://appt.org/en/docs/android/samples/accessibility-focus[Accessibility focus on Android] - how to move the focus to modals or popover views.
+* Appt.org: https://appt.org/en/docs/android/samples/element-focus-change[Element focus change on Android]
+
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfkriterien
+
+* In diesem Prüfschritt wird die Tabreihenfolge geprüft, die grundsätzliche
+Erreichbarkeit und Auslösbarkeit von interaktiven Elementen ist Gegenstand von
+Prüfschritt
+ifdef::env_embedded[11.2.1.1 "Tastaturbedienung".]
+ifndef::env_embedded[]
+  <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>.
+endif::env_embedded[]
+
+* Die Sichtbarkeit des Fokus ist Gegenstand von Prüfschritt
+ifdef::env_embedded[11.2.4.7 "Aktuelle Position des Fokus deutlich".]
+ifndef::env_embedded[]
+  <<11.2.4.7 Aktuelle Position des Fokus deutlich.adoc#,11.2.4.7 Aktuelle Position
+  des Fokus deutlich>>.
+endif::env_embedded[]
+
+* Geprüft wird hier die richtige Position eingeblendeter oder eingefügter
+  Inhalte.
+  Ob diese Inhalte selbst sinnvoll sind, wird in anderen Prüfkriterien wie
+ifdef::env_embedded[11.3.3.3 "Hilfe bei Fehlern""]
+ifndef::env_embedded[]
+  <<11.3.3.3 Hilfe bei Fehlern.adoc#,11.3.3.3 Hilfe bei Fehlern>>
+endif::env_embedded[]
+  oder
+ifdef::env_embedded[11.2.4.4 "Aussagekräftige Linktexte"]
+ifndef::env_embedded[]
+  <<11.2.4.4 Aussagekräftige Linktexte.adoc#,11.2.4.4 Aussagekräftige Linktexte>>
+endif::env_embedded[]
+  geprüft.
+  
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide
+  ways to help users navigate, find content, and determine where they are]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#focus-order[2.4.3 Focus Order (Level A)]
+
+==== Techniques
+
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html[G59: Placing the
+  interactive elements in an order that follows sequences and relationships
+  within the content]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F44.html[F44: Failure of
+  Success Criterion 2.4.3 due to using tabindex to create a tab order that does not preserve meaning and operability]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F85.html[F85: Failure of
+  Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order]
+  
+== Fragen zu diesem Prüfschritt
+=== Unsere App ist auf die mobile Nutzung unterwegs ausgelegt, da hat man doch keine Tastatur. Gilt dann dieser Prüfschritt trotzdem?
+Ja, er gilt. Viele Apps für unterwegs werden auch zuhause oder am Arbeitsplatz genutzt, z.B. bei einer App für den öffentlichen Nahverkehr:
+
+* um Reisen vorab zu planen, Wege und Anschlüsse zu recherchieren
+* um Meldungen zu Baustellen, Umleitungen oder Verkehrsbehinderungen vorab zu checken
+* um nutzerdefinierte Voreinstellungen vorzunehmen (z.B. häufige Ziele oder häufige Routen festlegen)
+* um sich zu registrieren oder Profildaten zu ändern
+
+Die Anforderungen an Tastaturnutzbarkeit gelten also generell. Die BITV bzw. die zugrunde liegende EN 301 549 sehen hier keine Ausnahmen vor. 
+

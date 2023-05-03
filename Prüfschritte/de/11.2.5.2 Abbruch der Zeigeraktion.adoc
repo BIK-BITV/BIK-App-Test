@@ -1,0 +1,98 @@
+= Prüfschritt 11.2.5.2 Abbruch der Zeigeraktion
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+== Was wird geprüft?
+
+Funktionen von Bedienelementen sollen nicht bereits durch den Down-Event eines Zeigers (z.B. Finger-Berührung, Drücken der Maustaste, des Trackpad-Zeigers oder Eingabestift) auf einem Bedienelement ausgeführt werden. Wenn dies doch geschieht, muss es eine Möglichkeit geben, die ausgelöste Funktion entweder abzubrechen oder rückgängig zu machen.
+
+Als Zeiger-Down-Events gelten mousedown, touchstart und pointerdown.
+
+== Warum wird das geprüft?
+
+Menschen mit motorischen Beeinträchtigungen haben häufig Schwierigkeiten, Zeiger-Gesten auf Bedienelementen zielgerichtet auszuführen.
+Die Ausführung beim Up-Event (etwa wenn die Maustaste losgelassen wird oder der Finger vom Touchscreen abgehoben wird) gibt diesen Menschen die
+Möglichkeit, Fehleingaben zu vermeiden, da sie vor Auslösen des Up-Events den Zeiger vom Interface-Element noch wegbewegen können.
+Wenn Down-Events bereits Funktionen auslösen, besteht diese Korrekturmöglichkeit nicht.
+
+In Fällen, wo eine Zeiger-Eingabe mehrstufig ist, etwa bei Drag-and-Drop Aktionen, ist es wichtig, dass es einen Weg gibt, versehentlich ausgeführte
+Eingaben rückgängig zu machen. Dies kann auf verschiedene Weise geschehen, etwa über eine Schaltfläche zum Rückgängig-Machen der Aktion, einen Bestätigungsdialog, durch das Loslassen des Elements über dem Ausgangsort, oder durch das Loslassen des Elements über einem Ort, der nicht als Drop Target definiert ist und das Element zum Ausgangspunkt zurückspringen lässt.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn auf der App-Ansicht Bedienelemente vorhanden sind.
+
+=== 2. Prüfung
+
+. Auf einem Gerät mit Touchscreen die Bedienelemente der Ansicht (z.B. Schalter, Links) berühren, den Finger kurz liegen lassen.
+. Beobachten, ob nun schon eine Funktion ausgelöst wird (z.B. Aufruf einer anderen Ansicht, eines Einblendbereichs oder eines Dialogs).
+. Wenn keine Funktion ausgelöst wird, Finger vom Punkt der Berührung wegbewegen und dann loslassen. Dadurch wird in der Regel der Aufruf des Links
+  oder der Funktion vermieden, selbst wenn der berührte Punkt dem Finger folgt (die Ansicht gescrollt wird).
+. Wenn Funktionen beim Down-Event ausgelöst werden, prüfen, ob die Funktion abgebrochen oder rückgängig gemacht werden kann oder beim Up-Event wieder
+  rückgängig gemacht wird.
+. Prüfen, ob festgestellte Down-Events als essenziell auszunehmen sind (siehe 3. Hinweise, 3.1 Ausnahmen)
+
+=== 3. Hinweise
+==== 3.1 Ausnahmen
+
+* Die Anforderung bezieht sich auf von Entwicklern in der App definierte Funktionen. Gesten bzw. Eingaben, die vom Betriebssystem oder von assistiven Technologien bzw. Bedienungshilfen der Plattform definiert sind, fallen nicht unter diese Anforderung. 
+* Virtuelle Tastaturen oder Keypads sind vcn der Anforderung ausgenommen.
+* Eine Ausnahme gilt auch, wenn es essentiell ist, dass die App auf das Key-Down-Event reagiert, etwa bei einer virtuellen Klaviertastatur oder in manchen Spielen.
+
+==== 3.2 Praktische Hinweise fürs Prüfen
+Es ist in der Regel nicht notwendig (und wäre bei umfangreichen Ansichten sehr zeitaufwändig), jedes einzelne Bedienelement aufzurufen, wenn eine stichprobenartige Prüfung zeigt, dass die Umsetzung gleichartig ist. Für ein Menü reicht es dann z.B., bei jeder Art von Menüeintrag (etwa Hauptmenü- und Untermenü-Einträge) ein Element zu testen. Das Gleiche gilt für gleichartige Schaltflächen und LInks.
+
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+* Beim Down-Event werden keine Funktionen ausgelöst. 
+* Funktionen, die beim Down-Event ausgelöst werden, können abgebrochen, zurückgenommen oder beim Up-Event in den alten Zustand zurückversetzt werden. 
+
+== Quellen
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/pointer-cancellation.html[Understanding SC 2.5.2 Pointer Cancellation] (zur Zeit nur auf Englisch verfügbar)
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-5-2#support-input-cancellation[Pointer Cancellation: Support input cancellation] (mehrere Entwickungsumgebungen)
+* W3C: https://www.w3.org/TR/pointerevents/[Spezifikation PointerEvents]
+* W3C: https://www.w3.org/TR/touch-events/[Spezifikation TouchEvents]
+* W3C: https://www.w3.org/TR/uievents/[Spezifikation UIEvents]
+
+=== iOS
+* Appt.org: https://appt.org/en/docs/ios/samples/input-cancellation[Input cancellation on iOS]
+
+=== Android
+* Appt.org: https://appt.org/en/docs/android/samples/input-cancellation[Input cancellation on Android]
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#input-modalities[Guideline 2.5 Input Modalities:
+  Make it easier for users to operate functionality through various inputs
+  beyond keyboard]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#pointer-cancellation[2.5.2 Pointer Cancellation
+  (Level A)]
+
+==== Techniques
+
+.Sufficient Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G210[G210: Ensuring that
+  drag-and-drop actions can be cancelled]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G212[G212: Using native
+  controls to ensure functionality is triggered on the up-event]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F101[F101: Failure of
+  Success Criterion 2.5.2 due to activating a control on the down-event]
+

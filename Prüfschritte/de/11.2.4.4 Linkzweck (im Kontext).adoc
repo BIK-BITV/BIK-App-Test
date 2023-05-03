@@ -1,0 +1,129 @@
+= Prüfschritt 11.2.4.4 Linkzweck (im Kontext)
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+== Was wird geprüft?
+
+Ziel oder Zweck von Links sollen aus dem Linktext hervorgehen oder aus dem direkten Kontext des Links ermittelbar sein. 
+
+Links spielen in nativen Apps vor bei Verweisen auf externe Webinhalte und innerhalb von Webviews eine Rolle, denn für die Navigation innerhalb von Apps werden üblicherweise Schaltflächen (Android) bzw. Tasten (iOS) verwendet. In Webviews laden Links die verlinkten Seiten in den gleichen Webview-Container. Hier gelten die gleichen Kriterien wie bei der Prüfung von Webseiten: Der Link soll entweder in sich aussagekräftig sein oder über den programmatisch ermittelbaren Kontext. 
+
+Tauchen Links in nativen Apps auf, ist dies meist ein Zeichen, das der App-Kontext verlassen wird und das Dokument in einer anderen Anwendung aufgerufen wird, die zusätzlich geöffnet wird. Deshalb sollten solche Links zusätzlich zum aussagekräftigen Linktext einen Hinweis auf das Ziel(format) geben, z.B. "öffnet in Browser" oder "PDF".
+
+== Warum wird das geprüft?
+
+Blinde Nutzer, die Links über Wischgesten oder die Tabben auf Tastatur ansteuern, bekommen bei korrekter Umsetzung eine Ausgabe der Linktexte und der Rolle "Link" und können bei aussagekräftigen Linktexten leicht entscheiden, ob sie einem Link folgen möchten.
+
+Falls der Linktext selbst nicht aussagekräftig ist, soll der unmittelbare Kontext für Screenreader-Nutzer wenigstens leicht ermittelbar sein. Das kann über den Text im gleichen Satz oder Listenpunkt geschehen oder über eine vorangestellte programmatisch ermittelbare Überschrift.
+
+Für Angebote außerhalb der App (zum Beispiel PDF- oder Word-Dokumente) benötigt der Benutzer zusätzliche Apps oder Plugins, die aber nicht jeder
+installiert hat. Manche Apps arbeiten schlecht mit Screenreadern oder anderen Hilfsanwendungen zusammen, manche Dateiformate sind nicht oder nur schlecht zugänglich. Für viele Benutzer ist es wichtig zu wissen, in welchem Format Informationen angeboten werden, bevor sie einen Link aktivieren.
+
+Ein weiterer Grund, weshalb die Vorab-Information über den Typ des Links wichtig ist: Der Benutzer weiß dann, was auf ihn zukommt. Er ist nicht überrascht oder irritiert, wenn plötzlich Funktionen nicht mehr vorhanden sind oder der E-Mail-Client geöffnet wird.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Software Links enthält.
+
+=== 2. Prüfung
+
+==== 2.1 Prüfung der Aussagekraft von Linktexten (eischließlich Kontext)
+
+App-Ansicht öffnen. Da visuell nicht offensichtlich ist, ob Bedienelemente als Schalter oder Links oder ohne Rolle umgesetzt wurden, können Links über die Navigationseinstellung "Links" aufgespürt werden. 
+
+===== Links identifizieren: Android
+. Über die vertikale Drei-Finger-Wischgeste (oder die äqivalente vertikale Ein-Finger-Wischgeste Nach-oben-dann-nach-unten bzw. umgekehrt) die Navigationsoption "Links" einstellen
+. Mit verikaler Ein-Finger Geste die Links (wenn verfügbar) durchlaufen. Sind keine vorhanden, erfolgt die Ausgabe "keine weiteren Links" bzw. "keine vorherigen Links". Die Prüfung ist dann nicht anwendbar. 
+. Achtung: Sind Webviews vorhanden, muss ggf. der Fokus über Antippen erst in diesen Bereich versetzt werden. 
+. Ob vorhandene Links wirksam fokussiert werden, kann vom Scrollstatus der Ansicht abhängig sein, also davon, ob Links im Viewport liegen oder außerhalb davon. Ggf. Ansicht scrollen und erneut probieren.
+
+===== Links identifizieren: iOS
+. Über den wiederholten Aufruf des Rotors (Zwei-Finger-Drehgeste) die Navigationsoption "Links" einstellen ("Links" muss dafür in den VoiceOver-Voreinstellungen im Abschnitt "Rotor" aktiviert sein). 
+. Mit verikaler Ein-Finger Geste die Links (wenn verfügbar) durchlaufen.
+. Achtung: Sind Webviews vorhanden, muss ggf. der Fokus über Antippen des Webviews oder die Navigationsoption "vertikale Navigation" erst in diesen Bereich versetzt werden. 
+. Taucht "Links" in den Rotor-Navigationsoptionen gar nicht auf, ist davon auszugehen, dass die Ansicht keine Links enthält.
+
+===== Prüfung der Aussagekraft
+ 
+. Prüfen, ob die Linktexte aussagekräftig sind, das heißt, im Linktext oder im Kontext eine Auskunft über Ziel oder Zweck des Links geben.
+. Für Links, deren sichtbarer Linktext allein nicht aussagekräftig ist (z.B. "mehr" oder "weiterlesen"), prüfen, ob der Linktext durch eine der  folgenden Möglichkeiten im Kontext sinnvoll ergänzt wird:
++
+  * durch einen verständlichen Link am Beginn der Software-Ansicht, der Linktexte auf der Seite erweitert
+  * durch den Alternativtext einer verlinkten Grafik, entsprechend Software mit Screenreader testen
+  * durch den Text der umschließenden Tabellenzelle und der dazugehörigen Überschriftenzellen, entsprechend Software mit Screenreader testen
+  * durch den Text der vorangehenden Überschrift, entsprechend Software mit Screenreader testen
+
+==== 2.2 Prüfung von Links auf andere Dateiformate
+
+Bei der Prüfung von Apps sollten Links stichprobenartig auf externe Ressourcen wie PDF-Dateien oder Websiten im LInk oder im Kontext des Links einen Hinweis auf das Ziel(format) geben wird z.B. mittels PDF-Symbols oder Überschriften. Solche Hinweis sind sinvoll. aber aus Konformitätssicht nicht zwingend erforderlich.
+
+=== 3. Hinweise
+
+* Bei verlinkten Grafiken ist der Linktext der Wert des Alternativtextes.
+* Der Linktext kann auch aus dem Alternativtext einer oder mehrerer Grafiken und einfachem Text zusammengesetzt sein.
+* Nicht aussagekräftige Links wie "mehr..", "weiter", "etc." im letzten Element einer Liste werden nur akzeptiert, wenn die Bedeutung klar aus dem Kontext der Auflistung hervorgeht.
+* Bei Apps kann mit aktiviertem Screenreader geprüft werden, was bei verlinkten Grafiken ausgegeben wird.
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+* Alle Links benennen im Linktext oder im direkten Kontext Linkziel oder Linkzweck.
+* Alle Links auf Angebote / Ressourcen außerhalb der App geben im Linktext selbst oder im unmittelbaren Kontext Auskunft über das Dateiformat oder das externe Ziel. (öffnet im Browser, …)
+
+==== Teilweise erfüllt oder schlechter:
+
+* Ziel oder Zweck des Links ist nicht eindeutig oder missverständlich.
+
+== Quellen
+
+=== Allgemein
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-4-4#mark-links[Mark links] (mehrere Entwicklungsumgebungen)
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfkriterien
+
+Die Aussaagekraft der Alternativtexte für Grafiken wird geprüft in:
+
+* Prüfschritt
+ifdef::env_embedded[11.1.1.1a "Alternativtexte für Bedienelemente"]
+ifndef::env_embedded[]
+  <<11.1.1.1a Alternativtexte für Bedienelemente.adoc#,11.1.1.1a Alternativtexte
+  für Bedienelemente>>
+endif::env_embedded[]
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide
+  ways to help users navigate, find content, and determine where they are]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#link-purpose-in-context[2.4.4 Link Purpose (In
+  Context) (Level A)]
+
+==== Techniques
+
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G53.html[G53: Identifying
+  the purpose of a link using link text combined with the text of the
+  enclosing sentence]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G91.html[G91: Providing
+  link text that describes the purpose of a link]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F63.html[F63: Failure of
+  Success Criterion 2.4.4 due to providing link context only in content that
+  is not related to the link]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F89.html[F89: Failure of
+  2.4.4, 2.4.9 and 4.1.2 due to using null alt on an image where the image is
+  the only content in a link]
+

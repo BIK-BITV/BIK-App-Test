@@ -1,0 +1,109 @@
+= Prüfschritt 11.1.2.3 Audiodeskription oder Medienalternative (aufgezeichnet)
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+== Was wird geprüft?
+
+Für informationstragende visuelle Videoinhalte muss eine Audiodeskription oder Volltext-Alternative bereitgestellt werden.
+
+== Warum wird das geprüft?
+
+Manche Videos können auch ohne Bild recht gut verstanden werden. Die sprechende Person einer Nachrichtensendung muss man zum Beispiel nicht sehen, um zu verstehen, worum es geht. Dagegen enthalten Spielfilme und Reportagen oft Passagen, in denen wenig gesprochen wird und Inhalte über das Bild vermittelt werden. Damit ein blinder Zuschauer Videos, in denen Inhalte nur über Bilder vermittelt werden, verstehen können, müssen ihm solche Passagen beschrieben werden. Hierfür wird das Verfahren der Audiodeskription eingesetzt.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+* Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur vorhanden sind.
+* Gebärdensprachvideos brauchen keine Audiodeskription, der Prüfschritt ist auf diese nicht anwendbar.
+
+=== 2.1 Prüfung von Audiodeskription
+
+==== Art der Einbindung ermitteln
+
+Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
+
+* Die Audiodeskription ist bereits in die normalen Tonspur integriert.
+* Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription. Diese Spur wird zusätzlich eingeschaltet.
+
+==== Audiodeskription prüfen
+
+. Video abspielen und Bildinhalte daraufhin überprüfen, ob wichtige Informationen vorhanden sind, die sich nicht auch aus dem Ton entnehmen lassen.
+. Zu häufigen informationstragenden Elementen der Bildebene gehören zum Beispiel Einblendungen von sprechenden Personen. Ist es dann wichtig, mitzubekommen, wer spricht? Sind visuelle Informationen auch in der Tonspur vorhanden? 
+. Ist das Video lediglich eine Medienalternative zu einem textbasierten Inhalt, wird es also ergänzend zu einem Text angeboten? In diesem Fall ist keine Audiodeskription erforderlich. Dies gilt allerdings nur dann, wenn das Video keine Inhalte enthält, die inhaltlich über die Textversion hinausgehen. 
+
+
+==== 2.2 Prüfung von Volltextalternativen
+
+. Es wird eine Sicht- und Hörprüfung vorgenommen. 
+. Das Video wird in der App abgespielt. Die Volltextalternative sollte folgende Informationen enthalten:
+
+* Eine fortlaufende Beschreibung des Geschehens
+* Alle informationstragenden visuellen Informationen
+* Informationstragende Geräusche (Gelächter, off-Screen-Stimmen etc.)
+* Die Transkriptionen aller Dialoge (mit Angabe, wer spricht)
+
+. Die Abfolge der Beschreibung und Dialoge sollte der Abfolge im Video entsprechen.
+. Falls interaktive Elemente vorkommen, sollte die Volltextalternative Links oder ähnliches vorsehen, um dieselbe Funktionalität zu gewährleisten.
+
+=== 3. Hinweise
+
+Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichtig sind, kommt es nicht darauf an, ob die Information zeitgleich in der (ggf. in die Tonspur integrierten) Audiodeskription vorkommt. So kann eine Audiodeskription mitunter wichtige Informationen eingangs zusammenfassen, die zu einem späteren Zeitpunkt eingeblendet werden.
+
+=== 4. Bewertung
+
+==== Eher erfüllt:
+
+* Bildinhalte fehlen in der Audiodeskription bzw. der Tonspur, es gibt jedoch keine Pausen bei den sprechenden Personen, in denen die Information eingesprochen werden könnte. Hier ließe sich den Anforderung nur durch eine erweiterte Audiodeskription erfüllen, diese jedoch wird in der EN 301 549 nicht verlangt. 
+
+==== Teilweise erfüllt:
+
+* Für wichtige informationstragende Bilddinhalte wird trotz verfügbarem Platz in der Tonspur keine Audiodeskription angeboten, bzw. die Beschreibung wichtiger informationstragende Bilddinhalte ist nicht in der angebotenen Volltextalternative enthalten.
+
+==== Nicht erfüllt:
+
+* Ein Video mit wichtige informationstragenden Bilddinhalten hat weder eine Audiodeskription noch eine Volltextalternative.
+  
+== Quellen
+=== Allgemein
+* WCAG 2.1: https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded[Understanding SC 1.2.3: Audio Description or Media Alternative (Prerecorded)]
+* BIK für Alle: Leitfaden barrierefreie Online-Videos http://www.bik-fuer-alle.de/audiodeskription.html[Audiodeskription]
+* BIK für Alle: Leitfaden barrierefreie Online-Videos https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded[Extended Audio-Deskription]
+* Blogartikel von Terrill Thompson zu Audio Description (Stand 03/2017): http://terrillthompson.com/blog/813[My Audio Description Talk @ CSUN]
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-1-2-3#add-audio-description[Audio Description or Media Alternative (Prerecorded): Add audio description] (mehrere Umgebungen)
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#time-based-media[Guideline 1.2 Time-based
+  Media: Provide alternatives for time-based media]
+
+==== Success criteria
+
+* https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded[
+  1.2.3 Audio Description or Media Alternative (Prerecorded) (Level A)]
+
+==== Techniques
+
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G58[G58: Placing a link to
+  the alternative for time-based media immediately next to the non-text
+  content]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G69[G69: Providing an
+  alternative for time based media]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G78[G78: Providing a
+  second, user-selectable, audio track that includes audio descriptions]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G173[G173: Providing a
+  version of a movie with audio descriptions]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G203[G203: Using a static
+  text alternative to describe a talking head video]
+
+== Fragen zu diesem Prüfschrtt
+=== Was sind "wichtige informationstragende Bildinhalte"? 
+* Sehr häufig tauchen in Videos eingeblendete Texte auf, die etwa Sprecher oder Sprecherin bzw. deren Rolle benennen. Ohne diese Information ist für nicht-visuelle Nutzer unklar, wer da eigentlich spricht oder interviewt wird. Wenn es eher unwichtig ist, wie die Person heißt, die spricht (z.B. in Passantenbefragungen) sind solche Einblendungen nicht als "wichtige informationstragende Bildinhalte" zu betrachten.
+* Oft sind Videos auch über visuelle Zwischentitel oder eingeblendete Fragen strukturiert. Hier ist zu prüfen, inwieweit die Informationen auch ohne Audiodeskrition oder Transkription der Bidinhalte sinnvoll und verständlich sind - zum Beispiel weil ein Sprecherton in der Folge ausreichend Kontext liefert.

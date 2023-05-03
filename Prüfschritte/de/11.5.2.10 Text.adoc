@@ -14,6 +14,10 @@ Außerdem müssen Screenreader-Nutzende herausfinden können, welche Information
 
 Texte in einer App müssen nicht nur sichtbar, sondern auch für Hilfsmittel-Nutzende zugänglich sein. Wenn eine App Möglichkeiten der Textverarbeitung bietet, sollen  Hilfsmittel-Nutzende Textattribute erkennen, also auslesen können.
 
+Die App soll sowohl sequenziell als auch über direkte Touchberührung bedienbar sein, z.B. wenn der Ort von Bedienelementen bekannt ist und so die Navigation abgekürzt werden kann. Dafür ist es wichtig, dass sequenziell erreichte Inhalte auch im Viewport angezeigt werden, so dass sie über Touch erreichbar sind.
+
+Wenn screenreader-fokussierte Inhalte auch gleichzeitig im Viewport sichtbar sind, erleichtert das auch die Kommunikation mit sehenden Nutzenden, zum Beispiel in einem schulischen oder Ausbildungskontext.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
@@ -27,6 +31,8 @@ Der Prüfschritt ist anwendbar, wenn Apps Texte enthalten. Die zusätzliche Prü
 . Screenreader aktivieren
 . Vom Beginn der Ansicht bis zum Ende alle Textinhalte  mit Wischgesten durchlaufen
 . Prüfen, ob alle sichtbaren Elemente auch vom Screenreader ausgegeben werden
+. Prüfen, ob im Fortgang der Fokusversetzung über Wischgeste die Ansicht ggf. scrollt, um die Inhalte bei Fokussierung im Viewport anzuzeigen. 
+(Der Screenreader-Fokus sollte immer im Viewport sichtbar bleiben).
 . Auf Geräten mit Touch-Display können die sichtbaren Textinhalte angetippt werden, die Ausgabe des Screenreaders sollte dem sichtbaren Textinhalt entsprechen. 
 
 ==== 2.2 Prüfung der Textauszeichnung
@@ -51,9 +57,13 @@ Falls die Software grundsätzlich Möglichkeiten bietet, Text-Attribute zu ände
 .. Über Talkback-Menü > Aktionen > "Formatierung der aktuellen Auswahl vorlesen" prüfen, ob der Stil des Textes korrekt ausgegeben wird.
 . Falls nein, Prüfung abbrechen.
 
-== Quellen
+=== 3. Bewertung
+==== Nicht erfüllt:
+* Sichtbare informative Text-Inhalte werden nicht vom Screenreasder ausgegeben.
+* Screenreader-fokussierte Inhalte werden nicht im Viewport angezeigt.
 
-=== Auszug EN 301 549 V.3.2.1
+== Einordnung des Prüfschritts
+=== EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.10 Text 

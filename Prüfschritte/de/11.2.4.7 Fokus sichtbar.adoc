@@ -1,0 +1,171 @@
+= Prüfschritt 11.2.4.7 Fokus sichtbar
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+== Was wird geprüft?
+
+Werden Bedienelementen mit der Tastatur fokussiert, 
+dann soll sich der Tastaturfokus-Indikator deutlich vom Hintergrund abheben (mindestens 3:1 Kontrastabstand).
+Der Fokus-Indikator muss außerdem einen Kontrastunterschied von mindestens 3:1 zwischen fokussiertem und nicht fokussiertem Zustand haben. 
+Meist ist das einfach der Kontrast zwischen dem Fokus-Indikator und dem Hintergrund. 
+Wenn jedoch die Fokussierung durch die Änderung der Farbe einer Schaltfläche angezeigt wird, 
+ist es der Kontrast zwischen der Farbe der Fläche im fokussierten und im nicht fokussierten Zustand. 
+
+Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
+
+== Warum wird das geprüft?
+
+Für Tastaturbenutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, 
+welches Bedienelement also ausgelöst wird, wenn es aktiviert wird (z.B. über ENTER oder Leertaste) 
+oder welches Element Ausgangspunkt einer Pfeiltasten-Auswahl wird (etwa bei tab panels oder Auswahllisten).
+
+Wenn Apps allein durch die Tastatur bedient werden, 
+muss das fokussierte Bedienelement für den Nutzende deutlich hervorgehoben sein. 
+Eine Tastaturbedienung ist für visuelle Nutzer sonst kaum möglich.
+
+Die von mobilen Betriebssystemen vorgesehene Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar:
+
+* iOS: Die Standard-Hervorhebung von über Tabulator erreichbaren Bereichen ist recht gut (deutlicher blauer Rahmen),
+bei über Pfeiltasten erreichbaren Einträgen innerhalb fokussierter Bereiche ist die Hervorhebung aber schlecht:
+hellblau auf weiß mit einem sehr geringen Kontrast von nur 1,2:1.
+(Nach Auswahl von "Kontrast erhöhen" in den iOS Bedienungshifen verbessert sich der Kontrast nur sehr geringfügig auf 1,3:1.)
+* Android: Die Standard-Hervrhebung ist hellgrau auf weiß  mit einem sehr geringen Kontrast von nur 1,2:1.
+
+Der Kontrast zum nichtaktivierten Zustand des Elements sollte mindestens 3:1 betragen.
+Die schlechte native Fokushervorhebung sollte durch eine entsprechende Gestaltung des Fokusindikators korrigiert werden.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die App-Ansicht interaktive Elemente enthält.
+
+=== 2. Prüfung
+
+. Tastatur über das Andocken einer Tastatur an ein Tablet
+oder Verbindung über Bluetooth-Kopplung oder USB-Kabel anschließen.
+. Zu prüfende Ansicht der App öffnen.
+. Mit der Tabulatortaste zu allen interaktiven Elementen navigieren.
+Wo diese weitere Auswahlen zulassen, etwa bei Tabpanels, Menüs oder Auswahllisten, 
+mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren.
+. Prüfen, ob alle Elemente mit grafischen Veränderungen auf den Fokus reagieren 
+(zum Beispiel mit Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). 
+Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
+. Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht, 
+prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt. 
+In Zweifelsfällen gemäß Prüfschritt
+ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend"]
+ifndef::env_embedded[]
+  <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
+  ausreichend>>
+endif::env_embedded[]
+  auch prüfen, ob die Farbe der Fokushervorhebung vor dem jeweiligen Hintergrund ausreichend kontrastiert (3:1 oder besser).
+
+=== 3. Hinweise
+
+* Falls das Betriebssystem Einstellungen zur verbesserten Sichtbarkeit der Fokushervorhebung bietet,
+sollten diese deaktiviert sein, denn viele Nutzende kennen diese Einstellungen nicht.
+
+* Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturfokus sichtbar ist.
+Dann ist eventuell auch Prüfschritt
+ifdef::env_embedded[11.2.1.1 "Tastaturbedienung"]
+ifndef::env_embedded[]
+  <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
+endif::env_embedded[]
+nicht erfüllt.
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+Die Fokussierung interaktiver Elemente ist visuell wahrnehmbar:
+
+* Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche Markierungen werden bei Tastaturfokussierung eingesetzt.
+
+* Wenn die Fokussierung von Links oder Buttons nur über die Änderung der Text- oder Hintergrundfarbe vermittelt wird, 
+beträgt deren Kontrastabstand zum unfokussierten Zustand mindestens 3:1.
+
+*  Wenn nur der System-Tastaturfokus angezeigt wird, ist dieser vor gestalteten Hintergründen ausreichend sichtbar, 
+er erfüllt den Prüfschritt
+ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend".]
+ifndef::env_embedded[]
+  <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
+  ausreichend>>.
+endif::env_embedded[]
+
+==== Teilweise erfüllt oder schlechter:
+
+* Sprunglinks bleiben bei Fokuserhalt versteckt.
+* Der System-Fokus wird unterdrückt, bei Tastaturnutzung wird kein Fokus angezeigt.
+  
+== Quellen
+=== Allgemein
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-4-7#add-accessibility-focus-indicator[Focus Visible: Add accessibility focus indicator] (mehrere Entwicklungsumgebungen)
+
+=== iOS
+* Appt.org: https://appt.org/en/docs/ios/samples/accessibility-focus-indicator[Accessibility focus indicator on iOS]
+
+=== Android
+* Appt.org: https://appt.org/en/docs/android/samples/accessibility-focus-indicator[Accessibility focus indicator on Android]
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide
+  ways to help users navigate, find content, and determine where they are]
+
+==== Success criteria
+
+* https://www.w3.org/TR/WCAG21/#focus-visible[2.4.7 Focus Visible (Level AA)]
+* https://www.w3.org/TR/WCAG21/#non-text-contrast[1.4.11 Non-Text Contrast
+  (Level AA)]
+
+==== Techniques
+
+.General Techniques
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G149.html[G149: Using user
+  interface components that are highlighted by the user agent when they
+  receive focus]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G165.html[G165: Using the
+  default focus indicator for the platform so that high visibility default
+  focus indicators will carry over]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G195.html[G195: Using an
+  author-supplied, highly visible focus indicator]
+
+==== Failures
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F55.html[F55: Failure of
+  Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus
+  when focus is received]
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F78.html[F78: Failure of
+  Success Criterion 2.4.7 due to styling element outlines and borders in a way
+  that removes or renders non-visible the visual focus indicator]
+
+== Fragen zu diesem Prüfschritt
+
+=== Ist die Anzeige des Fokus nicht Sache des Betriebssystems?
+
+Alle Betriebssysteme zeigen dem Tastaturnutzer in irgendeiner Weise, wo der
+Fokus ist, wenn diese Anzeige nicht aktiv unterdrückt wird.
+
+Dennoch ist die Anzeige des Fokus (leider) nicht allein Sache des Betriebssystems. Bei den mobilen Betriebssystmen ist die Standard.Fokushervorhebung nicht kontrastreich genug und für Menschen mit Sehbehinderungen nicht oder nur schlecht wahrnwehmbar.
+
+Die App kann festlegen, wie die Fokushervorhebung aussehen soll. Der Fokus muss für Tastaturnutzer gut sichtbar sein.
+
+=== Mit angeschaltetem Screenreader ist der Fokus gut. Reicht das nicht aus?
+Die WCAG-Anforderung sagt tatsächlich "Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible." Lange Zeit war bei iOS die Tastaturbedienung sogar nur möglich, wenn VoiceOver aktiviert (und ggf. stummgeschaltet) war.  VoiceOver und Talkback sind spezielle Hilfsmittel für Menschen, die eine akustische Ausgabe brauchen, und anderen Menschen meist nicht bekannt. Sie sind nicht als allgemein verfügbarer Nutzungsmodus für Tastaturnutzende zu betrachten.
+
+=== Unsere App ist auf die mobile Nutzung unterwegs ausgelegt, da hat man doch keine Tastatur. Gilt dann dieser Prüfschritt trotzdem?
+Ja, er gilt. Viele Apps für unterwegs werden auch zuhause oder am Arbeitsplatz genutzt, z.B. bei einer App für den öffentlichen Nahverkehr:
+
+* um Reisen vorab zu planen, Wege und Anschlüsse zu recherchieren
+* um Meldungen zu Baustellen, Umleitungen oder Verkehrsbehinderungen vorab zu checken
+* um nutzerdefinierte Voreinstellungen vorzunehmen (z.B. häufige Ziele oder häufige Routen festlegen)
+* um sich zu registrieren oder Profildaten zu ändern
+
+Die Anforderungen an Tastaturnutzbarkeit gelten also generell. Die BITV bzw. die zugrunde liegende EN 301 549 sehen hier keine Ausnahmen vor. 

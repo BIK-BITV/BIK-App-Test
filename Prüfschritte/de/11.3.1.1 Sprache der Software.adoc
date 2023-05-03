@@ -1,0 +1,70 @@
+= Prüfschritt 11.3.1.1 Sprache der Software
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
+== Was wird geprüft?
+
+Die Hauptsprache der App soll angegeben werden.
+
+==  Warum wird das geprüft?
+
+Screenreader verwenden Wortlisten, in denen die Aussprache der Wörter festgelegt ist.
+Sie müssen wissen, in welcher Sprache ein Text verfasst ist, damit sie die richtige Wortliste für die Aussprache verwenden und den Text korrekt aussprechen können.
+Wenn jemand beispielsweise eine deutschsprachige App auf einem englischsprachigen Betriebssystem verwendet, sollen die deutschen Begriffe nicht in englischer Aussprache vorgelesen werden.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist immer anwendbar.
+
+=== 2. Prüfung
+
+. In den Einstellungen des Betriebssystems eine andere Sprache als die der App wählen. 
+. Alternativ die Sprache der App auf eine andere Sprache als die des Betriebssystems setzen. Dazu in den Betriebssystem-Einstellungen die App aufrufen und dort die Sprache ändern (beispielsweise unter iOS möglich).
+
+. Prüfen, ob trotz unterschiedlicher System- und App-Sprache die Begriffe in der App vom Screenreader noch in der App-Sprache ausgegeben werden. Oder werden sie fälschlich nach Ausspracheregeln der Systemsprache gesprochen?
+
+=== 3. Hinweise
+
+Für Hinweise zur Prüfpraxis erstellen Sie gerne ein https://github.com/BIK-BITV/BIK-App-Test/issues[Issue
+auf GitHub].
+
+=== 4. Bewertung
+
+==== Erfüllt:
+
+* Die Anwendung hält sich an die Systemsprache oder meldet ihre verwendete Sprache an das System. Der Screenreader spricht die Begriffe immer in der Sprache der App aus.
+
+==== Nicht erfüllt:
+
+* Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z.B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit beispielsweise englischer Text mit einer deutschen Stimme vorgelesen wird.
+
+== Quellen
+=== Allgemein
+* Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-3-1-1[Language of Page: Set a language]
+
+==  Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guideline
+
+* https://www.w3.org/TR/WCAG21/#readable[Guideline 3.1 Readable: Make text
+  content readable and understandable]
+
+==== Success criterion
+
+* https://www.w3.org/TR/WCAG21/#language-of-page[3.1.1 Language of Page
+  (Level A)]
+
+== Quellen
+
+=== iOS
+* https://www.ralfebert.com/ios-examples/xcode/change-development-language/[Changing the development language of an Xcode project,] (Ralf Ebert, 2019)
+
+=== Android
+* https://www.tutorialspoint.com/how-to-change-the-app-language-programmatically-in-android[How to change the app language programmatically in android?,] (Azhar, 2019)
+* https://www.geeksforgeeks.org/how-to-change-the-whole-app-language-in-android-programmatically/[How to Change the Whole App Language in Android Programmatically?,] (Ankur Pal, 2021)
