@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.5.1 Alternativen für komplexe Zeiger-Gesten
+= Prüfschritt 11.2.5.1 Zeiger-Gesten
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
