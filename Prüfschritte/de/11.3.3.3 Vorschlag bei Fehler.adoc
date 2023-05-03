@@ -1,4 +1,4 @@
-= Prüfschritt 11.3.3.3 Hilfe bei Fehlern
+= Prüfschritt 11.3.3.3 Vorschlag bei Fehler
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
