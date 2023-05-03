@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.4.1 Ohne Farben nutzbar
+= Prüfschritt 11.1.4.1 Benutzung von Farbe
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
