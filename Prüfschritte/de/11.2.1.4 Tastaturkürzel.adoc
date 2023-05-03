@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.1.4 Tastatur-Kurzbefehle abschaltbar oder anpassbar
+= Prüfschritt 11.2.1.4 Tastaturkürzel
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
