@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.5.2 Zeigergesten-Eingaben können abgebrochen oder widerrufen werden
+= Prüfschritt 11.2.5.2 Abbruch der Zeigeraktion
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
