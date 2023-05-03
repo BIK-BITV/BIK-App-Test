@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.4.5 Verzicht auf Schriftgrafiken
+= Prüfschritt 11.1.4.5 Bilder von Text
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
