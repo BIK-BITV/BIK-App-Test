@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.5.3 Sichtbare Beschriftung Teil des zugänglichen Namens
+= Prüfschritt 11.2.5.3 Beschriftung (Label) im Namen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
