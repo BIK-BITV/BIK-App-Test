@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.4.7 Aktuelle Position des Fokus deutlich
+= Prüfschritt 11.2.4.7 Fokus sichtbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
