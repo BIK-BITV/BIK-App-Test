@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.4.4 Aussagekräftige Linktexte
+= Prüfschritt 11.2.4.4 Linkzeck (im Kontext)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
