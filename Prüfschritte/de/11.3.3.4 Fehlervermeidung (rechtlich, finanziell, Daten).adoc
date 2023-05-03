@@ -1,4 +1,4 @@
-= Prüfschritt 11.3.3.4 Fehlervermeidung wird unterstützt
+= Prüfschritt 11.3.3.4 Fehlervermeidung (rechtlich, finanziell, Daten)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
