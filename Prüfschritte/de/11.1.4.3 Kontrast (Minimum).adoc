@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.4.3 Kontraste von Texten ausreichend
+= Prüfschritt 11.1.4.3 Kontrast (Minimum)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
