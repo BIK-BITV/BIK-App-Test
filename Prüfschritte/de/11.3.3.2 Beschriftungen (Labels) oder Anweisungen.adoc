@@ -1,4 +1,4 @@
-= Prüfschritt 11.3.3.2 Beschriftungen von Formularelementen vorhanden
+= Prüfschritt 11.3.3.2 Beschriftungen (Labels) oder Anweisungen
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
