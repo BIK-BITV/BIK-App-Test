@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.3.4 Keine Beschränkung der Bildschirmausrichtung
+= Prüfschritt 11.1.3.4 Ausrichtung
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
