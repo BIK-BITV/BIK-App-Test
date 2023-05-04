@@ -5,9 +5,19 @@ include::include/attributes.adoc[]
 *Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
-Interaktive Elemente, die verschiedene Zustände haben (z.B. an- und ausgeschaltet) sollen auch mit eingeschaltetem Screenreader bedienbar sein. Für Standard-Elemente ist dies in der Regel gegeben. Das Augenmerk bei der Prüfung liegt deshalb hauptsächlich auf Custom-Elementen und Custom-Widgets. 
 
-Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt 11.4.1.2 "Name, Rolle, Wert verfügbar". Hier wird speziell geprüft, ob sich *Zustände und Eigenschaften* von Bedienelementen auch bei aktivierten Hilfsmitteln modifizieren lassen. Beispiele: 
+Interaktive Elemente, die verschiedene Zustände haben (z.B. an- und ausgeschaltet) sollen auch mit eingeschaltetem Screenreader bedienbar sein.
+Für Standard-Elemente ist dies in der Regel gegeben.
+Das Augenmerk bei der Prüfung liegt deshalb hauptsächlich auf Custom-Elementen und Custom-Widgets. 
+
+Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt
+ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert".]
+ifndef::env_embedded[]
+<<11.4.1.2 Name-Rolle-Wert.adoc#,11.4.1.2 Name, Rolle, Wert>>.
+endif::env_embedded[]
+Hier wird speziell geprüft, ob sich *Zustände und Eigenschaften* von Bedienelementen auch bei aktivierten Hilfsmitteln modifizieren lassen.
+
+Beispiele:
 
 * eine Custom-Checkbox lässt sich markieren
 * ein Ausklappmenü oder ein Ausklappbereich lässt sich öffnen und schließen
@@ -16,40 +26,51 @@ Die Prüfung erfolgt im Wesentlichen in der gleichen Weise wie beim Prüfschritt
 
 == Warum wird das geprüft?
 
-Hilfsmittel-Nutzenden soll es möglich sein, alle Zustände und Eigenschaften von Bedienelementen zu ändern, die sich ohne die Nutzung von Hilfsmitteln ändern lassen. Selbst-gestaltete interaktive Elemente (Custom-Elemente und -Widgets) sollen sich ebenso bedienen lassen wie native Elemente.
+Hilfsmittel-Nutzenden soll es möglich sein, alle Zustände und Eigenschaften von Bedienelementen zu ändern, die sich ohne die Nutzung von Hilfsmitteln ändern lassen.
+Selbstgestaltete interaktive Elemente (Custom-Elemente und -Widgets) sollen sich ebenso bedienen lassen wie native Elemente.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist immer anwendbar, wenn die Seite interaktive Elemente enthält, die verschiedene Zustände haben können.
+
+Der Prüfschritt ist immer anwendbar, wenn die App-Ansicht interaktive Elemente enthält, die verschiedene Zustände haben können.
 
 === 2. Prüfung
-Die Prüfung folgt im wesentlichen der Prüfung in 11.4.1.2 Name, Rolle, Wert. Nicht nur bei der initialen Fokussierung sollen zugänglicher Name, Rolle und Wert von Elementen und Widgets ausgegeben werden. Generell verfügbare Zustände müssen sich auch bei eingeschaltetem Screenreader ändern lassen.
+
+Die Prüfung folgt im wesentlichen der Prüfung in
+ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert".]
+ifndef::env_embedded[]
+<<11.4.1.2 Name-Rolle-Wert.adoc#,11.4.1.2 Name, Rolle, Wert>>.
+endif::env_embedded[]
+Nicht nur bei der initialen Fokussierung sollen zugänglicher Name, Rolle und Wert von Elementen und Widgets ausgegeben werden.
+Generell verfügbare Zustände müssen sich auch bei eingeschaltetem Screenreader ändern lassen.
 
 === 3. Hinweise
-In der Regel kann die Bewertung bei Prüfschritt 11.4.1.2 hier übernommen werden. Kann bei eingeschaltetem Screenreader der Wert nicht geändert werden, sind sowohl Prüfschritt 11.4.1.2 als auch dieser Prüfschritt nicht erfüllt. Dieser Prüfschritt betrachtet die Möglichkeit, den Wert wirksam zu ändern, nicht die Ausgabe des (geänderten) Wertes. Dies ist Gegenstand von Prüfschritt 11.4.1.2 "Name Rolle Wert verfügbar".
+
+In der Regel kann die Bewertung bei Prüfschritt 11.4.1.2 hier übernommen werden.
+Kann bei eingeschaltetem Screenreader der Wert nicht geändert werden, sind sowohl Prüfschritt 11.4.1.2 als auch dieser Prüfschritt nicht erfüllt.
+Dieser Prüfschritt betrachtet die Möglichkeit, den Wert wirksam zu ändern, nicht die Ausgabe des (geänderten) Wertes.
+Dies ist Gegenstand von Prüfschritt
+ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert".]
+ifndef::env_embedded[]
+<<11.4.1.2 Name-Rolle-Wert.adoc#,11.4.1.2 Name, Rolle, Wert>>.
+endif::env_embedded[]
 
 === 4. Bewertung
 
 ==== Erfüllt:
+
 Alle Werte interaktiver Elemente lassen sich mit aktiviertem Screenreader ändern.
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-11.5.2.16 Modifications of states and properties
-
-== Quellen
-
-=== Auszug EN 301 549 V.3.2.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
+
 ==== 11.5.2.16 Modifications of states and properties
-
-____
 [.BLOCK_LANG_EN]
---
+____
 Where permitted by security requirements, software that provides a user interface shall, by using the services as described in clause 11.5.2.3, allow assistive technologies to programmatically modify states and properties of user interface elements, where the user can modify these items.
 
 NOTE 1:
@@ -58,6 +79,4 @@ Examples of systems under strict security requirements are systems dealing with 
 
 NOTE 2:
 Assistive technologies may be required to maintain the same level of security as the standard input mechanisms supported by the platform.
---
 ____
-
