@@ -10,21 +10,23 @@ Ein Beispiel ist eine App, die das Einscannen von Produkten über einen Handscan
 Ein weiteres Beispiel wäre eine App, die die Authentifizierung von Nutzenden über ein Kartenlesegerät ermöglicht. 
 Wenn es in Hardware, die zusammen mit der App genutzt wird, visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch akustisch oder taktil (also durch Fühlen mit den Fingern) zu erfassen. 
 Dies gilt für Schalter mit zwei oder drei Zuständen.
+
+Auch Umschalter auf dem Ausgabegerät selbst können für die Nutzung der App relevant sein, etwa physische Umschalter für das Stummschalten oder das Feststellen der Bildschirmausrichtung.
+
 Beispiele wären:
 
 * An/Aus Schalter an einem Kartenlesegerät oder Hand-Scanner
-* Umschalttaste für Ton an/Ton aus an einem Eingabegerät
+* Umschalter für Ton an / Ton aus (Stummschalten) an einem Eingabegerät oder Ausgabegerät
 * Voreinstellungs-Schalter für drei verschiedene Lautstärke-Stufen für die aktustische Ausgabe an einem Gerät
 
 == Warum wird das geprüft?
 
-Wenn zusätzliche Hardware bei der Nutzung von Apps erforderlich ist, soll auch der Zustand physischer Bedienelemente wahrnehmbar sein. Dazu gehört, das der Zustand nicht nur visuell, sondern auch mit dem Finger fühlbar oder aber akustisch ermittelbar ist.
+Wenn physische Umschalter am Ausgabegerät oder zusätzlicher Hardware bei der Nutzung von Apps relevant sind, soll deren Zustand wahrnehmbar sein. Dazu gehört, das der Zustand nicht nur visuell, sondern auch mit dem Finger fühlbar oder aber akustisch ermittelbar ist.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist nur anwendbar, die App zusammen mit gekoppelter Hardware geprüft wird. 
-Dazu gehören z.B. Handscanner oder Kartenlesegerät.
+Der Prüfschritt ist nur anwendbar, wenn für die Nutzung der App der Zustand von Hardware-Schaltern auf einem Ausgabegrät oder spezieller zusätzlicher Hardware relevant sind. Dazu gehören etwa Schalter zum Feststellen der Bildschirmausrichtung oder zum Stummschalten am genutzten Ausgabegerät, oder physische Umaschalter an gekoppelter spezieller Hardware.
 
 === 2. Prüfung
 . Wird die App zusammen mit zusätzliche Hardware genutzt?
