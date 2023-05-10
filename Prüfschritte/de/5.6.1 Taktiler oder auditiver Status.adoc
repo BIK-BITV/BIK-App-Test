@@ -11,7 +11,7 @@ Ein weiteres Beispiel wäre eine App, die die Authentifizierung von Nutzenden ü
 Wenn es in Hardware, die zusammen mit der App genutzt wird, visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch akustisch oder taktil (also durch Fühlen mit den Fingern) zu erfassen. 
 Dies gilt für Schalter mit zwei oder drei Zuständen.
 
-Auch Umschalter auf dem Ausgabegerät selbst können für die Nutzung der App relevant sein, etwa physische Umschalter für das Stummschalten oder das Feststellen der Bildschirmausrichtung. Auch diese Zustände sollen taktil oder auditiv ermittelbar sein.
+Auch Umschalter auf dem Ausgabegerät selbst können für die Nutzung der App relevant sein, etwa physische Umschalter für das Stummschalten oder das Feststellen der Bildschirmausrichtung. Auch der Zustand solcher Schalter am Gerät selbst soll taktil oder auditiv ermittelbar sein.
 
 Beispiele wären:
 
