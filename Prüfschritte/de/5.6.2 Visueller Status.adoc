@@ -29,7 +29,7 @@ Wenn der Zustand von Umschaltern auf dem Gerät oder auf spezieller Hardware bei
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist nur anwendbar, wenn für die Nutzung der App der Zustand von Hardware-Schaltern auf einem Ausgabegrät oder spezieller zusätzlicher Hardware relevant sind. Dazu gehören etwa Schalter zum Feststellen der Bildschirmausrichtung oder zum Stummschalten.
+Der Prüfschritt ist nur anwendbar, wenn für die Nutzung der App der Zustand von Hardware-Schaltern auf einem Ausgabegrät oder spezieller zusätzlicher Hardware relevant sind. Dazu gehören etwa Schalter zum Feststellen der Bildschirmausrichtung oder zum Stummschalten am genutzten Ausgabegerät, oder physische Umaschalter an gekoppelter spezieller Hardware.
 
 === 2. Prüfung
 . Gibt es auf dem Ausgabegerät oder zusätzlich genutzter Hardware Umschalter, die generell den Kontext der Ausgabe oder Eingabe beeinflussen (z.B. die Bildschirm-Ausrichtung feststellen oder den Ton stumm schalten)?
