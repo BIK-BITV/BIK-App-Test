@@ -6,34 +6,38 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Manche Apps können zusammen mit spezieller Hardware genutzt werden. Ein Beispiel ist eine App, die das Einscannen von Produkten über einen Handscanner erlaubt. Ein weiteres Beispiel wäre eine App, die die Authentifizierung von Nutzenden über ein Kartenlesegerät ermöglicht. Wenn es in Hardware, die zusammen mit der App genutzt wird, nicht-visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch visuell zu erfassen. Dies gilt für Schalter mit zwei oder drei Zuständen. Beispiele wären:
+Manche Apps können zusammen mit spezieller Hardware genutzt werden. Ein Beispiel ist eine App, die das Einscannen von Produkten über einen Handscanner erlaubt. Ein weiteres Beispiel wäre eine App, die die Authentifizierung von Nutzenden über ein Kartenlesegerät ermöglicht. Wenn es in Hardware, die zusammen mit der App genutzt wird, nicht-visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch visuell zu erfassen. Dies gilt für Schalter mit zwei oder drei Zuständen. 
+
+Für die nutzung mancher Apps können bestimmte Zustände von Umschaltern am Ausgabegerät selbst relevant sin, z.B. zum Stummschalten des Geräts oder Feststellen der Bildschirmausrichtung.
+
+Beispiele wären:
 
 * An/Aus Schalter an einem Kartenlesegerät oder Hand-Scanner
-* Umschalttaste für Ton an/Ton aus an einem Eingabegerät
+* Umschalter für Ton an/Ton aus (Stummschalten) an einem Eingabegerät oder Ausgabegerät
 * Voreinstellungs-Schalter für drei verschiedene Lautstärke-Stufen für die aktustische Ausgabe an einem Gerät
 
-Wenn es auf der speziellen Hardware, die zusammen mit der App genutzt wird, Umschalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, müssen diese Schalter auch visuell wahrnehmbar sein.
+Wenn es auf dem Ausgabegerät oder einer speziellen Hardware, die zusammen mit der App genutzt wird, Umschalter oder dreiwertige Schalter gibt, die den Kontext der Ausgabe oder Eingabe beeinflussen, müssen diese Schalter auch visuell wahrnehmbar sein.
 
-Die Intention dieser Anforderung ist ebenso wie bei Prüfschritt 5.6.1 die Einbeziehung von physischen Schaltern an Geräten, welche Zustände der Ausgabe (etwa Lautstärke) oder Eingabe (etwa Großbuchstaben) mittels Umschalter oder dreiwertigem Schalter feststellen. Dazu gehören etwa Großbuchstaben-Feststelltaste oder dreiwertige Lautstärke-Taste. Im Kontext von Mobilgeräten ist insbesondere die Feststelltaste für die Bildschirmausrichtung relevant, für die sich zum Teil auch physische Tasten finden (etwa beim iPhone). Es lässt sich also ableiten, dass es hier speziell um Bedienelemente geht, die nicht Funktionen der App selbst betreffen, sondern den Kontext der Eingabe oder Ausgabe.
+Die Intention dieser Anforderung ist ebenso wie bei Prüfschritt 5.6.1 die Einbeziehung von physischen Schaltern an Geräten, welche Zustände der Ausgabe (etwa Lautstärke) oder Eingabe (etwa Großbuchstaben) mittels Umschalter oder dreiwertigem Schalter feststellen. Dazu gehören etwa Großbuchstaben-Feststelltaste oder dreiwertige Lautstärke-Taste. Im Kontext von Mobilgeräten wären insbesondere physische Umschalter für die Stummschaltung oder das Feststellen der Bildschirmausrichtung relevant, für die sich abhängig vom genutzten Gerät auch physische Tasten finden (etwa beim iPhone). Es lässt sich also ableiten, dass es hier speziell um Bedienelemente geht, die nicht Funktionen der App selbst betreffen, sondern den Kontext der Eingabe oder Ausgabe.
 
-Virtualisierte Schalter innerhalb der App sind nicht von diesem Prüfschritt erfasst. Für die ist der Prüfschritt 11.4.1.2 Name, Rolle, Wert zuständig.
+Virtualisierte Schalter innerhalb der App sind nicht von diesem Prüfschritt erfasst. Für diese ist der Prüfschritt 11.4.1.2 Name, Rolle, Wert zuständig.
 
 == Warum wird das geprüft?
 
-Wenn der Zustand von Umschaltern bei der Nutzung der App mit spezieller Hardware relevant ist, soll dieser Zustand auch visuell erkennbar sein. Dies ist zum Beispiel dann der Fall, wenn ein Umschalter zwei visuell unterschiedbare Zustände hat. Beim Stummschalten des iPhones wird z.B. der Umschalter Richtung Geräterückseite geschoben, es erscheint zusätzlich ein schmaler roter Streifen im Ausschnitt, in dem sich der Schalter bewegt. Damit wird visuell signalisiert, dass der Ton abestellt ist.
+Wenn der Zustand von Umschaltern auf dem Gerät oder auf spezieller Hardware bei der Nutzung der App relevant ist, soll dieser Zustand auch visuell erkennbar sein. Dies ist zum Beispiel dann der Fall, wenn ein Umschalter zwei visuell unterschiedbare Zustände hat. Beim Stummschalten des iPhones wird z.B. der Umschalter Richtung Geräterückseite geschoben, es erscheint zusätzlich ein schmaler roter Streifen im Ausschnitt, in dem sich der Schalter bewegt. Damit wird visuell signalisiert, dass der Ton abgestellt ist.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist nur anwendbar, wenn für die Nutzung der Zustand von Hardware-Schaltern auf dem Ausgabegrät oder relevant spezieller zusätzulicher Hardware relevant sind. Dazu gehören etwa Schalter zum Feststellen der Bildschirmausrichtung oder zum Stummschalten.
+Der Prüfschritt ist nur anwendbar, wenn für die Nutzung der App der Zustand von Hardware-Schaltern auf einem Ausgabegrät oder spezieller zusätzlicher Hardware relevant sind. Dazu gehören etwa Schalter zum Feststellen der Bildschirmausrichtung oder zum Stummschalten.
 
 === 2. Prüfung
-. Gibt es aud dem Ausgabegerät oder zusätzlich genutzter hardware Umschalter, die generell den Kontext der Ausgabe oder Eingabe beeinflussen (z.B. die Bildschirm-Ausrichtung feststellen oder den Ton stumm schalten)?
-. Falls das zutrifft: Mittels Sichtprüfung für solche Umschalter prüfen, ob der Zustand visuell ermittelbar ist.
+. Gibt es auf dem Ausgabegerät oder zusätzlich genutzter Hardware Umschalter, die generell den Kontext der Ausgabe oder Eingabe beeinflussen (z.B. die Bildschirm-Ausrichtung feststellen oder den Ton stumm schalten)?
+. Falls das zutrifft: Mittels Sichtprüfung für solche physischen Umschalter prüfen, ob der Zustand visuell ermittelbar ist.
 
 === 3. Bewertung
 ==== Nicht erfüllt
-* Für die Nutzung der App ist ein physischer Umschalter auf dem Ausgabegerät oder auf zusätzlicher Hardware relevant, der den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand ist nicht visuell ermittelbar ist.
+* Für die Nutzung der App ist ein physischer Umschalter auf dem Ausgabegerät oder auf zusätzlicher Hardware relevant, der den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand nicht visuell ermittelbar ist.
 
 == Quellen
 
