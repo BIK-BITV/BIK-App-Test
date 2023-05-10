@@ -38,7 +38,7 @@ Der Prüfschritt ist nur anwendbar, wenn für die Nutzung der App der Zustand vo
 === 3. Hinweise
 * Wenn die App einen Modus hat, der die gleiche Funktionalität auch ohne gekoppeltes Zubehör bietet oder der Schalter-Zustand des Zubehörs auch in der App sowohl visuell als auch programmatisch ermittelbar ist, wäre der Prüfschritt erfüllt.
 
-=== 3. Bewertung
+=== 4. Bewertung
 ==== Nicht erfüllt
 * Für die Nutzung der App ist ein physischer Umschalter auf dem Ausgabegerät oder auf zusätzlicher Hardware relevant, der den Kontext der Ausgabe oder Eingabe beeinflusst und dessen Zustand nicht visuell ermittelbar ist.
 
