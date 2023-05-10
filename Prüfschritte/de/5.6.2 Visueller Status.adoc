@@ -8,7 +8,7 @@ include::include/attributes.adoc[]
 
 Manche Apps können zusammen mit spezieller Hardware genutzt werden. Ein Beispiel ist eine App, die das Einscannen von Produkten über einen Handscanner erlaubt. Ein weiteres Beispiel wäre eine App, die die Authentifizierung von Nutzenden über ein Kartenlesegerät ermöglicht. Wenn es in Hardware, die zusammen mit der App genutzt wird, nicht-visuell wahrnehmbare Umschalter gibt, soll es möglich sein, den Zustand des Umschalters auch visuell zu erfassen. Dies gilt für Schalter mit zwei oder drei Zuständen. 
 
-Für die Nutzung mancher Apps können bestimmte Zustände von Umschaltern am Ausgabegerät selbst relevant sin, z.B. zum Stummschalten des Geräts oder Feststellen der Bildschirmausrichtung. Auch diese Zustände sollen visuell ermittelbar sein.
+Für die Nutzung mancher Apps können bestimmte Zustände von Umschaltern am Ausgabegerät selbst relevant sin, z.B. zum Stummschalten des Geräts oder Feststellen der Bildschirmausrichtung. Auch der Zustand solcher Schalter am Gerät selbst soll visuell ermittelbar sein.
 
 Beispiele wären:
 
