@@ -13,7 +13,7 @@ Dies gilt generell für Dokumentation sowohl innerhalb als auch außerhalb der A
 
 Zur Dokumentation zählen auch Informationen zur Kompatibilität mit assistiven Technologien - 
 etwa, wenn sich bestimmte Inhalte nur eingeschränkt 
-oder gar nicht mit assistiven Technologien nutzen lassen.
+oder gar nicht mit bestimmten assistiven Technologien nutzen lassen.
 
 == Wie wird geprüft?
 
