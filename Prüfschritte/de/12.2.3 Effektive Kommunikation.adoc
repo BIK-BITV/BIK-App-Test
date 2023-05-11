@@ -41,10 +41,8 @@ hinterlassen].
 == Einordnung des Prüfschritts
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-==== 12.2.3 Effective communication
-
 [.BLOCK_LANG_EN]
-=== 12.2.3 Effective communication
+==== 12.2.3 Effective communication
 ____
 [.BLOCK_LANG_EN]
 ICT support services shall accommodate the communication needs of individuals
