@@ -2,17 +2,12 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-12.1.2 "Accessible documentation" verwiesen.
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
 
-Die Dokumentation soll mindestens in eines der folgenden Formate barrierefrei
-zur Verfügung gestellt werden:
+Wenn technische Dokumentation für die App bereitgestellt wird soll mindestens in eines der folgenden Formate barrierefrei
+zur Verfügung gestellt werden, sofern sie nicht in die App selbst integriert ist:
 
 * Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
 * Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
@@ -25,22 +20,19 @@ bewertet.
 === Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar.
-Im App-Test-Verfahren kann jedoch lediglich das Vorhandensein der Dokumentation
-in den geforderten Formaten geprüft werden.
-Um die Barrierefreiheit der Dokumentation zu prüfen, ist ein separater Auftrag
-zu erteilen.
+Im App-Test-Verfahren kann jedoch lediglich technische Dokumentation geprüft werden, 
+die in die App selbst integriert ist.
+
+Dokumentation außerhalb der App muss dann in einem separaten Auftrag geprüft werden.
+Wenn es sich um technische Dokumentation auf HTML-Basis handelt, kann das
+das https://bitvtest.de/start.html[BIK-BITV-Test-Verfahren] genutzt werden.
 
 === Prüfung
+Die Prüfung von in die App integrierter techniqscher Dokumentation 
+folgt den übrigen Prüfschritten des Verfahrens, wie bei den anderen Ansichten der zu prüfenden Auswahl.
 
 Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue eröffnen].
-
-Im App-Test-Verfahren werden keine Dokumente geprüft.
-Hier kann derzeit nur der Hinweis gegeben werden, dass die Dokumentation
-mindestens in eines der o. g. Formate barrierefrei zur Verfügung gestellt
-werden muss.
-Wenn es sich um eine Dokumentation auf HTML-Basis handelt, kann der Hinweis auf
-das https://bitvtest.de/start.html[BIK-BITV-Test-Verfahren] gegeben werden.
 
 ==== Hinweise
 
@@ -50,9 +42,13 @@ Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache
 für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
 
 == Quellen
+* Zurzeit keine Quellen.
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
-=== 12.1.2 Accessible documentation
+==== 12.1.2 Accessible documentation
 
 [.BLOCK_LANG_EN]
 --
@@ -81,5 +77,3 @@ NOTE 4:
 A user agent that supports automatic media conversion would be beneficial to
 enhancing accessibility.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 12.1.2 "Accessible documentation")
