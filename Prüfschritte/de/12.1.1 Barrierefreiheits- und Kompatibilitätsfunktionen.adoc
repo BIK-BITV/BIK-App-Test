@@ -19,7 +19,8 @@ oder gar nicht mit bestimmten assistiven Technologien nutzen lassen.
 
 === 1. Anwendbarkeit des Prüfschritts
 
-* Der Prüfschritt ist nur anwendbar, wenn technische Dokumentation (bzw. Produktdokumentation) für die App bereitgestellt wird. 
+* Der Prüfschritt ist nur anwendbar, wenn technische Dokumentation 
+(bzw. Produktdokumentation) für die App bereitgestellt wird. 
 Strukturierte Informationen zu inhaltlichen Themen der App, 
 wie sie z.B. in FAQs (Frequently Asked Questions) bereitgestellt werden, 
 gelten nicht als technische Dokumentation. 
@@ -40,14 +41,16 @@ sollen in der Dokumentation aufgelistet und erklärt werden.
 Die Dokumentation kann dabei mit der Software mitgeliefert werden oder separat
 verfügbar sein.
 
-Wenn vorhanden, kann die Dokumentation, die sich auf Barrierefreiheit bezieht, zum Beispiel Folgendes sein:
+Wenn vorhanden, kann die Dokumentation, die sich auf Barrierefreiheit bezieht, 
+zum Beispiel Folgendes sein:
 
 * Die Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102
 * Informationen zur Kompatibilität mit assistiven Technologien
 * spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
 * Hilfeseiten für die Nutzung der App
 * Einzelheiten zu bestimmten Funktionen für Barrierefreiheit,
-sofern sie in der App implementiert sind und nicht über die System-Umgebung (etwa iOS- oder Android-Bedienungshilfen) bereitgestellt werden, etwa:
+sofern sie in der App implementiert sind und nicht über die System-Umgebung 
+(etwa iOS- oder Android-Bedienungshilfen) bereitgestellt werden, etwa:
 ** Vorlesefunktion
 ** Kontrastumschalter oder Schalter für Farbschemata
 ** Aktivierung von verbesserter Maus- oder Tastaturfokus-Hervorhebung
@@ -66,7 +69,8 @@ https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
 
 === 4. Bewertung
 ==== Nicht erfüllt:
-* Eine technische Dokumentation und Barrierefreiheitsfunktionen sind vorhanden, diese Funktionen sind aber nicht dokumentiert und erklärt.
+* Eine technische Dokumentation und Barrierefreiheitsfunktionen sind vorhanden, 
+diese Funktionen sind aber nicht dokumentiert und erklärt.
 
 == Quellen
 * Zurzeit keine Quellen.
@@ -74,10 +78,10 @@ https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
-____
+
 [.BLOCK_LANG_EN]
 ==== 12.1.1 Accessibility and compatibility features
-
+____
 [.BLOCK_LANG_EN]
 --
 Product documentation provided with the ICT whether provided separately or
