@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.1.1b Nicht-Text-Inhalt (Grafiken und Objekte)
+= Prüfschritt 11.1.1.1b Nicht-Text-Inhalt – Grafiken und Objekte
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
