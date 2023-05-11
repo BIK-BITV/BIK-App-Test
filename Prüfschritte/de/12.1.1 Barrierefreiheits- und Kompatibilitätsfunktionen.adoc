@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Wenn technische Dokumentation für die App bereitgestellt wird, 
-soll diese vorhandene Funktionen für Barrierefreiheit und Kompabilität 
+soll sie in der App vorhandene Funktionen für Barrierefreiheit und Kompabilität 
 auflisten und deren Nutzung erklären.
 Dies gilt generell für Dokumentation sowohl innerhalb als auch außerhalb der App.
 
