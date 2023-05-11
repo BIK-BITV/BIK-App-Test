@@ -1,4 +1,4 @@
-= Prüfschritt 6.5.6 Sprecher-Erkennung bei Gebärdensprach-Kommunikation
+= Prüfschritt 6.5.6 Sprecheridentifizierung mittels Video- (Gebärdensprach-)Kommunikation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
