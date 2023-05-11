@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 *Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
-Wird ein technischer Support (etwa über Telefon, Mail oder Chat) angeboten, 
+Werden für die App unterstützende Dienste angeboten (etwa über Telefon, Mail oder Chat), 
 soll dieser die Kommunikationsbedürfnisse von Menschen mit Behinderungen berücksichtigen 
 und effektive d. h. funktionierende und tragfähige Kommunikationskanäle anbieten. 
 Dies kann auch durch die Vermittlung an Dritte geschehen.
