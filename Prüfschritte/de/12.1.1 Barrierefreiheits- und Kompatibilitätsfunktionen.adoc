@@ -11,51 +11,55 @@ In dieser Tabelle wird auf Abschnitt
 
 == Was wird geprüft?
 
-Die Dokumentation der Software soll die Eigenschaften und Funktionen in  Bezug
-auf Barrierefreiheit auflisten undessen Nutzung erklären.
-Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien.
+Wenn technische Dokumentation für die App bereitgestellt wird, 
+soll diese vorhandene Funktionen für Barrierefreiheit und Kompabilität 
+auflisten und dessen Nutzung erklären.
+Dies gilt generell für Dokumentation sowohl innerhalb als auch außerhalb der App.
+Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien - 
+etwa, wenn sich bestimmte Inhalte nur eingeschränkt 
+oder gar nicht mit assistiven Technologien nutzen lassen.
 
 == Wie wird geprüft?
 
 === Anwendbarkeit des Prüfschritts
 
-Dieser Prüfschritt ist anwendbar, wenn der Teil der Dokumentation, der sich
-mit Barrierefreiheit und Kompatibilität beschäftigt, in die App integriert
-ist.
+Dieser Prüfschritt ist im App-Testverfahren nur für den Teil der Dokumentation prüfbar, 
+der in die App integriert ist 
+und sich auf die Dokumentation von Barrierefreiheit und Kompatibilität bezieht. 
 Dokumentation, die ausschließlich außerhalb der App bereitgestellt wird,
 kann nicht im Rahmen dieses Prüfverfahrens mitgetestet werden.
-Die entsprechende Dokumentation muss dann in einem separaten Auftrag geprüft
-werden.
+Dokumentation außerhalb der App muss dann in einem separaten Auftrag geprüft werden.
 
 === Prüfung
-
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
-https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
-
-Alle für die Barrierefreiheit relevanten Informationen zur Software sollen
-in der Dokumentation aufgelistet und erklärt werden.
+Alle für die Barrierefreiheit relevanten Informationen zur App 
+sowie bereitgestellte Funktionen für Barrierefreiheit
+sollen in der Dokumentation aufgelistet und erklärt werden.
 Die Dokumentation kann dabei mit der Software mitgeliefert werden oder separat
 verfügbar sein.
 
-Die Dokumentation kann dabei z.B. folgende Informationen enthalten:
+Wenn vorhanden, kann die Dokumentation, die sich auf Barrierefreiheit bezieht, zum Beispiel Folgendes sein:
 
-* Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102
-* Einzelheiten zu Features für die Barrierefreiheit
+* Die Barrierefreiheitserklärung nach EU-Richtlinie 2016/2102
+* Informationen zur Kompatibilität mit assistiven Technologien
+* Einzelheiten zu bestimmten Funktionen für Barrierefreiheit, 
+sofern sie in der App implementiert sind und nicht etwa über die Systemumbegbung bereitgestellt werden, etwa:
 ** Vorlesefunktion
 ** Kontrastumschalter / Schalter für Farbschemata / Aktivierung verbesserter
    Maus-/Tastaturfokus
-** Vergrößerungsfunktion
+** Vergrößerungsfunktion 
 ** Anpassung von Textabständen
 ** Deaktivierung von Bewegungen oder automatischen Audios
 ** besondere Bedienungsarten mit Tastatur / Tastenkombinationen
-* Informationen zur Kompatibilität mit assistiven Technologien
 * spezielle Tastenkombinationen für die Nutzung mit assistiven Technologien
 * Verzeichnisse für Abkürzungen
-* Verweise zuHilfeseiten
+* Verweise zu Hilfeseiten
 
 Die Software soll, wenn möglich, Metadaten für die unterstützten
-Barrierefreiheitsfunktionen und Kompatibilität maschienenlesbar, in geeigneten
-Formaten, bereitstellen.
+Barrierefreiheitsfunktionen und Kompatibilität maschinenlesbar, 
+in geeigneten Formaten, bereitstellen.
+
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
+https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
 
 == Quellen
 
