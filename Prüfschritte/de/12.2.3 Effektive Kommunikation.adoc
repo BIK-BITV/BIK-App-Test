@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 Werden für die App unterstützende Dienste angeboten (etwa über Telefon, Mail oder Chat), 
-soll dieser die Kommunikationsbedürfnisse von Menschen mit Behinderungen berücksichtigen 
+sollen diese Kommunikationsbedürfnisse von Menschen mit Behinderungen berücksichtigen 
 und effektive d. h. funktionierende und tragfähige Kommunikationskanäle anbieten. 
 Dies kann auch durch die Vermittlung an Dritte geschehen.
 
