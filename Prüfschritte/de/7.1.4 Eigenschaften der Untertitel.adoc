@@ -1,4 +1,4 @@
-= Prüfschritt 7.1.4 Eigenschaften der Untertitelung
+= Prüfschritt 7.1.4 Eigenschaften der Untertitel
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
