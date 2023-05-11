@@ -6,8 +6,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn technische Dokumentation für die App bereitgestellt wird soll mindestens in eines der folgenden Formate barrierefrei
-zur Verfügung gestellt werden, sofern sie nicht in die App selbst integriert ist:
+Wenn technische Dokumentation für die App bereitgestellt wird, 
+soll diese in mindestens einem der folgenden Formate barrierefrei
+zugänglich sein, sofern sie nicht in die App selbst integriert ist:
 
 * Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
 * Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
