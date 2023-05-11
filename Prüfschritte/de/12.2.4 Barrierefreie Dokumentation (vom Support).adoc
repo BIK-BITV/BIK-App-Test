@@ -2,6 +2,8 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
+
 == Was wird geprüft?
 
 Wird durch den technischen Support eines Angebots eine Dokumentation bereitgestellt, wird diese in mindestens einem der folgenden Formate barrierefrei angeboten:
@@ -19,48 +21,46 @@ Die technische Dokumentation ist ein wichtiger Bestandteil vieler Angebote, beso
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-
-Der Prüfschritt ist anwendbar, wenn Support Services eine technische Dokumentation zur Nutzung des Angebots bereitstellen, etwa HTML-basierte Hilfe-Systeme, PDF-Handbücher, oder Anleitungen. Im BIK BITV-Test können lediglich Dokumente auf Basis von Web-Technologien getestet werden.
-
-Der Prüfschritt ist anwendbar, wenn Support Services eine technische Dokumentation zur Nutzung des Angebots bereitstellen, etwa HTML-basierte Hilfe-Systeme, PDF-Handbücher, oder Anleitungen. Im BIK BITV-Test können lediglich Dokumente auf Basis von Web-Technologien getestet werden.
+* Der Prüfschritt ist anwendbar, wenn ein technischer Support
+zusätzliche Dokumentation zur Nutzung des Angebots bereitstellt, 
+etwa Hilfe-Systeme oder Anleitungen. 
+Im BIK App-Test kann lediglich Dokumentation geprüft wenn, 
+die im Rahmen der App zusätzlich zur Verfügung gestellt wird (etwa in einem Webview).
+* Dokumentation, die außerhalb der App bereitgestellt wird, 
+kann nicht im Rahmen dieses Prüfverfahrens geprüft werden. 
+Diese muss ggf. in einem separaten Auftrag geprüft werden. 
+Wenn es sich um technische Dokumentation auf HTML-Basis handelt, 
+kann das das Verfahren https://bitvtest.de/bitv_test/das_testverfahren_im_detail/bik_bitv_test_web.html[BIK-BITV-Test (Web)] genutzt werden.
 
 === 2. Prüfung
-
-Gibt es eine Support-Dienstleistung, die eine technische Dokumentation zur Nutzung bzw. zum Verständnis der Funktionen eines Angebots bereitstellt?
-
-Wenn eine zusätzliche technische Dokumentation im HTML-Format bereitgestellt wird, wird diese in der Seitenauswahl des Tests berücksichtigt und mitgetestet.
+Wenn der technische Support zusätzliche Dokumentation zur Nutzung des Angebots bereitstellt, 
+sind Ansichten mit dieser Dokumentation gemäß der übrigen Prüfschritte des App-Tests zu prüfen.
+Die zusätzlich bereitgestellte Dokumentation
+wird in einer erweiterten Auswahl von Ansichten berücksichtigt und mitgetestet.
 
 === 3. Hinweise
-
-Dokumentation bezieht sich in diesem Prüfschritt auf alle Dokumente, die dem Nutzer auf Anfrage durch den Support zur Verfügung gestellt werden.
-
-Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z.B. Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
-
-Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch nicht vollständig geklärt. Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
+* Dokumentation bezieht sich in diesem Prüfschritt nur auf jene Dokumente, die Nutzenden auf Anfrage durch den Support zusätzlich zur Verfügung gestellt werden.
+* Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z.B. Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
+* Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, ist noch nicht vollständig geklärt. 
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue eröffnen].
 
 === 4. Bewertung
-
 ==== Erfüllt
-
-Die webbasierte Dokumentation erfüllt alle Anforderungen aus Kapitel 9 (Web) der EN.
+* Die im Rahmen der App bereitgestellte zusätzliche Dokumentation erfüllt die Anforderungen aller anderen Prüfschritte des App-Tests.
 
 ==== Nicht erfüllt
-
-Die webbasierte Dokumentation erfüllt eine oder mehrere Anforderungen aus Kapitel 9 (Web) nicht.
-
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-12.2.4 Accessible documentation
-
+* Die im Rahmen der App bereitgestellte zusätzliche Dokumentation erfüllt eine oder mehrere Prüfschritte des App-Tests nicht.
 
 == Quellen
+* Zurzeit keine Quellen.
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
-=== 12.2.4 Accessible documentation
-
+==== 12.2.4 Accessible documentation
+____
 [.BLOCK_LANG_EN]
 --
 Documentation provided by support services shall be made available in at least
@@ -86,5 +86,4 @@ NOTE 4:
 A user agent that supports automatic media conversion would be beneficial to
 enhancing accessibility.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 12.2.4 "Accessible documentation")
+____
