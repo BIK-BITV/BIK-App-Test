@@ -31,7 +31,7 @@ der in die App integriert ist.
 kann nicht im Rahmen dieses Prüfverfahrens geprüft werden. 
 Dokumentation außerhalb der App muss dann in einem separaten Auftrag geprüft werden. 
 Wenn es sich um technische Dokumentation auf HTML-Basis handelt, 
-kann das das Verfahren https://ergebnis.bitvtest.de/pruefverfahren/bitv-20-web[BIK-BITV-Test (Web)] genutzt werden.
+kann das das Verfahren https://bitvtest.de/bitv_test/das_testverfahren_im_detail/bik_bitv_test_web.html[BIK-BITV-Test (Web)] genutzt werden.
 
 === Prüfung
 Alle für die Barrierefreiheit relevanten Informationen zur App 
