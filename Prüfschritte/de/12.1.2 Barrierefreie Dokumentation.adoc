@@ -18,7 +18,7 @@ bewertet.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 * Der Prüfschritt ist nur anwendbar, wenn technische Dokumentation (bzw. Produktdokumentation) für die App bereitgestellt wird. 
 Strukturierte Informationen zu inhaltlichen Themen der App, 
 wie sie z.B. in FAQs (Frequently Asked Questions) bereitgestellt werden, 
@@ -29,20 +29,25 @@ Dokumentation außerhalb der App muss dann in einem separaten Auftrag geprüft w
 Wenn es sich um technische Dokumentation auf HTML-Basis handelt, 
 kann das das https://bitvtest.de/start.html[BIK-BITV-Test-Verfahren] genutzt werden.
 
-=== Prüfung
+=== 2. Prüfung
 Die Prüfung von in die App integrierter technischer Dokumentation 
 folgt den übrigen Prüfschritten des Verfahrens, 
 genauso wie bei den anderen Ansichten der zu prüfenden Auswahl.
 
-Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub
-https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue eröffnen].
-
-==== Hinweise
+=== 3. Hinweise
 
 Der Prüfschritt schließt nicht die Möglichkeit aus, alternative Formate
 anzubieten, die die Bedürfnisse einer bestimmten Nutzergruppe erfüllen (z.B.
 Braille-Dokumente für blinde Menschen oder Informationen in leichter Sprache 
 für Personen mit eingeschränkter Kognition, Sprache und Lernfähigkeit).
+
+Für Hinweise zu diesem Prüfschritt können Sie auf GitHub
+https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue eröffnen].
+
+=== 4. Bewertung
+==== Nicht erfüllt:
+* Ein oder mehrere der übrigen Prüfschritte des App-Tests sind für Seiten mit technischer Dokumentation nicht erfüllt. 
+Dann ist auch dieser Prüfschritt nicht erfüllt.
 
 == Quellen
 * Zurzeit keine Quellen.
