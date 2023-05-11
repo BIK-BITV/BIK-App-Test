@@ -38,18 +38,17 @@ mündlich oder schriftlich zusätzliche Informationen und Hilfestellungen zu geb
 
 === 3. Hinweise
 
-Der Prüfschritt bewertet nicht die Qualität der übermittelten Information 
-und auch nicht die Zugänglichkeit von übersandten Dokumenten. 
+* Der Prüfschritt bewertet nicht die Qualität der übermittelten Information 
+und auch nicht die Zugänglichkeit von bereitgestellten Dokumenten. 
 Er prüft lediglich, ob der technische Support des Anbieters darauf eingerichtet ist, 
 mit weitergehenden Fragen zu Barrierefreiheits-Funktionen oder Hilfsmittel-Kompatibilität umzugehen.
 
-Ein allgemeiner Kontakt zum Anbieter wird im Sinne des Prüfschritts noch nicht als Support verstanden. 
+* Ein allgemeiner Kontakt zum Anbieter wird im Sinne des Prüfschritts noch nicht als Support verstanden. 
 Es sollte sich um einen technischen Support handeln. 
 Dies sollte aus der Formulierung des Kontakts hervorgehen 
 (z.B. "Technischer Support", "Support", "Hilfe bei technischen Fragen" oder ähnliches).
 
-Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht
-vollständig geklärt. 
+* Wie dieser Prüfschritt in der Praxis getestet werden kann, ist noch nicht vollständig geklärt. 
 Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[Issue hinterlassen].
 
 === 4. Bewertung
