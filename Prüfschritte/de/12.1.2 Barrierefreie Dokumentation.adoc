@@ -13,7 +13,7 @@ zugänglich sein, sofern sie nicht in die App selbst integriert ist:
 * Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
 * Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
 
-Weitere, ggf. nicht barrierefreie Versionen der Dokumentation, werden nicht
+Weitere ggf. nicht barrierefreie Versionen der Dokumentation werden nicht
 bewertet.
 
 == Wie wird geprüft?
