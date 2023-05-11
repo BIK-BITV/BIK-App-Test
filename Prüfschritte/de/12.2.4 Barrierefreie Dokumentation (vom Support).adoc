@@ -6,7 +6,9 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wird durch den technischen Support eines Angebots eine Dokumentation bereitgestellt, wird diese in mindestens einem der folgenden Formate barrierefrei angeboten:
+Wird durch den technischen Support eines Angebots eine Dokumentation bereitgestellt, 
+wird diese zusätzlich in der App selbst 
+oder in mindestens einem der folgenden Formate barrierefrei angeboten:
 
 * Web-Dokument, erfüllt Kriterien der EN 301 549 Kapitel 9
 * Nicht-Web-Dokument (u. a. PDF), erfüllt Kriterien der EN 301 549 Kapitel 10 
@@ -16,7 +18,11 @@ bewertet.
 
 == Warum wird das geprüft?
 
-Die technische Dokumentation ist ein wichtiger Bestandteil vieler Angebote, besonders bei komplexeren Apps. Damit auch Menschen mit Behinderungen sie gut nutzen können, sollte sie alle Anforderungen der Barrierefreiheit erfüllen.
+Die technische Dokumentation ist ein wichtiger Bestandteil vieler Angebote, 
+besonders bei komplexeren Apps. 
+Damit auch Menschen mit Behinderungen sie gut nutzen können, 
+sollte auf auf Anfrage bereitgestellte zusätzliche Dokumentation
+alle Anforderungen der Barrierefreiheit erfüllen.
 
 == Wie wird geprüft?
 
@@ -24,7 +30,7 @@ Die technische Dokumentation ist ein wichtiger Bestandteil vieler Angebote, beso
 * Der Prüfschritt ist anwendbar, wenn ein technischer Support
 zusätzliche Dokumentation zur Nutzung des Angebots bereitstellt, 
 etwa Hilfe-Systeme oder Anleitungen. 
-Im BIK App-Test kann lediglich Dokumentation geprüft wenn, 
+* Im BIK App-Test kann lediglich Dokumentation geprüft wenn, 
 die im Rahmen der App zusätzlich zur Verfügung gestellt wird (etwa in einem Webview).
 * Dokumentation, die außerhalb der App bereitgestellt wird, 
 kann nicht im Rahmen dieses Prüfverfahrens geprüft werden. 
