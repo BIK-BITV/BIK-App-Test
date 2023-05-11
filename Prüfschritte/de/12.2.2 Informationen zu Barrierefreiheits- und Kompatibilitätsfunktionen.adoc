@@ -72,7 +72,7 @@ In diesem Prüfschritt wird ermittelt, ob der technische Support zu dokumentiert
 
 [.BLOCK_LANG_EN]
 === 12.2.2 Information on accessibility and compatibility features
-
+____
 [.BLOCK_LANG_EN]
 --
 ICT support services shall provide information on the accessibility and
@@ -83,3 +83,4 @@ Accessibility and compatibility features include accessibility features that
 are built-in and accessibility features that provide compatibility with
 assistive technology.
 --
+____
