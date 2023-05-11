@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.2.2 Pausieren, Stoppen, Ausblenden
+= Prüfschritt 11.2.2.2 Pausieren, stoppen, ausblenden
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
