@@ -30,8 +30,9 @@ Wenn es sich um technische Dokumentation auf HTML-Basis handelt,
 kann das das https://bitvtest.de/start.html[BIK-BITV-Test-Verfahren] genutzt werden.
 
 === Prüfung
-Die Prüfung von in die App integrierter techniqscher Dokumentation 
-folgt den übrigen Prüfschritten des Verfahrens, wie bei den anderen Ansichten der zu prüfenden Auswahl.
+Die Prüfung von in die App integrierter technischer Dokumentation 
+folgt den übrigen Prüfschritten des Verfahrens, 
+genauso wie bei den anderen Ansichten der zu prüfenden Auswahl.
 
 Für weitere Hinweise zu diesem Prüfschritt können Sie auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue eröffnen].
