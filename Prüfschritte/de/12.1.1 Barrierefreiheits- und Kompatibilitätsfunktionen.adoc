@@ -74,7 +74,7 @@ https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
-
+____
 [.BLOCK_LANG_EN]
 ==== 12.1.1 Accessibility and compatibility features
 
@@ -97,3 +97,4 @@ NOTE 3:
 The accessibility statement and help pages are both examples of the provision
 of product information.
 --
+____
