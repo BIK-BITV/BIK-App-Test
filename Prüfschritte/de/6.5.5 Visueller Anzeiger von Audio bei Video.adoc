@@ -1,4 +1,4 @@
-= Prüfschritt 6.5.5 Visuelle Anzeige von Audio bei Video
+= Prüfschritt 6.5.5 Visueller Anzeiger von Audio bei Video
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
