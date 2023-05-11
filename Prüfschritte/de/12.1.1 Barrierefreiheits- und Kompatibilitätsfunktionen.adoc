@@ -56,13 +56,18 @@ sofern sie in der App implementiert sind und nicht über die System-Umgebung (et
 ** Deaktivierung von Bewegungen oder automatischen Audios
 ** Besondere Bedienungsarten mit Tastatur oder Tastaturkürzeln
 
-== 3. Hinweise 
+=== 3. Hinweise 
 Die Software soll, wenn möglich, Metadaten für die unterstützten
 Barrierefreiheitsfunktionen und Kompatibilität maschinenlesbar, 
 in geeigneten Formaten, bereitstellen.
 
 Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
+
+=== 4. Bewertung
+==== Nicht erfüllt:
+Ein oder mehrere Prüfschritte des Verfahrens sind für Seiten mit technischer Dokumentation nicht erfüllt. 
+Dann ist auch dieser Prüfschritt nicht erfüllt.
 
 == Quellen
 * Zurzeit keine Quellen.
