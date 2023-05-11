@@ -20,7 +20,7 @@ oder gar nicht mit bestimmten assistiven Technologien nutzen lassen.
 === Anwendbarkeit des Prüfschritts
 
 * Der Prüfschritt ist nur anwendbar, wenn technische Dokumentation (bzw. Produktdokumentation) für die App bereitgestellt wird. 
-Strukturierte inhaltliche Informationen zu Themen der App, 
+Strukturierte Informationen zu inhaltlichen Themen der App, 
 wie sie z.B. in FAQs (Frequently Asked Questions) bereitgestellt werden, 
 gelten nicht als technische Dokumentation. 
 
