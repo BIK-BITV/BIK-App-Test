@@ -52,7 +52,7 @@ Hinweise dazu können Sie in einem GitHub https://github.com/BIK-BITV/BIK-App-Te
 
 === 4. Bewertung
 ==== Erfüllt:
-Der technische Support nimmt Fragen auf und kann diese entweder selbst beantworten 
+* Der technische Support nimmt Fragen auf und kann diese entweder selbst beantworten 
 oder an Stellen weiter vermitteln, die die Frage beantworten können.
 
 == Quellen
