@@ -25,8 +25,7 @@ wie sie z.B. in FAQs (Frequently Asked Questions) bereitgestellt werden,
 gelten nicht als technische Dokumentation. 
 
 * Dieser Prüfschritt ist im App-Testverfahren nur für den Teil der Dokumentation prüfbar, 
-der in die App integriert ist 
-und sich auf die Dokumentation von Barrierefreiheit und Kompatibilität bezieht. 
+der in die App integriert ist. 
 
 * Dokumentation, die ausschließlich außerhalb der App bereitgestellt wird, 
 kann nicht im Rahmen dieses Prüfverfahrens geprüft werden. 
