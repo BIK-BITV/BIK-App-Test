@@ -66,8 +66,7 @@ https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
 
 === 4. Bewertung
 ==== Nicht erfüllt:
-* Ein oder mehrere der übrigen Prüfschritte des App-Tests sind für Seiten mit technischer Dokumentation nicht erfüllt. 
-Dann ist auch dieser Prüfschritt nicht erfüllt.
+* Eine technische Dokumentation und Barrierefreiheitsfunktionen sind vorhanden, diese Funktionen werden sind aber nicht dokumentiert und erklärt.
 
 == Quellen
 * Zurzeit keine Quellen.
