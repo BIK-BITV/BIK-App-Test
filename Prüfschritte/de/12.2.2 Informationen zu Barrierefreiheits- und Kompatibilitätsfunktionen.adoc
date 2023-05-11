@@ -63,7 +63,7 @@ oder an Stellen weiter vermitteln, die die Frage beantworten können.
 In diesem Prüfschritt wird ermittelt, ob der technische Support zu dokumentierten Barrierefreiheits-Funktionen oder zur Hilfsmittel-Kompatibilität weitere Informationen liefern kann. Davon ist abzugrenzen:
 
 * Der Prüfschritt 12.2.3 "Effektive Kommunikation" prüft, ob mit dem technischen Support auf verschiedene Weise kommuniziert werfen kann (z.B. per Telefon, Kontaktformular, E-Mail oder Chat).
-* Der Prüfschritt 12.2.4 "Vom Support bereitgestellte Dokumentation" prüft die Barrierefreiheit der vom Support bereitgestellten web-basierten Dokumentation.
+* Der Prüfschritt 12.2.4 "Vom Support bereitgestellte Dokumentation" prüft die Barrierefreiheit der vom Support zusätzlich bereitgestellten elektronischen Dokumentation.
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
