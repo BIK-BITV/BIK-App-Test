@@ -1,4 +1,4 @@
-= Prüfschritt 11.2.5.1 Zeiger-Gesten
+= Prüfschritt 11.2.5.1 Zeigergesten
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
