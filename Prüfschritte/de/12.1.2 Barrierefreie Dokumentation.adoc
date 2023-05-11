@@ -55,7 +55,7 @@ Dann ist auch dieser Prüfschritt nicht erfüllt.
 
 [.BLOCK_LANG_EN]
 ==== 12.1.2 Accessible documentation
-
+____
 [.BLOCK_LANG_EN]
 --
 Product documentation provided with the ICT shall be made available in at
@@ -83,3 +83,4 @@ NOTE 4:
 A user agent that supports automatic media conversion would be beneficial to
 enhancing accessibility.
 --
+____
