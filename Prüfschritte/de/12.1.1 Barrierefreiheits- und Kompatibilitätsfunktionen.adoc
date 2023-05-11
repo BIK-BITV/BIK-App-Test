@@ -2,18 +2,13 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-== Grundlage des Prüfschritts
-
-Grundlage des Prüfschritts ist die Tabelle A.2 im Annex A der EN 301 549
-V3.1.1.
-In dieser Tabelle wird auf Abschnitt
-12.1.1 "Accessibility and compatibility features" verwiesen.
+*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
 
 Wenn technische Dokumentation für die App bereitgestellt wird, 
 soll diese vorhandene Funktionen für Barrierefreiheit und Kompabilität 
-auflisten und dessen Nutzung erklären.
+auflisten und deren Nutzung erklären.
 Dies gilt generell für Dokumentation sowohl innerhalb als auch außerhalb der App.
 Dazu zählen auch Informationen zur Kompatibilität mit assistiven Technologien - 
 etwa, wenn sich bestimmte Inhalte nur eingeschränkt 
@@ -62,6 +57,11 @@ Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
 https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
 
 == Quellen
+* Zurzeit keine Quellen.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
 === 12.1.1 Accessibility and compatibility features
@@ -85,6 +85,3 @@ NOTE 3:
 The accessibility statement and help pages are both examples of the provision
 of product information.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 12.1.1 "Accessibility and compatibility
-features")
