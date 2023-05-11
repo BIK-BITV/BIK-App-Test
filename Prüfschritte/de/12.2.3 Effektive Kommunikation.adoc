@@ -17,7 +17,8 @@ Für Menschen, denen Schreiben aus welchen Gründen auch immer schwer fällt, is
 
 == Wie wird geprüft?
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt ist anwendbar, wenn die App einen Unterstützungsdienst anbietet (etwa eine Hotline oder eine Chatfunktion für technischen Support).
+Der Prüfschritt ist anwendbar, wenn die App unterstützende Dienste anbietet 
+(etwa eine Hotline oder eine Chatfunktion für technischen Support).
 
 === 2. Prüfung
 . Werden mehrere Kommunikationsmöglichkeiten für die Nutzenden angeboten (mindestens zwei)? 
@@ -31,7 +32,6 @@ Also etwa Kommunikation über
 === 3. Hinweise
 * Wie dieser Prüfschritt in der Praxis berücksichtigt werden kann, 
 ist noch nicht vollständig geklärt. 
-
 * Auf GitHub können Sie https://github.com/BIK-BITV/BIK-App-Test/issues[Hinweise zu diesem Prüfschritt
 hinterlassen].
 
