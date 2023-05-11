@@ -20,7 +20,7 @@ bewertet.
 
 === Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar.
+Der Prüfschritt ist anwendbar, wenn für die App technische Dokumentation bereitgestellt wird.
 Im App-Test-Verfahren kann jedoch lediglich technische Dokumentation geprüft werden, 
 die in die App selbst integriert ist.
 
