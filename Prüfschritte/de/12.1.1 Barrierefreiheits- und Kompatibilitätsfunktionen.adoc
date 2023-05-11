@@ -19,10 +19,16 @@ oder gar nicht mit bestimmten assistiven Technologien nutzen lassen.
 
 === Anwendbarkeit des Prüfschritts
 
-Dieser Prüfschritt ist im App-Testverfahren nur für den Teil der Dokumentation prüfbar, 
+* Der Prüfschritt ist nur anwendbar, wenn technische Dokumentation (bzw. Produktdokumentation) für die App bereitgestellt wird. 
+Strukturierte inhaltliche Informationen zu Themen der App, 
+wie sie z.B. in FAQs (Frequently Asked Questions) bereitgestellt werden, 
+gelten nicht als technische Dokumentation. 
+
+* Dieser Prüfschritt ist im App-Testverfahren nur für den Teil der Dokumentation prüfbar, 
 der in die App integriert ist 
 und sich auf die Dokumentation von Barrierefreiheit und Kompatibilität bezieht. 
-Dokumentation, die ausschließlich außerhalb der App bereitgestellt wird,
+
+* Dokumentation, die ausschließlich außerhalb der App bereitgestellt wird,
 kann nicht im Rahmen dieses Prüfverfahrens mitgetestet werden.
 Dokumentation außerhalb der App muss dann in einem separaten Auftrag geprüft werden.
 
