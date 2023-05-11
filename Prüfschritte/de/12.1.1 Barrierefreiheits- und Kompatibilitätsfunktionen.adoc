@@ -17,7 +17,7 @@ oder gar nicht mit bestimmten assistiven Technologien nutzen lassen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 * Der Prüfschritt ist nur anwendbar, wenn technische Dokumentation (bzw. Produktdokumentation) für die App bereitgestellt wird. 
 Strukturierte Informationen zu inhaltlichen Themen der App, 
@@ -33,7 +33,7 @@ Dokumentation außerhalb der App muss dann in einem separaten Auftrag geprüft w
 Wenn es sich um technische Dokumentation auf HTML-Basis handelt, 
 kann das das Verfahren https://bitvtest.de/bitv_test/das_testverfahren_im_detail/bik_bitv_test_web.html[BIK-BITV-Test (Web)] genutzt werden.
 
-=== Prüfung
+=== 2. Prüfung
 Alle für die Barrierefreiheit relevanten Informationen zur App 
 sowie bereitgestellte Funktionen für Barrierefreiheit
 sollen in der Dokumentation aufgelistet und erklärt werden.
@@ -56,6 +56,7 @@ sofern sie in der App implementiert sind und nicht über die System-Umgebung (et
 ** Deaktivierung von Bewegungen oder automatischen Audios
 ** Besondere Bedienungsarten mit Tastatur oder Tastaturkürzeln
 
+== 3. Hinweise 
 Die Software soll, wenn möglich, Metadaten für die unterstützten
 Barrierefreiheitsfunktionen und Kompatibilität maschinenlesbar, 
 in geeigneten Formaten, bereitstellen.
