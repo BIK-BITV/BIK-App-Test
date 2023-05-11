@@ -28,9 +28,11 @@ gelten nicht als technische Dokumentation.
 der in die App integriert ist 
 und sich auf die Dokumentation von Barrierefreiheit und Kompatibilität bezieht. 
 
-* Dokumentation, die ausschließlich außerhalb der App bereitgestellt wird,
-kann nicht im Rahmen dieses Prüfverfahrens mitgetestet werden.
-Dokumentation außerhalb der App muss dann in einem separaten Auftrag geprüft werden.
+* Dokumentation, die ausschließlich außerhalb der App bereitgestellt wird, 
+kann nicht im Rahmen dieses Prüfverfahrens geprüft werden. 
+Dokumentation außerhalb der App muss dann in einem separaten Auftrag geprüft werden. 
+Wenn es sich um technische Dokumentation auf HTML-Basis handelt, 
+kann das das https://bitvtest.de/start.html[BIK-BITV-Test-Verfahren] genutzt werden.
 
 === Prüfung
 Alle für die Barrierefreiheit relevanten Informationen zur App 
