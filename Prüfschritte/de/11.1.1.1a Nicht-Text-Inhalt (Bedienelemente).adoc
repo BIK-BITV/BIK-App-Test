@@ -1,4 +1,4 @@
-= Prüfschritt 11.1.1.1a Nicht-Text-Inhalt (Bedienelemente)
+= Prüfschritt 11.1.1.1a Nicht-Text-Inhalt – Bedienelemente
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
