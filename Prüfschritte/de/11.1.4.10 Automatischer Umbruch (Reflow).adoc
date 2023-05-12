@@ -21,7 +21,7 @@ Für diese ist bei Apps, die selbst eine Zoom-Vergrößerung implementieren, die
 
 Von der Anforderung ausgenommen sind Inhalte der Ansicht, für deren Nutzung ein zweidimensionales Layout erforderlich ist und die auf eine geringe Viewportbreite verkleinert nicht sinnvoll nutzbar sind, z.B.:
 
-* Bilder
+* Bilder, die Infomationen enthalten, die bei Verkleinerung nicht mehr erkennbar bzw. lesbar sind
 * Landkarten
 * Diagramme
 * Videos
