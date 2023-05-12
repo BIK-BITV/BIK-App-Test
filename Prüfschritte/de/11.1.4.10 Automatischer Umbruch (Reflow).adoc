@@ -52,6 +52,8 @@ Der Viewport auch kleinerer aktueller Smartphones ist allerdings in der Regel br
 So hat das kleinste aktuelle iPhone, das iPhone 13 mini, eine Viewportbreite von 360 CSS-Pixeln.
 Das Samsung Galaxy S21 Ultra hat eine Viewportbreite von 384 CSS-Pixeln.
 
+Im Kontext der https://www.w3.org/groups/tf/wcag2ict[WCAG2ACT Taskforce] der Accessibility Guidelines Working Group läuft eine https://github.com/w3c/wcag2ict/issues/98[Diskussion, ob und wie Reflow auch auf Nicht-Web-Inhalte anzuwenden wäre].
+
 === 2. Prüfung
 
 ==== 2.1 Standard-Hochkant-Ansicht mit Viewportbreite von 320 CSS-Pixeln 
