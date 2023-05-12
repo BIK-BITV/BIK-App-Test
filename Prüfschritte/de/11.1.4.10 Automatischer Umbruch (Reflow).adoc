@@ -85,7 +85,7 @@ Deshalb ist es unvermeidlich, auf einem gängigen Gerät mit etwas größerer Vi
 
 ==== 3.2 Vergrößerung auf Viewportbreite von 320 CSS-Pixel
 
-* Die Textgröße in den Einstellungen des Betriebssystem (und falls vorhanden in der App selbst) sollte auf dem Default stehen (100%).
+* Die Textgröße in den Einstellungen des Betriebssystems (und falls vorhanden in der App selbst) sollte auf die Standardgröße eingestellt sein (100%).
 * Abhängig vom genutzten Testgerät kann beim Hineinzoomen die Breite von 320 CSS-Pixeln ggf. nur näherungsweise erreicht werden.
   Bei einer Vergrößerungsstufe von 200% wäre die Viewportbreite in CSS-Pixeln halbiert.
   Je nach genutztem Gerät muss also verschieden stark vergrößert werden, um 320 CSS-Pixel näherungsweise zu erreichen. 
