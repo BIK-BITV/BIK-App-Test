@@ -80,7 +80,7 @@ Prüfschritt erstellen.
 * Oft wird für die Prüfung kein Gerät mit exakt 320 CSS Pixeln Viewportbreite und aktuellem Betriebssystem zur Verfügung stehen.
 Deshalb ist es unvermeidlich, auf einem gängigen Gerät mit etwas größerer Viewportbreite zu testen (etwa ein iPhone 13 mini, oder ein Samsung Galaxy A12, beide mit 360 CSS Pixeln Viewport-Breite).
 * Werden Apps getestet, die Layouts für breitere Ansichten bieten *und* eine Zoomfunktion implementieren, ist zu prüfen, ob die Querformat-Ansicht auf dem Smartphone bereits ein abweichendes Layout bietet.
-  Z.T. werden Apps nur in der Hochkant-Ansicht angeboten (und erfüllen damit nicht Anforderung 11.1.3.4 "Keine Beschränkung der Bildschirmausrichtung") oder sie zeigen die App-Inhalte auch im Querformat nur in einem Teil des Displays, der der Viewportbreite bei Hochkant-Ansicht enspricht.
+  Viele Apps werden nur in der Hochkant-Ansicht angeboten (und erfüllen damit nicht Anforderung 11.1.3.4 "Keine Beschränkung der Bildschirmausrichtung") oder sie zeigen die App-Inhalte auch im Querformat nur in einem Teil des Displays, der der Viewportbreite bei Hochkant-Ansicht enspricht.
   Ggf. muss ein Tablet mit breiterem Viewport verwendet werden.
 
 ==== 3.2 Vergrößerung auf Viewportbreite von 320 CSS-Pixel
