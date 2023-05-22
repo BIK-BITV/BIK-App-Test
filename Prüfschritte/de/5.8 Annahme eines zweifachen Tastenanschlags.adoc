@@ -5,11 +5,11 @@ include::include/attributes.adoc[]
 *Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
-Die die erneute Aktivierung einer Taste auf der Tastatur, die das jeweilige Zeichen wiederholen würde, soll so konfigurierbar sein, dass die wiederholter Eingabe der Taste der zeotraum, in dem diese Eingabe nicht angenommen wird auf mindestens 0,5 Sekunden eingestellt werden kann. Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten.
+Die die erneute Aktivierung einer Taste auf der Tastatur, die das jeweilige Zeichen wiederholen würde, soll so konfigurierbar sein, dass die wiederholter Eingabe der Taste der Zeitraum, in dem diese Eingabe nicht angenommen wird auf mindestens 0,5 Sekunden eingestellt werden kann. Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten. Die App sollte bei Tastatureingaben betriebssystemseitige Voreinstellungen (soweit vorhanden) übernehmen.
 
-Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) unter iOS und Android erfolgt keine Tastenwiederholung. Der Prüfschritt wäre für eine Accessibility Baseline, die Apps nur mit Toucheingabe (ohne Anschluss externer Tastaturen) betrachten wollte, also ohnehin erfüllt. Unter iOS und iPadOS (iPad mit Magic Keyboard) gibt es eine Einstellungsmöglichkeit unter Bedienungshilfen / Tastaturen / Tastenverzögerung, die sich jedoch nicht speziell auf die versehentlich wiederholte Aktivierung der gleichen Taste bezieht.
+Geprüft wird die Eingabe über physische Tastaturen, nicht die über virtuelle (Bildschirm-)Tastaturen. Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) unter iOS und Android greifen keine Verzögerungen, selbst wenn diese eingestellt wurden). 
 
-Unter Android mit externer Tastatur gibt es die Einstellung Tastenverzögerung bei Berühren/Halten.
+
 
 Da im App-Test nur Aspekte geprüft werden, welche Entwickler direkt in der Gestaltung der App beeinflussen können und sollen, wird diese Anforderung zur Zeit nicht aktiv geprüft, da sie die Betriebssystem-Ebene betrifft.
 
@@ -20,17 +20,36 @@ Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie v
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt wird nicht geprüft, da Einstellungsmöglichkeiten der Tastenverzögerung Aufgabe des Betriebssystems sind und nicht auf der Ebene der App implementiert werden sollten. Selbst wenn Android-App-Entwickler die Tastenverzögerung bei der Nutzung externer Tastaturen erfolgreich implementieren könnten, wäre hieraus keine generelle Anforderung abzuleiten, dies auf der Ebene der App umzusetzen.
+Im Prüfschritt werden nicht die Einstellungsmöglichkeiten der für die Annahme eines zweifachen Tastenanschlags geprüft, den dies sind Einstellungen des Betriebssystems. Geprüft wird nur, ob Einstellungen, soweit betriebssystemseitig überhaupt möglich, von der App übernommen werden. 
+
+* Der Prüfschritt ist nur anwendbar, wenn die Ansicht Felder
+für de Texteingabe enthält.
+* Unter iOS und iPadOS (iPad mit Magic Keyboard) gibt es keine spezifische Einstellungsmöglichkeit für wiederholte Eingaben der gleichen Taste. Im Prüfschritt werden nicht die Einstellungsmöglichkeiten der für die Annahme eines zeifachen Tastenanschlags geprüft, den dies sind Einstellungen des Betriebssystems. Geprüft wird nur, ob Einstellungen, soweit überhaup möglich, von der App übernommen werden.  wirken sich nicht spezifisch auf die wiederholte Aktivierung der gleichen Taste aus, sondern auf Anschläge egal welcher Taste. Der Anschlag erfolgt erst, wenn die Taste länger gehalten wird (d.h., um die eingestellte Verzögerungszeit länger).
+* Bei Android, ist die Anforderung dagegen über die Einstellung Eingabehilfe > Interaktion und Geschicklichkeit > Tastenanschlagfunktion implementiert.
 
 === 2. Prüfung
 
-Keine Prüfung.
+==== iOS
+. Über die Einstellung Bedienungshilfen > Tastaturen > Tastenverzögerung die Funktion aktivieren unf den Wert von 2 Sekunden einstellen.
+. . In der App-Ansicht ein Textfeld fokussieren, Eine Buchstaben-Taste drücken und prüfen, ob die Eingabe um den eingestellten Wert verzögert ist (d.h., die Taste muss 2 Sekunden gedrückt werden, damit der entsprechende Buchstabe erscheint).
 
-=== 3. Bewertung
+==== Android
+. Über die Einstellung Eingabehilfe > Interaktion und Geschicklichkeit > Tastenanschlagfunktion die Funktion aktivieren und den Wert auf 2 Sekunden stellen
+. In der App-Ansicht ein Textfeld fokussieren und ein Wort mit unterschiedlichen Buchstaben eingeben. Die Buchstaben sollten sofort erscheinen. Wird der gleiche Buchstabe wiederholt, greift die eingestellte Verzögerung, Eine erneute Eingabe erfolgt erst nach Ablauf der Verzögerung.
+
+=== 3. Hinweise
+* Es ist der App nicht anzulasten und deshalb auch nicht negativ zu bewerten, wenn es betriebssystemseitig die erforderlichen Einstellungen für die Annahme eines zweifachen Tastenanschlags nicht gibt. In diesem Fall wird geprüft, ob verwandte Einstellungen, bei iOS also die allgemeine Tastenverzögerung, greifen.
+
+=== 4. Bewertung
+
+==== Erfüllt
+* Im Betriebssystem eingestellte Anschlags-Verzögerungen werden von der App übernommen.
+
+==== Nicht erfüllt
+* Im Betriebssystem eingestellte Anschlags-Verzögerungen werden von der App nicht übernommen.
 
 ==== Nicht anwendbar
-
-* Der Prüfschritt ist zurzeit nicht anwendbar.
+* Die App sieht keine Texteingaben von Nutzenden vor.
 
 == Einordnung des Prüfschritts
 
