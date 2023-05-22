@@ -5,22 +5,17 @@ include::include/attributes.adoc[]
 *Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
 
 == Was wird geprüft?
-Die Tastenwiederholung, die automatisch beim Halten einer Taste auf der Tastatur das jeweilige Zeichen wiederholt, soll, wenn sie sich nicht deaktivieren lässt, so konfigurierbar sein, dass die Taste mindestens zwei Sekunden gedrückt werden muss, bevor die Tastenwiederholung einsetzt (der Standard ist etwa eine halbe Sekunde). Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten.
-
-Unter Android mit externer Tastatur lässt sich die Tastenwiederholung zur Zeit nicht abstellen oder einstellen. Eine App, https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelper&pli=1[External Keyboard Helper Pro], bietet diese Möglichkeit.
-
-Da im App-Test nur Aspekte geprüft werden, welche Entwickler direkt in der Gestaltung der App beeinflussen können und sollen, wird diese Anforderung zur Zeit nicht aktiv geprüft, da sie die Betriebssystem-Ebene betrifft.
+Die Tastenwiederholung, die automatisch beim Halten einer Taste auf der Tastatur das jeweilige Zeichen wiederholt, soll, wenn sie sich nicht deaktivieren lässt, so konfigurierbar sein, dass die Taste mindestens zwei Sekunden gedrückt werden muss, bevor die Tastenwiederholung einsetzt (der Standard ist etwa eine halbe Sekunde). Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben. Apps sollten diese betriebssystemseitigen Einstellungen für Texteingaben übernehmen.
 
 == Warum wird das geprüft?
-Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie durch zu langes Drücken von Tasten unabsichtlich die Tastenwiederholung auslösen und dann Eingaben wieder löschen müssen. Das Abaschalten der Tastenwiederholung bzw. das Einstelen einer längeren Verzögerung vor Einsetzen der Tastenwiederholung verringert dieses Risiko.
+Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie durch zu langes Drücken von Tasten unabsichtlich die Tastenwiederholung auslösen und dann Eingaben wieder löschen müssen. Das Abaschalten der Tastenwiederholung bzw. das Einstellen einer längeren Verzögerung vor Einsetzen der Tastenwiederholung verringert dieses Risiko.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 Der Prüfschritt wird nur geprüft, wenn die Tastenwiederholung nicht abstellbar ist und die Funktion in der App unterstützt wird. 
 * Bei iOS ist der Prüfschritt generell nicht anwendbar, da die Tastenwiederholfunktion ausgeschaltet werden kann.
-* Geprüft wird nicht die systemseitge Einstellung selbst, sondern nur, ob diese auch bei Texteingaben in der App greifen.
-
+* Geprüft wird nicht die systemseitige Einstellung selbst, sondern nur, ob diese auch bei Texteingaben in der App greifen.
 
 === 2. Prüfung
 Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Enstellung auf Betriebssystem-Ebene. Für die App selbst kann also nur geprüft werden, ob Einstellungen wie von Nutzenden intendiert in Texteingabefeldern der Anicht greifen. 
