@@ -45,10 +45,10 @@ Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Einstellun
 * Der Prüfschritt ist zurzeit für iOS-Apps nicht anwendbar (denn die Tastenwiederholung ist in den Betriebssystemeinstellungen komplett abstellbar).
 
 ==== Erfüllt (Android)
-* Für Android ist der Prüfschritt erfüllt, wenn sich über die Funktionen Anschlageschwindigkeit und Tastenanschlagfunktion eine Verzögerungen von 2 Sekunden einstellen lassen und diese Einstellungen bei Texteingabefeldern der App greifen.
+* Für Android ist der Prüfschritt erfüllt, wenn sich über die Funktionen Anschlaggeschwindigkeit und Tastenanschlagfunktion Verzögerungen von jeweils 2 Sekunden einstellen lassen und diese Einstellungen bei Texteingabefeldern der App greifen.
 
 ==== Nicht erfüllt (Android)
-* Für Android-Apps ist der Prüfschrtt nicht erfüllt, wenn eingestellte höhere Werte bei Anschlageschwindigkeit und Tastenanschlagfunktion bei Texteingabefeldern der App nicht greifen.
+* Für Android-Apps ist der Prüfschritt nicht erfüllt, wenn eingestellte höhere Werte bei Anschlageschwindigkeit und Tastenanschlagfunktion bei Texteingabefeldern der App nicht greifen.
 
 == Quellen
 
