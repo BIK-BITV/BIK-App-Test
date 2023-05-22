@@ -18,7 +18,7 @@ Der Prüfschritt wird nur geprüft, wenn die Tastenwiederholung nicht abstellbar
 Geprüft wird nicht die systemseitige Einstellung selbst, sondern nur, ob diese auch bei Texteingaben in der App greifen.
 
 === 2. Prüfung
-Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Enstellung auf Betriebssystem-Ebene. Für die App selbst kann also nur geprüft werden, ob Einstellungen wie von Nutzenden intendiert in Texteingabefeldern der Anicht greifen. 
+Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Einstellung auf Betriebssystem-Ebene. Für die App selbst kann also nur geprüft werden, ob Einstellungen wie von Nutzenden intendiert bei Texteingaben auf der Anicht greifen. 
 
 ==== iOS
 * Tastenwiederholgung lässt sich im Betriebssystem deaktivieren. Der Prüfschritt ist deshalb nicht anwendbar.
