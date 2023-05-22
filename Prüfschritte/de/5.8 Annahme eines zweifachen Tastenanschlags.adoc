@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 Die die erneute Aktivierung einer Taste auf der Tastatur, die das jeweilige Zeichen wiederholen würde, soll konfigurierbar sein. Bei wiederholtem Drücken der gleichen Taste soll der Zeitraum, in dem diese Eingabe nicht angenommen wird, auf mindestens 0,5 Sekunden eingestellt werden können. Dies sind üblicherweise Einstellungen des Betriebssystems, auf die Entwickler in der Regel keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten. Die App sollte bei Tastatureingaben betriebssystemseitige Voreinstellungen (soweit vorhanden) übernehmen.
 
-Geprüft wird die Eingabe über physische Tastaturen, nicht die über virtuelle (Bildschirm-)Tastaturen. Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) unter iOS und Android greifen keine Verzögerungen, selbst wenn diese eingestellt wurden). 
+Geprüft wird die Eingabe über physische Tastaturen, nicht die über virtuelle (Bildschirm-)Tastaturen. Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) unter iOS und Android greifen keine Verzögerungen, selbst wenn diese eingestellt wurden. 
 
 == Warum wird das geprüft?
 Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie versehentlich unabsichtlich wiederholt Tasten drücken und dann diese Eingaben wieder löschen müssen. Die Möglichkeit der Einstellung einer Tastenverzögerung verringert dieses Risiko.
