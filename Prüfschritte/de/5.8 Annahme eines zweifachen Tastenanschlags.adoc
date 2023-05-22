@@ -62,9 +62,10 @@ die Funktion aktivieren und den Wert auf 2 Sekunden stellen
 . In der App-Ansicht ein Textfeld fokussieren
 . Ein Wort mit unterschiedlichen Buchstaben eingeben. 
 Die Buchstaben sollten sofort erscheinen. 
-Wird der gleiche Buchstabe wiederholt, 
-greift die eingestellte Verzögerung. 
-Eine erneute Eingabe des gleichen Buxhstabens erfolgt erst nach Ablauf der Verzögerung.
+Wird der gleiche Buchstabe nach 0,5 Sekunden wiederholt, 
+erfolgt keine Eingabe, es greift die eingestellte Verzögerung. 
+Eine erneute Eingabe des gleichen Buchstabens 
+erfolgt erst nach Ablauf der Verzögerung.
 
 === 3. Hinweis
 Es ist der App nicht anzulasten und deshalb auch nicht negativ zu bewerten, 
