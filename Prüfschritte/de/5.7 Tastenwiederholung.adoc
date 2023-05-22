@@ -13,29 +13,31 @@ Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie d
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
-Der Prüfschritt wird nur geprüft, wenn die Tastenwiederholung nicht abstellbar ist und die Funktion in der App unterstützt wird. Bei iOS ist der Prüfschritt generell nicht anwendbar, da die Tastenwiederholfunktion ausgeschaltet werden kann.
-
+Der Prüfschritt wird nur geprüft, wenn die Tastenwiederholung nicht abstellbar ist und die Funktion in der App unterstützt wird. 
+Bei iOS-Apps ist der Prüfschritt generell nicht anwendbar, da die Tastenwiederholfunktion ausgeschaltet werden kann.
+Bei Android-Apps ist der Prüfschritt nur anwendbar, wenn die Ansicht Texteingabefelder für Tastatureingaben enthält.
 Geprüft wird nicht die systemseitige Einstellung selbst, sondern nur, ob diese auch bei Texteingaben in der App greifen.
 
 === 2. Prüfung
 Die Funktion Tastenwiederholung ist, soweit vorhanden, eine generelle Einstellung auf Betriebssystem-Ebene. Für die App selbst kann also nur geprüft werden, ob Einstellungen wie von Nutzenden intendiert bei Texteingaben auf der Anicht greifen. 
 
 ==== iOS
-* Tastenwiederholgung lässt sich im Betriebssystem deaktivieren. Der Prüfschritt ist deshalb nicht anwendbar.
+* Unter iOS und iPadOS (iPad mit Magic Keyboard) gibt es die geforderten Einstellungsmöglichkeiten unter Bedienungshilfen / Tastaturen / Tastenwiederholung. Hier lässt sich die Tastenwiederholung auch ganz abstellen. Der Prüfschritt ist deshalb nicht anwendbar.
 
 ==== Android
-. Unter Eingabehilfe > Interaktion und Geschicklichkeit > Anschlaggeschwindigkeit den Wert auf 2 Sekunden setzen.
-. Wenn ein Texteingabefeld in der Ansicht vorhanden ist, dieses fokussieren und für Eingabe aktivieren.
+. Unter Eingabehilfe > Interaktion und Geschicklichkeit > Anschlaggeschwindigkeit die Funktion aktivieren und den Wert auf 2 Sekunden setzen.
+. Unter Eingabehilfe > Interaktion und Geschicklichkeit > Tastenanschlagfunktion die Funktion aktivieren und den Wert auf 2 Sekunden setzen.
+. Texteingabefeld fokussieren
 . Einen Buchstaben der Tastatur länger drücken
-. Prüfen, ob die Eingabewiederholung erst nach 2 Sekunden einsetzt. Damit ist klar, dass die App die Android-Bwetriebssystemeinstellung berücksichtigt (auch wenn die Verzögerung eigentlich erst nach der initialen Eingabe des jeweiligen Bucgstabens starten sollte und nicht, wie bei Android, auch diese Ersteingabe um 2 Sekunden verzögert)
+. Prüfen, ob die Eingabewiederholung erst nach 2 Sekunden einsetzt. Damit ist klar, dass die App die Android-Betriebssystemeinstellung berücksichtigt (auch wenn die Verzögerung eigentlich erst nach der initialen Eingabe des jeweiligen Bucgstabens starten sollte und nicht, wie bei Android, auch diese Ersteingabe um 2 Sekunden verzögert)
+. Den gleichen Buchstaben mehrfach drücken. Funktioniert die erneute Eingabe erst nach 2 Sekunden?
 
-=== 3. Hinweis
-* Die Android-Funktion Eingabehilfe > Interaktion und Geschicklichkeit > Anschlaggeschwindigkeit leistet etwas anderes als die in der Anforderung intendierte Funktion, das Einsetzen der koninuierlichen Eingabe des gleichen Zeichens bei längerem Drücken einer Taste zu verzögern. Die Verzögerung betrifft nach Akltivierung nämlich auch schon das initiale Drücken der Taste, was den Wert der Funktion sehr veringert. Denn gezielte Tastatureingaben sollen ja nicht grundsätzlich verzögert werden, sondern nur das Einsetzen der Wiederholung.
-* Die Android-Funktion Eingabehilfe > Interaktion und Geschicklichkeit > Tastenanschlagfunktion leistet etwas anderes als die in der Anforderung intendierte Funktion, die Frequenz der Eingabe bei Tastenwiederholung herabzusetzen. Sie schafft nur eine Eingabeverzögerung bei erneutem Drücekn der gleichen Taste, nicht jedoch beim Halten der Taste. Dieses führt zu einer unverändert schnellen Eingabe weiterer Zeichen.
-* Die betriebssystemseitigen Abweichungen von der Intention der Anforderung sind der App nicht anzulasten. Der Prüfschritt wäre nur dann nicht erfüllt, wenn betriebsystemseitige Einstellungen von Anschlaggeschwindigkeit und Tastenanschlagfunktion bei Texteingaben in der App nocht greifen würden.
-* Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) unter iOS und Android erfolgt keine Tastenwiederholung. Der Prüfschritt wäre für eine Accessibility Baseline, die Apps nur mit Toucheingabe (ohne Anschluss externer Tastaturen) betrachten wollte, also ohnehin erfüllt. 
-* Unter iOS und iPadOS (iPad mit Magic Keyboard) gibt es die geforderten Einstellungsmöglichkeiten unter Bedienungshilfen / Tastaturen / Tastenwiederholung. Hier lässt sich die Tastenwiederholung ganz abstellen. Auch damit ist der Prüfschritt bei iOS-Aps nicht anwendbar, da die Vorbedingung 2, Die Tastenwiederholung kann nicht ausgeschaltet werden, nicht gegeben ist (das heißt, sie lässt sich abstellen).
-* Ist bei iOS Tastenwiederholung aktiviert, funktioniert diese nur bei bestimmten Tasten, nicht jedoch bei 0-9 und A-Z. Dies ist ein bekannter iOS-Bug.
+=== 3. Hinweise
+* Die Android-Funktion Eingabehilfe > Interaktion und Geschicklichkeit > Anschlaggeschwindigkeit leistet etwas anderes als die in der Anforderung intendierte Funktion, das Einsetzen der koninuierlichen Eingabe des gleichen Zeichens bei längerem Drücken einer Taste zu verzögern. Die Verzögerung betrifft nämlich auch schon das initiale Drücken der Taste, was den Wert der Funktion sehr veringert. Denn gezielte Tastatureingaben sollen ja nicht grundsätzlich verzögert werden, sondern nur das Einsetzen der Wiederholung.
+* Die Android-Funktion Eingabehilfe > Interaktion und Geschicklichkeit > Tastenanschlagfunktion leistet etwas anderes als die in der Anforderung intendierte Funktion, die Frequenz der Eingabe bei Tastenwiederholung herabzusetzen. Sie schafft nur eine Eingabeverzögerung bei erneutem Drücken der gleichen Taste, nicht jedoch beim Halten der Taste. Dieses führt (nach der unter Anschlaggeschwindigkeit eingestellten Vertzögerung) zu einer unverändert schnellen Eingabe weiterer Zeichen.
+* Die Abweichungen der betriebssystemseitig möglichen Einstellungen von der Intention der Anforderung sind der App nicht anzulasten. Der Prüfschritt wäre nur dann nicht erfüllt, wenn betriebsystemseitige Einstellungen von Anschlaggeschwindigkeit und Tastenanschlagfunktion bei Texteingaben in der App nicht greifen würden.
+* Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) unter iOS und Android erfolgt keine Tastenwiederholung. Der Prüfschritt wäre für eine Accessibility Baseline, die Apps nur mit Toucheingabe (ohne Anschluss externer Tastaturen) betrachten wollte, also ohnehin nicht anwendbar. 
+* Hinweis zu iOS: Ist bei Tastenwiederholung aktiviert, funktioniert diese nur bei bestimmten Tasten , z.B. bei den Zeichen `.`, `-` oder `/`, nicht jedoch bei 0-9 und A-Z. Dies ist ein bekannter iOS-Bug.
 
 === 4. Bewertung
 
