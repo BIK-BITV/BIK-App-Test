@@ -35,20 +35,14 @@ Geprüft wird nur, ob Einstellungen,
 soweit betriebssystemseitig möglich, von der App übernommen werden. 
 * Der Prüfschritt ist nur anwendbar, 
 wenn die Ansicht Felder für die Texteingabe enthält.
-* Unter iOS und iPadOS (iPad mit Magic Keyboard) 
-gibt es keine spezifische Einstellungsmöglichkeit 
-für wiederholte Eingaben der gleichen Taste. 
-Im Prüfschritt werden nicht die Einstellungsmöglichkeiten 
-für die Annahme eines zeifachen Tastenanschlags bewertet, 
-den dies sind Einstellungen des Betriebssystems. 
-Geprüft wird nur, ob Einstellungen, soweit überhaupt möglich, 
-von der App übernommen werden.  
-uNTER Ios wirkt sich die Einstellung der Tastenverzögerung 
-nicht nur auf die wiederholte Aktivierung der gleichen Taste aus, 
+* In iOS wirkt sich die Einstellung der Tastenverzögerung 
+nicht spezifisch auf die wiederholte Aktivierung der gleichen Taste aus, 
 sondern auf Anschläge egal welcher Taste. 
 Der Anschlag erfolgt erst, wenn die Taste länger gehalten wird 
 (d.h., um die eingestellte Verzögerungszeit länger).
-* Bei Android, ist die Anforderung dagegen über die Einstellung 
+Im Prüfschritt wird für iOS-Apps deshalb nur 
+die Übernahme der Einstellungen für Tastenverzögerung geprüft.
+* Bei Android ist die Anforderung dagegen über die Einstellung 
 Eingabehilfe > Interaktion und Geschicklichkeit > Tastenanschlagfunktion implementiert.
 
 === 2. Prüfung
