@@ -14,6 +14,7 @@ Menschen mit motorischen Einschränkungen haben manchmal das Problem, dass sie d
 
 === 1. Anwendbarkeit des Prüfschritts
 Der Prüfschritt wird nur geprüft, wenn die Tastenwiederholung nicht abstellbar ist und die Funktion in der App unterstützt wird. 
+
 * Bei iOS ist der Prüfschritt generell nicht anwendbar, da die Tastenwiederholfunktion ausgeschaltet werden kann.
 * Geprüft wird nicht die systemseitige Einstellung selbst, sondern nur, ob diese auch bei Texteingaben in der App greifen.
 
