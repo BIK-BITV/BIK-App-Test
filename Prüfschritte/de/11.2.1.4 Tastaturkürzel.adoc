@@ -41,6 +41,15 @@ Auswahllisten-Element bzw. select. Hier dient z.B. das Drücken einer Buchstaben
   Modifikator-Tasten umstellbar.
 * Tastaturkurzbefehle über Einzeltasten sind nur wirksam, wenn bestimmte interaktive Elemente den Fokus haben (z.B. Auswahllisten).
 
+== Quellen
+=== iOS
+* Appt.org: https://appt.org/en/docs/ios/samples/keyboard-shortcuts[Keyboard shortcuts on iOS]
+
+=== Allgemeine Quellen
+* WCAG: https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[
+  Understanding Success Criterion 2.1.4: Character Key Shortcuts]
+  (zur Zeit nur auf Englisch verfügbar)
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -65,15 +74,6 @@ Auswahllisten-Element bzw. select. Hier dient z.B. das Drücken einer Buchstaben
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F99[F99: Failure of
   Success Criterion 2.1.4 due to implementing character key shortcuts that cannot be turned off or remapped]
 
-
-== Quellen
-=== iOS
-* Appt.org: https://appt.org/en/docs/ios/samples/keyboard-shortcuts[Keyboard shortcuts on iOS]
-
-=== Allgemeine Quellen
-* WCAG: https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html[
-  Understanding Success Criterion 2.1.4: Character Key Shortcuts]
-  (zur Zeit nur auf Englisch verfügbar)
 
 == Fragen zu diesem Prüfschritt
 === Unsere App ist auf die mobile Nutzung unterwegs ausgelegt, da hat man doch keine Tastatur. Gilt dann dieser Prüfschritt trotzdem?
