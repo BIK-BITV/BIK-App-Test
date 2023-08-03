@@ -17,20 +17,20 @@ Manche Videos können auch ohne Bild recht gut verstanden werden. Die sprechende
 * Der Prüfschritt ist anwendbar, wenn Videos mit synchroner Bild- und Tonspur vorhanden sind.
 * Gebärdensprachvideos brauchen keine Audiodeskription, der Prüfschritt ist auf diese nicht anwendbar.
 
-=== 2.1 Prüfung von Audiodeskription
+=== 2. Prüfung
 
-==== Art der Einbindung ermitteln
+==== 2.1 Prüfung von Audiodeskription
 
-Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
+. Art der Einbindung ermitteln: Die Audiodeskription kann auf verschiedenem Wege angeboten werden:
 
-* Die Audiodeskription ist bereits in die normalen Tonspur integriert.
-* Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription. Diese Spur wird zusätzlich eingeschaltet.
+  * Die Audiodeskription ist bereits in die normalen Tonspur integriert.
+  * Das Video hat eine zuschaltbare Tonspur mit der Audiodeskription. Diese Spur wird zusätzlich eingeschaltet.
 
-==== Audiodeskription prüfen
+. Audiodeskription prüfen
 
-. Video abspielen und Bildinhalte daraufhin überprüfen, ob wichtige Informationen vorhanden sind, die sich nicht auch aus dem Ton entnehmen lassen.
-. Zu häufigen informationstragenden Elementen der Bildebene gehören zum Beispiel Einblendungen von sprechenden Personen. Ist es dann wichtig, mitzubekommen, wer spricht? Sind visuelle Informationen auch in der Tonspur vorhanden? 
-. Ist das Video lediglich eine Medienalternative zu einem textbasierten Inhalt, wird es also ergänzend zu einem Text angeboten? In diesem Fall ist keine Audiodeskription erforderlich. Dies gilt allerdings nur dann, wenn das Video keine Inhalte enthält, die inhaltlich über die Textversion hinausgehen. 
+  * Video abspielen und Bildinhalte daraufhin überprüfen, ob wichtige Informationen vorhanden sind, die sich nicht auch aus dem Ton entnehmen lassen.
+  * Zu häufigen informationstragenden Elementen der Bildebene gehören zum Beispiel Einblendungen von sprechenden Personen. Ist es dann wichtig, mitzubekommen, wer spricht? Sind visuelle Informationen auch in der Tonspur vorhanden? 
+  * Ist das Video lediglich eine Medienalternative zu einem textbasierten Inhalt, wird es also ergänzend zu einem Text angeboten? In diesem Fall ist keine Audiodeskription erforderlich. Dies gilt allerdings nur dann, wenn das Video keine Inhalte enthält, die inhaltlich über die Textversion hinausgehen. 
 
 
 ==== 2.2 Prüfung von Volltextalternativen
