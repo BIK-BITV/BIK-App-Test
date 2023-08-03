@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 Interaktive Elemente, die verschiedene Werte haben können, sollen auch mit eingeschaltetem Screenreader bedienbar sein. Für Standard-Elemente ist dies in der Regel gegeben. Das Augenmerk bei der Prüfung liegt deshalb hauptsächlich auf Custom-Elementen und Custom-Widgets. 
 
