@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn die App Zwei-Wege-Sprachkommunikation unterstützt und Funktionen zur Echtzeit-Textkommunikation (RTT, Real-Time Text) bietet, soll die Aktivität von Sprechenden in Echtzeit visualisiert werden. Der visuelle Indikator, dass gerade gesprochen wird, soll dabei auch programmatisch ermittelbar sein, sodass auch taubblinde Menschen z.B. über eine Braillezeile über die laufende Audiokommunikation informiert werden. Es wird dabei lediglich in Echtzeit signalisiert, dass Audio-Eingabe stattfindet, die Vermittlung von Inhalten ist nicht Gegenstand des Prüfschritts.
