@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Zusätzliche Inhalte, die angezeigt werden, wenn Elemente den Zeiger- oder Tastaturfokus erhalten, z.B. benutzerdefinierte Tooltips oder Ausklapp-Menüs, sollten drei Anforderungen erfüllen:
