@@ -28,7 +28,7 @@ Die zeitgleiche Übertragung von Ton und Bild (bzw. eine Asynchronität, das bed
 
 Um ein belastbares Ergebnis zu erzielen, sollte die Testübertragung wiederholt werden.
 
-==== Hinweise
+=== 3. Hinweise
 
 * Untersuchungen zeigen, dass die Verständlichkeit deutlich mehr leidet, wenn das Video dem Audio hinterherhängt, als umgekehrt. Diese Tatsache kann bei der Bewertung entsprechend berücksichtigt und angemerkt werden.
 
