@@ -21,7 +21,7 @@ Die biometrische Identifizierung (bzw. Authentifizierung) kann gerade für Mensc
 
 Der Prüfschritt ist anwendbar, wenn die Webseite biometrische Merkmale für die Nutzeridentifizierung oder Steuerung nutzt.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Zu prüfende Ansicht der App öffnen
 . Prüfen, ob nicht-biometrische oder biometrische Alternativen zur angebotenen biometrischen Identifizierung angeboten werden.
