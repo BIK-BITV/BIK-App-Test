@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn die App Videotelefonie unterstützt, soll Audio-Aktivität visuell angezeigt werden.
@@ -14,17 +12,17 @@ Die Anzeige der Audio-Aktivität ermöglicht gehörlosen Nutzenden die Wahrnehmu
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die App Videotelefonie mit Sprachübertragung unterstützt.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Die Ansicht der App auf zwei Geräten mit abweichenden Nutzenden-Konten öffnen.
 . Videotelefonieverbindung zwischen den beiden Instanzen der App herstellen.
 . Auf dem verbundenen Gerät Sprache eingeben und auf dem Prüfgerät überprüfen, ob die Spracheingabe visuell wahrnehmbar ist. 
 
-=== Hinweise
+=== 3. Hinweise
 
 Für den Indikator der Sprachaktivität gelten weitere Anforderungen, z.B. bezüglich Grafik-Kontrast.
 
