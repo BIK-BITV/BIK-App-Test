@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 Für die Nutzung der App soll es einen Modus der Bedienung geben, der für die Bedienung keine simultanen Aktivitäten bzw. Eingaben von Nutzenden verlangt. Die Einfingerbedienung wird üblicherweise über Einstellungen des Betriebssystems festgelegt, auf die Entwickler keinen Einfluss haben, bzw. keinen Einfluss nehmen sollten. Für Toucheingaben wird ein Teil der Anforderung in Prüfschritt 11.2.5.1 geprüft.
 
