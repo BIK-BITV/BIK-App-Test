@@ -41,10 +41,6 @@ Wenn die App Videos mit Audiodeskription konvertiert oder aufnimmt, das Video an
 
 Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[in einem Issue hinterlassen].
 
-=== 4. Bewertung
-
-==== Nicht erfüllt:
-
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
