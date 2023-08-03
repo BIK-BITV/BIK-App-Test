@@ -29,14 +29,14 @@ wichtig.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die App-Ansicht Formulare für
 Transaktionen enthält, durch die Nutzer rechtlich bindende Verpflichtungen
 eingehen.
 Dazu gehören Online-Bestellvorgänge und andere finanzielle Transaktionen.
 
-=== Prüfung
+=== 2. Prüfung
 
 Formular mit Beispieldaten ausfüllen und Prozess fortsetzen.
 Eine der folgenden drei Optionen soll erfüllt sein:
@@ -49,7 +49,7 @@ Eine der folgenden drei Optionen soll erfüllt sein:
 * Unmittelbare Rückabwicklung, die Transaktion (etwa das Löschen von
   angelegten Datensätzen) kann unmittelbar rückgängig gemacht werden
 
-=== Hinweise
+=== 3. Hinweise
 
 Eine Checkbox oberhalb des "Abschicken"-Buttons zur Bestätigung der
 Richtigkeit von Benutzereingaben ist ein wesentlich schwächeres Instrument
@@ -63,9 +63,9 @@ Für die Bestätigung wichtiger Eingaben sind sie deshalb weniger geeignet.
 
 Erfolgreiche Eingaben sollten nach dem Abschicken bestätigt werden.
 
-=== Bewertung
+=== 4. Bewertung
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
 * Daten werden vor dem Abschicken zum Überprüfen angezeigt, es gibt aber
   keinen expliziten Button zurück zum Formular, um Daten zu korrigieren oder
@@ -76,7 +76,7 @@ Erfolgreiche Eingaben sollten nach dem Abschicken bestätigt werden.
   "Abschicken"-Button
 * Nach dem erfolgreichen Abschicken gibt es keine Bestätigung
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 * Wichtige Daten werden ohne vorherige Datenanzeige, Dialog zur Bestätigung,
   oder Möglichkeit der sofortigen Rückabwicklung abgeschickt
