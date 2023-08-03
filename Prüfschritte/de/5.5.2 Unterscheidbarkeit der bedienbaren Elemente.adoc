@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn die IKT physisch bedienbare Teile hat, müssen die physisch bedienbaren Elemente als solche erkennbar sein, ohne dass Sehvermögen zwingend erforderlich ist.
@@ -21,6 +19,7 @@ Der Prüfschritt ist für die Prüfung von mobilen Apps für iOS und Android im 
 Ist die zu prüfende App für die Nutzung zusammen mit physischem Spezialzubehör gedacht, findet der Prüfschritt jedoch ggf. Anwendung.
 
 === 2. Prüfung
+(folgt)
 
 === 3. Hinweise
 
