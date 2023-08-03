@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn Apps mit der Tastatur bedient werden, soll die Fokus-Reihenfolge auf Bedienelementen (Links, Formularelementen oder Objekten) schlüssig und
