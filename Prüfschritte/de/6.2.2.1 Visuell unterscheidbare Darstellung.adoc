@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn die App Echtzeit-Textkommunikation (RTT, Real-Time Text) senden und empfangen kann, soll die Anzeige von empfangenen und gesendeten Nachrichten visuell gut voneinander unterscheidbar sein.
@@ -28,7 +26,7 @@ Der Prüfschritt ist anwendbar, wenn die App Echtzeit-Textkommunikation (RTT, Re
 * Positionierung der eigenen Nachrichten rechtsbündig und der Gesprächsteilnehmer linksbündig oder umgekehrt
 * Nennung des Namens vor Beginn der Nachricht
 
-==== 3. Hinweise
+=== 3. Hinweise
 
 * Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 
