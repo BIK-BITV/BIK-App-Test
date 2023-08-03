@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn sich bei Bedienelementen oder Statusanzeigen Werte von programmatisch ermittelbaren Attributen ändern, sollen Screenreader diese Zustandsänderung ausgeben.
