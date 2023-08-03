@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Bedienelemente, die durch daneben stehende Labels bzw. Texte beschriftet werden, sollen diese Beschriftung programmatisch ermittelbar zur Verfügung stellen oder selbst eine gleichwertige hinterlegte Beschriftung tragen.
