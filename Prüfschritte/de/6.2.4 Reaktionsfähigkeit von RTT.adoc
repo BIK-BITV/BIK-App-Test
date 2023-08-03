@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn die App Echtzeit-Textkommunikation (RTT, Real-Time Text) unterstützt und Texteingaben entgegennimmt, soll die kleinste Texteinheit (einzelne Zeichen oder Wörter) in maximal 500 Millisekunden abgeschickt werden. Es geht hier also um Systeme, die eingegebene Zeichen unmittelbar nach der Eingabe an den Empfänger weiterleiten. Die Nachricht muss nicht erst wie in den meisten Chat-Systemen nach Eingabe abgeschickt werden, sondern erscheint unmittelbar.
@@ -14,11 +12,11 @@ Menschen, die über Texteingabe an einer Online-Kommunikation teilnehmen, sollen
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die App Eingaben für Echtzeit-Textkommunikation unterstützt. Das ist z.B. der Fall, wenn es sich um eine Anwendung zur Kommunikation handelt, die Echtzeit-Textkommunikation unterstützt und in der Benutzerschnittstelle eine entsprechende Eingabemöglichkeit bereithält.
 
-=== Prüfung
+=== 2. Prüfung
 
 Für diesen Prüfschritt existieren bislang nur Ansätze für die Prüfung in der Praxis.
 Eigentlich müsste gemessen werden, wann die Daten, direkt nach der Eingabe, von der App abgeschickt werden. 
@@ -31,7 +29,7 @@ Die kleinste Texteinheit (einzelne Zeichen oder Wörter) sollte dabei nahezu ins
 Die Übertragung sollte dabei nicht deutlich mehr als eine halbe Sekunde dauern. Physikalische Grenzen durch die Netzwerktechnik müssen dabei berücksichtigt und abgezogen werden. Dies wird z.B. bei weiten Entfernungen der Kommunikationspartner relevant.
 Die reine Übertragungszeit kann z.B. mit einem "`Ping`" gemessen werden.
 
-==== Hinweise
+==== 3. Hinweise
 
 * Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empfänger dynamisch schon während der Eingabe des Senders. RTT ist also nicht das Gleiche wie etwa Chat, wo Nachrichten explizit abgeschickt werden und erst dann beim Empfänger erscheinen.
 
