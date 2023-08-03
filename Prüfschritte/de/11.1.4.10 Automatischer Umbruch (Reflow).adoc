@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Inhalte der App sollen bei einer Viewport-Breite von 320 CSS Pixeln so angezeigt werden, dass alle Informationen und Funktionen verfügbar sind, ohne dass Nutzer horizontal scrollen müssen.
