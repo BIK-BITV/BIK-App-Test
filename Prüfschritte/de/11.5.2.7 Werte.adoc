@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Falls für Formularelemente minimale oder maximale Eingabewerte festgelegt sind und visuell vermittelt werden, muss diese Information auch programmatisch verfügbar sein.
