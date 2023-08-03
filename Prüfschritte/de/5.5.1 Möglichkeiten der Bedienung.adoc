@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn die ICT bedienbare Teile hat, die ein physisches Greifen, Zusammendrücken oder eine Drehung des Handgelenks erfordern, muss eine zugängliche alternative Bedienmöglichkeit zur Verfügung gestellt werden, die diese Handlungen nicht erfordert.
