@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn Apps Funktionen implementieren, die über pfadbasierte Zeiger-Gesten (etwa Streich- oder Zieh-Gesten) oder über Mehrpunktgesten bedient werden können, gibt es Alternativen für die Aktivierung mittels einer einfachen Zeigereingabe.
