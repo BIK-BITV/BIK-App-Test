@@ -32,7 +32,6 @@ Wenn nach Starten der App bzw. beim Wechsel auf die zu prüfende Ansicht ein Ton
 Wenn sich die Lautstärke regeln lässt:
 
 * die Systemlautstärke darf durch den Regler in der App nicht verändert werden.
-+
   Hier kann z.B. vor und nach einem Test ein Vergleichs-Sound abgespielt werden, um zu beurteilen, ob eine Veränderung der Systemlautstärke stattgefunden hat.
 
 === 3. Hinweise
