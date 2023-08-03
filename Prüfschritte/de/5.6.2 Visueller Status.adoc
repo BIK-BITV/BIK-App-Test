@@ -57,8 +57,6 @@ Die dominanten mobilen Betriebssysteme bieten Bedienelemente zum Arretieren der 
 === Zur Abgrenzung zu virtuellen Tastaturen 
 Der Status "festgestellt" bei der Shift-Taste virtueller Tastaturen wird bei allen uns bekannten Tastaturen visuell vermittelt. Da App-Entwickler keinen Einfluss auf installierte Tastaturen haben, werden sie in diesem Prüfschritt nicht berücksichtigt.
 
-== Einordnung des Prüfschritts
-
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
