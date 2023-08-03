@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 Wenn Autorenwerkzeuge Zielformate erzeugen, etwa Webseiten oder Dokumente, sollen die für die barrierefreie Nutzung notwendigen Informationen vom erzeugten Zielformat unterstützt werden. Genauer beschrieben ist das in den Anforderungen 11.8.2 bis 11.8.5.
 
