@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Sind Videos mit synchroner Bild- und Tonspur vorhanden und werden dynamisch zuschaltbare, textbasierte Untertitel (closed captions) angeboten, bietet der Videoplayer die Möglichkeit, diese ein- und auszublenden.
