@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Audiodateien und stumme Videodateien, die Informationen vermitteln, müssen mit gleichwertigen Medienalternativen versehen werden - es sei denn, es handelt sich bei Ihnen bereits um Medienalternativen für Text.
