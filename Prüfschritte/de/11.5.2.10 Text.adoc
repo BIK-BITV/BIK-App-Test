@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn eine App Text enthält, soll der Text für Screenreader-Nutzende zugänglich sein. Wenn Apps die Bearbeitung von Text bieten und die Auszeichnung von Texten unterstützen (etwa die Setzung der Textattribute fett oder kursiv), sollen diese Textattribute auch für Hilfsmittelnutzende verfügbar sein.
