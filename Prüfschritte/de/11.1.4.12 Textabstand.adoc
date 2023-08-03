@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 Diese Anforderung kann zur Zeit auf Inhalte in mobilen Apps nicht angewandt werden. Der Prüfschritt ist deshalb zur Zeit nicht anwendbar.
 
