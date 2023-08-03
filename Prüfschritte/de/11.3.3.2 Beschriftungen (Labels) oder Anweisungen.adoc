@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Beschriftungen von Formularelementen sind vorhanden.
@@ -28,11 +26,11 @@ schnell klar, welche Beschriftung zu welchem Feld gehört.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die App-Ansicht Formularelemente enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
 . App mit zu prüfender Ansicht öffnen.
 . Sind Beschriftungen vorhanden ?
@@ -46,7 +44,7 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Formularelemente enthält.
   "Telefonnummer: Nur Zahlen ohne Leerstellen oder Bindestriche eingeben".)
 . Sind Beschriftungen richtig positioniert?
 
-=== Hinweise
+=== 3. Hinweise
 
 Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine
 zugeordnete Beschriftung.
@@ -72,14 +70,14 @@ Es kann sinnvoll sein, dass bei Formularen Hinweise zum Eingabeformat oder zu
 ausgelösten Aktionen einmal am Beginn des Formulars stehen statt vor jedem
 einzelnen Eingabefeld.
 
-=== Bewertung
+=== 4. Bewertung
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 * Wichtige Formularelemente (z.B. die Sucheingabe) sind ohne Beschriftung, auch
   angrenzende Elemente erklären nicht die Funktion.
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
 * Beschriftungen werden nur als Formularfeld-Vorbelegung bereitgestellt.
 
