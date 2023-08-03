@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 Die im Prüfschritt
 ifdef::env_embedded[11.5.2.11 "Aktionen programmatisch ermittelbar"]
