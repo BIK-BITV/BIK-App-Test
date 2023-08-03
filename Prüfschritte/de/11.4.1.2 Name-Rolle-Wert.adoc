@@ -54,7 +54,7 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
 === 4. Bewertung
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom Controls) umgesetzt, auf eine Nachbildung der Semantik für die Barrierefreiheitsschnittstellen des Systems, wurde verzichtet. Name, Rolle, Wert werden vom Screenreader nicht korrekt ausgegeben.
 
