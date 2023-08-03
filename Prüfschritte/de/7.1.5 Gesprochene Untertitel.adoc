@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.* 
-
 == Was wird geprüft?
 
 Wenn die App ein Video mit einem Orginalton enthält, der nicht der Hauptsprache der App entspricht, sollen zuschaltbaren bzw. programmatisch ermittelbaren Untertitel, die in der Hauptsprache angeboten werden, als akustische Ausgabe zugänglich sein, z.B. über eine eigene Tonspur, die den Untertiteln entspricht, oder über eine generierte Sprachausgabe der Untertitel. Nicht programmatisch ermittelbar sind Untertitel, die "fest eingebrannt", also Teil der Bildinformation, sind.
