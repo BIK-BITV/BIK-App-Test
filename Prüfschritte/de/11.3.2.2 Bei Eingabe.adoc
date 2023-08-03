@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Nutzereingaben auf Formularen sollen nicht zu unerwarteten Kontext-Änderungen
@@ -29,12 +27,12 @@ wahrgenommen.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die Ansicht in der Software
 Formularelemente enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
 . App mit zu prüfender Ansicht starten
 . Formularelemente (Checkboxes, Radio Buttons, Auswahllisten)  aktivieren. 
@@ -44,7 +42,7 @@ Werden unerwartete und nicht angekündigte Kontextänderungen erzeugt?
 . Prüfen, ob Inhaltsänderungen unterhalb des Elements, das sie auslöst, hervorgerufen werden.
 . Prüfen, ob durch Formulareingaben hervorgerufene Kontextänderungen (etwa dynamisch eingeblendete Elemente) den aktuellen Fokus versetzen,
 
-=== Hinweise
+=== 3. Hinweise
 
 Dynamische Änderungen, etwa die automatische Einblendung von Vorschlägen unterhalb des Texteingabefelds einer Such-Funktion, sollen nicht den aktuellen
 Fokus versetzen.
