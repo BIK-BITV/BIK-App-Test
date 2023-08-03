@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Sind Videos mit synchroner Bild- und Tonspur und zusätzlicher Audiodeskription vorhanden, soll der Videoplayer in der Lage sein, die zusätzliche Audiodeskription synchron zu Bild und Ton wiederzugeben.
