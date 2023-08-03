@@ -72,7 +72,7 @@ Vergleiche: WCAG 2.1, Appendix A:
 https://www.w3.org/TR/WCAG21/#dfn-change-of-context[Glossary: changes of
 context]
 
-=== Bewertung
+=== 4. Bewertung
 
 *Nicht voll erfüllt:*
 
