@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn die App ein Autorenwerkzeug ist und Umstrukturierungen oder Funktionen zur Umcodierung bietet, dann werden die Informationen zur Zugänglichkeit im umstrukturierten oder umcodierten Zielformat übernommen, soweit gleichwertige Mechanismen für Barrierefreiheits-Informationen bzw. semantische Auszeichnungen im Zielformat möglich sind.
