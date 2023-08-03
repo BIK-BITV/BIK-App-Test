@@ -41,7 +41,7 @@ Der Prüfschritt ist anwendbar, wenn Audiodateien oder stumme Videodateien in de
 . Prüfen, ob die Medienalternative im unmittelbaren Kontext der Audio- oder Videodatei angeboten wird.
 . Falls die Medienalternative in einer anderen Ansicht zur Verfügung steht: gibt es zu ihr einen aussagekräftigen Link im unmittelbaren Kontext der Audio- oder Videodatei?
 
-==== 3. Hinweise
+=== 3. Hinweise
 
 Eine Medienalternative ist nicht nötig, wenn Audio- oder Videodateien selbst als ergänzende Medienalternative angeboten werden (etwa eine schriftliche Montageanleitung, die durch eine Bildsequenz der beschriebenen Schritte ergänzt wird). Der Bezug muss dabei klar sein, etwa durch unmittelbare Nachbarschaft der beiden Medienalternativen oder durch einen aussagekräftigen Link.
 
