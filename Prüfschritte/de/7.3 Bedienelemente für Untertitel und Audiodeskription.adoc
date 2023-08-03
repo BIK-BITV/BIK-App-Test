@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn ein Videoplayer Video-Inhalte mit zugehörigen Audioinhalten abspielt, befinden sich die Bedienelemente zur Aktivierung der Untertitelung und Audiodeskription auf der gleichen Interaktionsebene wie die Bedienelemente zur Wiedergabekontrolle (z.B. Abspielen, Pause, Lautstärke etc.).
