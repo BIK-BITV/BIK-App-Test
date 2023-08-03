@@ -33,7 +33,7 @@ Die Ansicht der App, in der die Ausgabe angezeigt wird, muss dann bei der
 Prüfung berücksichtigt werden.
 Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden.
 
-==== 3. Hinweise
+=== 3. Hinweise
 
 Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von
 anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen.
