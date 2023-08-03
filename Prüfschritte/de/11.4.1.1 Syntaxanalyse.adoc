@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.* 
-
 == Was wird geprüft?
 Es wird nur geprüft, ob die App über Markup-Sprachen umgesetzte Inhalte enthält (in der Regel sind dies Webviews). In diesem Fall ist der Prüfschritt automatisch erfüllt. Gibt es nur native Inhalte (keine Webviews) ist der Prüfschritt nicht anwendbar.
 
@@ -24,17 +22,17 @@ Es findet keine inhaltliche Prüfung statt. Die Prüfung der zugrundeliegenden E
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts:
+=== 1. Anwendbarkeit des Prüfschritts:
 Der Prüfschritt ist prinzipiell nur anwendbar, wenn die App Inhalte in Markup-Sprachen (in der Regel in Webviews) enthält.
 
-=== Prüfung
+=== 2. Prüfung
 Es wird lediglich geprüft, ob die App Webviews enthält. Ein sicheres Anzeichen dafür ist die Ausgabe "Webview" bei Fokussierung von Webview-Inhalten, ein weiteres Anzeichen die Ausgabe von Elementen, die in nativen Apps in der Regel nicht vorkommen, z.B. Überschriften auf verschiedenen Ebenen. 
 
-=== Hinweise
+=== 3. Hinweise
 
 Wenn nicht eindeutig festzustellen ist, ob die App Webviews enthält, sollte der Prüfschritt mit "nicht anwendbar" bewertet werden.
 
-=== Bewertung
+=== 4. Bewertung
 
 ==== Erfüllt:
 * Die App enthält Webviews. 
