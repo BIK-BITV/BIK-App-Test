@@ -26,13 +26,13 @@ die systemweiten Einstellungen müssen jedoch voreingestellt sein.
 
 == Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist nahezu immer anwendbar.
 Die einzige Ausnahme besteht, wenn die App komplett isoliert vom
 Betriebssystem läuft, z.B. innerhalb einer virtuellen Maschine.
 
-=== Prüfung
+=== 2. Prüfung
 
 Für die Praxis fehlen noch Hinweise, Sie können auf GitHub
 https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der
@@ -91,7 +91,7 @@ Bedienungshilfen von der App übernommen werden:
 * Schriftgröße
 ====
 
-==== Hinweise
+==== 3. Hinweise
 
 Wenn einer der o. g. Einstellungen in iOS / iPadOS oder Android nicht zu finden
 ist und somit vom Nutzer nicht angepasst werden kann, wird diese Einstellung
