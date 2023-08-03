@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn Videos mit synchroner Bild- und Tonspur vorhanden sind und eine alternative Version mit Audiodeskription verfügbar ist, gibt es einen Mechanismus für die Auswahl und Wiedergabe der verfügbaren Audiodeskription.
