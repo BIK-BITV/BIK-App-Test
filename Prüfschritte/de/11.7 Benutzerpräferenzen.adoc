@@ -84,7 +84,7 @@ Bedienungshilfen von der App übernommen werden:
 * Schriftgröße
 ====
 
-==== 3. Hinweise
+=== 3. Hinweise
 
 Wenn einer der o. g. Einstellungen in iOS / iPadOS oder Android nicht zu finden
 ist und somit vom Nutzer nicht angepasst werden kann, wird diese Einstellung
