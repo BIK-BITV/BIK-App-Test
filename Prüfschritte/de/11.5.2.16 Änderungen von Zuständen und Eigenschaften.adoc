@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Interaktive Elemente, die verschiedene Zustände haben (z.B. an- und ausgeschaltet) sollen auch mit eingeschaltetem Screenreader bedienbar sein.
