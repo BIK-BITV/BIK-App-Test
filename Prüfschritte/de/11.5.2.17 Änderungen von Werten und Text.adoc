@@ -56,7 +56,7 @@ endif::env_embedded[]
 . Text ausschneiden (Drei-Finger Doppel-Tippen und Halten)
 . Text einfügen (Drei-Finger Dreifach-Tippen)
 
-==== 2.1 Bearbeitbarkeit von Text prüfen (iOS)
+==== 2.2 Bearbeitbarkeit von Text prüfen (iOS)
 
 . Eingabefeld über Wischgeste fokussieren, etwas Text eingeben
 . Rotor auf "Textauswahl" stellen, ggf. durch vertikales Wischen "Zeichenauswahl" wählen
