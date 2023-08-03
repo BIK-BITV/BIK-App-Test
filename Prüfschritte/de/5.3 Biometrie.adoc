@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn die App biometrische Merkmale (z.B. Fingerabdruck, Gesichtserkennung, Spracherkennung) für die Nutzeridentifizierung oder die Steuerung nutzt, soll diese sich nicht nur auf ein biometrisches Merkmal beschränken.
