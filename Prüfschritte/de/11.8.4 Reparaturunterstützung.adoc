@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn Autorenwerkzeuge Funktionen zur Erkennung von Barrierefreiheits-Fehlern bei der Erstellung von Dokumenten bieten, dann sollen Vorschläge zur Behebung dieser Fehler verfügbar sein.
