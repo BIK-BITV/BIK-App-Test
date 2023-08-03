@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn in der App Funktionen (bzw. Aktionen) angeboten werden, müssen diese auch für Screenreader-Nutzende ermittelbar sein.
