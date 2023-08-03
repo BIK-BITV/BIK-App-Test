@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn irgendeine Komponente der Ansicht den Fokus erhält, soll dies nicht zu
@@ -57,18 +55,18 @@ und Datenverlust führen.
 
 ==  Wie wird geprüft?
 
-=== Anwendbarkeit des Prüfschritts
+=== 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist anwendbar, wenn die App interaktive Elemente enthält.
 
-=== Prüfung
+=== 2. Prüfung
 
 . Tastatur über Bluetooth-Kopplung oder USB-Kabel anschließen.
 . App mit zu prüfender Ansicht aufrufen
 . Mit der Tab-Taste alle Elemente in der Ansicht durchgehen und dabei prüfen, ob es eine unerwartete
   Kontextänderung gibt (etwa Pop-up-Fenster oder automatisches Abschicken von Formularen)
 
-=== Hinweise
+=== 3. Hinweise
 
 Der Prüfschritt bezieht sich nur auf das Öffnen von neuen Ansichten, nicht
 auf Elemente, die den Inhalt überlagern (Stichwort modaler Dialog).
