@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Überschriften, die zur Beschreibung von Inhalten eingesetzt werden, müssen auch semantisch als Überschriften ausgezeichnet sein. 
