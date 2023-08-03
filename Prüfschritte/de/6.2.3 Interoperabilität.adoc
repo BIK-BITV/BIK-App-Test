@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Apps, die (meist zusätzlich zur Sprach-Kommunikation) die Echtzeit-Textkommunikation (RTT, Real-Time Text) mit anderen Anwendungen erlauben, sollen Interoperabilität, also die jeweils relevanten technischen ITU-, IETF-, oder ETSI-Standards für Echtzeit Text-Kommunikation unterstützen.
