@@ -27,7 +27,7 @@ Da die programmatische Ermittelbarkeit von Eltern-Kind Beziehungen in Apps gener
 Der Prüfschritt wird also nur auf Tableisten und Toolbars (meist im Fußbereich der App) sowie auf Reiter-Widgets angewandt. Hier sollte der Screenreader bei Fokussierung des Kind-Tabs die Position des Tabs und die Anzahl der Tabs im Eltern-Element ausgeben. 
 
 === 2. Prüfung
-. Mittels Screenreader prüfen, ob bei Tableisten, Toolbars und Reiter-Widgets die Position des Tab-Elements sowie die Gesamt-Anzahl von Tabs vermitteln (z.B. "Suchen, Tab, 5 von 5", oder "Ausgewählt, Aktuelle Tickets, Tab 1 von 2").
+Mittels Screenreader prüfen, ob bei Tableisten, Toolbars und Reiter-Widgets die Position des Tab-Elements sowie die Gesamt-Anzahl von Tabs vermitteln (z.B. "Suchen, Tab, 5 von 5", oder "Ausgewählt, Aktuelle Tickets, Tab 1 von 2").
 
 === 3. Hinweise
 Nicht negativ zu bewerten ist, wenn das Eltern-Element selbst nicht benannt ist bzw. bei der Fokussierung eines Kind-Elements nicht der Name oder Rolle des Eltern-Elements ausgegeben wird. Für Eltern-Elemente (List views, Table views, Collections) ist eine solche Ausgabe nicht generell sinnvoll oder ggf. sogar störend.
