@@ -2,8 +2,6 @@
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
-*Hinweis: Dies ist ein Entwurf. Inhalte können sich jederzeit ändern.*
-
 == Was wird geprüft?
 
 Wenn eine App Videotelefonie unterstützt und die Aktivität von Sprechenden angezeigt wird, soll dies auch für Nutzende von Gebärdensprache gewährleistet sein.
