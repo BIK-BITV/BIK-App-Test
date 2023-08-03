@@ -27,10 +27,6 @@ Betriebssystem läuft, z.B. innerhalb einer virtuellen Maschine.
 
 === 2. Prüfung
 
-Für die Praxis fehlen noch Hinweise, Sie können auf GitHub
-https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue zu diesem Prüfschritt erstellen], um bei der
-Entwicklung des Prüfschritts mitzuwirken.
-
 ==== Farben
 
 Wenn das Betriebssystem Optionen für die Darstellung von Farben anbietet,
@@ -40,24 +36,22 @@ zu prüfende App neugestartet.
 Die Änderungen sollten dann in allen Ansichten der App sichtbar sein.
 
 ===== iOS / iPadOS
-[%collapsible]
-====
+
 Die Einstellungen zur Farbumkehr unter Einstellungen -> Bedienungshilfen ->
 Anzeige & Textgröße müssen von der App unterstützt werden.
 Des Weiteren wird der Darkmode unterstützt, dieser ist unter Einstellungen ->
 Anzeige & Helligkeit -> Erscheinungsbild zu finden.
-====
+
 
 ===== Android
-[%collapsible]
-====
+
 Folgende Einstellungen unter Einstellungen -> Bedienungshilfen werden durch
 die App unterstützt:
 
 * Farbumkehr
 * Farbkorrektur
 * Dunkles Design
-====
+
 
 ==== Schriftart und Schriftgröße
 
@@ -66,23 +60,20 @@ Für die Prüfung werden die systemweiten Einstellungen verändert und die zu
 prüfende App neugestartet.
 
 ===== iOS / iPadOS
-[%collapsible]
-====
+
 In iOS / iPadOS müssen folgende Einstellungen unter Einstellungen ->
 Bedienungshilfen -> Anzeige & Textgröße übernommen werden:
 
 * Fetter Text
 * Größerer Text
-====
 
 ===== Android
-[%collapsible]
-====
+
 Unter Android müssen folgende Einstellungen in Einstellungen ->
 Bedienungshilfen von der App übernommen werden:
 
 * Schriftgröße
-====
+
 
 === 3. Hinweise
 
