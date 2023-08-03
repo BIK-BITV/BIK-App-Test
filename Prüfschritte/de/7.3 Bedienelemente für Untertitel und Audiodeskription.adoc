@@ -51,6 +51,16 @@ https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue anlegen].
 
 == Einordnung des Prüfschritts
 
+=== Abgrenzung zu anderen Prüfschritten
+
+Bei diesem Prüfschritt geht es darum, *wo* die Bedienelemente für Untertitel und Audiodeskription positioniert sind.
+In Prüfschritt
+ifdef::env_embedded[7.2.1 "Wiedergabe von Audiodeskription"]
+ifndef::env_embedded[]
+<<7.2.1 Wiedergabe von Audiodeskription.adoc#,7.2.1 Wiedergabe von Audiodeskription>>
+endif::env_embedded[]
+geht es darum, dass überhaupt entsprechende Bedienelemente vorhanden sind.
+
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
@@ -79,13 +89,3 @@ It is best practice for ICT to include additional controls enabling the user to
 select whether captions and audio description are turned on or off by default.
 --
 ____
-
-=== Abgrenzung zu anderen Prüfschritten
-
-Bei diesem Prüfschritt geht es darum, *wo* die Bedienelemente für Untertitel und Audiodeskription positioniert sind.
-In Prüfschritt
-ifdef::env_embedded[7.2.1 "Wiedergabe von Audiodeskription"]
-ifndef::env_embedded[]
-<<7.2.1 Wiedergabe von Audiodeskription.adoc#,7.2.1 Wiedergabe von Audiodeskription>>
-endif::env_embedded[]
-geht es darum, dass überhaupt entsprechende Bedienelemente vorhanden sind.
