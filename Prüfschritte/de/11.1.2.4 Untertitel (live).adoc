@@ -111,7 +111,8 @@ geprüft.
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G9[G9: Creating captions
   for live synchronized media]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G87[G87: Providing closed
