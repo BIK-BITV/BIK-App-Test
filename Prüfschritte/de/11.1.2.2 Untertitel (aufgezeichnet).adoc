@@ -129,7 +129,8 @@ geprüft.
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G87[G87: Providing closed
   captions]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G93[G93: Providing open
