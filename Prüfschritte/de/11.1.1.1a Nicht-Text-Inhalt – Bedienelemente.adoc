@@ -64,12 +64,12 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
 === 4. Bewertung
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
 * Die Textalternative fehlt bei einem für die Benutzung der App weniger wichtigen Bedienelement.
 * Textalternativen sind missverständlich, undeutlich oder extrem lang.
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 * Die Textalternative für ein wichtiges Bedienelement fehlt oder er ist
   unbrauchbar.
