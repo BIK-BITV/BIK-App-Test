@@ -112,7 +112,7 @@ ____
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G166[G166: Providing audio
   that describes the important video content and describing it as such]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G158[G158: Providing an
