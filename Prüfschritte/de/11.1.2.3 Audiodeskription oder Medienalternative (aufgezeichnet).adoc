@@ -88,7 +88,8 @@ Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichti
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G58[G58: Placing a link to
   the alternative for time-based media immediately next to the non-text
   content]
