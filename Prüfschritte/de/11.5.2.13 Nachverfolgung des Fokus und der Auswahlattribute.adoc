@@ -66,16 +66,16 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 
 Bei Versetzung des Fokus wird die Position vom Screenreader ausgegeben. Bei Auswahl von Text wird der ausgewählte Text vom Screenreader ausgegeben.
 
+== Quellen
+* https://support.google.com/accessibility/android/answer/6151827?hl=en#zippy=%2Cversion-up%2Cversion-lower[Google-Hilfe zu TalkBack-Gesten]
+* https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-talkback.html[BBC Accessibility and Testing with TalkBack]
+* https://seeingdifferentuk.blogspot.com/2015/06/selecting-copying-and-pasting-with.html[Blogbeitrag SeeingDifferent zu Auswahl, Kopieren, Einfügen mit VoiceOver in iOS]
+
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfschritten
 
 Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein. In diesem Prüfschritt geht es darum, ob die aktuelle Position des Fokus und der aktuell ausgewählte Text ausgegeben werden. In 11.5.2.14 wird dagegen bewertet, ob die Position des Fokus und die Auswahl des Texts geändert werden kann.
-
-== Quellen
-* https://support.google.com/accessibility/android/answer/6151827?hl=en#zippy=%2Cversion-up%2Cversion-lower[Google-Hilfe zu TalkBack-Gesten]
-* https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-talkback.html[BBC Accessibility and Testing with TalkBack]
-* https://seeingdifferentuk.blogspot.com/2015/06/selecting-copying-and-pasting-with.html[Blogbeitrag SeeingDifferent zu Auswahl, Kopieren, Einfügen mit VoiceOver in iOS]
 
 === Auszug EN 301 549
 
