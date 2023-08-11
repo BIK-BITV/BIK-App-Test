@@ -31,6 +31,7 @@ Die Gesten, die durch Bedienungshilfen genutzt werden, ändern sich ggf. mit neu
 === 4. Bewertung
 
 ==== Erfüllt:
+
 Barrierefreiheitsfunktionen lassen sich störungsfrei nutzen (es sei denn, die störende Funktion der App wird Nutzenden explizit aktiviert).
 
 == Einordnung des Prüfschritts
