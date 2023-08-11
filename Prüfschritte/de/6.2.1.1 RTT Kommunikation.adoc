@@ -33,7 +33,7 @@ Bei Echtzeit-Textkommunkation (RTT, Real-Time Text) erscheint der Text beim Empf
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 6.2.1.1 RTT communication
