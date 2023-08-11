@@ -33,7 +33,7 @@ Eine genaue Methode zur Messung der unterstützten Bildwiederholfrequenz ist noc
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 6.5.3 Framerate
@@ -46,4 +46,3 @@ functionality, the ICT:
 * shall support a frame rate of at least 20 frames per second (FPS)
 --
 ____
-(Aus EN 301 549 V3.1.1 Abschnitt 6.5.3 "Framerate")
