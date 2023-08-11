@@ -7,7 +7,7 @@ include::include/attributes.adoc[]
 Wenn in der App Funktionen (bzw. Aktionen) angeboten werden, müssen diese auch für Screenreader-Nutzende ermittelbar sein.
 
 Für einfache interaktive Elemente ist die primäre Aktion in der Regel über Beschriftung und Rolle ausreichend klar, etwas "Senden - Schaltfläche" oder "Nutzungsbedingungen - Link". 
-Bei manchen Elementen sind weitere Aktrionen verfügbar, besonders bei gruppierten Elementen. 
+Bei manchen Elementen sind weitere Aktionen verfügbar, besonders bei gruppierten Elementen. 
 Für diese ist zu prüfen, welche Aktionen grundsätzlich auf dem Element durchführbar sind, und ob diese  Aktionen auch über den Screnreader ausgegeben werden. 
 (Im Prüfschritt 11.5.2.12 wird erfasst, ob sie auch aktivierbar, also ausführbar sind.) 
 
@@ -49,7 +49,7 @@ Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält.
 === 3. Hinweise
 ==== 3.1 Allgemeine Hinweise
 * Manche Funktionen sind erst über mehrere Schritte erreichbar, z.B. über Aktivieren von Optionen wie "mehr" oder "weitere" und dann folgende Auswahlen. Es ist nicht erforderlich, dass der Weg zur Funktion mit und ohne Nutzung des Screenreaders gleich ist bzw. die gleiche Anzahl von Schritten beinhaltet.
-* Manchmal sind einzelne interaktive Elemente innerhalb gruppierter Elemente nicht über Wischgesten getrennt fokussierbar. Das ist zu akzeptieren, solange die entsprechende Funkion über den Ausruf von Aktionen auf dem Element erreicht werden kann. 
+* Manchmal sind einzelne interaktive Elemente innerhalb gruppierter Elemente nicht über Wischgesten getrennt fokussierbar. Das ist zu akzeptieren, solange die entsprechende Funktion über den Ausruf von Aktionen auf dem Element erreicht werden kann. 
 
 ==== 3.2 Hinweise zur Teamprüfung
 
