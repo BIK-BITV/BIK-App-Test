@@ -36,7 +36,7 @@ Der Prüfschritt ist anwendbar, wenn die App Zwei-Wege-Kommunikation und zusätz
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 6.2.1.2 Concurrent voice and text
