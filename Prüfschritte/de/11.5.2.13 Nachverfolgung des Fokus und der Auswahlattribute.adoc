@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Bei Interface-Elementen der App, die Texteingaben und Textbearbeitung vorsehen, muss die Position des Fokus bzw. der Texteinfügemarke und sowie die Textauswahl für Hilfsmitteltechnologien programatisch verfügbar sein. Geprüft wird dies mithilfe der integrierten Screenreader VoiceOver (iOS) und TalkBack (Android) und der Aktivierung der jeweiligen Gesten-Befehle für Fokusversetzung und Textauswahl. 
+Bei Interface-Elementen der App, die Texteingaben und Textbearbeitung vorsehen, muss die Position des Fokus bzw. der Texteinfügemarke und sowie die Textauswahl für Hilfsmitteltechnologien programmatisch verfügbar sein. Geprüft wird dies mithilfe der integrierten Screenreader VoiceOver (iOS) und TalkBack (Android) und der Aktivierung der jeweiligen Gesten-Befehle für Fokusversetzung und Textauswahl. 
 
 Ob sich Cursor-Position und die Textauswahl ändern lassen, ist Gegenstand des Prüfschritts 11.5.2.14. Beide Prüfschritte gehören eng zusammen, die Prüfung ist im Wesentlichen identisch.
 
