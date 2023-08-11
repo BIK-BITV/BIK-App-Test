@@ -39,8 +39,6 @@ Barrierefreiheitsfunktionen lassen sich störungsfrei nutzen (es sei denn, die s
 
 11.6.2 No disruption of accessibility features
 
-== Quellen
-
 [.BLOCK_LANG_EN]
 === 11.6.2 No disruption of accessibility features
 
