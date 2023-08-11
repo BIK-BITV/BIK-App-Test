@@ -56,7 +56,7 @@ Es gibt beim Lesen der Echtzeit-Texteingaben einer Kommunikation keine Möglichk
 * https://w3c.github.io/webrtc-pc/[WebRTC 1.0: Real-Time Communication Between Browsers.] W3C Editor's Draft 06 February 2023
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 6.2.2.2 Programmatically determinable send and receive direction
