@@ -54,7 +54,7 @@ In diesem Prüfschritt wird geprüft, ob der eingebundene Player grundsätzlich 
 Die Prüfung, ob der Player oder die Untertitel-Datei Ursache von nicht-synchronen Untertiteln ist, kann derzeit nicht erfolgen.
 Werden Untertitel nicht synchron dargestellt, erfolgt in beiden Prüfschritten eine negative Bewertung mit dem Hinweis auf eine unklare Ursache.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 7.1.2 Captioning synchronization
