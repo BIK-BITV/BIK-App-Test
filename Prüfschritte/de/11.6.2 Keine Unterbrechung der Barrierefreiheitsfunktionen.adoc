@@ -38,8 +38,6 @@ Barrierefreiheitsfunktionen lassen sich störungsfrei nutzen (es sei denn, die s
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
-11.6.2 No disruption of accessibility features
-
 [.BLOCK_LANG_EN]
 === 11.6.2 No disruption of accessibility features
 
@@ -49,5 +47,3 @@ ____
 Where software provides a user interface it shall not disrupt those documented accessibility features that are defined in platform documentation except when requested to do so by the user during the operation of the software.
 --
 ____
-
-(Aus EN 301 549 V3.1.1 Abschnitt 11.6.2 "No disruption of accessibility features")
