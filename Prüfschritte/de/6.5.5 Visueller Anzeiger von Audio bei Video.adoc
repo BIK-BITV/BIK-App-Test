@@ -32,7 +32,7 @@ Für Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/B
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 ==== 6.5.5 Visual indicator of audio with video
 ____
