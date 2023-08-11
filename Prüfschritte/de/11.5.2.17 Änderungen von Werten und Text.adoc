@@ -13,6 +13,7 @@ endif::env_embedded[]
 Hier wird speziell geprüft, ob sich *Werte* von Bedienelementen und *modifizierbarer Text*, etwa bei Eingabefeldern, auch bei aktivierten Hilfsmitteln modifizieren lassen.
 
 Beispiele:
+
 * der Wert eines Textfelds lässt sich im Bearbeitungsmodus ändern
 * eine Option einer Ausklappliste lässt sich fokussieren und aktivieren
 * der Wert eines interaktiven Reglers (z.B zur Einstellung von Lautstärke, Preisspanne, Zeitraum usw.) lässt sich ändern
