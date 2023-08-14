@@ -43,12 +43,11 @@ Zurzeit sind biometrische Aspekte der Steuerung hauptsächlich die Nutzer-Identi
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 5.3 Biometrics
 ____
-
 [.BLOCK_LANG_EN]
 --
 Where ICT uses biological characteristics, it shall not rely on the use of a
@@ -65,5 +64,4 @@ likelihood that individuals with disabilities possess at least one of the
 specified biological characteristics.
 Examples of dissimilar biological characteristics are fingerprints, eye
 retinal patterns, voice, and face.
---
 ____
