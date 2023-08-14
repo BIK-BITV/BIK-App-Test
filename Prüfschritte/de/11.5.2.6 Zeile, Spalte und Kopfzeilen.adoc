@@ -33,7 +33,7 @@ Ergebnisse werden in diesen Prüfschritt übertragen.
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.6 Row, column, and headers
