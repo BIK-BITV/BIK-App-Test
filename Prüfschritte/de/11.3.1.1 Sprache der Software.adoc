@@ -41,8 +41,16 @@ auf GitHub].
 * Die Anwendungssoftware hält sich nicht an die Systemsprache und meldet dabei ihre verwendete Hauptsprache nicht an das System, sodass z.B. ein Screenreader eine falsche Sprachausgabe-Engine einsetzt und damit beispielsweise englischer Text mit einer deutschen Stimme vorgelesen wird.
 
 == Quellen
+
 === Allgemein
 * Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-3-1-1[Language of Page: Set a language]
+
+=== iOS
+* https://www.ralfebert.com/ios-examples/xcode/change-development-language/[Changing the development language of an Xcode project,] (Ralf Ebert, 2019)
+
+=== Android
+* https://www.tutorialspoint.com/how-to-change-the-app-language-programmatically-in-android[How to change the app language programmatically in android?,] (Azhar, 2019)
+* https://www.geeksforgeeks.org/how-to-change-the-whole-app-language-in-android-programmatically/[How to Change the Whole App Language in Android Programmatically?,] (Ankur Pal, 2021)
 
 ==  Einordnung des Prüfschritts
 
@@ -53,16 +61,7 @@ auf GitHub].
 * https://www.w3.org/TR/WCAG21/#readable[Guideline 3.1 Readable: Make text
   content readable and understandable]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#language-of-page[3.1.1 Language of Page
   (Level A)]
-
-== Quellen
-
-=== iOS
-* https://www.ralfebert.com/ios-examples/xcode/change-development-language/[Changing the development language of an Xcode project,] (Ralf Ebert, 2019)
-
-=== Android
-* https://www.tutorialspoint.com/how-to-change-the-app-language-programmatically-in-android[How to change the app language programmatically in android?,] (Azhar, 2019)
-* https://www.geeksforgeeks.org/how-to-change-the-whole-app-language-in-android-programmatically/[How to Change the Whole App Language in Android Programmatically?,] (Ankur Pal, 2021)
