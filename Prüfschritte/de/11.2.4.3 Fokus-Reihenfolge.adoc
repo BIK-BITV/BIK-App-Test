@@ -91,7 +91,7 @@ Die Assistenz braucht bei Prüfung an zwei Orten ein zweites, möglichst gleiche
 
 == Einordnung des Prüfschritts
 
-=== Abgrenzung zu anderen Prüfkriterien
+=== Abgrenzung zu anderen Prüfschritten
 
 * In diesem Prüfschritt wird die Tabreihenfolge geprüft, die grundsätzliche
 Erreichbarkeit und Auslösbarkeit von interaktiven Elementen ist Gegenstand von
@@ -129,18 +129,18 @@ endif::env_embedded[]
 * https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide
   ways to help users navigate, find content, and determine where they are]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#focus-order[2.4.3 Focus Order (Level A)]
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html[G59: Placing the
   interactive elements in an order that follows sequences and relationships
   within the content]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F44.html[F44: Failure of
   Success Criterion 2.4.3 due to using tabindex to create a tab order that does not preserve meaning and operability]
