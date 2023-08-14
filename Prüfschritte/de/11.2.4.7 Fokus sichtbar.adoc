@@ -125,7 +125,8 @@ endif::env_embedded[]
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G149.html[G149: Using user
   interface components that are highlighted by the user agent when they
   receive focus]
@@ -135,7 +136,7 @@ endif::env_embedded[]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G195.html[G195: Using an
   author-supplied, highly visible focus indicator]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F55.html[F55: Failure of
   Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus
