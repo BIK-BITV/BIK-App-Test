@@ -58,7 +58,7 @@ Es geht dort um die inhaltliche Beurteilung.
 
 Wird 9.1.2.5 negativ bewertet (eine notwendige Audiodeskripiton ist nicht vorhanden), ist dieser Prüfschritt nicht anwendbar. 7.2.1 ist nur anwendbar, wenn eine Audiodeskription angeboten wird.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 
 [.BLOCK_LANG_EN]
