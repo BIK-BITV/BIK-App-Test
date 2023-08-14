@@ -47,7 +47,7 @@ Werden unerwartete und nicht angekündigte Kontextänderungen erzeugt?
 Dynamische Änderungen, etwa die automatische Einblendung von Vorschlägen unterhalb des Texteingabefelds einer Such-Funktion, sollen nicht den aktuellen
 Fokus versetzen.
 
-*Zur Abgrenzung von Kontextänderungen und Inhaltsänderungen:*
+==== Zur Abgrenzung von Kontextänderungen und Inhaltsänderungen:
 
 Klare Kontextänderungen (changes of context) sind laut WCAG 2.1 etwa Sprünge
 zu anderen Seiten und das Öffnen neuer Fenster, aber auch das dynamische
@@ -74,12 +74,12 @@ context]
 
 === 4. Bewertung
 
-*Nicht voll erfüllt:*
+==== Nicht voll erfüllt:
 
 * Die Interaktion mit Formularelementen führt zu unerwarteten und nicht
   angekündigten Kontextänderungen.
 
-*Nicht erfüllt:*
+==== Nicht erfüllt:
 
 * Formulare werden automatisch abgeschickt, wenn der Fokus das Formular
   verlässt.
@@ -110,24 +110,23 @@ endif::env_embedded[]
 * https://www.w3.org/TR/WCAG21/#predictable[Guideline 3.2 Predictable: Make
   Web pages appear and operate in predictable ways]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#on-input[3.2.2 On Input] (Level A)
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G80.html[G80: Providing a
   submit button to initiate a change of context using a technology-specific
-  technique listed below]
-+
-  Hinweis: Die Technik G80 ist SC 3.2.2 zugeordnet, wird aber nur indirekt
-  geprüft.
+  technique listed below] (Hinweis: Die Technik G80 ist SC 3.2.2 zugeordnet, wird aber nur indirekt
+geprüft.)
 
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G13.html[G13: Describing
   what will happen before a change to a form control that causes a change of context to occur is made]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F36.html[F36: Failure of
   Success Criterion 3.2.2 due to automatically submitting a form and
