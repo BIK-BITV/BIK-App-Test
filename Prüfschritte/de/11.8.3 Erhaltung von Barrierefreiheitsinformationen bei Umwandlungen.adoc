@@ -32,16 +32,18 @@ Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist und Funktio
 
 Die Prüfung muss für jedes Ausgang- und Zielformat, das die App für die Transformation unterstützt, wiederholt werden.
 
-== 3. Hinweise
+=== 3. Hinweise
 
 Auch wenn die App lediglich die Struktur der Information im Ausgangsformat verändert, muss sichergestellt werden, dass das Zielformat noch die für die Barrierefreiheit relevanten Informationen enthält. Wenn z.B. eine einfache Datentabelle zu einer Liste umstrukturiert wird, wäre im Zielformat zwar keine Tabellenauszeichnung mehr vorhanden, wohl aber eine Listenauszeichnung, in der ggf. die ursprünglichen Spaltenüberschriften in den Listenelementen verfügbar sind, wenn sie für das Verständnis erforderlich sind.
 
 Für Hinweise dazu können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
 
-== Quellen
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
-=== 11.8.3 Preservation of accessibility information in transformations
+==== 11.8.3 Preservation of accessibility information in transformations
 
 [.BLOCK_LANG_EN]
 --
@@ -58,6 +60,3 @@ NOTE 2:
 Re-coding transformations are transformations in which the technology used to
 encode the content is changed.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 11.8.3 "Preservation of accessibility
-information in transformations")
