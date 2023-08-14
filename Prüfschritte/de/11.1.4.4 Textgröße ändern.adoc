@@ -142,7 +142,8 @@ endif::env_embedded[]
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G146.html[G146: Using
   liquid layout]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G178.html[G178: Providing
@@ -152,7 +153,7 @@ endif::env_embedded[]
   that there is no loss of content or functionality when the text resizes and
   text containers do not change their width]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F69.html[F69: Failure of
   Success Criterion 1.4.4 when resizing visually rendered text up to 200
