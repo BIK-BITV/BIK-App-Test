@@ -41,8 +41,7 @@ In der Regel nicht negativ bewertet werden grafische Schriften auf Logos oder in
 
 == Quellen
 
-https://www.paciellogroup.com/blog/2015/12/does-svg-text-pass-wcag-1-4-5-images-of-text/[
-Does SVG text pass WCAG 1.4.5 (Images of Text)?] (Léonie Watson)
+* https://www.paciellogroup.com/blog/2015/12/does-svg-text-pass-wcag-1-4-5-images-of-text/[Does SVG text pass WCAG 1.4.5 (Images of Text)?] (Léonie Watson, 2015)
 
 == Einordnung des Prüfschritts
 
