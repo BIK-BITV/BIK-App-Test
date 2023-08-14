@@ -87,10 +87,13 @@ Es wird nicht verlangt, dass Bedienelemente der App dynamische Veränderungen
 dieser Einstellungen unterstützen, da hier das Layout der App verändert
 würde.
 
-== Quellen
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
-=== 11.7 User preferences
+
+==== 11.7 User preferences
 
 [.BLOCK_LANG_EN]
 --
