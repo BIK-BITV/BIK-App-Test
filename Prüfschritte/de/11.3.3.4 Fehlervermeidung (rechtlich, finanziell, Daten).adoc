@@ -94,14 +94,15 @@ Erfolgreiche Eingaben sollten nach dem Abschicken bestätigt werden.
 * https://www.w3.org/TR/WCAG21/#input-assistance[Guideline 3.3 Input Assistance:
   Help users avoid and correct mistakes]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data[3.3.4
   Error prevention (Legal, Financial, Data) (Level AA)]
 
 ==== Techniques
 
-.General techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G98.html[G98: Providing the
   ability for the user to review and correct answers before submitting]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G99[G99: Providing the
