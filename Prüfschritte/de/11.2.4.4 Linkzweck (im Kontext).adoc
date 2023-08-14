@@ -117,7 +117,7 @@ endif::env_embedded[]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G91.html[G91: Providing
   link text that describes the purpose of a link]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F63.html[F63: Failure of
   Success Criterion 2.4.4 due to providing link context only in content that
