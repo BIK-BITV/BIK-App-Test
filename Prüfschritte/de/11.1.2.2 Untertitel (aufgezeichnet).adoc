@@ -136,7 +136,7 @@ geprüft.
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G93[G93: Providing open
   (always visible) captions]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F8[F8: Failure of Success
   Criterion 1.2.2 due to captions omitting some dialogue or important sound
