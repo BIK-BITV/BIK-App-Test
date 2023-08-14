@@ -81,7 +81,7 @@ Wenn Zeitpunkt und Reihenfolge der Informationen nicht für das Verstehen wichti
 * https://www.w3.org/TR/WCAG21/#time-based-media[Guideline 1.2 Time-based
   Media: Provide alternatives for time-based media]
 
-==== Success criteria
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded[
   1.2.3 Audio Description or Media Alternative (Prerecorded) (Level A)]
