@@ -39,6 +39,11 @@ In der Regel nicht negativ bewertet werden grafische Schriften auf Logos oder in
 * Für wichtige Texte, zum Beispiel Überschriften, Menüoptionen oder für Schaltflächen, deren Beschriftung gelesen werden muss, werden Schriftgrafiken
   verwendet.
 
+== Quellen
+
+https://www.paciellogroup.com/blog/2015/12/does-svg-text-pass-wcag-1-4-5-images-of-text/[
+Does SVG text pass WCAG 1.4.5 (Images of Text)?] (Léonie Watson)
+
 == Einordnung des Prüfschritts
 
 === Abgrenzung zu anderen Prüfkriterien
@@ -69,11 +74,6 @@ berücksichtigt.
 .General Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G140.html[G140: Separating
   information and structure from presentation to enable different presentations]
-
-== Quellen
-
-https://www.paciellogroup.com/blog/2015/12/does-svg-text-pass-wcag-1-4-5-images-of-text/[
-Does SVG text pass WCAG 1.4.5 (Images of Text)?] (Léonie Watson)
 
 == Fragen zu diesem Prüfschritt
 
