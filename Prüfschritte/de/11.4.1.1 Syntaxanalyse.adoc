@@ -60,11 +60,12 @@ Wenn nicht eindeutig festzustellen ist, ob die App Webviews enthält, sollte der
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G192.html[G192: Fully
   conforming to specifications]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F70.html[F70: Failure of
   Success Criterion 4.1.1 due to incorrect use of start and end tags or
