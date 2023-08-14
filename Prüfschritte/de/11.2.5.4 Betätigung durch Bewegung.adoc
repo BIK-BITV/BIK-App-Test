@@ -64,6 +64,12 @@ Seitwärtsbewegungen.
 === Allgemein
 * Appt.org: https://appt.org/en/guidelines/wcag/success-criterion-2-5-4[Motion Actuation: Add alternatives for motion activated actions]
 
+==  Quellen
+
+* https://www.w3.org/WAI/WCAG21/Techniques/failures/F106[
+  Understanding Success Criterion 2.5.4: Motion Actuation]
+  (zur Zeit nur auf Englisch verfügbar)
+
 === Einordnung des Prüfschritts nach WCAG 2.1
 
 ==== Guideline
@@ -72,7 +78,7 @@ Seitwärtsbewegungen.
   Make it easier for users to operate functionality through various inputs
   beyond keyboard]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#motion-actuation[2.5.4 Motion Actuation
   (Level A)]
@@ -83,13 +89,7 @@ Seitwärtsbewegungen.
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G213[G213: Provide
   conventional controls and an application setting for motion activated input]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F106[F106: Failure due to
   inability to deactivate motion actuation]
-
-==  Quellen
-
-* https://www.w3.org/WAI/WCAG21/Techniques/failures/F106[
-  Understanding Success Criterion 2.5.4: Motion Actuation]
-  (zur Zeit nur auf Englisch verfügbar)
