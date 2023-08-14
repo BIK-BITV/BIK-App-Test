@@ -105,14 +105,15 @@ einzelnen Eingabefeld.
 * https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=334#input-assistance[
   Guideline 3.3 Input Assistance: Help users avoid and correct mistakes]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=334#labels-or-instructions[
   3.3.2 Labels or Instructions (Level A)]
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G13.html[G13: Describing
   what will happen before a change to a form control that causes a change of
   context to occur is made]
@@ -126,7 +127,7 @@ einzelnen Eingabefeld.
   text instructions at the beginning of a form or set of fields that describes
   the necessary input]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F82.html[F82: Failure of
   Success Criterion 3.3.2 by visually formatting a set of phone number fields
