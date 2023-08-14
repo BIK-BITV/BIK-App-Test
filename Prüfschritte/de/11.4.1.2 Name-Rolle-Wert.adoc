@@ -68,7 +68,7 @@ Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom
 * Apple Developer UIKit: https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits[UIAccessibilityTraits]
 * Apple Developer SwiftUI: https://developer.apple.com/documentation/swiftui/accessibilitytraits[AccessibilityTraits]
 
-==== Android
+=== Android
 * Android Developers: https://developer.android.com/guide/topics/ui/accessibility/apps[Make apps more accessible]
 * Android Developers: https://developer.android.com/reference/android/accessibilityservice/package-summary[android.accessibilityservice]
 * Medium article: https://medium.com/google-developer-experts/state-descriptions-on-android-b2029283871f[State Descriptions on Android]
@@ -101,7 +101,7 @@ endif::env_embedded[]
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G10.html[G10: Creating
   components using a technology that supports the accessibility API features
   of the platforms on which the user agents will be run to expose the names
@@ -115,7 +115,7 @@ endif::env_embedded[]
   allow user-settable properties to be directly set, and to provide
   notification of changes]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F15.html[F15: Failure of
   Success Criterion 4.1.2 due to implementing custom controls that do not use
