@@ -83,7 +83,8 @@ endif::env_embedded[]
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html[G130: Providing
   descriptive headings]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G131.html[G131: Providing
