@@ -42,15 +42,15 @@ https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
 . Testausgaben auf Barrierefreiheit prüfen (sämtliche anwendbaren
   Prüfschritte auf Ansicht mit der Ausgabe)
 
-== Quellen
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
-=== 11.8.5 Templates
+==== 11.8.5 Templates
 
 [.BLOCK_LANG_EN]
 When an authoring tool provides templates, at least one template that supports
 the creation of content that conforms to the requirements of clauses 9 (Web)
 or 10 (Non-web documents) as applicable shall be available and identified as
 such.
-
-(Aus EN 301 549 V3.1.1 Abschnitt 11.8.5 "Templates")
