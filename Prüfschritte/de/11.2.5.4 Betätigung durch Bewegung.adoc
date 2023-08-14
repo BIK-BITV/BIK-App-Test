@@ -85,7 +85,7 @@ Seitwärtsbewegungen.
 
 ==== Techniques
 
-.Sufficient Techniques
+===== Sufficient Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G213[G213: Provide
   conventional controls and an application setting for motion activated input]
 
