@@ -50,7 +50,7 @@ Alle von Talkback ausgegebenen Aktionen müssen auch aktivierbar sein, zum Beisp
 
 ==== 3.1 Hinweise zur Teamprüfung
 
-Hier ist bei der Teamprüfung (nicht-visuelle Prüfende mit sehender Assistenz) bei Aktiverung ggf. visuell zu überprüfen, ob die Interaktion erfolgreich war, wenn dies mit dem Screenreader nicht unmittelbar nachvollziehbar ist (etwa durch Meldung eines geänderten Zustands).
+Wenn mit dem Screenreader nicht unmittelbar nachvollziehbar ist, ob bei Aktivierung die Interaktion erfolgtreich war (etwa durch Meldung eines geänderten Zustands), sollte dies bei einer Teamprüfung (nicht-visuelle Prüfende mit sehender Assistenz) dies ggf. visuell überprüft werden.
 
 == Einordnung des Prüfschritts
 
