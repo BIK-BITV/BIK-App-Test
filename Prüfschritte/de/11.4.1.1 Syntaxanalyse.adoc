@@ -54,7 +54,7 @@ Wenn nicht eindeutig festzustellen ist, ob die App Webviews enthält, sollte der
   compatibility with current and future user agents, including assistive
   technologies]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#parsing[4.1.1 Parsing (Level A)]
 
