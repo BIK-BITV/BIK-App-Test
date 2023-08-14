@@ -28,9 +28,9 @@ Bei Fokussierung des Eingabefelds oder des Reglers werden Grenzen explizit oder 
 ==== Eher erfüllt:
 Eine getrennt fokussierbare, vom Screenreader ausgegebene Beschriftung unmittelbar vor dem Eingabefeld oder Regler informiert über minimale bzw. maximale Eingabe-Werte.
 
-== Quellen
+== Einordnung des Prüfschritts
 
-=== Auszug EN 301 549
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.7 Values 
