@@ -77,13 +77,15 @@ Bei Versetzung des Fokus wird die Position vom Screenreader ausgegeben. Bei Ausw
 
 Die Textauswahl kann je nach Screenreader und Betriebssystem unterschiedlich sein. In diesem Prüfschritt geht es darum, ob die aktuelle Position des Fokus und der aktuell ausgewählte Text ausgegeben werden. In 11.5.2.14 wird dagegen bewertet, ob die Position des Fokus und die Auswahl des Texts geändert werden kann.
 
-=== Auszug EN 301 549
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.13 Tracking of focus and selection attributes 
 
 [.BLOCK_LANG_EN]
+____
 Where software provides a user interface it shall, by using the services as
 described in clause 11.5.2.3, make information and mechanisms necessary to
 track focus, text insertion point, and selection attributes of user interface
 elements programmatically determinable by assistive technologies.
+____
