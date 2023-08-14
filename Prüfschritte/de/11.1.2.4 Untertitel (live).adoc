@@ -104,7 +104,7 @@ geprüft.
 * https://www.w3.org/TR/WCAG21/#time-based-media[Guideline 1.2 Time-based
   Media: Provide alternatives for time-based media]
 
-==== Success criteria
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#captions-live[1.2.4 Captions (Live) (Level
   AA)]
