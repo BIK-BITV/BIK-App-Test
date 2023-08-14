@@ -67,18 +67,15 @@ Der Prüfschritt ist nur auf Interface-Elemente anwendbar, die die Eingabe und B
 
 Bei aktiviertem Screenreader lässt sich die Fokusposition gezielt versetzen, die Text-Auswahl lässt sich gezielt ändern (erweitern / verringern).
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
-
-11.5.2.14 Modification of focus and selection attributes
-
 == Quellen
+
 * https://support.google.com/accessibility/android/answer/6151827?hl=en#zippy=%2Cversion-up%2Cversion-lower[Google-Hilfe zu TalkBack-Gesten]
 * https://bbc.github.io/accessibility-news-and-you/accessibility-and-testing-with-talkback.html[BBC Accessibility and Testing with TalkBack]
 * https://seeingdifferentuk.blogspot.com/2015/06/selecting-copying-and-pasting-with.html[Blogbeitrag SeeingDifferent zu Auswahl, Kopieren, Einfügen mit VoiceOver in iOS]
 
-=== Auszug EN 301 549
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.14 Modification of focus and selection attributes
@@ -94,5 +91,3 @@ Examples of systems under strict security requirements are systems dealing with 
 NOTE 2:
 Assistive technologies may be required to maintain the same level of security as the standard input mechanisms supported by the platform.
 --
-
-(Aus EN 301 549 V3.1.1 Abschnitt 11.5.2.14 "Modification of focus and selection attributes")
