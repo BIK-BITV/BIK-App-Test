@@ -50,7 +50,7 @@ erfolgt hingegen die inhaltliche Prüfung der Audiodeskription.
 Die Prüfung, ob der Player oder die Umsetzung der Audiodeskription fehlerhaft ist, kann derzeit nicht erfolgen.
 Wird Audiodeskription nicht synchron dargestellt, erfolgt in beiden Prüfschritten eine negative Bewertung mit dem Hinweis auf eine unklare Ursache.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 7.2.2 Audio description synchronization
