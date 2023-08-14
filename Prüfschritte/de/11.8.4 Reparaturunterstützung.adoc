@@ -41,13 +41,13 @@ https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.8.4 Repair assistance
 
 [.BLOCK_LANG_EN]
---
+____
 If the accessibility checking functionality of an authoring tool can detect
 that content does not meet a requirement of clauses 9 (Web) or 10 (Non-web
 documents) as applicable, then the authoring tool shall provide repair
@@ -56,4 +56,4 @@ suggestion(s).
 NOTE:
 This does not preclude automated and semi-automated repair which is possible
 (and encouraged) for many types of content accessibility problems. 
---
+____
