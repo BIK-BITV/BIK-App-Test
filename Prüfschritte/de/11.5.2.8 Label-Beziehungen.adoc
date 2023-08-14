@@ -58,7 +58,7 @@ Der Prüfschritt ist anwendbar, wenn Bedienelemente eingesetzt werden, die ledig
 
 In Prüfschritt 11.2.5.3 "Sichtbare Beschriftung Teil des zugänglichen Namens" wird geprüft, ob die sichtbare Beschriftung im programmatisch ermittelbaren Namen des Bedienelements vorkommt. Es kann also Fälle geben, wo dieser Prüfschritt erfüllt ist, da statt der Verknüpfung der sichtbaren Beschriftung eine hinterlegte gleichwertige Beschriftung programmatisch ermittelbar ist, jedoch Prüfschritt 11.2.5.3 nicht erfüllt wäre, wenn die exakte Zeichenfolge der sichtbaren Beschriftung nicht im programmatisch ermittelbaren Namen vorkommt.
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 ==== 11.5.2.8 Label relationships
 ____
