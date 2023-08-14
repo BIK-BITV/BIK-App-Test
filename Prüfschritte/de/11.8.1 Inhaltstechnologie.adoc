@@ -52,5 +52,3 @@ ____
 Authoring tools shall conform to clauses 11.8.2 to 11.8.5 to the extent that information required for accessibility is supported by the format used for the output of the authoring tool.
 --
 ____
-
-(Aus EN 301 549 V3.1.1 Abschnitt 11.8.1 "Content technology")
