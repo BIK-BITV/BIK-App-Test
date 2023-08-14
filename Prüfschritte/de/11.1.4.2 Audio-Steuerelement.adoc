@@ -109,7 +109,7 @@ Control: Understanding SC 1.4.2]
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G60.html[G60: Playing a
   sound that turns off automatically within three seconds]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G170.html[G170: Providing a
@@ -118,7 +118,7 @@ Control: Understanding SC 1.4.2]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G171.html[G171: Playing
   sounds only on user request]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F23.html[F23: Failure of 
   1.4.2 due to playing a sound longer than 3 seconds where there is no
