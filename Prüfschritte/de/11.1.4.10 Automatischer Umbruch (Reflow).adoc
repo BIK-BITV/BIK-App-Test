@@ -137,7 +137,7 @@ Reflow]. Beispiele für die Umsetzung vergrößerbaren umbrechenden Texts in den
   Guideline 1.4 Distinguishable: Make it easier for users to see and hear
   content including separating foreground from background]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#reflow[
   1.4.10 Reflow] (Level AA)
