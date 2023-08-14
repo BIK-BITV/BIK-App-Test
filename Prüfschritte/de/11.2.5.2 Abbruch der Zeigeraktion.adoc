@@ -76,20 +76,21 @@ Es ist in der Regel nicht notwendig (und wäre bei umfangreichen Ansichten sehr 
   Make it easier for users to operate functionality through various inputs
   beyond keyboard]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#pointer-cancellation[2.5.2 Pointer Cancellation
   (Level A)]
 
 ==== Techniques
 
-.Sufficient Techniques
+===== Sufficient Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G210[G210: Ensuring that
   drag-and-drop actions can be cancelled]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G212[G212: Using native
   controls to ensure functionality is triggered on the up-event]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F101[F101: Failure of
   Success Criterion 2.5.2 due to activating a control on the down-event]
