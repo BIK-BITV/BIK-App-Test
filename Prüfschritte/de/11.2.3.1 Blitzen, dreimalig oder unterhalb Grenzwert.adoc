@@ -29,27 +29,6 @@ http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G176#smallsafe1[Formel 1, S
 ==== Nicht erfüllt:
 * Die Ansicht enthält Elemente, die häufiger als dreimal pro Sekunde flackern und größer sind als die definierte https://www.w3.org/WAI/WCAG21/Techniques/general/G176.html#smallsafe1[Small Safe Area for Web Content].
 
-== Einordnung des Prüfschritts
-
-=== Einordnung des Prüfschritts nach WCAG 2.1
-
-==== Guidelines
-
-* https://www.w3.org/WAI/WCAG21/quickref/#no-timing[Guideline 2.3 Do not
-  design content in a way that is known to cause seizures]
-
-==== Success criteria
-
-* https://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold[
-  2.3.1 Three Flashes or Below Threshold]
-
-==== Techniques
-
-.General Techniques
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G15.html[G15: Using a tool
-  to ensure that content does not violate the general flash threshold or red flash threshold]
-* https://www.w3.org/WAI/WCAG21/Techniques/general/G176.html[G176: Keeping the
-  flashing area small enough]
 
 == Quellen
 
@@ -100,3 +79,26 @@ flash.
 
 (https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html[
 Pause, Stop, Hide: Understanding SC 2.2.2])
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach WCAG 2.1
+
+==== Guidelines
+
+* https://www.w3.org/WAI/WCAG21/quickref/#no-timing[Guideline 2.3 Do not
+  design content in a way that is known to cause seizures]
+
+==== Success Criterion
+
+* https://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold[
+  2.3.1 Three Flashes or Below Threshold]
+
+==== Techniques
+
+===== General Techniques
+
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G15.html[G15: Using a tool
+  to ensure that content does not violate the general flash threshold or red flash threshold]
+* https://www.w3.org/WAI/WCAG21/Techniques/general/G176.html[G176: Keeping the
+  flashing area small enough]
