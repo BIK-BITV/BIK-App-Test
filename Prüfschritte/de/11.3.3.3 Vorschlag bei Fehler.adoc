@@ -64,13 +64,14 @@ Hier geht es um die Angemessenheit und Verständlichkeit der Fehlermeldung(en) s
 
 * https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=334#input-assistance[Guideline 3.3 Input Assistance: Help users avoid and correct mistakes]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=334#error-suggestion[3.3.3 Error Suggestion (Level AA)]
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G83.html[G83: Providing
   text descriptions to identify required fields that were not completed]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G84.html[G84: Providing a
