@@ -84,7 +84,7 @@ Bei der Prüfung von Apps sollten Links stichprobenartig auf externe Ressourcen 
 
 == Einordnung des Prüfschritts
 
-=== Abgrenzung zu anderen Prüfkriterien
+=== Abgrenzung zu anderen Prüfschritten
 
 Die Aussaagekraft der Alternativtexte für Grafiken wird geprüft in:
 
@@ -102,14 +102,15 @@ endif::env_embedded[]
 * https://www.w3.org/TR/WCAG21/#navigable[Guideline 2.4 Navigable: Provide
   ways to help users navigate, find content, and determine where they are]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#link-purpose-in-context[2.4.4 Link Purpose (In
   Context) (Level A)]
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G53.html[G53: Identifying
   the purpose of a link using link text combined with the text of the
   enclosing sentence]
