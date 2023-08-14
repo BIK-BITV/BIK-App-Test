@@ -84,23 +84,24 @@ Kontextänderung.
 * https://www.w3.org/TR/WCAG21/#predictable[Guideline 3.2 Predictable: Make
   Web pages appear and operate in predictable ways]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#on-focus[3.2.1 on Focus (Level A)]
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G107.html[G107: Using
   "activate" rather than "focus" as a trigger for changes of context]
 
-.Advisory Techniques
+===== Advisory Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G200.html[G200: Opening new
   windows and tabs from a link only when necessary]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G201.html[G201: Giving
   users advanced warning when opening a new window]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/TR/WCAG20-TECHS/F52.html[F52: Failure of Success Criterion
   3.2.1 due to opening a new window as soon
