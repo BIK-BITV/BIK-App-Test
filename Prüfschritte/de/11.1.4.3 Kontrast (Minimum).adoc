@@ -150,7 +150,8 @@ Solche zusätzlichen Einstellungen sind hilfreich, viele Nutzende wissen jedoch 
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G18.html[G18: Ensuring that
   a contrast ratio of at least 4.5:1 exists between text (and images of text)
   and background behind the text]
@@ -164,7 +165,7 @@ Solche zusätzlichen Einstellungen sind hilfreich, viele Nutzende wissen jedoch 
   control with a sufficient contrast ratio that allows users to switch to a
   presentation that uses sufficient contrast]
 
-==== Failures
+===== Failures
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F83.html[F83: Failure of
   Success Criterion 1.4.3 and 1.4.6 due to using background images that do not
