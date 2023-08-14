@@ -51,6 +51,15 @@ Zukünftig könnten Systeme zur Sprachsteuerung wie Apples VoiceControl als Prü
 ==== Erfüllt:
 * Der Text der Beschriftung ist im zugänglichen Namen enthalten.
 
+== Quellen
+
+* https://www.w3.org/WAI/WCAG21/Understanding/label-in-name[
+  Understanding Success Criterion 2.5.3: Label in Name]
+  (zur Zeit nur auf Englisch verfügbar)
+* https://www.w3.org/TR/accname/#mapping_additional_nd_te[
+  Accessible Name and Description Computation]
+  (zur Zeit nur auf Englisch verfügbar)
+
 == Einordnung des Prüfschritts
 
 === Einordnung des Prüfschritts nach WCAG 2.1
@@ -77,12 +86,3 @@ Zukünftig könnten Systeme zur Sprachsteuerung wie Apples VoiceControl als Prü
 
 * https://www.w3.org/WAI/WCAG21/Techniques/failures/F96[F96: Failure due to
   the accessible name not containing the visible label text]
-
-== Quellen
-
-* https://www.w3.org/WAI/WCAG21/Understanding/label-in-name[
-  Understanding Success Criterion 2.5.3: Label in Name]
-  (zur Zeit nur auf Englisch verfügbar)
-* https://www.w3.org/TR/accname/#mapping_additional_nd_te[
-  Accessible Name and Description Computation]
-  (zur Zeit nur auf Englisch verfügbar)
