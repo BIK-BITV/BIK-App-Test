@@ -144,7 +144,8 @@ geprüft.
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
+
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G162.html[G162: Positioning
   labels to maximize predictability of relationships]
 
