@@ -85,13 +85,12 @@ ob verwandte Einstellungen, bei iOS also die allgemeine Tastenverzögerung, in d
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.1
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 5.8 Double-strike key
 ____
 [.BLOCK_LANG_EN]
---
+
 Where ICT has a keyboard or keypad, the delay after any keystroke, during which an additional key-press will not be accepted if it is identical to the previous keystroke, shall be adjustable up to at least 0,5 seconds.
---
 ____
