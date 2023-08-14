@@ -40,19 +40,19 @@ Falls die Software grundsätzlich Möglichkeiten bietet, Text-Attribute zu ände
 ===== 2.2.1 Prüfung der Textauszeichnung in iOS / VoiceOver
 
 . Gibt es editierbaren Text mit Optionen, Text-Attribute zu ändern? Falls ja:
-.. Über Rotor-Option 'Textauswahl' über horizontale Wischgeste einen kleinen Textbereich mit gesetztem Textattribut (etwa Fettung) auswählen.
-.. Im Rotor schauen, ob die Option "Aktionen" und darin (vertikale Wischgeste) die Option "Textformat" verfügbar ist.  Diese durch Doppeltippen aufrufen.
-.. Alternativ kann auch ein Pop-Up-Menü zur Auswahl von Bearbeitungsoptionen ("Ausschneiden" / "Kopieren", usw.) einschließlich "Format" erscheinen. Hier würde dann etwa "Fett / Umschalttaste / ein" ausgegeben, um den gefetteten Zustand des ausgewählten Textes auszugeben.
-.. Prüfen, ob das Textformat richtig ausgegeben wird.
+* Über Rotor-Option 'Textauswahl' über horizontale Wischgeste einen kleinen Textbereich mit gesetztem Textattribut (etwa Fettung) auswählen.
+* Im Rotor schauen, ob die Option "Aktionen" und darin (vertikale Wischgeste) die Option "Textformat" verfügbar ist.  Diese durch Doppeltippen aufrufen.
+* Alternativ kann auch ein Pop-Up-Menü zur Auswahl von Bearbeitungsoptionen ("Ausschneiden" / "Kopieren", usw.) einschließlich "Format" erscheinen. Hier würde dann etwa "Fett / Umschalttaste / ein" ausgegeben, um den gefetteten Zustand des ausgewählten Textes auszugeben.
+* Prüfen, ob das Textformat richtig ausgegeben wird.
 . Falls nein, Prüfung abbrechen.
 
 ===== 2.2.2 Prüfung Textauszeichnung in Android
 
 . Gibt es editierbaren Text mit Optionen, Text-Attribute zu ändern? Falls ja:
-.. Auswählen: "Talkback-Menü" (mit drei Fingern tippen)  > "Bearbeitungsoptionen" > "Auswahlmodus starten oder beenden".
-.. Mit vertikalen Wischgesten Text auswählen.
-.. Wenn in der App vorhanden, Bedienelement für Textauszeichnung fokussieren (etwa "B" für "fett") und überprüfen, ob der Zustand richtig ausgegeben wird. 
-.. Über Talkback-Menü > Aktionen > "Formatierung der aktuellen Auswahl vorlesen" prüfen, ob der Stil des Textes korrekt ausgegeben wird.
+* Auswählen: "Talkback-Menü" (mit drei Fingern tippen)  > "Bearbeitungsoptionen" > "Auswahlmodus starten oder beenden".
+* Mit vertikalen Wischgesten Text auswählen.
+* Wenn in der App vorhanden, Bedienelement für Textauszeichnung fokussieren (etwa "B" für "fett") und überprüfen, ob der Zustand richtig ausgegeben wird. 
+* Über Talkback-Menü > Aktionen > "Formatierung der aktuellen Auswahl vorlesen" prüfen, ob der Stil des Textes korrekt ausgegeben wird.
 . Falls nein, Prüfung abbrechen.
 
 === 3. Bewertung
@@ -61,7 +61,7 @@ Falls die Software grundsätzlich Möglichkeiten bietet, Text-Attribute zu ände
 * Screenreader-fokussierte Inhalte werden nicht im Viewport angezeigt.
 
 == Einordnung des Prüfschritts
-=== EN 301 549 V.3.2.1
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 11.5.2.10 Text 
