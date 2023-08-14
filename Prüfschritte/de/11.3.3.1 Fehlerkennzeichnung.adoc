@@ -85,7 +85,7 @@ Ausnahme: Das Löschen bereits gemachter Eingaben ist sinnvoll bei
 
 ==== Techniques
 
-.General Techniques
+===== General Techniques
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G83.html[G83: Providing
   text descriptions to identify required fields that were not completed]
 * https://www.w3.org/WAI/WCAG21/Techniques/general/G84.html[G84: Providing a
