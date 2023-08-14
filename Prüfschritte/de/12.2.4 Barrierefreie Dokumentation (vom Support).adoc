@@ -57,9 +57,6 @@ https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue eröffnen].
 ==== Nicht erfüllt
 * Die im Rahmen der App bereitgestellte zusätzliche Dokumentation erfüllt eine oder mehrere Prüfschritte des App-Tests nicht.
 
-== Quellen
-* Zurzeit keine Quellen.
-
 == Einordnung des Prüfschritts
 === Einordnung des Prüfschritts nach EN 301 549 V3.1.1
 
