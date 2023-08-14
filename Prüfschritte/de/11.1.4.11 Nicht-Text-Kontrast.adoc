@@ -144,7 +144,7 @@ bewertet.
   Make it easier for users to see and hear content including separating
   foreground from background]
 
-==== Success criterion
+==== Success Criterion
 
 * https://www.w3.org/TR/WCAG21/#non-text-contrast[1.4.11 Non-Text Contrast
   (Level AA)]
