@@ -73,11 +73,6 @@ ifndef::env_embedded[]
 endif::env_embedded[]
 geprüft.
 
-=== Einordnung des Prüfschritts nach  EN 301 549 V.3.2.1
-
-==== 11.1.1.1 Non-text content (open functionality)
-
-* NOTE: CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
@@ -110,3 +105,13 @@ geprüft.
   Criterion 1.1.1 due to omitting the alt attribute on img elements, area
   elements, and input elements of type 'image']
 
+=== Einordnung des Prüfschritts nach  EN 301 549 V.3.2.1
+
+[.BLOCK_LANG_EN]
+
+==== 11.1.1.1 Non-text content (open functionality)
+
+[.BLOCK_LANG_EN]
+____
+* NOTE: CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.
+____
