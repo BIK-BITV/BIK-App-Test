@@ -49,8 +49,11 @@ https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
 [.BLOCK_LANG_EN]
 ==== 11.8.5 Templates
 
+____
 [.BLOCK_LANG_EN]
 When an authoring tool provides templates, at least one template that supports
 the creation of content that conforms to the requirements of clauses 9 (Web)
 or 10 (Non-web documents) as applicable shall be available and identified as
 such.
+____
+
