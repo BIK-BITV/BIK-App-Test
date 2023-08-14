@@ -46,7 +46,7 @@ Für Hinweise dazu können Sie auf GitHub https://github.com/BIK-BITV/BIK-App-Te
 ==== 11.8.3 Preservation of accessibility information in transformations
 
 [.BLOCK_LANG_EN]
---
+____
 If the authoring tool provides restructuring transformations or re-coding
 transformations, then accessibility information shall be preserved in the
 output if equivalent mechanisms exist in the content technology of the output. 
@@ -59,4 +59,4 @@ changed (e.g. linearizing tables, splitting a document into pages).
 NOTE 2:
 Re-coding transformations are transformations in which the technology used to
 encode the content is changed.
---
+____
