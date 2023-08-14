@@ -81,7 +81,7 @@ Bei aktiviertem Screenreader lässt sich die Fokusposition gezielt versetzen, di
 ==== 11.5.2.14 Modification of focus and selection attributes
 
 [.BLOCK_LANG_EN]
---
+____
 Where permitted by security requirements, software that provides a user interface shall, by using the services as described in clause 11.5.2.3, allow assistive technologies to programmatically modify focus, text insertion point, and selection attributes of user interface elements where the user can modify these items.
 
 NOTE 1:
@@ -90,4 +90,4 @@ Examples of systems under strict security requirements are systems dealing with 
 
 NOTE 2:
 Assistive technologies may be required to maintain the same level of security as the standard input mechanisms supported by the platform.
---
+____
