@@ -118,18 +118,17 @@ bei Texteingabefeldern der App nicht greifen.
 
 == Einordnung des Prüfschritts
 
-=== Einordnung des Prüfschritts nach EN 301 549 V3.1.
+=== Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
 [.BLOCK_LANG_EN]
 ==== 5.7 Key repeat
 ____
 [.BLOCK_LANG_EN]
---
+
 Where ICT has a key repeat function that cannot be turned off:
 
 a) the delay before the key repeat shall be adjustable to at least 2 seconds; and
 
 b) the key repeat rate shall be adjustable down to one character per 2 seconds.
---
 ____
 
