@@ -50,7 +50,7 @@ Hinweise zu diesem Prüfschritt können Sie auf GitHub https://github.com/BIK-BI
 ____
 Where ICT displays captions, it shall provide a way for the user to adapt the displayed characteristics of captions to their individual requirements, except where the captions are displayed as unmodifiable characters.
 
-NOTE 1: Defining the background and foreground colour of subtitles, font type, size opacity of the background box of subtitles, and the contour or border of the fonts can contribute to meeting this requirement.
+NOTE 1: Defining the background and foreground colour of subtitles, font type, size, opacity of the background box of subtitles, and the contour or border of the fonts can contribute to meeting this requirement.
 
 NOTE 2: Subtitles that are bitmap images are examples of unmodifiable characters.
 ____
