@@ -36,15 +36,25 @@ In diesen Fällen ist es für den Spracheingabe-Nutzer unklar, welche Elemente a
 * zumindest teilweise in der Screenreader-Ausgabe enthalten sein.
 
 === 3. Hinweise
+==== 3.1 Allgemeine Hinweise
+* Die Screenreader-Ausgabe enthält oft Informationen, 
+die nicht Teil des zugänglichen Namens sind, 
+zum Beispiel die Rolle des Bedienelements oder eine zusätzliche Beschreibung). 
+Dies ist kein Fehler.
+* Der zugängliche Name des Bedienelements kann zusätzlichen Text enthalten, 
+aber die Zeichenkette der Beschriftung sollte in der gleichen Form in der Zeichenkette des zugänglichen Namens enthalten sein.
+* Bei den mobilen Apps kann nur ein Test mittels Screenreader Aufschluss über den hinterlegten zugänglichen Namen geben.
+* Grenzfälle sind Hinzufügungen bei visuellen Beschriftungen, 
+die nicht eigentlich als Teil des zugänglichen Namens zu werten sind, 
+etwa wenn in einer Logo-Grafik ein zusätzlicher werbender Text enthalten ist. 
+Für Sprachsteuerungs-Nutzende ist die Einbeziehung solcher Texte nicht hilfreich. 
+* In anderen Fällen sind Teile der Beschriftung, 
+wie etwa der Text "(erforderlich)" nach Eingabefeld-Beschriftungen, 
+ggf. bereits über geeignete Attribute wie `required` programmatisch verfügbar 
+und sollten deshalb nicht im zugänglichen Namen vorkommen.
 
-* Beachten Sie beim Testen mit dem Screenreader, dass die Screenreader-Ausgabe Informationen enthalten kann, die
-nicht Teil des zugänglichen Namens sind, zum Beispiel die Rolle des Bedienelements oder eine zusätzliche Beschreibung).
-
-* Der zugängliche Name des Bedienelements kann zusätzlichen Text enthalten, aber die Zeichenkette der Beschriftung sollte in der gleichen Form in der Zeichenkette des zugänglichen Namens enthalten sein.
-
-* Bei den meisten mobilen Apps kann nur ein Test mittels Screenreader Aufschluss über den Accessible-Name geben.
-Zukünftig könnten Systeme zur Sprachsteuerung wie Apples VoiceControl als Prüfwerkzeug berücksichtigt werden.
-
+==== 3.2 Hinweise für die Team-Prüfung
+Bei Schriftgrafiken, deren Text nicht direkt vom Screenreader erfasst werden kann, sollte die Assistenz darauf achten, dass der sichtbare Text im zugänglichen Namen enthalten sind. 
 
 === 4. Bewertung
 
