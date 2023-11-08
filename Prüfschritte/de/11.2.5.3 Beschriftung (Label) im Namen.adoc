@@ -27,12 +27,11 @@ Auf Bedienelemente, die durch mehrere sichtbare Elemente beschriftet sind, ist d
 In diesen Fällen ist es für den Spracheingabe-Nutzer unklar, welche Elemente als Beschriftung des Bedienelements gelten und dementsprechend für ein Diktat per Spracheingabe benutzt werden sollten.
 
 === 2. Prüfung
-
+. Sicher stellen, dass in den Bedienungshilfen des Betriebssystem automatische Texterkennungsfunktionen deaktiviert sind. Bei VoiceOver ist dies VoiceOver-Erkennung und darunter die Optionen Bildbeschreibung und Bildschirmerkennung. Beide sollten deaktiviert sein.
 . Zu prüfende Ansicht der App öffnen.
-. Alle Bedienelemente identifizieren, die eine sichtbare Text-Beschriftung haben.
-. Screenreader starten und mit Hilfe der Wischgeste den Fokus auf das Bedienelement setzen.
-. Die sichtbare Text-Beschriftung, sollte entweder
-* entsprechend des sichtbaren Textes vom Screenreader genau so ausgegeben werden oder
+. Den Screenreader aktivieren und mit Hilfe der Wischgeste den Fokus der Reihe nach auf alle Bedienelemente mit Textbeschrfitung setzen.
+. Die sichtbare Text-Beschriftung sollte entweder
+* mit der Ausgabe des zugänglichen Namens durch den Screenreader übereinstimmen oder
 * zumindest teilweise in der Screenreader-Ausgabe enthalten sein.
 
 === 3. Hinweise
