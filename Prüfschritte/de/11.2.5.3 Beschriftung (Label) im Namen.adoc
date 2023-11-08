@@ -28,8 +28,8 @@ In diesen Fällen ist es für den Spracheingabe-Nutzer unklar, welche Elemente a
 
 === 2. Prüfung
 . Sicher stellen, dass in den Bedienungshilfen des Betriebssystem automatische Texterkennungsfunktionen deaktiviert sind. 
-* Bei VoiceOver ist dies VoiceOver-Erkennung und darunter die Optionen Bildbeschreibung und Bildschirmerkennung. Beide sollten deaktiviert sein. 
-* Bei Talkback heipt der Punkt "Automatische beschreibungen" mit den Optionen "Symbole beschreiben" unf "Text in Bildern beschreiben". Beide sollten deaktiviert sein.
+* Bei VoiceOver ist dies die Einstellung "VoiceOver-Erkennung" und darunter die Optionen "Bildbeschreibung" und "Bildschirmerkennung". Beide sollten deaktiviert sein. 
+* Bei Talkback heißt der Punkt "Automatische Beschreibungen" mit den Optionen "Symbole beschreiben" und "Text in Bildern beschreiben". Beide sollten deaktiviert sein.
 . Den Screenreader aktivieren und mit Hilfe der Wischgeste den Fokus der Reihe nach auf alle Bedienelemente mit Textbeschrfitung setzen.
 . Die sichtbare Text-Beschriftung sollte entweder
 * mit der Ausgabe des zugänglichen Namens durch den Screenreader übereinstimmen oder
