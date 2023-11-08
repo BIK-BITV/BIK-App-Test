@@ -34,7 +34,7 @@ Bei der Reiternavigation (Tableiste am unteren oder oberen Bildschirmrand) gibt 
 
 * Der Fokus wird nach Aktivierung eines Tabs an den Beginn des eingeblendeten Inhaltsbereichs versetzt.
 * Der Fokus bleibt auf dem Tab, ein Inhaltsbereich unter den Tabs kann über horizontale Wischgesten (oder Screenreader-Navigationsgesten) erreicht werden.
-* Der Fokus bleibt auf dem Tab und muss über Berührung des Displays oder Screenreader-Navigationsgesten in den Inhaltsbereich versetzt werden. Dieses Verhalten ist häufig bei Tableisten im Fußbereich anzutreffen.Es ist in vielen Apps (bei iOS etwa in Apples Standard-Apps wie App Store, Music oder Health, bei Androind im Play Store, der YouTube und der Fotos App) zu finden und kann deshalb als von Nutzenden erwartbar vorausgesetzt werden. Zur Fokussierung des Panels muss hier der Display im oberen Bereich berührt werden.
+* Der Fokus bleibt auf dem Tab und muss über Berührung des Displays oder Screenreader-Navigationsgesten in den Inhaltsbereich versetzt werden. Dieses Verhalten ist häufig bei Tableisten im Fußbereich anzutreffen.Es ist in vielen Apps zu finden (bei iOS etwa im App Store und in den Apps Music und Health, bei Android im Play Store, der YouTube und der Fotos App). Es kann deshalb als von Nutzenden erwartbar vorausgesetzt werden. Zur Fokussierung des Panels muss hier der Display im oberen Bereich berührt werden.
 
 Diese Konventionen sind in vielen Apps etabliert und prägen damit Erwartungshaltungen und Navigationsverhalten der Nutzenden.
 Eine fehlende Fokusversetzug nach Aktivierung von Tabs hat Vor-und Nachteile und ist deshalb nicht negativ zu bewerten.
