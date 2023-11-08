@@ -29,7 +29,7 @@ Bei Apps soll die programmatische und durch den Screenreader ausgegebene Element
 . Prüfen, ob die Reihenfolge, in der die Elemente fokussiert und durch den Screenreader ausgegeben werden, sinnvoll und im Wesentlichen der visuellen Reihenfolge entspricht.
 
 === 3. Hinweise
-
+==== 3.1 Allgemeine Hinweise
 Bei der Reiternavigation (Tableiste am unteren oder oberen Bildschirmrand) gibt es unterschiedliche Konventionen bezüglich der Fokusversetzung in den Inhaltsbereich bei Aktivierung, die damit auch die Lesereihenfolge prägen.
 
 * Der Fokus bleibt auf dem Tab, der Inhaltsbereich kann über horizontale Wischgesten (oder Screenreader-Navigationsgesten) erreicht werden.
@@ -38,6 +38,11 @@ Bei der Reiternavigation (Tableiste am unteren oder oberen Bildschirmrand) gibt 
 
 Diese Konventionen sind in vielen Apps etabliert und prägen damit Erwartungshaltungen und Navigationsverhalten der Nutzenden.
 Eine fehlende Fokusversetzug nach Aktivierung von Tabs hat Vor-und Nachteile und ist deshalb nicht negativ zu bewerten.
+
+==== 3.1  Hinweise für die Teamprüfung
+* Die Fokus-Reihenfolge entspricht häufig nicht der visuellen Reihenfolge, besonders nach dem Einblenden von Menüs oder anderen zusätzlichen Elementen. Dies ist von blinden Prüfenden oft nicth einfach zu erkennen: Der Screenreader-Fokus wandert weiter im Hintergrund, nicht sichtbare Elemente sind ggf. sogar noch bedienbar. Bei der gemeinsamen Prüfung ist deshalb ein steter Abgleich zwischen sichtbaren Zuständen der Ansicht und Screenreader-Fokus notwendig, um Mängel korrekt zu erfassen.
+* Viele Screenreader-Nutzende berühren habituell nach Aktionen den Display, um den Fokus ggf. in neu erscheinende Inhalte zu versetzen. Dies ist ein pragmatisches Verhalten, verfälscht jedoch die Beurteilung eines korrekten Fokus-Managements der App. Der Screenreader-Fokus sollte ohne zusätzliche Berührung an den Beginn neu eingeblendeter Elemente versetzt werden.
+* Eine Ausnahme bilden Tab-Leisten unten im Display, bei denen die Aktivierung eines Tabs ein neues Panel öffnet, wobei der Fokus auf dem aktivierten Tab verbleibt und nicht an den Beginn des Panels versetzt wird. Dieses Verhalten ist in vielen Apps (bei iOS etwa in Apples Standard-Apps wie App Store, Music oder Health, bei Androind im Play Store, der YouTube und der Fotos App) zu finden und kann deshalb als von Nutzenden erwartbar vorausgesetzt werden. Zur Fokussierung des Panels muss hier der Display im oberen Bereich berührt werden.
 
 === 4. Bewertung
 
