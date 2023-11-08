@@ -62,7 +62,7 @@ endif::env_embedded[]
   auch prüfen, ob die Farbe der Fokushervorhebung vor dem jeweiligen Hintergrund ausreichend kontrastiert (3:1 oder besser).
 
 === 3. Hinweise
-
+==== 3.1 Allgemeine Hinweise
 * Falls das Betriebssystem Einstellungen zur verbesserten Sichtbarkeit der Fokushervorhebung bietet,
 sollten diese deaktiviert sein, denn viele Nutzende kennen diese Einstellungen nicht.
 
@@ -73,6 +73,9 @@ ifndef::env_embedded[]
   <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
 endif::env_embedded[]
 nicht erfüllt.
+
+==== 3.1  Hinweise für die Team-Prüfung
+Der Screenreader-Fokus sollte bei der Beurteilung der Tastaturfokus-Hervorhebung nicht berücksichtigt werden. Die Prüfung erfolgt mit verbundener Tastatur und ausgeschaltetem Screenreader.
 
 === 4. Bewertung
 
