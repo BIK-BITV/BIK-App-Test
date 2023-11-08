@@ -31,6 +31,7 @@ Bei Apps soll die programmatische und durch den Screenreader ausgegebene Element
 === 3. Hinweise
 ==== 3.1 Allgemeine Hinweise
 Bei der Reiternavigation (Tableiste am unteren oder oberen Bildschirmrand) gibt es unterschiedliche Konventionen bezüglich der Fokusversetzung in den Inhaltsbereich bei Aktivierung, die damit auch die Lesereihenfolge prägen.
+
 * Der Fokus wird nach Aktivierung eines Tabs an den Beginn des eingeblendeten Inhaltsbereichs versetzt.
 * Der Fokus bleibt auf dem Tab, ein Inhaltsbereich unter den Tabs kann über horizontale Wischgesten (oder Screenreader-Navigationsgesten) erreicht werden.
 * Der Fokus bleibt auf dem Tab und muss über Berührung des Displays oder Screenreader-Navigationsgesten in den Inhaltsbereich versetzt werden. Dieses Verhalten ist häufig bei Tableisten im Fußbereich anzutreffen.Es ist in vielen Apps (bei iOS etwa in Apples Standard-Apps wie App Store, Music oder Health, bei Androind im Play Store, der YouTube und der Fotos App) zu finden und kann deshalb als von Nutzenden erwartbar vorausgesetzt werden. Zur Fokussierung des Panels muss hier der Display im oberen Bereich berührt werden.
