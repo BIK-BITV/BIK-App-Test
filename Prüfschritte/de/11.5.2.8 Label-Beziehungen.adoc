@@ -34,7 +34,7 @@ Der Prüfschritt ist anwendbar, wenn Bedienelemente eingesetzt werden, die ledig
 
 ==== Erfüllt:
 
-* Bei Fokussierung von Bedienelementen mit nebenstehender Beschriftung wird diese Beschiftung als Name ausgegeben.
+* Bei Fokussierung von Bedienelementen mit nebenstehender Beschriftung wird diese Beschriftung als Name ausgegeben.
 * Ein gleichwertiger, programmatisch hinterlegter Name wird bei Fokussierung des Bedienelements ausgegeben. 
 
 == Quellen
