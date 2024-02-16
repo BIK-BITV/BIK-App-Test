@@ -2,7 +2,7 @@
 
 # BIK BITV-Test (App)
 
-Willkommen im Projektverzeichnis des [BIK BITV-Test](https://bitvtest.de/) zur Entwicklung des **BIK BITV-Test (App)** für die Prüfung der Barrierefreiheit von Webanwendungen.
+Willkommen im Projektverzeichnis des [BIK BITV-Test](https://bitvtest.de/) zur Entwicklung des **BIK BITV-Test (App)** für die Prüfung der Barrierefreiheit von mobilen Apps.
 
 Dieses Projekt widmet sich der Pflege und Weiterentwicklung der [🞂 Prüfschritte](Prüfschritte/de/) des **BIK BITV-Test (App)**.
 Die zugrunde liegenden Kriterien richten sich nach der aktuell veröffentlichen [EU Norm 301 549 V3.2.1 (PDF)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf).
