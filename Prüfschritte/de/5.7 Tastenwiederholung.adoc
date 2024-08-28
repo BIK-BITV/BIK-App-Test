@@ -42,7 +42,7 @@ Die Funktion Tastenwiederholung ist, soweit vorhanden,
 eine generelle Einstellung auf Betriebssystem-Ebene. 
 Für die App selbst kann also nur geprüft werden, 
 ob Einstellungen wie von Nutzenden intendiert 
-bei Texteingaben auf der Anicht greifen. 
+bei Texteingaben auf der Ansicht greifen. 
 
 ==== iOS
 * Unter iOS und iPadOS (iPad mit Magic Keyboard) 
