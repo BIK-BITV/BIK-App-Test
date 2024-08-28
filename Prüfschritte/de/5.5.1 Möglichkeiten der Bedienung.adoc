@@ -14,10 +14,23 @@ Menschen mit motorischen Einschränkungen sollen physische Informations- und Kom
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die zu prüfende App zusammen mit physischem Zubehör genutzt wird und dieses Szenario geprüft wird. Beispiele für physisches Zubehör wären etwa ein Handscanner oder ein Kartenlesegerät zur Authentifizierung.
+Der Prüfschritt ist vor allem anwendbar, 
+wenn die zu prüfende App zusammen mit physischem Zubehör genutzt wird
+und dieses Szenario geprüft wird. 
+Beispiele für physisches Zubehör wären etwa ein Handscanner 
+oder ein Kartenlesegerät zur Authentifizierung.
+
+Der Prüfschritt ist auch anwendbar, wenn die Nutzung der App 
+die Bedienung physischer Tasten oder Regler am Gerät (etwa Smartphone oder Tablet) einschließt 
+oder dieses für bestimmte Formen der Eingabe gegriffen 
+und dann gedreht, geschüttelt oder anders ausgerichtet werden kann.
 
 === 2. Prüfung
-. Prüfen, ob während der Nutzung des Zubehörs  bei der Bedienung phyischer Teile (etwa Schalter, Regler oder Drehknöpfe) ein physisches Greifen, ein Zusammendrücken, oder eine Drehung des Handgelenks erforderlich sind.
+. Prüfen, ob für die Nutzung des Geräts z.B. für bestimmte Eingaben, ein physisches Greifen, ein Zusammendrücken, 
+oder eine Drehung des Handgelenks vorgesehen ist.
+. Prüfen ob für die Nutzung von Zubehör, z.B. bei der Bedienung phyischer Teile 
+(etwa Schalter, Regler oder Drehknöpfe) ein physisches Greifen, ein Zusammendrücken, 
+oder eine Drehung des Handgelenks vorgesehen sind.
 . Falls ja: Gibt es für den Prozess eine alternative Bedienmethode ohne diese Aktionen?
 
 === 3. Hinweise
@@ -34,12 +47,13 @@ Der Prüfschritt ist anwendbar, wenn die zu prüfende App zusammen mit physische
 == Einordnung des Prüfschritts
 
 === Abgrenzung von anderen Prüfschritten
-In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über verschiedene andere Prüfschritte der En abgedeckt, besonders durch:
+In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über verschiedene andere Prüfschritte abgedeckt, besonders durch:
 
 * 11.2.1.1 Tastatur
 * 11.2.1.4 Tastatur-Kurzbefehle abschaltbar oder anpassbar
 * 11.2.5.1 Alternativen für komplexe Zeigergesten
 * 11.2.5.2 Zeigergesten-Eingaben können abgebrochen oder widerrufen werden
+* 11.2.5.4 Betätigung durch Bewegung
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
