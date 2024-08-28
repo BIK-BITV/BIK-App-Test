@@ -31,7 +31,7 @@ Der Prüfschritt wird nur geprüft,
 wenn die Tastenwiederholung nicht abstellbar ist 
 und die Funktion in der App unterstützt wird. 
 Bei iOS-Apps ist der Prüfschritt generell nicht anwendbar, 
-da die Tastenwiederholfunktion absgeschaltet werden kann.
+da die Tastenwiederholfunktion abgeschaltet werden kann.
 Bei Android-Apps ist der Prüfschritt nur anwendbar, 
 wenn die Ansicht Texteingabefelder für Tastatureingaben enthält.
 Geprüft wird nicht die systemseitige Einstellung selbst, 
