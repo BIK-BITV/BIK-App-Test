@@ -13,7 +13,7 @@ bevor die Tastenwiederholung einsetzt
 (der Standard ist etwa eine halbe Sekunde). 
 Dies sind üblicherweise Einstellungen des Betriebssystems, 
 auf die Entwickler in der Regel keinen Einfluss haben. 
-Apps sollten diese betriebssystemseitigen Einstellungen für Texteingaben übernehmen.
+Apps sollten diese betriebssystemseitigen Einstellungen, wo vorhanden, für Texteingaben übernehmen.
 
 == Warum wird das geprüft?
 Menschen mit motorischen Einschränkungen haben manchmal das Problem, 
