@@ -25,11 +25,9 @@ die Bedienung physischer Tasten oder Regler am Gerät (etwa Smartphone oder Tabl
 oder das Gerät selbst für bestimmte Formen der Eingabe gegriffen, gedreht, geschüttelt oder anders ausgerichtet werden kann.
 
 === 2. Prüfung
-. Prüfen, ob für die Nutzung des Geräts z.B. für bestimmte Eingaben, ein physisches Greifen, ein Zusammendrücken, 
-oder eine Drehung des Handgelenks vorgesehen ist.
-. Prüfen ob für die Nutzung von Zubehör, z.B. bei der Bedienung phyischer Teile 
-(etwa Schalter, Regler oder Drehknöpfe) ein physisches Greifen, ein Zusammendrücken, 
-oder eine Drehung des Handgelenks vorgesehen sind.
+. Prüfen, ob bei die Nutzung der App, z.B. für bestimmte Eingaben, die Bedienung physischer Tasten oder Regler am Gerät oder die Manipulation des Geräts selbst vorgesehen ist, und dabei ein physisches Greifen, ein Zusammendrücken, oder eine Drehung des Handgelenks erforderlich ist.
+. Prüfen, ob bei der Nutzung von Zubehör, z.B. bei der Bedienung phyischer Teile wie Schalter, Regler oder Drehknöpfe, ein physisches Greifen, ein Zusammendrücken, 
+oder eine Drehung des Handgelenks verforderlich sind.
 . Falls ja: Gibt es für den Prozess eine alternative Bedienmethode ohne diese Aktionen?
 
 === 3. Hinweise
@@ -40,13 +38,13 @@ oder eine Drehung des Handgelenks vorgesehen sind.
 === 4. Bewertung
 
 ==== Erfüllt:
-* Zur Nutzung des Zubehörs sind physisches Greifen, Zusammendrücken, und eine Drehung des Handgelenks nicht erforderlich.
-*  Es gibt eine barrierefreie Alternative, alle erforderliche Aktionen zur Nutzung der App mit Zubehör ohne die physischen Aktionen (Greifen, Zusammendrückenm Drehung des Handgelenks) auszuführen.
+* Zur Nutzung der App bzw. des Zubehörs sind physisches Greifen, Zusammendrücken, oder eine Drehung des Handgelenks nicht erforderlich.
+*  Es gibt eine barrierefreie Alternative, alle für die Nutzung der App oder des Zubehörs erforderlichen Funktionen lassen sich ohne die genannten physischen Aktionen (Greifen, Zusammendrücken, Drehung des Handgelenks) ausführen.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung von anderen Prüfschritten
-In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über verschiedene andere Prüfschritte abgedeckt, besonders durch:
+In diesem Prüfschritt geht es um die Bedienbarkeit von physischen Geräten und zusätzlichem Zubehör mit physischen Bedienelementen durch Menschen mit motorischen Einschränkungen. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über verschiedene andere Prüfschritte abgedeckt, besonders durch:
 
 * 11.2.1.1 Tastatur
 * 11.2.1.4 Tastatur-Kurzbefehle abschaltbar oder anpassbar
