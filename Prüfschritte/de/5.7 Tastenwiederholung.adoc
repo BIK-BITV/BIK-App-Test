@@ -109,7 +109,7 @@ und diese Einstellungen bei Texteingabefeldern der App greifen.
 
 ==== Nicht erfüllt (Android)
 * Für Android-Apps ist der Prüfschritt nicht erfüllt, 
-wenn eingestellte höhere Werte bei Anschlageschwindigkeit und Tastenanschlagfunktion
+wenn eingestellte höhere Werte bei Anschlaggeschwindigkeit und Tastenanschlagfunktion
 bei Texteingabefeldern der App nicht greifen.
 
 == Quellen
