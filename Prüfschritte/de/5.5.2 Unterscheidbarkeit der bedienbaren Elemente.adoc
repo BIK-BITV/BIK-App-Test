@@ -15,21 +15,23 @@ Wenn physische Bedienelemente am Gerät oder an gekoppeltem Zubehör taktil iden
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist für die Prüfung von mobilen Apps für iOS und Android im Regelfall nicht anwendbar, es sei denn, die Nutzung setzt die Bedienung physischer Tasten oder Regler am Gerät voraus.
-Er ist anwendbar, wenn die App zusammen mit Zubehör (etwa Handscanner oder Kartenlesegerät) verwendet wird oder bei der Eingabe die Bedienung physischer Tasten oder Regler vorgesehen ist.
+Der Prüfschritt ist bei der Prüfung von mobilen Apps für iOS und Android im Regelfall nicht anwendbar, es sei denn, die Nutzung der App setzt die Bedienung physischer Tasten oder Regler am Gerät oder die Nutzung von Bedienelementen an gekoppeltem Zubehör voraus.
 
 === 2. Prüfung
 Prüfen, ob physische Bedienelemente, etwa Tasten oder Regler, über taktile Unterscheidung oder Positionierung am Gerät identifizierbar und unterscheidbar sind. 
 
 === 3. Hinweise
 
-. Wenn Apps die Bedienung phsischer Tasten vorsehen, ist bei Smartphones der Prüfschritt in der Regel über die haptische Unterscheidbarkeit und/oder Positionierung am Gerät gegeben. So ist der Unterschied von Laut- und Leisetaste schon über die Position am Gerät (lauter = oben, leiser = unten) gegeben. Bei Zubehör mit mehreren Tasten kann die Anforderung erfüllt werden, wenn Tasten taktil wahrnehmbar und ggf. durch erhabene Beschriftung auch taktil unterscheidbar sind. 
+. Wenn Apps die Bedienung von Tasten am Gerät vorsehen, ist bei Smartphones der Prüfschritt in der Regel über die haptische Unterscheidbarkeit und/oder Positionierung dieser Tasten gegeben. So ist der Unterschied von Laut- und Leisetaste schon über die Position am Gerät (lauter = oben, leiser = unten) gegeben. Bei Zubehör mit mehreren Tasten kann die Anforderung erfüllt werden, wenn Tasten taktil wahrnehmbar und ggf. durch erhabene Beschriftung auch taktil unterscheidbar sind. 
 . Bei Nummernblocks ermöglicht die taktile Hervorhebung der zentralen Taste Nummer 5 gleichzeitig die taktile Erkennung der umgebenden Tasten.
 
 === 4. Bewertung
 
 ==== Erfüllt:
-Für die Nutzung der App (ggf. mit Zubehör) erforderliche physische Bedienelemente sind taktil identifizierbar und ggf. unterscheidbar, etwa durch abweichende Form, erhabene Beschriftung, oder auf anderem Wege (etwa durch Positionierung).
+Für die Nutzung der App (ggf. mit Zubehör) erforderliche Bedienelemente sind taktil identifizierbar und ggf. unterscheidbar, etwa durch abweichende Form, erhabene Beschriftung, oder auf anderem Wege (etwa durch Positionierung).
+
+==== Nicht erfüllt:
+Bedienelemente beim Zubehör sind nicht-visuell nicht wahrnehmbar oder unterscheidbar. Das ist z.B. bei virtuellen Tasten auf Touch-Displays der Fall.
 
 == Einordnung des Prüfschritts
 
