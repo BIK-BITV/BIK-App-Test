@@ -26,8 +26,8 @@ oder das Gerät selbst für bestimmte Formen der Eingabe gegriffen, gedreht, ges
 
 === 2. Prüfung
 . Prüfen, ob bei die Nutzung der App, z.B. für bestimmte Eingaben, die Bedienung physischer Tasten oder Regler am Gerät oder die Manipulation des Geräts selbst vorgesehen ist, und dabei ein physisches Greifen, ein Zusammendrücken, oder eine Drehung des Handgelenks erforderlich ist.
-. Prüfen, ob bei der Nutzung von Zubehör, z.B. bei der Bedienung phyischer Teile wie Schalter, Regler oder Drehknöpfe, ein physisches Greifen, ein Zusammendrücken, 
-oder eine Drehung des Handgelenks verforderlich sind.
+. Prüfen, ob bei der Nutzung von Zubehör, z.B. bei der Bedienung physischer Bestandteile wie Schalter, Regler oder Drehknöpfe, ein physisches Greifen, ein Zusammendrücken, 
+oder eine Drehung des Handgelenks erforderlich sind.
 . Falls ja: Gibt es für den Prozess eine alternative Bedienmethode ohne diese Aktionen?
 
 === 3. Hinweise
