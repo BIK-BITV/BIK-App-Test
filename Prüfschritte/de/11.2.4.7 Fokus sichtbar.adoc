@@ -111,7 +111,7 @@ endif::env_embedded[]
 === Android
 * Appt.org: https://appt.org/en/docs/android/samples/accessibility-focus-indicator[Accessibility focus indicator on Android]
 * Android ViewUI: https://github.com/cvs-health/android-view-accessibility-techniques/blob/0ffd2aad8f8eada9893295ac47cc9ee9bf21372d/doc/dynamicbehaviors/CustomFocusIndicators.md#L4[Custom Focus Indicators]
-* Android Compose https://github.com/cvs-health/android-compose-accessibility-techniques/blob/main/doc/interactions/CustomFocusIndicators.md[Custom Focus Indicators]
+* Android Compose: https://github.com/cvs-health/android-compose-accessibility-techniques/blob/main/doc/interactions/CustomFocusIndicators.md[Custom Focus Indicators]
 
 == Einordnung des Prüfschritts
 
