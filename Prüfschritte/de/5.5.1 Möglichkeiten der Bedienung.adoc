@@ -22,8 +22,7 @@ oder ein Kartenlesegerät zur Authentifizierung.
 
 Der Prüfschritt ist auch anwendbar, wenn die Nutzung der App 
 die Bedienung physischer Tasten oder Regler am Gerät (etwa Smartphone oder Tablet) einschließt 
-oder dieses für bestimmte Formen der Eingabe gegriffen 
-und dann gedreht, geschüttelt oder anders ausgerichtet werden kann.
+oder das Gerät selbst für bestimmte Formen der Eingabe gegriffen, gedreht, geschüttelt oder anders ausgerichtet werden kann.
 
 === 2. Prüfung
 . Prüfen, ob für die Nutzung des Geräts z.B. für bestimmte Eingaben, ein physisches Greifen, ein Zusammendrücken, 
