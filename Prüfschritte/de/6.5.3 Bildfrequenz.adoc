@@ -44,5 +44,6 @@ Where ICT that provides two-way voice communication includes real-time video
 functionality, the ICT:
 
 * shall support a frame rate of at least 20 frames per second (FPS)
+* should preferably support a frame rate of at least 30 Frames Per Second (FPS) with or without sign language in the video stream.
 --
 ____
