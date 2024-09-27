@@ -4,40 +4,49 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Wenn die IKT physisch bedienbare Teile hat, müssen die physisch bedienbaren Elemente als solche erkennbar sein, ohne dass Sehvermögen zwingend erforderlich ist.
-Um das physische Bedienelement als solches zu erkennen, darf es außerdem nicht erforderlich sein, dass Element auszulösen bzw. zu bedienen.
+Wenn die Nutzung der App die Bedienung physischer Bedienelemente wie Tasten, Regler o.ä. einschließt, müssen diese als solche identifizierbar und unterscheidbar sein, ohne dass Sehvermögen zwingend erforderlich ist.
+Um das physische Bedienelement zu identifizieren, darf es außerdem nicht erforderlich sein, dass Element auszulösen bzw. zu bedienen.
 
 == Warum wird das geprüft?
 
-Physische Bedienelemente eines Informations- und Kommunikationssystems sollen auch durch Menschen mit Sehbehinderung als solche erkennbar sein.
+Wenn physische Bedienelemente am Gerät oder an gekoppeltem Zubehör taktil identifiziert und unterschieden werden können, sind sie auch für Menschen mit Sehbehinderung nutzbar.
 
 == Wie wird das geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist für die Prüfung von mobilen Apps für iOS und Android im Regelfall nicht anwendbar.
-Ist die zu prüfende App für die Nutzung zusammen mit physischem Spezialzubehör gedacht, findet der Prüfschritt jedoch ggf. Anwendung.
+Der Prüfschritt ist bei der Prüfung von mobilen Apps für iOS und Android im Regelfall nicht anwendbar, es sei denn, die Nutzung der App setzt die Bedienung physischer Tasten oder Regler am Gerät oder die Nutzung von Bedienelementen an gekoppeltem Zubehör voraus.
 
 === 2. Prüfung
-(folgt)
+Prüfen, ob physische Bedienelemente, etwa Tasten oder Regler, über taktile Unterscheidung oder Positionierung am Gerät identifizierbar und unterscheidbar sind. 
 
 === 3. Hinweise
 
-Eine Möglichkeit, diese Anforderung zu erfüllen, besteht darin, die physisch bedienbaren Teile taktil wahrnehmbar zu machen.
+. Wenn Apps die Bedienung von Tasten am Gerät vorsehen, ist bei Smartphones der Prüfschritt in der Regel über die haptische Unterscheidbarkeit und/oder Positionierung dieser Tasten gegeben. So ist der Unterschied von Laut- und Leisetaste schon über die Position am Gerät (lauter = oben, leiser = unten) gegeben. Bei Zubehör mit mehreren Tasten kann die Anforderung erfüllt werden, wenn Tasten taktil wahrnehmbar und ggf. durch erhabene Beschriftung auch taktil unterscheidbar sind. 
+. Bei Nummernblocks ermöglicht die taktile Hervorhebung der zentralen Taste Nummer 5 gleichzeitig die taktile Erkennung der umgebenden Tasten.
 
 === 4. Bewertung
 
 ==== Erfüllt:
+Für die Nutzung der App (ggf. mit Zubehör) erforderliche Bedienelemente sind taktil identifizierbar und ggf. unterscheidbar, etwa durch abweichende Form, erhabene Beschriftung, oder auf anderem Wege (etwa durch Positionierung).
+
+==== Nicht erfüllt:
+Bedienelemente beim Zubehör sind nicht-visuell nicht wahrnehmbar oder unterscheidbar. Das ist z.B. bei virtuellen Tasten auf Touch-Displays der Fall.
 
 == Einordnung des Prüfschritts
 
 === Abgrenzung von anderen Prüfschritten
 
-In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, so ist die Prüfung der Bedienbarkeit von diesen schon über verschiedene andere Prüfschritte der En abgedeckt, besonders durch:
+In diesem Prüfschritt geht es um die Bedienbarkeit von zusätzlichem Zubehör 
+durch Menschen mit motorischen Einschränkungen, wenn dieses zusammen mit der App genutzt wird. 
+Wenn die Anforderung so interpretiert wird, dass auch virtuelle Bedienelemente gemeint sind, 
+so ist die Prüfung der Bedienbarkeit von diesen schon über verschiedene andere Prüfschritte abgedeckt, besonders durch:
 
-* 11.4.1.2 Name, Rolle, Wert verfügbar
-* 11.5.2.15 Änderungsbenachrichtigung
-* 11.5.2.16 Änderungen von Zuständen und Eigenschaften
+. 11.2.1.1 Tastatur
+. 11.2.1.4 Tastatur-Kurzbefehle abschaltbar oder anpassbar
+. 11.2.5.1 Alternativen für komplexe Zeigergesten
+. 11.2.5.2 Zeigergesten-Eingaben können abgebrochen oder widerrufen werden
+. 11.2.5.4 Betätigung durch Bewegung
 
 === Einordnung des Prüfschritts nach EN 301 549 V3.2.1
 
