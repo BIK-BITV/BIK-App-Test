@@ -38,6 +38,8 @@ ____
 Where ICT that provides two-way voice communication includes real-time video
 functionality, the ICT:
 
-* shall support at least QVGA resolution
+* a) shall support at least QVGA resolution
+* b) should preferably support at least VGA resolution.
+
 --
 ____

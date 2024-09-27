@@ -47,6 +47,7 @@ aber die Zeichenkette der Beschriftung sollte in der gleichen Form in der Zeiche
 * Grenzfälle sind Hinzufügungen bei visuellen Beschriftungen, 
 die nicht eigentlich als Teil des zugänglichen Namens zu werten sind, 
 etwa wenn in einer Logo-Grafik ein zusätzlicher werbender Text enthalten ist. 
+Ein weiteres Beispiel wären Hinzufügungen zu Beschriftungen wie (erforderlich) oder (falls abweichend).
 Für Sprachsteuerungs-Nutzende ist die Einbeziehung solcher Texte nicht hilfreich. 
 * In anderen Fällen sind Teile der Beschriftung, 
 wie etwa der Text "(erforderlich)" nach Eingabefeld-Beschriftungen, 
@@ -60,6 +61,7 @@ Bei Schriftgrafiken, deren Text nicht direkt vom Screenreader erfasst werden kan
 
 ==== Erfüllt:
 * Der Text der Beschriftung ist im zugänglichen Namen enthalten.
+* Sind im Label klar abgesetzte zusätzliche Textbestandteile vorhanden, ist der erste Teil im zugänglichen Label enthalten.
 
 == Quellen
 
@@ -69,6 +71,9 @@ Bei Schriftgrafiken, deren Text nicht direkt vom Screenreader erfasst werden kan
 * https://www.w3.org/TR/accname/#mapping_additional_nd_te[
   Accessible Name and Description Computation]
   (zur Zeit nur auf Englisch verfügbar)
+
+=== iOS
+* Der `accessibilityInputLabels()` Modifier  kann dazu verwendet werden, bei Bedienelementen weitere Labels zu hinterlegen, die Nutzenden der Funktion Sprachsteuerung as Aktivieren von Elementen erleichtern - z.B. Synonyme oder kürzere Ausdrücke bei längeren sichtbaren Labeln. Siehe _Hacking with Swift_: https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-custom-activation-commands-for-voice-control[How to add custom activation commands for Voice Control]
 
 == Einordnung des Prüfschritts
 

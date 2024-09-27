@@ -13,7 +13,7 @@ bevor die Tastenwiederholung einsetzt
 (der Standard ist etwa eine halbe Sekunde). 
 Dies sind üblicherweise Einstellungen des Betriebssystems, 
 auf die Entwickler in der Regel keinen Einfluss haben. 
-Apps sollten diese betriebssystemseitigen Einstellungen für Texteingaben übernehmen.
+Apps sollten diese betriebssystemseitigen Einstellungen, wo vorhanden, für Texteingaben übernehmen.
 
 == Warum wird das geprüft?
 Menschen mit motorischen Einschränkungen haben manchmal das Problem, 
@@ -31,7 +31,7 @@ Der Prüfschritt wird nur geprüft,
 wenn die Tastenwiederholung nicht abstellbar ist 
 und die Funktion in der App unterstützt wird. 
 Bei iOS-Apps ist der Prüfschritt generell nicht anwendbar, 
-da die Tastenwiederholfunktion absgeschaltet werden kann.
+da die Tastenwiederholfunktion abgeschaltet werden kann.
 Bei Android-Apps ist der Prüfschritt nur anwendbar, 
 wenn die Ansicht Texteingabefelder für Tastatureingaben enthält.
 Geprüft wird nicht die systemseitige Einstellung selbst, 
@@ -42,7 +42,7 @@ Die Funktion Tastenwiederholung ist, soweit vorhanden,
 eine generelle Einstellung auf Betriebssystem-Ebene. 
 Für die App selbst kann also nur geprüft werden, 
 ob Einstellungen wie von Nutzenden intendiert 
-bei Texteingaben auf der Anicht greifen. 
+bei Texteingaben auf der Ansicht greifen. 
 
 ==== iOS
 * Unter iOS und iPadOS (iPad mit Magic Keyboard) 
@@ -109,7 +109,7 @@ und diese Einstellungen bei Texteingabefeldern der App greifen.
 
 ==== Nicht erfüllt (Android)
 * Für Android-Apps ist der Prüfschritt nicht erfüllt, 
-wenn eingestellte höhere Werte bei Anschlageschwindigkeit und Tastenanschlagfunktion
+wenn eingestellte höhere Werte bei Anschlaggeschwindigkeit und Tastenanschlagfunktion
 bei Texteingabefeldern der App nicht greifen.
 
 == Quellen

@@ -59,7 +59,7 @@ Das ist bei informationsorientierten Apps häufig der Fall.
 === 3. Hinweise
 
 * Es ist nicht die Aufgabe des Prüfschritts zu prüfen, ob Wortwahl oder Stil der Überschriften den jeweiligen Inhalten angemessen sind.
-* Android-Entwickler haben derzeit keine Möglichkeit unterschiedliche Überschriftsebenen in nativen Ansichten auszuzeichnen.
+* Android-Entwickler können über das Attribut `android:accessibilityHeading` Überschriften auszeichnen, haben aber derzeit keine Möglichkeit, unterschiedliche Überschriftsebenen in nativen Ansichten auszuzeichnen.
   Eine fehlende Auszeichnung von Überschriftsebenen wird daher *nicht* negativ bewertet.
 * Unter iOS und iPadOS können seit iOS / iPadOS 15 auch in nativen Apps Überschriftsebenen ausgezeichnet werden.
   Die Verbreitung der Auszeichnung von Überschriftsebenen ist jedoch sehr gering.
