@@ -29,6 +29,9 @@ Damit closed captions (dynamisch zuschaltbare Untertitel) von den Nutzenden wahr
 
 ==== 2.1 Anzeigen von open captions
 
+. Sicherstellen, dass die Anzeige von Untertiteln aktiviert ist:
+* iOS: Bedienungshilfen > Untertitel & erweiterte UT aktivieren
+* Android: Bedienungshilfen > Untertitel-Einstellungen > Untertitel anzeigen aktivieren
 . Das Video wird im  eingebundenen Videoplayer abgespielt.
 . Untertitel werden angezeigt (open captions).
 

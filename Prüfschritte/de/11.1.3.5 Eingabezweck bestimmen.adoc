@@ -64,6 +64,7 @@ Hier sind die Eingabefelder für den Nutzer nicht von den Feldern für Mitreisen
 * Eingabefelder beziehen sich nicht eindeutig auf die Nutzenden selbst.
 
 == Quellen
+In der https://github.com/w3c/matf/issues/2[Mobile Accessibility Taskforce wird 11.1.3.5 diskutiert], ob und in welcher Form die Anforderung bei nativen Apps Anwendung finden kann.
 
 === Android
 * Appt.org: https://appt.org/en/docs/android/samples/input-keyboard-type[Input keyboard type on Android]
