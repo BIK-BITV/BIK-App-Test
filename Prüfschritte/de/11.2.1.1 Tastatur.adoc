@@ -26,7 +26,8 @@ Dies trifft auf die meisten Apps auf den gängigen mobilen Plattformen wie Apple
 . Mit der Tabulatortaste die Links und Formularelemente durchgehen. Wo sich Elemente nicht mit dem Tabulator erreichen lassen, prüfen, ob sie über die Pfeiltasten erreichbar sind.
 . Prüfen, ob alle wesentlichen Funktionen über die Tastatur erreicht und aktiviert werden können. In der Regel heißt das, das Elemente fokussiert und dann über die Eingabe- oder Leertaste aktiviert werden können. Wo Elemente nicht erreichbar oder aktivierbar sind, stehen äquivalente Wege zum Auslösen der Funktion über die Tastatur zur Verfügung.
 . Falls die Ansicht Elemente enthält, die wie Bedienelemente aussehen, jedoch nicht über Tabulatortaste oder Pfeiltasten angesteuert werden, prüfen, ob diese Elemente auf Touch-Eingaben reagieren (zum Beispiel Navigation zu anderen Ansichten, Funktionsaufrufe, Vergrößerung, Einblenden von weiteren Inhalten). Wenn ja, müssen sie auch mit der Tastatur fokussier- und aktivierbar sein.
-. Falls die Ansicht scrollbare Bereiche enthält, sollen nicht sichtbare Inhalte dieser Bereiche auch über die Tastatur erreichbar sein.
+. Falls die Ansicht scrollbare Bereiche enthält, sollen nicht sichtbare Inhalte dieser Bereiche auch über die Tastatur erreichbar sein, ohne das dazu der Bildschirm berührt werden muss.
+.. iOS: Falls Seitenbereiche mit Textinhalten ohne interaktive Elemente nicht erreicht werden: Prüfen, ob nach Aktivieren von Tastaturgesten (Tab + G) alle Textinhalte über die vertikalen Pfeiltasten erreichbar sind.
 
 === 3. Hinweise
 
