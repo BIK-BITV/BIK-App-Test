@@ -10,11 +10,11 @@ Text soll um bis zu 200 Prozent geändert werden können, ohne dass dabei Inhalt
 * Mit der Funktion des Betriebssystems kann der Text vergrößert werden.
 * Über ein Bedienelement der App-Ansicht kann die Schriftgröße vergrößert werden.
 
-Da die gängigen mobilen Plattformen wie iOS / iPadOS und Android Bedienungshilfen mit Vergrößerungsfunktionalitäten anbieten, ist dieser Prüfschritt erfüllt, wenn die Software ordungsgemäß mit diesen Systemfunktionen nutzbar ist.
+Da die gängigen mobilen Plattformen wie iOS / iPadOS und Android Bedienungshilfen mit Vergrößerungsfunktionalitäten anbieten, ist dieser Prüfschritt erfüllt, wenn Textinhalte der App mit einer der verfügbaren systemseitigen Bedienungshilfen oder über ein App-interne Funktion auf 200% vergrößerbar sind.
 
 == Warum wird das geprüft?
 
-Nutzende sollen die Schriftgröße nach ihren Bedürfnissen einstellen können. Die gängigen Betriebssysteme bieten zwei verschiedene Vergrößerungsmöglichkeiten: die Zoom-Vergrößerung des gesamten Bildschirminhalts und "größerer dynamischer Text".
+Nutzende sollen die Schriftgröße nach ihren Bedürfnissen einstellen können.
 
 == Wie wird geprüft?
 
@@ -26,16 +26,14 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Text enthält.
 
 ==== 2.1 Prüfung der Schriftvergrößerung mit Hilfe der Betriebssystem-Einstellungen
 
-. Zoom-Funktionalität in den Bedienungshilfen von iOS / iPadOS bzw. Android aktivieren
-. App mit zu prüfender Ansicht öffnen
-. Ansicht mittels der Zoomfunktion des Betriebssystems um 200% vergrößern und dabei prüfen, ob dies Probleme bei der zu prüfenden Ansicht hervorruft.
+. Zoom-Funktionalität in den Bedienungshilfen von iOS / iPadOS bzw. Android aktivieren.
+. App mit zu prüfender Ansicht öffnen.
+. Ansicht mittels der Zoomfunktion des Betriebssystems um 200% vergrößern und dabei prüfen, ob die Vergrößerung möglich ist.
+. Schriftvergrößerung aktivieren: bei iOS "Größerer Text" aktivieren, bei Android "Schriftgröße" mit dem Schieberegler auf die größte Stufe stellen. Änderungen wirken sich nur auf Inhalte aus, die als dynamischer Text angelegt wurden.
 
 ==== 2.2 Prüfung der Schriftvergrößerung durch Bedienelemente in der App
 
 Wenn die Software eigene Bedienelemente bereithält, um die Schriftgröße zu vergrößern:
-
-Muss nur geprüft werden, wenn die Systemfunktion zum vergrößern nicht vorhanden ist oder diese mit der App zu Problemen führt.
-
 . Prüfen, ob die Bedienelemente für Schriftvergrößerung deutlich sichtbar im oberen Bereich der Ansicht angeboten werden.
 . Prüfen, ob die Schrift mit Hilfe der auf der Ansicht angebotenen Bedienelemente schrittweise vergrößert werden kann (wie stark die Vergrößerung ist spielt dabei keine  Rolle).
 . Prüfen, ob sich über die angebotenen Bedienelemente die Ausgangsschriftgröße wiederherstellen lässt.
