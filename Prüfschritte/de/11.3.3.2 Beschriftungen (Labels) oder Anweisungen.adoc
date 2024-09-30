@@ -10,7 +10,7 @@ Die Beschriftung von Formularelementen sollen in der Regel vor (das heißt links
 über) dem zugehörigen Eingabefeld angeordnet werden.
 Nur die Beschriftung von Checkboxes und Radiobuttons kann (und sollte
 normalerweise) rechts neben dem zugehörigen Eingabefeld angeordnet werden.
-Eine weitere Ausnahme sind Suchfelder, die über ein konventionelles Icon beschriftet sind
+Eine weitere Ausnahme sind Suchfelder, die über ein nachfolgendes konventionelles Symbol (etwa Lupen-Icon) beschriftet sind.
 
 Wenn für die Eingabe ein bestimmtes Format verlangt wird, sollen die
 Anweisungen für alle Nutzenden lesbar sein.
