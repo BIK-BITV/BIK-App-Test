@@ -65,7 +65,9 @@ Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem grafischen S
 besteht, ist oftmals keine sichtbare Beschriftung notwendig.
 Hier ist es ausreichend, wenn Eingabefeld und Schalter direkt nebeneinander
 positioniert sind. 
-Hinweis: Eingabefelder, die nur über einen nachfolgenden grafischen Schalter beschriftet sind, müssen zudem ein programmatisch verfügbare Beschriftung haben, da für Screenreader-Nutzer der nachfolgende Schalter nicht nicht als Beschriftung ausreicht.
+Hinweis: Eingabefelder, die nur über einen nachfolgenden grafischen Schalter beschriftet sind, 
+müssen zudem eine programmatisch verfügbare Beschriftung haben, 
+da für Screenreader-Nutzer der nachfolgende Schalter nicht als Beschriftung ausreicht.
 
 Es kann sinnvoll sein, dass bei Formularen Hinweise zum Eingabeformat oder zu
 ausgelösten Aktionen einmal am Beginn des Formulars stehen statt vor jedem
