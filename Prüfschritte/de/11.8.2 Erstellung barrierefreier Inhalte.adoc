@@ -9,29 +9,30 @@ die Anwendung die Erstellung von barrierefreien Dokumenten erlauben und den
 Nutzer dabei unterstützen.
 
 == Warum wird das geprüft?
-Autorensysteme sollen Inhalte in den jeweiligen Zielformaten erzeugen, die barrierefrei zugänglich sind, damit Menschen mit Behinderungen diese einfach nutzen können. Dafür ist die passende semantische Auszeichnung von Inhalten wie Überschriften, Bildern, Tabellen, Listen usw. wichtig.
+
+Für Nutzende von Hilfsmitteln, die eine programmatische Ermittelbarkeit von Informationen brauchen, ist es wichtig, dass Autorenwerkzeuge dies bei der Erzeugung von Inhalten unterstützen. Wenn zum Beispiel ein Kommentar-Eingabefeld die Vergabe einer Überschrift erlaubt, sollte diese auf der erzeugten (bzw. aktualisierten) Seite auch als Überschrift ausgezeichnet sein, damit Hilfsmittel-Nutzer diese semantische Information auswerten können (zum Beispiel zum Navigieren von Kommentar zu Kommentar).
+
+Die Prüfung bezieht sich auf die Ausgabe des jeweiligen Autorenwerkzeugs.
+
+Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die Barrierefreiheit
+optimierbar sein, ansonsten ist dieser Prüfschritt nicht anwendbar.
+
+Die Ausgabe des Autorenwerkzeugs muss innerhalb der App dargestellt werden, 
+es können lediglich integrierte Werkzeuge wie z. B. Kommentareditoren getestet werden. 
+Umfangreiche Autorenwerkzeuge, wie z. B. Textverarbeitungen, können mit dem App-Test-Verfahren derzeit nicht geprüft werden, 
+da hier dann auch die Barrierefreiheit der durch das Tool generierten Dateien geprüft werden müsste.
 
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die App ein Autorenwerkzeug ist oder Elemente eines Autorenwerkzeugs integriert und das Zielformat in der App selbst  angezeigt wird bzw. darin aufrufbar ist (auch etwa als HTML-Datei innerhalb eines Webviews). 
-
-Der Dokumententyp, den die Software erstellt, muss grundsätzlich für die Barrierefreiheit optimierbar sein, ansonsten ist dieser Prüfschritt nicht anwendbar. Für externe Zielformate, etwa PDF, muss ggf. eine getrennte Prüfung vorgenommen werden.
-
-Umfangreiche Textverarbeitungen, die Dokumente erzeugen und anzeigen, welche auch außerhalb der App geladen werden können, sind ggf. im App-Test allein nicht bzw. nicht ausreichend prüfbar, da nicht alle semantischen Auszeichnungen in der App-Umgebung überprüft werden können.
+Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkzeugs ist. 
+Ebenfalls anwendbar ist der Prüfschritt auf Kommentarfunktionen, die die Strukturierung von Kommentaren erlauben.
 
 === 2. Prüfung
 
-Für die Praxis fehlt noch eine praktikable Methode, Für  Hinweise dazu können
-Sie auf GitHub
-https://github.com/BIK-BITV/BIK-App-Test/issues[ein Issue zu diesem Prüfschritt erstellen].
-
-In der App wird mittels des Autorenwerkzeugs (z.B. Kommentarfunktion) eine
-Ausgabe generiert.
-Die Ansicht der App, in der die Ausgabe angezeigt wird, muss dann bei der
-Prüfung berücksichtigt werden.
-Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden.
+. In der Ansicht der App mittels Autorenwerkzeug (z. B. Kommentarfunktion) eine Ausgabe generieren (und ggf. freigegeben).
+. Die erzeugte Ausgabe prüfen. Alle für die Ansicht anwendbaren Prüfschritte sind anzuwenden.
 
 === 3. Hinweise
 
@@ -39,6 +40,15 @@ Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von
 anderen Werkzeugen abhängen, um spezifische Kriterien zu erfüllen.
 Das könnte z.B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln
 sein.
+
+Das Autorenwerkzeug darf für die Erstellung von barrierefreien Dokumenten von anderen Werkzeugen abhängen, 
+um spezifische Kriterien zu erfüllen. Das könnte z. B. ein zusätzliches Werkzeug für die Erstellung von Untertiteln sein.
+
+Nur jene Auszeichnungsmängel in der Ausgabe können als Fehler bewertet werden, 
+für die es bei der Eingabe Möglichkeiten der Auszeichnung gibt. 
+Wenn also z.B. ein Kommentarfeld lediglich als `textarea` ohne weitere Auszeichnungsmöglichkeit umgesetzt ist 
+und Nutzende deshalb textbasierte Techniken zur Gestaltung verwenden (z.B. Listen über Zeilenumbrüche und Spiegelstriche), 
+wäre das Fehlen von Listen-Markup im ausgegebenen Kommentar nicht als Fehler zu bewerten. 
 
 == Einordnung des Prüfschritts
 
