@@ -13,34 +13,33 @@ finden.
 Die für die Barrierefreiheit optimierten Vorlagen sollen dabei eindeutig als
 solche zu identifizieren sein.
 
+== Warum wird das geprüft?
+Vorlagen helfen Autoren dabei, eine semantische Ausgabe zu erzeugen. 
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist anwendbar, wenn die Software ein Autorenwerkzeug ist und
-Vorlagen für die Dokumente, die es erstellt, anbietet.
-Das App-Test-Verfahren prüft jedoch keine Dokumente.
-Im Rahmen dieses Verfahrens können lediglich Autorenwerkzeuge getestet werden,
-dessen Ausgabe in der gleichen App stattfindet (z.B. Kommentarfunktion in
-einer Social-Media-App).
-Für komplexere Werkzeuge, dessen Ausgaben nicht nur in der App selbst
-stattfinden, muss ein extra Auftrag erteilt werden, da hier die Ausgabe-Dateien
-bzw -Formate auf Barrierefreiheit geprüft werden müssen.
+Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkzeugs ist 
+und Vorlagen für die Dokumente, die es erstellt, anbietet. 
+Das App-Test-Verfahren prüft jedoch keine Dokumente. 
+Im Rahmen dieses Verfahrens können lediglich Autorenwerkzeuge getestet werden, 
+deren Ausgabe in der gleichen App stattfindet (z. B. Kommentarfunktion in einer Social-Media-App).
+
+Für komplexere Werkzeuge, dessen Ausgaben nicht nur in der App selbst stattfinden, 
+muss ggf. ein zusätzlicher Prüfauftrag außerhalb des BIK App-Tests erteilt werden, da hier die Ausgabe-Dateien bzw -Formate auf Barrierefreiheit geprüft werden müssen.
 
 === 2. Prüfung
 
-Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie
-https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
+. Zu prüfende Ansicht der App öffnen.
+. Prüfen, ob das Autorenwerkzeug wahlweise verschiedene Vorlagen für die Erstellung von Inhalten anbietet.
+. Prüfen, ob bei Vorhandensein alternativer Vorlagen, welche die Erstellung barrierefreier Inhalte unterstützen, diese deutlich als solche markiert sind. (Wenn es nur eine Vorlage gibt, muss diese nicht extra als barrierefreiheits-unterstützend markiert sein).
+. Testausgaben mit der barrierefreiheits-unterstützenden Vorlagen erstellen, ansonsten Standardvorlage nutzen.
+. Testausgaben auf Barrierefreiheit prüfen (Mängel sind zusätzlich bei den sonstigen anwendbaren Prüfschritten einzutragen).
 
-. App starten
-. prüfen, ob die App Vorlagen anbietet
-. prüfen, ob unter den Vorlagen, optimierte Vorlagen für die Barrierefreiheit,
-  vorhanden sind, diese müssen deutlich identifizierbar sein
-. Testausgaben möglichst mit den vorhandenen
-  Barrierefreiheits-Optimierten-Vorlagen erstellen, ansonsten
-  Standardvorlage nutzen
-. Testausgaben auf Barrierefreiheit prüfen (sämtliche anwendbaren
-  Prüfschritte auf Ansicht mit der Ausgabe)
+=== 3. Hinweise
+
+Für die Prüfpraxis sind weitere Hinweise notwendig, auf GitHub können Sie https://github.com/BIK-BITV/BIK-App-Test/issues[dazu ein Issue eröffnen].
 
 == Einordnung des Prüfschritts
 
