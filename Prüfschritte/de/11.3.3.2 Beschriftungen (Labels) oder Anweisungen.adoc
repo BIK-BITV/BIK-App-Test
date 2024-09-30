@@ -4,20 +4,21 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Beschriftungen von Formularelementen sind vorhanden.
+Sichtbare Beschriftungen von Formularelementen sind vorhanden.
 
-Die Beschriftung von Formularelementen soll vor (das heißt links neben oder
+Die Beschriftung von Formularelementen sollen in der Regel vor (das heißt links neben oder
 über) dem zugehörigen Eingabefeld angeordnet werden.
 Nur die Beschriftung von Checkboxes und Radiobuttons kann (und sollte
 normalerweise) rechts neben dem zugehörigen Eingabefeld angeordnet werden.
+Eine weitere Ausnahme sind Suchfelder, die über ein konventionelles Icon beschriftet sind
 
-Wenn für die Eingabe ein bestimmtes Format verlangt wird, so sind die
-Anweisungen für alle Benutzer lesbar.
+Wenn für die Eingabe ein bestimmtes Format verlangt wird, sollen die
+Anweisungen für alle Nutzenden lesbar sein.
 
 == Warum wird das geprüft?
 
-Wenn Beschriftungen zur Verfügung gestellt werden, wissen Nutzer, welche
-Eingaben erwartet werden und Fehler können vermieden werden.
+Wenn sichtbare Beschriftungen zur Verfügung gestellt werden, wissen Nutzende, welche
+Eingaben erwartet werden. Fehleingaben können so vermieden werden.
 
 Die Anordnung von Beschriftungen direkt vor oder über dem Eingabefeld
 entspricht den üblichen Gestaltungskonventionen.
@@ -33,18 +34,21 @@ Der Prüfschritt ist anwendbar, wenn die App-Ansicht Formularelemente enthält.
 === 2. Prüfung
 
 . App mit zu prüfender Ansicht öffnen.
-. Sind Beschriftungen vorhanden ?
+. Sind Beschriftungen vorhanden?
 . Sind alle Formularelemente beschriftet?
-. Sind Pflichtfelder in label- oder legend-Elementen klar angezeigt, Wenn zur
-  Anzeige Symbole wie etwa ein Sternchen (*) genutzt werden, muss deren
-  Bedeutung am Beginn des Formulars erklärt sein
-. Wenn Eingabefelder ein bestimmtes Eingabeformat vorgeben, wird dieses vor
-  dem Eingabefeld klar beschrieben? (Beispiele wären "Format der
+. Sind Pflichtfelder in `label`- oder `legend`-Elementen klar angezeigt? Wenn zur
+  Anzeige Symbole wie etwa ein Sternchen (*) genutzt werden, sollte deren
+  Bedeutung am Beginn des Formulars erklärt sein.
+. Wenn Eingabefelder ein bestimmtes Eingabeformat vorgeben, 
+  wird dieses in der Beschriftung klar beschrieben? (Beispiele wären "Format der
   Datumseingabe: TT.MM.JJJJ" oder
   "Telefonnummer: Nur Zahlen ohne Leerstellen oder Bindestriche eingeben".)
 . Sind Beschriftungen richtig positioniert?
 
 === 3. Hinweise
+
+Eine Textvorbelegung ist keine ausreichende visuelle Beschriftung im Sinne dieses Prüfschritts. 
+Sie verschwindet bei (auch versehentlichen) Nutzereingaben.
 
 Bei kombinierten Eingabeelementen hat nicht immer jedes Element eine
 zugeordnete Beschriftung.
@@ -55,16 +59,13 @@ Auswahllisten angeboten (Tag, Monat und Jahr).
 Die drei Auswahllisten haben eine gemeinsame Beschriftung:
 Datum.
 Die Auswahllisten für Tag, Monat und Jahr sind jeweils mit einem unsichtbaren
-erklärenden Label für Hilfstechnologien versehen.
+erklärenden Label für die programmatische Ausgabe an Hilfsmittel versehen.
 
-Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem Button
+Wenn ein einfaches Suchformular nur aus einem Eingabefeld und einem grafischen Schalter (etwa ein Lupen-Icon)
 besteht, ist oftmals keine sichtbare Beschriftung notwendig.
-Hier ist es ausreichend, wenn Eingabefeld und Button direkt nebeneinander
-positioniert sind, das Eingabefeld eine sinnvolle Textvorbelegung hat oder die
-Beschriftung des Buttons die Funktion eindeutig kennzeichnet (etwa "Suchen").
-Das unbeschriftete Eingabefeld mit Textvorbelegung muss in solchen Fällen
-ein aussagekräftiges verstecktes Label haben, da für Screenreader-Nutzer der
-nachfolgende Button nicht gleichermaßen als Beschriftung taugt.
+Hier ist es ausreichend, wenn Eingabefeld und Schalter direkt nebeneinander
+positioniert sind. 
+Hinweis: Eingabefelder, die nur über einen nachfolgenden grafischen Schalter beschriftet sind, müssen zudem ein programmatisch verfügbare Beschriftung haben, da für Screenreader-Nutzer der nachfolgende Schalter nicht nicht als Beschriftung ausreicht.
 
 Es kann sinnvoll sein, dass bei Formularen Hinweise zum Eingabeformat oder zu
 ausgelösten Aktionen einmal am Beginn des Formulars stehen statt vor jedem
@@ -79,7 +80,7 @@ einzelnen Eingabefeld.
 
 ==== Nicht voll erfüllt:
 
-* Beschriftungen werden nur als Formularfeld-Vorbelegung bereitgestellt.
+* Beschriftungen sind nur als Textfeld-Vorbelegung vorhanden.
 
 == Quellen
 
@@ -97,6 +98,9 @@ einzelnen Eingabefeld.
 
 
 == Einordnung des Prüfschritts
+
+=== Abgrenzung von anderen Prüfschritten
+In diesem Prüfschritt geht es um sichtbare Beschriftungen. Das Vorhandensein programmatisch ermittelbarer Namen von Formularelementen wird dagegen in Prüfschritt 11.1.3.1d "Info und Beziehungen - Formularelemente" geprüft.
 
 === Einordnung des Prüfschritts nach WCAG 2.1
 
