@@ -4,18 +4,19 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Informative Grafiken und Bilder müssen Textalternativen haben. 
-Die Textalternativen ersetzen das Bild, sie sollen (soweit wie möglich) die gleiche Information vermitteln wie das Bild.
+Informative Grafiken und Bilder müssen Alternativtexte haben. 
+Die Alternativtexte ersetzen das Bild, sie sollen (soweit wie möglich) die gleiche Information vermitteln wie das Bild.
 
 Bei eingebundenen Multimedia-Objekten (z.B Video- oder Audio-Dateien) soll die Textalternative zumindest eine beschreibende Identifizierung des Inhalts ermöglichen.
+Sind Grafiken lediglich dekorativ, sollten sie keinen Alternativtext haben, damit sie in assistiven Technologien nicht ausgegeben werden.
 
 == Warum wird das geprüft?
 
 Für blinde Benutzer sind Grafiken und Bilder nicht zugänglich. 
-Die Textalternative tritt dann an die Stelle der Grafik, sie soll die Grafik inhaltlich ersetzen können.
+Die Alternativtexte treten dann an die Stelle der Grafik, sie sollen die Grafik inhaltlich ersetzen können.
 
 Wenn Objekte (etwa Video- oder Audio-Dateien) nicht angezeigt werden können, 
-weil sie z.B. nicht geladen werden können, sollen kurze beschreibende Textalternativen dem Nutzer eine Identifikation der Inhalte ermöglichen.
+weil sie z.B. nicht geladen werden können, sollen kurze beschreibende Alternativtexte dem Nutzer eine Identifikation der Inhalte ermöglichen.
 
 == Wie wird das geprüft?
 
@@ -38,9 +39,9 @@ Ihr Informationsgehalt und ihr Nutzen für das Verständnis ist aber nicht klar.
 Sie können daher als dekorativ gekennzeichnet werden. Der Alternativtext sollte dann leer sein.
 
 Wenn Logo-artige Elemente, in denen Grafik und Schrift verbunden sind, auftauchen, 
-sind diese fast nie als bloße Schmuckgrafik anzusehen und brauchen deshalb eine Textalternative. 
+sind diese fast nie als bloße Schmuckgrafik anzusehen und brauchen deshalb einen Alternativtext. 
 Dies ermöglicht blinden und sehenden Nutzern, sich gemeinsam auf diese Elemente zu beziehen. 
-Die Textalternative muss aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich ist.
+Der Alternativtext muss aber nicht expliziter sein als das, was für den sehenden Nutzer erkenntlich ist.
 
 Darüber hinaus ist der Prüfschritt anwendbar, wenn informative Audio-Elemente vorhanden sind.
 
@@ -68,12 +69,12 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
 ==== Angemessene Alternativtexte
 
-Entscheidend ist: Die App soll benutzbar sein, wenn für Grafiken oder Bilder die entsprechenden Textalternativen vom Screenreader ausgegeben werden.
+Entscheidend ist: Die App soll benutzbar sein, wenn für Grafiken oder Bilder die entsprechenden Alternativtexte vom Screenreader ausgegeben werden.
 
 In der Regel bedeutet das:
 
-* Bei Schriftgrafiken soll die Textalternative den Text der Schriftgrafik wiederholen.
-* Bei Symbolen oder Zeichen (Logos) soll die Textalternative sagen, dass ein Symbol, 
+* Bei Schriftgrafiken soll der Alternativtext den Text der Schriftgrafik wiederholen.
+* Bei Symbolen oder Zeichen (Logos) soll der Alternativtext sagen, dass ein Symbol, 
 Zeichen oder Logo abgebildet ist und die Bedeutung des Symbols oder Zeichens wiedergeben.
 * Bei Gruppen von zusammengehörigen Bildern kann auch eines der Bilder die Bedeutung der Gruppe wiedergeben, 
 die anderen sollten als dekorativ gekennzeichnet werden.
@@ -81,8 +82,8 @@ die anderen sollten als dekorativ gekennzeichnet werden.
 die eine spezifische Sinneserfahrung vermitteln, 
 genügt in der Regel eine knappe Bezeichnung des abgebildeten Gegenstandes.
 * Bei Diagrammen oder technischen Zeichnungen sind unter Umständen ausführlichere Erläuterungen erforderlich.
-  Textalternativen sind dafür nicht geeignet, sie sollen in der Regel 80 Zeichen nicht überschreiten. 
-  In der Textalternative steht dann nur, was dargestellt ist und wo (etwa: "Details im anschließenden Text"). 
+  Alternativtexte sind dafür nicht geeignet, sie sollen in der Regel 80 Zeichen nicht überschreiten. 
+  Im Alternativtext steht dann nur, was dargestellt ist und wo (etwa: "Details im anschließenden Text"). 
   Die ausführliche Textalternative soll sich in Kontext des Bildes befinden. 
   Der Kontext kann zum Beispiel ein unmittelbar folgender Inhalt (Text oder Tabelle), 
   ein Ausklappbereich oder auch ein Link zu einer Ansicht sein, die die ausführliche Alternative enthält.
@@ -94,13 +95,13 @@ und, falls vorhanden, auf eine Medienalternative verweisen.
 Es ist außerdem sinnvoll, dass Schmuckbilder keinen Screenreader-Fokus erhalten 
 (bei Android etwa über `android:focusable="false"`).
 
-Generell gilt: Textalternativen sollen kurz sein. 
-Ausführliche Beschreibungen von Abbildungen sollen nicht in die Textalternative, 
+Generell gilt: Alternativtexte sollen kurz sein. 
+Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext, 
 sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
-==== Angemessenheit von Textalternativen im Kontext
+==== Angemessenheit von Alternativtexten im Kontext
 
-Wenn die Textalternative kein angemessener Ersatz für die Grafik oder das Bild sein kann, 
+Wenn ein Alternativtext kein angemessener Ersatz für die Grafik oder das Bild sein kann, 
 muss geprüft werden, ob die über das Bild vermittelte Information im Kontext als Text zur Verfügung steht. 
 Das betrifft zum Beispiel:
 
@@ -109,7 +110,7 @@ Das betrifft zum Beispiel:
 * Anfahrtspläne
 
 Zum Kontext einer Grafik oder eines Bildes gehört: 
-der dazugehörige (vorangehende, folgende) Text und eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar benannte Textalternative. 
+der dazugehörige (vorangehende, folgende) Text und eine im unmittelbaren Kontext des Bildes angebotene verlinkte und klar benannte ausführliche Textalternative. 
 Nicht alle Informationen können in jedem Fall im Text wiedergegeben werden. 
 So sind in einer Karte, die die Umgebung eines Standortes zeigt, 
 oft mehr Information enthalten als in einer Auflistung der Anfahrtswege einschließlich Infos zum öffentlichen Nahverkehr. 
@@ -119,13 +120,13 @@ Für technische Zeichnungen, Grundrisse, Katasteramtskarten u.ä. sind detaillie
 das Bild selbst sollte aber so benannt sein, dass Art des Bildes und Gegenstand genannt sind, 
 einschließlich Informationen für die Bezugnahme auf das jeweilige Dokument (Codes, Nummern, technische Bezeichnungen usw).
 
-Eine kurze Textalternative mit Bezeichnung des Bildes ist auch bei Nutzung von Textalternativen im Kontext erforderlich. 
-Die Textalternative sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist. 
+Ein kurzer Alternativtext mit Bezeichnung der Grafik ist auch bei Nutzung von Textalternativen im Kontext erforderlich. 
+Der Alternativtext sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist. 
 Sie macht klar, worauf sich die Erläuterung im Kontext bezieht.
 
 ==== Beurteilung der Angemessenheit ====
 
-Um die Angemessenheit der Textalternative einschätzen zu können, 
+Um die Angemessenheit einer ausführlichen Textalternative einschätzen zu können, 
 muss die Textalternative auf die Grafik beziehungsweise das Objekt bezogen werden, zu dem sie gehört.
 Erforderlich ist also die wechselnde Betrachtung von Grafik/Objekt und zugehörige Textalternative.
 
