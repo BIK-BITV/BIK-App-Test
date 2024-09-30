@@ -10,8 +10,6 @@ Die App soll auch ohne Maus- oder Touch-Eingaben, also ausschließlich mit der T
 
 Die Bedienung der App soll geräteunabhängig möglich sein. Das bedeutet: Sie muss mit der Tastatur möglich sein. Denn auch andere Hilfsmittel oder Eingabemethoden (etwa Spracheingabe) brauchen die Tastatur bzw. setzten die Tastaturbedienbarkeit voraus. Auf die Tastaturbedienbarkeit angewiesen sind zum Beispiel viele motorisch eingeschränkte oder blinde Menschen.
 
-Bei Apps gibt es häufig Probleme bei der Tastaturbedienung, denn die Mehrzahl der Nutzenden von iOS / iPadOS und Android arbeitet mit Touch-Eingaben, daher wird oft nur an diese gedacht.
-
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
@@ -23,8 +21,8 @@ Dies trifft auf die meisten Apps auf den gängigen mobilen Plattformen wie Apple
 
 . Tastatur über Bluetooth-Kopplung oder USB-Kabel anschließen.
 . App mit zu prüfender Ansicht öffnen.
-. Mit der Tabulatortaste die Links und Formularelemente durchgehen. Wo sich Elemente nicht mit dem Tabulator erreichen lassen, prüfen, ob sie über die Pfeiltasten erreichbar sind.
-. Prüfen, ob alle wesentlichen Funktionen über die Tastatur erreicht und aktiviert werden können. In der Regel heißt das, das Elemente fokussiert und dann über die Eingabe- oder Leertaste aktiviert werden können. Wo Elemente nicht erreichbar oder aktivierbar sind, stehen äquivalente Wege zum Auslösen der Funktion über die Tastatur zur Verfügung.
+. Mit der Tabulatortaste die Links und Formularelemente durchgehen. Wo sich Elemente nicht mit dem Tabulator erreichen lassen, prüfen, ob sie mit den Pfeiltasten erreichbar sind.
+. Prüfen, ob alle wesentlichen Funktionen über die Tastatur erreicht und aktiviert werden können. In der Regel heißt das, das Elemente fokussiert und dann über die Eingabe- oder Leertaste aktiviert werden können. Wo Elemente nicht erreichbar oder aktivierbar sind, prüfen, ob äquivalente Wege zum Auslösen der Funktion über die Tastatur zur Verfügung stehen.
 . Falls die Ansicht Elemente enthält, die wie Bedienelemente aussehen, jedoch nicht über Tabulatortaste oder Pfeiltasten angesteuert werden, prüfen, ob diese Elemente auf Touch-Eingaben reagieren (zum Beispiel Navigation zu anderen Ansichten, Funktionsaufrufe, Vergrößerung, Einblenden von weiteren Inhalten). Wenn ja, müssen sie auch mit der Tastatur fokussier- und aktivierbar sein.
 . Falls die Ansicht scrollbare Bereiche enthält, sollen nicht sichtbare Inhalte dieser Bereiche auch über die Tastatur erreichbar sein, ohne das dazu der Bildschirm berührt werden muss.
 .. iOS: Falls Seitenbereiche mit Textinhalten ohne interaktive Elemente nicht erreicht werden: Prüfen, ob nach Aktivieren von Tastaturgesten (Tab + G) alle Textinhalte über die vertikalen Pfeiltasten erreichbar sind.
@@ -32,9 +30,6 @@ Dies trifft auf die meisten Apps auf den gängigen mobilen Plattformen wie Apple
 === 3. Hinweise
 
 ==== 3.1 Allgemeine Hinweise
-
-Unwesentlich können zum Beispiel Funktionen sein, die schon von der Plattform (Betriebssystem) selbst angeboten werden (beispielsweise "Fenster schließen").
-
 Die prüfende Person muss mit der Funktionsweise der eingesetzten Browser und Betriebssysteme vertraut sein, sie muss wissen, welche Tasten und Tastenkombinationen für die Tastaturbedienung vorgesehen sind.
 
 Für diesen Prüfschritt spielt die Reihenfolge, in der interaktive Elemente und Formularelemente angesteuert werden, keine Rolle. 
