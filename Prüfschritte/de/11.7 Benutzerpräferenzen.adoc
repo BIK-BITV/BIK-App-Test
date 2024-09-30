@@ -3,19 +3,24 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
+Die App soll systemseitige Einstellungen in den iOS- bzw. Android-Bedienungshilfen berücksichtigen.
+Im Einzelnen sind dies sein:
 
-Die App soll Systemweite Einstellungen berücksichtigen.
-Im Einzelnen sind dies:
-
-* Messeinheiten
-* Farben (z.B. Darkmode)
+* Maßeinheiten
+* Farben (z.B. Farbumkehr, eigene Farbschemata, oder Darkmode)
 * Kontraste
-* Schriftarten
+* Schriftarten (dazu kann Schriftfettung zählen) 
 * Schriftgrößen
 * Darstellung des Fokuscursors
 
 Die App kann darüber hinaus eigene Werte für diese Einstellungen anbieten,
-die systemweiten Einstellungen müssen jedoch voreingestellt sein.
+solange es einen Modus gibt der die System-Einstellungen nutzt.
+
+Nicht alle in der Anforderung genannten Parameter lassen sich zur Zeit in den Betriebssystemen iOS und Android individuell einstellen.
+
+== Warum wird das geprüft?
+
+Wenn Menschen eigene Einstellungen im Betriebssystem vornehmen, zum Beispiel weil sie größere Schrift oder eigene angepasste Farbeinstellungen brauchen, sollten vorgenommene Einstellungen in der App wo immer möglich respektiert und übernommen werden.
 
 == Wie wird geprüft?
 
@@ -35,13 +40,20 @@ Für die Prüfung werden entsprechende Systemeinstellungen verändert und die
 zu prüfende App neugestartet.
 Die Änderungen sollten dann in allen Ansichten der App sichtbar sein.
 
-===== iOS / iPadOS
 
+===== iOS / iPadOS
 Die Einstellungen zur Farbumkehr unter Einstellungen -> Bedienungshilfen ->
 Anzeige & Textgröße müssen von der App unterstützt werden.
-Des Weiteren wird der Darkmode unterstützt, dieser ist unter Einstellungen ->
-Anzeige & Helligkeit -> Erscheinungsbild zu finden.
 
+. Einstellungen öffnen (Einstellungen > Bedienungshilfen > Anzeige und Textgröße)
+. "Umkehren - intelligent" aktivieren.
+. App neu starten und prüfen, ob die Einstellungen übernommen werden.
+
+In einem getrennten Schritt überprüfen, ob die App den Darkmode unterstützt. 
+
+. Einstellungen öffnen (Einstellungen > Anzeige und Helligkeit)
+. Unter Erscheinungsbild "Dunkel" aktivieren. 
+. Wird der Darkmode nicht unterstützt, sollte dies angemerkt werden. Es ist dies jedoch nicht als "nicht erfüllt" zu werten.
 
 ===== Android
 
@@ -52,11 +64,22 @@ die App unterstützt:
 * Farbkorrektur
 * Dunkles Design
 
+Farbumkehr prüfen
+
+. Einstellungen öffnen (Einstellungen > Bedienungshilfen > Farbe und Bewegung)
+. Die Einstellung "Farbumkehr" aktivieren.
+. Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
+
+In einem getrennten Schritt überprüfen, ob die App den Darkmode unterstützt. 
+
+. Einstellungen öffen (Einstellungen > Bedienungshilfen > Farbe und Bewegung)
+. Schalter "Dunkles Design" aktivieren.
+. Wird der Darkmode nicht unterstützt, sollte dies angemerkt werden. Es ist dies jedoch nicht als "nicht erfüllt" zu werten.
 
 ==== Schriftart und Schriftgröße
 
 Die Darstellung von Fließtexten richtet sich nach den Einstellungen im System.
-Für die Prüfung werden die systemweiten Einstellungen verändert und die zu
+Für die Prüfung werden die Systemeinstellungen verändert und die zu
 prüfende App neugestartet.
 
 ===== iOS / iPadOS
@@ -67,21 +90,38 @@ Bedienungshilfen -> Anzeige & Textgröße übernommen werden:
 * Fetter Text
 * Größerer Text
 
+Textvergrößerung und -Fettung prüfen
+
+. Einstellungen öffnen (Bedienungshilfen > Anzeige & Textgröße)
+. Die Einstellungen "Fetter Text" und "Größerer Text" aktivieren.
+. Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
+
 ===== Android
 
 Unter Android müssen folgende Einstellungen in Einstellungen ->
 Bedienungshilfen von der App übernommen werden:
 
 * Schriftgröße
+* Fettdruck
 
+Textvergrößerung und -Fettung prüfen
+
+. Einstellungen öffnen (Einstellungen > Bedienungshilfen > Anzeigegröße und Text)
+. Unter "Schriftgröße" die Schriftgröße über den Schieberegler deutlich größer stellen.
+. Den Schalter "Fettdruck" aktivieren.
+. Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
 
 === 3. Hinweise
 
-Wenn einer der o. g. Einstellungen in iOS / iPadOS oder Android nicht zu finden
+* Darkmode ist eine autordefinierte alternative Darstellung. Die Unterstützung ist sinnvoll, 
+aber nicht eindeutig als zwingend aus dem Prüfschritt abzuleiten, 
+da es sich nicht um individuelle Einstellungen von Nutzenden handelt.
+
+* Wenn einer der genannten  Einstellungen in iOS / iPadOS oder Android nicht zu finden
 ist und somit vom Nutzer nicht angepasst werden kann, wird diese Einstellung
 bei der Prüfung nicht berücksichtigt.
 
-Die Schriftart und -Größe muss sich nur in Fließtexten an den systemweiten
+* Die Schriftart und -Größe muss sich nur in Fließtexten an den systemweiten
 Einstellungen richten.
 Es wird nicht verlangt, dass Bedienelemente der App dynamische Veränderungen
 dieser Einstellungen unterstützen, da hier das Layout der App verändert
