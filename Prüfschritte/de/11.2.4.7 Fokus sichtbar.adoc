@@ -51,15 +51,6 @@ mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren.
 . Prüfen, ob alle Elemente mit grafischen Veränderungen auf den Fokus reagieren 
 (zum Beispiel mit Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). 
 Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
-. Wenn die Fokushervorhebung ausschließlich über einen Farbwechsel geschieht, 
-prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt. 
-In Zweifelsfällen gemäß Prüfschritt
-ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend"]
-ifndef::env_embedded[]
-  <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
-  ausreichend>>
-endif::env_embedded[]
-  auch prüfen, ob die Farbe der Fokushervorhebung vor dem jeweiligen Hintergrund ausreichend kontrastiert (3:1 oder besser).
 
 === 3. Hinweise
 ==== 3.1 Allgemeine Hinweise
