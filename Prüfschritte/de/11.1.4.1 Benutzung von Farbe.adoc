@@ -19,7 +19,7 @@ Der Prüfschritt ist immer anwendbar.
 === 2. Prüfung
 
 ==== 2.1 Unterschiede nur über Farbe?
-. Prüfen, ob die App-Ansicht Elemente enthält, die nur über die Farbgebung Informationen vermittelt.
+. Prüfen, ob die App-Ansicht Elemente enthält, die nur über die Farbgebung Informationen vermitteln.
 Beispiele dafür:
 * Ausgewählte Menueinträge werden in einer anderen Farbe dargestellt
 * Links im Fließtext werden in einer anderen Farbe dargestellt
