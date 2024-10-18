@@ -33,7 +33,7 @@ Beispiele dafür:
 * Links im Fließtext sind außerdem unterstrichen, gefettet oder mit einem Symbol versehen
 * Der Status eines Attributs (z.B. verfügbar oder fehlerhaft) wird zusätzlich durch die Form des Symbols oder eine zusätzliche Beschriftung dargestellt
 * Inkorrekt oder noch nicht ausgefüllte Felder in Formularen werden zusätzlich über eine Fehlermeldung gekennzeichnet
-* Das Diagramm verwendet nicht nur Farben, sondern auch Symbole, Legenden oder verschiden gestrichelte Linien für die vergleichende Darstellung
+* Das Diagramm verwendet nicht nur Farben, sondern auch Symbole, Legenden oder verschieden gestrichelte Linien für die vergleichende Darstellung
 
 ==== 2.2 Prüfung der Tastaturfokus-Hervorhebung
 . Wenn die Fokushervorhebung ausschließlich über den Farbwechsel eines Elements geschieht (z.B. ändert sich die Hintergrundfarbe eine Schalters), 
