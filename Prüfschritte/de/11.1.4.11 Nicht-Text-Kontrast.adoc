@@ -67,6 +67,10 @@ Wenn bei grafischen Bedienelementen mit nebenstehendem Text der Textkontrast nic
 . Informationstragende Grafiken identifizieren, bei denen die Information nur über die Grafik und nicht (oder nicht ausreichend) über beigefügten Text vermittelt wird.
 . Wenn es in Bereichen der Grafik Farbverläufe gibt, Anteile mit einem Kontrast von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
 
+==== Prüfung des Kontrastes der Tastaturfokus-Hervorhebung
+. Wo der Tastaturfokus durch Farbwechsel hervorgehoben wird, prüfen, ob der Kontrast zum Hintergrund mindestens 3:1 beträgt.
+. Die Standard iOS und Android Tastaturfokus-Hervorhebung (hellgraue oder hellblaue Einfärbung des Hintergrunds) ist aufgrund der Ausnahme in der WCAG-Anforderung 1.4.11 ("except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author") als ausreichend zu bewerten.
+
 === 3. Hinweise
 
 ==== 3.1 Zur Identifizierung von nativen Bedienelementen, die von der Anforderung ausgenommen sind
