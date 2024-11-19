@@ -51,10 +51,7 @@ Hier lässt sich die Tastenwiederholung auch ganz abstellen.
 Der Prüfschritt ist deshalb nicht anwendbar.
 
 ==== Android
-. Unter Eingabehilfe > Interaktion und Geschicklichkeit > Anschlaggeschwindigkeit 
-die Funktion aktivieren und den Wert auf 2 Sekunden setzen.
-. Unter Eingabehilfe > Interaktion und Geschicklichkeit > Tastenanschlagfunktion 
-die Funktion aktivieren und den Wert auf 2 Sekunden setzen.
+. Unter System > Tastatur > Physische Tastatur > Bouncetasten den Schalter aktivieren (schnell aufeinanderfolgende Tasteneingaben innerhalb von 500 ms werden ignoriert) 
 . Texteingabefeld fokussieren
 . Einen Buchstaben der Tastatur länger drücken
 . Prüfen, ob die Eingabewiederholung erst nach 2 Sekunden einsetzt. 
