@@ -60,7 +60,7 @@ Damit ist klar, dass die App die Android-Betriebssystemeinstellung berücksichti
 Funktioniert die erneute Eingabe erst nach 2 Sekunden?
 
 === 3. Hinweise
-* Die Android-Funktion Eingabehilfe > Interaktion und Geschicklichkeit > Anschlaggeschwindigkeit 
+* Die Android-Funktion System > Tastatur > Physische Tastatur > Anschlagverzögerung 
 leistet etwas anderes als die in der Anforderung intendierte Funktion, 
 das Einsetzen der koninuierlichen Eingabe des gleichen Zeichens 
 bei längerem Drücken einer Taste zu verzögern. 
@@ -68,13 +68,6 @@ Die Verzögerung betrifft nämlich auch schon das initiale Drücken der Taste,
 was den Wert der Funktion sehr veringert. 
 Denn gezielte Tastatureingaben sollen ja nicht grundsätzlich verzögert werden, 
 sondern nur das Einsetzen der Wiederholung.
-* Die Android-Funktion Eingabehilfe > Interaktion und Geschicklichkeit > Tastenanschlagfunktion 
-leistet etwas anderes als die in der Anforderung intendierte Funktion, 
-die Frequenz der Eingabe bei Tastenwiederholung herabzusetzen. 
-Sie schafft nur eine Eingabeverzögerung bei erneutem Drücken der gleichen Taste, 
-nicht jedoch beim Halten der Taste. 
-Dieses führt (nach der unter Anschlaggeschwindigkeit eingestellten Vertzögerung) 
-zu einer unverändert schnellen fortgesetzten Eingabe des gleichen Zeichens.
 * Die Abweichungen der betriebssystemseitig möglichen Einstellungen 
 von der Intention der Anforderung sind der App nicht anzulasten. 
 Der Prüfschritt wäre nur dann nicht erfüllt, 
@@ -84,7 +77,7 @@ bei Texteingaben in der App nicht greifen würden.
 * Bei der Nutzung virtueller Tastaturen (Touch-Eingabe) unter iOS und Android 
 erfolgt keine Tastenwiederholung. 
 * Hinweis zu iOS: Ist bei Tastenwiederholung aktiviert, 
-funktioniert diese nur bei bestimmten Tasten , 
+funktioniert diese nur bei bestimmten Tasten, 
 z.B. bei den Zeichen `.`, `-` oder `/`, 
 nicht jedoch bei 0-9 und A-Z. Dies ist ein bekannter iOS-Bug.
 
@@ -96,14 +89,11 @@ nicht jedoch bei 0-9 und A-Z. Dies ist ein bekannter iOS-Bug.
 
 ==== Erfüllt (Android)
 * Für Android ist der Prüfschritt erfüllt, 
-wenn sich über die Funktionen Anschlaggeschwindigkeit und Tastenanschlagfunktion 
-Verzögerungen von jeweils 2 Sekunden einstellen lassen 
-und diese Einstellungen bei Texteingabefeldern der App greifen.
+wenn wenn die aktivierte Anschlagverzögerung bei Texteingabefeldern der App greift.
 
 ==== Nicht erfüllt (Android)
 * Für Android-Apps ist der Prüfschritt nicht erfüllt, 
-wenn eingestellte höhere Werte bei Anschlaggeschwindigkeit und Tastenanschlagfunktion
-bei Texteingabefeldern der App nicht greifen.
+wenn die aktivierte Anschlagverzögerung bei Texteingabefeldern der App nicht greifen.
 
 == Quellen
 
