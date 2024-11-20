@@ -62,13 +62,13 @@ Funktioniert die erneute Eingabe erst nach 2 Sekunden?
 === 3. Hinweise
 * Die Android-Funktion System > Tastatur > Physische Tastatur > Anschlagverzögerung 
 leistet etwas anderes als die in der Anforderung intendierte Funktion, 
-das Einsetzen der koninuierlichen Eingabe des gleichen Zeichens 
+das Einsetzen der kontinuierlichen Eingabe des gleichen Zeichens 
 bei längerem Drücken einer Taste zu verzögern. 
 Die Verzögerung betrifft nämlich auch schon das initiale Drücken der Taste, 
 was den Wert der Funktion sehr veringert. 
 Denn gezielte Tastatureingaben sollen ja nicht grundsätzlich verzögert werden, 
 sondern nur das Einsetzen der Wiederholung.
-* Die Abweichungen der betriebssystemseitig möglichen Einstellungen 
+* Die Abweichung von der betriebssystemseitig möglichen Einstellungen 
 von der Intention der Anforderung sind der App nicht anzulasten. 
 Der Prüfschritt wäre nur dann nicht erfüllt, 
 wenn betriebsystemseitige Einstellungen 
