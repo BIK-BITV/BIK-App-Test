@@ -29,7 +29,6 @@ Nicht anwendbar ist der Prüfschritt auf Fotos, Logos, Flaggen, Screenshots, Dia
 Ebenfalls nicht anwendbar ist der Prüfschritt auf inaktive Bedienelemente, also solche, die zustandsabhängig für die Interaktion nicht zur Verfügung stehen.
 
 Eine Ausnahme gilt für native Bedienelemente wie iOS toggle switches, da hier die _platform software_ (also das mobile Betriebssystem) für den Browser (_user agent_) steht, für dessen unveränderte Darstellung von Bedienelementen es in den Web-Anforderungen https://www.w3.org/TR/WCAG21/#x1-4-11-non-text-contrast[eine Ausnahme] gibt.
-Wir haben um Bestätigung dieser Position in einem bestehenden https://github.com/w3c/wcag2ict/issues/82[Issue bei der WCAG2ICT Taskforce] gebeten.
 
 === 2. Prüfung
 
