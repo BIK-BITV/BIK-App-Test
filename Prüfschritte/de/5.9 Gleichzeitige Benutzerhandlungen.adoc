@@ -21,7 +21,7 @@ Dies ist bei der Vielzahl der Eingabemöglichkeiten und Kombinationen von diesen
 
 Die Situation ist unterschiedlich für verschiedene Bedienungsmodi:
 
-* *Tastaturbedienung:* iOS hat unter Einstellungen > Bedienungshilfen > Tastaturen > Einfingerbedienung die Möglichkeit, simultane Tasteneingaben so aufzulösen, dass Sondertasten gesetzt werden können, ohne gleichzeitig andere Tasten gedrückt halten zu müssen ("sticky keys"). In manchen Umgebungen (Android mit Tastatur) ist zur Zeit keine Einfingerbedienung einstellbar. Auf die Einstellungsmöglichkeiten für Einfingerbedienung haben Entwickler keinen Einfluss.
+* *Tastaturbedienung:* Sowohl iOS als auch Android haben Einstellungen fpr die Einfingerbedienung und damit die Möglichkeit, simultane Tasteneingaben so aufzulösen, dass Sondertasten gesetzt werden können, ohne gleichzeitig andere Tasten gedrückt halten zu müssen ("sticky keys"). Auf die Einstellungsmöglichkeiten für Einfingerbedienung haben Entwickler keinen Einfluss.
 
 * *Touchbedienung:* Die gleichzeitige Eingabe über mehrere Berührungspunkte wird unter 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" geprüft - für Mehrfinger-Gesten muss es alternativ Einfinger-bedienbare Eingaben geben.
 
@@ -37,8 +37,7 @@ Menschen mit motorischen Einschränkungen haben oft Probleme, mehrere Aktionen z
 === 1. Anwendbarkeit des Prüfschritts
 
 Der Prüfschritt ist immer anwendbar. Bezüglich Tastasturbedienung wir dieser Prüfschritt nicht geprüft, 
-da Einstellungsmöglichkeiten für Einfingerbedienung (etwa Microsofts Einrastfunktion) Aufgabe des Betriebssystems sind und nicht auf der Ebene der App implementiert werden sollten. 
-Lücken in der Unterstützung sind als Mangel der Betriebssytemumgebung zu bewerten, die App-Entwickler nicht kompensieren können.
+da Einstellungsmöglichkeiten für Einfingerbedienung Aufgabe des Betriebssystems sind und nicht auf der Ebene der App implementiert werden sollten. 
 
 Komplexe Aktionen, die vom Betriebssystem oder einer Hilfsmittelfunktionen definiert sind (etwa der VoiceOver-Rotor, der über eine gegenläufige Drehbewegung mit zwei Fingern aufgerufen wird) fallen nicht unter diesen Prüfschritt.
 
