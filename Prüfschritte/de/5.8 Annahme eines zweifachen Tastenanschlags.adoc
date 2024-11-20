@@ -55,13 +55,12 @@ ob die Eingabe um den eingestellten Wert verzögert ist
 damit der entsprechende Buchstabe erscheint).
 
 ==== Android
-. Über die Einstellung Eingabehilfe > Interaktion und Geschicklichkeit > Tastenanschlagfunktion 
-die Funktion aktivieren und den Wert auf 2 Sekunden stellen
+. Über die Einstellung Bedienungshilfen > Bouncetasten die Funktion aktivieren 
 . In der App-Ansicht ein Textfeld fokussieren
 . Ein Wort mit unterschiedlichen Buchstaben eingeben. 
 Die Buchstaben sollten sofort erscheinen. 
 Wird der gleiche Buchstabe nach 0,5 Sekunden wiederholt, 
-erfolgt keine Eingabe, es greift die eingestellte Verzögerung. 
+erfolgt keine Eingabe, es greift die von Verzögerung 500 ms. 
 Eine erneute Eingabe des gleichen Buchstabens 
 erfolgt erst nach Ablauf der Verzögerung.
 
