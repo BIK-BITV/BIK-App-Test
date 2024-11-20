@@ -29,7 +29,6 @@ Nicht anwendbar ist der Prüfschritt auf Fotos, Logos, Flaggen, Screenshots, Dia
 Ebenfalls nicht anwendbar ist der Prüfschritt auf inaktive Bedienelemente, also solche, die zustandsabhängig für die Interaktion nicht zur Verfügung stehen.
 
 Eine Ausnahme gilt für native Bedienelemente wie iOS toggle switches, da hier die _platform software_ (also das mobile Betriebssystem) für den Browser (_user agent_) steht, für dessen unveränderte Darstellung von Bedienelementen es in den Web-Anforderungen https://www.w3.org/TR/WCAG21/#x1-4-11-non-text-contrast[eine Ausnahme] gibt.
-Wir haben um Bestätigung dieser Position in einem bestehenden https://github.com/w3c/wcag2ict/issues/82[Issue bei der WCAG2ICT Taskforce] gebeten.
 
 === 2. Prüfung
 
@@ -66,6 +65,10 @@ Wenn bei grafischen Bedienelementen mit nebenstehendem Text der Textkontrast nic
 
 . Informationstragende Grafiken identifizieren, bei denen die Information nur über die Grafik und nicht (oder nicht ausreichend) über beigefügten Text vermittelt wird.
 . Wenn es in Bereichen der Grafik Farbverläufe gibt, Anteile mit einem Kontrast von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
+
+==== 2.4 Prüfung des Kontrastes der Tastaturfokus-Hervorhebung
+. Wo der Tastaturfokus durch Farbwechsel von Elementen hervorgehoben wird (etwa bei Schaltern oder Icons), prüfen, ob der Kontrast des fokussierten Elements zum Hintergrund mindestens 3:1 beträgt.
+. Die Standard iOS und Android Tastaturfokus-Hervorhebung (hellgraue oder hellblaue Einfärbung des Hintergrunds) ist aufgrund der Ausnahme in der WCAG-Anforderung 1.4.11 ("except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author") als ausreichend zu bewerten.
 
 === 3. Hinweise
 
