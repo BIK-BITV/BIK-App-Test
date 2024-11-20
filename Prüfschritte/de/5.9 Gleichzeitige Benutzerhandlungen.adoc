@@ -21,7 +21,7 @@ Dies ist bei der Vielzahl der Eingabemöglichkeiten und Kombinationen von diesen
 
 Die Situation ist unterschiedlich für verschiedene Bedienungsmodi:
 
-* *Tastaturbedienung:* Sowohl iOS als auch Android haben Einstellungen fpr die Einfingerbedienung und damit die Möglichkeit, simultane Tasteneingaben so aufzulösen, dass Sondertasten gesetzt werden können, ohne gleichzeitig andere Tasten gedrückt halten zu müssen ("sticky keys"). Auf die Einstellungsmöglichkeiten für Einfingerbedienung haben Entwickler keinen Einfluss.
+* *Tastaturbedienung:* Sowohl iOS als auch Android haben Einstellungen für die Einfingerbedienung und damit die Möglichkeit, simultane Tasteneingaben so aufzulösen, dass Sondertasten gesetzt werden können, ohne gleichzeitig andere Tasten gedrückt halten zu müssen ("sticky keys"). Auf die Einstellungsmöglichkeiten für Einfingerbedienung haben Entwickler keinen Einfluss.
 
 * *Touchbedienung:* Die gleichzeitige Eingabe über mehrere Berührungspunkte wird unter 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" geprüft - für Mehrfinger-Gesten muss es alternativ Einfinger-bedienbare Eingaben geben.
 
