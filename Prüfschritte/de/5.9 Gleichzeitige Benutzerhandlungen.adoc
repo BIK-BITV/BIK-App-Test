@@ -43,7 +43,6 @@ Lücken in der Unterstützung sind als Mangel der Betriebssytemumgebung zu bewer
 Komplexe Aktionen, die vom Betriebssystem oder einer Hilfsmittelfunktionen definiert sind (etwa der VoiceOver-Rotor, der über eine gegenläufige Drehbewegung mit zwei Fingern aufgerufen wird) fallen nicht unter diesen Prüfschritt.
 
 === 2. Prüfung
-Wenn die Accessibility Baseline Umgebungen einschließt, die bei Tastaturnutzung keine Einfingerbedienung anbieten (Android):
 
 . Bezüglich der Prüfung von Aktionen bei der Toucheingabe wird das Ergebnis von 11.2.5.1 "Alternativen für komplexe Zeiger-Gesten" hierhin übertragen, wenn es Fehler durch den Einsatz von Mehrfingergesten ohne Einfinger-bedienbare Alternativen gibt.
 . Bedienung mit Toucheingabe überprüfen. Sind alle Funktionen mit Einfinger-Gesten aktivierbar, ohne das gleichzeitig Gerätetasten gedrückt oder das Gerät bewegt bzw. ausgerichtet werden muss?
