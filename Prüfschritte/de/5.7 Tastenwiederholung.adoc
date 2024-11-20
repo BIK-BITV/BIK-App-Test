@@ -51,16 +51,12 @@ Hier lässt sich die Tastenwiederholung auch ganz abstellen.
 Der Prüfschritt ist deshalb nicht anwendbar.
 
 ==== Android
-. Unter System > Tastatur > Physische Tastatur > Bouncetasten den Schalter aktivieren (schnell aufeinanderfolgende Tasteneingaben innerhalb von 500 ms werden ignoriert) 
+. Unter System > Tastatur > Physische Tastatur > Anschlagverzögerung aktivieren (Tasteneingaben erfolgen nun erst nach 500 ms) 
 . Texteingabefeld fokussieren
-. Einen Buchstaben der Tastatur länger drücken
-. Prüfen, ob die Eingabewiederholung erst nach 2 Sekunden einsetzt. 
-Damit ist klar, 
-dass die App die Android-Betriebssystemeinstellung berücksichtigt 
-(auch wenn die Verzögerung eigentlich erst 
-nach der Erst-Eingabe des Buchstabens starten sollte
-und nicht, wie bei Android, auch diese Ersteingabe um 2 Sekunden verzögert)
-. Den gleichen Buchstaben mehrfach drücken. 
+. Einen Buchstaben der Tastatur  drücken
+. Prüfen, ob der Buchstabe nach Verzögerung erscheint. 
+Damit ist klar, dass die App die Android-Betriebssystemeinstellung berücksichtigt.
+. Eine weitere Taste drücken. 
 Funktioniert die erneute Eingabe erst nach 2 Sekunden?
 
 === 3. Hinweise
