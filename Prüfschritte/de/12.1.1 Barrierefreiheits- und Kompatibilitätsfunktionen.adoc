@@ -13,6 +13,12 @@ Zur Dokumentation zählen auch Informationen zur Kompatibilität mit assistiven 
 etwa, wenn sich bestimmte Inhalte nur eingeschränkt 
 oder gar nicht mit bestimmten assistiven Technologien nutzen lassen.
 
+== Warum wird das geprüft?
+
+Wenn Angebote bestimmte Barrierefreiheitsfunktionen enthalten, 
+sollten diese gut dokumentiert sein, 
+denn manche Nutzende werden ohne ausdrückliche Hinweise diese Funktionen nicht erkennen oder verstehen können.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
