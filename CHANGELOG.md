@@ -4,7 +4,18 @@ Alle nennenswerten Änderungen des BIK BITV-Test Prüfverfahrens sind in dieser 
 Protokolls basiert auf dem [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)-Standard. Die Versionsnummern folgen
 den Konventionen des [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/BIK-BITV/BIK-App-Test/compare/v1.0.0...HEAD)
+## [Unreleased](https://github.com/BIK-BITV/BIK-App-Test/compare/v1.1.0...HEAD)
+
+## [v1.1.0](https://github.com/BIK-BITV/BIK-App-Test/compare/v1.0.0...v1.1.0) - 2025-01-01
+
+### Was hat sich getan?
+
+### Geändert
+
+- 11.1.4.4 Textgröße ändern: Formatierung @detlevhfischer (#169)
+- 11.4.1.3 Statusmeldungen: Typos @detlevhfischer (#161)
+- 5.7 Tastenwiederholung: Update (Android-Prüfung) @detlevhfischer (#172)
+- 5.7 Tastenwiederholung: Aktualisierung Prüfbeschreibung Android @detlevhfischer (#166)
 
 ## [v1.0.0](https://github.com/BIK-BITV/BIK-App-Test/compare/v0.1.2...v1.0.0) - 2024-10-01
 
