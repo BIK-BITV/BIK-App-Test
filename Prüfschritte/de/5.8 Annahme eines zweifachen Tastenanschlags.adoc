@@ -55,7 +55,7 @@ ob die Eingabe um den eingestellten Wert verzögert ist
 damit der entsprechende Buchstabe erscheint).
 
 ==== Android
-. Über die Einstellung Bedienungshilfen > Bouncetasten die Funktion aktivieren 
+. Über die Einstellung Bedienungshilfen > Bouncetasten die Funktion aktivieren (die Einstellung wird nur angezeigt, wenn eine externe Tastatur angeschlossen oder gekoppelt ist)
 . In der App-Ansicht ein Textfeld fokussieren
 . Ein Wort mit unterschiedlichen Buchstaben eingeben. 
 Die Buchstaben sollten sofort erscheinen. 
