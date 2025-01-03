@@ -14,6 +14,11 @@ zugänglich sein, sofern sie nicht in die App selbst integriert ist:
 Weitere ggf. nicht barrierefreie Versionen der Dokumentation werden nicht
 bewertet.
 
+== Warum wird das geprüft?
+
+Dokumentation kann wichtig sein, um die Nutzung einer App zu verstehen, 
+und soll deshalb genau wie die App selbst für alle Nutzenden barrierefrei umgesetzt sein.
+
 == Wie wird geprüft?
 
 === 1. Anwendbarkeit des Prüfschritts
