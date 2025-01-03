@@ -109,7 +109,8 @@ in der linken Spalte stehen die meist selbsterklärenden Produktbezeichnungen, i
   
 === Android
 
-* Android: https://developers.google.com/chart/interactive/docs/datatables_dataviews[DataTables und DataViews] (developers.google.com)
+* Android Developer Info: https://developers.google.com/chart/interactive/docs/datatables_dataviews[DataTables und DataViews]
+* Material Design: https://m2.material.io/components/data-tables[Data tables]
 
 == Einordnung des Prüfschritts
 
