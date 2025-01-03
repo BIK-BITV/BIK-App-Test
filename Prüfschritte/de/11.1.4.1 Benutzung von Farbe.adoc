@@ -64,26 +64,16 @@ Nicht als einfache Farbunterschiede gelten:
 ==== Abgrenzung zur Prüfung der Kontraste
 
 In diesem Prüfschritt geht es nicht um die Prüfung der Kontraste.
-Dies ist Aufgabe der Prüfkriterien
-ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend"]
-ifndef::env_embedded[]
-  <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten ausreichend>>
-endif::env_embedded[]
-und
-ifdef::env_embedded[11.1.4.11 "Kontraste von Grafiken und Bedienelementen ausreichend".]
-ifndef::env_embedded[]
-  <<11.1.4.11 Kontraste von Grafiken und Bedienelementen ausreichend.adoc#,11.1.4.11 Kontraste von Grafiken und Bedienelementen ausreichend>>.
-endif::env_embedded[]
+Dies ist Aufgabe der Prüfkriterien 11.1.4.3 "Kontrast (Minimum)" und 11.1.4.11 "Nicht-Text-Kontrast".
 
-Für Fließtext-Links gilt ein deutlicher Kontrast (mindestens 3,0:1) der Linkfarbe zur Farbe des umgebenden Textes , um diese Anforderung ausreichend zu erfüllen.
-Es ist dann keine zusätzliche Hervorhebung nötig.
-Für die Erfüllung von 9.1.4.3 Kontraste von Texten ausreichend muss jedoch gewährleistet sein, dass die Linkfarbe zum Hintergrund 4,5:1 erfüllt.
+Für Fließtext-Links gilt ein deutlicher Kontrast (mindestens 3,0:1) der Linkfarbe zur Farbe des umgebenden Textes, 
+um diese Anforderung ausreichend zu erfüllen. Es ist dann keine zusätzliche Hervorhebung nötig.
+Für die Erfüllung von 9.1.4.3 "Kontrast (Minimum)"  muss jedoch gewährleistet sein, dass die Linkfarbe zum Hintergrund 4,5:1 erfüllt.
 
-==== Abgrenzung zum Prüfschritt 11.1.3.3 "Ohne Bezug auf sensorische Merkmale nutzbar"
+==== Abgrenzung zum Prüfschritt 11.1.3.3 "Sensorische Eigenschaften"
 
 In diesem Prüfschritt geht es nicht um die Prüfung von Verweisen auf Seiteninhalte mit Hilfe der Angabe von Farben.
-Die sinnesunabhängige Bereitstellung von Verweisen auf Inhalte wird im
-Prüfschritt 11.1.3.3 "Sensorische Eigenschaften" geprüft.
+Die sinnesunabhängige Bereitstellung von Verweisen auf Inhalte wird im Prüfschritt 11.1.3.3 "Sensorische Eigenschaften" geprüft.
 
 ==== Abgrenzung zu fehlenden Hervorhebungen
 
