@@ -38,7 +38,7 @@ Beispiele dafür:
 ==== 2.2 Prüfung der Tastaturfokus-Hervorhebung
 . Wenn die Fokushervorhebung ausschließlich über den Farbwechsel eines Elements geschieht (z.B. ändert sich die Hintergrundfarbe eine Schalters), 
 prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt. 
-. Die unveränderte Standard Tastaturfokus-Hervorhebung von iOS und Android über die leichte graue oder blaue Einfärbung des Hintergrunds hat einen unzureichenden Kontrastabstand zum unfokussierten Zustand. Sie ist aber als ausreichend zu bewerten, da für unveränderte Elemente und deren Zustände (einschließlich Fokus) eine Ausnahme in der Anforderung 11.1.4.11 Nicht-Text Kontraste besteht.
+. Die unveränderte Standard Tastaturfokus-Hervorhebung von iOS und Android über die leichte graue oder blaue Einfärbung des Hintergrunds hat einen unzureichenden Kontrastabstand zum unfokussierten Zustand. Sie ist aber als ausreichend zu bewerten, da für unveränderte Elemente und deren Zustände (einschließlich Fokus) eine Ausnahme in der Anforderung 11.1.4.11 Nicht-Text Kontrast besteht.
 
 === 3. Hinweise
 Nicht als einfache Farbunterschiede gelten:
@@ -83,12 +83,7 @@ Für die Erfüllung von 9.1.4.3 Kontraste von Texten ausreichend muss jedoch gew
 
 In diesem Prüfschritt geht es nicht um die Prüfung von Verweisen auf Seiteninhalte mit Hilfe der Angabe von Farben.
 Die sinnesunabhängige Bereitstellung von Verweisen auf Inhalte wird im
-Prüfschritt
-ifdef::env_embedded[11.1.3.3 "Ohne Bezug auf sensorische Merkmale nutzbar"]
-ifndef::env_embedded[]
-  <<11.1.3.3 Ohne Bezug auf sensorische Merkmale nutzbar.adoc#,11.1.3.3 Ohne Bezug auf sensorische Merkmale nutzbar>>
-endif::env_embedded[]
-geprüft.
+Prüfschritt 11.1.3.3 "Sensorische Eigenschaften" geprüft.
 
 ==== Abgrenzung zu fehlenden Hervorhebungen
 
