@@ -40,6 +40,8 @@ Der Name identifiziert und bezeichnet ein Element näher. Nutzende von Sprachein
 
 Beispiele für Rollen sind u.a. "Taste" bzw. "Schalter" oder "Schaltfläche", "Eingabefeld" bzw. "Bearbeitungsfeld", "Suchfeld", "Ausklappliste", und "Markierungsfeld" bzw. "Kästchen".
 
+Verglichen mit dem Web ist die Anzahl der verfügbaren Rollen in nativen Apps geringer. Nicht jede interaktive Element verlangt die Ausgabe einer Rolle. 
+
 Der Wert beschreibt z.B. den Inhalt des Bedienelements z.B. "Müller" bei einem Eingabefeld für Nachnamen. Er vermittelt aber auch den Zustand eines Elements (sofern es unterschiedliche Zustände haben kann), z.B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
 
 ==== Einstellungen für die Prüfung mit VoiceOver / iOS
@@ -69,6 +71,7 @@ Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom
 * Apple Developer SwiftUI: https://developer.apple.com/documentation/swiftui/accessibilitytraits[AccessibilityTraits]
 
 === Android
+* Graeme Coleman, Tetralogical blog (07/2022): https://tetralogical.com/blog/2022/07/07/android-accessibility-roles-and-talkback/[Android accessibility: roles and TalkBack]
 * Android Developers: https://developer.android.com/guide/topics/ui/accessibility/apps[Make apps more accessible]
 * Android Developers: https://developer.android.com/reference/android/accessibilityservice/package-summary[android.accessibilityservice]
 * Medium article: https://medium.com/google-developer-experts/state-descriptions-on-android-b2029283871f[State Descriptions on Android]
