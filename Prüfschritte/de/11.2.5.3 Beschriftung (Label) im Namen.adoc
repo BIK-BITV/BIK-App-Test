@@ -41,8 +41,10 @@ In diesen Fällen ist es für den Spracheingabe-Nutzer unklar, welche Elemente a
 die nicht Teil des zugänglichen Namens sind, 
 zum Beispiel die Rolle des Bedienelements oder eine zusätzliche Beschreibung). 
 Dies ist kein Fehler.
-* Der zugängliche Name des Bedienelements kann zusätzlichen Text enthalten, 
+* Nach WCAG kann der zugängliche Name des Bedienelements zusätzlichen Text enthalten, 
 aber die Zeichenkette der Beschriftung sollte in der gleichen Form in der Zeichenkette des zugänglichen Namens enthalten sein.
+Aus praktischer Sicht ist es jedoch so, dass zugängliche Namen, die zusätzlichen Text enthalten, bei der Spracheingabe ggf. nicht funktionieren. 
+Sie sollten deshalb möglichst vermieden werden.
 * Bei den mobilen Apps kann nur ein Test mittels Screenreader Aufschluss über den hinterlegten zugänglichen Namen geben.
 * Grenzfälle sind Hinzufügungen bei visuellen Beschriftungen, 
 die nicht eigentlich als Teil des zugänglichen Namens zu werten sind, 
@@ -74,6 +76,7 @@ Bei Schriftgrafiken, deren Text nicht direkt vom Screenreader erfasst werden kan
 
 === iOS
 * Der `accessibilityInputLabels()` Modifier  kann dazu verwendet werden, bei Bedienelementen weitere Labels zu hinterlegen, die Nutzenden der Funktion Sprachsteuerung as Aktivieren von Elementen erleichtern - z.B. Synonyme oder kürzere Ausdrücke bei längeren sichtbaren Labeln. Siehe _Hacking with Swift_: https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-custom-activation-commands-for-voice-control[How to add custom activation commands for Voice Control]
+* Eric Bailey, Smashing Magazine: Voice Control Usability Considerations For Partially Visually Hidden Link Names[https://www.smashingmagazine.com/2022/06/voice-control-usability-considerations-partially-visually-hidden-link-names/]
 
 == Einordnung des Prüfschritts
 
