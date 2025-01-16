@@ -50,7 +50,7 @@ Beispiele für Rollen sind u.a. "Taste" bzw. "Schalter" oder "Schaltfläche", "E
 
 Verglichen mit dem Web ist die Anzahl der verfügbaren Rollen in nativen Apps geringer. 
 Nicht jede interaktive Element verlangt die Ausgabe einer Rolle. 
-Bei korrekter Nutzung nativer Elemente (z.B. `item` in Android)
+Bei korrekter Nutzung nativer Elemente (z.B. ``item`` in Android)
 wird jedoch automatisch ein Hinweis zur Aktivierung ausgegeben (z.B. "zum Answählen doppeltippen").
 
 Der Wert beschreibt z.B. den Inhalt des Bedienelements z.B. "Müller" bei einem Eingabefeld für Nachnamen. 
