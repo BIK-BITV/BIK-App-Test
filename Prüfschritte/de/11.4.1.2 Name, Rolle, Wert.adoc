@@ -24,7 +24,11 @@ Werden keine Standardelemente genutzt und die Bedienelemente selbst gebaut (etwa
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwicklerinnen und Entwicklern selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert und aktiviert werden, um festzustellen, ob die jeweiligen Namen, Rollen und Werte vom Screenreader ausgegeben und auch Zustandsänderungen richtig kommuniziert werden.
+Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. 
+Aus Sicht der prüfenden Person ist nicht immer zu erkennen, 
+ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwicklerinnen und Entwicklern selbst definiert wurden. 
+Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert und aktiviert werden, 
+um festzustellen, ob die passende Namen, Rollen und Werte vom Screenreader ausgegeben und auch Zustandsänderungen richtig kommuniziert werden.
 
 === 2. Prüfung
 
@@ -32,23 +36,33 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes interaktive Element setzen.
-. Prüfen, ob der Name, die Rolle und der Wert des Bedienelements vom Screenreader korrekt ausgegeben wird (siehe auch "3. Hinweise").
+. Prüfen, ob der Name, wo möglich die Rolle, und wo vorhanden der Wert des Bedienelements vom Screenreader korrekt ausgegeben werden (siehe auch "3. Hinweise").
 . Gegebenenfalls prüfen, ob der geänderte Wert des Elements (Zustand) nach Eingabe korrekt ausgegeben wird.
 
 === 3. Hinweise
-Der Name identifiziert und bezeichnet ein Element näher. Nutzende von Spracheingabe-Software können beispielsweise eine Schaltfläche mit Hilfe des zugänglichen Namens (der Beschriftung) gezielt ansprechen und bedienen. Ein Screenreader gibt den zugänglichen Namen aus, wenn er das Element fokussiert. Er ist meist gleichlautend mit dem Label des Bedienelements. z.B. "Nachname" für ein Eingabefeld.
+Der Name identifiziert und bezeichnet ein Element näher. Nutzende von Spracheingabe-Software
+können beispielsweise eine Schaltfläche mit Hilfe des zugänglichen Namens (der Beschriftung) gezielt ansprechen und bedienen. 
+Ein Screenreader gibt den zugänglichen Namen aus, wenn er das Element fokussiert. 
+Er ist oft gleichlautend mit der sichtbaren Beschriftung (bzw. dem Label) des Bedienelements. z.B. "Nachname" für ein Eingabefeld.
 
-Beispiele für Rollen sind u.a. "Taste" bzw. "Schalter" oder "Schaltfläche", "Eingabefeld" bzw. "Bearbeitungsfeld", "Suchfeld", "Ausklappliste", und "Markierungsfeld" bzw. "Kästchen".
+Beispiele für Rollen sind u.a. "Taste" bzw. "Schalter" oder "Schaltfläche", "Eingabefeld" bzw. 
+"Bearbeitungsfeld", "Suchfeld", "Ausklappliste", und "Markierungsfeld" bzw. "Umschalttaste".
 
-Verglichen mit dem Web ist die Anzahl der verfügbaren Rollen in nativen Apps geringer. Nicht jede interaktive Element verlangt die Ausgabe einer Rolle. 
+Verglichen mit dem Web ist die Anzahl der verfügbaren Rollen in nativen Apps geringer. 
+Nicht jede interaktive Element verlangt die Ausgabe einer Rolle. 
+Bei korrekter Nutzung nativer Elemente (z.B. `item` in Android)
+wird jedoch automatisch ein Hinweis zur Aktivierung ausgegeben (z.B. "zum Answählen doppeltippen").
 
-Der Wert beschreibt z.B. den Inhalt des Bedienelements z.B. "Müller" bei einem Eingabefeld für Nachnamen. Er vermittelt aber auch den Zustand eines Elements (sofern es unterschiedliche Zustände haben kann), z.B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
+Der Wert beschreibt z.B. den Inhalt des Bedienelements z.B. "Müller" bei einem Eingabefeld für Nachnamen. 
+Er vermittelt aber auch den Zustand eines Elements (sofern es unterschiedliche Zustände haben kann), 
+z.B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
 
 ==== Einstellungen für die Prüfung mit VoiceOver / iOS
 
 Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
-- iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
+- iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung.
+(Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
 
 - iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern.
 
