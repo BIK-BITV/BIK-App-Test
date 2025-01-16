@@ -76,7 +76,7 @@ Bei Schriftgrafiken, deren Text nicht direkt vom Screenreader erfasst werden kan
 
 === iOS
 * Der `accessibilityInputLabels()` Modifier  kann dazu verwendet werden, bei Bedienelementen weitere Labels zu hinterlegen, die Nutzenden der Funktion Sprachsteuerung as Aktivieren von Elementen erleichtern - z.B. Synonyme oder kürzere Ausdrücke bei längeren sichtbaren Labeln. Siehe _Hacking with Swift_: https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-custom-activation-commands-for-voice-control[How to add custom activation commands for Voice Control]
-* Eric Bailey, Smashing Magazine: Voice Control Usability Considerations For Partially Visually Hidden Link Names[https://www.smashingmagazine.com/2022/06/voice-control-usability-considerations-partially-visually-hidden-link-names/]
+* Eric Bailey, Smashing Magazine: https://www.smashingmagazine.com/2022/06/voice-control-usability-considerations-partially-visually-hidden-link-names/[Voice Control Usability Considerations For Partially Visually Hidden Link Names]
 
 == Einordnung des Prüfschritts
 
