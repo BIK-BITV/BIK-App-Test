@@ -29,7 +29,9 @@ Die von mobilen Betriebssystemen vorgesehene Kennzeichnung des Tastaturfokus ist
 
 * iOS: Die Standard-Hervorhebung von über Tabulator erreichbaren Bereichen ist recht gut (deutlicher blauer Rahmen),
 bei über Pfeiltasten erreichbaren Einträgen innerhalb fokussierter Bereiche ist die Hervorhebung aber schlecht:
-hellblau auf weiß mit einem sehr geringen Kontrast von nur 1,2:1. In den Bedienungshilfen-Einstellungen von iOS lässt sich jedoch unter "Tastaturen und Texteingabe" > "Tastatursteuerung" die Option "Hoher Kontrast" einstellen. Damit werden alle Elemente, die überhaupt den Tastaturfokus bekommen, sehr deulich über dicke schwarze Umrandung hervorgehoben. 
+hellblau auf weiß mit einem sehr geringen Kontrast von nur 1,2:1. 
+In den Bedienungshilfen-Einstellungen von iOS lässt sich jedoch unter "Tastaturen und Texteingabe" > "Tastatursteuerung" die Option "Hoher Kontrast" einstellen. 
+Damit werden alle Elemente, die überhaupt den Tastaturfokus bekommen, sehr deulich über dicke schwarze Umrandung hervorgehoben. 
 
 * Android: Die Standard-Hervrhebung ist hellgrau auf weiß  mit einem sehr geringen Kontrast von nur 1,2:1.
 
