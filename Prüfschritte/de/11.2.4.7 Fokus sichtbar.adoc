@@ -56,9 +56,7 @@ Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
 
 === 3. Hinweise
 ==== 3.1 Allgemeine Hinweise
-* Falls das Betriebssystem Einstellungen zur verbesserten Sichtbarkeit der Fokushervorhebung bietet,
-sollten diese deaktiviert sein, denn viele Nutzende kennen diese Einstellungen nicht.
-
+* Es kann davon ausgegangen werden, dass sehbehinderte Tastaturnutzende betriebssystemseitige Einstellungen zu verbesserten Darstellung des Tastaturfokus (wo vorhanden)  nutzen, wenn die Standardhervorhebung für sie nicht ausreichend ist. In iOS wird die Option "Hoher Kontrast" an der gleichen Stelle geboten, wo überhaupt die Tastatursteurung aktiviert wird.
 * Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturfokus sichtbar ist.
 Dann ist eventuell auch Prüfschritt
 ifdef::env_embedded[11.2.1.1 "Tastaturbedienung"]
