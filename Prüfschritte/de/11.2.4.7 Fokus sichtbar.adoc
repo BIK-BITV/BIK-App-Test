@@ -24,11 +24,8 @@ Wenn eine App ausschließlich per Tastatur bedient wird, muss das fokussierte Be
 Die von mobilen Betriebssystemen vorgesehene Standard-Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar:
 
 === iOS
-* Die Standard-Hervorhebung von über Tabulator erreichbaren Bereichen ist recht gut (deutlicher farbiger Rahmen),
-bei über Pfeiltasten erreichbaren Einträgen innerhalb fokussierter Bereiche ist die Hervorhebung aber schlecht:
-hellblau auf weiß mit einem sehr geringen Kontrast von nur 1,2:1. 
-* In den Bedienungshilfen-Einstellungen von iOS lässt sich jedoch unter "Tastaturen und Texteingabe" > "Tastatursteuerung" die Option "Hoher Kontrast" einstellen. 
-Damit werden alle Elemente, die überhaupt den Tastaturfokus bekommen, sehr deulich über dicke schwarze Umrandung hervorgehoben. 
+* Die Standardhervorhebung für per Tabulator erreichbare Bereiche ist meist gut erkennbar (deutlicher farbiger Rahmen). Bei Einträgen, die innerhalb eines fokussierten Bereichs per Pfeiltasten navigiert werden, ist die Hervorhebung jedoch schlecht: hellblau auf weiß mit einem sehr geringen Kontrast von nur 1,2:1.
+* In den iOS-Bedienungshilfen unter "Tastaturen und Texteingabe" > "Tastatursteuerung" kann die Option "Hoher Kontrast" aktiviert werden. Dadurch erhalten alle Elemente mit Tastaturfokus eine gut sichtbare, dicke schwarze Umrandung.
 
 === Android
 * Die Standard-Hervrhebung ist hellgrau auf weiß oder ein leichte Abdunkelung auf Elementen mit egenem farbigen Hintergrund. Das Resultat ist ein sehr geringer Kontrast von etwa 1,2:1.
