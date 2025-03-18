@@ -17,12 +17,9 @@ iOS bietet die Möglichkeit, die Fokushervorhebung durchgängig deutlich darzust
 
 == Warum wird das geprüft?
 
-Für Tastaturbenutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, 
-welches Bedienelement also ausgelöst wird, wenn es aktiviert wird (z.B. über ENTER oder Leertaste) 
-oder welches Element Ausgangspunkt einer Pfeiltasten-Auswahl wird (etwa bei tab panels oder Auswahllisten).
+Für Tastaturbenutzende ist es wichtig, den aktuellen Tastaturfokus klar zu erkennen – also zu sehen, welches Bedienelement bei Aktivierung (z. B. mit Enter oder der Leertaste) ausgelöst wird oder welches Element als Ausgangspunkt für eine Navigation per Pfeiltasten dient, etwa in Tab-Panels oder Auswahllisten.
 
-Wenn Apps allein durch die Tastatur bedient werden, muss das fokussierte Bedienelement hervorgehoben sein. 
-Eine Tastaturbedienung ist für visuelle Nutzer sonst kaum möglich.
+Wenn eine App ausschließlich per Tastatur bedient wird, muss das fokussierte Bedienelement klar hervorgehoben sein – andernfalls ist die Navigation für visuelle Nutzer kaum möglich.
 
 Die von mobilen Betriebssystemen vorgesehene Standard-Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar:
 
