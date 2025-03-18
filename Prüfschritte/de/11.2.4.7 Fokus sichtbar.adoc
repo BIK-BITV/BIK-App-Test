@@ -5,7 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Werden Bedienelementen mit der Tastatur fokussiert, dann soll es einen sichtbaren Tastaturfokus-Indikator geben.
-Es wird also in diesem Prüfschritt  nur geprüft, ob überhaupt eine Tastatur-Fokushervorhebung sichtbar ist - nicht, ob diese ausreichend kontrastreich ist. 
+Es wird also in diesem Prüfschritt  nur geprüft, ob überhaupt eine Tastatur-Fokushervorhebung sichtbar ist - nicht, ob dieser ausreichend kontrastreich ist. 
 
 Wenn Fokussierung durch eine Entwickler-gesteuerte Hervorhebung, z.B. die Änderung der Farbe einer Schaltfläche bei Fokussierung, angezeigt wird, 
 soll der Kontrast der Hervorhebung und der Kontrastunterschied zwischen fokussiertem und nicht fokussiertem Zustand mindestens 3:1 betragen. 
