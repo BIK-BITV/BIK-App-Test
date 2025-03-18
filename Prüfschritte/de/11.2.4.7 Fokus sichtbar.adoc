@@ -4,16 +4,16 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Werden Bedienelementen mit der Tastatur fokussiert, dann soll es einen sichtbaren Tastaturfokus-Indikator geben.
-Es wird also in diesem Prüfschritt  nur geprüft, ob überhaupt eine Tastatur-Fokushervorhebung sichtbar ist - nicht, ob dieser ausreichend kontrastreich ist. 
+Werden Bedienelementen mit der Tastatur fokussiert, muss ein sichtbarer Tastaturfokus-Indikator vorhanden sein.
+In diesem Prüfschritt wird lediglich geprüft, ob eine Fokushervorhebung sichtbar ist – nicht, ob sie ausreichend kontrastreich ist. 
 
-Wenn Fokussierung durch eine Entwickler-gesteuerte Hervorhebung, z.B. die Änderung der Farbe einer Schaltfläche bei Fokussierung, angezeigt wird, 
-soll der Kontrast der Hervorhebung und der Kontrastunterschied zwischen fokussiertem und nicht fokussiertem Zustand mindestens 3:1 betragen. 
-Dies wird jedoch im Prüfschritt 11.1.4.11 Nicht-Text Kontrast bewertet.
+Wenn die Fokussierung durch eine vom Entwickler gesteuerte Hervorhebung angezeigt wird, beispielsweise durch eine Farbänderung einer Schaltfläche, 
+muss der Kontrast dieser Hervorhebung und der Unterschied zwischen fokussiertem und nicht fokussiertem Zustand mindestens 3:1 betragen.  
+Die Bewertung dieses Kontrasts erfolgt jedoch im Prüfschritt 11.1.4.11 Nicht-Text Kontrast.
 
-Wird eine unveränderte Systemfokushervorhebung durchgängig genutzt (meist eine farbiger Rahmen oder hellgraue oder hellblaue kontrastarme Einfärbung des Hintergrunds oder des Elements), gilt dieser Prüfschritt als erfüllt, denn bezüglich Kontrast gibt es eine Ausnahme im Erfolgskriterium 1.4.11 (Nicht-Text Kontrast) für native Elemente: "except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author". Für Apps ist statt "user agent" das Betriebssystem (iOS oder Android) die zuständige Plattform.
+Wird die unveränderte Systemfokushervorhebung durchgängig genutzt – meist ein farbiger Rahmen oder eine kontrastarme Einfärbung des Hintergrunds oder des Elements in Hellgrau oder Hellblau – gilt dieser Prüfschritt als erfüllt. Hintergrund ist eine Ausnahme im Erfolgskriterium 1.4.11 (Nicht-Text Kontrast) für native Elemente: "except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author". Bei Apps bezieht sich „user agent“ auf das jeweilige Betriebssystem, also iOS oder Android.
 
-iOS bietet die Möglichkeit, die Fokushervorhebung durchgängig deutlich darzustellen ( Tastatursteuerung: Hoher Kontrast).
+iOS bietet die Möglichkeit, die Fokushervorhebung durchgängig deutlich darzustellen (Tastatursteuerung: Hoher Kontrast).
 
 == Warum wird das geprüft?
 
