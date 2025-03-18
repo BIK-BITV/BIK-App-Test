@@ -50,7 +50,7 @@ mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren. Gg
 Versteckte Sprunglinks (wo vorhanden) sollen bei Fokuserhalt eingeblendet werden.
 
 === 3. Hinweise
-Der Screenreader-Fokus sollte bei der Beurteilung der Tastaturfokus-Hervorhebung nicht berücksichtigt werden. Die Prüfung erfolgt mit verbundener Tastatur und ausgeschaltetem Screenreader.
+Der Screenreader-Fokus sollte bei der Beurteilung der Tastaturfokus-Hervorhebung nicht berücksichtigt werden. Die Prüfung erfolgt mit angeschlossener Tastatur und ausgeschaltetem Screenreader.
 
 === 4. Bewertung
 
