@@ -56,7 +56,7 @@ Der Screenreader-Fokus sollte bei der Beurteilung der Tastaturfokus-Hervorhebung
 
 ==== Erfüllt:
 * Wird nur die native Fokushervorhebung genutzt, ist der Prüfschritt auch erfüllt, wenn die Hervorhebung schwach ist (z.B. hellgraue oder hellblaue Einfärbung), der Kontrast also unter 3:1 liegt.
-* Wird eien vom Entwickler definierte Hervorhebung eingesezt, soll diese einen Kontrast zum Hintergrund von mindestens 3:1 erfüllen. Bewertet wird dies jedoch im Prüfschritt 11.1.4.11 Nicht-Text Kontrast. Wird eine Hervorhebung nur über Änderung der Farbe ungesetzt, ist dies zusätzlich im Prüfschritt 9.1.4.1 Ohne Farben nutzbar zu prüfen und zu bewerten.
+* Wird eien vom Entwickler definierte Hervorhebung eingesezt, soll diese einen Kontrast zum Hintergrund von mindestens 3:1 erfüllen. Bewertet wird dies jedoch im Prüfschritt <<11.1.4.11 Nicht-Text-Kontrast.adoc#,11.1.4.11 Nicht-Text Kontrast>>. Wird eine Hervorhebung nur über Änderung der Farbe ungesetzt, ist dies zusätzlich im Prüfschritt <<11.1.4.1 Benutzung von Farbe.adoc#,11.1.4.1 Benutzung von Farbe>> zu prüfen und zu bewerten.
 
 ==== Nicht erfüllt
 * Der Prüfschritt ist nicht erfüllt, wenn auf einem interaktiven Element überhaupt kein Tastaturfokus sichtbar ist. 
