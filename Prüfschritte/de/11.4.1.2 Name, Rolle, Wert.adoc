@@ -49,7 +49,7 @@ Beispiele für Rollen sind u.a. "Taste" bzw. "Schalter" oder "Schaltfläche", "E
 "Bearbeitungsfeld", "Suchfeld", "Ausklappliste", und "Markierungsfeld" bzw. "Umschalttaste".
 
 Verglichen mit dem Web ist die Anzahl der verfügbaren Rollen in nativen Apps geringer. 
-Nicht jede interaktive Element verlangt zwingend die Ausgabe einer Rolle. 
+Nicht jedes interaktive Element verlangt zwingend die Ausgabe einer Rolle. 
 Bei korrekter Nutzung nativer Elemente (z.B. ``item`` in Android)
 werden jedoch bei aktiviertem Screenreader automatisch Hinweise zur Aktivierung ausgegeben (z.B. "zum Auswählen doppeltippen") 
 - wenn "Nutzungshinweise vorlesen" in den TalkBack-Einstellungen unter "Ausführlichkeit" aktiviert ist.
