@@ -48,7 +48,7 @@ In der Praxis kann zusätzlicher Text jedoch ggf. dazu führen, dass die Sprache
 * Grenzfälle sind Hinzufügungen bei visuellen Beschriftungen, 
 die nicht eigentlich als Teil des zugänglichen Namens zu werten sind, 
 etwa wenn in einer Logo-Grafik ein zusätzlicher werbender Text enthalten ist. 
-Ein weiteres Beispiel wären Hinzufügungen zu Beschriftungen wie (erforderlich) oder (falls abweichend).
+Ein weiteres Beispiel wären Hinzufügungen zu Beschriftungen wie "(erforderlich)" oder "(falls abweichend)".
 Für Sprachsteuerungs-Nutzende ist die Einbeziehung solcher Texte nicht hilfreich. 
 * In anderen Fällen sind Teile der Beschriftung, 
 wie etwa der Text "(erforderlich)" nach Eingabefeld-Beschriftungen, 
