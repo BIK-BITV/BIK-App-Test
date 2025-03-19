@@ -43,8 +43,7 @@ zum Beispiel die Rolle des Bedienelements oder eine zusätzliche Beschreibung).
 Dies ist kein Fehler.
 * Nach WCAG kann der zugängliche Name des Bedienelements zusätzlichen Text enthalten, 
 aber die Zeichenkette der Beschriftung sollte in der gleichen Form in der Zeichenkette des zugänglichen Namens enthalten sein.
-Aus praktischer Sicht ist es jedoch so, dass zugängliche Namen, die zusätzlichen Text enthalten, bei der Spracheingabe ggf. nicht funktionieren. 
-Sie sollten deshalb möglichst vermieden werden.
+In der Praxis kann zusätzlicher Text jedoch ggf. dazu führen, dass die Spracheingabe nicht zuverlässig funktioniert. Daher sollte er möglichst vermieden werden.
 * Bei den mobilen Apps kann nur ein Test mittels Screenreader Aufschluss über den hinterlegten zugänglichen Namen geben.
 * Grenzfälle sind Hinzufügungen bei visuellen Beschriftungen, 
 die nicht eigentlich als Teil des zugänglichen Namens zu werten sind, 
