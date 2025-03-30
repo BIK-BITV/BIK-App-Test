@@ -42,8 +42,8 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 === 3. Hinweise
 Der Name identifiziert und bezeichnet ein Element näher. Nutzende von Spracheingabe-Software
 können beispielsweise eine Schaltfläche mit Hilfe des zugänglichen Namens (der Beschriftung) gezielt ansprechen und bedienen. 
-Ein Screenreader gibt den zugänglichen Namen aus, wenn er das Element fokussiert. 
-Er ist oft gleichlautend mit der sichtbaren Beschriftung (bzw. dem Label) des Bedienelements. z.B. "Nachname" für ein Eingabefeld.
+Ein Screenreader gibt den zugänglichen Namen aus, wenn das Element fokussiert wird. 
+Er ist oft gleichlautend mit der sichtbaren Beschriftung (bzw. dem Label) des Bedienelements, z.B. "Nachname" für ein Eingabefeld.
 
 Beispiele für Rollen sind u.a. "Taste" bzw. "Schalter" oder "Schaltfläche", "Eingabefeld" bzw. 
 "Bearbeitungsfeld", "Suchfeld", "Ausklappliste", und "Markierungsfeld" bzw. "Umschalttaste".
@@ -54,7 +54,7 @@ Bei korrekter Nutzung nativer Elemente (z.B. ``item`` in Android)
 werden jedoch bei aktiviertem Screenreader automatisch Hinweise zur Aktivierung ausgegeben (z.B. "zum Auswählen doppeltippen") 
 - wenn "Nutzungshinweise vorlesen" in den TalkBack-Einstellungen unter "Ausführlichkeit" aktiviert ist.
 
-Der Wert beschreibt z.B. den Inhalt des Bedienelements z.B. "Müller" bei einem Eingabefeld für Nachnamen. 
+Der Wert beschreibt z.B. den Inhalt des Bedienelements, z.B. "Müller" bei einem Eingabefeld für Nachnamen. 
 Er vermittelt aber auch den Zustand eines Elements (sofern es unterschiedliche Zustände haben kann), 
 z.B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
 
@@ -63,7 +63,7 @@ z.B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Ch
 Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
 - iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung.
-(Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
+(Diese Funktion wird nur seit iPhone XS/XR-Modellen unterstützt).
 
 - iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern.
 
@@ -71,7 +71,7 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
 ==== Nicht erfüllt:
 
-Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom Controls) umgesetzt, auf eine Nachbildung der Semantik für die Barrierefreiheitsschnittstellen des Systems, wurde verzichtet. Name, Rolle, Wert werden vom Screenreader nicht korrekt ausgegeben.
+Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom Controls) umgesetzt, auf eine Nachbildung der Semantik für die Barrierefreiheitsschnittstellen des Systems wurde verzichtet. Name, Rolle bzw., wo vorhanden, Wert werden vom Screenreader nicht korrekt ausgegeben.
 
 == Quellen
 
