@@ -4,35 +4,31 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Werden Bedienelementen mit der Tastatur fokussiert, 
-dann soll sich der Tastaturfokus-Indikator deutlich vom Hintergrund abheben (mindestens 3:1 Kontrastabstand).
-Der Fokus-Indikator muss außerdem einen Kontrastunterschied von mindestens 3:1 zwischen fokussiertem und nicht fokussiertem Zustand haben. 
-Meist ist das einfach der Kontrast zwischen dem Fokus-Indikator und dem Hintergrund. 
-Wenn jedoch die Fokussierung durch die Änderung der Farbe einer Schaltfläche angezeigt wird, 
-ist es der Kontrast zwischen der Farbe der Fläche im fokussierten und im nicht fokussierten Zustand. 
+Werden Bedienelemente mit der Tastatur fokussiert, muss ein sichtbarer Tastaturfokus-Indikator vorhanden sein.
+In diesem Prüfschritt wird lediglich geprüft, ob eine Fokushervorhebung sichtbar ist – nicht, ob sie ausreichend kontrastreich ist. 
 
-Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
+Wenn die Fokussierung durch eine vom Entwickler definierte Hervorhebung angezeigt wird, beispielsweise durch die Farbänderung einer Schaltfläche, 
+muss der Kontrast dieser Hervorhebung und der Unterschied zwischen fokussiertem und nicht fokussiertem Zustand mindestens 3:1 betragen.  
+Die Bewertung dieses Kontrasts erfolgt jedoch im Prüfschritt 11.1.4.11 Nicht-Text Kontrast.
+
+Wird die unveränderte Systemfokushervorhebung durchgängig genutzt – meist ein farbiger Rahmen oder eine kontrastarme Einfärbung des Hintergrunds oder des Elements in Hellgrau oder Hellblau – gilt dieser Prüfschritt als erfüllt. Hintergrund ist eine Ausnahme im WCAG-Erfolgskriterium 1.4.11 (Nicht-Text Kontrast) für native Elemente: "...except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author". Bei Apps bezieht sich „user agent“ auf das jeweilige Betriebssystem, also iOS oder Android.
+
+iOS bietet die Möglichkeit, die Fokushervorhebung durchgängig deutlich darzustellen (Tastatursteuerung: Hoher Kontrast).
 
 == Warum wird das geprüft?
 
-Für Tastaturbenutzende ist es wichtig, zu sehen, wo sich der Tastaturfokus gerade befindet, 
-welches Bedienelement also ausgelöst wird, wenn es aktiviert wird (z.B. über ENTER oder Leertaste) 
-oder welches Element Ausgangspunkt einer Pfeiltasten-Auswahl wird (etwa bei tab panels oder Auswahllisten).
+Für Tastaturbenutzende ist es wichtig, den aktuellen Tastaturfokus klar zu erkennen – also zu sehen, welches Bedienelement bei Aktivierung (z. B. mit Enter oder der Leertaste) ausgelöst wird oder welches Element als Ausgangspunkt für eine Navigation per Pfeiltasten dient, etwa in Tab-Panels oder Auswahllisten.
 
-Wenn Apps allein durch die Tastatur bedient werden, 
-muss das fokussierte Bedienelement für den Nutzende deutlich hervorgehoben sein. 
-Eine Tastaturbedienung ist für visuelle Nutzer sonst kaum möglich.
+Wenn eine App ausschließlich per Tastatur bedient wird, muss das fokussierte Bedienelement klar hervorgehoben sein – andernfalls ist die Navigation für visuelle Nutzer kaum möglich.
 
-Die von mobilen Betriebssystemen vorgesehene Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar:
+Die von mobilen Betriebssystemen vorgesehene Standard-Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar:
 
-* iOS: Die Standard-Hervorhebung von über Tabulator erreichbaren Bereichen ist recht gut (deutlicher blauer Rahmen),
-bei über Pfeiltasten erreichbaren Einträgen innerhalb fokussierter Bereiche ist die Hervorhebung aber schlecht:
-hellblau auf weiß mit einem sehr geringen Kontrast von nur 1,2:1.
-(Nach Auswahl von "Kontrast erhöhen" in den iOS Bedienungshifen verbessert sich der Kontrast nur sehr geringfügig auf 1,3:1.)
-* Android: Die Standard-Hervrhebung ist hellgrau auf weiß  mit einem sehr geringen Kontrast von nur 1,2:1.
+=== iOS
+* Die Standardhervorhebung für per Tabulator erreichbare Bereiche ist meist gut erkennbar (deutlicher farbiger Rahmen). Bei Einträgen, die innerhalb eines fokussierten Bereichs per Pfeiltasten navigiert werden, ist die Hervorhebung jedoch schlecht: hellblau auf weiß mit einem sehr geringen Kontrast von nur 1,2:1.
+* In den iOS-Bedienungshilfen unter "Tastaturen und Texteingabe" > "Tastatursteuerung" kann die Option "Hoher Kontrast" aktiviert werden. Dadurch erhalten alle Elemente mit Tastaturfokus eine gut sichtbare, dicke schwarze Umrandung.
 
-Der Kontrast zum nichtaktivierten Zustand des Elements sollte mindestens 3:1 betragen.
-Die schlechte native Fokushervorhebung sollte durch eine entsprechende Gestaltung des Fokusindikators korrigiert werden.
+=== Android
+* Die Tastaturfokus-Hervorhebung ist standardmäßig hellgrau auf weiß oder ein leichte Abdunkelung auf Elementen mit eigenem farbigen Hintergrund. Das Resultat ist ein sehr geringer Kontrast von etwa 1,2:1.
 
 == Wie wird geprüft?
 
@@ -47,50 +43,29 @@ oder Verbindung über Bluetooth-Kopplung oder USB-Kabel anschließen.
 . Zu prüfende Ansicht der App öffnen.
 . Mit der Tabulatortaste zu allen interaktiven Elementen navigieren.
 Wo diese weitere Auswahlen zulassen, etwa bei Tabpanels, Menüs oder Auswahllisten, 
-mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren.
+mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren. 
+Ggf. ist dazu auch die Eingabe von STRG + TAB oder STRG + SHIFT + TAB notwendig.
 . Prüfen, ob alle Elemente mit grafischen Veränderungen auf den Fokus reagieren 
-(zum Beispiel mit Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). 
-Versteckte Sprunglinks sollen bei Fokuserhalt eingeblendet werden.
+(zum Beispiel mit Farbwechseln, Rahmen, Unterstreichungen oder eingeblendeten Symbolen). 
+Versteckte Sprunglinks (wo vorhanden) sollen bei Fokuserhalt eingeblendet werden.
 
 === 3. Hinweise
-==== 3.1 Allgemeine Hinweise
-* Falls das Betriebssystem Einstellungen zur verbesserten Sichtbarkeit der Fokushervorhebung bietet,
-sollten diese deaktiviert sein, denn viele Nutzende kennen diese Einstellungen nicht.
+Der Screenreader-Fokus sollte bei der Beurteilung der Tastaturfokus-Hervorhebung nicht berücksichtigt werden. Die Prüfung erfolgt mit angeschlossener Tastatur und ausgeschaltetem Screenreader.
 
-* Der Prüfschritt ist nicht erfüllt, wenn überhaupt kein Tastaturfokus sichtbar ist.
+=== 4. Bewertung
+
+==== Erfüllt:
+* Wird nur die native Fokushervorhebung genutzt, ist der Prüfschritt auch erfüllt, wenn die Hervorhebung schwach ist (z.B. hellgraue oder hellblaue Einfärbung), der Kontrast also unter 3:1 liegt.
+* Wird eine vom Entwickler definierte Hervorhebung eingesezt, soll diese einen Kontrast zum Hintergrund von mindestens 3:1 erfüllen. Bewertet wird dies jedoch im Prüfschritt <<11.1.4.11 Nicht-Text-Kontrast.adoc#,11.1.4.11 Nicht-Text Kontrast>>. Wird eine Hervorhebung nur über Änderung der Farbe ungesetzt, ist dies zusätzlich im Prüfschritt <<11.1.4.1 Benutzung von Farbe.adoc#,11.1.4.1 Benutzung von Farbe>> zu prüfen und zu bewerten.
+
+==== Nicht erfüllt
+* Der Prüfschritt ist nicht erfüllt, wenn auf einem interaktiven Element überhaupt kein Tastaturfokus sichtbar ist. 
 Dann ist eventuell auch Prüfschritt
 ifdef::env_embedded[11.2.1.1 "Tastaturbedienung"]
 ifndef::env_embedded[]
   <<11.2.1.1 Tastaturbedienung.adoc#,11.2.1.1 Tastaturbedienung>>
 endif::env_embedded[]
 nicht erfüllt.
-
-==== 3.1  Hinweise für die Team-Prüfung
-Der Screenreader-Fokus sollte bei der Beurteilung der Tastaturfokus-Hervorhebung nicht berücksichtigt werden. Die Prüfung erfolgt mit verbundener Tastatur und ausgeschaltetem Screenreader.
-
-=== 4. Bewertung
-
-==== Erfüllt:
-
-Die Fokussierung interaktiver Elemente ist visuell wahrnehmbar:
-
-* Rahmen, Unterstreichung, Farbumkehr, Formänderungen oder zusätzliche Markierungen werden bei Tastaturfokussierung eingesetzt.
-
-* Wenn die Fokussierung von Links oder Buttons nur über die Änderung der Text- oder Hintergrundfarbe vermittelt wird, 
-beträgt deren Kontrastabstand zum unfokussierten Zustand mindestens 3:1.
-
-*  Wenn nur der System-Tastaturfokus angezeigt wird, ist dieser vor gestalteten Hintergründen ausreichend sichtbar, 
-er erfüllt den Prüfschritt
-ifdef::env_embedded[11.1.4.3 "Kontraste von Texten ausreichend".]
-ifndef::env_embedded[]
-  <<11.1.4.3 Kontraste von Texten ausreichend.adoc#,11.1.4.3 Kontraste von Texten
-  ausreichend>>.
-endif::env_embedded[]
-
-==== Teilweise erfüllt oder schlechter:
-
-* Sprunglinks bleiben bei Fokuserhalt versteckt.
-* Der System-Fokus wird unterdrückt, bei Tastaturnutzung wird kein Fokus angezeigt.
   
 == Quellen
 === Allgemein
