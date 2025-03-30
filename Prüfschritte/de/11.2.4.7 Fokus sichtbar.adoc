@@ -4,14 +4,14 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Werden Bedienelementen mit der Tastatur fokussiert, muss ein sichtbarer Tastaturfokus-Indikator vorhanden sein.
+Werden Bedienelemente mit der Tastatur fokussiert, muss ein sichtbarer Tastaturfokus-Indikator vorhanden sein.
 In diesem Prüfschritt wird lediglich geprüft, ob eine Fokushervorhebung sichtbar ist – nicht, ob sie ausreichend kontrastreich ist. 
 
-Wenn die Fokussierung durch eine vom Entwickler gesteuerte Hervorhebung angezeigt wird, beispielsweise durch eine Farbänderung einer Schaltfläche, 
+Wenn die Fokussierung durch eine vom Entwickler definierte Hervorhebung angezeigt wird, beispielsweise durch die Farbänderung einer Schaltfläche, 
 muss der Kontrast dieser Hervorhebung und der Unterschied zwischen fokussiertem und nicht fokussiertem Zustand mindestens 3:1 betragen.  
 Die Bewertung dieses Kontrasts erfolgt jedoch im Prüfschritt 11.1.4.11 Nicht-Text Kontrast.
 
-Wird die unveränderte Systemfokushervorhebung durchgängig genutzt – meist ein farbiger Rahmen oder eine kontrastarme Einfärbung des Hintergrunds oder des Elements in Hellgrau oder Hellblau – gilt dieser Prüfschritt als erfüllt. Hintergrund ist eine Ausnahme im Erfolgskriterium 1.4.11 (Nicht-Text Kontrast) für native Elemente: "except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author". Bei Apps bezieht sich „user agent“ auf das jeweilige Betriebssystem, also iOS oder Android.
+Wird die unveränderte Systemfokushervorhebung durchgängig genutzt – meist ein farbiger Rahmen oder eine kontrastarme Einfärbung des Hintergrunds oder des Elements in Hellgrau oder Hellblau – gilt dieser Prüfschritt als erfüllt. Hintergrund ist eine Ausnahme im WCAG-Erfolgskriterium 1.4.11 (Nicht-Text Kontrast) für native Elemente: "...except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author". Bei Apps bezieht sich „user agent“ auf das jeweilige Betriebssystem, also iOS oder Android.
 
 iOS bietet die Möglichkeit, die Fokushervorhebung durchgängig deutlich darzustellen (Tastatursteuerung: Hoher Kontrast).
 
@@ -28,8 +28,7 @@ Die von mobilen Betriebssystemen vorgesehene Standard-Kennzeichnung des Tastatur
 * In den iOS-Bedienungshilfen unter "Tastaturen und Texteingabe" > "Tastatursteuerung" kann die Option "Hoher Kontrast" aktiviert werden. Dadurch erhalten alle Elemente mit Tastaturfokus eine gut sichtbare, dicke schwarze Umrandung.
 
 === Android
-* Die Standard-Hervrhebung ist hellgrau auf weiß oder ein leichte Abdunkelung auf Elementen mit egenem farbigen Hintergrund. Das Resultat ist ein sehr geringer Kontrast von etwa 1,2:1.
-
+* Die Tastaturfokus-Hervorhebung ist standardmäßig hellgrau auf weiß oder ein leichte Abdunkelung auf Elementen mit eigenem farbigen Hintergrund. Das Resultat ist ein sehr geringer Kontrast von etwa 1,2:1.
 
 == Wie wird geprüft?
 
@@ -44,9 +43,10 @@ oder Verbindung über Bluetooth-Kopplung oder USB-Kabel anschließen.
 . Zu prüfende Ansicht der App öffnen.
 . Mit der Tabulatortaste zu allen interaktiven Elementen navigieren.
 Wo diese weitere Auswahlen zulassen, etwa bei Tabpanels, Menüs oder Auswahllisten, 
-mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren. Ggf. ist dazu auch die Eingabe von STRG + TAB oder STRG + SHIFT + TAB notwendig.
+mit den Pfeiltasten oder ggf. dem Tabulator zu Tabs bzw. Optionen navigieren. 
+Ggf. ist dazu auch die Eingabe von STRG + TAB oder STRG + SHIFT + TAB notwendig.
 . Prüfen, ob alle Elemente mit grafischen Veränderungen auf den Fokus reagieren 
-(zum Beispiel mit Farbwechseln, Unterstreichungen oder eingeblendeten Symbolen). 
+(zum Beispiel mit Farbwechseln, Rahmen, Unterstreichungen oder eingeblendeten Symbolen). 
 Versteckte Sprunglinks (wo vorhanden) sollen bei Fokuserhalt eingeblendet werden.
 
 === 3. Hinweise
@@ -56,7 +56,7 @@ Der Screenreader-Fokus sollte bei der Beurteilung der Tastaturfokus-Hervorhebung
 
 ==== Erfüllt:
 * Wird nur die native Fokushervorhebung genutzt, ist der Prüfschritt auch erfüllt, wenn die Hervorhebung schwach ist (z.B. hellgraue oder hellblaue Einfärbung), der Kontrast also unter 3:1 liegt.
-* Wird eien vom Entwickler definierte Hervorhebung eingesezt, soll diese einen Kontrast zum Hintergrund von mindestens 3:1 erfüllen. Bewertet wird dies jedoch im Prüfschritt <<11.1.4.11 Nicht-Text-Kontrast.adoc#,11.1.4.11 Nicht-Text Kontrast>>. Wird eine Hervorhebung nur über Änderung der Farbe ungesetzt, ist dies zusätzlich im Prüfschritt <<11.1.4.1 Benutzung von Farbe.adoc#,11.1.4.1 Benutzung von Farbe>> zu prüfen und zu bewerten.
+* Wird eine vom Entwickler definierte Hervorhebung eingesezt, soll diese einen Kontrast zum Hintergrund von mindestens 3:1 erfüllen. Bewertet wird dies jedoch im Prüfschritt <<11.1.4.11 Nicht-Text-Kontrast.adoc#,11.1.4.11 Nicht-Text Kontrast>>. Wird eine Hervorhebung nur über Änderung der Farbe ungesetzt, ist dies zusätzlich im Prüfschritt <<11.1.4.1 Benutzung von Farbe.adoc#,11.1.4.1 Benutzung von Farbe>> zu prüfen und zu bewerten.
 
 ==== Nicht erfüllt
 * Der Prüfschritt ist nicht erfüllt, wenn auf einem interaktiven Element überhaupt kein Tastaturfokus sichtbar ist. 
