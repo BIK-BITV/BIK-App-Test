@@ -41,13 +41,14 @@ In diesen Fällen ist es für den Spracheingabe-Nutzer unklar, welche Elemente a
 die nicht Teil des zugänglichen Namens sind, 
 zum Beispiel die Rolle des Bedienelements oder eine zusätzliche Beschreibung). 
 Dies ist kein Fehler.
-* Der zugängliche Name des Bedienelements kann zusätzlichen Text enthalten, 
+* Nach WCAG kann der zugängliche Name des Bedienelements zusätzlichen Text enthalten, 
 aber die Zeichenkette der Beschriftung sollte in der gleichen Form in der Zeichenkette des zugänglichen Namens enthalten sein.
+In der Praxis kann zusätzlicher Text jedoch ggf. dazu führen, dass die Spracheingabe nicht zuverlässig funktioniert. Daher sollte er möglichst vermieden werden.
 * Bei den mobilen Apps kann nur ein Test mittels Screenreader Aufschluss über den hinterlegten zugänglichen Namen geben.
 * Grenzfälle sind Hinzufügungen bei visuellen Beschriftungen, 
 die nicht eigentlich als Teil des zugänglichen Namens zu werten sind, 
 etwa wenn in einer Logo-Grafik ein zusätzlicher werbender Text enthalten ist. 
-Ein weiteres Beispiel wären Hinzufügungen zu Beschriftungen wie (erforderlich) oder (falls abweichend).
+Ein weiteres Beispiel wären Hinzufügungen zu Beschriftungen wie "(erforderlich)" oder "(falls abweichend)".
 Für Sprachsteuerungs-Nutzende ist die Einbeziehung solcher Texte nicht hilfreich. 
 * In anderen Fällen sind Teile der Beschriftung, 
 wie etwa der Text "(erforderlich)" nach Eingabefeld-Beschriftungen, 
@@ -74,6 +75,7 @@ Bei Schriftgrafiken, deren Text nicht direkt vom Screenreader erfasst werden kan
 
 === iOS
 * Der `accessibilityInputLabels()` Modifier  kann dazu verwendet werden, bei Bedienelementen weitere Labels zu hinterlegen, die Nutzenden der Funktion Sprachsteuerung as Aktivieren von Elementen erleichtern - z.B. Synonyme oder kürzere Ausdrücke bei längeren sichtbaren Labeln. Siehe _Hacking with Swift_: https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-custom-activation-commands-for-voice-control[How to add custom activation commands for Voice Control]
+* Eric Bailey, Smashing Magazine: https://www.smashingmagazine.com/2022/06/voice-control-usability-considerations-partially-visually-hidden-link-names/[Voice Control Usability Considerations For Partially Visually Hidden Link Names]
 
 == Einordnung des Prüfschritts
 
