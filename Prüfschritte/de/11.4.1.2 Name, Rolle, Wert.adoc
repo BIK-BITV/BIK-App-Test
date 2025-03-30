@@ -24,7 +24,11 @@ Werden keine Standardelemente genutzt und die Bedienelemente selbst gebaut (etwa
 
 === 1. Anwendbarkeit des Prüfschritts
 
-Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. Aus Sicht der prüfenden Person ist nicht immer zu erkennen, ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwicklerinnen und Entwicklern selbst definiert wurden. Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert und aktiviert werden, um festzustellen, ob die jeweiligen Namen, Rollen und Werte vom Screenreader ausgegeben und auch Zustandsänderungen richtig kommuniziert werden.
+Der Prüfschritt ist immer anwendbar, wenn die App Bedienelemente einsetzt. 
+Aus Sicht der prüfenden Person ist nicht immer zu erkennen, 
+ob Standardelemente der Entwicklungsumgebungen verwendet werden (und damit quasi von Haus aus zugänglich sind) oder von Entwicklerinnen und Entwicklern selbst definiert wurden. 
+Eine Sichtprüfung reicht deshalb *nicht* aus. Bedienelemente müssen mit dem Screenreader fokussiert und aktiviert werden, 
+um festzustellen, ob die passende Namen, Rollen und Werte vom Screenreader ausgegeben und auch Zustandsänderungen richtig kommuniziert werden.
 
 === 2. Prüfung
 
@@ -32,21 +36,34 @@ Für eine Prüfung mit VoiceOver / iOS müssen die AI/OCR-Erkennungsfunktionen a
 
 . App mit zu prüfender Ansicht öffnen.
 . Screenreader starten und Fokus mit Hilfe der Wischgeste auf jedes interaktive Element setzen.
-. Prüfen, ob der Name, die Rolle und der Wert des Bedienelements vom Screenreader korrekt ausgegeben wird (siehe auch "3. Hinweise").
+. Prüfen, ob der Name, wo möglich die Rolle, und wo vorhanden der Wert des Bedienelements vom Screenreader korrekt ausgegeben werden (siehe auch "3. Hinweise").
 . Gegebenenfalls prüfen, ob der geänderte Wert des Elements (Zustand) nach Eingabe korrekt ausgegeben wird.
 
 === 3. Hinweise
-Der Name identifiziert und bezeichnet ein Element näher. Nutzende von Spracheingabe-Software können beispielsweise eine Schaltfläche mit Hilfe des zugänglichen Namens (der Beschriftung) gezielt ansprechen und bedienen. Ein Screenreader gibt den zugänglichen Namen aus, wenn er das Element fokussiert. Er ist meist gleichlautend mit dem Label des Bedienelements. z.B. "Nachname" für ein Eingabefeld.
+Der Name identifiziert und bezeichnet ein Element näher. Nutzende von Spracheingabe-Software
+können beispielsweise eine Schaltfläche mit Hilfe des zugänglichen Namens (der Beschriftung) gezielt ansprechen und bedienen. 
+Ein Screenreader gibt den zugänglichen Namen aus, wenn das Element fokussiert wird. 
+Er ist oft gleichlautend mit der sichtbaren Beschriftung (bzw. dem Label) des Bedienelements, z.B. "Nachname" für ein Eingabefeld.
 
-Beispiele für Rollen sind u.a. "Taste" bzw. "Schalter" oder "Schaltfläche", "Eingabefeld" bzw. "Bearbeitungsfeld", "Suchfeld", "Ausklappliste", und "Markierungsfeld" bzw. "Kästchen".
+Beispiele für Rollen sind u.a. "Taste" bzw. "Schalter" oder "Schaltfläche", "Eingabefeld" bzw. 
+"Bearbeitungsfeld", "Suchfeld", "Ausklappliste", und "Markierungsfeld" bzw. "Umschalttaste".
 
-Der Wert beschreibt z.B. den Inhalt des Bedienelements z.B. "Müller" bei einem Eingabefeld für Nachnamen. Er vermittelt aber auch den Zustand eines Elements (sofern es unterschiedliche Zustände haben kann), z.B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
+Verglichen mit dem Web ist die Anzahl der verfügbaren Rollen in nativen Apps geringer. 
+Nicht jedes interaktive Element verlangt zwingend die Ausgabe einer Rolle. 
+Bei korrekter Nutzung nativer Elemente (z.B. ``item`` in Android)
+werden jedoch bei aktiviertem Screenreader automatisch Hinweise zur Aktivierung ausgegeben (z.B. "zum Auswählen doppeltippen") 
+- wenn "Nutzungshinweise vorlesen" in den TalkBack-Einstellungen unter "Ausführlichkeit" aktiviert ist.
+
+Der Wert beschreibt z.B. den Inhalt des Bedienelements, z.B. "Müller" bei einem Eingabefeld für Nachnamen. 
+Er vermittelt aber auch den Zustand eines Elements (sofern es unterschiedliche Zustände haben kann), 
+z.B. "ausgewählt" für ein ausgewählten Listeneintrag oder eine angekreuzte Checkbox.
 
 ==== Einstellungen für die Prüfung mit VoiceOver / iOS
 
 Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
-- iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt).
+- iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung.
+(Diese Funktion wird nur seit iPhone XS/XR-Modellen unterstützt).
 
 - iOS 13: Einstellungen > Bedienungshilfen > VoiceOver > Verbosität > Sprechen erkannt > Sprechen von erkanntem Text und Bildern.
 
@@ -54,7 +71,7 @@ Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
 ==== Nicht erfüllt:
 
-Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom Controls) umgesetzt, auf eine Nachbildung der Semantik für die Barrierefreiheitsschnittstellen des Systems, wurde verzichtet. Name, Rolle, Wert werden vom Screenreader nicht korrekt ausgegeben.
+Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom Controls) umgesetzt, auf eine Nachbildung der Semantik für die Barrierefreiheitsschnittstellen des Systems wurde verzichtet. Name, Rolle bzw., wo vorhanden, Wert werden vom Screenreader nicht korrekt ausgegeben.
 
 == Quellen
 
@@ -69,6 +86,7 @@ Wichtige Bedienelemente sind mit mit benutzerdefinierten Bedienelementen (Custom
 * Apple Developer SwiftUI: https://developer.apple.com/documentation/swiftui/accessibilitytraits[AccessibilityTraits]
 
 === Android
+* Graeme Coleman, Tetralogical blog (07/2022): https://tetralogical.com/blog/2022/07/07/android-accessibility-roles-and-talkback/[Android accessibility: roles and TalkBack]
 * Android Developers: https://developer.android.com/guide/topics/ui/accessibility/apps[Make apps more accessible]
 * Android Developers: https://developer.android.com/reference/android/accessibilityservice/package-summary[android.accessibilityservice]
 * Medium article: https://medium.com/google-developer-experts/state-descriptions-on-android-b2029283871f[State Descriptions on Android]
