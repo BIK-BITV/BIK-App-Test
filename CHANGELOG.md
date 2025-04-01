@@ -4,7 +4,28 @@ Alle nennenswerten Änderungen des BIK BITV-Test Prüfverfahrens sind in dieser 
 Protokolls basiert auf dem [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)-Standard. Die Versionsnummern folgen
 den Konventionen des [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/BIK-BITV/BIK-App-Test/compare/v1.1.0...HEAD)
+## [Unreleased](https://github.com/BIK-BITV/BIK-App-Test/compare/v2.0.0...HEAD)
+
+## [v2.0.0](https://github.com/BIK-BITV/BIK-App-Test/compare/v1.1.0...v2.0.0) - 2025-04-01
+
+### Was hat sich getan?
+
+### Eingeführt
+
+- 11.2.5.3 Beschriftung (Label) im Namen: Quelle, Hinweis @detlevhfischer (#174)
+- 11.4.1.2 Name, Rolle, Wert: Ergänzung zu nicht vorhandenen Rollen @detlevhfischer (#175)
+- 11.1.3.1b Info und Beziehungen – Tabellen: Quellenlink @detlevhfischer (#173)
+- 12.1.2 Barrierefreie Dokumentation: Warum @detlevhfischer (#171)
+- 11.1.4.11 Nicht-Text-Kontrast: Kontrast der Fokushervorhebung @detlevhfischer (#162)
+- 12.1.1 Barrierefreiheits- und Kompatibilitätsfunktionen: Warum @detlevhfischer (#170)
+
+### Geändert
+
+- 11.2.4.7 Fokus sichtbar: Änderung der Bewertung, Hinweis auf iOS Fokuskontrasteinstellungen @detlevhfischer (#177)
+- 11.2.4.7 Fokus sichtbar: Prüfung Hervorhebung @detlevhfischer (#163)
+- 11.1.4.1 Benutzung von Farbe: Komplette Umarbeitung @detlevhfischer (#164)
+- 5.9 Gleichzeitige Benutzerhandlungen: Aktualisierung @detlevhfischer (#168)
+- 5.8 Annahme eines zweifachen Tastenanschlags: Aktualisierung  @detlevhfischer (#167)
 
 ## [v1.1.0](https://github.com/BIK-BITV/BIK-App-Test/compare/v1.0.0...v1.1.0) - 2025-01-01
 
