@@ -44,7 +44,7 @@ Wenn die Kontraste der Standardversion nicht die Sollwerte erfüllt und die Ansi
 
 . Screenshots erstellen und an den PC übertragen (vergleiche Prüfung der Textkontraste der Standardversion).
 . Textkontrast des Styleswitcher-Schaltelements prüfen.
-  Das Kontrastverhältnis muss für grafische Schalter 3:1 oder besser bzw. für Text-Schalter 4,5:1 oder besser sein, und auch die anderen Anforderungen (etwa Tastaturbedienbarkeit) müssen für das Schalterelement erfüllt sein.
+  Das Kontrastverhältnis muss für grafische Schalter 3:1 oder besser bzw. für Text-Schalter 4,5:1 oder besser sein, und auch die anderen Anforderungen (etwa Tastaturbedienbarkeit) müssen für das Styleswitcher-Schalterelement erfüllt sein.
   Sonst abbrechen.
 . Alternative kontrastreichere Ansicht über den Styleswitcher aufrufen.
 . Screenshots erstellen und an den PC übertragen.
