@@ -104,8 +104,8 @@ Im Zweifelsfall kann die Schriftgröße annäherend auf folgendem Weg bestimmt w
 
 Die Kontrastprüfung auf durch Styleswitcher aufgerufenen kontrastreicheren Ansicht erfolgt nur unter folgenden Bedingungen:
 
-* Das Style-Switcher-Element ist am Beginn der Ansicht platziert.
-* Das Schaltelement hat ein Kontrastverhältnis von mindestens 4.5:1 und erfüllt auch die anderen Anforderungen an Barrierefreiheit.
+* Das Style-Switcher-Element ist im Kopf- oder Fußbereich oder in einem Einstellungen-Menü platziert. Dieses Menü kann visuell auch mit konventionellen Icon-Elementen umgesetzt sein (typisch ist das Zahnrad-Icon).
+* Das Style-Switcher-Element erfüllt alle sonstigen Anforderungen an Barrierefreiheit (programmatisch ermittelbarer aussagekrätiger Name, Tastaturbedienbarkeit, usw.). Insbesondere müssen grafische Schalter den Kontrast von 3:1 und Text-Schalter den Kontrast von 4,5:1 erfüllen.
 * Die alternative kontrastreichere Ansicht muss dieselben Informationen und dieselbe Funktionalität aufweisen wie die Ausgangsansicht.
 
 ==== 3.5 Dark Mode Ansichten
