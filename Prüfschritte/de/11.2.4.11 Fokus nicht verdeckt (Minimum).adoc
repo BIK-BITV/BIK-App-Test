@@ -3,7 +3,7 @@ include::include/author.adoc[]
 include::include/attributes.adoc[]
 
 == Was wird geprüft?
-Der Tastaturfokus eines Bedienelements darf nicht nicht vollständig von anderen INhalten (z. B. fest positionierten Bereichen) überlagert sein. Zumindest ein Teil des Bedienelements (und damit meist auch ein Teil der Fokushervorhebung) muss noch sichtbar sein.
+Der Tastaturfokus eines Bedienelements darf nicht nicht vollständig von anderen Inhalten (z. B. fest positionierten Bereichen) überlagert sein. Zumindest ein Teil des Bedienelements (und damit meist auch ein Teil der Fokushervorhebung) muss noch sichtbar sein.
 
 Blenden Nutzende zusätzliche Inhalte durch eine Aktion ein, kommt es vor  dass diese Inhalte andere Elemente der Ansicht verdecken, wenn diese den Fokus erhalten. Nutzende müssen dann in der Lage sein, das fokussierte Bedienelement sichtbar zu machen, ohne den Tastaturfokus zu verschieben (z. B. mithilfe der Esc-Taste, um den geöffneten Inhalt zu schließen).
 
