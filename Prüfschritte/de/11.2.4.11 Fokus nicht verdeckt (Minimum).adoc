@@ -1,0 +1,38 @@
+= Prüfschritt 11.2.4.11 Fokus nicht verdeckt (Minimum)
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+Bei der Tastaturbedienung müssen Elemente, die den Tastaturfokus erhalten, 
+beim Durchtabben nicht vollständig von anderen, meist fest positionierten Bereichen, wie Kopf- oder Fußbereich verdeckt werden.
+
+== Warum wird das geprüft?
+
+Tastataturnutzende fokussieren interaktive Elemente über Durchtabben und in manchen Bereichen auch über die Pfeiltasten-Navigation
+(etwa in Auswahllisten oder in Reiterbereichen). Die jeweils fokussierten Elemente können Nutzende dann über die ENTER-Taste oder Leertaste aktivieren.
+Ist der Fokus verdeckt, ist dies nicht möglich - es ist unklar, was für ein Element den Fokus hat und gegebenenfalls aktiviert werden kann.
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält,
+die mit der Tastatur (mit TAB, SHIFT + TAB, STRG + TAB, oder auch mittels Pfeiltasten) fokussiert werden können. 
+Ist die Fokussierung zwar technisch möglich, aber es kein Tastaturfokus ist sichtbar, ist ggf. auch Prüfschritt 11.2.4.7 Fokus sichtbar nicht erfüllt.
+
+=== 2. Prüfung
+. Interaktive Elemente nach einander mit der Tastatur fokussieren. In der Regel werden Elemente linear (also über TAB oder Pfeiltaste nach rechts) erreicht, 
+in manchen Fällen aber auch über nicht-lineare Eingaben (etwa SHIFT + STRG + TAB) 
+. In der Regel ändert sich der Scrollzustand der Ansicht wenn der Fokus über den Viewport hinaus bewegt wird.
+. Prüfen, ob das jeweils fokussierte Element nach Fokuserhalt wenigstens zum Teil sichtbar ist
+
+=== 3. Bewertung
+==== Erfüllt
+
+* Alle interaktiven Elemente sind bei Fokuserhalt zumindest zum Teil sichtbar. 
+Ausschlaggebend ist dabei nicht die Sichtbarkeit der Fokushervorhebung selbst, sondern die Sichtbarkeit des fokussierte Elements.
+
+==== Nicht erfüllt
+
+* Der Tastaturfokus landet bei Durchlaufen fokussierbarer Elemente hinter fest positionierten Bereichen (meist Kopf- oder Fußbereich),
+das Element ist vollständig verdeckt.
