@@ -23,17 +23,23 @@ die mit der Tastatur (mit TAB, SHIFT + TAB, STRG + TAB, oder auch mittels Pfeilt
 Ist die Fokussierung zwar technisch möglich, aber es kein Tastaturfokus ist sichtbar, ist ggf. auch Prüfschritt 11.2.4.7 Fokus sichtbar nicht erfüllt.
 
 === 2. Prüfung
-. Bedienelemente nach einander mit der Tastatur fokussieren. In der Regel werden Elemente linear (also über TAB oder Pfeiltaste nach rechts) erreicht, 
-in manchen Fällen aber auch über nicht-lineare Eingaben (etwa SHIFT + STRG + TAB). In der Regel ändert sich der Scrollzustand der Ansicht, wenn der Fokus über den sichtbaren Bereich hinaus bewegt wird.
-. Prüfen, ob es zu Situationen kommt, wo ein mit der Tastatur fokussiertes Bedienelement vollständig verdeckt wird (zum Beispiel durch einen fest positionierte Kopf- oder Fußbereich, durch einen nicht-modalen Dialog oder andere von Nutzenden eingeblendeten Inhalten). 
-. Wenn aktiv eingeblender Inhalt ein Bedienelement verdeckt, prüfen, ob das Bedienelement sichtbar gemacht werden kann, ohne den Tastaturfokus zu verschieben, etwa durch
-* Verwenden der Escape-Taste (zum Schließen eines Dialogs oder Popups) bei Fehlen der Escape-Tast ggf. auch über entsprechende Tastatureingaben, etwa Control + [ auf dem iPad
+. Alle Bedienelemente nacheinander mit der Tastatur fokussieren. 
+Häufig werden Bedienelemente linear (also über TAB oder Pfeiltaste nach rechts) erreicht, 
+in manchen Fällen aber sind sie jedoch nur über nicht-lineare Eingaben (etwa SHIFT + STRG + TAB oder die Nutzung von Pfeiltaste nach oben) erreichbar. 
+In der Regel ändert sich der Scrollzustand der Ansicht, wenn der Fokus über den sichtbaren Bereich hinaus bewegt wird.
+. Prüfen, ob es zu Situationen kommt, wo ein mit der Tastatur fokussiertes Bedienelement vollständig verdeckt wird 
+(zum Beispiel durch einen fest positionierte Kopf- oder Fußbereich, 
+durch einen nicht-modalen Dialog oder andere von Nutzenden eingeblendeten Inhalten). 
+. Wenn aktiv eingeblender Inhalt ein Bedienelement verdeckt, prüfen, 
+ob das Bedienelement sichtbar gemacht werden kann, ohne den Tastaturfokus zu verschieben, etwa durch
+* Verwenden der Escape-Taste (zum Schließen eines Dialogs oder Popups) 
+* Bei Fehlen der Escape-Tast ggf. auch über entsprechende Tastatureingaben, etwa Control + [ auf dem iPad
 * Verwenden einer Taste zum Scrollen, bei iOS etwa über TAB + G zum Aktivieren von Tastaturgesten, gefolgt vom Einsatz der Pfeiltasten
 * Drücken einer Taste zum Hin- und Herwechseln zwischen der Fokusposition der Ansicht und dem eingeblendeten Inhalt.
 
 === 3. Hinweise
-*	Wenn ein Bedienelement bei Fokussierung teilweise (d. h. nicht vollständig) verdeckt wird, also noch Teile der Komponente sichtbar sind, ist das kein Fehler im Sinne dieser Anforderung, selbst wenn die Fokushervorhebung selbst verdeckt ist. Es zählt die teilweise Sichtbarkeit des fokussierten Elements.
-*	Wenn das Interface so konfigurierbar ist, dass Nutzende Symbolleisten und nicht-modale Dialoge verschieben können, werden nur die Anfangspositionen der von Nutzenden verschiebbaren Inhalte für die Prüfung und Erfüllung dieser Anforderung berücksichtigt.
+* Wenn ein Bedienelement bei Fokussierung teilweise (d. h. nicht vollständig) verdeckt wird, also noch Teile der Komponente sichtbar sind, ist das kein Fehler im Sinne dieser Anforderung, selbst wenn die Fokushervorhebung selbst verdeckt ist. Es zählt die teilweise Sichtbarkeit des fokussierten Elements.
+* Wenn das Interface so konfigurierbar ist, dass Nutzende Symbolleisten und nicht-modale Dialoge verschieben können, werden nur die Anfangspositionen der von Nutzenden verschiebbaren Inhalte für die Prüfung und Erfüllung dieser Anforderung berücksichtigt.
 
 === 4. Bewertung
 
