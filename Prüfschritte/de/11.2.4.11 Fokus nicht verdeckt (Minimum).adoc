@@ -26,10 +26,9 @@ Ist die Fokussierung zwar technisch möglich, aber es kein Tastaturfokus ist sic
 in manchen Fällen aber auch über nicht-lineare Eingaben (etwa SHIFT + STRG + TAB). In der Regel ändert sich der Scrollzustand der Ansicht, wenn der Fokus über den sichtbaren Bereich hinaus bewegt wird.
 . Prüfen, ob das jeweils fokussierte Bedienelement nach Fokuserhalt wenigstens zum Teil sichtbar ist
 . Wenn aktiv eingeblender Inhalt ein Bedienelement verdeckt, prüfen, ob das Bedienelement sichtbar gemacht werden kann, ohne den Tastaturfokus zu verschieben, etwa durch
-.. Verwenden der Escape-Taste
-.. Verwenden einer Taste zum Scrollen
-.. Drücken einer Taste zum Hin- und Herwechseln zwischen der Fokusposition und des eingeblendeten Inhalts.
-
+* Verwenden der Escape-Taste (zum Schließen eines Dialogs oder Popups) bei Fehlen der Escape-Tast ggf. auch über entsprechende Tastatureingaben, etwa Control + [ auf dem iPad
+* Verwenden einer Taste zum Scrollen, bei iOS etwa über TAB + G zum Aktivieren von Tastaturgesten, gefolgt vom Einsatz der Pfeiltasten
+* Drücken einer Taste zum Hin- und Herwechseln zwischen der Fokusposition und des eingeblendeten Inhalts.
 
 
 === 3. Bewertung
