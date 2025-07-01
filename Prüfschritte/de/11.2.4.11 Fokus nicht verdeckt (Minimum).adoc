@@ -19,7 +19,7 @@ Beim Navigieren auf der Seite darf es daher nicht zu Situationen kommen, in dene
 
 Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält,
 die mit der Tastatur (mit TAB, SHIFT + TAB, STRG + TAB, oder auch mittels Pfeiltasten) fokussiert werden können. 
-Ist die Fokussierung zwar technisch möglich, aber es kein Tastaturfokus ist sichtbar, ist ggf. auch Prüfschritt <<11.2.4.7 Fokus sichtbar>> nicht erfüllt.
+Ist die Fokussierung zwar technisch möglich, aber es kein Tastaturfokus ist sichtbar, ist ggf. auch Prüfschritt 11.2.4.7 Fokus sichtbar nicht erfüllt.
 
 === 2. Prüfung
 . Alle Bedienelemente nacheinander mit der Tastatur fokussieren. 
