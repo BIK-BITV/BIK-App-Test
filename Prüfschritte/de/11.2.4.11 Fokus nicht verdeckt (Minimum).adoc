@@ -11,8 +11,7 @@ Blenden Nutzende zusätzliche Inhalte durch eine Aktion ein, kommt es vor  dass 
 
 Für sehende Menschen, die auf Tastaturbedienung angewiesen sind, ist es wichtig, wahrnehmen zu können, welches Bedienelement aktuell fokussiert ist. Das gilt auch für Menschen, die ein Gerät nutzen, das über die Tastaturschnittstelle bedient wird, wie zum Beispiel Schaltersteuerung oder Spracheingabe. Die fokussierte Bedienelement ist der Ort, an dem die Interaktion auf der Seite stattfindet. Wenn der Benutzer das Element nicht sehen kann, weiß er möglicherweise nicht, wie er weiter vorgehen soll, oder er könnte sogar denken, das System reagiere nicht mehr.
 
-Beim Navigieren auf der Seite darf es daher nicht zu Situationen kommen, in denen Web-Inhalte das fokussierte Element vollständig verdecken. So können etwa fest positionierte Kopf- und Fußbereiche die fokussierten Bedienelemente und deren Fokusindikator überlagern. 
-
+Beim Navigieren auf der Seite darf es daher nicht zu Situationen kommen, in denen fest positionierte Inhalte (z.B. Kopf- und Fußbereiche) das fokussierte Element vollständig verdecken.
 
 == Wie wird geprüft?
 
@@ -20,7 +19,7 @@ Beim Navigieren auf der Seite darf es daher nicht zu Situationen kommen, in dene
 
 Der Prüfschritt ist anwendbar, wenn die Ansicht interaktive Elemente enthält,
 die mit der Tastatur (mit TAB, SHIFT + TAB, STRG + TAB, oder auch mittels Pfeiltasten) fokussiert werden können. 
-Ist die Fokussierung zwar technisch möglich, aber es kein Tastaturfokus ist sichtbar, ist ggf. auch Prüfschritt 11.2.4.7 Fokus sichtbar nicht erfüllt.
+Ist die Fokussierung zwar technisch möglich, aber es kein Tastaturfokus ist sichtbar, ist ggf. auch Prüfschritt <<11.2.4.7 Fokus sichtbar>> nicht erfüllt.
 
 === 2. Prüfung
 . Alle Bedienelemente nacheinander mit der Tastatur fokussieren. 
