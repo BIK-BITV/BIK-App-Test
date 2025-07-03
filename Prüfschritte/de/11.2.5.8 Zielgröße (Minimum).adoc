@@ -70,7 +70,7 @@ Beispiel: Ein iPhone 16 pro hat eine physische Auflösung von 1206 x 2622 und ei
 Der physische Breiten-Wert von 1206px wird also übersetzt in eine Viewport-Breite von 1206 / 3 = 402 CSS Pixel.
 * Screenshot machen, auf den Desktop übertragen und in einem Grafik-Programm laden.
 * Den Screenshot ohne Änderung der Proportion auf die errechnete CSS Viewport-Breite verkleinern (für das genannte Beispiel 402 CSS Pixel) - die Höhe wird entsprechend ebenfalls geringer.
-* Mit einem Auswahlkreis mit 24px Durchmesser das Ziel umschließen. Ist das Ziel größer als der Kreis ist es groß genug. Ist es kleiner, den Kreis mittig auf dem Ziel platzieren.
+* Mit einem Auswahlkreis mit 24px Durchmesser das Ziel umschließen. Ist das Ziel größer als der Kreis, ist das Ziel groß genug. Ist es kleiner, den Kreis mittig auf dem Ziel platzieren.
 * Sind andere Ziele so benachbart, dass ein Kreis auf diesen Zielen den Kreis auf dem untersuchten Ziel möglicherweise überlagert, diesen Kreis transparent füllen und dies für benachbarte Ziele wiederholen.
 * Wenn sich die Kreise über benachbarten Zielen überlappen, ist die Anforderung nicht erfüllt.
 
