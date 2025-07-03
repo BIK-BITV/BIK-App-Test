@@ -65,17 +65,23 @@ der sich überlappenden Elemente angezeigt.
 ** Es gibt ein anderes Bedienelement für die gleiche Funktion, welches die Anforderung erfüllt und sich auf derselben Seite befindet
 
 === 3. Hinweise
-
-* Eine Mindestgröße von 24 mal 24 CSS-Pixel bedeutet: Das Ziel ist so groß, dass ein 24 x 24 Pixel großes Quadrat in das Ziel gezeichnet werden kann (und nicht über den Bereich der Zielfläche hinausragt). 
-Dies ist insbesondere bei abgerundeten Flächen zu berücksichtigen.
+==== 3. Allgemeine Hinweise
+* Eine Mindestgröße von 24 mal 24 CSS-Pixel bedeutet: Das Ziel ist so groß, dass ein Kreis mit einem Durchmesser von 24px über dem Ziel gezeichnet werden kann und dieser Kreis nicht mit einem ebensolchen Kreis über benachbarten Elementen überlappt. 
 * Die Abstandsausnahme kann auch Geltung finden, wenn ein Element etwa nur in der Höhe unterdimensioniert ist. Beispiel: Schaltflächen haben eine Breite von 44 CSS-Pixeln, sind aber nur 16 CSS-Pixel hoch. 
 Es gibt keine interaktiven Elemente unmittelbar über oder unter den Schaltflächen.
 * Die Zielfläche für Zeigegeräte ist nicht notwendigerweise die gleiche wie die sichtbare Klickfläche. Ein grafischer Schalter mit einem sichtbaren Symbol ist beispielsweise 16 x 16 Pixel groß 
-und hat auf jeder Seite ein `padding` von 4 Pixeln. Dies summiert sich zu einer Zielfläche von 24 x 24 Pixeln.
+und hat auf jeder Seite einen Bereich von 4 Pixeln, der ebenfalls auf die Zeigereingabe reagiert. Dies summiert sich zu einer Zielfläche von 24 x 24 Pixeln.
 * Linklisten, die wie in Navigationsstrukturen angeordnet sind, zählen nicht als Inline-Links. Autoren können die relative Position dieser Links vorhersehen und einen ausreichenden Zielabstand umsetzen.
 * Die Anforderung ist unabhängig vom Zoom-Faktor der Seite; wenn Benutzer in die Seite hineinzoomen, ändert sich die CSS-Pixelgröße der Elemente nicht.
-* Erfolgskriterium 2.5.8 ist nicht auf Elemente, die vom Browser dargestellt werden, anzuwenden. Das bedeutet, native Bedienelemente, wie Radio Inputs und Checkboxen sind ausgenommen, benutzerdefinierte 
-Radio Inputs und Checkboxen sind von dieser Anforderung jedoch betroffen.
+* Erfolgskriterium 2.5.8 ist nicht auf Elemente, die vom Browser dargestellt werden, anzuwenden. Das bedeutet, native Bedienelemente, wie Radio Inputs und Checkboxen, sind ausgenommen, benutzerdefinierte Radio Inputs oder Checkboxen sind von dieser Anforderung jedoch betroffen.
+
+==== 3.2 Berechnung der Zielgröße auf Screenshots
+* Viewport-Größe (bzw. physische Auflösung und Device Pixel Ratio) des eingesetzten Geräts beispielsweise über die Dokumentation der Spezifikation ermitteln. Beispiel: Ein iPhone 11 hat eine Auflösung von 828 x 1792 pysischen Pixeln und eine Device Pixel Ratio von 2. Der physische Breiten-Wert von 828px wird also übersetzt in eine Viewport-Breite von 828 / 2 = 414 CSS Pixel.
+* Screenshot machen, auf den Desktop übertragen und in einem Grafik-Programm laden
+* Den Screenshot auf die errechnete CSS Viewport-Breite verkleinern (für das genannte Beispiel 414 CSS Pixel).
+* Mit einem Auswahlkreis mit 24px Durchmesser das Ziel umschließen. Ist das Ziel kleiner als der kreis, den Kreis mittig platzieren.
+* Sind andere Ziele so benachbart, dass ein solcher Kreis den Kreis über dem untersuchten Ziel möglicherwiese überlagert, Kreis transparent füllen oder Kante zeichnen und dies für benachbarte Ziele wiederholen
+* Wenn sich die Kreise über den Zielen überlappen, ist die Anforderung nicht erfüllt.
 
 === 4. Bewertung
 
