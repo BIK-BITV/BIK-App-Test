@@ -19,7 +19,7 @@ welche die Nutzenden selbst für diesen Zweck hinterlegt haben (**persönlicher 
 
 == Warum wird das geprüft
 
-Nutzende sollen sich mit einer zugänglichen, einfachen und sicheren Methode auf einem zugangsgeschützten Webangebot anmelden können. 
+Nutzende sollen sich mit einer zugänglichen, einfachen und sicheren Methode in einer zugangsgeschützten App anmelden können. 
 Kognitive Funktionstests (wie z. B. das Erinnern eines Passworts) können für manche Nutzende schwierig oder unmöglich sein, 
 zum Beispiel wenn sie Probleme mit dem Gedächtnis, dem Lesen, dem Rechnen oder der Wahrnehmungsverarbeitung haben. 
 Bei Verwendung solcher Tests muss entweder eine alternative Authentifizierungs-Methode zur Verfügung stehen 
