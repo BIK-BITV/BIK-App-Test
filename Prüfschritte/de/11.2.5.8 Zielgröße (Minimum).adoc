@@ -24,7 +24,7 @@ ohne dass Nutzende versehentlich ein benachbartes Element aktivieren.
 Für Nutzende, die Schwierigkeiten mit der Feinmotorik haben oder zittern, ist es für schwierig, 
 kleine Ziele genau zu treffen. 
 Eine ausreichende Größe oder ein ausreichender Abstand zwischen den Zielen verringert die Wahrscheinlichkeit, 
-dass versehentlich das falsche Bedienelement betätigt wird.
+dass versehentlich das falsche Bedienelement aktiviert wird.
 
 == Wie wird geprüft
 
