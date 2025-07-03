@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Der interaktive Bereich von User-Interface-Elementen (Ziel) muss für die Nutzung mit Zeigegeräten (z. B. Maus oder Touch) eine Fläche von 24 x 24 CSS-Pixel umfassen (Zielgröße). Es gelten folgende Ausnahmen:
+Der interaktive Bereich von User-Interface-Elementen (Ziel) muss für die Nutzung mit Zeiger-Eingaben (z. B. Maus oder Touch) eine Fläche von 24 x 24 CSS-Pixel umfassen (Zielgröße). Es gelten folgende Ausnahmen:
 
 * *Abstand:* Ziele, die kleiner als 24 x 24 CSS-Pixel sind, haben genug Abstand von anderen Zielen. 
 Dies gilt als gegeben, wenn ein imaginärer Kreis mit einem Durchmesser von 24 CSS-Pixeln auf dem Begrenzungskasten ("Bounding Box") 
