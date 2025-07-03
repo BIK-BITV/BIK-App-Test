@@ -81,7 +81,7 @@ etwa über https://de.wikipedia.org/wiki/Security-Token[USB-Security-Tokens], nu
 
 ==== 3.3 Zwei-Faktor-Authentifizierung
 Es gibt Situationen, in denen ein Verifizierungscode auf einem zweiten Gerät empfangen oder erzeugt werden muss. 
-Zum Beispiel erfordert die Authentifizierung in einem Webviewmeinen Verifizierungscode, der als SMS an ein Mobiltelefon gesendet wird. 
+Zum Beispiel erfordert die Authentifizierung einen Verifizierungscode, der als SMS an ein Mobiltelefon gesendet wird. 
 In den meisten Fällen ist es jedoch möglich, den Code direkt an das primäre Gerät zu senden, 
 wo er dann kopiert und eingefügt werden kann. 
 Nutzende können beispielsweise den Code auf dem sekundären Gerät kopieren und per E-Mail an das primäre Gerät senden. 
