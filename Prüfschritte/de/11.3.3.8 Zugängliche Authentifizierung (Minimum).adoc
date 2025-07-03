@@ -1,4 +1,4 @@
-= Prüfschritt 3.3.8 Zugängliche Authentifizierung (Minimum)
+= Prüfschritt 1.3.3.8 Zugängliche Authentifizierung (Minimum)
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
