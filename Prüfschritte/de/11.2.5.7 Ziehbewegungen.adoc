@@ -6,7 +6,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Ist eine Ziehbewegung (z. B. "Drag and Drop") für das Ausführen einer Funktion nötig, 
-muss die Bedienung auch mit einer einfachen Zeigeraktion (ohne Ziehbewegung) möglich sein. 
+muss die Bedienung auch mit einer einfachen Zeiger (ohne Ziehbewegung) möglich sein. 
 Ausnahme: Das Ziehen ist unerlässlich oder die Funktion wird von der zugrundeliegenden Plattform bestimmt (etwa beim Scrollen / Verschieben der Ansicht)
 
 == Warum wird das geprüft?
@@ -14,7 +14,7 @@ Ausnahme: Das Ziehen ist unerlässlich oder die Funktion wird von der zugrundeli
 Selbst die einfachste Ziehbewegung erfordert eine recht präzise Steuerung des Zeigers (z. B. Maus oder Finger). 
 Dies kann für Nutzende, die Probleme mit der Feinmotorik haben oder Hilfsmittel verwenden, 
 die eine Zeigerbewegung über Sprachbefehle oder andere Eingaben simulieren, schwierig bis unmöglich sein. 
-Es muss daher eine alternative Methode für einfache Zeigereingabe (also ohne Ziehbewegung) zur Verfügung gestellt werden. 
+Es muss daher eine alternative Methode für Eingabe mittels einfachem Zeiger an einem Ort (also ohne Ziehbewegung) zur Verfügung gestellt werden. 
 Ein Beispiel für eine alternative Methode: Nach Aktivierung eines Elements über einfaches Antippen (oder Klicken, bei Verwendung einer Maus) erlaubt 
 ein Aktions-Menü die Auswahl des Zielorts.
 
@@ -32,8 +32,8 @@ Der Prüfschritt ist anwendbar, wenn Funktionen mit Hilfe von Ziehbewegungen (Zi
 Kann die gleiche Funktion auch ohne Ziehbewegung ausgeführt werden? 
 Dies kann auf verschiedene Weise umgesetzt werden, zum Beispiel:
 
-  * Nach Aktivierung eines Elements über einfache Zeigereingabe, ggf. auch über ein längeres Halten (long press) öffnet ein Aktions-Menü die Auswahl des Zielorts mit einfachen Zeigereingaben.
-  * Nach Aktivierung eines Elements über einfache Zeigereingabe erscheinen im Kontext des Elements Pfeile, 
+  * Nach Aktivierung eines Elements über einfachen Zeiger, ggf. auch über ein längeres Halten (long press) öffnet ein Aktions-Menü die Auswahl des Zielorts mit einfachen Zeigereingaben.
+  * Nach Aktivierung eines Elements über einfachen Zeiger erscheinen im Kontext des Elements Pfeile, 
   die ein schrittweises Verschieben des Elements erlauben.
   * Ein einfaches Tippen oder Klicken auf die gewünschte Position eines Schiebereglers auf der Regler-Achse (groove) 
   führt zum Versetzen der Position des Reglerknopfes (thumb).
@@ -41,7 +41,7 @@ Dies kann auf verschiedene Weise umgesetzt werden, zum Beispiel:
 
 === 3. Hinweise
 
-*	Bei einer Ziehbewegungen ist nur der Anfangs- und Endpunkt der Bewegung von Bedeutung, der Pfad dazwischen ist beliebig.
+*	Bei einer Ziehbewegung ist nur der Anfangs- und Endpunkt der Bewegung von Bedeutung, der Pfad dazwischen ist beliebig.
 *	Der Prüfschritt 2.5.7 "Ziehbewegungen" verlangt eine Alternative für die Aktivierung der jeweiligen Funktion über einfache Zeiger-Eingaben, 
 unabhängig von der Tastaturbedienbarkeit, die parallel in Prüfschritt 9.2.1.1 geprüft wird. 
 Wenn die jeweilige Funktion mittels Tastatureingabe verfügbar ist, ist dies also nicht automatisch eine Alternative, 
@@ -53,7 +53,7 @@ ist vollständig ebenso über einfache Zeigereingaben bedienbar.
 
 ==== Nicht erfüllt
 
-Für das Ausführen einer Funktion mit Ziehbewegung gibt es keine alternative Methode, die Funktion nur über einfache Zeigeraktionen auszuführen.
+Für das Ausführen einer Funktion mit Ziehbewegung gibt es keine alternative Methode, die Funktion nur über Eingaben mittels einfachem Zeiger ohne Ziehbewegung oder Zeigergeste auszuführen.
 
 == Einordnung des Prüfschritts
 
@@ -61,7 +61,7 @@ Für das Ausführen einer Funktion mit Ziehbewegung gibt es keine alternative Me
 
 * Prüfschritt 11.2.1.1 Ohne Maus nutzbar prüft, ob alle Funktionen auch mit der Tastatur bedienbar sind. 
 * Prüfschritt 11.2.5.7 Ziehbewegungen prüft hingegen, ob die Bedienung über eine Ziehbewegung
-auch mit einer einfachen Zeigereingabe oder eine Folge von solchen einfachen Eingaben möglich ist (zum Beispiel Klicken oder Tippen), 
+auch mit einer Eingabe mittels einfachem Zeiger ohne Ziehbewegung oder Zeigergeste oder eine Folge von solchen einfachen Eingaben möglich ist (zum Beispiel Klicken oder Tippen), 
 denn eine funktionierende Tastaturbedienung bedeutet nicht zwangsläufig, 
 dass die Ziehfunktion auch über einfache Zeigeraktionen ausführbar ist.
 * Prüfschritt 2.5.7 bezieht sich auf *Ziehbewegungen* (nur der Anfangs- und Endpunkt der Bewegung von Bedeutung, der Pfad dazwischen ist beliebig). 
