@@ -65,7 +65,7 @@ der sich überlappenden Elemente angezeigt.
 ** Es gibt ein anderes Bedienelement für die gleiche Funktion, welches die Anforderung erfüllt und sich auf derselben Seite befindet
 
 === 3. Hinweise
-==== 3. Allgemeine Hinweise
+==== 3.1 Allgemeine Hinweise
 * Eine Mindestgröße von 24 mal 24 CSS-Pixel bedeutet: Das Ziel ist so groß, dass ein Kreis mit einem Durchmesser von 24px über dem Ziel gezeichnet werden kann und dieser Kreis nicht mit einem ebensolchen Kreis über benachbarten Elementen überlappt. 
 * Die Abstandsausnahme kann auch Geltung finden, wenn ein Element etwa nur in der Höhe unterdimensioniert ist. Beispiel: Schaltflächen haben eine Breite von 44 CSS-Pixeln, sind aber nur 16 CSS-Pixel hoch. 
 Es gibt keine interaktiven Elemente unmittelbar über oder unter den Schaltflächen.
