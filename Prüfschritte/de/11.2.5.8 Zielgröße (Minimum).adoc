@@ -64,12 +64,13 @@ Das bedeutet, native Bedienelemente wie Radio Inputs und Checkboxen sind ausgeno
 benutzerdefinierte Radio Inputs oder Checkboxen sind von dieser Anforderung jedoch betroffen.
 
 ==== 3.2 Berechnung der Zielgröße auf Screenshots
-* Viewport-Größe (bzw. physische Auflösung und Device Pixel Ratio) des eingesetzten Geräts beispielsweise über die Dokumentation der Spezifikation ermitteln. Beispiel: Ein iPhone 11 hat eine Auflösung von 828 x 1792 pysischen Pixeln und eine Device Pixel Ratio von 2. Der physische Breiten-Wert von 828px wird also übersetzt in eine Viewport-Breite von 828 / 2 = 414 CSS Pixel.
-* Screenshot machen, auf den Desktop übertragen und in einem Grafik-Programm laden
-* Den Screenshot auf die errechnete CSS Viewport-Breite verkleinern (für das genannte Beispiel 414 CSS Pixel).
+* Viewport-Größe (bzw. physische Auflösung und Device Pixel Ratio) des eingesetzten Geräts beispielsweise über die Dokumentation der Spezifikation ermitteln. 
+Beispiel: Ein iPhone 16 pro hat eine physische Auflösung von 1206 x 2622 und eine Device Pixel Ratio von 3.0. Der physische Breiten-Wert von 1206px wird also übersetzt in eine Viewport-Breite von 1206 / 3 = 402 CSS Pixel.
+* Screenshot machen, auf den Desktop übertragen und in einem Grafik-Programm laden.
+* Den Screenshot auf die errechnete CSS Viewport-Breite verkleinern (für das genannte Beispiel 402 CSS Pixel).
 * Mit einem Auswahlkreis mit 24px Durchmesser das Ziel umschließen. Ist das Ziel kleiner als der kreis, den Kreis mittig platzieren.
-* Sind andere Ziele so benachbart, dass ein solcher Kreis den Kreis über dem untersuchten Ziel möglicherwiese überlagert, Kreis transparent füllen oder Kante zeichnen und dies für benachbarte Ziele wiederholen
-* Wenn sich die Kreise über den Zielen überlappen, ist die Anforderung nicht erfüllt.
+* Sind andere Ziele so benachbart, dass ein solcher Kreis den Kreis über dem untersuchten Ziel möglicherweise überlagert, den Kreis transparent füllen und dies für benachbarte Ziele wiederholen
+* Wenn sich die Kreise über benachbarten Zielen überlappen, ist die Anforderung nicht erfüllt.
 
 === 4. Bewertung
 
