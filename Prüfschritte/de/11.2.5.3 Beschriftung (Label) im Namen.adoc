@@ -27,7 +27,7 @@ Auf Bedienelemente, die durch mehrere sichtbare Elemente beschriftet sind, ist d
 In diesen Fällen ist es für den Spracheingabe-Nutzer unklar, welche Elemente als Beschriftung des Bedienelements gelten und dementsprechend für ein Diktat per Spracheingabe benutzt werden sollten.
 
 === 2. Prüfung
-. Sicher stellen, dass in den Bedienungshilfen des Betriebssystem automatische Texterkennungsfunktionen deaktiviert sind. 
+. Sicherstellen, dass in den Bedienungshilfen des Betriebssystem automatische Texterkennungsfunktionen deaktiviert sind. 
 * Bei VoiceOver ist dies die Einstellung "VoiceOver-Erkennung" und darunter die Optionen "Bildbeschreibung" und "Bildschirmerkennung". Beide sollten deaktiviert sein. 
 * Bei Talkback heißt der Punkt "Automatische Beschreibungen" mit den Optionen "Symbole beschreiben" und "Text in Bildern beschreiben". Beide sollten deaktiviert sein.
 . Den Screenreader aktivieren und mit Hilfe der Wischgeste den Fokus der Reihe nach auf alle Bedienelemente mit Beschriftung setzen.
