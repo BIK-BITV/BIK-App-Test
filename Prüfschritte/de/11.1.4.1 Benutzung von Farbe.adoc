@@ -42,6 +42,7 @@ prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand
 
 === 3. Hinweise
 Nicht als einfache Farbunterschiede gelten:
+
 * die farbige Hinterlegung von Elementen (denn eine Form kommt dazu oder ändert sich)
 * der Austausch von Vorder- und Hintergrundfarbe (denn wenn überhaupt ein Unterschied von Vorder- und Hintergrund wahrgenommen wird, ist auch der Austausch wahrnehmbar)
 
