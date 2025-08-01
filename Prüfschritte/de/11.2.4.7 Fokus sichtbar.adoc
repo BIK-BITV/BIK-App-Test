@@ -5,30 +5,13 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Werden Bedienelemente mit der Tastatur fokussiert, muss ein sichtbarer Tastaturfokus-Indikator vorhanden sein.
-In diesem Prüfschritt wird lediglich geprüft, ob eine Fokushervorhebung sichtbar ist – nicht, ob sie ausreichend kontrastreich ist. 
-
-Wenn die Fokussierung durch eine vom Entwickler definierte Hervorhebung angezeigt wird, beispielsweise durch die Farbänderung einer Schaltfläche, 
-muss der Kontrast dieser Hervorhebung und der Unterschied zwischen fokussiertem und nicht fokussiertem Zustand mindestens 3:1 betragen.  
-Die Bewertung dieses Kontrasts erfolgt jedoch im Prüfschritt 11.1.4.11 Nicht-Text Kontrast.
-
-Wird die unveränderte Systemfokushervorhebung durchgängig genutzt – meist ein farbiger Rahmen oder eine kontrastarme Einfärbung des Hintergrunds oder des Elements in Hellgrau oder Hellblau – gilt dieser Prüfschritt als erfüllt. Hintergrund ist eine Ausnahme im WCAG-Erfolgskriterium 1.4.11 (Nicht-Text Kontrast) für native Elemente: "...except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author". Bei Apps bezieht sich „user agent“ auf das jeweilige Betriebssystem, also iOS oder Android.
-
-iOS bietet die Möglichkeit, die Fokushervorhebung durchgängig deutlich darzustellen (Tastatursteuerung: Hoher Kontrast).
+In diesem Prüfschritt wird lediglich geprüft, ob eine Fokushervorhebung sichtbar ist – nicht, ob sie ausreichend kontrastreich ist.
 
 == Warum wird das geprüft?
 
 Für Tastaturbenutzende ist es wichtig, den aktuellen Tastaturfokus klar zu erkennen – also zu sehen, welches Bedienelement bei Aktivierung (z. B. mit Enter oder der Leertaste) ausgelöst wird oder welches Element als Ausgangspunkt für eine Navigation per Pfeiltasten dient, etwa in Tab-Panels oder Auswahllisten.
 
 Wenn eine App ausschließlich per Tastatur bedient wird, muss das fokussierte Bedienelement klar hervorgehoben sein – andernfalls ist die Navigation für visuelle Nutzer kaum möglich.
-
-Die von mobilen Betriebssystemen vorgesehene Standard-Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar:
-
-=== iOS
-* Die Standardhervorhebung für per Tabulator erreichbare Bereiche ist meist gut erkennbar (deutlicher farbiger Rahmen). Bei Einträgen, die innerhalb eines fokussierten Bereichs per Pfeiltasten navigiert werden, ist die Hervorhebung jedoch schlecht: hellblau auf weiß mit einem sehr geringen Kontrast von nur 1,2:1.
-* In den iOS-Bedienungshilfen unter "Tastaturen und Texteingabe" > "Tastatursteuerung" kann die Option "Hoher Kontrast" aktiviert werden. Dadurch erhalten alle Elemente mit Tastaturfokus eine gut sichtbare, dicke schwarze Umrandung.
-
-=== Android
-* Die Tastaturfokus-Hervorhebung ist standardmäßig hellgrau auf weiß oder ein leichte Abdunkelung auf Elementen mit eigenem farbigen Hintergrund. Das Resultat ist ein sehr geringer Kontrast von etwa 1,2:1.
 
 == Wie wird geprüft?
 
@@ -50,6 +33,20 @@ Ggf. ist dazu auch die Eingabe von STRG + TAB oder STRG + SHIFT + TAB notwendig.
 Versteckte Sprunglinks (wo vorhanden) sollen bei Fokuserhalt eingeblendet werden.
 
 === 3. Hinweise
+
+==== 3.1 Systemfokushervorhebung
+
+Die von mobilen Betriebssystemen vorgesehene Standard-Kennzeichnung des Tastaturfokus ist oft nicht gut sichtbar:
+
+* iOS
+   ** Die Standardhervorhebung für per Tabulator erreichbare Bereiche ist meist gut erkennbar (deutlicher farbiger Rahmen). Bei Einträgen, die innerhalb eines fokussierten Bereichs per Pfeiltasten navigiert werden, ist die Hervorhebung jedoch schlecht: hellblau auf weiß mit einem sehr geringen Kontrast von nur 1,2:1.
+   ** In den iOS-Bedienungshilfen unter "Tastaturen und Texteingabe" > "Tastatursteuerung" kann die Option "Hoher Kontrast" aktiviert werden. Dadurch erhalten alle Elemente mit Tastaturfokus eine gut sichtbare, dicke schwarze Umrandung.
+* Android
+   ** Die Tastaturfokus-Hervorhebung ist standardmäßig hellgrau auf weiß oder ein leichte Abdunkelung auf Elementen mit eigenem farbigen Hintergrund. Das Resultat ist ein sehr geringer Kontrast von etwa 1,2:1.
+
+Wird die unveränderte Systemfokushervorhebung durchgängig genutzt, gilt dieser Prüfschritt als erfüllt. Hintergrund ist eine Ausnahme im WCAG-Erfolgskriterium 1.4.11 (Nicht-Text Kontrast) für native Elemente: "...except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author". Bei Apps bezieht sich „user agent“ auf das jeweilige Betriebssystem, also iOS oder Android.
+
+==== 3.2 Screenreader-Fokus
 Der Screenreader-Fokus sollte bei der Beurteilung der Tastaturfokus-Hervorhebung nicht berücksichtigt werden. Die Prüfung erfolgt mit angeschlossener Tastatur und ausgeschaltetem Screenreader.
 
 === 4. Bewertung
