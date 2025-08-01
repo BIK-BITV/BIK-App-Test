@@ -5,9 +5,7 @@ include::include/attributes.adoc[]
 == Was wird geprüft?
 
 Werden Bedienelemente mit der Tastatur fokussiert, muss ein sichtbarer Tastaturfokus-Indikator vorhanden sein.
-In diesem Prüfschritt wird lediglich geprüft, ob eine Fokushervorhebung sichtbar ist – nicht, ob sie ausreichend kontrastreich ist. 
-
-iOS bietet die Möglichkeit, die Fokushervorhebung durchgängig deutlich darzustellen (Tastatursteuerung: Hoher Kontrast).
+In diesem Prüfschritt wird lediglich geprüft, ob eine Fokushervorhebung sichtbar ist – nicht, ob sie ausreichend kontrastreich ist.
 
 == Warum wird das geprüft?
 
