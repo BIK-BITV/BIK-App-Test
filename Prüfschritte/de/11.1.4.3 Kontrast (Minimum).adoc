@@ -21,7 +21,7 @@ Grafische Schriften sind ebenfalls Gegenstand des Prüfschritts.
 
 === 2. Prüfung
 
-* Für die Bewertung zählt das https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio[Kontrastverhältnis] (relative luminosity) nach einer in den WCAG 2.1 definierten Formel, die der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[Color Contrast Analyzer] handhabbar macht.
+* Für die Bewertung zählt das https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio[Kontrastverhältnis] (relative luminosity) nach einer in den WCAG 2.1 definierten Formel, die der https://www.bitvtest.de/bitv_test/das_testverfahren_im_detail/werkzeugliste.html#cca[Color Contrast Analyser] handhabbar macht.
 
 ==== 2.1 Prüfung der Textkontraste der Standardversion
 
