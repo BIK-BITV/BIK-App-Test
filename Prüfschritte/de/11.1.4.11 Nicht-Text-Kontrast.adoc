@@ -67,9 +67,9 @@ Wenn bei grafischen Bedienelementen mit nebenstehendem Text der Textkontrast nic
 . Wenn es in Bereichen der Grafik Farbverläufe gibt, Anteile mit einem Kontrast von weniger als 3:1 ignorieren und bewerten, ob die Information immer noch ausreichend vom kontrastreicheren Teil der Grafik vermittelt wird.
 
 ==== 2.4 Prüfung des Kontrastes der Tastaturfokus-Hervorhebung
-. Wo der Tastaturfokus durch Farbwechsel von Elementen hervorgehoben wird, prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt. Ist dies nicht der Fall, ist der Prüfschritt 11.1.4.1 Benutzung von Farbe nicht erfüllt.
 . Die Standard iOS und Android Tastaturfokus-Hervorhebung (hellgraue oder hellblaue Einfärbung des Hintergrunds) ist aufgrund der Ausnahme in der WCAG-Anforderung 1.4.11 ("except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author") als ausreichend zu bewerten.
-- Wird eine gestaltete Fokushervorhebung angeboten, prüfen, ob diese einen Kontrast von 3,0:1 zur angrenzenden Farbe erfüllt.
+. Wird eine gestaltete Fokushervorhebung angeboten, prüfen, ob diese einen Kontrast von 3,0:1 zur angrenzenden Farbe erfüllt.
+. Wo der Tastaturfokus durch Farbwechsel von Elementen hervorgehoben wird, prüfen, ob der Kontrastabstand zwischen fokussiertem und unfokussiertem Zustand mindestens 3:1 beträgt. Ist dies nicht der Fall, ist der Prüfschritt 11.1.4.1 Benutzung von Farbe nicht erfüllt.
 
 === 3. Hinweise
 
