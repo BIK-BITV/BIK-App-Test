@@ -46,12 +46,12 @@ bei Texteingaben auf der Ansicht greifen.
 
 ==== iOS
 * Unter iOS und iPadOS (iPad mit Magic Keyboard) 
-gibt es die geforderten Einstellungsmöglichkeiten unter Bedienungshilfen / Tastaturen / Tastenwiederholung. 
+gibt es die geforderten Einstellungsmöglichkeiten unter Bedienungshilfen / Tastaturen & Texteingabe / Tastenwiederholung. 
 Hier lässt sich die Tastenwiederholung auch ganz abstellen. 
 Der Prüfschritt ist deshalb nicht anwendbar.
 
 ==== Android
-. Unter System > Tastatur > Physische Tastatur > Anschlagverzögerung aktivieren (Tasteneingaben erfolgen nun erst nach 500 ms) 
+. Unter System > Tastatur > Physische Tastatur > Bedienungshilfen für physische Tastaturen > Anschlagverzögerung aktivieren (Tasteneingaben erfolgen nun erst nach 500 ms) 
 . Texteingabefeld fokussieren
 . Einen Buchstaben der Tastatur  drücken
 . Prüfen, ob der Buchstabe nach Verzögerung erscheint. 
