@@ -88,9 +88,9 @@ Für große und kleine Schriften gelten unterschiedliche Richtwerte.
 Im Zweifelsfall kann die Schriftgröße annäherend auf folgendem Weg bestimmt werden:
 
 . Viewport-Größe (bzw. physische Auflösung und Device Pixel Ratio) des eingesetzten Geräts beispielsweise über die Dokumentation der Spezifikation ermitteln.
-  Beispiel: Ein iPhone 11 hat eine Auflösung von 828 x 1792 pysischen Pixeln und eine Device Pixel Ratio von 2.
-  Der physische Breiten-Wert von 828px wird also übersetzt in eine Viewport-Breite von 828 / 2 = 414 CSS Pixel.
-. Screenshot in einem Grafik-Programm laden, den Screenshot auf die errechnete CSS Viewport-Breite verkleinern (für das genannte Beispiel 414 CSS Pixel).
+  Beispiel: Ein iPhone 16 Pro hat eine Auflösung von 1206 x 2622 pysischen Pixeln und eine Device Pixel Ratio von 3.
+  Der physische Breiten-Wert von 1206px wird also übersetzt in eine Viewport-Breite von 1206 / 3 = 402 CSS Pixel.
+. Screenshot in einem Grafik-Programm laden, den Screenshot auf die errechnete CSS Viewport-Breite verkleinern (für das genannte Beispiel 402 CSS Pixel).
 . Mit Auswahlrechteck des Grafikprogramms die Schrift umschließen - ausschlaggebend sind am besten Großbuchstaben.
   Unterlängen von Kleinbuchstaben nicht berücksichtigen.
 . Auf geeignete Weise Höhe des Auswahlrechtecks bestimmen (in Photoshop etwa über Kopieren, dann Datei > Neu, Bearbeiten > Einfügen.
