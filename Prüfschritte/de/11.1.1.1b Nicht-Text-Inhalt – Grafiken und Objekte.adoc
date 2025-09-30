@@ -61,13 +61,13 @@ sind aber zum Verständnis der Inhalte nicht wichtig) können sowohl Alternativt
 
 === 3. Hinweise
 
-==== Einstellungen für die Prüfung mit VoiceOver / iOS
+==== 3.1 Einstellungen für die Prüfung mit VoiceOver / iOS
 
 Die AI/OCR-Erkennungsfunktionen von VoiceOver müssen ausgeschaltet sein:
 
 - iOS 14+: Einstellungen > Bedienungshilfen > VoiceOver > VoiceOver-Erkennung. (Diese Funktion wird nur auf iPhone XS/XR-Modellen und höher unterstützt). Hier Bildbeschreibungen, Bildschirmerkennnung und Texterkennung deaktivieren.
 
-==== Angemessene Alternativtexte
+==== 3.2 Angemessene Alternativtexte
 
 Entscheidend ist: Die App soll benutzbar sein, wenn für Grafiken oder Bilder die entsprechenden Alternativtexte vom Screenreader ausgegeben werden.
 
@@ -99,7 +99,7 @@ Generell gilt: Alternativtexte sollen kurz sein.
 Ausführliche Beschreibungen von Abbildungen sollen nicht im Alternativtext, 
 sondern im Kontext der Abbildung zur Verfügung gestellt werden.
 
-==== Angemessenheit von Alternativtexten im Kontext
+==== 3.3 Angemessenheit von Alternativtexten im Kontext
 
 Wenn ein Alternativtext kein angemessener Ersatz für die Grafik oder das Bild sein kann, 
 muss geprüft werden, ob die über das Bild vermittelte Information im Kontext als Text zur Verfügung steht. 
@@ -124,7 +124,7 @@ Ein kurzer Alternativtext mit Bezeichnung der Grafik ist auch bei Nutzung von Te
 Der Alternativtext sagt, dass an dieser Stelle etwas Bestimmtes abgebildet ist. 
 Sie macht klar, worauf sich die Erläuterung im Kontext bezieht.
 
-==== Beurteilung der Angemessenheit ====
+==== 3.4 Beurteilung der Angemessenheit ====
 
 Um die Angemessenheit einer ausführlichen Textalternative einschätzen zu können, 
 muss die Textalternative auf die Grafik beziehungsweise das Objekt bezogen werden, zu dem sie gehört.
