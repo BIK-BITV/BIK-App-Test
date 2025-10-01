@@ -4,7 +4,25 @@ Alle nennenswerten Änderungen des BIK BITV-Test Prüfverfahrens sind in dieser 
 Protokolls basiert auf dem [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)-Standard. Die Versionsnummern folgen
 den Konventionen des [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/BIK-BITV/BIK-App-Test/compare/v2.1.0...HEAD)
+## [Unreleased](https://github.com/BIK-BITV/BIK-App-Test/compare/v2.2.0...HEAD)
+
+## [v2.2.0](https://github.com/BIK-BITV/BIK-App-Test/compare/v2.1.0...v2.2.0) - 2025-10-01
+
+### Was hat sich getan?
+
+### Geändert
+
+- 11.2.4.7 Fokus Sichtbar - Inhalte zu "Hinweise" verschoben (Konsistenz) @sweckenmann (#187)
+- 11.1.4.3 Kontrast (Minimum): aktualisierte Schriftgrößenberechung @detlevhfischer (#183)
+- 5.7 Tastenwiederholung: Anpassung Prüfanleitung @detlevhfischer (#191)
+
+### Korrigiert
+
+- 11.1.1.1b Nicht-Text-Inhalt – Grafiken und Objekte - Formatierung (Korrektur) @sweckenmann (#190)
+- 11.1.4.3 Kontrast (Minimum) - sprachliche Änderung zur besseren Verständlichkeit @sweckenmann (#189)
+- 11.2.4.7 Fokus sichtbar: Korrektur von Rechtschreibfehler @jkphl (#185)
+- 11.2.5.3 Beschriftung (Label) im Namen: Korrigieren von Rechtschreibfehler @jkphl (#186)
+- 11.1.4.1 Benutzung von Farbe: Korrigiere Formatierungsproblem mit Liste unter „Hinweise“ @jkphl (#184)
 
 ## [v2.1.0](https://github.com/BIK-BITV/BIK-App-Test/compare/v2.0.0...v2.1.0) - 2025-07-01
 
