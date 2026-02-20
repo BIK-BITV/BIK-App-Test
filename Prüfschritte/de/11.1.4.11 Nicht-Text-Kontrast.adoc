@@ -129,7 +129,7 @@ Die zusätzlichen Einstellungen sind hilfreich, viele Nutzende wissen jedoch nic
 
 == Quellen
 === Android
-* CSV Health https://github.com/cvs-health/android-compose-accessibility-techniques/blob/main/doc/interactions/CustomFocusIndicators.md[Custom Focus Indocators]
+* CSV Health https://github.com/cvs-health/android-compose-accessibility-techniques/blob/main/doc/interactions/CustomFocusIndicators.md[Custom Focus Indicators]
 
 ==  Einordnung des Prüfschritts
 
