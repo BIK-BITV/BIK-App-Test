@@ -127,6 +127,9 @@ Eine Dark Mode Ansicht wird bei der Feststellung der Konformität nur berücksic
 Die Ansichten werde *ohne* die Aktivierung von betriebssystemseitigen Einstellungen wie "Kontrast erhöhen" (iOS) oder "Text mit hohem Kontrast" (Android), also mit Standard-Einstellungen getestet.
 Die zusätzlichen Einstellungen sind hilfreich, viele Nutzende wissen jedoch nicht, dass es sie gibt.
 
+== Quellen
+=== Android
+* CSV Health https://github.com/cvs-health/android-compose-accessibility-techniques/blob/main/doc/interactions/CustomFocusIndicators.md[Custom Focus Indicators]
 
 ==  Einordnung des Prüfschritts
 
