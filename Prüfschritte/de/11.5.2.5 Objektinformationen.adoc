@@ -12,10 +12,7 @@ Im Einzelnen sollen die folgenden Eigenschaften programmatisch ermittelbar sein:
 * *Name (name)* des Bedienelements: Dies kann die Beschriftung sein z.B. "Senden", "Bestellen", Sortieren" usw. Bei Icons (Menü mit Hamburger-Icon, Suchen-Lupe, Filter-Symbol usw.) soll der Name die Funktion bezeichen, also "Menü", "Suchen", "Filtern"
 * *Rolle (role)* des Bedienelements: Diese gibt den Typ des Bedienelements, z.B. "Taste" (iOS) bzw. Schaltfläche" (Android) oder "Textfeld" (iOS) bzw. "Bearbeitungsfeld" (Android)
 * *Zustand (state)* oder Wert des Bedienelements: Zum Beispiel "aktiviert"/"nicht aktiviert", "ein"/"aus", ausgewählt / nicht ausgewählt, "67 Prozent"
-* *Grenzen (boundary)* der Werte eines Bedienelements, z.B. "Prozent" (n von 100) oder Preisspanne 300 - 500
 * *Beschreibung (description)* des Bedienelements: Dies kann eine zusätzliche Beschreibung des Elements sein
-
-Insbesondere der Status und die Bedienelement-Grenzen (boundaries) sollten nur dann vermittelt werden, wenn diese auch visuell durch das Bedienelement vermittelt werden
 
 == Warum wird das geprüft?
 
@@ -39,7 +36,7 @@ geprüft.
 Jener Prüfschritt ist weiter gefasst, denn dort wird auch verlangt, dass über Nutzereingaben oder programmatisch *geänderte* Werte den Hilfsmitteln zur Verfügung stehen.
 Wenn also bei der Prüfung in 11.4.1.2 bei Bedienelementen im Ausgangszustand Auszeichnungsmängel negativ bewertet werden, wird die Bewertung in diesen Prüfschritt übertragen. 
 
-Die in diesem Prüfschritt über Name, Rolle und Wert hinaus genannten Wertgrenzen werden bezüglich ihrer programmatischen Verfügbarkeit explizit in Prüfschritt 11.5.2.7 "Minimale und maximale Werte programmatisch ermittelbar" geprüft.
+Die in diesem Prüfschritt über Name, Rolle und Wert hinaus genannten Minimal- und Maximal-Werte werden bezüglich ihrer programmatischen Verfügbarkeit explizit in Prüfschritt 11.5.2.7 "Minimale und maximale Werte programmatisch ermittelbar" geprüft.
 
 == Einordnung des Prüfschritts
 
