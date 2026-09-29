@@ -46,7 +46,7 @@ Die Ausgabe der Beschreibung erfolgt i.d.R nur, wenn sie in Screenreader-Einstel
 * iOS: Voiceover > Ausführlichkeit > Hinweise sprechen
 * Android: TalkBack > Ausführlichkeit > Nutzungshinweise vorlesen
 
-==== 2.1 Prüfung von Bedienelement-Grenzen
+==== 2.2 Prüfung von Bedienelement-Grenzen
 * Screenreader aktivieren, über Tabben bzw. die Nutzung der Pfeiltasten interaktive Elemente der Ansicht fokussieren
 * Prüfen, ob bei Custom-Elementen der Fokusrahmen sich an den Bedienelement-Grenzen ausrichtet
 * Ist kein Screenreader-Fokus zu sehen, ist der Prüfschritt nicht erfüllt.
