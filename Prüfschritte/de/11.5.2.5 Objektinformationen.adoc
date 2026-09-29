@@ -51,7 +51,7 @@ Die Ausgabe der Beschreibung erfolgt i.d.R nur, wenn sie in Screenreader-Einstel
 * Prüfen, ob bei Custom-Elementen der Fokusrahmen sich an den Bedienelement-Grenzen ausrichtet
 * Ist kein Screenreader-Fokus zu sehen, ist der Prüfschritt nicht erfüllt.
 * Deckt sich der Fokusrahmen nicht mit den Elementgrenzen, ist aber sichtbar und dem Element zuzuordnen, ist dies ggd. als "eher erfüllt" zu bewerten.
-* Werden verdeckte oder versteckte Elemente fokussiert, ist dies nicht hier, aber ggf. in den  Prüfschritten 11.1.3.2 Bedeutungsvolle Reihenfolge oder 11.2.4.3 Fokkus-Reihenfolge zu bewerten.
+* Werden verdeckte oder versteckte Elemente fokussiert, ist dies nicht hier, aber ggf. in den  Prüfschritten 11.1.3.2 Bedeutungsvolle Reihenfolge oder 11.2.4.3 Fokus-Reihenfolge zu bewerten.
 
 == Einordnung des Prüfschritts
 
