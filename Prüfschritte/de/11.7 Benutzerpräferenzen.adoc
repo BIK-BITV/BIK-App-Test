@@ -53,7 +53,7 @@ Textvergrößerung und -Fettung prüfen
 . Einstellungen öffnen (Bedienungshilfen > Anzeige & Textgröße)
 . Die Einstellungen "Fetter Text" und "Größerer Text" aktivieren.
 . Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
-. Falls Schrift in manchen Bereichen nicht vergrößert, prüfen, ob es sich bei dem Bereich um einen Webview handelt, für den die Ausnahme gilt. Wird "Webview" nicht explizit ausgegeben, lässt sich das Vorhandensein eines Webviews ggf. über die Rotoreinstellungen ermitteln, die bei Fokussierung des Webviews verglichen mit den Einstellungen bei nativen App-Inhalten umfangreicher sind (z.B. auch Tabellen, Formularsteuerungen und Links enthält).
+. Falls Schrift in manchen Bereichen nicht vergrößert, prüfen, ob es sich bei dem Bereich um einen Webview handelt, für den die Ausnahme gilt. Wird "Webview" nicht explizit ausgegeben, lässt sich das Vorhandensein eines Webviews ggf. über die Rotoreinstellungen ermitteln, die bei Fokussierung des Webviews verglichen mit den Einstellungen bei nativen App-Inhalten umfangreicher sind (z.B. auch Tabellen, Formularsteuerungen und Links enthalten).
 
 
 ===== Android
