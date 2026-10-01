@@ -12,7 +12,7 @@ Im Einzelnen sollen die folgenden Eigenschaften programmatisch ermittelbar sein:
 * *Name (name)* des Bedienelements: Dies kann die Beschriftung sein z.B. "Senden", "Bestellen", Sortieren" usw. Bei Icons (Menü mit Hamburger-Icon, Suchen-Lupe, Filter-Symbol usw.) soll der Name die Funktion bezeichen, also "Menü", "Suchen", "Filtern"
 * *Rolle (role)* des Bedienelements: Diese gibt den Typ des Bedienelements, z.B. "Taste" (iOS) bzw. Schaltfläche" (Android) oder "Textfeld" (iOS) bzw. "Bearbeitungsfeld" (Android)
 * *Zustand (state)* oder Wert des Bedienelements: Zum Beispiel "aktiviert"/"nicht aktiviert", "ein"/"aus", ausgewählt / nicht ausgewählt, "67 Prozent"
-* *Grenzen (boundary)* der Werte eines Bedienelements, z.B. "Prozent" (n von 100) oder Preisspanne 300 - 500
+* *Grenzen (boundary)* die geometrische Ausdehnung eines UI-Elements (Position und Größe auf dem Bildschirm)
 * *Beschreibung (description)* des Bedienelements: Dies kann eine zusätzliche Beschreibung des Elements sein
 
 Insbesondere der Status und die Bedienelement-Grenzen (boundaries) sollten nur dann vermittelt werden, wenn diese auch visuell durch das Bedienelement vermittelt werden
@@ -30,7 +30,8 @@ Eine Sichtprüfung reicht dabei nicht aus, da rein visuell nicht mit Sicherheit 
 
 === 2. Prüfung
 
-Die Anforderung wird bereits durch den Prüfschritt
+==== 2.1 Prüfung von Name, Rolle, Zustand, Beschreibung
+Die Anforderung wird im Wesentlichen bereits durch den Prüfschritt
 ifdef::env_embedded[11.4.1.2 "Name, Rolle, Wert verfügbar"]
 ifndef::env_embedded[]
 <<11.4.1.2 Name-Rolle-Wert verfügbar.adoc#,11.4.1.2 Name, Rolle, Wert verfügbar>>
@@ -40,6 +41,17 @@ Jener Prüfschritt ist weiter gefasst, denn dort wird auch verlangt, dass über 
 Wenn also bei der Prüfung in 11.4.1.2 bei Bedienelementen im Ausgangszustand Auszeichnungsmängel negativ bewertet werden, wird die Bewertung in diesen Prüfschritt übertragen. 
 
 Die in diesem Prüfschritt über Name, Rolle und Wert hinaus genannten Wertgrenzen werden bezüglich ihrer programmatischen Verfügbarkeit explizit in Prüfschritt 11.5.2.7 "Minimale und maximale Werte programmatisch ermittelbar" geprüft.
+
+Die Ausgabe der Beschreibung erfolgt i.d.R nur, wenn sie in Screenreader-Einstellungen aktiviert ist:
+* iOS: Voiceover > Ausführlichkeit > Hinweise sprechen
+* Android: TalkBack > Ausführlichkeit > Nutzungshinweise vorlesen
+
+==== 2.2 Prüfung von Bedienelement-Grenzen
+* Screenreader aktivieren, über Tabben bzw. die Nutzung der Pfeiltasten interaktive Elemente der Ansicht fokussieren
+* Prüfen, ob bei Custom-Elementen der Fokusrahmen sich an den Bedienelement-Grenzen ausrichtet
+* Ist kein Screenreader-Fokus zu sehen, ist der Prüfschritt nicht erfüllt.
+* Deckt sich der Fokusrahmen nicht mit den Elementgrenzen, ist aber sichtbar und dem Element zuzuordnen, ist dies ggd. als "eher erfüllt" zu bewerten.
+* Werden verdeckte oder versteckte Elemente fokussiert, ist dies nicht hier, aber ggf. in den  Prüfschritten 11.1.3.2 Bedeutungsvolle Reihenfolge oder 11.2.4.3 Fokus-Reihenfolge zu bewerten.
 
 == Einordnung des Prüfschritts
 
