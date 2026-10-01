@@ -70,7 +70,7 @@ Textvergrößerung und -Fettung prüfen
 . Unter "Schriftgröße" die Schriftgröße über den Schieberegler deutlich größer stellen.
 . Den Schalter "Fettdruck" aktivieren.
 . Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
-. Falls Schrift in manchen Bereichen nicht vergrößert, prüfen, ob es sich bei dem Bereich um einen Webview handelt, für den die Ausnahme gilt.
+. Falls Schrift in manchen Bereichen nicht vergrößert, prüfen, ob es sich bei dem Bereich um einen Webview handelt, für den die Ausnahme gilt. Das ist nicht immer leicht festzustellen, wenn "Webview" nicht angesagt wird. Ein Indiz ist, dass bei Überschriften in Webviews die Überschriftenebene mit ausgegeben wird.
 
 
 
