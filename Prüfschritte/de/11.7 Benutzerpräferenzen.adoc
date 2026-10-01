@@ -32,7 +32,46 @@ Betriebssystem läuft, z.B. innerhalb einer virtuellen Maschine.
 
 === 2. Prüfung
 
-==== Farben
+==== 2.1 Schriftart und Schriftgröße
+
+Die Darstellung von Fließtexten richtet sich nach den Einstellungen im System.
+Für die Prüfung werden die Systemeinstellungen verändert und die zu
+prüfende App neugestartet.
+
+Für Texte in Webviews gibt es keine bzw. nich immer umzusetzende Wege, die Änderungen in den Systemeinstellungen zu übernehmen. Hinweise dazu finden sich in einem https://github.com/w3c/matf/issues/3#issuecomment-2637489160[Issue der Mobile Accessibility Taskforce]. Da als Plattform des Webviews die App selbst (und nicht das zugrundeliegende mobile Betriebssystem) gelten kann, müssen nutzerbasierte Einstellungen im Betriebssystem in Webviews nicht zwangsläufig übernommen werden, auch wenn dies empfehlenswert ist und nach den gegebenen technischen Möglichkeiten umgesetzt werden sollte.
+
+===== iOS / iPadOS
+
+In iOS / iPadOS müssen folgende Einstellungen unter Einstellungen ->
+Bedienungshilfen -> Anzeige & Textgröße übernommen werden:
+
+* Fetter Text
+* Größerer Text
+
+Textvergrößerung und -Fettung prüfen
+
+. Einstellungen öffnen (Bedienungshilfen > Anzeige & Textgröße)
+. Die Einstellungen "Fetter Text" und "Größerer Text" aktivieren.
+. Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
+
+
+===== Android
+
+Unter Android müssen folgende Einstellungen in Einstellungen ->
+Bedienungshilfen von der App übernommen werden:
+
+* Schriftgröße
+* Fettdruck
+
+Textvergrößerung und -Fettung prüfen
+
+. Einstellungen öffnen (Einstellungen > Bedienungshilfen > Anzeigegröße und Text)
+. Unter "Schriftgröße" die Schriftgröße über den Schieberegler deutlich größer stellen.
+. Den Schalter "Fettdruck" aktivieren.
+. Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
+
+
+==== 2.2 Farben
 
 Wenn das Betriebssystem Optionen für die Darstellung von Farben anbietet,
 müssen diese in der zu prüfenden App übernommen werden.
@@ -76,40 +115,6 @@ In einem getrennten Schritt überprüfen, ob die App den Darkmode unterstützt.
 . Schalter "Dunkles Design" aktivieren.
 . Wird der Darkmode nicht unterstützt, sollte dies angemerkt werden. Es ist dies jedoch nicht als "nicht erfüllt" zu werten.
 
-==== Schriftart und Schriftgröße
-
-Die Darstellung von Fließtexten richtet sich nach den Einstellungen im System.
-Für die Prüfung werden die Systemeinstellungen verändert und die zu
-prüfende App neugestartet.
-
-===== iOS / iPadOS
-
-In iOS / iPadOS müssen folgende Einstellungen unter Einstellungen ->
-Bedienungshilfen -> Anzeige & Textgröße übernommen werden:
-
-* Fetter Text
-* Größerer Text
-
-Textvergrößerung und -Fettung prüfen
-
-. Einstellungen öffnen (Bedienungshilfen > Anzeige & Textgröße)
-. Die Einstellungen "Fetter Text" und "Größerer Text" aktivieren.
-. Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
-
-===== Android
-
-Unter Android müssen folgende Einstellungen in Einstellungen ->
-Bedienungshilfen von der App übernommen werden:
-
-* Schriftgröße
-* Fettdruck
-
-Textvergrößerung und -Fettung prüfen
-
-. Einstellungen öffnen (Einstellungen > Bedienungshilfen > Anzeigegröße und Text)
-. Unter "Schriftgröße" die Schriftgröße über den Schieberegler deutlich größer stellen.
-. Den Schalter "Fettdruck" aktivieren.
-. Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
 
 === 3. Hinweise
 
