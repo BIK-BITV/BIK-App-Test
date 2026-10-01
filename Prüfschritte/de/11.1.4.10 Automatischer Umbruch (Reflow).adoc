@@ -61,10 +61,9 @@ Im Kontext der https://www.w3.org/groups/tf/wcag2ict[WCAG2ACT Task Force] der Ac
 
 ==== 2.2 Prüfung von Apps mit breiterem Layout und Zoomfunktion
 
-. *Vorbedingung 1:* Hat die App selbst eine Zoomfunktion (es geht nicht um den Zoom bzw. die Vergrößerung über die Bedienungshilfen des Betriebssystems)?
-. *Vorbedingung 2:* Stellt die App Inhalte auf Geräten mit breiteren Viewports (oder nach Drehen des Smartphones ins Querformat) in einem anderen Layout dar als auf dem Smartphone im Hochkant-Format?
-. Ist eine der Vorbedingungen nicht erfüllt, wird die Prüfung abgebrochen, es zählt das Ergebnis der Prüfung unter 2.1.
-. Falls beide Vorbedingungen erfüllt sind: Die Inhalte soweit über den App-Zoom vergrößern, bis näherungsweise eine Viewport-Breite von 320 CSS-Pixeln erreicht ist (siehe dazu Hinweise unter Punkt <<3.2 Vergrößerung auf Viewportbreite von 320 CSS-Pixel>>)
+. *Vorbedingung:* Hat die App selbst eine Zoomfunktion (es geht nicht um den Zoom bzw. die Vergrößerung über die Bedienungshilfen des Betriebssystems)?
+. Ist die Vorbedingung nicht erfüllt, wird die Prüfung abgebrochen, es zählt das Ergebnis der Prüfung unter 2.1.
+. Die Inhalte soweit über den App-Zoom vergrößern, bis näherungsweise eine Viewport-Breite von 320 CSS-Pixeln erreicht ist (siehe dazu Hinweise unter Punkt <<3.2 Vergrößerung auf Viewportbreite von 320 CSS-Pixel>>)
 . Gibt es in der App Informationen oder Funktionen, die nun nicht mehr verfügbar sind oder abgeschnitten werden und die nicht unter die <<Ausnahmen>> fallen?
 
 Für Hinweise zur Prüfpraxis können Sie auf GitHub
