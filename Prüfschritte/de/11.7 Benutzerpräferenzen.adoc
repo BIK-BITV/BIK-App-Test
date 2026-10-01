@@ -38,7 +38,7 @@ Die Darstellung von Fließtexten richtet sich nach den Einstellungen im System.
 Für die Prüfung werden die Systemeinstellungen verändert und die zu
 prüfende App neugestartet.
 
-Für Texte in Webviews gibt es keine (bzw. nicht immer umzusetzende) Wege, die Änderungen in den Systemeinstellungen zu übernehmen. Hinweise dazu finden sich in einem https://github.com/w3c/matf/issues/3#issuecomment-2637489160[Issue der Mobile Accessibility Taskforce]. Da als Plattform des Webviews die App selbst (und nicht das zugrundeliegende mobile Betriebssystem) gelten kann, müssen nutzerbasierte Einstellungen im Betriebssystem in Webviews nicht zwangsläufig übernommen werden, auch wenn dies empfehlenswert ist und nach den gegebenen technischen Möglichkeiten umgesetzt werden sollte.
+Ausnahme: Für Texte in Webviews gibt es keine (bzw. nicht immer umzusetzende) Wege, die Änderungen in den Systemeinstellungen zu übernehmen. Hinweise dazu finden sich in einem https://github.com/w3c/matf/issues/3#issuecomment-2637489160[Issue der Mobile Accessibility Taskforce]. Da als Plattform des Webviews die App selbst (und nicht das zugrundeliegende mobile Betriebssystem) gelten kann, müssen nutzerbasierte Einstellungen im Betriebssystem in Webviews nicht zwangsläufig übernommen werden, auch wenn dies empfehlenswert ist und nach den gegebenen technischen Möglichkeiten umgesetzt werden sollte.
 
 ===== iOS / iPadOS
 
@@ -53,6 +53,7 @@ Textvergrößerung und -Fettung prüfen
 . Einstellungen öffnen (Bedienungshilfen > Anzeige & Textgröße)
 . Die Einstellungen "Fetter Text" und "Größerer Text" aktivieren.
 . Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
+. Falls Schrift in manchen Bereichen nicht vergrößert, prüfen, ob es sich bei dem Bereich um einen Webview handelt, für den die Ausnahme gilt. Wird "Webview" nicht explizit ausgegeben, lässt sich das Vorhandensein eines Webviews ggf. über die Rotoreinstellungen ermitteln, die bei Fokussierung des Webviews verglichen mit den Einstellungen bei nativen App-Inhalten umfangreicher sind (z.B. auch Tabellen, Formularsteuerungen und Links enthält).
 
 
 ===== Android
@@ -69,6 +70,8 @@ Textvergrößerung und -Fettung prüfen
 . Unter "Schriftgröße" die Schriftgröße über den Schieberegler deutlich größer stellen.
 . Den Schalter "Fettdruck" aktivieren.
 . Prüfen, ob die Einstellungen übernommen werden. Eventuell muss die App neu gestartet werden.
+. Falls Schrift in manchen Bereichen nicht vergrößert, prüfen, ob es sich bei dem Bereich um einen Webview handelt, für den die Ausnahme gilt.
+
 
 
 ==== 2.2 Farben
