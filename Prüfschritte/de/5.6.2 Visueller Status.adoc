@@ -22,7 +22,7 @@ Virtualisierte Schalter innerhalb der App sind nicht von diesem Prüfschritt erf
 
 == Warum wird das geprüft?
 
-Wenn der Zustand von Umschaltern auf dem Gerät oder auf spezieller Hardware bei der Nutzung der App relevant ist, soll dieser Zustand auch visuell erkennbar sein. Dies ist zum Beispiel dann der Fall, wenn ein Umschalter zwei visuell unterschiedbare Zustände hat. Beim Stummschalten des iPhones wird z.B. der Umschalter Richtung Geräterückseite geschoben, es erscheint zusätzlich ein schmaler roter Streifen im Ausschnitt, in dem sich der Schalter bewegt. Damit wird visuell signalisiert, dass der Ton abgestellt ist.
+Wenn der Zustand von Umschaltern auf dem Gerät oder auf spezieller Hardware bei der Nutzung der App relevant ist, soll dieser Zustand auch visuell erkennbar sein. Dies ist zum Beispiel dann der Fall, wenn ein Umschalter zwei visuell unterscheidbare Zustände hat. Beim Stummschalten des iPhones wird z.B. der Umschalter Richtung Geräterückseite geschoben, es erscheint zusätzlich ein schmaler roter Streifen im Ausschnitt, in dem sich der Schalter bewegt. Damit wird visuell signalisiert, dass der Ton abgestellt ist.
 
 == Wie wird das geprüft?
 
