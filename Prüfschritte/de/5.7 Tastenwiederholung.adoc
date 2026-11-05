@@ -30,9 +30,9 @@ verringert dieses Risiko.
 Der Prüfschritt wird nur geprüft, 
 wenn die Tastenwiederholung nicht abstellbar ist 
 und die Funktion in der App unterstützt wird. 
-Bei iOS-Apps ist der Prüfschritt generell nicht anwendbar, 
-da die Tastenwiederholfunktion abgeschaltet werden kann.
-Bei Android-Apps ist der Prüfschritt nur anwendbar, 
+Bei iOS-Apps und Android-Apps unter neueren Android-Versionen (17 oder neuer) ist der Prüfschritt generell nicht anwendbar, 
+da hier die Tastenwiederholfunktion abgeschaltet werden kann.
+Bei älteren Android-Apps ist der Prüfschritt nur anwendbar, 
 wenn die Ansicht Texteingabefelder für Tastatureingaben enthält.
 Geprüft wird nicht die systemseitige Einstellung selbst, 
 sondern nur, ob diese auch bei Texteingaben in der App greifen.
@@ -51,6 +51,8 @@ Hier lässt sich die Tastenwiederholung auch ganz abstellen.
 Der Prüfschritt ist deshalb nicht anwendbar.
 
 ==== Android
+Die Prüfung erfolgt, wenn ältere Android-Systeme Teil der Accessibility-Baseline sind, d.h. Android-Versionen, in denen sich die Anschlagwiederholung nicht kommplett abstellen lässt.
+
 . Unter System > Tastatur > Physische Tastatur > Bedienungshilfen für physische Tastaturen > Anschlagverzögerung aktivieren (Tasteneingaben erfolgen nun erst nach 500 ms) 
 . Texteingabefeld fokussieren
 . Einen Buchstaben der Tastatur  drücken
@@ -60,7 +62,7 @@ Damit ist klar, dass die App die Android-Betriebssystemeinstellung berücksichti
 Funktioniert die erneute Eingabe erst nach 2 Sekunden?
 
 === 3. Hinweise
-* Die Android-Funktion System > Tastatur > Physische Tastatur > Anschlagverzögerung 
+* Die Funktion System > Tastatur > Physische Tastatur > Anschlagverzögerung in älteren Android-Versionen
 leistet etwas anderes als die in der Anforderung intendierte Funktion, 
 das Einsetzen der kontinuierlichen Eingabe des gleichen Zeichens 
 bei längerem Drücken einer Taste zu verzögern. 
@@ -84,15 +86,15 @@ nicht jedoch bei 0-9 und A-Z. Dies ist ein bekannter iOS-Bug.
 === 4. Bewertung
 
 ==== Nicht anwendbar (iOS)
-* Der Prüfschritt ist zurzeit für iOS-Apps nicht anwendbar 
+* Der Prüfschritt ist zurzeit für iOS-Apps und Apps unter neueren Android-Versionen nicht anwendbar 
 (denn die Tastenwiederholung ist in den Betriebssystemeinstellungen komplett abstellbar).
 
-==== Erfüllt (Android)
-* Für Android ist der Prüfschritt erfüllt, 
+==== Erfüllt (Android, ätere Versionen)
+* Für Android-Apps unter ältere Versionen von Android ist der Prüfschritt erfüllt, 
 wenn wenn die aktivierte Anschlagverzögerung bei Texteingabefeldern der App greift.
 
 ==== Nicht erfüllt (Android)
-* Für Android-Apps ist der Prüfschritt nicht erfüllt, 
+* Für Android-Apps unter ältere Versionen von Android ist der Prüfschritt nicht erfüllt, 
 wenn die aktivierte Anschlagverzögerung bei Texteingabefeldern der App nicht greifen.
 
 == Quellen
