@@ -65,3 +65,19 @@ specified biological characteristics.
 Examples of dissimilar biological characteristics are fingerprints, eye
 retinal patterns, voice, and face.
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 5.3 Biometrics
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT uses biological characteristics, 
+the ICT shall not rely on the use of a biological characteristic 
+as the only means of user identification or for control of the ICT.
+
+NOTE: 
+Some examples of biological characteristics are fingerprints, eye retinal patterns, voice, and face.
+--
+____
