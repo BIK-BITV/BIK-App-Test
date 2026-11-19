@@ -1,1 +1,59 @@
+= Prüfschritt 6.1.2 Audiobandbreite für die Aufnahme und Wiedergabe bei der Sprachkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+
+== Was wird geprüft?
+
+Um gute Sprachverständlichkeit bei der Zwei-Wege-Sprachkommunikation zu garantieren, soll die App beim Kodieren und Dekodieren von Audio einen Frequenzbereich nutzen, dessen obere Grenze mindestens bis 7.000 Hz reicht.
+
+Damit die Software diesen Prüfschritt besteht, muss sie mindestens HD-Telefonie / Telefonie in ISDN-Qualität bieten. Dazu kann z.B. der weit verbreitete Codec G.722 genutzt werden.
+
+== Warum wird das geprüft?
+
+Gute Sprachqualität ist besonders für Menschen mit Hörbehinderungen wichtig. Deshalb wird hier ein verbindlicher Mindeststandard für die Audioqualität festgelegt.
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+Der Prüfschritt ist anwendbar, wenn die App eine Zwei-Wege-Sprachkommunikation anbietet.
+
+=== 2. Prüfung
+Falls die Webversion der zu prüfenden Videokonferenz-Anwendung das Teilen des Bildschirms einschließlich Ton unterstützt:
+
+. In dem zu prüfenden Webangebot eine Videokonferenz anlegen.
+. Die Site https://onlinetonegen.com/[Online Tone Generator] aufrufen.
+. Eine andere Teilnehmerin mit gutem Hörvermögen einladen. (Falls beide Teilnehmenden im selben Raum sind, empfiehlt es sich zur Vermeidung von Rückkopplungen, dass die andere Teilnehmerin ihr Audio auf stumm stellt.)
+. Für die Teilnehmerin den eigenen Bildschirm (einschließlich Ton) teilen.
+. Mit Online Tone Generator einen 250hz-Ton abspielen.
+.  Mit Online Tone Generator einen 7000hz-Ton abspielen.
+
+=== 3. Hinweis
+Ob die andere Teilnehmende den Ton hören kann, hängt ggf. auch von deren Hörvermögen ab. Im Zweifel Test mit anderen Teilnehmenden wiederholen.
+
+=== 4. Bewertung
+==== Nicht erfüllt
+* Wenn die andere Teilnehmende mit gutem Hörvermögen den 250hz Ton oder den 7000hz Ton nicht hören kann, ist der Prüfschritt ggf. nicht erfüllt. Andere Faktoren sollten nach Möglichkeit ausgeschlossen werden.
+
+== Quellen
+
+Zurzeit keine.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.1.2 Audio bandwidth for capture and presentation for voice communication
+
+[quote]
+____
+
+[.BLOCK_LANG_EN]
+--
+
+Where ICT provides functionality that allows real-time bidirectional voice communication, and has a user interface for real-time bidirectional voice communication, the ICT shall be able to capture, communicate and present voice communication with a frequency range of at least
+down to 250 Hz and up to at least 7 000 Hz.
+--
+____
 
