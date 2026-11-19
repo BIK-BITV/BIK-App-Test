@@ -72,3 +72,12 @@ activate those documented accessibility
 features that are required to meet a specific need without relying on a method
 that does not support that need.
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 5.2 Activation of accessibility features
+____
+[.BLOCK_LANG_EN]
+Where ICT includes documented accessibility features, it shall be possible to activate those documented accessibility features that are required to meet a specific need without relying on a method that does not support that need.
+____
