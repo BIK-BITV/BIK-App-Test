@@ -93,3 +93,18 @@ ____
 
 Where ICT has a keyboard or keypad, the delay after any keystroke, during which an additional key-press will not be accepted if it is identical to the previous keystroke, shall be adjustable up to at least 0,5 seconds.
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 5.8 Double-strike key acceptance
+
+[quote]
+____
+
+[.BLOCK_LANG_EN]
+--
+
+Where ICT includes a device-independent keyboard interface service, keyboard, or keypad, and includes a capability to adjust the time before the same key can be accepted again, the delay after any keystroke, during which the same key-press will not be accepted, shall be adjustable up to at least 0,5 seconds.
+--
+____
