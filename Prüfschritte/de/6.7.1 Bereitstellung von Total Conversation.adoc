@@ -1,0 +1,44 @@
+= Prüfschritt 6.7.1 Bereitstellung von Total Conversation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn ein Webangebot Videokonferenz-Funktionen (Zwei-Wege Sprach und Videokommunikation) bietet, soll umfassende Kommunikation (total conversation) möglich sein.  
+Das heißt, die  Anforderungen 6.1, 6.2, 6.3, 6.4. und 6.5 für Sprach- Video- und Echtzeit-Text-Kommunikatiom sind allesamt erfüllt.
+
+== Warum wird das geprüft?
+
+Eine Online-Kommunikationslösung soll alle Teilnehmenden unabhängig von ihren jeweiligen Eingabemethoden umfassed unterstützen. 
+
+== Wie wird das geprüft?
+
+Prüfen, ob alle Anforderungen 6.1 bis 6.5 erfüllt sind.
+
+== Quellen
+
+Zurzeit keine.
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.7.1 Total conversation provision
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and includes real-time bidirectional video
+functionality,
+the ICT shall provide total conversation by also including RTT capability that conforms to the requirements of
+clause 6.2, voice that conforms to clause 6.1, and video that conforms to clause 6.5, conforming also to clauses 6.3 and
+6.4.
+
+NOTE 1: 
+ETSI ES 204 009 [i.77] provides background information and detailed guidance on many aspects of total
+conversation, its media components, interoperability and use, including synchronization and multiparty
+aspects.
+--
+____
+
