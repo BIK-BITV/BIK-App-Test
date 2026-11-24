@@ -60,7 +60,7 @@ ____
 == Einordnung des Prüfschritts
 
 [.BLOCK_LANG_EN]
-==== 7.1.4 Subtitle characteristics
+==== 7.1.4 Subtitle characteristics nach EN 301 549 V4.1.1
 ____
 [.BLOCK_LANG_EN]
 --
