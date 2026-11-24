@@ -1,1 +1,39 @@
+= Prüfschritt 5.10.1 Inhaltstechnologie
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn die Ansicht der App Teil eines Autorenwerkzeugs ist. 
+
+=== 2. Prüfung
+tbd
+
+=== 3. Hinweise
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
+
+[.BLOCK_LANG_EN]
+=== 5.10.1 Content technology
+
+[.BLOCK_LANG_EN]
+____
+Where ICT is, or includes, authoring tool functionality,
+the authoring tool shall meet clauses 5.10.2 to 5.10.5 to the extent that information required for accessibility is
+supported by the format used for the output of the authoring tool.
+____
 
