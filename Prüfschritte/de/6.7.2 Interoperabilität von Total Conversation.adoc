@@ -1,0 +1,72 @@
+= Prüfschritt 6.7.2 Interoperabilität von Total Conversation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Wenn das Webangebot Zwei-Wege-Sprachkommunikation und Zwei-Wege-Videokommunikation in Echtzeit mit anderen Nutzenden ermöglicht, muss die Dokumentation auf die wichtigsten Video-Spezifikationen verweisen, mit denem das Angebot Interoperabilität und damit umfassende Kommunikation ("Total Conversation") ermöglicht.
+
+Dies kann in der Dokumentation geschehen durch Informationen über
+
+* Jeglichen Satz geeigneter Spezifikationen, die alle Anforderungen an Total Conversation (Anforderungen 6.1 bis 6.5) erfüllen und für die Kommunikation zwischen Teilnehmern vereinbart wurden.
+* https://www.itu.int/rec/T-REC-H.264-202108-S[ITU-T H.264] [i.74] Version 10 oder neuer und wenigstens _constrained baseline level 3_ für Funktionen einschließlich Codierung und Präsentation, und, wo CODEC-Abstimmung erforderlich ist, https://www.itu.int/rec/T-REC-H.265-202108-S/en[ITU-T H.265] [i.75] und https://datatracker.ietf.org/doc/html/rfc6386[IETF RFC 6386 VP8] [i.76], um Transcodieren zu vermeiden.
+
+== Warum wird das geprüft?
+
+Für Nutzende verschiedener IT-Umgebungen kann es ggf. hilfreich sein, über die Dokumentation eines Webangebots zu ermitteln, ob das Webangebot die Anforderungen an umfassende Kommunikation ("Total Conversation") unterstützt und ermöglicht.
+
+== Wie wird das geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, den das Webangebot Funktionen für Vido- und Sprachkommunikation mit anderen Teilnehmern bietet.
+
+=== 2. Prüfung
+. Dokumentation des Webangebots aufrufen. Wenn keine Dokumentation vorhanden ist, ist der Prüfschritt nicht erfüllt.
+. Werden in der Dokumentation des Webangebots Spezifikationen für Video-Interoperabilität genannt, die die Anforderungen an "Total Conversation" (6.1-6.5) erfüllen und den Spezifikationen anderer Teilnehmer entsprechen?
+. Wird alternativ auf den Standard https://www.itu.int/rec/T-REC-H.264-202108-S[H.264 : Advanced video coding for generic audiovisual services] [i.74] in wenigstens Version 10 und wenigstens _constrained baseline level 3_ für Funktionen einschießlich Codierung und Präsentation verwiesen oder, wo Codec-Abastimmung implementiert ist auf die Standards https://www.itu.int/rec/T-REC-H.265-202108-S/en[H.265 : High efficiency video coding] [i.75] und
+https://datatracker.ietf.org/doc/html/rfc6386[IETF RFC 6386 - VP8] [i.76] (um Transcodierung zu vermeiden)?
+
+=== Bewertung
+==== Erfüllt
+
+* Laut Dokumentation wird ein vereinbarter Satz von Standards genutzt, der Total Conversation Anforderungen 6.1 bis 6.5 unterstützt und den Spezifikationen anderer Teilnehmer entspricht.
+* Alternativ werden laut Dokumentation die Standards https://www.itu.int/rec/T-REC-H.264-202108-S[H.264] [i.74] Version 10 oder neuer und wenigstens _constrained baseline level 3_ für Funktionen einschließlich Codierung und Präsentation, und, wo CODEC-Abstimmung erforderlich ist, https://www.itu.int/rec/T-REC-H.265-202108-S/en[ITU-T H.265] [i.75] und https://datatracker.ietf.org/doc/html/rfc6386[IETF RFC 6386 VP8] [i.76] genutzt.
+
+==== Nicht erfüllt
+
+* Es ist keine Dokumentation vorhanden
+* Dokumentation ist vorhanden, aber darin findet sich nichts zu den unterstützten Standards für die Video-Kommunikation.
+
+== Quellen?
+
+* https://www.itu.int/rec/T-REC-H.264-202108-S[H.264 : Advanced video coding for generic audiovisual services]
+* https://www.itu.int/rec/T-REC-H.265-202108-S/en[H.265 : High efficiency video coding]
+* https://datatracker.ietf.org/doc/html/rfc6386[IETF RFC 6386 - VP8 Data Format and Decoding Guide]
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.7.2 Total conversation interoperability
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides functionality that allows real-time bidirectional voice communication, and includes real-time
+bidirectional video functionality, and connects to other ICT that allows real-time bidirectional voice communication,
+including real-time bidirectional video functionality,
+the ICT's documentation shall contain information on the main specifications by which video is implemented in a
+manner that allows the video on the ICT to interoperate with other ICT that the ICT interoperates with for voice and
+video, using one of the following options:
+
+* a) Any set of specifications for video communication that would fulfil the total conversation requirements in the
+present document that is mutually agreed to be used between the ICT and any other ICT with which the ICT
+interoperates for real-time bidirectional voice and video communication.
+* b) Recommendation ITU-T H.264 [i.74] at least version 10 and at least constrained baseline level 3 for functions
+including coding and presentation, and/or, where codec negotiation is implemented, Recommendation
+ITU-T H.265 [i.75] and IETF RFC 6386 VP8 [i.76] to avoid transcoding.
+--
+____
+
