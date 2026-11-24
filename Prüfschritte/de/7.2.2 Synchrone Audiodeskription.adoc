@@ -4,7 +4,7 @@ include::include/attributes.adoc[]
 
 == Was wird geprüft?
 
-Sind Videos mit synchroner Bild- und Tonspur und zusätzlicher Audiodeskription vorhanden, soll der Videoplayer in der Lage sein, die zusätzliche Audiodeskription synchron zu Bild und Ton wiederzugeben.
+Sind Videos mit synchroner Bild- und Tonspur und zusätzlicher Audiodeskription vorhanden, soll der Videoplayer in derSynchrone Audiodeskription Lage sein, die zusätzliche Audiodeskription synchron zu Bild und Ton wiederzugeben.
 
 == Warum wird das geprüft?
 
