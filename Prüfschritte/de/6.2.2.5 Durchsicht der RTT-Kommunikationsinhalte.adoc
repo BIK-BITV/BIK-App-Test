@@ -1,0 +1,63 @@
+= Prüfschritt 6.2.2.5 Durchsicht der RTT-Kommunikationsinhalte
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Echtzeit-Texteingaben können von Teilnehmern bei Bedarf über Scrollen des Echtzeit-Textbereichs eingesehen werden,  wenn sie durch das Hinzukommen neuerer Eingaben nicht mehr im Viewport sichtbar sind. Auch nach Beendigung der Zwei-Wege-Kommunikation sind sie noch für die Durchsicht verfügbar.
+
+== Warum wird das geprüft?
+
+Für alle Teilnehmer ist es hilfreich, während und nach einer Zwei-Wege Sprachkommunikation noch Echtzeit-Texteingaben von Teilnehmern durchsehen zu können, gerade wenn die Aufmerksamkeit duch andere zeitgleiche Wort- oder Textbeiträge abgelenkt wurde.
+
+== Wie wird das geprüft?
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
+
+=== 2. Prüfung
+
+. Die Zwei-Wege-Sprachkommunikation mit Unterstützung von Echtzeit-Texteingabe wird gestartet.
+
+. Mehrere Teilnehmer geben über einen längeren Zeitraum hinweg fortlaufend Text ein, bis die älteren eingegebenen Texte aus dem Viewport scrollen.
+. Prüfen, ob Teilnehmer 1 zu Text außerhalb des Viewports scrollen kann, um diesen durchzusehen, während andere Teilnehmer weiter Text eingeben.
+. Prüfen, ob bei erneuter Eingabe durch Teilnehmer 1 sich die Ansicht so anpasst, dass wieder der zuletzt eingegebene Echtzeit-Text anderer Teilnehmer und der aktuell eingegebene Text von Teilnehmer 1 sichtbar sind.
+. Prüfen, ob nach Beendigung der Kommunikation alle Echtzeit-Texteingaben noch durchgesehen werden können.
+
+=== 3. Bewertung
+==== Erfüllt
+
+* Teilnehmer können bei laufender Kommunikation ältere, aus dem Viewport gescrollte Echtzeit-Texteingaben durchsehen, und bei erneuter Eingabe wechselt der Status zurück zur Ansicht der aktuellen Eingabe.
+* Nach Ende der Kommunikation sind die Echtzeit-Eingaben noch durchsehbar.
+
+== Quellen
+
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
+
+== Einordnung des Prüfschritts
+
+=== Abgrenzung zu anderen Prüfschritten
+
+Tbd
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.2.5 Review of RTT communication contents
+
+[quote]
+____
+
+[.BLOCK_LANG_EN]
+--
+
+Where ICT provides real-time bidirectional voice communication, and includes RTT presentation capabilities,
+the ICT shall provide the ability to review the whole RTT content of the communication during the communication and,
+if the communication is recorded, after the communication has ended.
+
+Note:
+Best practice is to have the text view scroll with the arrival of new text, but only when the view is fully
+scrolled to the end of the text display.
+--
+____
+
