@@ -1,0 +1,57 @@
+= Prüfschritt 6.2.9 Einrichtung und Nutzung von Echtzeit-Textkommunikation
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+Teilnehmer in einer webbasierten Zwei-Wege Sprachkommunikation, die Echtzeit-Textkommunikation (RTT) unterstützt, können Echtzeit-Textkommunikation mit nur einer Aktion anfragen und erfolgreich etablieren oder auch zu einer laufenden Kommunikation hinzuzufügen.
+
+== Warum wird das geprüft?
+
+Teilnehmer, die Echtzeit-Kommunikation nutzen, sollen in einem laufenden Austausch eine einfache Möglichkeit haben, diesen Kommunikationskanal zusätzlich zu etablieren, auch wenn RTT-Kommunikation initial nicht genutzt wurde.
+
+== Wie wird das geprüft?
+=== 1. Anwendbarkeit des Prüfschritts
+
+Der Prüfschritt ist anwendbar, wenn das Webangebot Zwei-Wege-Kommunikation mit Echtzeit-Texteingabe (RTT, Real-Time Text) unterstützt.
+
+=== 2. Prüfung
+
+. Prüfen, ob das Webangebot für Teilnehmer 1 die Anfrage und erfolgreiche Etablierung einer Zwei-Wege-Sprachkommunikation mit Teilnehmer 2 einschließlich Echtzeit-Kommunikation ermöglicht, und zwar durch nur eine Aktion.
+. Nachdem Teilnehmer 1 eine Zwei-Wege-Sprachkommunikation mit Teilnehmer 2 ohne Echtzeit-Textkommunikation eingeleitet hat, prüfen, ob Teilnehmer 2 durch nur eine Aktion die Hinzufügung von Echtzeit-Kommunikation anfragen kann und diese dann erfolgreich etabliert wird.
+
+=== 3. Bewertung
+==== Erfüllt
+* Teilnehmer können eine Zwei-Wege-Sprachkommunikation mit Echzeit-Textkommunikation initieren
+* Teilnehmer können in einer laufenden Sprachkommunikation Echzeit-Textkommunikation zusätzlich anfragen und etablieren
+
+== Quellen
+* https://labs.etsi.org/rep/HF/en301549/uploads/272bede3724c5c99efe777f778201f70/tr_103708v010101p.pdf[Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling / ETSI TR 103 708 V1.1.1 (2022-08)]
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 6.2.9 RTT media establishment and use
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT provides real-time bidirectional voice communication, and includes RTT capabilities,
+all of the following shall be true for the ICT regardless of any system or client settings:
+
+* it is possible to request establishment of a communication with RTT media;
+* it is possible to answer a request for a communication and get RTT media included regardless of whether it
+was included in the original request;
+* it is possible to upgrade an existing communication by any party to include RTT media.
+
+NOTE 1: 
+The establishment of the RTT media could be requested and answered by a user, an automatic procedure
+in a user terminal, a non-human process, or a setting in a conference session.
+
+NOTE 2: 
+The present clause implies that ICT with RTT capabilities has the RTT functionality ready for RTT media
+establishment and use when voice functionality is ready for media establishment and use.
+--
+____
