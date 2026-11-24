@@ -55,3 +55,25 @@ Where ICT displays video with synchronized audio, it shall have a mode of operat
 NOTE 1: Being able to manage speech output range for spoken subtitles independently from general ICT speech is preferable for most users. That is possible when the audio file with spoken subtitle is delivered in a separate audio track and mixed in the end users device.
 ____
 
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 7.1.5 Spoken subtitles
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT displays video with synchronized audio,
+the ICT shall have a mode of operation to enable output of the available spoken subtitles.
+
+NOTE 1: 
+Spoken subtitles are sometimes provided to accompany interlingual subtitles, so that users who are blind
+and partially sighted or cannot read can understand dialogue that is being spoken in a language different
+to their own. They are also sometimes provided to offer an understandable version of indistinct or
+otherwise unintelligible speech.
+
+NOTE 2: 
+This requirement does not mean that players generate spoken subtitles from available subtitles, but only
+that they play spoken subtitle audio if it is available.
+--
+____
+
