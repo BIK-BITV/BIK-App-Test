@@ -48,3 +48,23 @@ ____
 Where software provides a user interface it shall not disrupt those documented accessibility features that are defined in platform documentation except when requested to do so by the user during the operation of the software.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+
+==== 11.6.2 No disruption of accessibility features
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, non-web software,
+the non-web software shall not disrupt documented platform accessibility features except when requested to do so by
+the user during the operation of the software.
+
+NOTE: 
+Clause 12.3 specifies that accessibility features of the ICT are to be documented either as part of the ICT
+or in a separate documentation.
+--
+____
+
