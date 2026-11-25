@@ -165,3 +165,41 @@ system settings even if more restricted.
 --
 
 (Aus EN 301 549 V3.1.1 Abschnitt 11.7 "User preferences")
+
+=== Einordnung des Prüfschritts nach EN 301 549 V.3.2.1
+
+[.BLOCK_LANG_EN]
+
+==== 11.7 User preferences
+
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, non-web software that provides a user interface, and is not designed to be isolated from its
+platform,
+that user interface shall follow the values of the user preference settings for documented platform accessibility features
+unless it is essential to the function of the non-web software to not follow a user preference setting.
+
+NOTE 1: 
+Clause 12.3 specifies that accessibility features of the ICT are to be documented either as part of the ICT
+or in a separate documentation.
+
+NOTE 2: 
+Non-web software that is isolated from its underlying platform has no access to user settings in the
+platform and thus cannot adhere to them.
+
+NOTE 3: 
+For non-web software, the underlying platform is usually the operating system.
+
+NOTE 4: 
+When ICT is a user agent (such as a web browser or non-web document viewing software), this clause
+implies that at least one mode of operation is offered that enforces a rendering of the content that follows
+the values of the user preferences.
+
+NOTE 5: 
+This does not preclude the non-web software from having additional values for a setting as long as there
+is one mode where the application will follow the system settings even if more restricted.
+
+NOTE 6: 
+Features that might be documented as accessibility features for a platform include, but are not limited to
+colour filters, contrast, text size, pointer size, and text cursor.
+--
