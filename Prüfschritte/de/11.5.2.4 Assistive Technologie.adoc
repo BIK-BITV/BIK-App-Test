@@ -1,0 +1,42 @@
+= Prüfschritt 11.5.2.4 Assistive Technologie
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft? 
+
+tbd
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+tbd
+
+=== 2. Prüfung
+
+tbd
+
+=== 3. Bewertung
+
+tbd
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 11.5.2.4 Assistive technology 
+____
+
+[.BLOCK_LANG_EN]
+Where ICT is, or includes, non-web software that is assistive technology,
+the assistive technology shall use the documented platform accessibility services corresponding to clauses 11.5.2.5 to
+11.5.2.17
+
+NOTE: 
+Assistive technology can also use other documented accessibility services.
+____
+
