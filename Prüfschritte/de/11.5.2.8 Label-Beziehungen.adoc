@@ -68,3 +68,22 @@ ____
 Where the software provides a user interface it shall expose the relationship that a user interface element has as a label for another element, or of being labelled by another element, using the services as described in clause 11.5.2.3, so that this information is programmatically determinable by assistive technologies.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+==== 11.5.2.8 Label relationships
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that
+is not closed to programmatic access of information by assistive technologies, and there are user interface elements that
+are labels of other user interface elements,
+the functionality that is not closed shall expose the relationship that a user interface element has as a label for another
+element, or of being labelled by another element, using the services as described in clause 11.5.2.3, so that this
+information is programmatically determinable by assistive technologies for all functionality that is not closed to
+programmatic access of information by assistive technologies.
+
+NOTE: See clause 5 for requirements on functionality that is closed.
+--
+____
+
