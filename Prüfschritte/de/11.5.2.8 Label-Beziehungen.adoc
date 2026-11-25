@@ -83,7 +83,8 @@ element, or of being labelled by another element, using the services as describe
 information is programmatically determinable by assistive technologies for all functionality that is not closed to
 programmatic access of information by assistive technologies.
 
-NOTE: See clause 5 for requirements on functionality that is closed.
+NOTE: 
+See clause 5 for requirements on functionality that is closed.
 --
 ____
 
