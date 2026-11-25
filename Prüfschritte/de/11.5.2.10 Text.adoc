@@ -70,3 +70,24 @@ ____
 [.BLOCK_LANG_EN]
 Where the software provides a user interface it shall, by using the services as described in clause 11.5.2.3, make the text contents, text attributes, and the boundary of text rendered to the screen programmatically determinable by assistive technologies.
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 11.5.2.10 Text 
+____
+
+[.BLOCK_LANG_EN]
+Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that
+is not closed to programmatic access of information by assistive technologies, and renders text to a screen,
+the software shall, by using the services as described in clause 11.5.2.3, make the text contents, text attributes used or
+available for user generated content, and the boundary of text programmatically determinable by assistive technologies
+for all functionality that is not closed to programmatic access of information by assistive technologies.
+
+NOTE 1: 
+See clause 5 for requirements on functionality that is closed.
+
+NOTE 2: 
+Depending on the software, the attributes of text may include but are not limited to different visual
+features, such as size and colour, and style aspects such as boldness and underlining.
+____
