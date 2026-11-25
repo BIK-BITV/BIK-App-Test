@@ -20,7 +20,7 @@ tbd
 
 [.BLOCK_LANG_EN]
 
-==== 11.6.2 No disruption of accessibility features
+==== 11.6.2 User control of accessibility features
 
 ____
 [.BLOCK_LANG_EN]
