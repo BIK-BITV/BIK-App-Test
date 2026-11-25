@@ -67,3 +67,22 @@ Geänderte Werte werden nach der Interaktion mit Bedienelementen ausgegeben.
 ____
 Where software provides a user interface it shall, by using the services as described in clause 11.5.2.3, notify assistive technologies about changes in those programmatically determinable attributes of user interface elements that are referenced in requirements 11.5.2.5 to 11.5.2.11 and 11.5.2.13.
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 11.5.2.15 Change notification
+
+[.BLOCK_LANG_EN]
+____
+Where ICT is, or includes, non-web software that provides a user interface, and the software includes functionality that
+is not closed to programmatic access of information by assistive technologies,
+the functionality that is not closed shall, by using the services as described in clause 11.5.2.3, notify assistive
+technologies about changes in those programmatically determinable attributes of user interface elements that are
+referenced in requirements 11.5.2.5 to 11.5.2.11 and 11.5.2.13, for all functionality that is not closed to programmatic
+access of information by assistive technologies.
+
+NOTE: 
+See clause 5 for requirements on functionality that is closed.
+____
+
