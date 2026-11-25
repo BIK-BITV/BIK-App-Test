@@ -1,1 +1,56 @@
+= Prüfschritt 11.5.2.1 Interoperabilität der Plattform mit assistiven Technologien
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft? 
+
+tbd
+
+== Wie wird geprüft?
+
+=== 1. Anwendbarkeit des Prüfschritts
+
+tbd
+
+=== 2. Prüfung
+
+tbd
+
+=== 3. Bewertung
+
+tbd
+
+== Einordnung des Prüfschritts
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 11.5.2.1 Platform interoperability with assistive technologies 
+____
+
+[.BLOCK_LANG_EN]
+Where ICT is, or includes, platform software,
+the platform software shall provide a set of documented platform accessibility services that cover any user interface
+concept corresponding to clauses 11.5.2.5 to 11.5.2.17 supported within the platform software.
+
+NOTE 1: 
+Depending on the platform, the documented platform accessibility services addressed in this clause may
+be referred to by different names, such as accessibility services or accessibility API.
+
+NOTE 2: 
+Some platforms include services for user interface development that provide accessibility support by
+default (e.g. the service for creating a new user interface element provides role, state, boundary, name and
+description). These services are considered to be part of the services provided to meet this clause.
+
+NOTE 3: 
+To comply with this requirement, platform software can provide its own set of services or expose the
+services provided by its underlying platform layers, if those services meet this requirement.
+
+NOTE 4: 
+The definition of platform in clause 3.1 applies to software that provides services to other software,
+including but not limited to, operating systems, web browsers, virtual machines.
+____
 
