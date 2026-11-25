@@ -1,4 +1,4 @@
-= Prüfschritt 11.8.1 Inhaltstechnologie
+= Prüfschritt 5.10.1 Inhaltstechnologie
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -52,3 +52,18 @@ ____
 Authoring tools shall conform to clauses 11.8.2 to 11.8.5 to the extent that information required for accessibility is supported by the format used for the output of the authoring tool.
 --
 ____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 5.10.1 Content technology
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, authoring tool functionality,
+the authoring tool shall meet clauses 5.10.2 to 5.10.5 to the extent that information required for accessibility is
+supported by the format used for the output of the authoring tool
+--
+____
+
