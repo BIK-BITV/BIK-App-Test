@@ -1,0 +1,36 @@
+= Prüfschritt 11.6.1 Benutzersteuerung von Barrierefreiheitsfunktionen
+include::include/author.adoc[]
+include::include/attributes.adoc[]
+
+== Was wird geprüft?
+
+tbd
+
+== Warum wird das geprüft?
+
+tbd
+
+== Wie wird das geprüft?
+
+tbd
+
+== Einordnung des Prüfschritts
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+
+==== 11.6.2 No disruption of accessibility features
+
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, platform software,
+the platform software shall provide sufficient modes of operation for user control over documented platform
+accessibility features.
+
+NOTE: 
+Clause 12.3 specifies that accessibility features of the ICT are to be documented either as part of the ICT
+or in a separate documentation.
+--
+____
