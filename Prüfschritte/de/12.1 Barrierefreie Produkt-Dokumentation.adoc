@@ -1,4 +1,4 @@
-= Prüfschritt 12.1.2 Barrierefreie Dokumentation
+= Prüfschritt 12.1 Barrierefreie Produkt-Dokumentation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
@@ -85,5 +85,18 @@ under the requirements for accessibility in the present document.
 NOTE 4:
 A user agent that supports automatic media conversion would be beneficial to
 enhancing accessibility.
+--
+____
+
+=== Einordnung des Prüfschritts nach EN 301 549 V4.1.1
+
+[.BLOCK_LANG_EN]
+==== 12.1 Accessible information about products
+____
+[.BLOCK_LANG_EN]
+--
+Where ICT is, or includes, information about a product, made available in a digital form,
+the presentation of the information shall conform to the requirements of clause 9 if it is available in a web format,
+clause 10 if it is available as a non-web document, and clause 11 if it is available as part of non-web software.
 --
 ____
