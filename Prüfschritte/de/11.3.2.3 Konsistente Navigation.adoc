@@ -1,4 +1,4 @@
-= Prüfschritt 3.2.3a Konsistente Navigation
+= Prüfschritt 3.2.3 Konsistente Navigation
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
