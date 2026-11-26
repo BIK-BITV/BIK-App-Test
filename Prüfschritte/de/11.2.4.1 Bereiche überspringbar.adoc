@@ -1,4 +1,4 @@
-= Prüfschritt 2.4.1a Bereiche überspringbar
+= Prüfschritt 2.4.1 Bereiche überspringbar
 include::include/author.adoc[]
 include::include/attributes.adoc[]
 
